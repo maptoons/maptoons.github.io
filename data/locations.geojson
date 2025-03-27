@@ -1,0 +1,983 @@
+{
+    "type": "FeatureCollection",
+    "name": "Locations",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hicksville",
+                "data": "data/hicksville.geojson",
+                "source": "hicksville-2025.html",
+                "interactive": true,
+                "year": 2025
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.560142,
+                        40.743002
+                    ],
+                    [
+                        -73.499665,
+                        40.793046
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mineola",
+                "data": "data/mineola.geojson",
+                "source": "mineola-2024.html",
+                "interactive": true,
+                "year": 2024
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.657912,
+                        40.736993
+                    ],
+                    [
+                        -73.62127,
+                        40.759992
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bayville",
+                "data": "data/bayville.geojson",
+                "source": "bayville-2023.html",
+                "interactive": true,
+                "year": 2023
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.583234,
+                        40.899091
+                    ],
+                    [
+                        -73.528035,
+                        40.915782
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bellmores",
+                "data": "data/bellmores.geojson",
+                "source": "bellmores-2022.html",
+                "interactive": true,
+                "year": 2022
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beth Page",
+                "data": "data/beth-page.geojson",
+                "source": "beth-page.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "East Meadow",
+                "data": "data/east-meadow.geojson",
+                "source": "east-meadow-2019.html",
+                "interactive": true,
+                "year": 2019
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.588906,
+                        40.694497
+                    ],
+                    [
+                        -73.52627,
+                        40.749524
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Elmont",
+                "data": "data/elmont.geojson",
+                "source": "elmont.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.729176,
+                        40.686182
+                    ],
+                    [
+                        -73.688282,
+                        40.72087
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Farmindale",
+                "data": "data/farmindale.geojson",
+                "source": "farmindale-2023.html",
+                "interactive": true,
+                "year": 2023
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Floral Park",
+                "data": "data/floral-park.geojson",
+                "source": "floral-park-2022.html",
+                "interactive": true,
+                "year": 2022
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.704957,
+                        40.710926
+                    ],
+                    [
+                        -73.695939,
+                        40.7162
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Franklin Square",
+                "data": "data/franklin-square.geojson",
+                "source": "franklin-square.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.692399,
+                        40.682982
+                    ],
+                    [
+                        -73.661028,
+                        40.71799
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Freeport",
+                "data": "data/freeport.geojson",
+                "source": "freeport.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.6038,
+                        40.623373
+                    ],
+                    [
+                        -73.564632,
+                        40.673548
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gold Coast",
+                "data": "data/gold-coast.geojson",
+                "source": "gold-coast.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Neck",
+                "data": "data/great-neck.geojson",
+                "source": "great-neck.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.749664,
+                        40.776014
+                    ],
+                    [
+                        -73.729385,
+                        40.796078
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hewlett Woodmere",
+                "data": "data/hewlett-woodmere.geojson",
+                "source": "hewlett-woodmere-2019.html",
+                "interactive": true,
+                "year": 2019
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Island Park",
+                "data": "data/island-park.geojson",
+                "source": "island-park.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.662022,
+                        40.596419
+                    ],
+                    [
+                        -73.648312,
+                        40.616959
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Levittown",
+                "data": "data/levittown.geojson",
+                "source": "levittown.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.54569,
+                        40.700017
+                    ],
+                    [
+                        -73.484245,
+                        40.743601
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Long Beach",
+                "data": "data/long-beach.geojson",
+                "source": "long-beach.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.701399,
+                        40.574632
+                    ],
+                    [
+                        -73.635702,
+                        40.595839
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lynbrook",
+                "data": "data/lynbrook.geojson",
+                "source": "lynbrook.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.690776,
+                        40.643157
+                    ],
+                    [
+                        -73.65574,
+                        40.671297
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Malverne",
+                "data": "data/malverne.geojson",
+                "source": "malverne.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.686008,
+                        40.666198
+                    ],
+                    [
+                        -73.658188,
+                        40.683557
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Manhasset",
+                "data": "data/manhasset.geojson",
+                "source": "manhasset-2019.html",
+                "interactive": true,
+                "year": 2019
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.715942,
+                        40.771501
+                    ],
+                    [
+                        -73.667439,
+                        40.803564
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Merrick",
+                "data": "data/merrick.geojson",
+                "source": "merrick-2020.html",
+                "interactive": true,
+                "year": 2020
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.576914,
+                        40.625303
+                    ],
+                    [
+                        -73.527276,
+                        40.68007
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Massapequas",
+                "data": "data/massapequas.geojson",
+                "source": "massapequas.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Plainview Old Bethpage",
+                "data": "data/plainview-old-bethpage.geojson",
+                "source": "plainview-old-bethpage-2022.html",
+                "interactive": true,
+                "year": 2022
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rockville Centre",
+                "data": "data/rockville-centre.geojson",
+                "source": "rockville-centre.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.658684,
+                        40.647223
+                    ],
+                    [
+                        -73.617594,
+                        40.690029
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Greater Roslyn",
+                "data": "data/greater-roslyn.geojson",
+                "source": "greater-roslyn.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seaford",
+                "data": "data/seaford.geojson",
+                "source": "seaford.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.50681,
+                        40.644915
+                    ],
+                    [
+                        -73.481069,
+                        40.691287
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Syosset Woodbury",
+                "data": "data/Syosset-Woodbury.geojson",
+                "source": "Syosset-Woodbury.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Valley Stream",
+                "data": "data/valley-stream.geojson",
+                "source": "valley-stream.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.728272,
+                        40.644724
+                    ],
+                    [
+                        -73.68151,
+                        40.679494
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wantagh",
+                "data": "data/wantagh.geojson",
+                "source": "wantagh.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.53188,
+                        40.690711
+                    ],
+                    [
+                        -73.48209,
+                        40.707896
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Westbury",
+                "data": "data/westbury.geojson",
+                "source": "westbury.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.625781,
+                        40.756605
+                    ],
+                    [
+                        -73.564602,
+                        40.8173
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "West Hempstead",
+                "data": "data/west-hempstead.geojson",
+                "source": "west-hempstead.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.668158,
+                        40.682523
+                    ],
+                    [
+                        -73.6318,
+                        40.712777
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Amityville",
+                "data": "data/amityville.geojson",
+                "source": "amityville-2024.html",
+                "interactive": true,
+                "year": 2024
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.426965,
+                        40.6516
+                    ],
+                    [
+                        -73.404072,
+                        40.692867
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Commack",
+                "data": "data/commack.geojson",
+                "source": "commack.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.321109,
+                        40.803983
+                    ],
+                    [
+                        -73.238831,
+                        40.875405
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Copiague",
+                "data": "data/copiague.geojson",
+                "source": "copiague.html",
+                "interactive": true,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.417716,
+                        40.6516
+                    ],
+                    [
+                        -73.364465,
+                        40.694113
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "East Islip",
+                "data": "data/east-islip.geojson",
+                "source": "east-islip.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.204789,
+                        40.698403
+                    ],
+                    [
+                        -73.163579,
+                        40.747346
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Greater Ronkonkomas",
+                "data": "data/greater-ronkonkomas.geojson",
+                "source": "greater-ronkonkomas.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Green Lawn",
+                "data": "data/green-lawn.geojson",
+                "source": "green-lawn.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holbrook",
+                "data": "data/holbrook.geojson",
+                "source": "holbrook.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.097966,
+                        40.764568
+                    ],
+                    [
+                        -73.042388,
+                        40.832317
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Islip",
+                "data": "data/islip.geojson",
+                "source": "islip.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.23081,
+                        40.755678
+                    ],
+                    [
+                        -73.154709,
+                        40.805761
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kings Park",
+                "data": "data/kings-park.geojson",
+                "source": "kings-park.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.288521,
+                        40.866393
+                    ],
+                    [
+                        -73.208725,
+                        40.909907
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Medford",
+                "data": "data/medford.geojson",
+                "source": "medford.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.021265,
+                        40.794039
+                    ],
+                    [
+                        -72.953863,
+                        40.852093
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Middle Country",
+                "data": "data/middle-country.geojson",
+                "source": "middle-country.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "North Babylon",
+                "data": "data/north-babylon.geojson",
+                "source": "north-babylon.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.343878,
+                        40.710525
+                    ],
+                    [
+                        -73.306479,
+                        40.750509
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Northport",
+                "data": "data/northport.geojson",
+                "source": "northport.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.361062,
+                        40.888472
+                    ],
+                    [
+                        -73.326549,
+                        40.919297
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Patchogue",
+                "data": "data/patchogue.geojson",
+                "source": "patchogue.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.037962,
+                        40.745614
+                    ],
+                    [
+                        -73.002487,
+                        40.778137
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Port Jefferson",
+                "data": "data/port-jefferson.geojson",
+                "source": "port-jefferson.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.082909,
+                        40.933052
+                    ],
+                    [
+                        -73.038002,
+                        40.966536
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "River Head",
+                "data": "data/river-head.geojson",
+                "source": "river-head.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shoreham",
+                "data": "data/shoreham.geojson",
+                "source": "shoreham.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -72.913917,
+                        40.947383
+                    ],
+                    [
+                        -72.898618,
+                        40.962787
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "West Islip",
+                "data": "data/west-islip.geojson",
+                "source": "west-islip.html",
+                "interactive": false,
+                "year": 0
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -73.318399,
+                        40.671228
+                    ],
+                    [
+                        -73.267367,
+                        40.741467
+                    ]
+                ]
+            }
+        }
+    ]
+}

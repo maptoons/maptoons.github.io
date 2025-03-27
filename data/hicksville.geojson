@@ -1,0 +1,2672 @@
+{
+    "type": "FeatureCollection",
+    "name": "Hicksville, NY",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allstate-edward",
+                "mapname": "Allstate - Edward H. Lehmann Agency",
+                "business": "Insurance",
+                "info": "Think about insurance is before you need it! If you have not reviewed your coverage in the last year, call today to learn how to maximize your coverage for the best rate!",
+                "phone": "516-935-3900",
+                "web": "http://www.Allstate.com/EL",
+                "address": "54 Sunnyside Blvd. Suite H Plainview",
+                "loc": 11,
+                "priority": "Q",
+                "img": "HK-11Q",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.47176057889178,
+                    40.79395395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "simpli-smiles",
+                "mapname": "Simpli Smiles",
+                "business": "Dentist",
+                "info": "Our goal is to provide exceptional dental care to our patients in a friendly, comfortable, and caring environment; educating and encouraging you towards a state of optimal oral health.",
+                "phone": "516-336-4902",
+                "web": "http://www.SimpliSmiles.com",
+                "address": "386 S. Oyster Bay Rd.",
+                "loc": 47,
+                "priority": "Q",
+                "img": "HK-47Q",
+                "category": "thrive_and_restore",
+                "subcategory": "dentists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.50365243936253,
+                    40.7848075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "trj-balloon-teamrajjaggi",
+                "mapname": "Team Raj Jaggi",
+                "business": "Real Estate",
+                "info": "Team Raj Jaggi, Hicksville's #1 real estate experts, sell over 400 homes annually with unmatched customer service and over 1,100 5-star reviews. Your trusted Long Island Realtors!",
+                "phone": "516-715-3222",
+                "web": "http://www.TeamRajJaggi.com",
+                "address": "54 W. John St.",
+                "discount": "$5000 off your commission when you hire Team Raj Jaggi to sell your home.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 91,
+                "priority": "Q",
+                "img": "HK-91Q",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52890348396306,
+                    40.76910195000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "empire-tax-reductions",
+                "mapname": "Empire Tax Reductions",
+                "business": "Property Tax Reduction",
+                "info": "We've successfully challenged over-assessment for 20 years, securing millions of dollars in property tax reductions. Our fees are 20% lower than the competition. If you don't save money, we don't get paid.",
+                "phone": "516-746-4646",
+                "web": "http://www.EmpireTaxReductions.com",
+                "address": "114 Forest Ave. Glen Cove",
+                "loc": 1,
+                "priority": "Q",
+                "img": "HK-1Q",
+                "category": "live_and_work",
+                "subcategory": "tax_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5238207,
+                    40.7681926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "shahnaz-husain-salon",
+                "mapname": "Shahnaz Husain Franchise Salon by Nina Lamba",
+                "business": "Beauty",
+                "info": "Over 20 years of experience. Proud to introduce the first ever in US - Shahnaz Husain Franchise Salon. Treatments include Vegetable Peel, Gold, Pearl, Oxygen, Diamond, Plant Stem Cells, Platinum, Telomere DNA Defence, Black Diamond Facials, Body Polish, Hair Spa, and breakthroughs in herbal beauty care.",
+                "phone": "516-206-1440",
+                "web": "http://www.ShahnazHusainNY.com",
+                "address": "217 Bethpage Rd. 2nd Floor",
+                "loc": 113,
+                "priority": "S",
+                "img": "HK-113S",
+                "category": "thrive_and_restore",
+                "subcategory": "beauty_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5282144,
+                    40.7783176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "harmonaireheatpumps",
+                "mapname": "HarmonAire Ductless Heat Pumps",
+                "business": "Air Conditioning & Heating",
+                "info": "We bring harmony and comfort to your home with energy-efficient heating and cooling solutions. As a Mitsubishi Elite Contractor, we proudly provide expert installation and maintenance for comfortable homes year-round.",
+                "phone": "516-433-0918",
+                "web": "http://www.CallHarmonAire.com",
+                "address": "50 Bethpage Rd.",
+                "loc": 60,
+                "priority": "Q",
+                "img": "HK-60Q",
+                "category": "live_and_work",
+                "subcategory": "hvac"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5200179,
+                    40.7736969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newyorkembroidery",
+                "mapname": "New York Embroidery/Worldwide Embroidery Plus",
+                "business": "Embroidery",
+                "info": "The right place for embroidery, screen printing, digital printing, or eye-catching promotional products! In the business of decorating since 1987. Embroidery • Screen Printing • Direct-to-Garment • Promotional Products • Custom Logo Design",
+                "phone": "516-822-6456",
+                "web": "http://www.NYEmbroidery.com",
+                "address": "25 Midland Ave.",
+                "loc": 90,
+                "priority": "S",
+                "img": "HK-90S",
+                "category": "shop_and_discover",
+                "subcategory": "specialty_retail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5188752,
+                    40.7760023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "gggconstructioncorp",
+                "mapname": "G.G.G. Construction Corp.",
+                "business": "Construction",
+                "info": "GGG Construction is a general contractor that serves the Hicksville, NY area and specializes in masonry, concrete, and earthwork. Serving Long Island since 1964.",
+                "phone": "516-938-8383",
+                "address": "30 Midland Ave.",
+                "loc": 89,
+                "priority": "Q",
+                "img": "HK-89Q",
+                "category": "live_and_work",
+                "subcategory": "construction"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5181453417438,
+                    40.775945899999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pasta-eria",
+                "mapname": "Pasta-eria",
+                "business": "Restaurant",
+                "info": "Excellent authentic Italian food. Half pasta - half pizza restaurant. Nice atmosphere and friendly staff. Serving lunch and dinner. We cater, too! A staple in Hicksville for 32 years.",
+                "phone": "516-938-1555",
+                "web": "http://www.Pastaeria.com",
+                "address": "440 S. Oyster Bay Rd.",
+                "loc": 44,
+                "priority": "T",
+                "img": "HK-44T",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.50265981250001,
+                    40.7809631875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "inthezone",
+                "mapname": "In The Zone Personal Fitness / Silverspine Chiropractic & Health",
+                "business": "Health and Fitness",
+                "info": "Private one-on-one personal training, chiropractic care and nutritional counseling.",
+                "phone": "516-216-4279",
+                "web": "http://www.BodyBySilver.com",
+                "address": "366 N. Broadway Jericho",
+                "loc": 94,
+                "priority": "D",
+                "img": "HK-94D",
+                "category": "thrive_and_restore",
+                "subcategory": "fitness_centers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.53294193713269,
+                    40.7818104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "family-dental",
+                "mapname": "PDM Family Dental",
+                "business": "Dentist",
+                "info": "Providing personalized comprehensive dental care for the whole family, including cleanings, fillings, extractions, implants, bridges, dentures, oral cancer screenings, cosmetic dentistry, and more.",
+                "phone": "516-388-5002",
+                "web": "http://www.DentistJerichoNY.com",
+                "address": "295 N. Broadway Jericho",
+                "loc": 42,
+                "priority": "D",
+                "img": "HK-42D",
+                "category": "thrive_and_restore",
+                "subcategory": "dentists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.53082447058824,
+                    40.77891567647059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "davidjrothfeldcpa",
+                "mapname": "David J. Rothfeld, CPA",
+                "business": "Accounting & Tax Preparation",
+                "info": "Offering a unique, low-pressure approach to personal and professional services. We have an excellent client-retention rate, and we are extremely proud of the high-quality services that our firm provides.",
+                "phone": "516-433-2128",
+                "web": "http://www.DRothTax.com",
+                "address": "120 Bethpage Rd. Suite 301",
+                "loc": 87,
+                "priority": "S",
+                "img": "HK-87S",
+                "category": "live_and_work",
+                "subcategory": "accountants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5255121,
+                    40.7763557
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sudzeepups-petgrooming",
+                "mapname": "Sudzee Pups",
+                "business": "Pet Grooming",
+                "info": "Our dog grooming and daycare facility is family-owned and operated, providing high-quality service that promotes canine health and happiness. Offering a range of grooming services, including bathing, haircuts, nail trimming, teeth cleaning, and more.",
+                "phone": "516-342-1675",
+                "web": "http://www.SudzPups.com",
+                "address": "188 Woodbury Rd.",
+                "loc": 54,
+                "priority": "D",
+                "img": "HK-54D",
+                "category": "thrive_and_restore",
+                "subcategory": "pet_grooming"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5161225,
+                    40.7733085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "wagner-construction",
+                "mapname": "Wagner Construction",
+                "business": "Home Improvements",
+                "info": "Serving the community for over 30 years. Best in quality and services in the industry for all our customers. Happy customers are the heart of our business model.",
+                "phone": "516-937-1392",
+                "web": "http://www.WagnerConstruction.US",
+                "address": "44 Bethpage Rd. Unit 8",
+                "loc": 3,
+                "priority": "T",
+                "img": "HK-3T",
+                "category": "live_and_work",
+                "subcategory": "home_improvement"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5192225,
+                    40.7734937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "7eleven",
+                "mapname": "7-11",
+                "business": "Convenience Store",
+                "info": "SNAP accepted, Redbox, lottery, specialty coffee + fresh bakery, hot foods, ATM, beer, wine, propane, delivery, 7-Eleven Wallet.",
+                "phone": "516-433-0750",
+                "address": "158 Woodbury Rd.",
+                "loc": 99,
+                "priority": "S",
+                "img": "HK-99S",
+                "category": "shop_and_discover",
+                "subcategory": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51675866666666,
+                    40.772472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thefoundary",
+                "mapname": "The Foundry",
+                "business": "Restaurant",
+                "info": "A tiny hidden gem amongst a sea of Long Island restaurants. A relaxed atmosphere to fill your belly, mind, and soul. Great food, great laughs, great memories are made daily here!",
+                "phone": "516-342-9603",
+                "address": "120 Woodbury Rd.",
+                "loc": 63,
+                "priority": "D",
+                "img": "HK-63D",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5183472,
+                    40.7718608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "charlesrutenberg-realtyinc",
+                "mapname": "Malgorzata Parlewicz - Charles Rutenberg Realty",
+                "business": "Real Estate",
+                "info": "Looking to buy or sell real estate in the US or abroad? As a Certified International Property Specialist I can help you achieve your goals.",
+                "phone": "516-312-7851",
+                "web": "http://www.CRRLI.com",
+                "address": "255 Executive Dr. Suite 208 Plainview",
+                "loc": 27,
+                "priority": "T",
+                "img": "HK-27T",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.46484375441666,
+                    40.792854649999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jkta-teamprojung",
+                "mapname": "Team Pro. JK Taekwondo Academy",
+                "business": "Martial Arts",
+                "info": "Our taekwondo program helps children grow physically and mentally, focusing on respect, patience, consideration, leadership, and concentration. Teach traditional taekwondo through sparring, poomsae, self-defense, and breaking techniques.",
+                "phone": "516-931-5425",
+                "email": "https://www.instagram.com/jkta_ny/",
+                "address": "204 Broadway Mall",
+                "loc": 26,
+                "priority": "D",
+                "img": "HK-26D",
+                "category": "thrive_and_restore",
+                "subcategory": "martial_arts_studios"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.531111,
+                    40.772492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "buffalowildwings",
+                "mapname": "Buffalo Wild Wings",
+                "business": "Restaurant",
+                "info": "Come to Buffalo Wild Wings with wall-to-wall TVs and 30 beers on draft! With 26 signature sauces and seasonings – from Teriyaki to Wild, plus hand-breaded chicken tenders, burgers & more!",
+                "phone": "516-937-9453",
+                "web": "http://www.BuffaloWildWings.com",
+                "address": "358 B Broadway Mall",
+                "loc": 56,
+                "priority": "D",
+                "img": "HK-56D",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.530009,
+                    40.772713
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "realestatemontanainsurance",
+                "mapname": "Montana Agency",
+                "business": "Insurance",
+                "info": "We are a full service insurance agency providing all types of personal and commercial insurance. We also provide complete life and health products for our clients.",
+                "phone": "516-938-3600",
+                "web": "http://www.MontanaAgency.com",
+                "address": "115 N. Broadway",
+                "loc": 92,
+                "priority": "Q",
+                "img": "HK-92Q",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5267015,
+                    40.7717686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "johnepotentensons-inc",
+                "mapname": "John E. Potente & Sons, Inc.",
+                "business": "Construction",
+                "info": "Manufacturing and distributing quality precast concrete products and cast iron manhole frames and covers. Servicing our clients with quality products and great customer service since 1955.",
+                "phone": "516-935-8585",
+                "address": "114 Woodbury Rd.",
+                "loc": 64,
+                "priority": "D",
+                "img": "HK-64D",
+                "category": "live_and_work",
+                "subcategory": "construction"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.518628,
+                    40.7716802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bestqualityelectric",
+                "mapname": "Best Quality Electric",
+                "business": "Electrician",
+                "info": "In need of electrical work and looking for the best prices and service? Give us a call! Fast response time, fully licensed & insured, up-front affordable pricing, all work guaranteed & warrantied.",
+                "phone": "516-268-3376",
+                "web": "http://www.BQElectric.com",
+                "address": "14 Holman Blvd.",
+                "loc": 70,
+                "priority": "Q",
+                "img": "HK-70Q",
+                "category": "live_and_work",
+                "subcategory": "electricians"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.53480576028417,
+                    40.766856849999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hicksvillebeernsoda",
+                "mapname": "Hicksville Beer and Soda",
+                "business": "Beverage",
+                "info": "Free delivery 6 days a week! Open 363 days a year! Wholesale, retail, business, and house accounts are welcome! Largest selection of craft beer in area.",
+                "phone": "516-931-3040",
+                "web": "http://www.HicksvilleBeerLI.com",
+                "address": "70 Woodbury Rd.",
+                "loc": 20,
+                "priority": "D",
+                "img": "HK-20D",
+                "category": "eat_and_drink",
+                "subcategory": "alcohol_specialty"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5203822,
+                    40.7706566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "uniqueimpressions",
+                "mapname": "Unique Impressions",
+                "business": "Embroidery",
+                "info": "Your one-stop shop for all your custom embroidery, screen printing, and promotional products needs. We are experts in helping you select high-impact meaningful products for your projects, events, and self-promotions.",
+                "phone": "516-931-2485",
+                "web": "http://www.UniqueImpressions.com",
+                "address": "47 Elliott Drive",
+                "loc": 71,
+                "priority": "D",
+                "img": "HK-71D",
+                "category": "shop_and_discover",
+                "subcategory": "specialty_retail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5238207,
+                    40.7681926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "firststudent",
+                "mapname": "First Student",
+                "business": "Transportation",
+                "info": "Provide solutions for an increasingly congested world, keeping people moving and communities prospering.",
+                "phone": "516-433-2221",
+                "web": "http://www.FirstStudentInc.com",
+                "address": "455 W. John St.",
+                "loc": 7,
+                "priority": "T",
+                "img": "HK-7T",
+                "category": "live_and_work",
+                "subcategory": "transportation_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.54389745,
+                    40.765683100000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "batteriesplus",
+                "mapname": "BatteriesPlus",
+                "business": "Batteries",
+                "info": "More than just a battery store. Providing outstanding service and expertise for a range of solutions - including power, phone repair, auto battery installation, key fobs, lighting, and more!",
+                "phone": "516-271-2715",
+                "web": "http://www.BatteriesPlus.com",
+                "address": "396 W. John St.",
+                "loc": 22,
+                "priority": "D",
+                "img": "HK-22D",
+                "category": "live_and_work",
+                "subcategory": "auto_parts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5415011,
+                    40.7666219
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mollymaid",
+                "mapname": "Molly Maid",
+                "business": "Cleaning Services",
+                "info": "Providing exceptional cleaning services for homes & businesses. With over 40 years of housekeeping experience, you can count on Molly Maid for customized cleaning options to meet your needs, schedule & budget.",
+                "phone": "516-513-0792",
+                "web": "http://www.MollyMaid.com",
+                "address": "45C W. John St.",
+                "loc": 55,
+                "priority": "S",
+                "img": "HK-55S",
+                "category": "live_and_work",
+                "subcategory": "cleaning_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5285549,
+                    40.7685733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jvcautocollisionnrepairs",
+                "mapname": "J.V.C. Auto Collision and Repairs",
+                "business": "Autobody",
+                "info": "A family business for over 40 years. Generations have been coming to us for our expert collision work, 24-hour towing, and detailing. Come see our annual holiday lights display!",
+                "phone": "516-939-0020",
+                "email": "https://www.facebook.com/p/JVC-Auto-Repairs-100049433417787/",
+                "address": "60 Barclay St.",
+                "loc": 43,
+                "priority": "Q",
+                "img": "HK-43Q",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.523108,
+                    40.769598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thebarthlomew-co",
+                "mapname": "The Bartholomew Company",
+                "business": "Cranes",
+                "info": "Providing the metropolitan New York area customers with the best in overhead crane and hoist service since 1949. Hoist, load testing, modernization, and inspection services.",
+                "phone": "516-513-1295",
+                "web": "http://www.BartCranes.net",
+                "address": "307 W. John St.",
+                "loc": 84,
+                "priority": "Q",
+                "img": "HK-84Q",
+                "category": "live_and_work",
+                "subcategory": "construction"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5373336,
+                    40.7667775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "tamperproof",
+                "mapname": "Tamperproof Screw Co., Inc.",
+                "business": "Construction",
+                "info": "We offer a complete line of corrosion-resistant security screws designed to prevent vandalism and theft, yet allow easy access by authorized personnel.",
+                "phone": "516-931-1616",
+                "web": "http://www.TamperProof.com",
+                "address": "30 Laurel St.",
+                "loc": 66,
+                "priority": "D",
+                "img": "HK-66D",
+                "category": "live_and_work",
+                "subcategory": "construction"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5364268,
+                    40.7656102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jmtravelnmultiservicesincometax",
+                "mapname": "JM Travel & Multiservices",
+                "business": "Multi-Services",
+                "info": "Impuestos (income taxes), Notary Public, traducciones (translation), pre-paid phone, re-charge, T-Mobile, SIMPLE Mobile, Lycamobile, H20 Wireless, Ultra Mobile, bill payment, envios, money transfers, fax, copies, MetroPCS dealer, open 7 days.",
+                "phone": "516-938-2592",
+                "email": "https://www.facebook.com/p/Jm-Travel-and-Multiservices-Corp-100054616951870/",
+                "address": "2 E. Marie St.",
+                "loc": 29,
+                "priority": "T",
+                "img": "HK-29T",
+                "category": "live_and_work",
+                "subcategory": "business_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.523211,
+                    40.767264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hicksvillegregorymuseum",
+                "mapname": "Hicksville Gregory Museum",
+                "business": "Museum",
+                "info": "30; Sat-Sun 1-5.",
+                "phone": "516-822-7505",
+                "email": "https://www.facebook.com/hicksvillegregorymuseum/",
+                "address": "1 Heitz Pl.",
+                "loc": 65,
+                "priority": "D",
+                "img": "HK-65D",
+                "category": "visit_and_experience",
+                "subcategory": "museums"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.522029,
+                    40.768511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thesouthasiantimes",
+                "mapname": "The South Asian Times",
+                "business": "Newspaper",
+                "info": "Your Gateway to affluent South Asian communities of Long Island, display your product and services in the most read and admired weekly print and digital newspaper.",
+                "phone": "516-390-7847",
+                "web": "http://www.TheSouthAsianTimes.info",
+                "address": "95 Broadway Suite 2",
+                "loc": 41,
+                "priority": "Q",
+                "img": "HK-41Q",
+                "category": "live_and_work",
+                "subcategory": "printing_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.522982,
+                    40.767118
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "advantagehyundai",
+                "mapname": "Advantage Hyundai",
+                "business": "Auto Dealership",
+                "info": "Offering exceptional customer service. Our teams are trained to address your needs from the moment you walk through the door, whether you're in the market for your next vehicle or tuning up your current one.",
+                "phone": "516-465-7000",
+                "web": "http://www.AdvantageHyundai.com",
+                "address": "440 Plainview Rd.",
+                "loc": 45,
+                "priority": "Q",
+                "img": "HK-45Q",
+                "category": "live_and_work",
+                "subcategory": "car_dealerships"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5027353266942,
+                    40.770217450000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "trinitylutheranchurchnschool",
+                "mapname": "Trinity Lutheran School",
+                "business": "Grade School",
+                "info": "Trinity Lutheran’s Grade School educates students from Kindergarten through Eighth Grade. For over 70 years, our fully accredited program is designed to provide a well rounded education, giving students vital skills that they need to succeed beyond our school doors.",
+                "phone": "516-931-2211",
+                "web": "http://www.TrinityHicksville.org",
+                "address": "40 W. Nicholai St.",
+                "email": "info@trinityli.org",
+                "loc": 69,
+                "priority": "Q",
+                "img": "HK-69Q",
+                "category": "play_and_learn",
+                "subcategory": "k12_schools"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52642316666666,
+                    40.7642204375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lkkassociateslkkcpapc",
+                "mapname": "LKK Associates/LKK CPA PC",
+                "business": "Accounting & Tax Preparation",
+                "info": "Bookkeeping, tax preparation for businesses, non-profits, and individuals, payroll services, tax planning, and consulting on day-to-day matters.",
+                "phone": "516-513-0966",
+                "web": "http://www.LKKAssociates.com",
+                "address": "15 W. Nicholai St.",
+                "loc": 30,
+                "priority": "D",
+                "img": "HK-30D",
+                "category": "live_and_work",
+                "subcategory": "accountants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5227573,
+                    40.7658926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lawofficesscottrschneider",
+                "mapname": "Law Offices of Scott R. Schneider P.C.",
+                "business": "Attorney",
+                "info": "25 years of helping people get rid of debt and save their homes through bankruptcy. To get the guidance and representation of an experienced, committed legal advocate please contact me today.",
+                "phone": "516-433-1555",
+                "web": "http://www.NassauBankruptcyAttorney.com",
+                "address": "117 Broadway",
+                "discount": "Free 30 minute consultation.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 4,
+                "priority": "T",
+                "img": "HK-4T",
+                "category": "live_and_work",
+                "subcategory": "attorneys"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.522398,
+                    40.766701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ecoshieldpetsol",
+                "mapname": "EcoShield Pest Solutions",
+                "business": "Pest Control",
+                "info": "Eliminate pests without damaging your home with EcoShield Pest Solutions. Worry no more! EcoShield Pest Solutions will take care of unwanted pests!",
+                "phone": "631-274-7022",
+                "web": "http://www.EcoShieldPest.com",
+                "address": "1 Enterprise Pl. Suite E",
+                "discount": "$100 off quarterly General Pest Services, plus a FREE rodent /termite inspection with purchase.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 101,
+                "priority": "Q",
+                "img": "HK-101Q",
+                "category": "live_and_work",
+                "subcategory": "pest_control"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5023056,
+                    40.7578014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "genesisofthenorthshore",
+                "mapname": "Genesis of the North Shore",
+                "business": "Auto Dealership",
+                "info": "Offering exceptional customer service. Our teams are trained to address your needs from the moment you walk through the door, whether you're in the market for your next vehicle or tuning up your current one.",
+                "phone": "516-265-1880",
+                "web": "http://www.GenesisOfTheNorthShore.com",
+                "address": "430 Plainview Rd",
+                "loc": 46,
+                "priority": "Q",
+                "img": "HK-46Q",
+                "category": "live_and_work",
+                "subcategory": "car_dealerships"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.50313,
+                    40.769603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "menonthemove-movingandselfstorage",
+                "mapname": "Men on the Move",
+                "business": "Moving Company",
+                "info": "With over 35 years of experience, hundreds of five-star reviews and dozens of awards, we're your best choice for moving! Get your free estimate online or call us today.",
+                "phone": "516-773-6683",
+                "web": "http://www.MenOnTheMove.com",
+                "address": "150 Crossways Park Dr. W. Westbury",
+                "loc": 108,
+                "priority": "T",
+                "img": "HK-108T",
+                "category": "live_and_work",
+                "subcategory": "moving_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.521475,
+                    40.76145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "servpro-firenwaterr",
+                "mapname": "SERVPRO of Hicksville/Plainview",
+                "business": "Fire, Water and Mold Restoration",
+                "info": "As a leading restoration service for Hicksville/ Plainview, we have experts ready at a moment's notice for water damage, fire damage, and mold emergencies of all sizes, including cleanup and restoration. Call 24 hours.",
+                "phone": "516-733-1800",
+                "web": "http://www.SERVPROHicksvillePlainview.com",
+                "address": "17B East Old Country Road, Suite 328",
+                "loc": 98,
+                "priority": "Q",
+                "img": "HK-98Q",
+                "category": "live_and_work",
+                "subcategory": "restoration_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5172361,
+                    40.7639461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sarashiva",
+                "mapname": "Sarashiva",
+                "business": "Indian Fashion",
+                "info": "An Indian fashion boutique offering a vibrant collection of traditional clothing, accessories, and exquisite costume jewelry. Come visit us to discover the perfect ensemble for any occasion.",
+                "phone": "516-513-0989",
+                "email": "https://www.instagram.com/sarashiva9/",
+                "address": "144 Broadway",
+                "loc": 75,
+                "priority": "S",
+                "img": "HK-75S",
+                "category": "shop_and_discover",
+                "subcategory": "clothing_and_fashion"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.522338,
+                    40.765663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nassaugoldbuyers",
+                "mapname": "Nassau Gold Buyers",
+                "business": "Gold Buyer",
+                "info": "We have generations of experience buying diamonds and precious metals, including gold, silver, and platinum. Long-standing success is built on providing an honest assessment of your valuables. Long Island’s premier buyer of gold and vintage estate jewelry.",
+                "phone": "516-827-3131",
+                "web": "http://www.NassauDiamondBuyers.com",
+                "address": "10 W. Cherry St.",
+                "loc": 86,
+                "priority": "T",
+                "img": "HK-86T",
+                "category": "shop_and_discover",
+                "subcategory": "specialty_retail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52193796551724,
+                    40.76538024137931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "omnimmortgage",
+                "mapname": "Omni Mortgage",
+                "business": "Banking / Finance",
+                "info": "Experienced mortgage professionals who have a hands-on approach to mortgage guidance. Whether purchasing a new home or refinancing your existing home, we strive to match you with the best mortgage product on the market.",
+                "phone": "516-441-7000",
+                "email": "https://www.instagram.com/omnimortgage/",
+                "address": "16 E. Old Country Rd.",
+                "loc": 107,
+                "priority": "D",
+                "img": "HK-107D",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.519093,
+                    40.7645963
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thejunkluggers",
+                "mapname": "The Junkluggers of Queens & Long Island",
+                "business": "Junk Removal",
+                "info": "Junkluggers is your local eco-friendly junk removal company that can help you remove a single item to clearing out a home or business!",
+                "phone": "516-202-8761",
+                "web": "https://www.junkluggers.com/long-island/",
+                "address": "12A Commercial St.",
+                "loc": 110,
+                "priority": "S",
+                "img": "HK-110S",
+                "category": "live_and_work",
+                "subcategory": "junk_and_recycling"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5085984,
+                    40.7599608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "holytrinityepiscopalchurch",
+                "mapname": "Holy Trinity Episcopal Church",
+                "business": "House of Worship",
+                "info": "30pm. All are welcome.",
+                "phone": "516-931-1920",
+                "web": "http://www.HolyTrinityEpiscopalChurchHicksvilleNY.com",
+                "address": "130 Jerusalem Ave.",
+                "loc": 77,
+                "priority": "D",
+                "img": "HK-77D",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52385611363637,
+                    40.763504375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "platinumchiropractic",
+                "mapname": "Platinum Chiropractic - Dr. Kimberly O'Connor",
+                "business": "Chiropractor",
+                "info": "We are dedicated to restoring, maintaining and building better health for you and your family through natural, safe, and scientific chiropractic methods.",
+                "phone": "516-935-3555",
+                "web": "http://www.PlatinumChiroNY.com",
+                "address": "125 Jerusalem Ave.",
+                "loc": 76,
+                "priority": "D",
+                "img": "HK-76D",
+                "category": "thrive_and_restore",
+                "subcategory": "chiropractic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52369181542554,
+                    40.7634166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "brillianspiritsandwine",
+                "mapname": "Brilliant Spirits and Wine",
+                "business": "Wine & Liquor",
+                "info": "Servicing the towns of Hicksville, Plainview, Bethpage, and their surroundings for 20 years...BSW is sure to have a fine wine or liquor for you.",
+                "phone": "516-822-2826",
+                "address": "69 E. Old Country Rd.",
+                "loc": 15,
+                "priority": "D",
+                "img": "HK-15D",
+                "category": "shop_and_discover",
+                "subcategory": "alcohol_specialty"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5164264,
+                    40.764325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kiranpalace-indiancuisine",
+                "mapname": "Kiran Palace",
+                "business": "Restaurant",
+                "info": "Rock-solid Indian cooking that’s intensely hot and spicy draws a fire-loving following to this inexpensive subcontinental trio. Staff is eager to explain the menu, so you feel like a King and Queen.",
+                "phone": "516-932-5191",
+                "web": "http://www.KiranPalaceLI.com",
+                "address": "67-75 E. Old Country Rd.",
+                "discount": "10% off when you pay cash.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 36,
+                "priority": "T",
+                "img": "HK-36T",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5023859,
+                    40.7691498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "centershops",
+                "mapname": "Center Shops",
+                "business": "Shopping Center",
+                "info": "Hicksville’s best shopping center for over 70 years is home to great places to eat and shop, including a 24-hour CVS plus quality retailers.",
+                "phone": "516-626-3434",
+                "address": "182-234 W. Old Country Rd. / 146-148 Newbridge Rd.",
+                "loc": 24,
+                "priority": "T",
+                "img": "HK-24T",
+                "category": "shop_and_discover",
+                "subcategory": "shopping_centers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.528067,
+                    40.762689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hitechhvacservices",
+                "mapname": "Hi-Tech HVAC Services",
+                "business": "Air Conditioning & Heating",
+                "info": "We have 20+ years of experience in installing and servicing heat pumps in residential and commercial projects. Our professional team is fully insured and licensed with a comprehensive knowledge of the trade.",
+                "phone": "718-969-6888",
+                "web": "http://www.HiTechHVACServices.com",
+                "address": "148 Newbridge Rd.",
+                "loc": 50,
+                "priority": "D",
+                "img": "HK-50D",
+                "category": "live_and_work",
+                "subcategory": "hvac"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5280667,
+                    40.7626886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "seniorhelpers",
+                "mapname": "Senior Helpers",
+                "business": "Home Health Care",
+                "info": "We've assigned thousands of our caregivers into the homes of Long Island seniors, facilitating safe and comfortable aging at home. Helping since 2009.",
+                "phone": "516-750-0035",
+                "web": "http://www.SeniorHelpers.com/ny/long-island-central/",
+                "address": "115 Newbridge Rd.",
+                "loc": 80,
+                "priority": "D",
+                "img": "HK-80D",
+                "category": "thrive_and_restore",
+                "subcategory": "home_health_care"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.526982,
+                    40.765212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hicksvilleboysngirlsclub",
+                "mapname": "Hicksville Boys & Girls Club",
+                "business": "Children & Youth",
+                "info": "Our goal is to help provide every child with the tools needed for a successful and bright future by implementing programs that help promote self-esteem, positive values, morals, and dignity.",
+                "phone": "516-822-7594",
+                "web": "http://www.HYCBGC.com",
+                "address": "79 W. Old Country Rd.",
+                "loc": 57,
+                "priority": "D",
+                "img": "HK-57D",
+                "category": "play_and_learn",
+                "subcategory": "youth_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52227584118765,
+                    40.76317075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "alloutautomotive",
+                "mapname": "All Out Automotive",
+                "business": "Auto Repair",
+                "info": "Premier auto repair shop. For 15 years, we’ve been redefining the automotive experience. Our car mechanics proudly serve our community with unparalleled expertise and passion.",
+                "phone": "516-743-9800",
+                "web": "http://www.AllOutMotorWorks.com",
+                "address": "63 W. Old Country Rd",
+                "loc": 74,
+                "priority": "S",
+                "img": "HK-74S",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52122567067482,
+                    40.76362239492943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "theupsstore",
+                "mapname": "The UPS Store",
+                "business": "Shipping & Printing",
+                "info": "Offering a range of services including shipping, packing, printing, mailbox rentals, document shredding, and notary services. A convenient one-stop-shop designed to meet all your shipping, business, and document needs with friendly, efficient service.",
+                "phone": "516-822-8404",
+                "web": "http://www.TheUPSStore.com/5164",
+                "address": "17B E. Old Country Rd.",
+                "loc": 33,
+                "priority": "D",
+                "img": "HK-33D",
+                "category": "live_and_work",
+                "subcategory": "shipping_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5172361,
+                    40.7639461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "periperiguys",
+                "mapname": "Peri Peri Guys",
+                "business": "Restaurant",
+                "info": "Come visit Peri-Peri GUYS for a fast-casual dining experience, or place an order for curbside pickup! Let us cater your event and let your guests enjoy our famous peri peri dishes & sides!",
+                "phone": "516-470-0303",
+                "web": "http://www.PeriPeriGuys.com",
+                "address": "285 S. Broadway",
+                "loc": 115,
+                "priority": "S",
+                "img": "HK-115S",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5167413,
+                    40.7622276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "alexsbarbershop",
+                "mapname": "Alex's Barber Shop",
+                "business": "Barbershop",
+                "info": "Specialize in all types of hair, haircuts, hot towel shaves, beards, etc. Open 7 days. No appointment needed!",
+                "phone": "516-342-9108",
+                "email": "https://www.instagram.com/alexsbarbershophicksville/",
+                "address": "79 E. Old Country Rd.",
+                "loc": 21,
+                "priority": "D",
+                "img": "HK-21D",
+                "category": "thrive_and_restore",
+                "subcategory": "hair_salons_and_barbers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51587941184212,
+                    40.763997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "embritchqualityprinting",
+                "mapname": "Embritch",
+                "business": "Embroidery",
+                "info": "We specialize in high quality embroidery and custom printing services. We bring your designs to life with precision, creativity and unmatched attention to detail.",
+                "phone": "631-601-3939",
+                "email": "https://www.instagram.com/embritch.co/",
+                "address": "246 W. Old Country Rd. Suite #2",
+                "discount": "20% off your order for first-time customers.",
+                "loc": 81,
+                "priority": "S",
+                "img": "HK-81S",
+                "category": "shop_and_discover",
+                "subcategory": "specialty_retail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5301914,
+                    40.7615275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "platinumvolkswagen",
+                "mapname": "Platinum Volkswagen",
+                "business": "Auto Dealership",
+                "info": "We take pride in the vehicles we sell and strive to succeed in customer experience and satisfaction. We are eager to assist you in your car-buying process.",
+                "phone": "516-942-7300",
+                "web": "http://www.PlatinumVW.com",
+                "address": "340 W. Old Country Rd.",
+                "loc": 9,
+                "priority": "D",
+                "img": "HK-9D",
+                "category": "live_and_work",
+                "subcategory": "car_dealerships"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.53754914999999,
+                    40.7596607
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "emd-ellamarieschool",
+                "mapname": "Ella Marie School of Dance",
+                "business": "Dance School",
+                "info": "Over 60 years teaching dance. Ages 2 and up. We offer Tiny Stars combo classes, tap, jazz, ballet, hip hop, and lyrical. Competition and performance teams .",
+                "phone": "516-681-1484",
+                "email": "https://www.instagram.com/ellamariedance/",
+                "address": "376 W. Old Country Rd.",
+                "discount": "10% off all dance supplies.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 67,
+                "priority": "D",
+                "img": "HK-67D",
+                "category": "play_and_learn",
+                "subcategory": "dance_schools"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5389501,
+                    40.7595052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ridgewoodsavingsbank",
+                "mapname": "Ridgewood Savings Bank",
+                "business": "Banking / Finance",
+                "info": "Proudly serving our communities since 1921. Personal & Business Banking, Checking & Savings Accounts, Residential & Commercial Mortgage Lending, Member FDIC, Equal Housing Lender.",
+                "phone": "516-935-0522",
+                "web": "http://www.RidgewoodBank.com",
+                "address": "220 W. Old Country Rd.",
+                "loc": 25,
+                "priority": "T",
+                "img": "HK-25T",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5293773,
+                    40.7622415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "alsonestopauto",
+                "mapname": "Al’s One Stop Auto",
+                "business": "Auto Repair",
+                "info": "Family-owned and operated for over 38 years. Meet the honest mechanic from TV channel 4! If we can’t fix it no one can! Free estimates on repairs.",
+                "phone": "516-593-7303",
+                "web": "http://www.AlsOneStopAutoRepairs.com",
+                "address": "178 W. Old Country Rd.",
+                "loc": 8,
+                "priority": "D",
+                "img": "HK-8D",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.527332,
+                    40.76205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "whitelight",
+                "mapname": "White Light Photo & Video Corp",
+                "business": "Photography",
+                "info": "We pride ourselves on creating personalized and unique visual experiences that capture our clients' vision and can be appreciated by families forever.",
+                "phone": "516-933-3399",
+                "web": "http://www.WhiteLightPhotoVideo.com",
+                "address": "98 Tec St.",
+                "loc": 58,
+                "priority": "S",
+                "img": "HK-58S",
+                "category": "live_and_work",
+                "subcategory": "photography_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5446144,
+                    40.7583477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "vernoncwagnerfuneralhome",
+                "mapname": "Vernon C. Wagner Funeral Homes",
+                "business": "Funeral Home",
+                "info": "For almost 70 years, the Vernon C. Wagner Funeral Home has been providing thoughtful and dignified funeral arrangements to the members of our community. A Dignity Memorial provider.",
+                "phone": "516-935-7100",
+                "web": "http://www.VernonCWagnerFuneralHome.com",
+                "address": "125 W. Old Country Rd.",
+                "loc": 39,
+                "priority": "Q",
+                "img": "HK-39Q",
+                "category": "live_and_work",
+                "subcategory": "funeral_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52419011690338,
+                    40.7625223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ststephensevangelicalchurch",
+                "mapname": "St. Stephen's Evangelical Lutheran Church",
+                "business": "House of Worship",
+                "info": "A welcoming community in Christ where every person matters. Join us for worship, bible study, fellowship, and community outreach.",
+                "phone": "516-931-0710",
+                "web": "http://www.StStephensHicksville.com",
+                "address": "270 S. Broadway",
+                "loc": 28,
+                "priority": "T",
+                "img": "HK-28T",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51799413177854,
+                    40.76272927648211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "riwajevents",
+                "mapname": "Riwaj Events",
+                "business": "Events",
+                "info": "With over 15+ years in the event & bridal industry - we specialize in Event Design, Floral Design, Wedding Planning & Coordination. Let us make your big day memorable!",
+                "phone": "516-904-8854",
+                "web": "https://www.instagram.com/Riwaj.Events/",
+                "address": "301 S. Broadway",
+                "loc": 102,
+                "priority": "S",
+                "img": "HK-102S",
+                "category": "visit_and_experience",
+                "subcategory": "event_planning"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51598119800809,
+                    40.7616414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "prestigedentalcare",
+                "mapname": "Prestige Dental Care",
+                "business": "Dentist",
+                "info": "Practicing dentistry for close to 25 years. To provide good dentistry, one needs compassion and patience. Offering a wide range of dental services, including family, emergency, cosmetic, and implants.",
+                "phone": "516-470-0808",
+                "web": "http://www.MyPrestigeDental.com",
+                "address": "333 S. Broadway",
+                "discount": "Free consultations.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 114,
+                "priority": "S",
+                "img": "HK-114S",
+                "category": "thrive_and_restore",
+                "subcategory": "dentists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51579720489273,
+                    40.7614831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "daysinn-bestvalueundersun",
+                "mapname": "Days Inn - Hicksville",
+                "business": "Hotel / Motel",
+                "info": "The Best Value Under the Sun. Warm hospitality and clean, comfortable rooms with mini-fridge, free Wi-Fi, free HD satellite TV.",
+                "phone": "516-433-1900",
+                "web": "http://www.DaysInn.com",
+                "address": "828 S. Oyster Bay Rd.",
+                "discount": "10% off Rack Rate. Not to be combined with other discounts.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 18,
+                "priority": "T",
+                "img": "HK-18T",
+                "category": "visit_and_experience",
+                "subcategory": "hotels"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.500752,
+                    40.761681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sexycrab-cajunseafood",
+                "mapname": "Sexy Crab",
+                "business": "Restaurant",
+                "info": "The freshest, most flavorful Cajun seafood cuisine. We aim to satisfy your taste buds with authentic tastes in fusion cooking. Visit and let the savory dishes unfold our history for you!",
+                "phone": "516-605-0655",
+                "web": "http://www.SexyCrabNY.com",
+                "address": "828 S. Oyster Bay Rd.",
+                "loc": 19,
+                "priority": "D",
+                "img": "HK-19D",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.500752,
+                    40.761681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sugarbaedessertcafe",
+                "mapname": "Sugar Bae Dessert Cafe",
+                "business": "Catering",
+                "info": "Make your events unforgettable with Sugar Bae Catering! We offer live crepe stations, bubble waffles, bubble teas, and indulgent desserts, crafted to impress every guest.",
+                "phone": "516-470-9598",
+                "email": "https://www.instagram.com/SugarBaeCafe/",
+                "address": "259 W. Old Country Rd.",
+                "loc": 97,
+                "priority": "D",
+                "img": "HK-97D",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5299939,
+                    40.7609036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "rainbowcarwash",
+                "mapname": "Rainbow Car Wash",
+                "business": "Car Wash",
+                "info": "Your car need a quick wash? Bring it to our trained staff. A family-owned business with years of experience in washing and polishing cars. Fully equipped to get the job done right.",
+                "phone": "516-595-7217",
+                "web": "http://www.RainbowCarWashNY.com",
+                "address": "225 W. Old Country Rd.",
+                "discount": "$3 off any full service car wash.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 31,
+                "priority": "Q",
+                "img": "HK-31Q",
+                "category": "live_and_work",
+                "subcategory": "car_washes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52909637837837,
+                    40.761407297297296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "parkwaycarstereo",
+                "mapname": "Parkway Car Stereo",
+                "business": "Car Audio & Security",
+                "info": "Alarms, remote start, car audio, mobile video, window tinting, GPS navigation, Apple CarPlay, Android Auto, and dash cams.",
+                "phone": "516-937-3630",
+                "email": "https://www.instagram.com/parkwaycarstereo/",
+                "address": "151 W. Old Country Rd.",
+                "discount": "10% off in store purchases.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 35,
+                "priority": "T",
+                "img": "HK-35T",
+                "category": "live_and_work",
+                "subcategory": "auto_accessories"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.52512225000001,
+                    40.7624895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "goforltmartialarts",
+                "mapname": "GoForIt Martial Arts",
+                "business": "Martial Arts",
+                "info": "Our award-winning “I Can!” Character Development Program is designed to help kids develop a non-quitting spirit that will be vital to their academic success and, more importantly, success in life!",
+                "phone": "516-932-5272",
+                "web": "http://www.GoForItMartialArts.com",
+                "address": "300 S. Broadway",
+                "discount": "2 free weeks plus free uniform.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 37,
+                "priority": "Q",
+                "img": "HK-37Q",
+                "category": "thrive_and_restore",
+                "subcategory": "martial_arts_studios"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5170648,
+                    40.7616433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "traveltimeandtours",
+                "mapname": "Travel Time and Tours",
+                "business": "Travel Agency",
+                "info": "Serving the Hicksville community for over 20 years. We are a full-service travel agency, from visas and passports to finding you a vehicle to travel around in. Trips all over the world with a special focus on trips to and from India.",
+                "phone": "516-433-6655",
+                "address": "349 S. Broadway",
+                "loc": 73,
+                "priority": "T",
+                "img": "HK-73T",
+                "category": "visit_and_experience",
+                "subcategory": "travel_agencies"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51504,
+                    40.7607639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "indianvisacenter",
+                "mapname": "Indian Visa Center",
+                "business": "Travel Agency",
+                "info": "OCI applications, visas, Indian passport renewals, consular services, US passport expediting, green card renewals, naturalization, and visa application assistance for other countries.",
+                "phone": "516-218-8000",
+                "email": "https://maps.app.goo.gl/16qTh8fUWW7xvs71A",
+                "address": "353 S. Broadway",
+                "loc": 6,
+                "priority": "D",
+                "img": "HK-6D",
+                "category": "visit_and_experience",
+                "subcategory": "travel_agencies"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5148436,
+                    40.7606153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nemotilestone",
+                "mapname": "Nemo Tile + Stone",
+                "business": "Home Improvements",
+                "info": "We are the trusted source of premium surfacing materials for over a century, offering tailored support and expert advice.",
+                "phone": "516-935-5300",
+                "web": "http://www.NemoTile.com",
+                "address": "277 Old Country Rd.",
+                "loc": 52,
+                "priority": "T",
+                "img": "HK-52T",
+                "category": "live_and_work",
+                "subcategory": "home_improvement"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.531157,
+                    40.760556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "wisdomsalon",
+                "mapname": "Wisdom Salon",
+                "business": "Hair Salon",
+                "info": "Hicksville's premier hair salon. No one does hair better. Hair extensions, coloring, advanced hair straightening with Magic Sleek-OXO Organic and unisex hair loss solutions.",
+                "phone": "516-597-5599",
+                "email": "https://www.instagram.com/wisdom_salon/",
+                "address": "261 W. Old Country Rd.",
+                "loc": 83,
+                "priority": "Q",
+                "img": "HK-83Q",
+                "category": "thrive_and_restore",
+                "subcategory": "hair_salons_and_barbers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5300724,
+                    40.7608837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "callkomalkataria",
+                "mapname": "Komal Kataria - Property Professionals Realty",
+                "business": "Real Estate",
+                "info": "Dedicated Hicksville, NY realtor with 25 years of experience helping buyers and sellers navigate the real estate market. Committed to excellent service and successful transactions!",
+                "phone": "516-503-2754",
+                "email": "https://www.instagram.com/KomalSellsRealEstate/",
+                "address": "70 E. Old Country Rd.",
+                "loc": 82,
+                "priority": "D",
+                "img": "HK-82D",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51658964875907,
+                    40.7652185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "goodrxpharmacy",
+                "mapname": "Good Rx Pharmacy",
+                "business": "Pharmacy",
+                "info": "We provide a unique blend of old fashioned values coupled with modern day care. Trust us with your healthcare needs today!",
+                "phone": "516-595-7400",
+                "address": "459 S. Broadway",
+                "loc": 59,
+                "priority": "S",
+                "img": "HK-59S",
+                "category": "thrive_and_restore",
+                "subcategory": "pharmacies"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51158859076581,
+                    40.75798015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "diwanhicksville",
+                "mapname": "Diwan",
+                "business": "Restaurant",
+                "info": "Diwan is a great place to go for a delicious and authentic Indian meal. The restaurant has a wide variety of dishes to choose from, including vegetarian and vegan options.",
+                "phone": "516-513-1057",
+                "email": "https://www.instagram.com/DiwanHicksville/",
+                "address": "405 S. Broadway",
+                "loc": 111,
+                "priority": "T",
+                "img": "HK-111T",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5128513,
+                    40.7591197
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "summitremodelinginc",
+                "mapname": "Summit Remodeling Inc.",
+                "business": "Home Improvements",
+                "info": "We are a woman owned full-service contractor specializing in all phases of home remodeling. Matching your vision with our expertise your dream home awaits.",
+                "phone": "516-221-2300",
+                "web": "http://www.SummitRemodelingInc.com",
+                "address": "101 Levittown Pkwy.",
+                "loc": 106,
+                "priority": "T",
+                "img": "HK-106T",
+                "category": "live_and_work",
+                "subcategory": "home_improvement"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5418919,
+                    40.7548083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kumonmathnreadingcenter",
+                "mapname": "Kumon of Hicksville",
+                "business": "Children & Youth",
+                "info": "With practice, your child's math and reading skills can soar to new heights. Hicksville Center provides the tools and support for your child to excel in school and life.",
+                "phone": "516-933-8533",
+                "web": "http://www.Kumon.com/Hicksville",
+                "address": "495-10 S. Broadway",
+                "loc": 16,
+                "priority": "D",
+                "img": "HK-16D",
+                "category": "play_and_learn",
+                "subcategory": "youth_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5225825,
+                    40.7663899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "creations",
+                "mapname": "Creations Hair Design",
+                "business": "Hair Salon",
+                "info": "We do keratin treatments, and specialize in all aspects of color, highlights, blowouts, and deep conditioning. We'll help you create a new look!",
+                "phone": "516-433-3300",
+                "email": "https://www.facebook.com/CreationsHairDesign/",
+                "address": "103 Levittown Pkwy.",
+                "discount": "$10 off any service over $100.",
+                "exp": "Exp. 01-31-2026",
+                "loc": 96,
+                "priority": "Q",
+                "img": "HK-96Q",
+                "category": "thrive_and_restore",
+                "subcategory": "hair_salons_and_barbers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5418843,
+                    40.7547681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "madisonavephotostudio",
+                "mapname": "Madison Ave. Photo Studio",
+                "business": "Photography",
+                "info": "Our professional photographers and videographers service the tri-state area. Lovely, lasting photographs and videos that capture the true flavor and excitement of your special day.",
+                "phone": "516-932-8416",
+                "web": "http://www.MadisonAvePhoto.com",
+                "address": "547 S. Broadway",
+                "loc": 10,
+                "priority": "D",
+                "img": "HK-10D",
+                "category": "live_and_work",
+                "subcategory": "photography_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5083744,
+                    40.7550177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "libardi-insuranceagency",
+                "mapname": "Libardi Service Agency",
+                "business": "Insurance",
+                "info": "Your local personal and commercial insurance specialists. Serving the community since 1965.",
+                "phone": "516-333-3611",
+                "web": "http://www.Libardi.com",
+                "address": "100 Stewart Ave.",
+                "loc": 104,
+                "priority": "D",
+                "img": "HK-104D",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.54437402615144,
+                    40.748418799999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "francescossandwichespasta",
+                "mapname": "Francesco's Bakery",
+                "business": "Bakery",
+                "info": "Since 1986. All baking done on premises. For 39 years, we've been baking the old-fashioned way. “I have a real love for baking; I continue to keep the Italian family traditions of baking alive!\"",
+                "phone": "516-931-6821",
+                "web": "http://www.FrancescosBakery.com",
+                "address": "640 S. Broadway",
+                "loc": 88,
+                "priority": "Q",
+                "img": "HK-88Q",
+                "category": "eat_and_drink",
+                "subcategory": "bakeries"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5059256,
+                    40.7511991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "libardititleservices",
+                "mapname": "Libardi Title Services",
+                "business": "Real Estate",
+                "info": "We are a title insurance agency providing high-quality and outstanding service for all your title insurance needs.",
+                "phone": "516-320-6505",
+                "web": "http://www.LibardiTitle.com",
+                "address": "100 Stewart Ave.",
+                "loc": 103,
+                "priority": "D",
+                "img": "HK-103D",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.54437402615144,
+                    40.748418799999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fenetiwindowsystems",
+                "mapname": "Feneti Window Systems",
+                "business": "Windows",
+                "info": "Wholesaler and distributor of custom-designed window and door products, specializing in vinyl and aluminum systems. A full line of double hung, slider, casement, awning, bow/bay windows, architectural shapes, sliding doors, terrace doors, storefronts, shower doors, skylights, and more.",
+                "phone": "516-495-4849",
+                "email": "https://www.facebook.com/p/Feneti-Window-61555315769796/",
+                "address": "759 S. Broadway",
+                "loc": 62,
+                "priority": "S",
+                "img": "HK-62S",
+                "category": "live_and_work",
+                "subcategory": "window_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.521418,
+                    40.765466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newbridgepharmacy",
+                "mapname": "Newbridge Pharmacy",
+                "business": "Pharmacy",
+                "info": "A brand-new full-service pharmacy equipped with all of the latest technology and managed by a team of pharmacists with vast experience in multiple fields. We offer free delivery for any medication and over-the-counter items.",
+                "phone": "516-303-9944",
+                "email": "https://www.google.com/search?q=Newbridge Pharmacy",
+                "address": "420 Newbridge Rd.",
+                "loc": 79,
+                "priority": "S",
+                "img": "HK-79S",
+                "category": "thrive_and_restore",
+                "subcategory": "pharmacies"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.53420015,
+                    40.74805805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "philipmtornatore-dds",
+                "mapname": "Philip M. Tornatore, DDS",
+                "business": "Dentist",
+                "info": "You deserve the best dentistry available, and we want to help you achieve your dental goals. Call us today for a full evaluation.",
+                "phone": "516-931-5483",
+                "web": "http://www.DrPhilDDS.com",
+                "address": "404 Jerusalem Ave.",
+                "discount": "Free initial exam and $50 off In-Office Whitening.",
+                "loc": 12,
+                "priority": "Q",
+                "img": "HK-12Q",
+                "category": "thrive_and_restore",
+                "subcategory": "dentists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.51921995000001,
+                    40.75024395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "strivetogether",
+                "mapname": "Strive Together",
+                "business": "Children & Youth",
+                "info": "We believe in helping our learners achieve socially significant goals. Based on individualized assessments, each learner will be taught crucial skills needed to lead an independent life.",
+                "phone": "516-879-0500",
+                "web": "http://www.Strive-Together.com",
+                "address": "762 S. Broadway",
+                "loc": 95,
+                "priority": "S",
+                "img": "HK-95S",
+                "category": "play_and_learn",
+                "subcategory": "youth_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5047055,
+                    40.749806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "firststepnurseryschool",
+                "mapname": "First Step Nursery School at Parkway Community Church",
+                "business": "Children & Youth",
+                "info": "Serving families in Hicksville and surrounding communities since 1984. Located at and operated by Parkway Community Church, we are a half-day, nonreligious preschool for children ages 2 to 4.",
+                "phone": "516-938-4080",
+                "web": "http://www.FirstStepNursery.org",
+                "address": "95 Stewart Ave.",
+                "loc": 32,
+                "priority": "T",
+                "img": "HK-32T",
+                "category": "play_and_learn",
+                "subcategory": "youth_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.54385824489796,
+                    40.748099591836734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bestfarms",
+                "mapname": "Best Farms",
+                "business": "Supermarket",
+                "info": "Shop local and family owned! Custom cut of any meat free of charge! Stock up and SAVE with our Weekly Ad!",
+                "phone": "516-822-3234",
+                "web": "http://www.BestFarmsMarket.com",
+                "address": "434 Jerusalem Ave.",
+                "exp": "Exp. 31-01-2026",
+                "loc": 85,
+                "priority": "T",
+                "img": "HK-85T",
+                "category": "shop_and_discover",
+                "subcategory": "supermarkets"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5191081,
+                    40.7493419
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "eastnewyork-taxservice",
+                "mapname": "East New York Tax",
+                "business": "Accounting & Tax Preparation",
+                "info": "Devoted to quality, reliable, and honest service in income tax preparation. Our experienced staff serves clients with preparing returns, continuing education in tax preparation, and keeping up with changes in tax law.",
+                "phone": "516-786-4700",
+                "web": "http://www.EastNewYorkTax.com",
+                "discount": "$10 off personal income tax return! For new customers only. Please mention MapToons.",
+                "exp": "Exp. 01-31-2026",
+                "address": "7 Elliot Drive",
+                "loc": 17,
+                "priority": "Q",
+                "img": "HK-17Q",
+                "category": "live_and_work",
+                "subcategory": "accountants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.506662703125,
+                    40.7455925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "airpros-airconditioning",
+                "mapname": "AIRPROS Inc.",
+                "business": "Air Conditioning & Heating",
+                "info": "We do what it takes to get the job done right. From installation and repair to ongoing maintenance, we offer a full suite of HVAC services for residential and commercial properties.",
+                "phone": "516-427-3983",
+                "web": "http://www.AirprosNY.com",
+                "address": "105 Bloomingdale Rd.",
+                "loc": 14,
+                "priority": "T",
+                "img": "HK-14T",
+                "category": "live_and_work",
+                "subcategory": "hvac"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.50541844980117,
+                    40.745456000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "alphagraphics",
+                "mapname": "AlphaGraphics New York",
+                "business": "Printing",
+                "info": "A premier provider of print, marketing, and signage solutions. We specialize in creating customized business and event signage to enhance customer branding.",
+                "phone": "516-228-2312",
+                "web": "http://www.AlphaGraphics.nyc",
+                "address": "119 Engineers Dr.",
+                "loc": 93,
+                "priority": "D",
+                "img": "HK-93D",
+                "category": "live_and_work",
+                "subcategory": "printing_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5018841,
+                    40.7452256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "applebees-grillbar",
+                "mapname": "Applebee's Grill + Bar",
+                "business": "Restaurant",
+                "info": "For affordable lunch specials with co-workers or a delicious dinner with family and friends, Applebee's offers dining options you'll love. If you’re in a hurry, use our To Go service and pick up your food without ever leaving your car.",
+                "phone": "516-932-3780",
+                "web": "http://www.Applebees.com",
+                "address": "938 S. Broadway",
+                "loc": 105,
+                "priority": "S",
+                "img": "HK-105S",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.50063704229379,
+                    40.7456753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dancedimensions",
+                "mapname": "Dance Dimensions",
+                "business": "Dance School",
+                "info": "An integral part of the Hicksville community for over 25 years, we are proud to offer quality dance education in a safe and fun environment for children and adults.",
+                "phone": "516-938-5299",
+                "web": "http://www.Dance-Dimensions.com",
+                "address": "940 S. Broadway",
+                "loc": 68,
+                "priority": "S",
+                "img": "HK-68S",
+                "category": "play_and_learn",
+                "subcategory": "dance_schools"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5004758,
+                    40.7454875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fastfood-madeincolombia",
+                "mapname": "Made in Colombia",
+                "business": "Restaurant",
+                "info": "Your new favorite Colombian fast food restaurant, serving authentic Colombian cuisine in a fun and welcoming atmosphere.",
+                "phone": "516-934-0090",
+                "email": "https://www.instagram.com/madeincolombia_ny/",
+                "address": "7 W. Village Green",
+                "loc": 23,
+                "priority": "S",
+                "img": "HK-23S",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5338774,
+                    40.744929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dcapinsurance",
+                "mapname": "DCAP East Meadow Inc.",
+                "business": "Insurance",
+                "info": "Saving customers money on their insurance for over 30 years. Experts in all forms of insurance. Auto, Commercial Auto, Motorcycle, Home, Condo/Coop, Renters, Boat RV, Business, and Life.",
+                "phone": "516-822-4848 / 516-469-8600",
+                "web": "http://www.DCAPInsurance.com",
+                "address": "956 S. Broadway",
+                "loc": 5,
+                "priority": "T",
+                "img": "HK-5T",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5001733,
+                    40.7449833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "smok-haus",
+                "mapname": "Smok-Haus",
+                "business": "Restaurant",
+                "info": "We redefine BBQ with our bold, globally-inspired flavors. Check out the smok-haus menu for all of our delicious offerings and discover why smok-haus is the ultimate BBQ destination in New York.",
+                "phone": "516-400-7102",
+                "web": "https://www.Smok-Haus.com",
+                "address": "954 S. Broadway Unit B",
+                "loc": 38,
+                "priority": "S",
+                "img": "HK-38S",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.500214,
+                    40.7450274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "wineudesign",
+                "mapname": "wineUdesign",
+                "business": "Winery",
+                "info": "The first licensed winery in Nassau County. Here in Hicksville since 2010. Families and friends make great wine for their own personal enjoyment. Interactive Winemaking and Wine Blending classes. So much fun!",
+                "phone": "516-939-9463",
+                "web": "https://www.wineUdesign.com",
+                "address": "156 Engineers Dr.",
+                "loc": 51,
+                "priority": "D",
+                "img": "HK-51D",
+                "category": "eat_and_drink",
+                "subcategory": "alcohol_specialty"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5013389,
+                    40.7447707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "regalbilliards",
+                "mapname": "Regal Billiards",
+                "business": "Billiards",
+                "info": "Long Island's premier retailer for pool tables, game tables, game room furniture and accessories.",
+                "phone": "516-938-6832",
+                "web": "https://www.RegalBilliards.com",
+                "address": "952 S. Broadway",
+                "loc": 78,
+                "priority": "S",
+                "img": "HK-78S",
+                "category": "visit_and_experience",
+                "subcategory": "billiards_halls"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5002547,
+                    40.7450715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "salonisage",
+                "mapname": "Salon Visage",
+                "business": "Hair Salon",
+                "info": "A beloved, professional salon since 2006, we have everything to keep you looking and feeling ravishing for that special occasion you have lined up. Walk out as the best version of yourself.",
+                "phone": "516-997-5069",
+                "web": "https://www.SalonVisageJericho.org",
+                "address": "32 W. Village Green",
+                "loc": 40,
+                "priority": "D",
+                "img": "HK-40D",
+                "category": "thrive_and_restore",
+                "subcategory": "hair_salons_and_barbers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5344092,
+                    40.744317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dancomputers",
+                "mapname": "Dan Computers",
+                "business": "Computer Consulting, Sales & Service",
+                "info": "Welcome to Dan Computers - the right place to buy refurbished laptops, desktop computers, iMac, MacBooks, iPads, Chrome Books, and lots more.",
+                "phone": "516-342-9114",
+                "web": "https://www.DanComputers.com",
+                "address": "148 Lauman Ln.",
+                "loc": 49,
+                "priority": "S",
+                "img": "HK-49S",
+                "category": "live_and_work",
+                "subcategory": "computer_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5025602,
+                    40.7441389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newyorkmicroscopecompany",
+                "mapname": "New York Microscope Company",
+                "business": "Microscope",
+                "info": "Woman-owned small business. The microscope experts since 1979. Sales, service, and repairs.",
+                "phone": "877-877-7274",
+                "web": "https://www.MicroscopeInternational.com",
+                "address": "100A Lauman Ln.",
+                "loc": 34,
+                "priority": "D",
+                "img": "HK-34D",
+                "category": "live_and_work",
+                "subcategory": "specialty_retail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5011781,
+                    40.7441215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "roastsandwichhouse",
+                "mapname": "Roast Sandwich House",
+                "business": "Restaurant",
+                "info": "Established in 2010, we combine restaurant-quality food with a fast-casual setting. Our menu is chef-inspired, featuring all-natural whole, roasted meats, fresh produce, artisanal bread, and housemade condiments.",
+                "phone": "516-261-9376",
+                "web": "https://www.RoastSandwichHouse.com",
+                "address": "1040 S. Broadway",
+                "loc": 2,
+                "priority": "D",
+                "img": "HK-2D",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.4983578,
+                    40.7426005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "drinklocal-harmonybar",
+                "mapname": "Harmony Bar",
+                "business": "Bar",
+                "info": "Casual bar - Always a Good Time with the Friendliest of People. Pool table, NFL & MLB ticket.",
+                "phone": "516-342-6481",
+                "web": "https://www.TheHarmonyBarLevittown.com",
+                "address": "673 N. Newbridge Rd. Levittown",
+                "loc": 100,
+                "priority": "Q",
+                "img": "HK-100Q",
+                "category": "eat_and_drink",
+                "subcategory": "bars_and_pubs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5238207,
+                    40.7681926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "menonthemove-storagecube",
+                "mapname": "Men on the Move - Mobile Storage",
+                "business": "Mobile Storage",
+                "info": "Long Island's best value in mobile storage! We offer the only insulated mobile storage units, along with available award-winning moving services to load and offload your Cube! Call or visit us online.",
+                "phone": "516-773-6683",
+                "web": "https://www.MenOnTheMove.com",
+                "address": "150 Crossways Park Dr. W. Woodbury",
+                "loc": 109,
+                "priority": "T",
+                "img": "HK-109T",
+                "category": "live_and_work",
+                "subcategory": "storage"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5238207,
+                    40.7681926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "doggonegorgeous",
+                "mapname": "Dog Gone Gorgeous by Victoria",
+                "business": "Pet Grooming",
+                "info": "The absolute finest in pet grooming. Making dogs \"Dog Gone Gorgeous\" since 1994.",
+                "phone": "516-342-9400",
+                "email": "https://www.facebook.com/dggbyvictoria",
+                "address": "603 Hicksville Rd. Bethpage",
+                "loc": 13,
+                "priority": "D",
+                "img": "HK-13D",
+                "category": "thrive_and_restore",
+                "subcategory": "pet_grooming"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.497027,
+                    40.7411178
+                ]
+            }
+        }
+    ]
+}

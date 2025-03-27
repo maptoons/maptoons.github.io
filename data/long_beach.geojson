@@ -1,0 +1,4032 @@
+{
+    "type": "FeatureCollection",
+    "name": "Long Beach, NY",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "gigicarpet",
+                "phone": "516-581-6706",
+                "web": "http://www.carpetcleaning.li/",
+                "discount": "$35 off your bill of $100 or more.",
+                "info": "Utilizing a state-of-the art safe chemical cleaning process, this system is conjunction with deep-cleaning non-toxic cleansers will have your carpets looking and smelling amazing!",
+                "mapname": "GIGI'S PROFESSIONAL CARPET CLEANING SERVICE",
+                "category": "",
+                "subcategory": ""
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "techacscorpp",
+                "phone": "212-202-1952",
+                "web": "http://www.techacs.com/",
+                "business": "Website Design and Development",
+                "discount": "$100 off any website design of $750 or more.",
+                "mapname": "Tech ACS",
+                "category": "live_and_work",
+                "subcategory": "web_design"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MapToonshopper",
+                "web": "http://www.shoppersdiscountcard.com/",
+                "mapname": "MapToons",
+                "category": "",
+                "subcategory": ""
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "luvnpooche",
+                "address": "Luv'n Pooches & Pals",
+                "town": "Long Beach",
+                "phone": "516-483-0841",
+                "web": "http://luvnpoochesnpals.net/",
+                "business": "Dog Groomer ( Mobile)",
+                "discount": "Re-schedule your dog for grooming within four weeks and receive $5 off our regular fee.",
+                "info": "Too busy to take the pooch to the grooming salon? State-of-the-Art Groom Mobile will come to you and provide Professional Dog Grooming by a licensed groomer.",
+                "mapname": "Luv'n Poches",
+                "category": "thrive_and_restore",
+                "subcategory": "pet_grooming"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "citychamber",
+                "address": "350 National Blvd",
+                "town": "Long Beach",
+                "phone": "516-432-6000",
+                "web": "http://www.thelongbeachchamber.com/",
+                "mapname": "LB Chamber",
+                "category": "",
+                "subcategory": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6666737,
+                    40.5880597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bluebuglon",
+                "address": "248 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-442-7550",
+                "web": "http://www.thebluebungalow.com/",
+                "business": "Gift Shop",
+                "discount": "25% off your total purchase.",
+                "info": "home accents, beach writings, paintings, furniture, jewelry, gifts for all occasions.",
+                "mapname": "The Blue Bungalow",
+                "category": "shop_and_discover",
+                "subcategory": "gift_shops"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.67118187755102,
+                    40.588360632653064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "meierestate",
+                "address": "95 Glenwood Ave.",
+                "town": "Point Lookout",
+                "phone": "516-897-4888",
+                "web": "http://williammeierrealty.com/",
+                "business": "Real Estate",
+                "info": "We are a local family owned agency staffed by local agents who are experts in sales, rentals, short-term, and long-term. We have a great reputation for honesty and integrity.",
+                "mapname": "Meier Real Estate",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.58043323583536,
+                    40.5896216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Villa",
+                "address": "99 The Plaza",
+                "town": "Atlantic Beach",
+                "phone": "516-792-3323",
+                "web": "http://villamareny.com/",
+                "business": "Restaurant",
+                "discount": "$10 off your bill of $50 or more. Dine-in only.",
+                "info": "The finest Italian food and brick oven pizza on Long Island. A pleasurable dining experience. We use only the freshest ingredients to ensure your satisfaction.",
+                "mapname": "Villa Mare",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.944195,
+                    41.035474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Atlantic",
+                "address": "1961 Park St.",
+                "town": "Atlantic Beach",
+                "phone": "516-568-7799",
+                "web": "http://ABDeli.net/",
+                "business": "Catering, Delicatessen",
+                "discount": "$15 off your catering order of $100 or more.",
+                "info": "Stop in for one our Specialty Sandwiches or Delicious Pizza. Catering needs from small to giant parties. All our food is homemade and always fresh.",
+                "mapname": "Atlantic Beach Cafe",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.70208,
+                    40.5883142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Boardwalk",
+                "address": "2035 Ocean Blvd.",
+                "town": "Atlantic Beach",
+                "phone": "516-239-8770",
+                "web": "http://SunnyAtlantic.com/",
+                "business": "Restaurant",
+                "discount": "A free bottle of wine with dinner for two. Adults only. No kids meals, no take out. Cannot be combined with any other offers.",
+                "info": "Sunday Brunch. Lunch (Saturday & Sunday only). Dinner - Thursday, Friday, Saturday & Sunday. Linger over drinks from Sunny Atlantic's full bar. Catering menu.",
+                "mapname": "The Boardwalk Cafe",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Sunny",
+                "address": "2035 Ocean Blvd.",
+                "town": "Atlantic Beach",
+                "phone": "516-239-9090",
+                "web": "http://SunnyAtlantic.com/",
+                "business": "Beach Club",
+                "info": "The place for family fun in the sun on the spotless sands of Atlantic Beach. Solar heated pool, children's pool and sand court. Fun-filled Activity Programs for young and old.",
+                "mapname": "Sunny Atlantic Beach Club",
+                "category": "visit_and_experience",
+                "subcategory": "beach_clubs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ShoresDeli",
+                "address": "1845 Ocean Blvd.",
+                "town": "Atlantic Beach",
+                "phone": "516-341-7265",
+                "web": "http://TheShoresAB.com/",
+                "business": "Delicatessen",
+                "discount": "Take $5 off any order above $30.",
+                "info": "The place for your summer enjoyment. Oceanfront, sand court, and pool court cabanas, standard and shower lockers. Enjoy our full service restaurant and our bar. Heated pool and kiddie pool.",
+                "mapname": "The Shores Deli",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Shores1",
+                "address": "1845 Ocean Blvd.",
+                "town": "Atlantic Beach",
+                "phone": "516-812-9411",
+                "web": "http://TheShoresAB.com/",
+                "business": "Beach Club",
+                "info": "The place for your summer enjoyment. Oceanfront, sand court, and pool court cabanas, standard and shower lockers. Enjoy our full service restaurant and our bar. Heated pool and kiddie pool.",
+                "mapname": "The Shores @ Atlantic Beach",
+                "category": "visit_and_experience",
+                "subcategory": "beach_clubs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SandsAt",
+                "address": "1395 Beech St.",
+                "town": "Atlantic Beach",
+                "phone": "516-371-4000",
+                "web": "http://TheSandsBeachClub.net/",
+                "business": "Catering",
+                "info": "55 years of memory making events. The Sands at Atlantic Beach has been the site for hundreds of beautiful weddings, Bar/Bat Mitzvahs, Sweet Sixteens, birthdays and more.",
+                "mapname": "Sands At Atlantic Beach",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.70095957718121,
+                    40.586091026845644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CEllis",
+                "address": "99 The Plaza",
+                "town": "Atlantic Beach",
+                "phone": "516-239-2846",
+                "web": "http://AnnettCEllisRealty.com",
+                "business": "Real Estate",
+                "info": "A full service real estate company, exclusively serving Atlantic Beach. Our top priority is to provide you with the utmost in service and local expertise.",
+                "mapname": "Annett C. Ellis Realty",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.944195,
+                    41.035474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Hopes",
+                "address": "3951 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-544-2244",
+                "web": "http://HopesLandOfCandy.com/",
+                "business": "Sweet Shop",
+                "discount": "$5 off your purchase of $25 or more and/or one free topping for an ice cream purchase.",
+                "info": "We are an Old Fashioned Candy and Soda Shoppe, featuring candy, soda, ice cream, fudge and desserts, many will be homemade.",
+                "mapname": "Hope's Land of Candy",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6445195,
+                    40.6136072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CenterandFlorist",
+                "address": "4373 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-431-6821",
+                "web": "http://ATGardenCenter.com/",
+                "business": "Garden Center",
+                "discount": "$10 off your purchase of $50 or more.",
+                "info": "Quality plants and merchandise at reasonable prices. Gift items, fresh cut flowers, garden tools, annuals and perennials, shrubs, trees, firewood, houseplants and more.",
+                "mapname": "A & T Garden Center and Florist",
+                "category": "shop_and_discover",
+                "subcategory": "home_and_garden_supplies"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "IslandParkCar",
+                "address": "4576 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-431-2555",
+                "business": "Car Wash",
+                "discount": "$2 off any Full Service car wash ; $10 off Complete Detail.",
+                "info": "Quality car washes, professional detailing. Free ArmorAll every 5th visit. Free Full-Service car wash every 10th visit. Ladies and Seniors discounts all day Tues. & Thurs.",
+                "mapname": "Island Park Car Wash",
+                "category": "live_and_work",
+                "subcategory": "car_washes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ShellRapidLube",
+                "address": "4576 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-431-2555",
+                "business": "Oil Change",
+                "discount": "$3 off oil change; $5 off synthetic oil change.",
+                "info": "10-minute oil change always includes a Free Full-Service car wash. All grades of synthetic & conventional oil. Wiper blades-batteries-filters-tire rotation. Open late Tues. and Thurs.",
+                "mapname": "Shell Rapid Lube",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LittleSeaShell",
+                "address": "364 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-431-3963",
+                "web": "http://LittleSeaShell.com/",
+                "business": "Nursery School",
+                "discount": "$20 off registration.",
+                "info": "Our school seeks to provide a learning experience of love, acceptance, warmth and understanding where each child's sense of responsibility is fostered.",
+                "mapname": "The Little Sea Shell Nursery School",
+                "category": "play_and_learn",
+                "subcategory": "preschools"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6557862504566,
+                    40.6060473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GreenAppleTattoo",
+                "address": "4000-B Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-761-6178",
+                "business": "Tattoos",
+                "discount": "$25 off your tattoo $150 or more; $100 off your tattoo of $750 or more.",
+                "info": "Custom tattooing with highly capable and experienced artists. Dealing in all styles of tattoo art (including coverup and repair work) in a clean and relaxed environment.",
+                "mapname": "Green Apple Tattoo",
+                "category": "thrive_and_restore",
+                "subcategory": "tattoo_and_piercing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CompetitionAutomotive",
+                "address": "4501 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-431-5500",
+                "web": "http://Competition-Automotive.com/",
+                "business": "Auto Repair",
+                "discount": "$5 off any oil change.",
+                "info": "Complete foreign and domestic auto and truck repair. Alignment, balancing, brakes, tune ups, tires, shocks, NYS inspections.",
+                "mapname": "Competition Automotive",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TheFeldenkrais",
+                "address": "4025 Austin Blvd., Suite 2",
+                "town": "Island Park",
+                "phone": "516-633-2945",
+                "web": "http://FeldenkraisCenterForWellnessInAction.com/",
+                "business": "Physical Therapy",
+                "discount": "1) First group class free for new students. 2) $25 off your first individual session. First time students only.",
+                "info": "30+ years experience utilizing movement to access the brains capacity for growth and change, which promotes Neuroplasticity. From infants-to-elders, we offer individual hands on sessions and group classes.",
+                "mapname": "The Feldenkrais Center For Wellness in Action",
+                "category": "thrive_and_restore",
+                "subcategory": "physical_therapy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "PitStopCollision",
+                "address": "4452 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-897-6064",
+                "web": "http://PitStopCollision.com/",
+                "business": "Auto Body",
+                "discount": "10% off your total bill.",
+                "info": "Foreign and Domestic. All insurance claims. Drive-in claim center. Expert body repair and painting. Computerized color matching. End-of-lease repair and detailing. 24-hour towing.",
+                "mapname": "Pit Stop Collision",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ItalianRistorante",
+                "address": "118 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-889-3939",
+                "web": "http://DaVincisLI.com/",
+                "business": "Pizzeria / Restaurant",
+                "discount": "15% off entire meal. Sun - Thurs. Dine-in only. Not to be combined.",
+                "info": "Family owned & operated, dedicated to bringing you the highest quality of food & service. From our family's table to your family's table. Private parties. Catering.",
+                "mapname": "Da Vinci's Italian Ristorante",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6562137,
+                    40.6009618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "RoyalRent",
+                "address": "4000 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-431-9600",
+                "web": "http://RoyalRentACarNow.com/",
+                "business": "Auto Rental",
+                "discount": "15% off your next car rental.",
+                "info": "If you are looking to rent a car, whether due to an accident or for personal or business use, you can count on us. Open Mon-Sat 8a-6p.",
+                "mapname": "Royal Rent-A-Car",
+                "category": "visit_and_experience",
+                "subcategory": "car_rentals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TabernaRestaurant",
+                "address": "4135 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-432-0455",
+                "web": "http://ATaberna.VPWeb.com/",
+                "business": "Restaurant",
+                "discount": "15% off your order. Take out only.",
+                "info": "Portuguese, Mediterranean and Continental Cuisine. Catering and parties for all occasions. Open 7 days for dinner.",
+                "mapname": "A Taberna Restaurant",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "EmPowerSolar",
+                "address": "221 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-432-SOLAR",
+                "web": "http://EmPower-Solar.com/",
+                "business": "Solar Power",
+                "discount": "A $200 Visa gift card if you go solar with EmPower Solar.",
+                "info": "A premier solar company with over 700 installations. Our mission is to deliver high performance systems yielding significant savings and environmental benefits, while delivering an amazing customer experience.",
+                "mapname": "EmPower Solar",
+                "category": "live_and_work",
+                "subcategory": "solar_installation"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63191658931594,
+                    40.5935682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CentralSelf",
+                "address": "4055 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-431-1333",
+                "web": "http://CentralSelfStorage.com/",
+                "business": "Self-Storage",
+                "discount": "First month's storage free with any contract.",
+                "info": "Solutions to your storage needs. We are the storage professionals that offer the security, convenience and service you deserve.",
+                "mapname": "Central Self-Storage",
+                "category": "live_and_work",
+                "subcategory": "storage_units"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "OutbackSteakhouse",
+                "address": "3939 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-897-8989",
+                "web": "http://Outback.com/",
+                "business": "Restaurant",
+                "discount": "Free Bloomin' Onion with purchase of entree.",
+                "info": "Consistently high-quality food and service, generous portions at moderate prices and a casual atmosphere. Beef and steak items and a variety of chicken, ribs, seafood, and pasta dishes.",
+                "mapname": "Outback Steakhouse",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64443954454272,
+                    40.6136758
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "VivoSalon",
+                "address": "4000-A Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-442-5093",
+                "web": "http://VivoHairSalonNY.com/",
+                "business": "Hair Salon",
+                "discount": "Free conditioning treatment with any cut or color service.",
+                "info": "We are a talented team with a passion for our craft. Our experienced stylists, colorists, and make-up artists are all here to bring out your best.",
+                "mapname": "Vivo Salon",
+                "category": "thrive_and_restore",
+                "subcategory": "hair_salons_and_barbers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "DorisTheFlorist",
+                "address": "233 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-897-2460",
+                "web": "http://DorisTheFloristt.com/",
+                "business": "Florist",
+                "discount": "Free delivery to Long Beach Island and Island Park.",
+                "info": "Over 28 years experience. Quality design. Daily delivery! Weddings; balloons; funeral arrangements; corporate events; theme parties; gourmet baskets.",
+                "mapname": "Doris The Florist",
+                "category": "shop_and_discover",
+                "subcategory": "florists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65713243267675,
+                    40.5841559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "FlamingoTapas",
+                "address": "3902 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-544-2020",
+                "business": "Restaurant",
+                "discount": "Free glass of house wine or draft beer with your lunch or dinner entree order.",
+                "info": "A great place to eat amazing Portuguese food and have a drink. Come on down and enjoy! Open 7 days. Eat in--take out.",
+                "mapname": "Flamingo Tapas Bar & Grill Cafe",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LadySDriveThru",
+                "address": "4451 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-897-0572",
+                "business": "Convenience Store",
+                "discount": "Free half gallon of milk with any purchase of $20 or more. Excludes beer and cigarettes.",
+                "info": "A unique drive-thru convenience store with competitive supermarket pricing. Best coffee in town, dairy products, cold beverages, groceries, ice, cigarettes, beer, newspapers and Boar's Head products. Serving beakfast and lunch.",
+                "mapname": "Lady S Drive Thru",
+                "category": "shop_and_discover",
+                "subcategory": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "RibeyeBros",
+                "address": "4455 Broadway",
+                "town": "Island Park",
+                "phone": "516-889-WHIZ (9449)",
+                "web": "http://RibeyeBros.com/",
+                "business": "Restaurant",
+                "discount": "Free large fountain soda with any sandwich order. Take out only.",
+                "info": "The best sandwich in America just happens to live in the pearl of NY - the south shore of LI . Open for lunch and dinner. We deliver.",
+                "mapname": "Ribeye Bros. Cheesesteaks",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.67549,
+                    40.584686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "IslandAdvantage",
+                "address": "233 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-368-8585",
+                "web": "http://IslandAdvantage.com/",
+                "business": "Real Estate",
+                "discount": "Free professional pre-listing home inspection (value $100). $250 gift card awarded to seller upon closing if seller lists property with Island Advantage for minimum of 6 months and sells while listed.",
+                "info": "residential, commercial, bank owned, leases and rentals. We are foreclosure specialists.",
+                "mapname": "Island Advantage Realty",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65713243267675,
+                    40.5841559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SouthPoint",
+                "address": "1 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-432-0300",
+                "web": "http://SouthPointPlazaRehab.com/",
+                "business": "Nursing Facility, Rehabilitation",
+                "info": "Staffed by healthcare professionals who are dedicated to improving the quality of life for those with specialized needs including short and long term therapy.",
+                "mapname": "South Point Plaza - Nursing And Rehabilitation Center",
+                "category": "thrive_and_restore",
+                "subcategory": "rehabilitation_centers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SeafoodShack",
+                "address": "15 Railroad Place",
+                "town": "Island Park",
+                "phone": "516-432-7677",
+                "web": "http://PopsSeafoodShack.com/",
+                "business": "Restaurant",
+                "info": "Open 7 days, May-October. Lunch, dinner, Sunday brunch, late night. \"Sail away\" meals for boaters. Dock & Dine in Pop's Marina. Seasonal docking available at Apache Yacht Club.",
+                "mapname": "Pop's Seafood Shack & Grill",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65846890528721,
+                    40.59699205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MarkTannenbaum",
+                "address": "184 Harrison Ave.",
+                "town": "Island Park",
+                "phone": "516-551-1463",
+                "web": "http://Mark-Tannenbaum.com/",
+                "business": "Financial Services",
+                "info": "Providing a lifetime resource for my clients, their families and businesses using my skills, experience, expertise and knowledge while guiding them to an efficient and secure future.",
+                "mapname": "Mark Tannenbaum, LUTCF, CLTC",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66564731103587,
+                    40.6024563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SouthShoreJewish",
+                "address": "191 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-431-3590",
+                "web": "http://SouthShoreJewishCenter.org/",
+                "business": "House of Worship",
+                "info": "This conservative, egalitarian congregation has been serving the community since 1952. Women are accorded Aliyahs, and counted for Minyans. Services for Shabbat, Festivals, and high holidays. Recently merged with Congregation Beth Sholom.",
+                "mapname": "South Shore Jewish Center",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6318952560165,
+                    40.59277715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MackoulAssociates",
+                "address": "25 Nassau Lane",
+                "town": "Island Park",
+                "phone": "516-431-9100",
+                "web": "http://Mackoul.com/",
+                "business": "Insurance",
+                "info": "Our mission is to market insurance and employee benefits to our clients and prospects by offering advice and guidance that is always in their best interests.",
+                "mapname": "Mackoul & Associates, Inc.",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65450450737708,
+                    40.60206585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SacredHeart",
+                "address": "282 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-432-0655",
+                "web": "http://SacredHeartIslandPark.com/",
+                "business": "House of Worship",
+                "info": "Saturday 4-5pm",
+                "mapname": "Sacred Heart R.C. Church",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63266380503023,
+                    40.5936243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "IslandParkMethodist",
+                "address": "364 Long Beach Rd.",
+                "town": "Island Park",
+                "phone": "516-431-1983",
+                "web": "http://IPUMC.net/",
+                "business": "House of Worship",
+                "info": "Since 1926, the Island Park UMC serves the community with love and a family-oriented atmosphere. We welcome you to come and worship God with us!",
+                "mapname": "Island Park Methodist Church",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6557862504566,
+                    40.6060473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TheTribune",
+                "address": "4 California Place North",
+                "town": "Island Park",
+                "phone": "516-431-5628",
+                "business": "Newspaper",
+                "mapname": "The Tribune",
+                "category": "live_and_work",
+                "subcategory": "printing_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6547186583916,
+                    40.600615000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fbPrinters",
+                "address": "4 California Place North",
+                "town": "Island Park",
+                "phone": "516-431-5433",
+                "business": "Printing",
+                "info": "local printing, binding, laminating, copying, UV coating.",
+                "mapname": "F & B Printers",
+                "category": "live_and_work",
+                "subcategory": "printing_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6547186583916,
+                    40.600615000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "AutoBody",
+                "address": "4328 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-431-1431",
+                "business": "Auto Body, Towing",
+                "info": "Family owned and operated since 1989. All insurance accepted. 24-hour towing available.",
+                "mapname": "Puma's Auto Body",
+                "category": "live_and_work",
+                "subcategory": "towing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "KingKullen",
+                "address": "4601 Austin Blvd.",
+                "town": "Island Park",
+                "phone": "516-442-5607",
+                "web": "http://KingKullen.com/shoponline/",
+                "business": "Supermarket",
+                "info": "",
+                "mapname": "King Kullen",
+                "category": "shop_and_discover",
+                "subcategory": "supermarkets"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Warehouse5",
+                "address": "50 Waterfront Blvd.",
+                "town": "Island Park",
+                "phone": "516-432-2400",
+                "business": "Catering",
+                "info": "A state-of-the-art space specializing in unique waterfront catered events. Looking to create a party that departs from the standard ballroom event? Warehouse 5 is the venue for you.",
+                "mapname": "Warehouse 5",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6563114027723,
+                    40.5966539
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ApacheYacht",
+                "address": "7 Railroad Place",
+                "town": "Island Park",
+                "phone": "516-431-7533",
+                "web": "http://ApacheYachtClub.com/",
+                "business": "Marina",
+                "info": "Summer dockage, ice free winter dockage, upland winter boat storage, drive on jetski dockage, indoor/outdoor winter jetski storage. Professional full-service mechanic shop.",
+                "mapname": "Apache Yacht Club Marina",
+                "category": "visit_and_experience",
+                "subcategory": "marinas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.658804,
+                    40.59699295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BridgeviewYacht",
+                "address": "80 Waterfront Blvd.",
+                "town": "Island Park",
+                "phone": "516-432-2400",
+                "web": "http://BridgeViewYachtClub.com/",
+                "business": "Catering",
+                "info": "The South Shore's premier waterfront catering facility. You can expect elegance and style while always only one wedding at a time.",
+                "mapname": "Bridgeview Yacht Club",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6555259,
+                    40.5964472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TheDunesDeli",
+                "address": "300 1/2 Lido Blvd.",
+                "town": "Lido Beach",
+                "phone": "516-432-2736",
+                "business": "Delicatessen",
+                "discount": "1) Free 12 oz. coffee with any egg sandwich; 2) $5 off your purchase of $30 or more. Excludes cigarettes, beer and Lotto.",
+                "info": "The best deli in town! Fast, friendly service with a smile. Serving breakfast and lunch specials. Hot or cold sandwiches.",
+                "mapname": "The Dunes Deli",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.62684928285549,
+                    40.58819149999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "PoolService",
+                "address": "182 School Lane",
+                "town": "Lido Beach",
+                "phone": "516-431-7797",
+                "web": "http://WandlPools.com/",
+                "business": "Pool Company",
+                "info": "Commercial service and renovation; Commercial management; Lifeguard staffing.",
+                "mapname": "W&L Pool Service",
+                "category": "live_and_work",
+                "subcategory": "pool_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6317967,
+                    40.59082065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TheresaAcademy",
+                "address": "250 Lido Blvd.",
+                "town": "Lido Beach",
+                "phone": "516-432-0200",
+                "web": "http://TAPANY.org/",
+                "business": "Special Needs",
+                "info": "Honoring the memory of Theresa Alessandra Russo by touching the lives of children with special needs. We foster each child's unique abilities through programs focusing on art, music, dance and recreation.",
+                "mapname": "Theresa Academy of Performing Arts",
+                "category": "thrive_and_restore",
+                "subcategory": "special_needs_education"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.62839816059787,
+                    40.5875841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Marvel",
+                "address": "258 Lido Blvd.",
+                "town": "Lido Beach",
+                "phone": "516-889-4232",
+                "business": "SIce Cream / Ices, Yogurt",
+                "info": "Established 1951, Marvel's famous soft serve. The best milkshakes & slushies! All soft serve from ice cream to yogurt!",
+                "mapname": "Marvel",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6278845,
+                    40.5877988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TheSaloon",
+                "address": "1016 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-432-9185",
+                "web": "http://TheSaloonLongBeach.com/",
+                "business": "Restaurant",
+                "discount": "10% off your bill.",
+                "info": "Open daily. Chef specials. Outdoor dining in our garden. DJ Friday and Saturday nights. Weekend brunch.",
+                "mapname": "The Saloon",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69689625000001,
+                    40.585828250000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CreaturesVeterinary",
+                "address": "733 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-2946",
+                "web": "http://AllCreaturesVetServices.com/",
+                "business": "Veterinarian",
+                "discount": "$10.00 off any purchase or procedure. One per customer.",
+                "info": "Offering compassionate, comprehensive medical services for your family's pet. We make every effort to incorporate the latest techniques in veterinary medical care at our facility.",
+                "mapname": "All Creatures Veterinary Services",
+                "category": "thrive_and_restore",
+                "subcategory": "veterinarians"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.68555,
+                    40.5887379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SeasideCelebrations",
+                "address": "949 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-432-4FUN",
+                "web": "http://SeasideCelebrationsLB.com/",
+                "business": "Children",
+                "discount": "$50 off any party package - one time use only.",
+                "info": "We are a children's play center offering toddler separation classes, summer camp hours, birthday parties, room rentals and Friday night babysitting services.",
+                "mapname": "Seaside Celebrations",
+                "category": "play_and_learn",
+                "subcategory": "youth_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69394785,
+                    40.5862118
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CircleKMobil",
+                "address": "203 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-9740",
+                "web": "http://CircleK.com/",
+                "business": "Convenience Store, Delicatessen",
+                "discount": "$1 off any purchase of deli items. Minimum purchase of $10 (deli or Nathans).",
+                "info": "The first Circle K convenience store in New York State. Large selection of sweet & salty snacks, soft drinks & much more. Walk-in beer cave.",
+                "mapname": "Circle K - Mobil",
+                "category": "shop_and_discover",
+                "subcategory": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6580543,
+                    40.5891341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "JWTrainors",
+                "address": "912 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-208-3790",
+                "business": "Bar & Grill",
+                "discount": "$1 off draft beer anytime.",
+                "info": "Celebrating our 40th year! Serving only the best lunch & dinner. Fresh hand packed burgers. Catering & parties available. DJ & live music. Steps from the beach.",
+                "mapname": "J.W. Trainors",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69211505,
+                    40.585828250000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "HealingOasis",
+                "address": "252 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-5400",
+                "web": "http://HealingOasis.com/",
+                "business": "Health & Wellness, Spa",
+                "info": "Our goal is to restore your health and inner peace while giving you the highest quality massage services that you will ever experience.",
+                "mapname": "Healing Oasis",
+                "category": "thrive_and_restore",
+                "subcategory": "spas_and_wellness"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6563973,
+                    40.5883048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "HimawariJapaneseRestaurant",
+                "address": "116 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-4768",
+                "business": "Restaurant",
+                "discount": "$10 off your bill of $50 or more. Not to be combined.",
+                "info": "The best Japanese restaurant in town! Serving healthy, fresh fish and a gluten-free menu. Open 7 days. Private room available. We deliver!",
+                "mapname": "Himawari Japanese Restaurant",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66056435,
+                    40.58818135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BillysBeachCafe",
+                "address": "222 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-2233",
+                "web": "http://BillysBeachCafe.com/",
+                "business": "Restaurant",
+                "discount": "$10 off your check of $30 or more. Not to be combined.",
+                "info": "The locals choice for over 25 years! A menu that proves to be as much a delight as the atmosphere. Sunday brunch. Take-out available. Sports bar. Catering.",
+                "mapname": "Billy's Beach Cafe",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6708391,
+                    40.5881806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "AtlanticInsurance",
+                "address": "120 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-670-9305",
+                "web": "http://HomeTownAtlanticInsurance.com/",
+                "business": "Defensive Driving",
+                "discount": "$10 off your Defensive Driving Class.",
+                "info": "Take one of our Defensive Driving Classes and save 10% off your auto insurance and reduce up to 4 points off your license for 3 years.",
+                "mapname": "Hometown - Atlantic Insurance Agency",
+                "category": "live_and_work",
+                "subcategory": "driving_schools"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6676239,
+                    40.5881211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ShirtLaunderers",
+                "address": "41 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-897-6246",
+                "business": "Dry Cleaner",
+                "discount": "$10 off your dry cleaning order of $50 or more. Must be paid in advance. Can not be combined with any other promotion.",
+                "info": "Serving Long Beach for over 20 years. Cleaners and shirt launderers. Valet work our speciality.",
+                "mapname": "Delta Cleaners & Shirt Launderers",
+                "category": "live_and_work",
+                "subcategory": "tailoring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66336521428572,
+                    40.58840671428571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BrixxBarley",
+                "address": "152 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-544-4511",
+                "web": "http://BrixxAndBarley.com/",
+                "business": "Restaurant",
+                "discount": "$10 off your order of $60 or more. Take out and delivery orders only.",
+                "info": "We have an outstanding menu and a full bar. Best brick-oven pizza in Long Beach. Dine in or take out. We deliver.",
+                "mapname": "Brixx & Barley",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6686941,
+                    40.5881238
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GoodElectric",
+                "address": "57 Vermont St.",
+                "town": "Long Beach",
+                "phone": "516-431-8585",
+                "web": "http://AllGoodElectric.net/",
+                "business": "Electrician",
+                "discount": "$100 off any job over $1,000.",
+                "info": "With over 30 years of honesty, dependability and integrity, our goal is to provide safe, efficient and economical wiring in every area of your home and business.",
+                "mapname": "All Good Electric",
+                "category": "live_and_work",
+                "subcategory": "electricians"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6932343,
+                    40.5862877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TuttiFrutti",
+                "address": "28A W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-442-7222",
+                "business": "Frozen Yogurt",
+                "discount": "$2 off your purchase of $15 or more.",
+                "info": "Your yogurt is entirely your choice. Come in, choose a cup, fill it with any flavors and toppings that you want, however much you want - pay by the ounce.",
+                "mapname": "Tutti Frutti",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6651326,
+                    40.5881493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BryanMurphy",
+                "address": "120 W. Park Ave., Suite 101",
+                "town": "Long Beach",
+                "phone": "516-647-3242",
+                "web": "http://LongIslandFindHomes.com/",
+                "business": "Real Estate",
+                "discount": "$250 gift card when your home is listed and sold with Bryan Murphy.",
+                "info": "My goal is to make the process of buying, selling, or owning a home efficient, enjoyable and rewarding for you.",
+                "mapname": "Bryan Murphy - RE/MAX Innovations",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6676239,
+                    40.5881211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LongBeachPlazaLiquor",
+                "address": "45 Long Beach Plaza",
+                "town": "Long Beach",
+                "phone": "516-432-5500",
+                "business": "Wine & Liquor",
+                "discount": "$5 off any liquor purchase over $50. $10 off any wine purchase over $50. Not to be combined with any other offer.",
+                "info": "Serving the community since 1984, we are a wine and liquor retailer offering a wide selection at very competitive prices. Wine manager always available. Free Delivery.",
+                "mapname": "Long Beach Plaza Liquor",
+                "category": "shop_and_discover",
+                "subcategory": "alcohol_specialty"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.661231,
+                    40.5892221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "KeyFoodMarketplace",
+                "address": "663 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-5515",
+                "business": "Supermarket",
+                "discount": "$5 off your purchase of $25 or more.",
+                "info": "Celebrating over 75 years in NY! Each store is still individually owned and operated, which allows us to meet the diverse needs of our neighborhood.",
+                "mapname": "Key Food Marketplace",
+                "category": "shop_and_discover",
+                "subcategory": "supermarkets"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6442463,
+                    40.5890542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GourmetNutsSweets",
+                "address": "874 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-442-1185",
+                "business": "Sweet Shop",
+                "discount": "$5 off your purchase of $25 or more.",
+                "info": "chocolates, candies, truffles, fudge, nuts. Best Gelato ice-cream in town! Unique gift baskets for every occasion and budget.",
+                "mapname": "Gourmet Nuts 'N' Sweets",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.690543,
+                    40.5858989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "DrLelandBarry",
+                "address": "651 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-670-0600",
+                "web": "http://GoEyeStore.com/",
+                "business": "Optical / Optometrist",
+                "discount": "$50 off one complete pair of glasses. Minimum purchase $150.",
+                "info": "Over 30 years experience. Affordable eyewear with many designer frames. Contact lens specialist with hard to fit patient cases. Accept most insurances including VSP and EyeMed. Closed Sundays.",
+                "mapname": "Dr. Leland Barry",
+                "category": "thrive_and_restore",
+                "subcategory": "optometrists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.644559,
+                    40.5890505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "AboveAllEyes",
+                "address": "264 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-2010",
+                "web": "http://AboveAllEyes.com/",
+                "business": "Optical / Optometrist",
+                "discount": "$50 off one complete pair of glasses. Minimum purchase $200. Not to be combined with insurance or other offers.",
+                "info": "Come in for personal care and great service. Convenient hours--open late two nights each week. Most insurances accepted.",
+                "mapname": "Above All Eyes",
+                "category": "thrive_and_restore",
+                "subcategory": "optometrists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6560138,
+                    40.5883022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LalehTavabiDDS",
+                "address": "324 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-2837",
+                "web": "http://LTDDS.com/",
+                "business": "Dentist",
+                "discount": "$50 off Zoom teeth whitening.",
+                "info": "The latest techniques in Cosmetic Dentistry in a gentle and relaxed atmosphere. TVs, coffee bar and many extras. Convenient hours, Zoom bleaching, Lumineers and much more.",
+                "mapname": "Laleh Tavabi, DDS",
+                "category": "thrive_and_restore",
+                "subcategory": "dentists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.67366584999999,
+                    40.58810875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "VerdeschiRealty",
+                "address": "1025 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-431-6160",
+                "web": "http://VerdeschiRealty.com/",
+                "business": "Real Estate",
+                "discount": "$500 credit payable towards the moving company of your choice when you sell your property with us.",
+                "info": "Serving Long Beach, Lido Beach, Atlantic Beach, E. Atlantic Beach, Pt. Lookout & Island Park for over 40 years. An independent and experienced MLS Realtor for all your service needs.",
+                "mapname": "Verdeschi Realty",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69753225,
+                    40.58624445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CharlesRutenberg",
+                "address": "46 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-860-5784",
+                "web": "http://TheLeahTeam.com/",
+                "business": "Real Estate",
+                "discount": "$500 towards moving expenses at closing if you list and sell with us.",
+                "info": "We believe in changing the way that real estate is bought and sold by putting personal service before profit. We are recognized as the #1 referred realtors in Long Beach.",
+                "mapname": "Charles Rutenberg Realty - The Leah Team",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6624132,
+                    40.5881508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "WestRestaurant",
+                "address": "918 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-889-1711",
+                "web": "http://WestEndPizzaLB.com/",
+                "business": "Pizzeria / Restaurant",
+                "discount": "1) $2 off any pie. Excludes gluten free. 2) $5 off purchase of $35 or more.",
+                "info": "Best pizza in town! Eat in or take out. Specialty pies, soups, salads, heros, pasta specialties and more. Free delivery, catering and outside seating available.",
+                "mapname": "West End Pizza & Restaurant",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6923349,
+                    40.5858318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MuscleMakerGrill",
+                "address": "18 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-6600",
+                "web": "http://MuscleMakerGrill.com/",
+                "business": "Restaurant",
+                "discount": "1) $5 off your purchase of $25 or more. 2) Free 16 oz. smoothie or shake with your purchase of any wrap.",
+                "info": "Great Food With Your Health In Mind! Satisfying everyone from vegetarians to the carb-free consumer to people following a gluten-free diet.",
+                "mapname": "Muscle Maker Grill",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6632308,
+                    40.588157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "HighlightsWest",
+                "address": "805 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-442-3599",
+                "web": "http://HighlightsWest.com/",
+                "business": "Hair Salon",
+                "discount": "10% off all services (except injectables).",
+                "info": "We devote our knowledge and expertise towards providing you with the best service possible. Consultations are the foundation to our success.",
+                "mapname": "Highlights West",
+                "category": "thrive_and_restore",
+                "subcategory": "hair_salons_and_barbers"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6872359,
+                    40.5861707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "IslandDermatology",
+                "address": "604 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-0011",
+                "web": "http://IslandDerm.com/",
+                "business": "Dermatologist",
+                "discount": "10% off any products purchased at office.",
+                "info": "Ronald H. Falcon, MD; Charisse A. Dolitsky, MD; K. Andrew Cerveny, Jr., MD; Wil D. Tutrone, M.D.; Adarsh V. Mudgil, M.D.; Linda M. Dodick, MPAS",
+                "mapname": "Island Dermatology",
+                "category": "thrive_and_restore",
+                "subcategory": "dermatologists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64638246865672,
+                    40.5882635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Jetty",
+                "address": "832 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-442-1338",
+                "web": "http://JettyLB.com/",
+                "business": "Restaurant",
+                "discount": "10% off entire check.Limit 1 per table. Table of 4 max.",
+                "info": "An elegant yet casual place to enjoy great food, exotic drinks, friendly people and live entertainment. JETTY is your destination for fun & relaxing! Open Tues-Sun.",
+                "mapname": "Jetty",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.68842952501694,
+                    40.58586735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "WestParkCenter",
+                "address": "390 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-6581",
+                "business": "Auto Repair",
+                "discount": "10% off labor on jobs $50 or more. Excludes specials. Not to be combined.",
+                "info": "Offering professional auto repairs six days a week, gas and free air 24 hours/7 days a week. Snacks, Lotto, ATM.",
+                "mapname": "West Park Ave. Service Center",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6752041,
+                    40.5881018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GoodYear",
+                "address": "512 Long Beach Blvd.",
+                "town": "Long Beach",
+                "phone": "516-889-6021",
+                "web": "http://LongBeachSavvy.com/",
+                "business": "Auto Repair, Tire",
+                "discount": "10% off labor. Not to be combined.",
+                "info": "Your One Stop Neighborhood Car Center for almost 30 years. Free pick-up & drop off service. Mon-Fri 8-6. Sat-Sun 8-4. N.Y.S. Inspection Station",
+                "mapname": "Good Year",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65743569735213,
+                    40.590615150000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BeachLiquors",
+                "address": "1087 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-889-8228",
+                "web": "http://GoBeachLiquors.com/",
+                "business": "Wine & Liquor",
+                "discount": "10% off liquor and 20% off wine. Cash & Carry Only. Not to be combined.",
+                "info": "Locally owned and operated. Active in the community for over thirty years. Weekly wine tastings. Lotto. Open seven days. We deliver!",
+                "mapname": "Beach Liquors",
+                "category": "shop_and_discover",
+                "subcategory": "alcohol_specialty"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7003779,
+                    40.586182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SurfGlassCorp",
+                "address": "457 Long Beach Blvd.",
+                "town": "Long Beach",
+                "phone": "516-431-5220",
+                "web": "http://SurfGlassCorp.com/",
+                "business": "Glass",
+                "discount": "10% off on storm panels and screens. Drop off and pick-up only.",
+                "info": "Family owned & operated. Serving Long Beach since 1953. Auto service to residential glass repairs--we do it all! M-F 8am-6pm. Sat 8am-1pm.",
+                "mapname": "Surf Glass Corp.",
+                "category": "live_and_work",
+                "subcategory": "glass_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6585614,
+                    40.5897855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "VillaggioAuthenticItalianCuisine",
+                "address": "157 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-897-1886",
+                "web": "http://VillaggioHome.com/",
+                "business": "Restaurant",
+                "discount": "10% off your bill.",
+                "info": "We cater to your taste and mood with an elegant yet relaxed and casual restaurant-cafe. Here you can enjoy authentic Italian cuisine and superb ambiance.",
+                "mapname": "Villaggio Authentic Italian Cuisine",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6593453,
+                    40.5889169
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TheCabana",
+                "address": "1034 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-889-1345",
+                "web": "http://CabanaLBNY.com/",
+                "business": "Restaurant",
+                "discount": "10% off your lunch bill. Excludes Sat/Sun Brunch and Taco Tuesdays. Not to be combined.",
+                "info": "The West End's only Mexican-American cuisine. Dine indoors or outdoors, free parking and delivery. Open 7 days during summer.",
+                "mapname": "The Cabana",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6979007,
+                    40.5858673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BaskinRobbins",
+                "address": "170 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-6950",
+                "web": "http://CabanaLBNY.com/",
+                "business": "Ice Cream / Ices",
+                "discount": "10% off your purchase of $10 or more.",
+                "info": "The world's largest chain of ice cream specialty shops. Innovative, premium ice cream, specialty frozen desserts and beverages, providing quality and value to our consumers. Cakes available.",
+                "mapname": "Baskin Robbins",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6588718,
+                    40.5881738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "WestEndAutomotive",
+                "address": "927 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-432-7383",
+                "business": "Auto Repair",
+                "discount": "10% off your repair of $300 or more.",
+                "info": "Serving our community for 23 years. We are a full service auto center. Fast oil change--tune-ups--brakes. NYS inspections. Closed Sundays.",
+                "mapname": "West End Automotive",
+                "category": "live_and_work",
+                "subcategory": "auto_repair"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6928707,
+                    40.5862097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CellCity",
+                "address": "54 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-897-6060",
+                "business": "Wireless",
+                "discount": "15% off all accessories. Does not apply to phone purchases or payments.",
+                "info": "Serving the community for over 12 years. Senior discounts, bill payments, corporate discounts, prepaid services, cell phone repairs, repair and unlocking service. Unlocked GSM World phones.",
+                "mapname": "Cell City",
+                "category": "live_and_work",
+                "subcategory": "telecommunications"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66588743079568,
+                    40.588131849999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MetrPCS",
+                "address": "64 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-544-4656",
+                "business": "Wireless",
+                "discount": "15% off all accessories. Does not apply to phone purchases or payments.",
+                "info": "Move to the most affordable, unlimited data, talk and text with no annual contract on a nationwide 4G LTE network.",
+                "mapname": "Metro PCS",
+                "category": "live_and_work",
+                "subcategory": "telecommunications"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6662145,
+                    40.588115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LaurelTailorsDryCleaners",
+                "address": "285 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-6863",
+                "business": "Tailor, Dry Cleaner",
+                "discount": "15% off any incoming \"dry cleaning\" order only. Must be presented at time of drop off. Not to be combined.",
+                "info": "Family owned and operated for three generations. All work done on premises. Same day service--never an extra charge. We are \"A better cleaner for those who care.\"",
+                "mapname": "Laurel Tailors & Dry Cleaners",
+                "category": "live_and_work",
+                "subcategory": "tailoring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.67240227844938,
+                    40.5888537
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "AtlanticaRestaurant",
+                "address": "80 W. Broadway",
+                "town": "Long Beach",
+                "phone": "516-889-1300",
+                "web": "http://AllegriaHotel.com/",
+                "business": "Hotel",
+                "info": "Discover Long Island's only luxury oceanfront hotel where the Hamptons meets Manhattan. Experience the Atlantic's rolling waves, endless skies and majestic sunset views.",
+                "mapname": "Allegria Hotel",
+                "category": "visit_and_experience",
+                "subcategory": "hotels"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6663505,
+                    40.58413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CurrywurstCompany",
+                "address": "10 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-665-3150",
+                "web": "http://The-Currywurst-Company.com/",
+                "business": "Restaurant",
+                "discount": "15% off your purchase of $20 or more. (Excludes delivery and alcohol.)",
+                "info": "The first and only German restaurant in Long Beach, NY. We offer the largest selection of German beers and sausages on the South Shore of Long Island.",
+                "mapname": "Currywurst Company",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6645073,
+                    40.588149
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GentleBrewCoffeeRoasters",
+                "address": "151 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-605-2370",
+                "web": "http://GentleBrewCoffee.com/",
+                "business": "Coffee / Coffee House",
+                "discount": "20% off a vacuum pot of any size with the purchase of any weekend breakfast item.",
+                "info": "We are local coffee roasters. All of our coffee is roasted on site. Come down to our cafe to try our freshly roasted coffee.",
+                "mapname": "Gentle Brew Coffee Roasters",
+                "category": "eat_and_drink",
+                "subcategory": "coffee_shops"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6595821,
+                    40.5889147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "JewelryBySteven",
+                "address": "643 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-897-0700",
+                "web": "http://JewelryBySteven.com/",
+                "business": "Jewelry",
+                "discount": "20% off in-stock merchandise only.",
+                "info": "In a store filled with diamonds and gold the most precious thing is our customer. Custom designs. Expert repairs. We carry the fun stuff!",
+                "mapname": "Jewelry By Steven",
+                "category": "shop_and_discover",
+                "subcategory": "jewelry_and_accessories"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6450243,
+                    40.589051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "DonJuan",
+                "address": "124 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-442-4944",
+                "web": "http://DonJuanNY.com/",
+                "business": "Restaurant",
+                "discount": "20% off Sun-Thurs. Void on holidays. Not to be combined. One per table.",
+                "info": "Bringing you authentic Mexican cuisine. We take pride in serving you a slice of paradise. Voted best margarita and sangria on Long Island.",
+                "mapname": "Don Juan",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6602817,
+                    40.5881695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "NuClearClothingCareSpecialists",
+                "address": "180 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-9260",
+                "business": "Dry Cleaner",
+                "discount": "20% off your dry cleaning order.",
+                "info": "Third generation dry cleaner serving the Long Beach area for over 60 years. Fine tailoring and shirt laundering. Specializing in all ski apparel and wedding gowns.",
+                "mapname": "Nu-Clear Clothing Care Specialists",
+                "category": "live_and_work",
+                "subcategory": "tailoring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65859142551736,
+                    40.588139749999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MatthewFAAP",
+                "address": "272 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-543-5000",
+                "web": "http://MatthewCohenMD.com/",
+                "business": "Pediatrics",
+                "info": "State-of-the-art facility, open seven days with 24-hour on call services. Modern comfortable environment. Friendly and courteous staff. Well child care, urgent care issues, summer patients welcome.",
+                "mapname": "Matthew S. Cohen, MD, FAAP",
+                "category": "thrive_and_restore",
+                "subcategory": "pediatricians"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.67222790033092,
+                    40.5880843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LIPath",
+                "address": "303 E. Park Ave., Suite D",
+                "town": "Long Beach",
+                "phone": "516-889-0708",
+                "web": "http://LIPath.com/",
+                "business": "Blood / Clinical Testing",
+                "info": "We provide high quality clinical blood testing. Our location offers patients personalized service with minimal wait times, quick reported results and high patient satisfaction.",
+                "mapname": "LI Path",
+                "category": "thrive_and_restore",
+                "subcategory": "laboratory_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65503964973573,
+                    40.5889461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "RightChoicePrimaryCare",
+                "address": "303 E. Park Ave., Suite E",
+                "town": "Long Beach",
+                "phone": "516-889-3282",
+                "web": "http://RightChoiceMD.com/",
+                "business": "Primary Care / Walk-In",
+                "info": "A competent and compassionate team of physicians and nurse practitioners. Routine, DOT, school and employment physicals, management of acute and chronic diseases, home visits. Most insurances accepted.",
+                "mapname": "Right Choice Primary Care",
+                "category": "thrive_and_restore",
+                "subcategory": "primary_care"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65503964973573,
+                    40.5889461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "FriedbergCC",
+                "address": "310 National Blvd.",
+                "town": "Long Beach",
+                "phone": "516-431-2929",
+                "web": "http://FriedbergJCC.org/",
+                "business": "Child Care / Pre-School",
+                "info": "Offering quality year round programs. Our early childhood, school-age and holiday programs are licensed by NYS. Stop by and meet our experienced and loving staff.",
+                "mapname": "Friedberg JCC",
+                "category": "play_and_learn",
+                "subcategory": "childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66652944964987,
+                    40.5878533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "NolanPub",
+                "address": "435 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-9530",
+                "business": "Pub",
+                "info": "Since 1939, Long Beach's favorite East End pub. Friendly crowd and bartenders. Pool table and bocce. \"Coldest beer in town!\" Open 7 days. Recently renovated.",
+                "mapname": "Nolan's Pub",
+                "category": "eat_and_drink",
+                "subcategory": "bars_and_pubs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6512143,
+                    40.5889464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "FireCommand",
+                "address": "475 Long Beach Blvd.",
+                "town": "Long Beach",
+                "phone": "516-889-1111",
+                "web": "http://FireCommandCo.com/",
+                "business": "Fire Protection Services",
+                "info": "A leader in fire safety since 1969. Our friendly staff reflect years of experience in sales, product installation, maintenance, and attention to customer need.",
+                "mapname": "Fire Command Co. Inc.",
+                "category": "live_and_work",
+                "subcategory": "safety_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.658517,
+                    40.5900259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "AllstateInsurance",
+                "address": "511 Long Beach Blvd.",
+                "town": "Long Beach",
+                "phone": "516-889-3400",
+                "business": "Insurance",
+                "info": "Drivers who switched to Allstate saved an average of $498 a year. Call today for a free policy review. How much will you save?",
+                "mapname": "Allstate Insurance",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6583545,
+                    40.5905574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "NutritionCounseling",
+                "address": "535A W. Broadway",
+                "town": "Long Beach",
+                "phone": "516-431-1299",
+                "web": "http://EatingSolutionsInc.com/",
+                "business": "Dietitian / Nutritionist",
+                "info": "Licensed Registered Dietitian. Through nutrition education, motivation and support we can help you on your journey to optimum health and wellness.",
+                "mapname": "Nutrition Counseling",
+                "category": "thrive_and_restore",
+                "subcategory": "nutritionists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.67976,
+                    40.5848625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "DenisMillerInsuranceAgency",
+                "address": "60 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-9245",
+                "web": "http://DenisMillerInsurance.com/",
+                "business": "Insurance",
+                "info": "A local family owned and operated independent insurance agency. One of the largest providers of flood insurance in NY, Denis A. Miller is known as the 'Flood Man'.",
+                "mapname": "Denis A. Miller Insurance Agency, Inc.",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66602944854124,
+                    40.58812935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CosmeticLongBeach",
+                "address": "618 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-4334",
+                "web": "http://DrBruceGitt.com/",
+                "business": "Dentist",
+                "info": "Specializing in extreme smile makeovers for a brighter smile. Dr Gitt's procedures include dental veneers, dental bonding, metal free fillings, teeth whitening, and crowns.",
+                "mapname": "Cosmetic & Implant Dentistry of Long Beach",
+                "category": "thrive_and_restore",
+                "subcategory": "dentists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6460582,
+                    40.5882829
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "PrecisionPharmacy",
+                "address": "629 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-8899",
+                "web": "http://PrecisionPharmacy.net/",
+                "business": "Pharmacy",
+                "info": "Family owned pharmacy that will fill prescription while you wait. No cost Rx transfer. We offer diabetic and home health care supplies and have free delivery service.",
+                "mapname": "Precision Pharmacy",
+                "category": "thrive_and_restore",
+                "subcategory": "pharmacies"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64552227474371,
+                    40.58903165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CentreMillworkSupply",
+                "address": "669 Long Beach Blvd.",
+                "town": "Long Beach",
+                "phone": "516-432-6566",
+                "web": "http://CentreMillwork.com/",
+                "business": "Lumber Yard",
+                "info": "We are a family owned full service lumberyard providing home owners and professional contractors with quality lumber and building materials since 1949.",
+                "mapname": "Centre Millwork & Supply Co.",
+                "category": "live_and_work",
+                "subcategory": "building_materials"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65798442557053,
+                    40.59309065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "PAMAirServices",
+                "address": "701 Park Pl.",
+                "town": "Long Beach",
+                "phone": "516-889-3100",
+                "web": "http://PAMAirGroup.com/",
+                "business": "Air Conditioning / Heating / Ventilation",
+                "info": "After Sales Comes Service – Air conditioning - Heating - Ventilation. Servicing the Long Beach area for over 60 years. Service, installations, sales and design. Residential & commercial.",
+                "mapname": "PAM Air-Services, Inc.",
+                "category": "live_and_work",
+                "subcategory": "hvac"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66382069004166,
+                    40.592957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "EastParkChiropractic",
+                "address": "714 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-7972",
+                "web": "http://EastParkChiro.com/",
+                "business": "Acupuncture",
+                "info": "Pain-arthritis-headaches-insomnia-depression-chronic fatigue-stress/anxiety-hypertension-Bell's palsy-TMJ-post stroke-Fibromyalgia-Carpal Tunnel-auto injury-gynecological problems-digestive disorders-allergies",
+                "mapname": "East Park Chiropractic Health & Wellness Care",
+                "category": "thrive_and_restore",
+                "subcategory": "acupuncture"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64319059764031,
+                    40.5883099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "EastParkChiropractic1",
+                "address": "714 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-7972",
+                "web": "http://EastParkChiro.com/",
+                "business": "Chiropractor",
+                "info": "Traditional and non-forced chiropractic for preventive care, pain and injuries. Automobile accident, work-related, sports injury, massage therapy, homeopathic pain management and nutritional consultation.",
+                "mapname": "East Park Chiropractic Health & Wellness Care",
+                "category": "thrive_and_restore",
+                "subcategory": "chiropractic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64319059764031,
+                    40.5883099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "StIgnatiusMartyrChurch",
+                "address": "721 W. Broadway",
+                "town": "Long Beach",
+                "phone": "516-432-0045",
+                "web": "http://StIgnatiusMartyr.org/",
+                "business": "House of Worship",
+                "info": "Sat -5pm, Sunday-8am, 10am, 12noon. Weekdays-8am. We welcome as family all who knock on our door seeking the face of Christ.",
+                "mapname": "St. Ignatius Martyr R.C. Church",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.68453473468517,
+                    40.58495275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TheMermaidArtStudio",
+                "address": "891B W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-897-3710",
+                "web": "http://TheMermaidArtStudio.com/",
+                "business": "Art Studio",
+                "info": "Instructional classes and creative workshops for all ages and abilities. Come create with us! After school program, summer camp, birthday parties. Painting, drawing, fiber arts and more!",
+                "mapname": "The Mermaid Art Studio",
+                "category": "visit_and_experience",
+                "subcategory": "art_studios"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6911455,
+                    40.586183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "HamletInvestmentServices",
+                "address": "899 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-897-2760",
+                "business": "Financial Planner",
+                "info": "Your financial health is our first priority. We are a 40 million dollar company. We specialize in retirement planning for Long Beach School personnel and Long Beach businesses.",
+                "mapname": "Hamlet Investment Services",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6916097,
+                    40.5861845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CityMD",
+                "address": "904 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-272-4353",
+                "web": "http://CityMD.com/",
+                "business": "Urgent Care",
+                "info": "Our Board-Certified physicians can treat almost any injury or illness, on-site lab, x-ray, EKG, IV. Open 365 days, including holidays. Children & adults. No appointment needed.",
+                "mapname": "CityMD",
+                "category": "thrive_and_restore",
+                "subcategory": "urgent_care"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.691259,
+                    40.585936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LongBeachTaxi",
+                "address": "927 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-431-5200",
+                "business": "Taxi",
+                "info": "Serving our community for over 60 years. Conveniently located at the LIRR. Open 24/7. We offer Senior rates, corporate and personal accounts. Thank you for your continued support.",
+                "mapname": "Long Beach Taxi",
+                "category": "live_and_work",
+                "subcategory": "taxi_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6928707,
+                    40.5862097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LillysofLongBeach",
+                "address": "958 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-442-5484",
+                "web": "http://LillysOfLongBeach.com/",
+                "business": "Bar",
+                "info": "The West End's hottest new bar and restaurant! Open daily until 4am. Happy hour weekdays 5-7pm. Celebrate your event with us!",
+                "mapname": "Lilly's of Long Beach",
+                "category": "eat_and_drink",
+                "subcategory": "bars_and_pubs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6941457,
+                    40.5858378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BeechStTaxi",
+                "address": "966 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-431-4444",
+                "web": "http://BeechStTaxi.com/",
+                "business": "Taxi",
+                "info": "Beech Street Taxi is the fastest provider of taxi's and town cars in Long Beach. We have the best rates to and from the airports.",
+                "mapname": "Beech St. Taxi",
+                "category": "live_and_work",
+                "subcategory": "taxi_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6946313,
+                    40.5858521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "NassauFinancialFederal",
+                "address": "2995 Long Beach Rd.",
+                "town": "Oceanside",
+                "phone": "516-742-4900",
+                "web": "http://NassauFinancial.org/",
+                "business": "Banking / Finance",
+                "info": "We're \"More of What A Bank Should Be,\" providing great rates on a full line of products and services the credit union way. Open an account or request a loan anytime. Safe. Secure. Federally Insured.",
+                "mapname": "Nassau Financial Federal Credit Union",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6463576,
+                    40.6134372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "FishermanRestaurant",
+                "address": "111 Bayside Dr.",
+                "town": "Point Lookout",
+                "phone": "516-670-9717",
+                "web": "http://FishermansCatchRestaurant.net/",
+                "business": "Restaurant",
+                "discount": "$10 off your bill of $50 or more. Monday and Tuesday only. Can not be combined with any other offer.",
+                "info": "From Our Ships...To Your Lips! Located right on the water in Point Lookout. Lunch, Dinner, Sunday Brunch Buffet. Live Lobster Grotto.",
+                "mapname": "Fisherman's Catch Restaurant",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.71212933853562,
+                    40.58794971130598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "JoJoApples",
+                "address": "85 Lido Blvd.",
+                "town": "Point Lookout",
+                "phone": "516-432-6494",
+                "web": "http://JoJoApples.com/",
+                "business": "Restaurant",
+                "discount": "$5 off your bill of $40 or more. Labor Day through Memorial Day.",
+                "info": "Voted one of the best places for breakfast by Newsday. Breakfast, lunch and dinner served daily. Indoor and outdoor dining. Check out our daily dinner specials. Free delivery.",
+                "mapname": "Jo Jo Apples",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.62356882951102,
+                    40.587399649999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GeloPointPharmacy",
+                "address": "62 Lido Blvd.",
+                "town": "Point Lookout",
+                "phone": "516-889-3444",
+                "web": "http://GelosPointPharmacy.com/",
+                "business": "Pharmacy",
+                "discount": "$5 off your purchase of $25 or more. Excludes prescriptions.",
+                "info": "We pride ourselves as being a true Neighborhood Pharmacy with personalized service that celebrates the heritage of our community of Point Lookout.",
+                "mapname": "Gelo's Point Pharmacy",
+                "category": "thrive_and_restore",
+                "subcategory": "pharmacies"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.622825999782,
+                    40.5877177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bethpageunion",
+                "address": "26 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "800-628-7070",
+                "web": "https://www.bethpagefcu.com/",
+                "business": "Banking / Finance",
+                "info": "We are a financial institution offering a spectrum of services. Our main objective is to provide our members with extraordinary value and service. Built to Give You More.",
+                "mapname": "Bethpage Federal Credit Union",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66499015719786,
+                    40.58807245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "corazoncuba",
+                "address": "26 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-272-4200",
+                "web": "http://corazondecubany.com/",
+                "business": "Restaurant",
+                "info": "We bring all the Latin flavors not only through food but through drinks, music and lively recreation of the environment of the Caribbean.",
+                "mapname": "Corazon De Cuba",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6629894,
+                    40.5882136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "countrybakery",
+                "address": "256 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-7295",
+                "web": "http://www.countryboybakery.net/",
+                "business": "Bakery",
+                "info": "Serving the community for over 35 years. Cakes, cookies, pastries, rolls, Danishes, muffins, pies, doughnuts, breakfast specials and more. A sugar free section and cakes to order.",
+                "mapname": "Country Boy Bakery",
+                "category": "eat_and_drink",
+                "subcategory": "bakeries"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6562776,
+                    40.588304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "episcopalchurch",
+                "address": "220 W. Penn St.",
+                "town": "Long Beach",
+                "phone": "516-432-1080",
+                "web": "http://stjameslongbeach.org/",
+                "business": "House of Worship",
+                "info": "00am Solemn High Mass, Children's Sunday School - 10am.",
+                "mapname": "St. James of Jerusalem Episcopal Church",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.67056716306735,
+                    40.58524815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "tobenmedician",
+                "address": "206 Riverside Blvd.",
+                "town": "Long Beach",
+                "phone": "516-432-5670",
+                "business": "Internal Medicine",
+                "info": "Our practice is dedicated to providing quality health care. We give our patients the utmost care and service and have the interest and desire to listen to what you are saying.",
+                "mapname": "Lowell B. Taubman, MD - Internal Medicine",
+                "category": "thrive_and_restore",
+                "subcategory": "primary_care"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66099910526316,
+                    40.586421736842105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beachreach",
+                "address": "2-12 W. Park Ave., Suite 200",
+                "town": "Long Beach",
+                "phone": "516-889-2332",
+                "web": "http://longbeachreach.com/",
+                "business": "Counseling",
+                "info": "Providing comprehensive professional services for local individuals and families since 1970. Our mission is to help develop self-awareness and self-esteem and to create positive alternatives.",
+                "mapname": "Long Beach Reach",
+                "category": "thrive_and_restore",
+                "subcategory": "mental_health_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6643372,
+                    40.5881497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nagahamajapan",
+                "address": "169 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-6446",
+                "web": "http://nagahamasushi.com/",
+                "business": "Restaurant",
+                "info": "Come and visit the best Japanese restaurant on Long Island. You have never tasted anything like Nagahama!",
+                "mapname": "Nagahama Japanese Restaurant",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6589449,
+                    40.5889149
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "harriatschool",
+                "address": "165 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-5575",
+                "web": "http://longbeachreach.com/",
+                "business": "Education",
+                "info": "An alternative high school diploma program for students who have withdrawn from the traditional education system. College and vocational admission assistance are also provided.",
+                "mapname": "Harriet Eisman Community School",
+                "category": "play_and_learn",
+                "subcategory": "educational_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6590862,
+                    40.588917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "elovichadell",
+                "address": "164 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-6263",
+                "web": "http://longbeachlawyersny.com/",
+                "business": "Attorney",
+                "info": "We are a full service law firm serving the Long Beach community for over 40 years.",
+                "mapname": "Elovich & Adell - Attorneys At Law",
+                "category": "live_and_work",
+                "subcategory": "attorneys"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66905547909309,
+                    40.5881086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "gullreality",
+                "address": "162 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-4600",
+                "web": "http://gullrealty.com/",
+                "business": "Real Estate",
+                "info": "Gull Realty has been part of the Long Beach community for more than 23 years. We specialize in ocean front property, residential homes, condos, co-ops, commercial investment properties and vacant land parcels.",
+                "mapname": "Gull Realty",
+                "category": "live_and_work",
+                "subcategory": "real_estate"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.659049,
+                    40.5881766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mariaaramanda",
+                "address": "162 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-0800",
+                "business": "Attorney",
+                "info": "Providing personalized professional legal services to Long Beach and surrounding communities. We have a general practice and specialize in real estate, estate planning, and civil litigation.",
+                "mapname": "Maria J. Aramanda - Attorney At Law",
+                "category": "live_and_work",
+                "subcategory": "attorneys"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.659049,
+                    40.5881766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "llpheartz",
+                "address": "158 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-4554",
+                "business": "Accountant",
+                "info": "Serving the community since 1992. Owned by two Certified Public Accountants--a husband and wife team--with over 30 years experience. Handling corporate, partnership, individual, estate and trusts.",
+                "mapname": "Hertz & Rosenzweig LLP",
+                "category": "live_and_work",
+                "subcategory": "accountants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6591923,
+                    40.5881901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "grandupcity",
+                "address": "138 E. Park Ave",
+                "town": "Long Beach",
+                "phone": "516-544-2888",
+                "business": "Discount Store",
+                "info": "Good deals on school supplies, party goods, household items, toys, floral, hardware, seasonal and holiday decorations. Everything is 99 cents and up.",
+                "mapname": "Grand 99¢ & Up City",
+                "category": "shop_and_discover",
+                "subcategory": "discount_stores"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6597350426589,
+                    40.58818675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "citybank",
+                "address": "129 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-6985",
+                "web": "http://citibank.com/",
+                "business": "Banking / Finance",
+                "info": "Common Purpose, Responsible Finance, Ingenuity and Leadership.",
+                "mapname": "Citibank",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6600743,
+                    40.5889278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "gleanteeth",
+                "address": "120 W. Park Ave., Suite 301",
+                "town": "Long Beach",
+                "phone": "516-431-5855",
+                "web": "http://happyteethonline.com/",
+                "business": "Dentist",
+                "info": "Our goal and policy is to treat your children as if they were our own. We consider your children not just a patient, but part of our extended family.",
+                "mapname": "Dr. Glen's Happy Teeth",
+                "category": "thrive_and_restore",
+                "subcategory": "dentists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6676239,
+                    40.5881211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "happyteeth",
+                "address": "120 W. Park Ave., Suite 301",
+                "town": "Long Beach",
+                "phone": "516-431-5855",
+                "web": "http://happyteethonline.com/",
+                "business": "Orthodontist",
+                "info": "State-of-the-art technology, including digital x-rays, self-ligating braces, clear ceramic braces, lingual (hidden) braces and Invisalign. Treating children, adolescents, and adults with care and compassion.",
+                "mapname": "Adam Cohen, DMD - Orthodontist",
+                "category": "thrive_and_restore",
+                "subcategory": "orthodontists"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6676239,
+                    40.5881211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hometowninsurance",
+                "address": "120 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-670-9305",
+                "web": "http://hometownatlanticinsurance.com/",
+                "business": "Insurance",
+                "info": "We sell auto, home, flood and business insurance. If you want great rates and customer service, easy pay plans, multiple policy discounts, call us for a free quote.",
+                "mapname": "Hometown - Atlantic Insurance Agency",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6676239,
+                    40.5881211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "israelbeach",
+                "address": "120 Long Beach Blvd",
+                "town": "Long Beach",
+                "phone": "516-431-2404",
+                "web": "http://yilb.org/",
+                "business": "House of Worship",
+                "info": "Our Orthodox synagogue is located in the heart of Long Beach. We have provided minyanim, shiurim and programming for over 50 years and are one of the warmest, vibrant synagogues in the country.",
+                "mapname": "Young Israel of Long Beach",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65780818832374,
+                    40.58526705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "capitalonebank",
+                "address": "11 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-5390",
+                "web": "http://capitalone.com/",
+                "business": "Banking / Finance",
+                "info": "A diversified bank that offers a broad array of financial products and services to consumers, small businesses and commercial clients. A Fortune 500 company. We are one of the nation's Top 10 largest banks based on deposits",
+                "mapname": "Capital One Bank",
+                "category": "live_and_work",
+                "subcategory": "financial_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66411412476965,
+                    40.588914900000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jilajency",
+                "address": "1048 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-432-4800",
+                "web": "http://jilagency.com/",
+                "business": "Insurance",
+                "info": "Serving Long Beach for over 25 years. We look forward to helping you with your flood, home, auto, motorcycle and business insurance policies. We are your full service neighbor insurance agency.",
+                "mapname": "Jil Insurance Agency",
+                "category": "live_and_work",
+                "subcategory": "insurance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6985671,
+                    40.5859092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "haweltpartner",
+                "address": "1047 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-415-7712",
+                "web": "http://www.hewlett-partners.com/",
+                "business": "Modular Homes",
+                "info": "The coastal solution for a rapid rebuild with affordable modular construction. Let us help you with all aspects of the rebuilding process and obtain the loan you need.",
+                "mapname": "Hewlett Partners Modular Homes",
+                "category": "live_and_work",
+                "subcategory": "modular_homes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6985306,
+                    40.5861837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beachhouse",
+                "address": "906 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-208-8733",
+                "web": "http://thebeachhouselbny.com",
+                "business": "Restaurant",
+                "discount": "15% off your check. Cash only. Not to be combined. Not valid on holidays.",
+                "info": "Five star food and nightlife. Live music every night. Greatest happy hour on the shore. Delicious drinks, terrific music, undeniable food, all served under one roof.",
+                "mapname": "The Beach House",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69184665,
+                    40.58582695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cyberplace",
+                "address": "38 W. Park Ave. Suite 500",
+                "town": "Long Beach",
+                "phone": "516-897-8419",
+                "web": "http://www.cybernetplace.com/",
+                "business": "Internet Marketing",
+                "discount": "$250 off any new service of $1000 or more.",
+                "info": "We help you get customers through your door! We are experienced in search engine optimization (SEO), social media and marketing your website to maximize your return on investment.",
+                "mapname": "The Cybernet Place",
+                "category": "live_and_work",
+                "subcategory": "marketing_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66552907445565,
+                    40.58819065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "incredivsolution",
+                "address": "266 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-897-2900",
+                "web": "http://www.vacuumcleaners.net/",
+                "business": "Vacuums",
+                "discount": "Take $20 off your purchase of $100 or more.",
+                "info": "We are an authorized dealer for many household and commercial vacuums. Central vacuum cleaner system installation. Industrial vacuums. Vacuum cleaner accessories.",
+                "mapname": "Incredivac Cleaning Solutions",
+                "category": "shop_and_discover",
+                "subcategory": "specialty_retail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6559632,
+                    40.5883046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "masterpark",
+                "address": "217 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-6006",
+                "web": "http://www.parkstaekwondo.com/",
+                "business": "Martial Arts",
+                "discount": "One month free trial class.",
+                "info": "Serving Long Beach since 2001. Classes tailored to individual needs. We combine fitness, self-defense, and stress relief with a stimulating varied program. Children, teen and adult classes.",
+                "mapname": "Master Park's Martial Arts",
+                "category": "thrive_and_restore",
+                "subcategory": "martial_arts_studios"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6574003,
+                    40.5888245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "shopeeicecream",
+                "address": "831 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-776-8092",
+                "business": "Ice Cream / Ices",
+                "discount": "One free topping with your ice cream purchase.",
+                "info": "The West End's favorite ice cream shop for over 50 years!",
+                "mapname": "The Ice Cream Shoppe",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.68842346021361,
+                    40.5861483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beachcabinat",
+                "address": "880 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-431-3852",
+                "web": "http://www.beachcabinetlb.com/",
+                "business": "Kitchens & Vanities",
+                "discount": "Get a free sink base with your order. Free measure and design.",
+                "info": "Stock to custom cabinetry for your home. A full line of tile, formica and quartz countertops. Let Long Beach people help rebuild our community!",
+                "mapname": "Beach Cabinets",
+                "category": "live_and_work",
+                "subcategory": "home_improvement"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69068290000001,
+                    40.5858709
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "frippery",
+                "address": "140 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-897-4000",
+                "web": "http://frippery2.com/",
+                "business": "Women's Boutique",
+                "discount": "Free pair of earrings with a purchase of $20 or more. See store for details.",
+                "info": "Fabulous jewelry, accessories, and clothing. Gift certificates-wedding parties-custom tees & sweats for parties/special occasions-teacher gifts-prom jewelry-hair accessories. Free gift bags!",
+                "mapname": "Frippery",
+                "category": "shop_and_discover",
+                "subcategory": "clothing_and_fashion"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65996148979592,
+                    40.58843375510204
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "localcycle",
+                "address": "307 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-390-7085",
+                "web": "http://localcyclesinc.com/",
+                "business": "Bicycles",
+                "discount": "Free lock and bell with any bike purchase.",
+                "info": "Bicycle sales and rentals, accessories, service on all makes and models, kustom builds. Closed Wed.",
+                "mapname": "Local Cycles",
+                "category": "visit_and_experience",
+                "subcategory": "bike_rentals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6731638,
+                    40.588692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bikramyoga",
+                "address": "120 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-442-3261",
+                "web": "http://www.bikramyogalbny.com/",
+                "business": "Yoga",
+                "discount": "Free 1 week unlimited (new students only); 30 days for $30 (students who have not been at studio in over one year).",
+                "info": "The Original Beginner's Hot Yoga Class. \"Never too late, never too bad, never too old or too sick to start from scratch again.\"",
+                "mapname": "Bikram Yoga",
+                "category": "thrive_and_restore",
+                "subcategory": "yoga_studios"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6603586,
+                    40.5881699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bbqswing",
+                "address": "909 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-431-3464",
+                "web": "http://www.swingbellysbbq.com/",
+                "business": "Restaurant",
+                "discount": "Complimentary dessert with your entree order. One per key tag.",
+                "info": "We serve great food to good people and keep the \"Love\" of BBQ alive. Our meats are slow cooked in our rotisserie pit. Our sauces and just about everything else on the menu is made from scratch.",
+                "mapname": "Swingbellys BBQ",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6921011,
+                    40.5862406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lifesbagel",
+                "address": "76 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-8470",
+                "business": "Bagels",
+                "discount": "Buy one dozen bagels, get four free. Mon-Fri only.",
+                "info": "The best bagel store in Long Beach. Our bagels are absolutely delicious. The service is great! So come and try everything! Under the supervision of the South Shore VAAD SVS.",
+                "mapname": "Life's A Bagel",
+                "category": "eat_and_drink",
+                "subcategory": "bakeries"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.666515,
+                    40.5881176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "maxstok",
+                "address": "159 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-432-5300",
+                "business": "Bagels",
+                "discount": "Buy one dozen bagels get six free. Buy six bagels get three free. Excludes flats. Mon-Thurs. No holidays.",
+                "info": "Traditional hand rolled bagels, sandwiches, wraps, salads, coffee, Boar's Head, breakfast all day, delivery to beach, catering.",
+                "mapname": "Max Bialystok & Co.",
+                "category": "eat_and_drink",
+                "subcategory": "bakeries"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6592875,
+                    40.5889177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ralphicream",
+                "address": "8 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-705-5760",
+                "web": "http://www.ralphsices.com/",
+                "business": "Ice Cream / Ices",
+                "discount": "Buy a Medium sized ice or ice cream and get upgraded to a Large size. Limit one per key tag--per family.",
+                "info": "Since 1928, Ralph's has been serving the best Italian ices & ice cream in New York. Over 120 flavors, shakes, smoothies & sundaes. Open 7 days.",
+                "mapname": "Ralph's Ices",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6644156,
+                    40.5882034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ralphiice",
+                "address": "1090 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-431-7406",
+                "web": "http://www.ralphsices.com/",
+                "business": "Ice Cream / Ices",
+                "discount": "Buy a Medium sized ice or ice cream and get upgraded to a Large size. Limit one per key tag--per family.",
+                "info": "Since 1928, Ralph's has been serving the best Italian ices & ice cream in New York. Over 120 flavors, shakes, smoothies & sundaes. Open 7 days.",
+                "mapname": "Ralph's Ices",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69857061538461,
+                    40.585931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bagetdeli",
+                "address": "1090 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-431-7406",
+                "web": "http://beachbageloflongbeach.com/",
+                "business": "Convenience Store, Delicatessen",
+                "discount": "Buy 1 dozen bagels get 6 free Monday-Friday.",
+                "info": "Established 1991. Open 24 hours-7 days. Serving hand rolled bagels baked the old fashioned way. Hot foods, Boar's Head cold cuts, full convenience store.",
+                "mapname": "Beach Bagel & Deli",
+                "category": "shop_and_discover",
+                "subcategory": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69857061538461,
+                    40.585931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "michaeldry",
+                "address": "48 E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-889-9047",
+                "business": "Dry Cleaner",
+                "discount": "Bring in five pieces of dry cleaning and take 20% off.",
+                "info": "Serving Long Beach for over 30 years with exceptional quality and experienced workmanship at reasonable prices. From jeans to wedding dresses, we handle it all.",
+                "mapname": "Michael's Tailoring & Dry Cleaning",
+                "category": "live_and_work",
+                "subcategory": "tailoring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66236661571773,
+                    40.5881882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cafeoflife",
+                "address": "100 W. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-425-0113",
+                "web": "http://cafeoflifelongisland.com/Home_Page.html",
+                "business": "Chiropractor",
+                "discount": "50% off your first visit. Includes chiropractic evaluation, advanced nerve scan and first adjustment.",
+                "info": "Our mission is to support families in a joyful journey of health, growth and transformation. We serve people of all ages and walks of life.",
+                "mapname": "Cafe of Life Chiropractic",
+                "category": "thrive_and_restore",
+                "subcategory": "chiropractic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6671946,
+                    40.5881041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "yum-yum",
+                "address": "966 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-415-7775",
+                "business": "Ice Cream / Ices / Yogurt",
+                "discount": "50% off everything in take- out freezer. Maximum $10.",
+                "info": "50% off deals all summer long. Hot food served 10pm-4am. $2 hamburgers and hot dogs.",
+                "mapname": "Yum Yum Yogurt",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6946313,
+                    40.5858521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "grottafudco",
+                "address": "960 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-544-2400",
+                "web": "http://www.grottalbny.com/",
+                "business": "Restaurant",
+                "discount": "20% off your total bill. Cash only.",
+                "info": "Modern alternative approach to rustic Italian fare.",
+                "mapname": "Grotta Di Fuoco",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69438099999999,
+                    40.5858224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "salvationtattoo",
+                "address": "58A E. Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-415-7728",
+                "web": "http://www.salvationtattoonewyork.com/",
+                "business": "Tattoos",
+                "discount": "20% off your tattoo at time of booking. 50% deposit required.",
+                "info": "Founded 2008. Salvation Tattoo prides itself on being local, friendly, professional and staffed with highly skilled artists. Open 7 days. Walk-ins welcome.",
+                "mapname": "Salvation South Tattoo Gallery",
+                "category": "thrive_and_restore",
+                "subcategory": "tattoo_and_piercing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6620526,
+                    40.5881606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "20degree",
+                "address": "647 1/2 East Park Ave.",
+                "town": "Long Beach",
+                "phone": "516-431-4423",
+                "web": "http://www.20-degrees.com/",
+                "business": "Ice Cream / Ices",
+                "discount": "20% off your purchase.",
+                "info": "Always natural, always fresh. We find the most delicious produce to craft the best gourmet ice available. Refresh Responsibly!",
+                "mapname": "20 Degrees Gourmet Ice",
+                "category": "eat_and_drink",
+                "subcategory": "ice_cream_and_desserts"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6636037,
+                    40.5881017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lillybeach",
+                "address": "958 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-442-5484",
+                "web": "http://www.lillysoflongbeach.com/",
+                "business": "Restaurant",
+                "discount": "20% off your lunch or dinner check. Monday-Thursday only.",
+                "info": "The West End's hottest new bar and restaurant! Open daily until 4am. Happy hour weekdays 5-7pm. Celebrate your event with us!",
+                "mapname": "Lilly's of Long Beach",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6941457,
+                    40.5858378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "waletale",
+                "address": "916 W. Beech St.",
+                "town": "Long Beach",
+                "phone": "516-432-9587",
+                "web": "http://awhalestale.com/",
+                "business": "Restaurant",
+                "discount": "20% off your entire check--including alcohol. Discounts and coupons not to be combined.",
+                "info": "Boozy Breakfast n' Brunch.",
+                "mapname": "A Whale's Tale",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.69228215,
+                    40.585828250000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "JohnDMacDonald",
+                "address": "77 Lido Blvd.",
+                "town": "Point Lookout",
+                "phone": "516-432-0246",
+                "web": "http://JohnDMacDonaldPlumbing.com/",
+                "business": "Plumbing & Heating",
+                "discount": "10% off service call for first time customers.",
+                "info": "Since 1926. Complete plumbing, heating, air conditioning services. 7 days a week. Emergency service. All work is done by our fully trained full-time staff.",
+                "mapname": "John D. MacDonald & Son, Inc.",
+                "category": "live_and_work",
+                "subcategory": "plumbing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6229486,
+                    40.58723005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "IGAAggiesMarket",
+                "address": "40 Lido Blvd.",
+                "town": "Point Lookout",
+                "phone": "516-431-2144",
+                "web": "http://AggiesPlace.com/",
+                "business": "Supermarket",
+                "discount": "10% off your purchase of $100 or more.",
+                "info": "A full service supermarket featuring a meat department with specialty cuts, custom orders, prime meats and homemade sausage. Our deli and kitchen serve daily breakfast, lunch and dinner specialties.",
+                "mapname": "IGA - Aggie's Market & Kitchen",
+                "category": "shop_and_discover",
+                "subcategory": "supermarkets"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.637713,
+                    40.588689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "PointLookoutDeli",
+                "address": "1 Lido Blvd.",
+                "town": "Point Lookout",
+                "phone": "516-432-DELI (3354)",
+                "business": "Delicatessen",
+                "discount": "Your choice--Free 16 oz. fountain soda or small bag of chips with any purchjase of our Titanic-sized sub or Hot Meal of the Day. Discounts can not be combined.",
+                "info": "Home of the 14\" Sub! Grab onto one of these! You've never seen anything like it! Free delivery--beach, home or office. Open 5am daily.",
+                "mapname": "Point Lookout Deli",
+                "category": "eat_and_drink",
+                "subcategory": "delis_and_catering"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6361277474773,
+                    40.587091400000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "PointLookoutCommunityChurch",
+                "address": "60 Freeport Ave.",
+                "town": "Point Lookout",
+                "phone": "516-432-5990",
+                "web": "http://ThePLCC.com/",
+                "business": "House of Worship",
+                "info": "20-21, to be in harmony with Him and to inspire others to do the same.",
+                "mapname": "Point Lookout Community Church",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.58125539120033,
+                    40.591262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "OurLadyoftheMiraculous",
+                "address": "75 Parkside Dr.",
+                "town": "Point Lookout",
+                "phone": "516-431-2772",
+                "web": "http://OLMMC.com/",
+                "business": "House of Worship",
+                "discount": "10% off your purchase of $100 or more.",
+                "info": "Praise be the name of Jesus Christ! You are invited to join us so that we might worship God together. Please grace us with your presence.",
+                "mapname": "Our Lady of the Miraculous Medal Church",
+                "category": "gather_and_worship",
+                "subcategory": "places_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.58405177444274,
+                    40.59116255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "EVanCreations",
+                "address": "54 S. Long Beach Rd.",
+                "town": "Rockville Centre",
+                "phone": "516-897-2950",
+                "web": "http://EVanCreations.com/",
+                "discount": "Free screen set-up with every screen printing order over $250 (a $30+ value).",
+                "business": "Screen Printing",
+                "info": "Screen printing - Embroidery - Advertising specialties - Promotional signage - Family owned and operated since 1986.",
+                "mapname": "E. Van Creations",
+                "category": "live_and_work",
+                "subcategory": "printing_services"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7053632994623,
+                    40.58656505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "VidulichAssociates",
+                "address": "486 Sunrise Hwy., Suite 201",
+                "town": "Rockville Centre",
+                "phone": "516-255-0300",
+                "web": "http://VidulichLTD.com/",
+                "business": "Accountant",
+                "info": "Our firm provides outstanding service to our clients because of our dedication to the three underlying principles of professionalism, responsiveness and quality.",
+                "mapname": "Vidulich & Associates, LTD.",
+                "category": "live_and_work",
+                "subcategory": "accountants"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "EVanCreations1",
+                "address": "54 S. Long Beach Rd.",
+                "town": "Rockville Centre",
+                "phone": "516-897-2950",
+                "web": "http://EVanCreations.com/",
+                "business": "Embroidery, Promotion Items",
+                "info": "Screen printing - Embroidery - Advertising specialties - Promotional signage - Family owned and operated since 1986.",
+                "mapname": "E. Van Creations",
+                "category": "shop_and_discover",
+                "subcategory": "specialty_retail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7053632994623,
+                    40.58656505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "HainesElectric",
+                "phone": "516-432-4114",
+                "web": "http://EHHainesElectric.com/",
+                "business": "Electrician",
+                "discount": "$35 off any job $300 or more.",
+                "info": "For all of your electrical needs from repairs to new wiring. Same day service, on-time service and a written warranty with every job. Better Business Bureau A+ Rated.",
+                "mapname": "Haines Electric",
+                "category": "live_and_work",
+                "subcategory": "electricians"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "FreeportWaterTaxi",
+                "phone": "516-521-7744",
+                "web": "http://FreeportWaterTaxi.com/",
+                "business": "Water Tours",
+                "discount": "$5.00 off any cruise. Limit one discount per key tag.",
+                "info": "Experience the South Shore Like Never Before! Voted \"Top 50 Best Things to do this Summer\" by Newsday. Check out our many tours or use our taxi service. Charters available.",
+                "mapname": "Freeport Water Taxi & Tours",
+                "category": "visit_and_experience",
+                "subcategory": "water_tours"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BudgetBlinds",
+                "phone": "516-825-3135",
+                "web": "http://BudgetBlinds.com/",
+                "business": "Window Treatments",
+                "discount": "30% off Signature Series window treatments.",
+                "info": "We offer a huge variety of custom window treatments, professionally measured and installed, for a great price! Celebrating our 10th year!",
+                "mapname": "Budget Blinds",
+                "category": "live_and_work",
+                "subcategory": "home_and_garden_supplies"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "IFlyTrapeze",
+                "phone": "516-640-1579",
+                "web": "http://IFlyTrapeze.com/",
+                "business": "Adventure",
+                "info": "LI's only Flying Trapeze program open April - October. Instructors qualified to teach all levels; beginner or advanced. Adults and children from age 4 can fly.",
+                "mapname": "I Fly Trapeze",
+                "category": "visit_and_experience",
+                "subcategory": "adventure_tourism"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LongIslandStreetFairs",
+                "phone": "516-442-6000",
+                "web": "http://LongIslandStreetFairs.com/",
+                "business": "Fairs & Festivals",
+                "info": "Long Island's #1 producer of craft, gift and street fairs. Contact us online or by phone for vendor and shopper information.",
+                "mapname": "Long Island Street Fairs",
+                "category": "visit_and_experience",
+                "subcategory": "festivals"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "PatGordonContracting",
+                "phone": "516-889-6962",
+                "web": "http://PatGordonContracting.com/",
+                "business": "General Contractor",
+                "info": "Since 1988, satisfying customers while specializing in all phases of residential and commercial remodeling and new construction. Family owned and operated. Licensed and Insured.",
+                "mapname": "Pat Gordon Contracting",
+                "category": "live_and_work",
+                "subcategory": "contractors"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Surf2LiveLB",
+                "phone": "347-231-6866",
+                "web": "http://Surf2LiveLB.com/",
+                "business": "Surf School",
+                "info": "Long Island's premier surfing center is more than just a \"One Lesson\" surf school. Beginner, intermediate or experienced, we have the systems to turn your surfing dreams into reality.",
+                "mapname": "Surf 2 Live LB",
+                "category": "visit_and_experience",
+                "subcategory": "surf_schools"
+            },
+            "geometry": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SkudinSurf",
+                "phone": "516-318-3993",
+                "web": "http://SkudinSurf.com/",
+                "business": "Surf School",
+                "info": "New York's premier surfing school, offering summertime kids surf camps and adult surf camps, and year-round surf lessons and stand-up paddle lessons. Beginner, Intermediate & Advanced.",
+                "mapname": "Skudin Surf",
+                "category": "visit_and_experience",
+                "subcategory": "surf_schools"
+            },
+            "geometry": {}
+        }
+    ]
+}
