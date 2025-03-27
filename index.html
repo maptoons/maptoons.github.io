@@ -52,12 +52,12 @@
 
     <script>
 
-        //const bounds = [[-73.5519, 40.7374], [-73.4932, 40.7935]]; // Hicksville
-        const bounds = [[-74.04196910000002, 40.5419011], [-71.85627049999998, 41.161155]]; // Long Island
+        const bounds = [[-73.5519, 40.7374], [-73.4932, 40.7935]]; // Hicksville
+        //const bounds = [[-74.04196910000002, 40.5419011], [-71.85627049999998, 41.161155]]; // Long Island
 
         const map = new maplibregl.Map({
             container: "map",
-            style: "http://localhost:8000/maptoons-original.json",
+            style: "maptoons-original.json",
             center: [-73.5251, 40.7684],
             maxBounds: bounds,
             zoom: 16,
@@ -92,8 +92,7 @@
             map.addSource('location', {
                 'type': 'geojson',
                 'data':
-                    'http://localhost:8000/data/hicksville.geojson',
-                //'https://github.com/jamiefletcher/maptoons/blob/main/data/hicksville.geojson',
+                    'data/hicksville.geojson',
                 'cluster': true,
                 'clusterRadius': 20,
                 'clusterMaxZoom': 18
@@ -119,7 +118,7 @@
                 if (!loadedImages.has(imageId) && !loadingImages.has(imageId)) {
                     loadingImages.add(imageId); // Mark the image as being loaded
 
-                    const imageUrl = `http://localhost:8000/img/${imageId}.png`;
+                    const imageUrl = `img/${imageId}.png`;
 
                     fetch(imageUrl)
                         .then(response => response.blob())
@@ -148,7 +147,7 @@
         const createMarker = (feature) => {
             const coordinates = feature.geometry.coordinates;
             const id = feature.properties.id;
-            const imageUrl = `http://localhost:8000/img/${id}.png`;
+            const imageUrl = `img/${id}.png`;
 
             // Start constructing the HTML content
             html = `
@@ -197,7 +196,7 @@
                 clusterFeatures.forEach(clusterFeature => {
                     const id = clusterFeature.properties.id;
                     const coordinates = clusterFeature.geometry.coordinates;
-                    const imageUrl = `http://localhost:8000/img/${id}.png`;
+                    const imageUrl = `img/${id}.png`;
 
                     html += `
                         <div class="cluster-image" data-id="${id}" data-coordinates="${JSON.stringify(coordinates)}">
@@ -335,7 +334,7 @@
             let html = '';
             allFeatures.forEach(feature => {
                 const imageName = feature.properties.id;
-                const imageUrl = `http://localhost:8000/img/${imageName}.png`;
+                const imageUrl = `img/${imageName}.png`;
                 const coordinates = feature.geometry.coordinates; // Get the feature's coordinates
 
                 newContent += `
