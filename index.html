@@ -17,16 +17,8 @@
         .maplibregl-ctrl-bottom-right{ display: none; }
         #map { height: 100%; width: 100%; }
 
-        .marker-box { display: flex; flex-direction: column; align-items: center; text-align: center; overflow: visible; width: 0; height: auto; pointer-events: none; transition: all 0.1s ease; }
-        .marker-image { pointer-events: auto; cursor: pointer; background-color: transparent !important; }
-        .marker-image img { pointer-events: auto; display: block; height: auto; width: 60px; height: auto; object-fit: cover; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
-        .marker-label { display: none; background-color: transparent !important; line-height: 0.9; padding-top: 2px; pointer-events: none; }
-        .marker-info { display: none; background-color: transparent !important; line-height: 0.9; padding-bottom: 7px; pointer-events: none; }
-
-        .marker-box.highlight { width: auto; padding: 20px; border-radius: 5px; background-color: hsl(0, 0%, 100%); filter: drop-shadow(2px 2px 2px hsla(0, 0%, 20%, 0.2)); z-index: 10; } 
-        .marker-box.highlight .marker-image img { width: 150px; height: auto; filter: drop-shadow(0 0 0 transparent) !important; }
-        .marker-box.highlight .marker-label { display: block; font-size: 22px; font-weight: 900; width: 200px; z-index: 50; }
-        .marker-box.highlight .marker-info { color: hsl(0, 0%, 100%); text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 1); display: block; font-size: 14px; font-weight: 900; width: 300px; z-index: 50; }
+        .marker { pointer-events: auto; cursor: pointer; background-color: transparent !important; }
+        .marker img { pointer-events: auto; display: block; height: auto; width: 60px; height: auto; object-fit: cover; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
 
         .cluster-box-container { display: flex; flex-wrap: wrap; align-items: center; transform: translateY(-100%); background-color: hsl(0, 0%, 100%); filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); height: auto; width: auto; max-width: 80px; border-radius: 5px; padding: 5px; gap: 5px; z-index: 0; }
         .triangle{ content:""; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%) translateY(-50%); width: 0; height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 10px solid hsl(0, 0%, 100%); pointer-events: none; }
@@ -40,18 +32,33 @@
         .info-feature .info-image-container { width: 50px; }
         .info-feature .info-image { height: auto; width: 50px; padding-top: 5px; }
         .info-feature .info-text { padding: 0 5px 0 0; overflow: visible; }
-
         .info-click { cursor: pointer; }
 
+        .maplibregl-popup { width: auto; height: auto; }
+        .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; box-shadow: 2px 2px 2px hsla(0, 0%, 20%, 0.2); }
+        .popup-content { position: relative; padding:10px; overflow-y:auto; overflow-x:hidden; width:100%; height: 100%; }
+        .popup-image { width: 100%; height: 100%; }
+        .popup-logo { position: relative; width: 100%; height: 100%; z-index: 2; }
+        .popup-logo img { position: absolute; top: 50%; left: 50%; transform: translate( -50% -50%); width: 50%; height: auto; }
+        .popup-category { position:relative; z-index:1; width:100%; text-align:center; }
+        .popup-category img { width:250px; height:auto; }
+
+.popup-title { max-width:100%; overflow:hidden; }
+.popup-title h3 { margin:0 0 4px 0; font-size:14px; color:#666; white-space:normal; word-wrap:break-word; }
+.popup-title h2 { margin:0; font-size:18px; white-space:normal; word-break:break-word; max-width:100%; }
+.popup-body { font-size:14px; line-height:1.4; max-width:100%; overflow-wrap:break-word; }
+.popup-body p { margin:8px 0; overflow-wrap:break-word; max-width:100%; }
+.popup-body a { word-break:break-all; max-width:100%; display:inline-block; }
+        
         #location-picker { position: fixed; top: 10px; right: 10px; width: 25px; height: 25px; z-index: 100; font-size: 35px; text-align:right; display: block; width: auto; height: auto; cursor: pointer; }
         nav {display:none; flex-direction:column; align-items:flex-start; width:100%; background-color:#333; position:absolute; right:0; top:50px;}
         nav.show {display:flex;}
         nav a {color:white; text-decoration:none; font-size:14px; line-height:0.8; padding-bottom:10px; margin:10px;}
         a { color: hsl(200, 50%, 40%); text-decoration: none; }
-        h1 { font-size: 15px; font-weight: 600; line-height: 1.1; }
-        h2 { font-size: 13px; font-weight: 500; line-height: 1.1; padding-bottom: 2px; }
+        h1 { font-size: 15px; font-weight: 800; line-height: 1.1; }
+        h2 { font-size: 13px; font-weight: 400; line-height: 1.1; padding-bottom: 2px; }
         h3 { font-size: 9px; font-weight: 400; line-height: 1.1; padding-bottom: 2px; }
-        h4 { font-size: 9px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
+        h4 { font-size: 9px; font-weight: 600; letter-spacing: 0; line-height: 1.4; }
         p { font-size: 13px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
         p.ellipsis { max-width: calc(100vw - 100px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         @media (min-width: 768px) {
@@ -83,10 +90,13 @@
 
         //const bounds = [[-73.5519, 40.7374], [-73.4932, 40.7935]]; // Hicksville
         const bounds = [[-74.04196910000002, 40.5419011], [-71.85627049999998, 41.161155]]; // Long Island
-        const loadedImages = new Set();
+
+        let featureStore = {};
         let markers = {};
         let markersOnScreen = {};
-        let activeHighlight = null;
+        let activeHighlights = new Set(); // Track all highlighted elements
+        let loadedImages = new Set();
+
         //const imgSource = 'http://localhost:8000/img'
         const imgSource = 'https://maptoons.github.io/img'
         //const styleFile = 'http://localhost:8000/maptoons.json'
@@ -100,7 +110,7 @@
             center: [-73.5251, 40.7684],
             maxBounds: bounds,
             zoom: 16,
-            maxZoom: 20,
+            maxZoom: 18,
             bearing: 20,
             pitch: 20,
             //maxPitch: 20,
@@ -111,13 +121,13 @@
         });
 
         //map.setBearing(20);
-        //map.getCanvas().addEventListener('contextmenu', (e) => e.stopPropagation(), true);
+        map.getCanvas().addEventListener('contextmenu', (e) => e.stopPropagation(), true);
 
         const loadLocation = () => {
             map.addSource('location', {
                 'type': 'geojson',
                 'data': locationFile,
-                'cluster': false,
+                'cluster': true,
                 'clusterRadius': 20,
                 'clusterMaxZoom': 17,
                 'clusterMinPoints': 2
@@ -147,7 +157,7 @@
 
             // Enforce cluster limits on zoom
             map.on('zoomend', () => {
-                if (map.getZoom() >= 17) {
+                if (map.getZoom() >= 16) {
                 map.setLayoutProperty('temp-clusters', 'visibility', 'none');
                 map.setLayoutProperty('temp-location', 'visibility', 'visible');
                 } else {
@@ -184,166 +194,60 @@
             });
 
             map.once('idle', () => {
-                updateMarkers();
-                updateLabels();
                 updateInfoBox();
                 //updateSprites();
+            });
+
+            // Handle clicks
+            document.addEventListener('click', (e) => {
+                // Info-box
+                const infoFeature = e.target.closest('.info-feature, .info-click');
+                if (infoFeature) {
+                    const id = infoFeature.dataset.id;
+                    const feature = featureStore[id];
+                    if (feature) {
+                        clickFeature(feature);
+                        
+                        // Add visual feedback
+                        infoFeature.classList.add('active');
+                        setTimeout(() => infoFeature.classList.remove('active'), 300);
+                    }
+                }
+                
+                // Markers
+                if (e.target.matches('.marker img')) {
+                    const id = e.target.dataset.id;
+                    const feature = featureStore[id];
+                    if (feature) clickFeature(feature);
+                }
             });
 
         };
 
         const createMarker = (feature) => {
-            const coordinates = feature.geometry.coordinates;
+            console.log(feature)
             const id = feature.properties.id;
-            const image = feature.properties.img;
-            const imageUrl = `${imgSource}/${image}.png`;
-
-            // Start constructing the HTML content
-            html = `
-                <div class="marker-box">
-                    <div class="marker-info" data-id="${id}">
-                        ${feature.properties.info || ''}
-                    </div>
-                    <div class="marker-image" data-id="${id}" data-coordinates="${JSON.stringify(coordinates)}">
-                        <img src="${imageUrl}" alt="Marker image">
-                    </div>
-                    <div class="marker-label" data-id="${id}">
-                        ${feature.properties.mapname || ''}
-                    </div>
-                </div>
-            `;
-
+            const imageUrl = `${imgSource}/${feature.properties.img}.png`;
+            
+            // Create container element
             const el = document.createElement('div');
-            el.classList.add('marker');
-            el.innerHTML = html;
-
-            // Add click event listeners to each marker-image
-            const markerImages = el.querySelectorAll('.marker-image');
-            markerImages.forEach(markerImage => {
-                const featureId = markerImage.getAttribute('data-id');
-                const coordinates = JSON.parse(markerImage.getAttribute('data-coordinates')); // Get coordinates from the element
-                markerImage.addEventListener('click', () => {
-                    clickFeature(featureId, coordinates); // Handle the click event
-                });
-            });
-
-            if (el.querySelector('img')) {
-                return el; // Return the element directly if it contains an image
-            }
-
-            return null; // Return null if no image is found
-        }
-
-        const createCluster = async (feature, clusterId) => {
-            let html = '';
-
-            try {
-                // Get the individual features within the cluster
-                const clusterFeatures = await map.getSource('location').getClusterLeaves(
-                    clusterId,
-                    Infinity,
-                    0
-                );
-
-                clusterFeatures.forEach(clusterFeature => {
-                    const id = clusterFeature.properties.id;
-                    const coordinates = clusterFeature.geometry.coordinates;
-                    const image = clusterFeature.properties.img
-                    const imageUrl = `${imgSource}/${image}.png`;
-
-                    html += `
-                        <div class="cluster-box">
-                            <div class="cluster-image" data-id="${id}" data-coordinates="${JSON.stringify(coordinates)}">
-                                <img src="${imageUrl}" alt="Cluster image">
-                            </div>
-                        </div>
-                        <div class="triangle"></div>
-                    `;
-
-                });
-            } catch (error) {
-                console.error('Error fetching cluster leaves:', error);
-            }
-
-            const el = document.createElement('div');
-            el.classList.add('cluster-box-container');
-            el.innerHTML = html;
-
-            // Wait for all images to load
-            const images = el.querySelectorAll('img');
-            await Promise.all(
-                Array.from(images).map(img => 
-                    img.complete ? Promise.resolve() : img.decode().catch(() => {})
-                )
-            );
-
-            // Add click event listeners to each cluster-image
-            const clusterImages = el.querySelectorAll('.cluster-image');
-            clusterImages.forEach(clusterImage => {
-                const featureId = clusterImage.getAttribute('data-id');
-                const coordinates = JSON.parse(clusterImage.getAttribute('data-coordinates')); // Get coordinates from the element
-                clusterImage.addEventListener('click', () => {
-                    clickFeature(featureId, coordinates); // Handle the click event
-                });
-            });
-
-            return el.querySelector('img') ? el : null;
-        }
-
-        const updateMarkers = async () => {
-            const newMarkers = {};
-            const features = map.querySourceFeatures('location');
-
-            for (const feature of features) {
-                if (!feature.properties.cluster) {  // Non-clusters
-                    const coordinates = feature.geometry.coordinates;
-                    const id = feature.properties.id;
-
-                    let marker = markers[id];
-                    if (!marker) {
-                        const el = await createMarker(feature);
-                        marker = markers[id] = new maplibregl.Marker({
-                            element: el
-                        }).setLngLat(coordinates);
-                    }
-                    newMarkers[id] = marker;
-
-                    // Add the marker to the map if it's not already there
-                    if (!markersOnScreen[id]) {
-                        marker.addTo(map);
-                    }
-                } else { // Clusters
-                    const coordinates = feature.geometry.coordinates;
-                    const id = feature.properties.cluster_id;
-
-                    let marker = markers[id];
-                    if (!marker) {
-                        const el = await createCluster(feature, id);
-                        //await waitForImages(el);  // Wait for images to load
-                        marker = markers[id] = new maplibregl.Marker({
-                            element: el
-                        }).setLngLat(coordinates);
-
-                    }
-                    newMarkers[id] = marker;
-
-                    // Add the marker to the map if it's not already there
-                    if (!markersOnScreen[id]) {
-                        marker.addTo(map);
-                    }
-                }
-            }
-
-            // Remove markers that are no longer on the screen
-            for (const id in markersOnScreen) {
-                if (!newMarkers[id]) markersOnScreen[id].remove();
-            }
-            markersOnScreen = newMarkers;
-        }
+            el.className = 'marker';
+            
+            // Create image element
+            const img = document.createElement('img');
+            img.src = imageUrl;
+            img.alt = 'Marker image';
+            img.dataset.id = id;
+            img.dataset.coordinates = JSON.stringify(feature.geometry.coordinates);
+            
+            el.appendChild(img);
+            return el;
+        };
 
         const updateInfoBox = async () => {
             const infoBox = document.getElementById('info-box');
             const features = map.querySourceFeatures('location');
+            const newMarkers = {}; // Temporary object to track current markers
             let uniqueFeatures = new Map();
 
             // Store the current content of the infoBox
@@ -354,10 +258,8 @@
 
             // Process each feature
             for (const feature of features) {
-                if (feature.properties.cluster_id) {
-                    // Handle clustered features
+                if (feature.properties.cluster_id) { // Clusters
                     const clusterId = feature.properties.cluster_id;
-
                     try {
                         // Get the individual features within the cluster
                         const clusterFeatures = await map.getSource('location').getClusterLeaves(
@@ -365,19 +267,20 @@
                             Infinity,
                             0
                         );
-                        clusterFeatures.forEach(clusterFeature => {
-                            const featureId = clusterFeature.properties.id;
-                            if (!uniqueFeatures.has(featureId)) {
-                                uniqueFeatures.set(featureId, clusterFeature);
+                        for (const clusterFeature of clusterFeatures) {
+                            const id = clusterFeature.properties.id;
+                            const coordinates = clusterFeature.geometry.coordinates;
+                            if (!uniqueFeatures.has(id)) {
+                                uniqueFeatures.set(id, clusterFeature);
                             }
-                        });
+                        }
                     } catch (error) {
                         console.error('Error fetching cluster leaves:', error);
                     }
                 } else {
-                    const featureId = feature.properties.id;
-                    if (!uniqueFeatures.has(featureId)) {
-                        uniqueFeatures.set(featureId, feature);
+                    const id = feature.properties.id;
+                    if (!uniqueFeatures.has(id)) {
+                        uniqueFeatures.set(id, feature);
                     }
                 }
             }
@@ -387,25 +290,26 @@
 
             // Sort features alphabetically by the 'mapname' property
             allFeatures.sort((a, b) => {
-                const nameA = a.properties.id || ''; // Handle undefined values
-                const nameB = b.properties.id || ''; // Handle undefined values
-                return nameA.localeCompare(nameB); // Sort alphabetically
+                const nameA = a.properties.id || '';
+                const nameB = b.properties.id || '';
+                return nameA.localeCompare(nameB);
             });
 
-            let html = '';
-            allFeatures.forEach(feature => {
+            // Process features sequentially to ensure markers are created before updating DOM
+            for (const feature of allFeatures) {
+                featureStore[feature.properties.id] = feature;
                 const id = feature.properties.id;
-                const image = feature.properties.img
-                const imageUrl = `${imgSource}/${image}.png`;
-                const coordinates = feature.geometry.coordinates; // Get the feature's coordinates
+                const imageUrl = `${imgSource}/${feature.properties.img}.png`;
+                const coordinates = feature.geometry.coordinates;
 
+                // Update info-box content
                 newContent += `
-                    <div class="info-feature" id="${id}">
+                    <div class="info-feature" data-id="${id}">
                         <div class="info-image-container">
                             <img src="${imageUrl}" alt="Feature image" class="info-image">
                         </div>
                         <div class="info-text">
-                            <div class="info-click" data-id="${id}" data-coordinates="${JSON.stringify(coordinates)}" onclick="clickFeature('${id}', ${JSON.stringify(coordinates)})">
+                            <div class="info-click" data-id="${id}">
                                 <h4>${feature.properties.category}</h4>
                                 <h1>${feature.properties.mapname}</h1>
                                 <p class="ellipsis">${feature.properties.info}</p>
@@ -417,9 +321,37 @@
                         </div>
                     </div>
                 `;
-            });
+
+                // Handle marker creation/update
+                let marker = markers[id];
+                if (!marker) {
+                    const el = await createMarker(feature);
+                    marker = markers[id] = new maplibregl.Marker({
+                        element: el
+                    }).setLngLat(coordinates);
+                }
+                newMarkers[id] = marker;
+
+                // Add the marker to the map if it's not already there
+                if (!markersOnScreen[id]) {
+                    marker.addTo(map);
+                }
+            }
+
+            // Update the info box content
             infoBox.innerHTML = newContent || currentContent;
 
+            // Remove markers that are no longer needed
+            for (const id in markersOnScreen) {
+                if (!newMarkers[id]) {
+                    markersOnScreen[id].remove();
+                    delete markersOnScreen[id];
+                    delete markers[id]; // Optional: clean up the main markers object
+                }
+            }
+            
+            // Update markersOnScreen with current markers
+            markersOnScreen = {...newMarkers};
         };
 
         function updateSprites() {
@@ -489,53 +421,119 @@
             }
         }
 
-        const clickFeature = async (featureId, coordinates) => {
-            // Determine padding based on screen size
-            const padding = isMobile() 
-                ? { bottom: 150 }  // Mobile: panel at bottom
-                : { left: 250 };   // Desktop: panel on left
+        // Click feature with popup support
+        const clickFeature = async (feature) => {
+            if (!feature?.geometry?.coordinates) return;
 
-            // Fly to the feature's coordinates and wait for the animation to complete
-            await new Promise((resolve) => {
+            const coordinates = feature.geometry.coordinates;
+            
+            try {
+                // Show popup and get reference
+                const popup = showFeaturePopup(feature, coordinates);
+                
+                // Fly to location with popup-aware padding
+                await flyToFeature(coordinates, popup);
+                
+                await updateInfoBox();
+                scrollToFeatureInfo(feature.properties.id);
+                
+            } catch (error) {
+                console.error('Error handling feature click:', error);
+            }
+        };
+
+        // Helper function to create MapLibre popup with feature data
+        const showFeaturePopup = (feature, coordinates) => {
+            if (window.featurePopup) {
+                window.featurePopup.remove();
+            }
+
+            const { properties } = feature;
+            const imageLogo = `${imgSource}/${properties.img || 'default'}.png`;
+            const imageCategory = `${imgSource}/${properties.category || 'default'}.png`;
+
+            // Calculate sizes based on window dimensions
+            const isMobile = window.innerWidth < 768;
+            const maxWidth = isMobile ? window.innerWidth * 0.9 : 400;
+            const maxHeight = isMobile ? window.innerHeight * 0.5 : 500;
+
+            const popupContent = document.createElement('div');
+            popupContent.className = 'popup-content';
+            popupContent.style.maxHeight = `${maxHeight}px`;
+            popupContent.style.overflowY = 'auto';
+            
+            popupContent.innerHTML = `
+                <div class="popup-image">
+                    <div class="popup-category"><img src="${imageCategory}" alt="${properties.category}"></div>
+                </div>
+            `;
+
+            const popup = new maplibregl.Popup({
+                closeButton: false,
+                closeOnClick: true,
+                anchor: 'bottom',
+                offset: 25,
+                maxWidth: `${maxWidth}px`
+            })
+            .setLngLat(coordinates)
+            .setDOMContent(popupContent)
+            .addTo(map);
+
+            // Handle window resize
+            const resizeHandler = () => {
+                const newMaxWidth = window.innerWidth < 768 ? window.innerWidth * 0.9 : 400;
+                popup.options.maxWidth = `${newMaxWidth}px`;
+                popupContent.style.maxHeight = `${window.innerHeight * 0.5}px`;
+            };
+
+            window.addEventListener('resize', resizeHandler);
+
+            // Cleanup on popup close
+            popup.on('close', () => {
+                window.removeEventListener('resize', resizeHandler);
+            });
+
+            window.featurePopup = popup;
+            return popup;
+        };
+
+        // Helper function for flyTo animation
+        const flyToFeature = (coordinates) => {
+            return new Promise((resolve) => {
+                const isMobile = window.innerWidth < 768;
+                const padding = isMobile 
+                    ? { top: 250, bottom: 100, left: 20, right: 20 }  // Mobile padding
+                    : { top: 300, left: 300, bottom: 50, right: 50 }; // Desktop padding
+                
                 map.flyTo({
-                    center: coordinates, // Set the center to the feature's coordinates
-                    zoom: 18, // Optional: Set a zoom level
+                    center: coordinates,
+                    zoom: 18,
                     padding: padding,
-                    essential: true // Ensures the animation is not interrupted
+                    essential: true
                 });
 
-                // Resolve the promise when the flyTo animation completes
                 map.once('moveend', resolve);
             });
+        };
 
-            await updateInfoBox();
-
-            // Remove highlights
-            document.querySelectorAll('.highlight').forEach(el => {
-                el.classList.remove('highlight');
-            });
-
-            // Highlight marker
-            const highlightMarker = document.querySelector(
-                `.marker-image[data-id="${featureId}"]`
-            );
-            if (highlightMarker) {
-                // Add highlight
-                highlightMarker.classList.add('highlight');
+        // Helper function to scroll to feature info
+        const scrollToFeatureInfo = (featureId) => {
+            const infoBox = document.querySelector(`.info-feature[data-id="${featureId}"]`);
+            if (infoBox) {
+                // Small timeout ensures DOM update is complete
+                setTimeout(() => {
+                    infoBox.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center',
+                        inline: 'nearest'
+                    });
+                    
+                    // Add highlight effect
+                    infoBox.classList.add('highlight');
+                    setTimeout(() => infoBox.classList.remove('highlight'), 2000);
+                }, 100);
             }
-
-            // Highlight info-box
-            const highlightInfoBox = document.querySelector(
-                `.info-feature[id="${featureId}"]`
-            );
-            if (highlightInfoBox) {
-                // Scroll to the feature div
-                highlightInfoBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                // Add highlight
-                highlightInfoBox.classList.add('highlight');
-            }
-            activeHighlight = featureId;
-        }
+        };
 
         const loadImage = async (url, name) => {
             try {
@@ -553,17 +551,11 @@
             });
         };
 
-        isMobile = () => {
-            return window.innerWidth <= 768; // Adjust breakpoint as needed
-        }
-
         map.once('load', (e) => {
             loadLocation();
         });
 
         map.on('moveend', () => {
-            updateMarkers();
-            updateLabels();
             updateInfoBox();
             //updateSprites();
         });
