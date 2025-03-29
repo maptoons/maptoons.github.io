@@ -60,7 +60,8 @@
                 "info": "Too busy to take the pooch to the grooming salon? State-of-the-Art Groom Mobile will come to you and provide Professional Dog Grooming by a licensed groomer.",
                 "mapname": "Luv'n Poches",
                 "category": "thrive_and_restore",
-                "subcategory": "pet_grooming"
+                "subcategory": "pet_grooming",
+                "address_formatted": "Long Beach, NY, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -80,7 +81,8 @@
                 "web": "http://www.thelongbeachchamber.com/",
                 "mapname": "LB Chamber",
                 "category": "",
-                "subcategory": ""
+                "subcategory": "",
+                "address_formatted": "350 National Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -103,7 +105,8 @@
                 "info": "home accents, beach writings, paintings, furniture, jewelry, gifts for all occasions.",
                 "mapname": "The Blue Bungalow",
                 "category": "shop_and_discover",
-                "subcategory": "gift_shops"
+                "subcategory": "gift_shops",
+                "address_formatted": "248 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -125,7 +128,8 @@
                 "info": "We are a local family owned agency staffed by local agents who are experts in sales, rentals, short-term, and long-term. We have a great reputation for honesty and integrity.",
                 "mapname": "Meier Real Estate",
                 "category": "live_and_work",
-                "subcategory": "real_estate"
+                "subcategory": "real_estate",
+                "address_formatted": "95 Glenwood Avenue, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -148,13 +152,14 @@
                 "info": "The finest Italian food and brick oven pizza on Long Island. A pleasurable dining experience. We use only the freshest ingredients to ensure your satisfaction.",
                 "mapname": "Villa Mare",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "99 The Plaza, Village of Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.944195,
-                    41.035474
+                    -73.7374301,
+                    40.5894271
                 ]
             }
         },
@@ -171,13 +176,14 @@
                 "info": "Stop in for one our Specialty Sandwiches or Delicious Pizza. Catering needs from small to giant parties. All our food is homemade and always fresh.",
                 "mapname": "Atlantic Beach Cafe",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering"
+                "subcategory": "delis_and_catering",
+                "address_formatted": "1961 Park Street, Village of Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.70208,
-                    40.5883142
+                    -73.73391871327726,
+                    40.58908685
                 ]
             }
         },
@@ -194,13 +200,14 @@
                 "info": "Sunday Brunch. Lunch (Saturday & Sunday only). Dinner - Thursday, Friday, Saturday & Sunday. Linger over drinks from Sunny Atlantic's full bar. Catering menu.",
                 "mapname": "The Boardwalk Cafe",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "2035 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.7376838,
+                    40.5869894
                 ]
             }
         },
@@ -216,13 +223,14 @@
                 "info": "The place for family fun in the sun on the spotless sands of Atlantic Beach. Solar heated pool, children's pool and sand court. Fun-filled Activity Programs for young and old.",
                 "mapname": "Sunny Atlantic Beach Club",
                 "category": "visit_and_experience",
-                "subcategory": "beach_clubs"
+                "subcategory": "beach_clubs",
+                "address_formatted": "2035 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.7376838,
+                    40.5869894
                 ]
             }
         },
@@ -239,13 +247,14 @@
                 "info": "The place for your summer enjoyment. Oceanfront, sand court, and pool court cabanas, standard and shower lockers. Enjoy our full service restaurant and our bar. Heated pool and kiddie pool.",
                 "mapname": "The Shores Deli",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering"
+                "subcategory": "delis_and_catering",
+                "address_formatted": "1845 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.72924937021911,
+                    40.58650355
                 ]
             }
         },
@@ -261,13 +270,14 @@
                 "info": "The place for your summer enjoyment. Oceanfront, sand court, and pool court cabanas, standard and shower lockers. Enjoy our full service restaurant and our bar. Heated pool and kiddie pool.",
                 "mapname": "The Shores @ Atlantic Beach",
                 "category": "visit_and_experience",
-                "subcategory": "beach_clubs"
+                "subcategory": "beach_clubs",
+                "address_formatted": "1845 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.72924937021911,
+                    40.58650355
                 ]
             }
         },
@@ -283,13 +293,14 @@
                 "info": "55 years of memory making events. The Sands at Atlantic Beach has been the site for hundreds of beautiful weddings, Bar/Bat Mitzvahs, Sweet Sixteens, birthdays and more.",
                 "mapname": "Sands At Atlantic Beach",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering"
+                "subcategory": "delis_and_catering",
+                "address_formatted": "1395 Beech Street, East Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.70095957718121,
-                    40.586091026845644
+                    -73.712678786053,
+                    40.5857555
                 ]
             }
         },
@@ -305,13 +316,14 @@
                 "info": "A full service real estate company, exclusively serving Atlantic Beach. Our top priority is to provide you with the utmost in service and local expertise.",
                 "mapname": "Annett C. Ellis Realty",
                 "category": "live_and_work",
-                "subcategory": "real_estate"
+                "subcategory": "real_estate",
+                "address_formatted": "99 The Plaza, Village of Atlantic Beach, NY 11509, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.944195,
-                    41.035474
+                    -73.7374301,
+                    40.5894271
                 ]
             }
         },
@@ -328,7 +340,8 @@
                 "info": "We are an Old Fashioned Candy and Soda Shoppe, featuring candy, soda, ice cream, fudge and desserts, many will be homemade.",
                 "mapname": "Hope's Land of Candy",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "Island Park, 3951 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -351,13 +364,14 @@
                 "info": "Quality plants and merchandise at reasonable prices. Gift items, fresh cut flowers, garden tools, annuals and perennials, shrubs, trees, firewood, houseplants and more.",
                 "mapname": "A & T Garden Center and Florist",
                 "category": "shop_and_discover",
-                "subcategory": "home_and_garden_supplies"
+                "subcategory": "home_and_garden_supplies",
+                "address_formatted": "4373 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.65138689935236,
+                    40.6027755
                 ]
             }
         },
@@ -373,13 +387,14 @@
                 "info": "Quality car washes, professional detailing. Free ArmorAll every 5th visit. Free Full-Service car wash every 10th visit. Ladies and Seniors discounts all day Tues. & Thurs.",
                 "mapname": "Island Park Car Wash",
                 "category": "live_and_work",
-                "subcategory": "car_washes"
+                "subcategory": "car_washes",
+                "address_formatted": "4576 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.654795992868,
+                    40.60021515
                 ]
             }
         },
@@ -395,13 +410,14 @@
                 "info": "10-minute oil change always includes a Free Full-Service car wash. All grades of synthetic & conventional oil. Wiper blades-batteries-filters-tire rotation. Open late Tues. and Thurs.",
                 "mapname": "Shell Rapid Lube",
                 "category": "live_and_work",
-                "subcategory": "auto_repair"
+                "subcategory": "auto_repair",
+                "address_formatted": "4576 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.654795992868,
+                    40.60021515
                 ]
             }
         },
@@ -418,7 +434,8 @@
                 "info": "Our school seeks to provide a learning experience of love, acceptance, warmth and understanding where each child's sense of responsibility is fostered.",
                 "mapname": "The Little Sea Shell Nursery School",
                 "category": "play_and_learn",
-                "subcategory": "preschools"
+                "subcategory": "preschools",
+                "address_formatted": "364 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -440,13 +457,14 @@
                 "info": "Custom tattooing with highly capable and experienced artists. Dealing in all styles of tattoo art (including coverup and repair work) in a clean and relaxed environment.",
                 "mapname": "Green Apple Tattoo",
                 "category": "thrive_and_restore",
-                "subcategory": "tattoo_and_piercing"
+                "subcategory": "tattoo_and_piercing",
+                "address_formatted": "4000 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6446158,
+                    40.6120174
                 ]
             }
         },
@@ -463,13 +481,14 @@
                 "info": "Complete foreign and domestic auto and truck repair. Alignment, balancing, brakes, tune ups, tires, shocks, NYS inspections.",
                 "mapname": "Competition Automotive",
                 "category": "live_and_work",
-                "subcategory": "auto_repair"
+                "subcategory": "auto_repair",
+                "address_formatted": "4501 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.65379131242084,
+                    40.600436450000004
                 ]
             }
         },
@@ -486,13 +505,14 @@
                 "info": "30+ years experience utilizing movement to access the brains capacity for growth and change, which promotes Neuroplasticity. From infants-to-elders, we offer individual hands on sessions and group classes.",
                 "mapname": "The Feldenkrais Center For Wellness in Action",
                 "category": "thrive_and_restore",
-                "subcategory": "physical_therapy"
+                "subcategory": "physical_therapy",
+                "address_formatted": "4025 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.64438,
+                    40.6113472
                 ]
             }
         },
@@ -509,13 +529,14 @@
                 "info": "Foreign and Domestic. All insurance claims. Drive-in claim center. Expert body repair and painting. Computerized color matching. End-of-lease repair and detailing. 24-hour towing.",
                 "mapname": "Pit Stop Collision",
                 "category": "live_and_work",
-                "subcategory": "auto_repair"
+                "subcategory": "auto_repair",
+                "address_formatted": "4452 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6537007,
+                    40.6017368
                 ]
             }
         },
@@ -532,7 +553,8 @@
                 "info": "Family owned & operated, dedicated to bringing you the highest quality of food & service. From our family's table to your family's table. Private parties. Catering.",
                 "mapname": "Da Vinci's Italian Ristorante",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "118 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -555,13 +577,14 @@
                 "info": "If you are looking to rent a car, whether due to an accident or for personal or business use, you can count on us. Open Mon-Sat 8a-6p.",
                 "mapname": "Royal Rent-A-Car",
                 "category": "visit_and_experience",
-                "subcategory": "car_rentals"
+                "subcategory": "car_rentals",
+                "address_formatted": "4000 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6445735,
+                    40.6120827
                 ]
             }
         },
@@ -578,13 +601,14 @@
                 "info": "Portuguese, Mediterranean and Continental Cuisine. Catering and parties for all occasions. Open 7 days for dinner.",
                 "mapname": "A Taberna Restaurant",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "4135 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.64701283922244,
+                    40.60822565
                 ]
             }
         },
@@ -601,13 +625,14 @@
                 "info": "A premier solar company with over 700 installations. Our mission is to deliver high performance systems yielding significant savings and environmental benefits, while delivering an amazing customer experience.",
                 "mapname": "EmPower Solar",
                 "category": "live_and_work",
-                "subcategory": "solar_installation"
+                "subcategory": "solar_installation",
+                "address_formatted": "221 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.63191658931594,
-                    40.5935682
+                    -73.65547380171054,
+                    40.603079449999996
                 ]
             }
         },
@@ -624,13 +649,14 @@
                 "info": "Solutions to your storage needs. We are the storage professionals that offer the security, convenience and service you deserve.",
                 "mapname": "Central Self-Storage",
                 "category": "live_and_work",
-                "subcategory": "storage_units"
+                "subcategory": "storage_units",
+                "address_formatted": "4055 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.64460336694748,
+                    40.61095575
                 ]
             }
         },
@@ -647,7 +673,8 @@
                 "info": "Consistently high-quality food and service, generous portions at moderate prices and a casual atmosphere. Beef and steak items and a variety of chicken, ribs, seafood, and pasta dishes.",
                 "mapname": "Outback Steakhouse",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "3939 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -670,13 +697,14 @@
                 "info": "We are a talented team with a passion for our craft. Our experienced stylists, colorists, and make-up artists are all here to bring out your best.",
                 "mapname": "Vivo Salon",
                 "category": "thrive_and_restore",
-                "subcategory": "hair_salons_and_barbers"
+                "subcategory": "hair_salons_and_barbers",
+                "address_formatted": "4000 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6446158,
+                    40.6120174
                 ]
             }
         },
@@ -693,13 +721,14 @@
                 "info": "Over 28 years experience. Quality design. Daily delivery! Weddings; balloons; funeral arrangements; corporate events; theme parties; gourmet baskets.",
                 "mapname": "Doris The Florist",
                 "category": "shop_and_discover",
-                "subcategory": "florists"
+                "subcategory": "florists",
+                "address_formatted": "233 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.65713243267675,
-                    40.5841559
+                    -73.65539394776222,
+                    40.60318555
                 ]
             }
         },
@@ -715,13 +744,14 @@
                 "info": "A great place to eat amazing Portuguese food and have a drink. Come on down and enjoy! Open 7 days. Eat in--take out.",
                 "mapname": "Flamingo Tapas Bar & Grill Cafe",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "3902 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.64397274999999,
+                    40.6152989
                 ]
             }
         },
@@ -737,13 +767,14 @@
                 "info": "A unique drive-thru convenience store with competitive supermarket pricing. Best coffee in town, dairy products, cold beverages, groceries, ice, cigarettes, beer, newspapers and Boar's Head products. Serving beakfast and lunch.",
                 "mapname": "Lady S Drive Thru",
                 "category": "shop_and_discover",
-                "subcategory": "convenience"
+                "subcategory": "convenience",
+                "address_formatted": "4451 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6529963061875,
+                    40.601334550000004
                 ]
             }
         },
@@ -760,13 +791,14 @@
                 "info": "The best sandwich in America just happens to live in the pearl of NY - the south shore of LI . Open for lunch and dinner. We deliver.",
                 "mapname": "Ribeye Bros. Cheesesteaks",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "4455 Broadway, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.67549,
-                    40.584686
+                    -73.65314665,
+                    40.600935750000005
                 ]
             }
         },
@@ -783,13 +815,14 @@
                 "info": "residential, commercial, bank owned, leases and rentals. We are foreclosure specialists.",
                 "mapname": "Island Advantage Realty",
                 "category": "live_and_work",
-                "subcategory": "real_estate"
+                "subcategory": "real_estate",
+                "address_formatted": "233 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.65713243267675,
-                    40.5841559
+                    -73.65539394776222,
+                    40.60318555
                 ]
             }
         },
@@ -805,13 +838,14 @@
                 "info": "Staffed by healthcare professionals who are dedicated to improving the quality of life for those with specialized needs including short and long term therapy.",
                 "mapname": "South Point Plaza - Nursing And Rehabilitation Center",
                 "category": "thrive_and_restore",
-                "subcategory": "rehabilitation_centers"
+                "subcategory": "rehabilitation_centers",
+                "address_formatted": "Rehabilitation & Nursing Home, 1 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.656871,
+                    40.5980812
                 ]
             }
         },
@@ -827,7 +861,8 @@
                 "info": "Open 7 days, May-October. Lunch, dinner, Sunday brunch, late night. \"Sail away\" meals for boaters. Dock & Dine in Pop's Marina. Seasonal docking available at Apache Yacht Club.",
                 "mapname": "Pop's Seafood Shack & Grill",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "15 Railroad Place, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -849,7 +884,8 @@
                 "info": "Providing a lifetime resource for my clients, their families and businesses using my skills, experience, expertise and knowledge while guiding them to an efficient and secure future.",
                 "mapname": "Mark Tannenbaum, LUTCF, CLTC",
                 "category": "live_and_work",
-                "subcategory": "financial_services"
+                "subcategory": "financial_services",
+                "address_formatted": "184 Harrison Avenue, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -871,13 +907,14 @@
                 "info": "This conservative, egalitarian congregation has been serving the community since 1952. Women are accorded Aliyahs, and counted for Minyans. Services for Shabbat, Festivals, and high holidays. Recently merged with Congregation Beth Sholom.",
                 "mapname": "South Shore Jewish Center",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "191 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6318952560165,
-                    40.59277715
+                    -73.65545255667259,
+                    40.60253425
                 ]
             }
         },
@@ -893,7 +930,8 @@
                 "info": "Our mission is to market insurance and employee benefits to our clients and prospects by offering advice and guidance that is always in their best interests.",
                 "mapname": "Mackoul & Associates, Inc.",
                 "category": "live_and_work",
-                "subcategory": "insurance"
+                "subcategory": "insurance",
+                "address_formatted": "25 Nassau Lane, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -915,13 +953,14 @@
                 "info": "Saturday 4-5pm",
                 "mapname": "Sacred Heart R.C. Church",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "282 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.63266380503023,
-                    40.5936243
+                    -73.655897,
+                    40.60437075
                 ]
             }
         },
@@ -937,7 +976,8 @@
                 "info": "Since 1926, the Island Park UMC serves the community with love and a family-oriented atmosphere. We welcome you to come and worship God with us!",
                 "mapname": "Island Park Methodist Church",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "364 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -957,7 +997,8 @@
                 "business": "Newspaper",
                 "mapname": "The Tribune",
                 "category": "live_and_work",
-                "subcategory": "printing_services"
+                "subcategory": "printing_services",
+                "address_formatted": "4 California Place North, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -978,7 +1019,8 @@
                 "info": "local printing, binding, laminating, copying, UV coating.",
                 "mapname": "F & B Printers",
                 "category": "live_and_work",
-                "subcategory": "printing_services"
+                "subcategory": "printing_services",
+                "address_formatted": "4 California Place North, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -999,13 +1041,14 @@
                 "info": "Family owned and operated since 1989. All insurance accepted. 24-hour towing available.",
                 "mapname": "Puma's Auto Body",
                 "category": "live_and_work",
-                "subcategory": "towing"
+                "subcategory": "towing",
+                "address_formatted": "Puma's Auto Body, 4328 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.65090800000002,
+                    40.6043195
                 ]
             }
         },
@@ -1021,13 +1064,14 @@
                 "info": "",
                 "mapname": "King Kullen",
                 "category": "shop_and_discover",
-                "subcategory": "supermarkets"
+                "subcategory": "supermarkets",
+                "address_formatted": "King Kullen, 4601 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.65473557570742,
+                    40.59737665
                 ]
             }
         },
@@ -1042,7 +1086,8 @@
                 "info": "A state-of-the-art space specializing in unique waterfront catered events. Looking to create a party that departs from the standard ballroom event? Warehouse 5 is the venue for you.",
                 "mapname": "Warehouse 5",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering"
+                "subcategory": "delis_and_catering",
+                "address_formatted": "50 Waterfront Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1064,7 +1109,8 @@
                 "info": "Summer dockage, ice free winter dockage, upland winter boat storage, drive on jetski dockage, indoor/outdoor winter jetski storage. Professional full-service mechanic shop.",
                 "mapname": "Apache Yacht Club Marina",
                 "category": "visit_and_experience",
-                "subcategory": "marinas"
+                "subcategory": "marinas",
+                "address_formatted": "7 Railroad Place, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1086,7 +1132,8 @@
                 "info": "The South Shore's premier waterfront catering facility. You can expect elegance and style while always only one wedding at a time.",
                 "mapname": "Bridgeview Yacht Club",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering"
+                "subcategory": "delis_and_catering",
+                "address_formatted": "80 Waterfront Boulevard, Village of Island Park, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1108,13 +1155,14 @@
                 "info": "The best deli in town! Fast, friendly service with a smile. Serving breakfast and lunch specials. Hot or cold sandwiches.",
                 "mapname": "The Dunes Deli",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering"
+                "subcategory": "delis_and_catering",
+                "address_formatted": "300 Lido Boulevard, Lido Beach, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.62684928285549,
-                    40.58819149999999
+                    -73.6263156,
+                    40.5887832
                 ]
             }
         },
@@ -1130,13 +1178,14 @@
                 "info": "Commercial service and renovation; Commercial management; Lifeguard staffing.",
                 "mapname": "W&L Pool Service",
                 "category": "live_and_work",
-                "subcategory": "pool_services"
+                "subcategory": "pool_services",
+                "address_formatted": "182 School Lane, Lido Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6317967,
-                    40.59082065
+                    -73.63192628282829,
+                    40.590243212121216
                 ]
             }
         },
@@ -1152,13 +1201,14 @@
                 "info": "Honoring the memory of Theresa Alessandra Russo by touching the lives of children with special needs. We foster each child's unique abilities through programs focusing on art, music, dance and recreation.",
                 "mapname": "Theresa Academy of Performing Arts",
                 "category": "thrive_and_restore",
-                "subcategory": "special_needs_education"
+                "subcategory": "special_needs_education",
+                "address_formatted": "250 Lido Boulevard, Lido Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.62839816059787,
-                    40.5875841
+                    -73.62778552725406,
+                    40.58795179191418
                 ]
             }
         },
@@ -1173,13 +1223,14 @@
                 "info": "Established 1951, Marvel's famous soft serve. The best milkshakes & slushies! All soft serve from ice cream to yogurt!",
                 "mapname": "Marvel",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "258 Lido Boulevard, Lido Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6278845,
-                    40.5877988
+                    -73.627747,
+                    40.58797
                 ]
             }
         },
@@ -1196,7 +1247,8 @@
                 "info": "Open daily. Chef specials. Outdoor dining in our garden. DJ Friday and Saturday nights. Weekend brunch.",
                 "mapname": "The Saloon",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "1016 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1219,7 +1271,8 @@
                 "info": "Offering compassionate, comprehensive medical services for your family's pet. We make every effort to incorporate the latest techniques in veterinary medical care at our facility.",
                 "mapname": "All Creatures Veterinary Services",
                 "category": "thrive_and_restore",
-                "subcategory": "veterinarians"
+                "subcategory": "veterinarians",
+                "address_formatted": "733 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1242,7 +1295,8 @@
                 "info": "We are a children's play center offering toddler separation classes, summer camp hours, birthday parties, room rentals and Friday night babysitting services.",
                 "mapname": "Seaside Celebrations",
                 "category": "play_and_learn",
-                "subcategory": "youth_services"
+                "subcategory": "youth_services",
+                "address_formatted": "949 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1265,7 +1319,8 @@
                 "info": "The first Circle K convenience store in New York State. Large selection of sweet & salty snacks, soft drinks & much more. Walk-in beer cave.",
                 "mapname": "Circle K - Mobil",
                 "category": "shop_and_discover",
-                "subcategory": "convenience"
+                "subcategory": "convenience",
+                "address_formatted": "203 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1287,7 +1342,8 @@
                 "info": "Celebrating our 40th year! Serving only the best lunch & dinner. Fresh hand packed burgers. Catering & parties available. DJ & live music. Steps from the beach.",
                 "mapname": "J.W. Trainors",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "912 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1309,7 +1365,8 @@
                 "info": "Our goal is to restore your health and inner peace while giving you the highest quality massage services that you will ever experience.",
                 "mapname": "Healing Oasis",
                 "category": "thrive_and_restore",
-                "subcategory": "spas_and_wellness"
+                "subcategory": "spas_and_wellness",
+                "address_formatted": "Healing Oasis Massage, 252 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1331,7 +1388,8 @@
                 "info": "The best Japanese restaurant in town! Serving healthy, fresh fish and a gluten-free menu. Open 7 days. Private room available. We deliver!",
                 "mapname": "Himawari Japanese Restaurant",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "116 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1354,7 +1412,8 @@
                 "info": "The locals choice for over 25 years! A menu that proves to be as much a delight as the atmosphere. Sunday brunch. Take-out available. Sports bar. Catering.",
                 "mapname": "Billy's Beach Cafe",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "Billy's Beach Cafe, 222 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1377,7 +1436,8 @@
                 "info": "Take one of our Defensive Driving Classes and save 10% off your auto insurance and reduce up to 4 points off your license for 3 years.",
                 "mapname": "Hometown - Atlantic Insurance Agency",
                 "category": "live_and_work",
-                "subcategory": "driving_schools"
+                "subcategory": "driving_schools",
+                "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1399,7 +1459,8 @@
                 "info": "Serving Long Beach for over 20 years. Cleaners and shirt launderers. Valet work our speciality.",
                 "mapname": "Delta Cleaners & Shirt Launderers",
                 "category": "live_and_work",
-                "subcategory": "tailoring"
+                "subcategory": "tailoring",
+                "address_formatted": "41 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1422,7 +1483,8 @@
                 "info": "We have an outstanding menu and a full bar. Best brick-oven pizza in Long Beach. Dine in or take out. We deliver.",
                 "mapname": "Brixx & Barley",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "152 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1445,7 +1507,8 @@
                 "info": "With over 30 years of honesty, dependability and integrity, our goal is to provide safe, efficient and economical wiring in every area of your home and business.",
                 "mapname": "All Good Electric",
                 "category": "live_and_work",
-                "subcategory": "electricians"
+                "subcategory": "electricians",
+                "address_formatted": "57 Vermont Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1467,7 +1530,8 @@
                 "info": "Your yogurt is entirely your choice. Come in, choose a cup, fill it with any flavors and toppings that you want, however much you want - pay by the ounce.",
                 "mapname": "Tutti Frutti",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "28 A West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1490,7 +1554,8 @@
                 "info": "My goal is to make the process of buying, selling, or owning a home efficient, enjoyable and rewarding for you.",
                 "mapname": "Bryan Murphy - RE/MAX Innovations",
                 "category": "live_and_work",
-                "subcategory": "real_estate"
+                "subcategory": "real_estate",
+                "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1512,7 +1577,8 @@
                 "info": "Serving the community since 1984, we are a wine and liquor retailer offering a wide selection at very competitive prices. Wine manager always available. Free Delivery.",
                 "mapname": "Long Beach Plaza Liquor",
                 "category": "shop_and_discover",
-                "subcategory": "alcohol_specialty"
+                "subcategory": "alcohol_specialty",
+                "address_formatted": "45 Long Beach Plaza, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1534,7 +1600,8 @@
                 "info": "Celebrating over 75 years in NY! Each store is still individually owned and operated, which allows us to meet the diverse needs of our neighborhood.",
                 "mapname": "Key Food Marketplace",
                 "category": "shop_and_discover",
-                "subcategory": "supermarkets"
+                "subcategory": "supermarkets",
+                "address_formatted": "663 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1556,7 +1623,8 @@
                 "info": "chocolates, candies, truffles, fudge, nuts. Best Gelato ice-cream in town! Unique gift baskets for every occasion and budget.",
                 "mapname": "Gourmet Nuts 'N' Sweets",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "874 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1579,7 +1647,8 @@
                 "info": "Over 30 years experience. Affordable eyewear with many designer frames. Contact lens specialist with hard to fit patient cases. Accept most insurances including VSP and EyeMed. Closed Sundays.",
                 "mapname": "Dr. Leland Barry",
                 "category": "thrive_and_restore",
-                "subcategory": "optometrists"
+                "subcategory": "optometrists",
+                "address_formatted": "651 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1602,7 +1671,8 @@
                 "info": "Come in for personal care and great service. Convenient hours--open late two nights each week. Most insurances accepted.",
                 "mapname": "Above All Eyes",
                 "category": "thrive_and_restore",
-                "subcategory": "optometrists"
+                "subcategory": "optometrists",
+                "address_formatted": "Umi Nail Spa, 264 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1625,7 +1695,8 @@
                 "info": "The latest techniques in Cosmetic Dentistry in a gentle and relaxed atmosphere. TVs, coffee bar and many extras. Convenient hours, Zoom bleaching, Lumineers and much more.",
                 "mapname": "Laleh Tavabi, DDS",
                 "category": "thrive_and_restore",
-                "subcategory": "dentists"
+                "subcategory": "dentists",
+                "address_formatted": "324 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1648,7 +1719,8 @@
                 "info": "Serving Long Beach, Lido Beach, Atlantic Beach, E. Atlantic Beach, Pt. Lookout & Island Park for over 40 years. An independent and experienced MLS Realtor for all your service needs.",
                 "mapname": "Verdeschi Realty",
                 "category": "live_and_work",
-                "subcategory": "real_estate"
+                "subcategory": "real_estate",
+                "address_formatted": "1025 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1671,7 +1743,8 @@
                 "info": "We believe in changing the way that real estate is bought and sold by putting personal service before profit. We are recognized as the #1 referred realtors in Long Beach.",
                 "mapname": "Charles Rutenberg Realty - The Leah Team",
                 "category": "live_and_work",
-                "subcategory": "real_estate"
+                "subcategory": "real_estate",
+                "address_formatted": "46 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1694,7 +1767,8 @@
                 "info": "Best pizza in town! Eat in or take out. Specialty pies, soups, salads, heros, pasta specialties and more. Free delivery, catering and outside seating available.",
                 "mapname": "West End Pizza & Restaurant",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "918 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1717,7 +1791,8 @@
                 "info": "Great Food With Your Health In Mind! Satisfying everyone from vegetarians to the carb-free consumer to people following a gluten-free diet.",
                 "mapname": "Muscle Maker Grill",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "18 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1740,7 +1815,8 @@
                 "info": "We devote our knowledge and expertise towards providing you with the best service possible. Consultations are the foundation to our success.",
                 "mapname": "Highlights West",
                 "category": "thrive_and_restore",
-                "subcategory": "hair_salons_and_barbers"
+                "subcategory": "hair_salons_and_barbers",
+                "address_formatted": "805 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1763,7 +1839,8 @@
                 "info": "Ronald H. Falcon, MD; Charisse A. Dolitsky, MD; K. Andrew Cerveny, Jr., MD; Wil D. Tutrone, M.D.; Adarsh V. Mudgil, M.D.; Linda M. Dodick, MPAS",
                 "mapname": "Island Dermatology",
                 "category": "thrive_and_restore",
-                "subcategory": "dermatologists"
+                "subcategory": "dermatologists",
+                "address_formatted": "604 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1786,7 +1863,8 @@
                 "info": "An elegant yet casual place to enjoy great food, exotic drinks, friendly people and live entertainment. JETTY is your destination for fun & relaxing! Open Tues-Sun.",
                 "mapname": "Jetty",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "832 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1808,7 +1886,8 @@
                 "info": "Offering professional auto repairs six days a week, gas and free air 24 hours/7 days a week. Snacks, Lotto, ATM.",
                 "mapname": "West Park Ave. Service Center",
                 "category": "live_and_work",
-                "subcategory": "auto_repair"
+                "subcategory": "auto_repair",
+                "address_formatted": "390 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1831,7 +1910,8 @@
                 "info": "Your One Stop Neighborhood Car Center for almost 30 years. Free pick-up & drop off service. Mon-Fri 8-6. Sat-Sun 8-4. N.Y.S. Inspection Station",
                 "mapname": "Good Year",
                 "category": "live_and_work",
-                "subcategory": "auto_repair"
+                "subcategory": "auto_repair",
+                "address_formatted": "512 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1854,7 +1934,8 @@
                 "info": "Locally owned and operated. Active in the community for over thirty years. Weekly wine tastings. Lotto. Open seven days. We deliver!",
                 "mapname": "Beach Liquors",
                 "category": "shop_and_discover",
-                "subcategory": "alcohol_specialty"
+                "subcategory": "alcohol_specialty",
+                "address_formatted": "1087 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1877,7 +1958,8 @@
                 "info": "Family owned & operated. Serving Long Beach since 1953. Auto service to residential glass repairs--we do it all! M-F 8am-6pm. Sat 8am-1pm.",
                 "mapname": "Surf Glass Corp.",
                 "category": "live_and_work",
-                "subcategory": "glass_services"
+                "subcategory": "glass_services",
+                "address_formatted": "457 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1900,7 +1982,8 @@
                 "info": "We cater to your taste and mood with an elegant yet relaxed and casual restaurant-cafe. Here you can enjoy authentic Italian cuisine and superb ambiance.",
                 "mapname": "Villaggio Authentic Italian Cuisine",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "157 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1923,7 +2006,8 @@
                 "info": "The West End's only Mexican-American cuisine. Dine indoors or outdoors, free parking and delivery. Open 7 days during summer.",
                 "mapname": "The Cabana",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "1034 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1946,7 +2030,8 @@
                 "info": "The world's largest chain of ice cream specialty shops. Innovative, premium ice cream, specialty frozen desserts and beverages, providing quality and value to our consumers. Cakes available.",
                 "mapname": "Baskin Robbins",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "170 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1968,7 +2053,8 @@
                 "info": "Serving our community for 23 years. We are a full service auto center. Fast oil change--tune-ups--brakes. NYS inspections. Closed Sundays.",
                 "mapname": "West End Automotive",
                 "category": "live_and_work",
-                "subcategory": "auto_repair"
+                "subcategory": "auto_repair",
+                "address_formatted": "West End Automatic, 927 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -1990,7 +2076,8 @@
                 "info": "Serving the community for over 12 years. Senior discounts, bill payments, corporate discounts, prepaid services, cell phone repairs, repair and unlocking service. Unlocked GSM World phones.",
                 "mapname": "Cell City",
                 "category": "live_and_work",
-                "subcategory": "telecommunications"
+                "subcategory": "telecommunications",
+                "address_formatted": "54 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2012,7 +2099,8 @@
                 "info": "Move to the most affordable, unlimited data, talk and text with no annual contract on a nationwide 4G LTE network.",
                 "mapname": "Metro PCS",
                 "category": "live_and_work",
-                "subcategory": "telecommunications"
+                "subcategory": "telecommunications",
+                "address_formatted": "64 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2034,7 +2122,8 @@
                 "info": "Family owned and operated for three generations. All work done on premises. Same day service--never an extra charge. We are \"A better cleaner for those who care.\"",
                 "mapname": "Laurel Tailors & Dry Cleaners",
                 "category": "live_and_work",
-                "subcategory": "tailoring"
+                "subcategory": "tailoring",
+                "address_formatted": "285 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2056,7 +2145,8 @@
                 "info": "Discover Long Island's only luxury oceanfront hotel where the Hamptons meets Manhattan. Experience the Atlantic's rolling waves, endless skies and majestic sunset views.",
                 "mapname": "Allegria Hotel",
                 "category": "visit_and_experience",
-                "subcategory": "hotels"
+                "subcategory": "hotels",
+                "address_formatted": "80 West Broadway, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2079,7 +2169,8 @@
                 "info": "The first and only German restaurant in Long Beach, NY. We offer the largest selection of German beers and sausages on the South Shore of Long Island.",
                 "mapname": "Currywurst Company",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "10 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2102,7 +2193,8 @@
                 "info": "We are local coffee roasters. All of our coffee is roasted on site. Come down to our cafe to try our freshly roasted coffee.",
                 "mapname": "Gentle Brew Coffee Roasters",
                 "category": "eat_and_drink",
-                "subcategory": "coffee_shops"
+                "subcategory": "coffee_shops",
+                "address_formatted": "151 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2125,7 +2217,8 @@
                 "info": "In a store filled with diamonds and gold the most precious thing is our customer. Custom designs. Expert repairs. We carry the fun stuff!",
                 "mapname": "Jewelry By Steven",
                 "category": "shop_and_discover",
-                "subcategory": "jewelry_and_accessories"
+                "subcategory": "jewelry_and_accessories",
+                "address_formatted": "643 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2148,7 +2241,8 @@
                 "info": "Bringing you authentic Mexican cuisine. We take pride in serving you a slice of paradise. Voted best margarita and sangria on Long Island.",
                 "mapname": "Don Juan",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "124 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2170,7 +2264,8 @@
                 "info": "Third generation dry cleaner serving the Long Beach area for over 60 years. Fine tailoring and shirt laundering. Specializing in all ski apparel and wedding gowns.",
                 "mapname": "Nu-Clear Clothing Care Specialists",
                 "category": "live_and_work",
-                "subcategory": "tailoring"
+                "subcategory": "tailoring",
+                "address_formatted": "180 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2192,7 +2287,8 @@
                 "info": "State-of-the-art facility, open seven days with 24-hour on call services. Modern comfortable environment. Friendly and courteous staff. Well child care, urgent care issues, summer patients welcome.",
                 "mapname": "Matthew S. Cohen, MD, FAAP",
                 "category": "thrive_and_restore",
-                "subcategory": "pediatricians"
+                "subcategory": "pediatricians",
+                "address_formatted": "272 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2214,7 +2310,8 @@
                 "info": "We provide high quality clinical blood testing. Our location offers patients personalized service with minimal wait times, quick reported results and high patient satisfaction.",
                 "mapname": "LI Path",
                 "category": "thrive_and_restore",
-                "subcategory": "laboratory_services"
+                "subcategory": "laboratory_services",
+                "address_formatted": "303 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2236,7 +2333,8 @@
                 "info": "A competent and compassionate team of physicians and nurse practitioners. Routine, DOT, school and employment physicals, management of acute and chronic diseases, home visits. Most insurances accepted.",
                 "mapname": "Right Choice Primary Care",
                 "category": "thrive_and_restore",
-                "subcategory": "primary_care"
+                "subcategory": "primary_care",
+                "address_formatted": "303 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2258,7 +2356,8 @@
                 "info": "Offering quality year round programs. Our early childhood, school-age and holiday programs are licensed by NYS. Stop by and meet our experienced and loving staff.",
                 "mapname": "Friedberg JCC",
                 "category": "play_and_learn",
-                "subcategory": "childcare"
+                "subcategory": "childcare",
+                "address_formatted": "310 National Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2279,7 +2378,8 @@
                 "info": "Since 1939, Long Beach's favorite East End pub. Friendly crowd and bartenders. Pool table and bocce. \"Coldest beer in town!\" Open 7 days. Recently renovated.",
                 "mapname": "Nolan's Pub",
                 "category": "eat_and_drink",
-                "subcategory": "bars_and_pubs"
+                "subcategory": "bars_and_pubs",
+                "address_formatted": "435 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2301,7 +2401,8 @@
                 "info": "A leader in fire safety since 1969. Our friendly staff reflect years of experience in sales, product installation, maintenance, and attention to customer need.",
                 "mapname": "Fire Command Co. Inc.",
                 "category": "live_and_work",
-                "subcategory": "safety_services"
+                "subcategory": "safety_services",
+                "address_formatted": "475 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2322,7 +2423,8 @@
                 "info": "Drivers who switched to Allstate saved an average of $498 a year. Call today for a free policy review. How much will you save?",
                 "mapname": "Allstate Insurance",
                 "category": "live_and_work",
-                "subcategory": "insurance"
+                "subcategory": "insurance",
+                "address_formatted": "511 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2344,7 +2446,8 @@
                 "info": "Licensed Registered Dietitian. Through nutrition education, motivation and support we can help you on your journey to optimum health and wellness.",
                 "mapname": "Nutrition Counseling",
                 "category": "thrive_and_restore",
-                "subcategory": "nutritionists"
+                "subcategory": "nutritionists",
+                "address_formatted": "535 A West Broadway, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2366,7 +2469,8 @@
                 "info": "A local family owned and operated independent insurance agency. One of the largest providers of flood insurance in NY, Denis A. Miller is known as the 'Flood Man'.",
                 "mapname": "Denis A. Miller Insurance Agency, Inc.",
                 "category": "live_and_work",
-                "subcategory": "insurance"
+                "subcategory": "insurance",
+                "address_formatted": "60 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2388,7 +2492,8 @@
                 "info": "Specializing in extreme smile makeovers for a brighter smile. Dr Gitt's procedures include dental veneers, dental bonding, metal free fillings, teeth whitening, and crowns.",
                 "mapname": "Cosmetic & Implant Dentistry of Long Beach",
                 "category": "thrive_and_restore",
-                "subcategory": "dentists"
+                "subcategory": "dentists",
+                "address_formatted": "618 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2410,7 +2515,8 @@
                 "info": "Family owned pharmacy that will fill prescription while you wait. No cost Rx transfer. We offer diabetic and home health care supplies and have free delivery service.",
                 "mapname": "Precision Pharmacy",
                 "category": "thrive_and_restore",
-                "subcategory": "pharmacies"
+                "subcategory": "pharmacies",
+                "address_formatted": "629 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2432,7 +2538,8 @@
                 "info": "We are a family owned full service lumberyard providing home owners and professional contractors with quality lumber and building materials since 1949.",
                 "mapname": "Centre Millwork & Supply Co.",
                 "category": "live_and_work",
-                "subcategory": "building_materials"
+                "subcategory": "building_materials",
+                "address_formatted": "669 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2454,7 +2561,8 @@
                 "info": "After Sales Comes Service – Air conditioning - Heating - Ventilation. Servicing the Long Beach area for over 60 years. Service, installations, sales and design. Residential & commercial.",
                 "mapname": "PAM Air-Services, Inc.",
                 "category": "live_and_work",
-                "subcategory": "hvac"
+                "subcategory": "hvac",
+                "address_formatted": "701 Park Place, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2476,7 +2584,8 @@
                 "info": "Pain-arthritis-headaches-insomnia-depression-chronic fatigue-stress/anxiety-hypertension-Bell's palsy-TMJ-post stroke-Fibromyalgia-Carpal Tunnel-auto injury-gynecological problems-digestive disorders-allergies",
                 "mapname": "East Park Chiropractic Health & Wellness Care",
                 "category": "thrive_and_restore",
-                "subcategory": "acupuncture"
+                "subcategory": "acupuncture",
+                "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2498,7 +2607,8 @@
                 "info": "Traditional and non-forced chiropractic for preventive care, pain and injuries. Automobile accident, work-related, sports injury, massage therapy, homeopathic pain management and nutritional consultation.",
                 "mapname": "East Park Chiropractic Health & Wellness Care",
                 "category": "thrive_and_restore",
-                "subcategory": "chiropractic"
+                "subcategory": "chiropractic",
+                "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2520,7 +2630,8 @@
                 "info": "Sat -5pm, Sunday-8am, 10am, 12noon. Weekdays-8am. We welcome as family all who knock on our door seeking the face of Christ.",
                 "mapname": "St. Ignatius Martyr R.C. Church",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "721 West Broadway, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2542,7 +2653,8 @@
                 "info": "Instructional classes and creative workshops for all ages and abilities. Come create with us! After school program, summer camp, birthday parties. Painting, drawing, fiber arts and more!",
                 "mapname": "The Mermaid Art Studio",
                 "category": "visit_and_experience",
-                "subcategory": "art_studios"
+                "subcategory": "art_studios",
+                "address_formatted": "891 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2563,7 +2675,8 @@
                 "info": "Your financial health is our first priority. We are a 40 million dollar company. We specialize in retirement planning for Long Beach School personnel and Long Beach businesses.",
                 "mapname": "Hamlet Investment Services",
                 "category": "live_and_work",
-                "subcategory": "financial_services"
+                "subcategory": "financial_services",
+                "address_formatted": "899 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2585,7 +2698,8 @@
                 "info": "Our Board-Certified physicians can treat almost any injury or illness, on-site lab, x-ray, EKG, IV. Open 365 days, including holidays. Children & adults. No appointment needed.",
                 "mapname": "CityMD",
                 "category": "thrive_and_restore",
-                "subcategory": "urgent_care"
+                "subcategory": "urgent_care",
+                "address_formatted": "904 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2606,7 +2720,8 @@
                 "info": "Serving our community for over 60 years. Conveniently located at the LIRR. Open 24/7. We offer Senior rates, corporate and personal accounts. Thank you for your continued support.",
                 "mapname": "Long Beach Taxi",
                 "category": "live_and_work",
-                "subcategory": "taxi_services"
+                "subcategory": "taxi_services",
+                "address_formatted": "West End Automatic, 927 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2628,7 +2743,8 @@
                 "info": "The West End's hottest new bar and restaurant! Open daily until 4am. Happy hour weekdays 5-7pm. Celebrate your event with us!",
                 "mapname": "Lilly's of Long Beach",
                 "category": "eat_and_drink",
-                "subcategory": "bars_and_pubs"
+                "subcategory": "bars_and_pubs",
+                "address_formatted": "958 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2650,7 +2766,8 @@
                 "info": "Beech Street Taxi is the fastest provider of taxi's and town cars in Long Beach. We have the best rates to and from the airports.",
                 "mapname": "Beech St. Taxi",
                 "category": "live_and_work",
-                "subcategory": "taxi_services"
+                "subcategory": "taxi_services",
+                "address_formatted": "966 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2672,13 +2789,14 @@
                 "info": "We're \"More of What A Bank Should Be,\" providing great rates on a full line of products and services the credit union way. Open an account or request a loan anytime. Safe. Secure. Federally Insured.",
                 "mapname": "Nassau Financial Federal Credit Union",
                 "category": "live_and_work",
-                "subcategory": "financial_services"
+                "subcategory": "financial_services",
+                "address_formatted": "2995 Long Beach Road, Oceanside, NY 11572, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6463576,
-                    40.6134372
+                    -73.6394201,
+                    40.6380136
                 ]
             }
         },
@@ -2695,13 +2813,14 @@
                 "info": "From Our Ships...To Your Lips! Located right on the water in Point Lookout. Lunch, Dinner, Sunday Brunch Buffet. Live Lobster Grotto.",
                 "mapname": "Fisherman's Catch Restaurant",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "111 Bayside Drive, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.71212933853562,
-                    40.58794971130598
+                    -73.5798079916045,
+                    40.5941841
                 ]
             }
         },
@@ -2718,13 +2837,14 @@
                 "info": "Voted one of the best places for breakfast by Newsday. Breakfast, lunch and dinner served daily. Indoor and outdoor dining. Check out our daily dinner specials. Free delivery.",
                 "mapname": "Jo Jo Apples",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "85 Lido Boulevard, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.62356882951102,
-                    40.587399649999995
+                    -73.5807117,
+                    40.5919254
                 ]
             }
         },
@@ -2741,13 +2861,14 @@
                 "info": "We pride ourselves as being a true Neighborhood Pharmacy with personalized service that celebrates the heritage of our community of Point Lookout.",
                 "mapname": "Gelo's Point Pharmacy",
                 "category": "thrive_and_restore",
-                "subcategory": "pharmacies"
+                "subcategory": "pharmacies",
+                "address_formatted": "62 Lido Boulevard, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.622825999782,
-                    40.5877177
+                    -73.5812954,
+                    40.5923255
                 ]
             }
         },
@@ -2763,7 +2884,8 @@
                 "info": "We are a financial institution offering a spectrum of services. Our main objective is to provide our members with extraordinary value and service. Built to Give You More.",
                 "mapname": "Bethpage Federal Credit Union",
                 "category": "live_and_work",
-                "subcategory": "financial_services"
+                "subcategory": "financial_services",
+                "address_formatted": "26 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2785,7 +2907,8 @@
                 "info": "We bring all the Latin flavors not only through food but through drinks, music and lively recreation of the environment of the Caribbean.",
                 "mapname": "Corazon De Cuba",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "Corazon de Cuba, 26 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2807,7 +2930,8 @@
                 "info": "Serving the community for over 35 years. Cakes, cookies, pastries, rolls, Danishes, muffins, pies, doughnuts, breakfast specials and more. A sugar free section and cakes to order.",
                 "mapname": "Country Boy Bakery",
                 "category": "eat_and_drink",
-                "subcategory": "bakeries"
+                "subcategory": "bakeries",
+                "address_formatted": "Country Boy Bakery, 256 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2829,7 +2953,8 @@
                 "info": "00am Solemn High Mass, Children's Sunday School - 10am.",
                 "mapname": "St. James of Jerusalem Episcopal Church",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "220 West Penn Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2850,7 +2975,8 @@
                 "info": "Our practice is dedicated to providing quality health care. We give our patients the utmost care and service and have the interest and desire to listen to what you are saying.",
                 "mapname": "Lowell B. Taubman, MD - Internal Medicine",
                 "category": "thrive_and_restore",
-                "subcategory": "primary_care"
+                "subcategory": "primary_care",
+                "address_formatted": "206 Riverside Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2872,7 +2998,8 @@
                 "info": "Providing comprehensive professional services for local individuals and families since 1970. Our mission is to help develop self-awareness and self-esteem and to create positive alternatives.",
                 "mapname": "Long Beach Reach",
                 "category": "thrive_and_restore",
-                "subcategory": "mental_health_services"
+                "subcategory": "mental_health_services",
+                "address_formatted": "2 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2894,7 +3021,8 @@
                 "info": "Come and visit the best Japanese restaurant on Long Island. You have never tasted anything like Nagahama!",
                 "mapname": "Nagahama Japanese Restaurant",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "169 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2916,7 +3044,8 @@
                 "info": "An alternative high school diploma program for students who have withdrawn from the traditional education system. College and vocational admission assistance are also provided.",
                 "mapname": "Harriet Eisman Community School",
                 "category": "play_and_learn",
-                "subcategory": "educational_services"
+                "subcategory": "educational_services",
+                "address_formatted": "165 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2938,7 +3067,8 @@
                 "info": "We are a full service law firm serving the Long Beach community for over 40 years.",
                 "mapname": "Elovich & Adell - Attorneys At Law",
                 "category": "live_and_work",
-                "subcategory": "attorneys"
+                "subcategory": "attorneys",
+                "address_formatted": "164 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2960,7 +3090,8 @@
                 "info": "Gull Realty has been part of the Long Beach community for more than 23 years. We specialize in ocean front property, residential homes, condos, co-ops, commercial investment properties and vacant land parcels.",
                 "mapname": "Gull Realty",
                 "category": "live_and_work",
-                "subcategory": "real_estate"
+                "subcategory": "real_estate",
+                "address_formatted": "162 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -2981,7 +3112,8 @@
                 "info": "Providing personalized professional legal services to Long Beach and surrounding communities. We have a general practice and specialize in real estate, estate planning, and civil litigation.",
                 "mapname": "Maria J. Aramanda - Attorney At Law",
                 "category": "live_and_work",
-                "subcategory": "attorneys"
+                "subcategory": "attorneys",
+                "address_formatted": "162 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3002,7 +3134,8 @@
                 "info": "Serving the community since 1992. Owned by two Certified Public Accountants--a husband and wife team--with over 30 years experience. Handling corporate, partnership, individual, estate and trusts.",
                 "mapname": "Hertz & Rosenzweig LLP",
                 "category": "live_and_work",
-                "subcategory": "accountants"
+                "subcategory": "accountants",
+                "address_formatted": "158 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3023,7 +3156,8 @@
                 "info": "Good deals on school supplies, party goods, household items, toys, floral, hardware, seasonal and holiday decorations. Everything is 99 cents and up.",
                 "mapname": "Grand 99¢ & Up City",
                 "category": "shop_and_discover",
-                "subcategory": "discount_stores"
+                "subcategory": "discount_stores",
+                "address_formatted": "138 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3045,7 +3179,8 @@
                 "info": "Common Purpose, Responsible Finance, Ingenuity and Leadership.",
                 "mapname": "Citibank",
                 "category": "live_and_work",
-                "subcategory": "financial_services"
+                "subcategory": "financial_services",
+                "address_formatted": "129 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3067,7 +3202,8 @@
                 "info": "Our goal and policy is to treat your children as if they were our own. We consider your children not just a patient, but part of our extended family.",
                 "mapname": "Dr. Glen's Happy Teeth",
                 "category": "thrive_and_restore",
-                "subcategory": "dentists"
+                "subcategory": "dentists",
+                "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3089,7 +3225,8 @@
                 "info": "State-of-the-art technology, including digital x-rays, self-ligating braces, clear ceramic braces, lingual (hidden) braces and Invisalign. Treating children, adolescents, and adults with care and compassion.",
                 "mapname": "Adam Cohen, DMD - Orthodontist",
                 "category": "thrive_and_restore",
-                "subcategory": "orthodontists"
+                "subcategory": "orthodontists",
+                "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3111,7 +3248,8 @@
                 "info": "We sell auto, home, flood and business insurance. If you want great rates and customer service, easy pay plans, multiple policy discounts, call us for a free quote.",
                 "mapname": "Hometown - Atlantic Insurance Agency",
                 "category": "live_and_work",
-                "subcategory": "insurance"
+                "subcategory": "insurance",
+                "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3133,7 +3271,8 @@
                 "info": "Our Orthodox synagogue is located in the heart of Long Beach. We have provided minyanim, shiurim and programming for over 50 years and are one of the warmest, vibrant synagogues in the country.",
                 "mapname": "Young Israel of Long Beach",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "Young Israel of Long Beach, 120 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3155,7 +3294,8 @@
                 "info": "A diversified bank that offers a broad array of financial products and services to consumers, small businesses and commercial clients. A Fortune 500 company. We are one of the nation's Top 10 largest banks based on deposits",
                 "mapname": "Capital One Bank",
                 "category": "live_and_work",
-                "subcategory": "financial_services"
+                "subcategory": "financial_services",
+                "address_formatted": "11 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3177,7 +3317,8 @@
                 "info": "Serving Long Beach for over 25 years. We look forward to helping you with your flood, home, auto, motorcycle and business insurance policies. We are your full service neighbor insurance agency.",
                 "mapname": "Jil Insurance Agency",
                 "category": "live_and_work",
-                "subcategory": "insurance"
+                "subcategory": "insurance",
+                "address_formatted": "1048 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3199,7 +3340,8 @@
                 "info": "The coastal solution for a rapid rebuild with affordable modular construction. Let us help you with all aspects of the rebuilding process and obtain the loan you need.",
                 "mapname": "Hewlett Partners Modular Homes",
                 "category": "live_and_work",
-                "subcategory": "modular_homes"
+                "subcategory": "modular_homes",
+                "address_formatted": "1047 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3222,7 +3364,8 @@
                 "info": "Five star food and nightlife. Live music every night. Greatest happy hour on the shore. Delicious drinks, terrific music, undeniable food, all served under one roof.",
                 "mapname": "The Beach House",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "Ugly Duckling - Long Beach, 906 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3245,7 +3388,8 @@
                 "info": "We help you get customers through your door! We are experienced in search engine optimization (SEO), social media and marketing your website to maximize your return on investment.",
                 "mapname": "The Cybernet Place",
                 "category": "live_and_work",
-                "subcategory": "marketing_services"
+                "subcategory": "marketing_services",
+                "address_formatted": "38 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3268,7 +3412,8 @@
                 "info": "We are an authorized dealer for many household and commercial vacuums. Central vacuum cleaner system installation. Industrial vacuums. Vacuum cleaner accessories.",
                 "mapname": "Incredivac Cleaning Solutions",
                 "category": "shop_and_discover",
-                "subcategory": "specialty_retail"
+                "subcategory": "specialty_retail",
+                "address_formatted": "266 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3291,7 +3436,8 @@
                 "info": "Serving Long Beach since 2001. Classes tailored to individual needs. We combine fitness, self-defense, and stress relief with a stimulating varied program. Children, teen and adult classes.",
                 "mapname": "Master Park's Martial Arts",
                 "category": "thrive_and_restore",
-                "subcategory": "martial_arts_studios"
+                "subcategory": "martial_arts_studios",
+                "address_formatted": "Tae Kwon Do, 217 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3313,7 +3459,8 @@
                 "info": "The West End's favorite ice cream shop for over 50 years!",
                 "mapname": "The Ice Cream Shoppe",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "Cherry Valley at the Ice King of Corona, 831 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3336,7 +3483,8 @@
                 "info": "Stock to custom cabinetry for your home. A full line of tile, formica and quartz countertops. Let Long Beach people help rebuild our community!",
                 "mapname": "Beach Cabinets",
                 "category": "live_and_work",
-                "subcategory": "home_improvement"
+                "subcategory": "home_improvement",
+                "address_formatted": "880 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3359,7 +3507,8 @@
                 "info": "Fabulous jewelry, accessories, and clothing. Gift certificates-wedding parties-custom tees & sweats for parties/special occasions-teacher gifts-prom jewelry-hair accessories. Free gift bags!",
                 "mapname": "Frippery",
                 "category": "shop_and_discover",
-                "subcategory": "clothing_and_fashion"
+                "subcategory": "clothing_and_fashion",
+                "address_formatted": "140 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3382,7 +3531,8 @@
                 "info": "Bicycle sales and rentals, accessories, service on all makes and models, kustom builds. Closed Wed.",
                 "mapname": "Local Cycles",
                 "category": "visit_and_experience",
-                "subcategory": "bike_rentals"
+                "subcategory": "bike_rentals",
+                "address_formatted": "Local Cycles, 307 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3405,7 +3555,8 @@
                 "info": "The Original Beginner's Hot Yoga Class. \"Never too late, never too bad, never too old or too sick to start from scratch again.\"",
                 "mapname": "Bikram Yoga",
                 "category": "thrive_and_restore",
-                "subcategory": "yoga_studios"
+                "subcategory": "yoga_studios",
+                "address_formatted": "120 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3428,7 +3579,8 @@
                 "info": "We serve great food to good people and keep the \"Love\" of BBQ alive. Our meats are slow cooked in our rotisserie pit. Our sauces and just about everything else on the menu is made from scratch.",
                 "mapname": "Swingbellys BBQ",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "909 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3450,7 +3602,8 @@
                 "info": "The best bagel store in Long Beach. Our bagels are absolutely delicious. The service is great! So come and try everything! Under the supervision of the South Shore VAAD SVS.",
                 "mapname": "Life's A Bagel",
                 "category": "eat_and_drink",
-                "subcategory": "bakeries"
+                "subcategory": "bakeries",
+                "address_formatted": "76 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3472,7 +3625,8 @@
                 "info": "Traditional hand rolled bagels, sandwiches, wraps, salads, coffee, Boar's Head, breakfast all day, delivery to beach, catering.",
                 "mapname": "Max Bialystok & Co.",
                 "category": "eat_and_drink",
-                "subcategory": "bakeries"
+                "subcategory": "bakeries",
+                "address_formatted": "159 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3495,7 +3649,8 @@
                 "info": "Since 1928, Ralph's has been serving the best Italian ices & ice cream in New York. Over 120 flavors, shakes, smoothies & sundaes. Open 7 days.",
                 "mapname": "Ralph's Ices",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "Ralph's Italian Ice, 8 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3518,7 +3673,8 @@
                 "info": "Since 1928, Ralph's has been serving the best Italian ices & ice cream in New York. Over 120 flavors, shakes, smoothies & sundaes. Open 7 days.",
                 "mapname": "Ralph's Ices",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "1090 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3541,7 +3697,8 @@
                 "info": "Established 1991. Open 24 hours-7 days. Serving hand rolled bagels baked the old fashioned way. Hot foods, Boar's Head cold cuts, full convenience store.",
                 "mapname": "Beach Bagel & Deli",
                 "category": "shop_and_discover",
-                "subcategory": "convenience"
+                "subcategory": "convenience",
+                "address_formatted": "1090 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3563,7 +3720,8 @@
                 "info": "Serving Long Beach for over 30 years with exceptional quality and experienced workmanship at reasonable prices. From jeans to wedding dresses, we handle it all.",
                 "mapname": "Michael's Tailoring & Dry Cleaning",
                 "category": "live_and_work",
-                "subcategory": "tailoring"
+                "subcategory": "tailoring",
+                "address_formatted": "48 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3586,7 +3744,8 @@
                 "info": "Our mission is to support families in a joyful journey of health, growth and transformation. We serve people of all ages and walks of life.",
                 "mapname": "Cafe of Life Chiropractic",
                 "category": "thrive_and_restore",
-                "subcategory": "chiropractic"
+                "subcategory": "chiropractic",
+                "address_formatted": "100 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3608,7 +3767,8 @@
                 "info": "50% off deals all summer long. Hot food served 10pm-4am. $2 hamburgers and hot dogs.",
                 "mapname": "Yum Yum Yogurt",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "966 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3631,7 +3791,8 @@
                 "info": "Modern alternative approach to rustic Italian fare.",
                 "mapname": "Grotta Di Fuoco",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "960 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3654,7 +3815,8 @@
                 "info": "Founded 2008. Salvation Tattoo prides itself on being local, friendly, professional and staffed with highly skilled artists. Open 7 days. Walk-ins welcome.",
                 "mapname": "Salvation South Tattoo Gallery",
                 "category": "thrive_and_restore",
-                "subcategory": "tattoo_and_piercing"
+                "subcategory": "tattoo_and_piercing",
+                "address_formatted": "58 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3677,7 +3839,8 @@
                 "info": "Always natural, always fresh. We find the most delicious produce to craft the best gourmet ice available. Refresh Responsibly!",
                 "mapname": "20 Degrees Gourmet Ice",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts"
+                "subcategory": "ice_cream_and_desserts",
+                "address_formatted": "2 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3700,7 +3863,8 @@
                 "info": "The West End's hottest new bar and restaurant! Open daily until 4am. Happy hour weekdays 5-7pm. Celebrate your event with us!",
                 "mapname": "Lilly's of Long Beach",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "958 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3723,7 +3887,8 @@
                 "info": "Boozy Breakfast n' Brunch.",
                 "mapname": "A Whale's Tale",
                 "category": "eat_and_drink",
-                "subcategory": "restaurants"
+                "subcategory": "restaurants",
+                "address_formatted": "916 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3746,13 +3911,14 @@
                 "info": "Since 1926. Complete plumbing, heating, air conditioning services. 7 days a week. Emergency service. All work is done by our fully trained full-time staff.",
                 "mapname": "John D. MacDonald & Son, Inc.",
                 "category": "live_and_work",
-                "subcategory": "plumbing"
+                "subcategory": "plumbing",
+                "address_formatted": "77 Lido Boulevard, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6229486,
-                    40.58723005
+                    -73.5811751,
+                    40.5918436
                 ]
             }
         },
@@ -3769,13 +3935,14 @@
                 "info": "A full service supermarket featuring a meat department with specialty cuts, custom orders, prime meats and homemade sausage. Our deli and kitchen serve daily breakfast, lunch and dinner specialties.",
                 "mapname": "IGA - Aggie's Market & Kitchen",
                 "category": "shop_and_discover",
-                "subcategory": "supermarkets"
+                "subcategory": "supermarkets",
+                "address_formatted": "40 Lido Boulevard, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.637713,
-                    40.588689
+                    -73.58243650031974,
+                    40.592321600000005
                 ]
             }
         },
@@ -3791,13 +3958,14 @@
                 "info": "Home of the 14\" Sub! Grab onto one of these! You've never seen anything like it! Free delivery--beach, home or office. Open 5am daily.",
                 "mapname": "Point Lookout Deli",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering"
+                "subcategory": "delis_and_catering",
+                "address_formatted": "1 Lido Boulevard, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6361277474773,
-                    40.587091400000006
+                    -73.5842017,
+                    40.5918493
                 ]
             }
         },
@@ -3813,7 +3981,8 @@
                 "info": "20-21, to be in harmony with Him and to inspire others to do the same.",
                 "mapname": "Point Lookout Community Church",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "60 Freeport Avenue, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3836,7 +4005,8 @@
                 "info": "Praise be the name of Jesus Christ! You are invited to join us so that we might worship God together. Please grace us with your presence.",
                 "mapname": "Our Lady of the Miraculous Medal Church",
                 "category": "gather_and_worship",
-                "subcategory": "places_of_worship"
+                "subcategory": "places_of_worship",
+                "address_formatted": "75 Parkside Drive, Point Lookout, NY 11569, United States of America"
             },
             "geometry": {
                 "type": "Point",
@@ -3859,13 +4029,14 @@
                 "info": "Screen printing - Embroidery - Advertising specialties - Promotional signage - Family owned and operated since 1986.",
                 "mapname": "E. Van Creations",
                 "category": "live_and_work",
-                "subcategory": "printing_services"
+                "subcategory": "printing_services",
+                "address_formatted": "54 South Long Beach Road, Village of Rockville Centre, NY 11570, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.7053632994623,
-                    40.58656505
+                    -73.63561909637755,
+                    40.652779300000006
                 ]
             }
         },
@@ -3881,13 +4052,14 @@
                 "info": "Our firm provides outstanding service to our clients because of our dedication to the three underlying principles of professionalism, responsiveness and quality.",
                 "mapname": "Vidulich & Associates, LTD.",
                 "category": "live_and_work",
-                "subcategory": "accountants"
+                "subcategory": "accountants",
+                "address_formatted": "486 Sunrise Highway, Village of Rockville Centre, NY 11570, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6350039,
+                    40.6571075
                 ]
             }
         },
@@ -3903,13 +4075,14 @@
                 "info": "Screen printing - Embroidery - Advertising specialties - Promotional signage - Family owned and operated since 1986.",
                 "mapname": "E. Van Creations",
                 "category": "shop_and_discover",
-                "subcategory": "specialty_retail"
+                "subcategory": "specialty_retail",
+                "address_formatted": "54 South Long Beach Road, Village of Rockville Centre, NY 11570, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.7053632994623,
-                    40.58656505
+                    -73.63561909637755,
+                    40.652779300000006
                 ]
             }
         },
