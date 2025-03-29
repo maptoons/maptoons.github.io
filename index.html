@@ -17,11 +17,12 @@
         .maplibregl-ctrl-bottom-right{ display: none; }
         #map { height: 100%; width: 100%; }
 
-        .marker { pointer-events: auto; cursor: pointer; background-color: transparent !important; }
-        .marker img { pointer-events: auto; display: block; height: auto; width: 60px; height: auto; object-fit: cover; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
+        .marker { left: 0; top: 0; pointer-events: auto; cursor: pointer; background-color: transparent !important;  will-change: transform; }
+        .marker-image { display: none; pointer-events: auto; height: auto; width: 60px; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
+        .marker-circle { display: none; pointer-events: auto; }
 
         .cluster-box-container { display: flex; flex-wrap: wrap; align-items: center; transform: translateY(-100%); background-color: hsl(0, 0%, 100%); filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); height: auto; width: auto; max-width: 80px; border-radius: 5px; padding: 5px; gap: 5px; z-index: 0; }
-        .triangle{ content:""; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%) translateY(-50%); width: 0; height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 10px solid hsl(0, 0%, 100%); pointer-events: none; }
+        .triangle{ content:""; position: absolute; bottom: -10px; left: 50%; width: 0; height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 10px solid hsl(0, 0%, 100%); pointer-events: none; }
         .cluster-image { text-align: center; padding: 0; margin: 0; cursor: pointer; }
         .cluster-image img{ display: block; height: auto; max-width: 30px; max-height: 30px; }
 
@@ -43,12 +44,12 @@
         .popup-category { position:relative; z-index:1; width:100%; text-align:center; }
         .popup-category img { width:250px; height:auto; }
 
-.popup-title { max-width:100%; overflow:hidden; }
-.popup-title h3 { margin:0 0 4px 0; font-size:14px; color:#666; white-space:normal; word-wrap:break-word; }
-.popup-title h2 { margin:0; font-size:18px; white-space:normal; word-break:break-word; max-width:100%; }
-.popup-body { font-size:14px; line-height:1.4; max-width:100%; overflow-wrap:break-word; }
-.popup-body p { margin:8px 0; overflow-wrap:break-word; max-width:100%; }
-.popup-body a { word-break:break-all; max-width:100%; display:inline-block; }
+        .popup-title { max-width:100%; overflow:hidden; }
+        .popup-title h3 { margin:0 0 4px 0; font-size:14px; color:#666; white-space:normal; word-wrap:break-word; }
+        .popup-title h2 { margin:0; font-size:18px; white-space:normal; word-break:break-word; max-width:100%; }
+        .popup-body { font-size:14px; line-height:1.4; max-width:100%; overflow-wrap:break-word; }
+        .popup-body p { margin:8px 0; overflow-wrap:break-word; max-width:100%; }
+        .popup-body a { word-break:break-all; max-width:100%; display:inline-block; }
         
         #location-picker { position: fixed; top: 10px; right: 10px; width: 25px; height: 25px; z-index: 100; font-size: 35px; text-align:right; display: block; width: auto; height: auto; cursor: pointer; }
         nav {display:none; flex-direction:column; align-items:flex-start; width:100%; background-color:#333; position:absolute; right:0; top:50px;}
@@ -108,7 +109,7 @@
             container: "map",
             style: styleFile,
             center: [-73.5251, 40.7684],
-            maxBounds: bounds,
+            //maxBounds: bounds,
             zoom: 16,
             maxZoom: 18,
             bearing: 20,
@@ -127,7 +128,7 @@
             map.addSource('location', {
                 'type': 'geojson',
                 'data': locationFile,
-                'cluster': true,
+                'cluster': false,
                 'clusterRadius': 20,
                 'clusterMaxZoom': 17,
                 'clusterMinPoints': 2
@@ -156,7 +157,7 @@
             });
 
             // Enforce cluster limits on zoom
-            map.on('zoomend', () => {
+            map.on('moveend', () => {
                 if (map.getZoom() >= 16) {
                 map.setLayoutProperty('temp-clusters', 'visibility', 'none');
                 map.setLayoutProperty('temp-location', 'visibility', 'visible');
@@ -167,6 +168,7 @@
 
             // Load images
             const loadingImages = new Set();
+            
             map.on('styleimagemissing', (e) => {
                 const imageId = e.img;
 
@@ -193,11 +195,6 @@
 
             });
 
-            map.once('idle', () => {
-                updateInfoBox();
-                //updateSprites();
-            });
-
             // Handle clicks
             document.addEventListener('click', (e) => {
                 // Info-box
@@ -215,36 +212,54 @@
                 }
                 
                 // Markers
-                if (e.target.matches('.marker img')) {
+                if (e.target.matches('.marker *')) {
                     const id = e.target.dataset.id;
                     const feature = featureStore[id];
                     if (feature) clickFeature(feature);
                 }
             });
 
+            map.once('idle', () => {
+                updateInfoBox();
+                showCorrectMarkers();
+            });
+
         };
 
         const createMarker = (feature) => {
-            console.log(feature)
             const id = feature.properties.id;
             const imageUrl = `${imgSource}/${feature.properties.img}.png`;
+            const category = feature.properties.category;
             
             // Create container element
             const el = document.createElement('div');
             el.className = 'marker';
-            
-            // Create image element
+
+            // Create circle marker
+            const circle = document.createElement('div');
+            circle.classList.add('marker-circle');
+            circle.style.width = '15px';
+            circle.style.height = '15px';
+            circle.style.borderRadius = '50%';
+            circle.style.backgroundColor = categoryColors(category);
+            circle.style.border = '2px solid hsl(0, 0%, 100%)';
+            circle.dataset.id = id;
+            circle.dataset.coordinates = JSON.stringify(feature.geometry.coordinates);
+            el.appendChild(circle);
+
+            // Create image marker
             const img = document.createElement('img');
+            img.classList.add('marker-image');
             img.src = imageUrl;
             img.alt = 'Marker image';
             img.dataset.id = id;
             img.dataset.coordinates = JSON.stringify(feature.geometry.coordinates);
-            
             el.appendChild(img);
+
             return el;
         };
 
-        const updateInfoBox = async () => {
+        const updateInfoBox = () => {
             const infoBox = document.getElementById('info-box');
             const features = map.querySourceFeatures('location');
             const newMarkers = {}; // Temporary object to track current markers
@@ -262,7 +277,7 @@
                     const clusterId = feature.properties.cluster_id;
                     try {
                         // Get the individual features within the cluster
-                        const clusterFeatures = await map.getSource('location').getClusterLeaves(
+                        const clusterFeatures = map.getSource('location').getClusterLeaves(
                             clusterId,
                             Infinity,
                             0
@@ -325,7 +340,7 @@
                 // Handle marker creation/update
                 let marker = markers[id];
                 if (!marker) {
-                    const el = await createMarker(feature);
+                    const el = createMarker(feature);
                     marker = markers[id] = new maplibregl.Marker({
                         element: el
                     }).setLngLat(coordinates);
@@ -366,7 +381,7 @@
 
             // const features = [...featuresAddress, ...featuresPoi];
             const features = featuresAddress;
-            const totalIcons = 60; //trees (1-24), flowers (25-43), people (44-60)
+            const totalIcons = 24; //trees (1-24), flowers (25-43), people (44-60)
 
             const osm_icons = {
                 type: "FeatureCollection",
@@ -374,9 +389,7 @@
                     type: "Feature",
                     geometry: feature.geometry,
                     properties: {
-                        icon_number: Math.random() < 0.3
-                            ? Math.round(Math.abs(feature.geometry.coordinates[0] * 1000000)) % 24 + 1
-                            : Math.round(Math.abs(feature.geometry.coordinates[0] * 1000000)) % totalIcons + 1
+                        icon_number: Math.round(Math.abs(feature.geometry.coordinates[0] * 100000)) % totalIcons + 1
                     }
                 }))
             };
@@ -397,13 +410,13 @@
                         "symbol-placement": "point",
                         "icon-keep-upright": true,
                         "icon-allow-overlap": false,
-                        "icon-ignore-placement": false,
+                        "icon-ignore-placement": true,
                         "icon-anchor": "bottom",
                         "icon-size": [
                             "case",
-                            [">=", ["get", "icon_number"], 44], 0.2,
-                            [">=", ["get", "icon_number"], 25], 0.2,
-                            0.3
+                            [">=", ["get", "icon_number"], 44], 0.1,
+                            [">=", ["get", "icon_number"], 25], 0.1,
+                            0.2
                         ],
                         "icon-image": [
                             "concat",
@@ -502,12 +515,12 @@
             return new Promise((resolve) => {
                 const isMobile = window.innerWidth < 768;
                 const padding = isMobile 
-                    ? { top: 200, bottom: 200, left: 20, right: 20 }  // Mobile padding
+                    ? { top: 250, bottom: 150, left: 20, right: 20 }  // Mobile padding
                     : { top: 300, left: 300, bottom: 50, right: 50 }; // Desktop padding
                 
                 map.flyTo({
                     center: coordinates,
-                    zoom: 18,
+                    //zoom: 18,
                     padding: padding,
                     essential: true
                 });
@@ -535,6 +548,21 @@
             }
         };
 
+        // Helper function to get color based on category
+        const categoryColors = (category) => {
+            const colorMap = {
+                'eat_and_drink': 'hsl(35, 100%, 40%)',
+                'visit_and_experience': 'hsl(0, 79%, 45%)',
+                'play_and_learn': 'hsl(296, 30%, 38%)',
+                'thrive_and_restore': 'hsl(18, 55%, 33%)',
+                'shop_and_discover': 'hsl(114, 35%, 31%)',
+                'live_and_work': 'hsl(197, 35%, 36%)',
+                'gather_and_worship': 'hsl(240, 12%, 24%)',
+                'default': 'hsl(0, 0%, 80%)'
+            };
+            return colorMap[category] || colorMap.default;
+        };
+
         const loadImage = async (url, name) => {
             try {
                 const iconData = await map.loadImage(url);
@@ -551,6 +579,42 @@
             });
         };
 
+        const updateMarkers = () => {
+            const shouldShowCircles = map.getZoom() <= 16;
+            
+            // Single-pass visibility update
+            const circles = document.querySelectorAll('.marker-circle');
+            const images = document.querySelectorAll('.marker-image');
+            
+            for (let i = 0; i < circles.length; i++) {
+                circles[i].style.display = shouldShowCircles ? 'block' : 'none';
+                images[i].style.display = shouldShowCircles ? 'none' : 'block';
+            }
+        };
+
+        const showCorrectMarkers = (attempt = 0) => {
+            const markersExist = document.querySelector('.marker-circle') && 
+                                document.querySelector('.marker-image');
+            
+            if (markersExist) {
+                // Found markers - update visibility
+                const shouldShowCircles = map.getZoom() <= 16;
+                document.querySelectorAll('.marker-circle').forEach(el => {
+                    el.style.display = shouldShowCircles ? 'block' : 'none';
+                });
+                document.querySelectorAll('.marker-image').forEach(el => {
+                    el.style.display = shouldShowCircles ? 'none' : 'block';
+                });
+            
+            } 
+            else if (attempt < 10) { // Try for max 1 second (10x100ms)
+                setTimeout(() => showCorrectMarkers(attempt + 1), 100);
+            }
+            else {
+                console.error('Markers never appeared in DOM');
+            }
+        };
+
         map.once('load', (e) => {
             loadLocation();
         });
@@ -558,6 +622,10 @@
         map.on('moveend', () => {
             updateInfoBox();
             //updateSprites();
+        });
+
+        map.on('zoomend', () => {
+            updateMarkers();
         });
 
     </script>

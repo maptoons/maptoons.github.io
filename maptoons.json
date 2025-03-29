@@ -51,29 +51,65 @@
 		},
 		{
 			"source": "osm",
-			"id": "street-minor",
+			"id": "building",
+			"type": "fill",
+			"source-layer": "buildings",
+			"paint": {
+				"fill-color": "hsl(90, 29%, 75%)",
+				"fill-opacity": { "stops": [ [ 14, 0 ], [ 15, 1 ] ] }
+			}
+		},
+		{
+			"source": "osm",
+			"id": "building-buffer",
+			"type": "line",
+			"source-layer": "buildings",
+			"paint": {
+				"line-color": "hsl(90, 29%, 71%)",
+				"line-width": { "stops": [ [ 15, 1 ], [ 20, 5 ] ] },
+				"line-opacity": { "stops": [ [ 14, 0 ], [ 15, 1 ] ] }
+			}
+		},
+		{
+			"source": "osm",
+			"id": "street-major-buffer",
 			"type": "line",
 			"source-layer": "streets",
-			"filter": [ "in", "kind", "residential" ],
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
 			"paint": {
-				"line-color": "hsl(85, 48%, 84%)",
-				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 15, 5, 20, 156 ]
+				"line-color": "hsl(90, 29%, 71%)",
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 15, 15, 20, 166 ]
 			},
 			"layout": {
 				"line-join": "round",
 				"line-cap": "round"
+			}
+		},
+		{
+			"source": "osm",
+			"id": "street-major-shadow",
+			"type": "line",
+			"source-layer": "streets",
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
+			"paint": {
+				"line-color": "hsl(90, 29%, 65%)",
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 15, 5, 20, 156 ],
+				"line-translate": [-3, -3]
 			},
-			"minzoom": 13
+			"layout": {
+				"line-join": "round",
+				"line-cap": "round"
+			}
 		},
 		{
 			"source": "osm",
 			"id": "street-major",
 			"type": "line",
 			"source-layer": "streets",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary" ],
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
 			"paint": {
 				"line-color": "hsl(85, 48%, 84%)",
-				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 15, 5, 20, 156 ]
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 20, 152 ]
 			},
 			"layout": {
 				"line-join": "round",
