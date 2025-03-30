@@ -99,12 +99,12 @@
         let activeHighlights = new Set(); // Track all highlighted elements
         let loadedImages = new Set();
 
-        const imgSource = 'http://localhost:8000/img'
-        //const imgSource = 'https://maptoons.github.io/img'
-        const styleFile = 'http://localhost:8000/maptoons.json'
-        //const styleFile = 'https://maptoons.github.io/maptoons.json'
-        const locationFile = 'http://localhost:8000/data/hicksville.geojson'
-        //const locationFile = 'https://maptoons.github.io/data/hicksville.geojson'
+        //const imgSource = 'http://localhost:8000/img'
+        const imgSource = 'https://maptoons.github.io/img'
+        //const styleFile = 'http://localhost:8000/maptoons.json'
+        const styleFile = 'https://maptoons.github.io/maptoons.json'
+        //const locationFile = 'http://localhost:8000/data/hicksville.geojson'
+        const locationFile = 'https://maptoons.github.io/data/hicksville.geojson'
 
         const map = new maplibregl.Map({
             container: "map",
