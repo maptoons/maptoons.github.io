@@ -6,7 +6,7 @@
     <meta property="og:description" content="maptoons.com" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
@@ -93,9 +93,6 @@
         //const bounds = [[-73.5519, 40.7374], [-73.4932, 40.7935]]; // Hicksville
         const bounds = [[-74.04196910000002, 40.5419011], [-71.85627049999998, 41.161155]]; // Long Island
 
-        let featureStore = {};
-        let markers = {};
-        let markersOnScreen = {};
         let activeHighlights = new Set(); // Track all highlighted elements
         let loadedImages = new Set();
 
@@ -197,46 +194,42 @@
 
             });
 
-            // Handle clicks
             document.addEventListener('click', (e) => {
-                // Info-box clicks
-                const infoFeature = e.target.closest('.info-click');
-                if (infoFeature) {
-                    const id = infoFeature.dataset.id;
-                    const feature = featureStore[id];
-                    if (feature) {
-                        clickFeature(feature);
-                        
-                        // Add visual feedback
-                        infoFeature.classList.add('active');
-                        setTimeout(() => infoFeature.classList.remove('active'), 300);
-                    }
-                    return; // Skip other checks if we handled an info-box click
-                }
-                
-                // Marker clicks (individual markers and cluster images)
-                const markerElement = e.target.closest('.marker-image, .cluster-image img, .cluster-image');
-                if (markerElement) {
-                    // Get the element that actually has the data attributes
-                    const dataElement = markerElement.closest('[data-id]');
-                    if (dataElement) {
-                        const id = dataElement.dataset.id;
-                        const feature = featureStore[id];
-                        if (feature) {
-                            clickFeature(feature);
-                            
-                            // Add visual feedback for cluster images
-                            if (dataElement.classList.contains('cluster-image')) {
-                                dataElement.classList.add('active');
-                                setTimeout(() => dataElement.classList.remove('active'), 300);
-                            }
-                        }
-                    }
-                }
-            });
+  // 1. Detect clicks on either:
+  //    - Marker images (individual or in clusters)
+  //    - Info-box clickable areas (.info-click)
+  const clickedElement = e.target.closest(
+    '.marker-image, .cluster-image img, .info-click'
+  );
+  if (!clickedElement) return;
 
+  // 2. Get the nearest parent with feature data (works for both cases)
+  const featureElement = clickedElement.closest('[data-feature]');
+  if (!featureElement) return;
+
+  // 3. Parse and pass the feature
+  try {
+    const feature = JSON.parse(featureElement.dataset.feature);
+    clickFeature(feature);
+
+    // 4. Visual feedback (if element has .info-click or .cluster-image class)
+    if (clickedElement.classList.contains('info-click') || 
+        featureElement.classList.contains('cluster-image')) {
+      const targetElement = clickedElement.classList.contains('info-click') 
+        ? clickedElement 
+        : featureElement;
+      
+      targetElement.classList.add('active');
+      setTimeout(() => targetElement.classList.remove('active'), 300);
+    }
+  } catch (error) {
+    console.error("Couldn't parse feature data:", error);
+  }
+});
+            
             map.once('idle', () => {
                 updateInfoBox();
+                updateMarkers();
                 //updateSprites();
             });
 
@@ -258,7 +251,7 @@
             img.src = imageUrl;
             img.alt = 'Marker image';
             img.dataset.id = id;
-            img.dataset.coordinates = JSON.stringify(feature.geometry.coordinates);
+            img.dataset.feature = JSON.stringify(feature);
             el.appendChild(img);
 
             return el;
@@ -293,7 +286,7 @@
                     const imageContainer = document.createElement('div');
                     imageContainer.className = 'cluster-image';
                     imageContainer.dataset.id = id;
-                    imageContainer.dataset.coordinates = JSON.stringify(coordinates);
+                    imageContainer.dataset.feature = JSON.stringify(clusterFeature);
 
                     // Create image element (matches your CSS requirements)
                     const img = document.createElement('img');
@@ -329,31 +322,43 @@
             return null;
         };
 
-        const updateInfoBox = async () => {
-            const infoBox = document.getElementById('info-box');
+        let markers = {};
+        let markersOnScreen = {};
+        
+        const updateMarkers = async () => {
             const features = map.querySourceFeatures('location');
             const newMarkers = {};
 
-            let uniqueFeatures = new Map(); // Track processed points
-            let processedClusters = new Set(); // Track processed clusters
-            
-            // Process each feature
             for (const feature of features) {
-                if (feature.properties.cluster_id) { // Clusters
-                    const clusterId = feature.properties.cluster_id;
+                if (!feature.properties.cluster) {  // Non-clusters
                     const coordinates = feature.geometry.coordinates;
+                    const id = feature.properties.id;
 
-                    // Skip cluster if already processed
-                    if (processedClusters.has(clusterId)) continue;
-                    processedClusters.add(clusterId);
+                    let marker = markers[id];
+                    if (!marker) {
+                        const el = await createMarker(feature);
+                        marker = markers[id] = new maplibregl.Marker({
+                            element: el
+                        }).setLngLat(coordinates);
+                    }
+                    newMarkers[id] = marker;
 
-                    // Handle marker creation/update
+                    // Add the marker to the map if it's not already there
+                    if (!markersOnScreen[id]) {
+                        marker.addTo(map);
+                    }
+                } else { // Clusters
+                    const coordinates = feature.geometry.coordinates;
+                    const clusterId = feature.properties.cluster_id;
+
                     let marker = markers[clusterId];
                     if (!marker) {
                         const el = await createCluster(feature, clusterId);
+                        //await waitForImages(el);  // Wait for images to load
                         marker = markers[clusterId] = new maplibregl.Marker({
                             element: el
                         }).setLngLat(coordinates);
+
                     }
                     newMarkers[clusterId] = marker;
 
@@ -361,6 +366,32 @@
                     if (!markersOnScreen[clusterId]) {
                         marker.addTo(map);
                     }
+                }
+            }
+
+            // Remove markers that are no longer on the screen
+            for (const id in markersOnScreen) {
+                if (!newMarkers[id]) markersOnScreen[id].remove();
+            }
+            markersOnScreen = newMarkers;
+        }
+
+        const updateInfoBox = async () => {
+            const infoBox = document.getElementById('info-box');
+            const features = map.querySourceFeatures('location');
+            let uniqueFeatures = new Map();
+
+            // Store the current content of the infoBox
+            const currentContent = infoBox.innerHTML;
+
+            // Clear the infoBox only after new content is ready
+            let newContent = '';
+
+            // Process each feature
+            for (const feature of features) {
+                if (feature.properties.cluster_id) {
+                    // Handle clustered features
+                    const clusterId = feature.properties.cluster_id;
 
                     try {
                         // Get the individual features within the cluster
@@ -369,39 +400,19 @@
                             Infinity,
                             0
                         );
-
                         clusterFeatures.forEach(clusterFeature => {
-                            const id = clusterFeature.properties.id;
-
-                            if (!uniqueFeatures.has(id)) {
-                                uniqueFeatures.set(id, clusterFeature);
+                            const featureId = clusterFeature.properties.id;
+                            if (!uniqueFeatures.has(featureId)) {
+                                uniqueFeatures.set(featureId, clusterFeature);
                             }
-                        })
+                        });
                     } catch (error) {
                         console.error('Error fetching cluster leaves:', error);
                     }
                 } else {
-                    const id = feature.properties.id;
-                    const coordinates = feature.geometry.coordinates;
-
-                    if (!uniqueFeatures.has(id)) {
-                        uniqueFeatures.set(id, feature);
-
-                        // Handle marker creation/update
-                        let marker = markers[id];
-                        if (!marker) {
-                            const el = createMarker(feature);
-                            marker = markers[id] = new maplibregl.Marker({
-                                element: el
-                            }).setLngLat(coordinates);
-                        }
-                        newMarkers[id] = marker;
-
-                        // Add the marker to the map if it's not already there
-                        if (!markersOnScreen[id]) {
-                            marker.addTo(map);
-                        }
-
+                    const featureId = feature.properties.id;
+                    if (!uniqueFeatures.has(featureId)) {
+                        uniqueFeatures.set(featureId, feature);
                     }
                 }
             }
@@ -411,31 +422,25 @@
 
             // Sort features alphabetically by the 'mapname' property
             allFeatures.sort((a, b) => {
-                const nameA = a.properties.id || '';
-                const nameB = b.properties.id || '';
-                return nameA.localeCompare(nameB);
+                const nameA = a.properties.id || ''; // Handle undefined values
+                const nameB = b.properties.id || ''; // Handle undefined values
+                return nameA.localeCompare(nameB); // Sort alphabetically
             });
 
-            // Store the current content of the infoBox
-            const currentContent = infoBox.innerHTML;
-
-            // Clear the infoBox only after new content is ready
-            let newContent = '';
-
-            for (const feature of allFeatures) {
-                featureStore[feature.properties.id] = feature;
+            let html = '';
+            allFeatures.forEach(feature => {
                 const id = feature.properties.id;
-                const imageUrl = `${imgSource}/${feature.properties.img}.png`;
-                const coordinates = feature.geometry.coordinates;
+                const image = feature.properties.img
+                const imageUrl = `${imgSource}/${image}.png`;
+                const coordinates = feature.geometry.coordinates; // Get the feature's coordinates
 
-                // Update info-box content
                 newContent += `
                     <div class="info-feature" data-id="${id}">
                         <div class="info-image-container">
                             <img src="${imageUrl}" alt="Feature image" class="info-image">
                         </div>
                         <div class="info-text-container">
-                            <div class="info-click" data-id="${id}">
+                            <div class="info-click" data-id="${id}" data-feature="${JSON.stringify(feature).replace(/"/g, '&quot;')}">
                                 <h1 class="mapname">${feature.properties.mapname}</h1>
                                 <p class="ellipsis info">${feature.properties.info}</p>
                             </div>
@@ -446,23 +451,9 @@
                         </div>
                     </div>
                 `;
+            });
+            infoBox.innerHTML = newContent || currentContent;
 
-                // Update the info box content
-                infoBox.innerHTML = newContent || currentContent;
-
-            }
-
-            // Remove markers that are no longer needed
-            for (const id in markersOnScreen) {
-                if (!newMarkers[id]) {
-                    markersOnScreen[id].remove();
-                    delete markersOnScreen[id];
-                    delete markers[id]; // Optional: clean up the main markers object
-                }
-            }
-            
-            // Update markersOnScreen with current markers
-            markersOnScreen = {...newMarkers};
         };
 
         function updateSprites() {
@@ -693,21 +684,9 @@
 
         map.on('moveend', () => {
             updateInfoBox();
+            updateMarkers();
             //updateSprites();
         });
-
-		map.on('click', (e) => {
-			const features = map.queryRenderedFeatures(e.point);
-			if (features.length > 0) {
-				features.forEach((feature, index) => {
-					console.log(`Feature ${index + 1}:`, feature);
-					console.log(`Properties:`, feature.properties); // Log only properties
-				});
-			} else {
-				console.log('No features found at this location.');
-			}
-		});
-
 
     </script>
 
