@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Points from GeoJSON</title>
+    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.5.0/mapbox-gl-draw.min.js"></script>
+    <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.5.0/mapbox-gl-draw.css" rel="stylesheet" />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { width: 100vw; height: 100vh; }
+        button { position: absolute; top: 10px; left: 10px; z-index: 1000; padding: 10px; background: white; border: 1px solid #ccc; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <button onclick="downloadGeoJSON()">Download GeoJSON</button>
+
+    <script>
+        const map = new maplibregl.Map({
+            container: "map",
+            style: "https://demotiles.maplibre.org/style.json",
+            center: [0, 0],
+            zoom: 2
+        });
+
+        const draw = new MapboxDraw({
+            displayControlsDefault: true
+        });
+
+        map.addControl(draw);
+
+        // Load GeoJSON and add to the map
+        async function loadGeoJSON(url) {
+            const response = await fetch(url);
+            const geojson = await response.json();
+            draw.set(geojson);  // Add the GeoJSON features to the draw control
+        }
+
+        map.on("load", () => {
+            loadGeoJSON("http://localhost:8000/data/hicksville.geojson"); // Replace with your GeoJSON file URL
+        });
+
+        // Download the final state of GeoJSON (after dragging)
+        function downloadGeoJSON() {
+            const geojson = draw.getAll();
+            if (!geojson || geojson.features.length === 0) {
+                alert("No points to save!");
+                return;
+            }
+            const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: "application/json" });
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = "final_points.geojson";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+</body>
+</html>
