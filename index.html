@@ -25,7 +25,7 @@
         nav.show {display:flex;}
         nav a {color:white; text-decoration:none; font-size:14px; line-height:0.8; padding-bottom:10px; margin:10px;}
 
-        #category-box { display: flex; position: fixed; top: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 70vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
+        #category-box { display: flex; position: fixed; top: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 90vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
         .category-box-inner { display: flex; justify-content: flex-start; gap: 10px; margin: 0 auto; background-color: hsla(0, 0%, 100%, 1); padding: 10px; border-radius: 5px; }
         .category-feature { position: relative; flex-shrink: 0; width: 40px; height: 40px; overflow: visible; cursor: pointer; }
         .category-feature .image-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; justify-content: center; align-items: center; z-index: 2; }
@@ -41,8 +41,8 @@
         .info-feature .info-image-container { text-align: center; line-height: 0; }
         .info-feature .info-image { width: auto; height: 30px; cursor: pointer; }
 
-        .marker { left: 0; top: 0; pointer-events: auto; cursor: pointer; background-color: transparent !important;  will-change: transform; }
-        .marker-image { display: block; pointer-events: auto; max-width: 20px; max-height: 20px; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
+        .marker { left: 0; top: 0; pointer-events: auto; cursor: pointer; background-color: transparent !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); will-change: transform; }
+        .marker-image { display: block; pointer-events: auto; max-width: 30px; max-height: 30px; }
         .marker-circle { display: none; pointer-events: auto; }
 
         .maplibregl-popup { width: auto; height: auto; z-index: 900 !important; }
@@ -108,13 +108,15 @@
         const styleFile = 'https://maptoons.github.io/maptoons.json'
         //const locationFile = 'http://localhost:8000/data/hicksville.geojson'
         const locationFile = 'https://maptoons.github.io/data/hicksville.geojson'
+        //const artFile = 'http://localhost:8000/data/hicksville-art.geojson'
+        const artFile = 'https://maptoons.github.io/data/hicksville-art.geojson'
 
         const map = new maplibregl.Map({
             container: "map",
             style: styleFile,
             center: [-73.5251, 40.7684],
-            //maxBounds: bounds,
-            zoom: 15,
+            maxBounds: bounds,
+            zoom: 14,
             maxZoom: 18,
             bearing: 20,
             pitch: 20,
@@ -131,6 +133,13 @@
         const loadLocation = async () => {
             const response = await fetch(locationFile);
             locationData = await response.json();
+
+            // Set maxBounds to extent
+            //const bounds = getGeoJSONExtent(locationData);            
+            //map.setMaxBounds(bounds);
+            // Set center to centroid
+            const centroid = getGeoJSONCentroid(locationData);
+            map.setCenter(centroid);
 
             map.addSource('location', {
                 'type': 'geojson',
@@ -238,7 +247,50 @@
 
         };
 
+        const loadArt = async () => {
+            const response = await fetch(artFile);
+            artData = await response.json();
+
+            const iconNames = [...new Set(
+                artData.features
+                    .filter(f => f.properties?.img) // Only features with img property
+                    .map(f => f.properties.img)
+            )];
+
+            await Promise.all(iconNames.map(async iconName => {
+                const imageUrl = `http://localhost:8000/img/headshots_renamed/${iconName}.png`;
+                await loadImage(imageUrl, iconName);
+            }));
+
+            map.addSource('art', {
+                'type': 'geojson',
+                'data': artData,
+                'cluster': false
+            });
+
+            map.addLayer({
+                id: 'art',
+                type: 'symbol',
+                source: 'art',
+                minzoom: 12,
+                layout: {
+                    'icon-image': ['get', 'img'],
+                    'icon-size': 0.3,
+                    'icon-allow-overlap': true
+                }
+            },'location-temp');
+        };
+        
         const updateMarkerSize = (markerElement, currentZoom) => {
+            // Remove markers when zoomed too far out
+            if (currentZoom <= 10) {
+                markerElement.style.display = 'none';
+                return;
+            }
+            
+            // Show marker if it was previously hidden
+            markerElement.style.display = 'block';
+
             // Safely get the image element
             const img = markerElement.querySelector('.marker-image') || 
                         markerElement.querySelector('img'); // Fallback
@@ -250,11 +302,11 @@
 
             // Calculate size - example using logarithmic scaling
             const sizeSteps = {
-                14: 20,
-                15: 40,
-                16: 60,
-                17: 80,
-                18: 100
+                14: 30,
+                15: 50,
+                16: 70,
+                17: 90,
+                18: 110
             };
 
             const getClosestZoom = (current) => 
@@ -638,7 +690,7 @@
                 map.easeTo({
                     center: coordinates,
                     zoom: 17,
-                    padding: { top: 350, bottom: 50, left: 20, right: 20 },
+                    padding: { top: 300, bottom: 100, left: 20, right: 20 },
                     essential: true
                 });
 
@@ -708,12 +760,89 @@
             });
         };
 
+        // Helper function to calculate GeoJSON extent
+        function getGeoJSONExtent(geojson) {
+            const bounds = new maplibregl.LngLatBounds();
+            
+            geojson.features.forEach(feature => {
+                if (feature.geometry.type === 'Point') {
+                    bounds.extend(feature.geometry.coordinates);
+                } else if (feature.geometry.type === 'Polygon') {
+                    feature.geometry.coordinates[0].forEach(coord => {
+                        bounds.extend(coord);
+                    });
+                }
+                // Add other geometry types as needed
+            });
+            
+            return bounds;
+        }
+
+        // Helper function to calculate centroid of GeoJSON
+        function getGeoJSONCentroid(geojson) {
+            let x = 0;
+            let y = 0;
+            let pointCount = 0;
+
+            // Process each feature in the GeoJSON
+            geojson.features.forEach(feature => {
+                const coords = getCoordinates(feature.geometry);
+                coords.forEach(coord => {
+                    if (Array.isArray(coord[0])) {
+                        // Handle polygons/multilinestrings
+                        coord.forEach(subCoord => {
+                            x += subCoord[0];
+                            y += subCoord[1];
+                            pointCount++;
+                        });
+                    } else {
+                        // Handle points/linestrings
+                        x += coord[0];
+                        y += coord[1];
+                        pointCount++;
+                    }
+                });
+            });
+
+            return [x / pointCount, y / pointCount];
+        }
+
+        // Helper function to extract coordinates from any geometry type
+        function getCoordinates(geometry) {
+            switch (geometry.type) {
+                case 'Point':
+                    return [geometry.coordinates];
+                case 'LineString':
+                case 'MultiPoint':
+                    return geometry.coordinates;
+                case 'Polygon':
+                case 'MultiLineString':
+                    return geometry.coordinates.flat();
+                case 'MultiPolygon':
+                    return geometry.coordinates.flat(2);
+                case 'GeometryCollection':
+                    return geometry.geometries.flatMap(getCoordinates);
+                default:
+                    return [];
+            }
+        }
+
         map.once('load', (e) => {
             loadLocation();
+            loadArt();
         });
 
         map.on('moveend', () => {
             updateInfoBox();
+        });
+
+        map.on('click', (e) => {
+            const features = map.queryRenderedFeatures(e.point);
+            if (features.length > 0) {
+                console.log('Clicked feature:', features[0].properties);
+            } else {
+                console.log('No features at this location');
+            }
         });
 
     </script>
