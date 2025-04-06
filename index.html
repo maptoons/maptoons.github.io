@@ -6,9 +6,9 @@
     <meta property="og:description" content="maptoons.com" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
     <style>
@@ -20,25 +20,30 @@
         .maplibregl-ctrl-bottom-right{ display: none; }
         .maplibregl-canvas-container { text-rendering: optimizeLegibility; }
 
+        #location-picker { position: fixed; top: 10px; right: 10px; width: 25px; height: 25px; z-index: 999; font-size: 35px; text-align:right; display: block; width: auto; height: auto; cursor: pointer; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 1)); }
+        nav {display:none; flex-direction:column; align-items:flex-start; width:100%; background-color:#333; position:absolute; right:0; top:50px;}
+        nav.show {display:flex;}
+        nav a {color:white; text-decoration:none; font-size:14px; line-height:0.8; padding-bottom:10px; margin:10px;}
+
+        #category-box { display: flex; position: fixed; top: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 70vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
+        .category-box-inner { display: flex; justify-content: flex-start; gap: 10px; margin: 0 auto; background-color: hsla(0, 0%, 100%, 1); padding: 10px; border-radius: 5px; }
+        .category-feature { position: relative; flex-shrink: 0; width: 40px; height: 40px; overflow: visible; cursor: pointer; }
+        .category-feature .image-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; justify-content: center; align-items: center; z-index: 2; }
+        .category-feature .image-container img { width: 40px; height: 40px; border-radius: 5px; }
+        .category-text { position: absolute; bottom: -10%; left: 50%; transform: translate(-50%, 50%); font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 8px; line-height: 0.8; color: hsl(0, 0%, 20%); letter-spacing: 1px; text-align: center; width: fit-content; white-space: pre-wrap; word-wrap: break-word; overflow-wrap: break-word; display: inline-block; z-index: 1; }
+
+        .category-feature.active { filter: drop-shadow(0px 0px 2px hsla(60, 100%, 50%, 0.1)); }
+        .category-feature.active img { width: 55px; height: 55px; }
+
+        #info-box { display: flex; position: fixed; bottom: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 90vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
+        .info-box-inner { display: flex; gap: 10px; margin: 0 auto; background-color: hsla(0, 0%, 100%, 1); padding: 10px; border-radius: 5px; }
+        .info-feature { position: relative; width: auto; height: auto; overflow: visible; cursor: pointer; }
+        .info-feature .info-image-container { text-align: center; line-height: 0; }
+        .info-feature .info-image { width: auto; height: 30px; cursor: pointer; }
+
         .marker { left: 0; top: 0; pointer-events: auto; cursor: pointer; background-color: transparent !important;  will-change: transform; }
-        .marker-image { display: block; pointer-events: auto; max-width: 60px; max-height: 60px; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
+        .marker-image { display: block; pointer-events: auto; max-width: 20px; max-height: 20px; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
         .marker-circle { display: none; pointer-events: auto; }
-
-        .cluster-box-container { display: flex; flex-wrap: wrap; align-items: center; transform: translateY(-100%); background-color: hsl(0, 0%, 100%); filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); height: auto; width: auto; border-radius: 5px; padding: 5px; gap: 5px; border: 1px solid hsl(0, 0%, 80%); }
-        .cluster-image { text-align: center; padding: 0; margin: 0; cursor: pointer; }
-        .cluster-image img{ display: block; height: auto; max-width: 30px; max-height: 30px; }
-
-        #info-box { position: fixed; bottom: 10px; left: 10px; right: 10px; height: 150px; width: auto; border-radius: 5px; overflow-y: scroll; overflow-x: hidden; background: hsl(0, 0%, 100%); box-shadow: 2px 2px 2px hsla(0, 0%, 20%, 0.2); z-index: 1000 !important; }
-        .info-feature { display: flex; width: 100%; padding: 10px 5px; border-bottom: 1px solid hsl(0, 0%, 80%); gap: 5px; transition: all 0.1s ease; }
-        .info-feature.highlight { background-color: hsla(200, 50%, 95%, 1); }
-        .info-feature.highlight .info.ellipsis { display: block; white-space: normal; text-overflow: clip; overflow: visible; }
-        .info-feature:last-child { border-bottom: none; }
-        .info-feature .info-image-container { width: 50px; text-align: center; }
-        .info-feature .info-image { height: auto; width: 40px; margin: 0 5px; }
-        .info-feature .info-text-container { padding: 0 5px 0 0; overflow: visible; }
-        .info-feature .info { color: hsl(0, 0%, 40%); font-style: italic; padding: 5px 0; }
-        .info-feature .category { color: hsl(0, 0%, 100%); width: fit-content; padding: 2px; border-radius: 5px; margin-bottom: 2px; font-size: 8px; font-weight: 900; text-transform: uppercase; }
-        .info-click { cursor: pointer; }
 
         .maplibregl-popup { width: auto; height: auto; z-index: 900 !important; }
         .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; box-shadow: 2px 2px 2px hsla(0, 0%, 20%, 0.2); }
@@ -55,19 +60,14 @@
         .popup-body p { margin:8px 0; overflow-wrap:break-word; max-width:100%; }
         .popup-body a { word-break:break-all; max-width:100%; display:inline-block; }
         
-        #location-picker { position: fixed; top: 10px; right: 10px; width: 25px; height: 25px; z-index: 100; font-size: 35px; text-align:right; display: block; width: auto; height: auto; cursor: pointer; }
-        nav {display:none; flex-direction:column; align-items:flex-start; width:100%; background-color:#333; position:absolute; right:0; top:50px;}
-        nav.show {display:flex;}
-        nav a {color:white; text-decoration:none; font-size:14px; line-height:0.8; padding-bottom:10px; margin:10px;}
         a { color: hsl(200, 50%, 40%); text-decoration: none; }
         h1 { font-size: 15px; font-weight: 600; line-height: 1.1; margin-bottom: 2px; }
         h2 { font-size: 13px; font-weight: 600; line-height: 1.1; margin-bottom: 2px; }
         h3 { font-size: 9px; font-weight: 400; line-height: 1.1; margin-bottom: 2px; }
-        h4 { font-size: 9px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
+        h4 { color: hsl(0, 0%, 100%); font-size: 8px; font-weight: 900; letter-spacing: 0; line-height: 1; }
         p { font-size: 12px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
         p.ellipsis { max-width: calc(100vw - 100px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         @media (min-width: 768px) {
-            #info-box { position: fixed; top: auto; bottom: 10px; left: 10px; height: fit-content; height: auto; max-height: calc(100vh - 20px); width: 250px; border-radius: 5px; overflow-y: scroll; overflow-x: hidden; z-index: 100; background: hsla(0, 0%, 100%); box-shadow: 2px 2px 2px hsla(0, 0%, 20%, 0.2); }
             p.ellipsis { max-width: 180px; }
         }
     </style>
@@ -75,11 +75,12 @@
 
 <body>
     <div class="container">
-        <div id="location-picker">🎯</div>
+        <div id="location-picker"></div>
         <nav>
         </nav>
         <div id="map"></div>
         <div id="info-box"></div>
+        <div id="category-box"></div>
     </div>
 
     <script>
@@ -96,8 +97,10 @@
         //const bounds = [[-73.5519, 40.7374], [-73.4932, 40.7935]]; // Hicksville
         const bounds = [[-74.04196910000002, 40.5419011], [-71.85627049999998, 41.161155]]; // Long Island
 
-        let activeHighlights = new Set(); // Track all highlighted elements
+        let locationData;
         let loadedImages = new Set();
+        let currentActiveCategory = null;
+        let markerContainers = new Set();
 
         //const imgSource = 'http://localhost:8000/img'
         const imgSource = 'https://maptoons.github.io/img'
@@ -125,46 +128,24 @@
         //map.setBearing(20);
         map.getCanvas().addEventListener('contextmenu', (e) => e.stopPropagation(), true);
 
-        const loadLocation = () => {
+        const loadLocation = async () => {
+            const response = await fetch(locationFile);
+            locationData = await response.json();
+
             map.addSource('location', {
                 'type': 'geojson',
-                'data': locationFile,
-                'cluster': true,
-                'clusterRadius': 20,
-                'clusterMaxZoom': 16,
-                'clusterMinPoints': 2
+                'data': locationData,
+                'cluster': false
             });
 
             // Temp layer to start
             map.addLayer({
-                id: 'temp-location',
+                id: 'location-temp',
                 type: 'circle', // Use a simple layer type
                 source: 'location',
-                filter: ['!', ['has', 'point_count']],
                 paint: {
                     'circle-radius': 0, // Make the layer invisible
                     'circle-opacity': 0 // Make the layer invisible
-                }
-            });
-
-            map.addLayer({
-                id: 'temp-clusters',
-                type: 'circle', // Use a simple layer type
-                source: 'location',
-                filter: ['has', 'point_count'],
-                paint: {
-                    'circle-radius': 0, // Make the layer invisible
-                    'circle-opacity': 0 // Make the layer invisible
-                }
-            });
-
-            // Enforce cluster limits on zoom
-            map.on('moveend', () => {
-                if (map.getZoom() >= 16) {
-                    map.setLayoutProperty('temp-clusters', 'visibility', 'none');
-                    map.setLayoutProperty('temp-location', 'visibility', 'visible');
-                } else {
-                    map.setLayoutProperty('temp-clusters', 'visibility', 'visible');
                 }
             });
 
@@ -197,12 +178,36 @@
 
             });
 
+            // Click for category filter
+            document.addEventListener('click', (e) => {
+                const categoryFeatureElement = e.target.closest('.category-feature');
+                if (!categoryFeatureElement) return;
+                
+                const category = categoryFeatureElement.dataset.category;
+                if (!category) return;
+
+                // Toggle logic
+                if (currentActiveCategory === category) {
+                    // Second click on same category - remove filter
+                    filterLocation('all'); // Show all features
+                    categoryFeatureElement.classList.remove('active');
+                    currentActiveCategory = null;
+                } else {
+                    // New category selected
+                    filterLocation(category);
+                    document.querySelectorAll('.category-feature.active').forEach(el => {
+                        el.classList.remove('active');
+                    });
+                    categoryFeatureElement.classList.add('active');
+                    currentActiveCategory = category;
+                }
+            });
+
+            // Click for markers, info-box
             document.addEventListener('click', (e) => {
                 // 1. Detect clicks on either:
-                //    - Marker images (individual or in clusters)
-                //    - Info-box clickable areas (.info-click)
                 const clickedElement = e.target.closest(
-                    '.marker-image, .cluster-image img, .info-click'
+                    '.marker-image, .info-feature'
                 );
                 if (!clickedElement) return;
 
@@ -216,7 +221,9 @@
                     clickFeature(feature);
 
                     // Add active class
-                    document.querySelectorAll('.active').forEach(el => el.classList.remove('active'));
+                    document.querySelectorAll('.marker-image.active').forEach(el => {
+                        el.classList.remove('active');
+                    });
                     featureElement.classList.add('active');
 
                 } catch (error) {
@@ -225,12 +232,65 @@
             });
 
             map.once('idle', () => {
+                createCategoryBox();
                 updateInfoBox();
-                updateMarkers();
-                updateSprites();
             });
 
         };
+
+        const updateMarkerSize = (markerElement, currentZoom) => {
+            // Safely get the image element
+            const img = markerElement.querySelector('.marker-image') || 
+                        markerElement.querySelector('img'); // Fallback
+            
+            if (!img) {
+                console.warn('Marker image not found in:', markerElement);
+                return;
+            }
+
+            // Calculate size - example using logarithmic scaling
+            const sizeSteps = {
+                14: 20,
+                15: 40,
+                16: 60,
+                17: 80,
+                18: 100
+            };
+
+            const getClosestZoom = (current) => 
+                Object.keys(sizeSteps).reduce((prev, curr) => 
+                    Math.abs(curr - current) < Math.abs(prev - current) ? curr : prev
+                );
+
+            const size = sizeSteps[getClosestZoom(currentZoom)] || 30;
+            
+            // Apply styles directly to the image
+            img.style.maxWidth = `${size}px`;
+            img.style.maxHeight = `${size}px`;
+            img.style.transformOrigin = 'center bottom'; // Better anchor point
+        };
+
+        let lastZoom = map.getZoom();
+        map.on('zoomend', () => {
+            const currentZoom = map.getZoom();
+            if (Math.abs(currentZoom - lastZoom) > 0.3) {
+                // Update ALL markers - both existing and new
+                markerContainers.forEach(container => {
+                    updateMarkerSize(container, currentZoom);
+                });
+                lastZoom = currentZoom;
+            }
+        });
+
+        // 4. Cleanup when markers are removed
+        function removeMarker(id) {
+            if (markersOnScreen[id]) {
+                const container = markersOnScreen[id].getElement();
+                markerContainers.delete(container);
+                markersOnScreen[id].remove();
+                delete markersOnScreen[id];
+            }
+        }
 
         const createMarker = (feature) => {
             const id = feature.properties.id;
@@ -242,108 +302,57 @@
             const el = document.createElement('div');
             el.className = 'marker';
             el.style.zIndex = 10 + priority;
+            el.dataset.category = category;
+            el.dataset.id = id;
 
             const img = document.createElement('img');
-            img.classList.add('marker-image');
+            img.className = 'marker-image';
             img.src = imageUrl;
-            img.alt = 'Marker image';
             img.dataset.id = id;
             img.dataset.feature = JSON.stringify(feature);
             el.appendChild(img);
 
+            markerContainers.add(el);
+            updateMarkerSize(el, map.getZoom());
+
             return el;
         }
-
-        const createCluster = async (feature, clusterId) => {
-            try {
-                // Get leaves from cluster
-                const clusterFeatures = await map.getSource('location').getClusterLeaves(
-                    clusterId,
-                    Infinity,
-                    0
-                );
-
-                // Create main container (matches your CSS requirements)
-                const priority = priorityLevel(feature.properties.priority);
-                const container = document.createElement('div');
-                container.className = 'cluster-box-container';
-                container.style.zIndex = 100 + priority;
-
-                // Create feature container for images
-                const featuresContainer = document.createElement('div');
-                featuresContainer.style.display = 'contents'; // Allows flex to work on children
-
-                // Process each feature in cluster
-                clusterFeatures.forEach(clusterFeature => {
-                    const id = clusterFeature.properties.id;
-                    const coordinates = clusterFeature.geometry.coordinates;
-                    const imageUrl = `${imgSource}/${clusterFeature.properties.img}.png`;
-
-                    // Create individual image container (matches .cluster-image in your CSS)
-                    const imageContainer = document.createElement('div');
-                    imageContainer.className = 'cluster-image';
-                    imageContainer.dataset.id = id;
-                    imageContainer.dataset.feature = JSON.stringify(clusterFeature);
-
-                    // Create image element (matches your CSS requirements)
-                    const img = document.createElement('img');
-                    img.src = imageUrl;
-                    img.alt = 'Cluster image';
-
-                    imageContainer.appendChild(img);
-                    featuresContainer.appendChild(imageContainer);
-                });
-
-                // Only proceed if we have features
-                if (clusterFeatures.length > 0) {
-                    container.appendChild(featuresContainer);
-
-                    // Wait for images to load
-                    const images = container.querySelectorAll('img');
-                    await Promise.all(
-                        Array.from(images).map(img =>
-                            img.complete ? Promise.resolve() : img.decode().catch(() => { })
-                        )
-                    );
-
-                    // Calculate columns dynamically
-                    const columns = Math.min(
-                    Math.max(2, Math.ceil(clusterFeatures.length / 3)),
-                    6
-                    );
-
-                    // Apply grid layout
-                    container.style.display = 'grid';
-                    container.style.gridTemplateColumns = `repeat(${columns}, 30px)`;
-                    container.style.gap = '5px';
-
-                    return container;
-                }
-            } catch (error) {
-                console.error('Error creating cluster:', error);
-            }
-
-            return null;
-        };
 
         let markers = {};
         let markersOnScreen = {};
 
-        const updateMarkers = async () => {
-            const features = map.querySourceFeatures('location');
+        const updateInfoBox = async () => {
+            const source = 'location';
+            const features = map.querySourceFeatures(source);
+            let uniqueFeatures = new Map();
             const newMarkers = {};
 
-            for (const feature of features) {
-                if (!feature.properties.cluster) {  // Non-clusters
-                    const coordinates = feature.geometry.coordinates;
-                    const id = feature.properties.id;
+            // Create inner container
+            const infoBox = document.getElementById('info-box');
+            // Store the current content of the infoBox
+            const currentContent = infoBox.innerHTML;
+            // Clear the infoBox only after new content is ready
+            let newContent = '';
 
+            const innerContainer = document.createElement('div');
+            innerContainer.className = 'info-box-inner';
+
+            // Process each feature
+            for (const feature of features) {
+                const coordinates = feature.geometry.coordinates;
+                const id = feature.properties.id;
+
+                if (!uniqueFeatures.has(id)) {
                     let marker = markers[id];
                     if (!marker) {
                         const el = await createMarker(feature);
                         marker = markers[id] = new maplibregl.Marker({
                             element: el
                         }).setLngLat(coordinates);
+
+                        // Initial size update
+                        updateMarkerSize(el, map.getZoom());
+
                     }
                     newMarkers[id] = marker;
 
@@ -351,75 +360,17 @@
                     if (!markersOnScreen[id]) {
                         marker.addTo(map);
                     }
-                } else { // Clusters
-                    const coordinates = feature.geometry.coordinates;
-                    const clusterId = feature.properties.cluster_id;
 
-                    let marker = markers[clusterId];
-                    if (!marker) {
-                        const el = await createCluster(feature, clusterId);
-                        //await waitForImages(el);  // Wait for images to load
-                        marker = markers[clusterId] = new maplibregl.Marker({
-                            element: el
-                        }).setLngLat(coordinates);
+                    uniqueFeatures.set(id, feature);
 
-                    }
-                    newMarkers[clusterId] = marker;
-
-                    // Add the marker to the map if it's not already there
-                    if (!markersOnScreen[clusterId]) {
-                        marker.addTo(map);
-                    }
                 }
-            }
 
+            }
             // Remove markers that are no longer on the screen
             for (const id in markersOnScreen) {
                 if (!newMarkers[id]) markersOnScreen[id].remove();
             }
             markersOnScreen = newMarkers;
-        }
-
-        const updateInfoBox = async () => {
-            const infoBox = document.getElementById('info-box');
-            const features = map.querySourceFeatures('location');
-            let uniqueFeatures = new Map();
-
-            // Store the current content of the infoBox
-            const currentContent = infoBox.innerHTML;
-
-            // Clear the infoBox only after new content is ready
-            let newContent = '';
-
-            // Process each feature
-            for (const feature of features) {
-                if (feature.properties.cluster_id) {
-                    // Handle clustered features
-                    const clusterId = feature.properties.cluster_id;
-
-                    try {
-                        // Get the individual features within the cluster
-                        const clusterFeatures = await map.getSource('location').getClusterLeaves(
-                            clusterId,
-                            Infinity,
-                            0
-                        );
-                        clusterFeatures.forEach(clusterFeature => {
-                            const featureId = clusterFeature.properties.id;
-                            if (!uniqueFeatures.has(featureId)) {
-                                uniqueFeatures.set(featureId, clusterFeature);
-                            }
-                        });
-                    } catch (error) {
-                        console.error('Error fetching cluster leaves:', error);
-                    }
-                } else {
-                    const featureId = feature.properties.id;
-                    if (!uniqueFeatures.has(featureId)) {
-                        uniqueFeatures.set(featureId, feature);
-                    }
-                }
-            }
 
             // Convert the Map values to an array
             let allFeatures = Array.from(uniqueFeatures.values());
@@ -431,33 +382,98 @@
                 return nameA.localeCompare(nameB); // Sort alphabetically
             });
 
-            let html = '';
             allFeatures.forEach(feature => {
                 const id = feature.properties.id;
-                const image = feature.properties.img
+                const image = feature.properties.img;
                 const imageUrl = `${imgSource}/${image}.png`;
-                const coordinates = feature.geometry.coordinates; // Get the feature's coordinates
 
-                newContent += `
-                    <div class="info-feature" data-id="${id}">
-                        <div class="info-image-container">
-                            <img src="${imageUrl}" alt="Feature image" class="info-image">
-                        </div>
-                        <div class="info-text-container">
-                            <div class="info-click" data-id="${id}" data-feature="${JSON.stringify(feature).replace(/"/g, '&quot;')}">
-                                <h1 class="mapname">${feature.properties.mapname}</h1>
-                                <p class="ellipsis info">${feature.properties.info}</p>
-                            </div>
-                            ${feature.properties.address ? `<p>📍 ${feature.properties.address}</p>` : ''}
-                            ${feature.properties.phone ? `<p>📞 ${feature.properties.phone}</p>` : ''}
-                            ${feature.properties.email ? `<a href="mailto:${feature.properties.email}"><p class="ellipsis">✉️ ${feature.properties.email}</p></a>` : ''}
-                            ${feature.properties.web ? `<a href="${feature.properties.web}" target="_blank"><p class="ellipsis">🌐 ${feature.properties.web}</p></a>` : ''}
-                        </div>
-                    </div>
-                `;
+                const featureElement = document.createElement('div');
+                featureElement.className = 'info-feature';
+                featureElement.dataset.id = id;
+                featureElement.dataset.feature = JSON.stringify(feature);
+
+                const imageContainer = document.createElement('div');
+                imageContainer.className = 'info-image-container';
+
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.className = 'info-image';
+
+                imageContainer.appendChild(img);
+                featureElement.appendChild(imageContainer);
+                innerContainer.appendChild(featureElement);
             });
-            infoBox.innerHTML = newContent || currentContent;
 
+            // Update DOM
+            infoBox.innerHTML = '';
+            infoBox.appendChild(innerContainer);
+            if (innerContainer.children.length === 0 && currentContent) {
+                infoBox.innerHTML = currentContent;
+            }
+        };
+
+        const createCategoryBox = async () => {
+            const categoryBox = document.getElementById('category-box');
+            
+            // Clear existing content and create inner container
+            categoryBox.innerHTML = '';
+            const innerContainer = document.createElement('div');
+            innerContainer.className = 'category-box-inner';
+            categoryBox.appendChild(innerContainer);
+
+            const categories = [
+                'eat_and_drink',
+                'visit_and_experience',
+                'play_and_learn', 
+                'thrive_and_restore',
+                'shop_and_discover',
+                'live_and_work',
+                'gather_and_worship'
+            ];
+
+            categories.forEach(category => {
+                const categoryElement = document.createElement('div');
+                categoryElement.className = 'category-feature';
+                categoryElement.dataset.category = category;
+
+                const imgContainer = document.createElement('div');
+                imgContainer.className = 'image-container';
+
+                const img = document.createElement('img');
+                img.src = `${imgSource}/${category}.png`;
+                img.className = 'category-image';
+
+                const textElement = document.createElement('div');
+                textElement.className = 'category-text';
+                textElement.textContent = category.split('_')[0].toUpperCase();
+
+                imgContainer.appendChild(img);
+                categoryElement.appendChild(imgContainer);
+                categoryElement.appendChild(textElement);
+                innerContainer.appendChild(categoryElement);
+            });
+        };
+
+        const filterLocation = async (category) => {
+            // 1. Filter features
+            const filteredFeatures = locationData.features.filter(
+                feature => category === 'all' || feature.properties.category === category
+            );
+
+            // 2. Update source data
+            if (map.getSource('location')) {
+                map.getSource('location').setData({
+                    type: 'FeatureCollection',
+                    features: filteredFeatures
+                });
+                
+                // 5. Ensure map renders changes
+                map.on('data', (e) => {
+                    if (e.sourceId === 'location' && e.isSourceLoaded) {
+                        updateInfoBox();
+                    }
+                });
+            }
         };
 
         function updateSprites() {
@@ -538,8 +554,8 @@
                 // Fly to location with popup-aware padding
                 await flyToFeature(coordinates, popup);
 
-                await updateInfoBox();
-                scrollToFeatureInfo(feature.properties.id);
+                //await updateInfoBox();
+                //scrollToFeatureInfo(feature.properties.id);
 
             } catch (error) {
                 console.error('Error handling feature click:', error);
@@ -566,11 +582,25 @@
             popupContent.style.maxHeight = `${maxHeight}px`;
             popupContent.style.overflowY = 'auto';
 
-            popupContent.innerHTML = `
-                <div class="popup-image">
-                    <div class="popup-category"><img src="${imageCategory}" alt="${properties.category}"></div>
-                </div>
-            `;
+            // Clear existing content (optional, if needed)
+            popupContent.textContent = ''; // or popupContent.replaceChildren();
+
+            // Create the outer div with class 'popup-image'
+            const popupImageDiv = document.createElement('div');
+            popupImageDiv.className = 'popup-image';
+
+            // Create the inner div with class 'popup-category'
+            const popupCategoryDiv = document.createElement('div');
+            popupCategoryDiv.className = 'popup-category';
+
+            // Create the img element
+            const img = document.createElement('img');
+            img.src = imageCategory;
+
+            // Assemble the structure
+            popupCategoryDiv.appendChild(img);
+            popupImageDiv.appendChild(popupCategoryDiv);
+            popupContent.appendChild(popupImageDiv);
 
             const popup = new maplibregl.Popup({
                 closeButton: false,
@@ -604,15 +634,11 @@
         // Helper function for flyTo animation
         const flyToFeature = (coordinates) => {
             return new Promise((resolve) => {
-                const isMobile = window.innerWidth < 768;
-                const padding = isMobile
-                    ? { top: 250, bottom: 150, left: 20, right: 20 }  // Mobile padding
-                    : { top: 300, left: 300, bottom: 50, right: 50 }; // Desktop padding
 
                 map.easeTo({
                     center: coordinates,
                     zoom: 17,
-                    padding: padding,
+                    padding: { top: 350, bottom: 50, left: 20, right: 20 },
                     essential: true
                 });
 
@@ -688,21 +714,7 @@
 
         map.on('moveend', () => {
             updateInfoBox();
-            updateMarkers();
-            updateSprites();
         });
-
-		map.on('click', (e) => {
-			const features = map.queryRenderedFeatures(e.point);
-			if (features.length > 0) {
-				features.forEach((feature, index) => {
-					console.log(`Feature ${index + 1}:`, feature);
-					console.log(`Properties:`, feature.properties); // Log only properties
-				});
-			} else {
-				console.log('No features found at this location.');
-			}
-		});
 
     </script>
 
