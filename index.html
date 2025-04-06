@@ -258,7 +258,7 @@
             )];
 
             await Promise.all(iconNames.map(async iconName => {
-                const imageUrl = `http://localhost:8000/img/headshots_renamed/${iconName}.png`;
+                const imageUrl = `${imgSource}/${iconName}.png`;
                 await loadImage(imageUrl, iconName);
             }));
 
