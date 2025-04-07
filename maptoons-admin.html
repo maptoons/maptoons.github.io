@@ -12,18 +12,41 @@
         body { margin: 0; padding: 0; }
         #map { width: 100vw; height: 100vh; }
         button { position: absolute; top: 10px; left: 10px; z-index: 1000; padding: 10px; background: white; border: 1px solid #ccc; cursor: pointer; }
+        #file-input { display: none; }
     </style>
 </head>
 <body>
     <div id="map"></div>
-    <button onclick="downloadGeoJSON()">Download GeoJSON</button>
+    <button onclick="document.getElementById('file-input').click()">Upload GeoJSON</button>
+    <button onclick="downloadGeoJSON()" style="left: 150px;">Download GeoJSON</button>
+    <input type="file" id="file-input" accept=".geojson,.json" />
 
     <script>
         const map = new maplibregl.Map({
             container: "map",
-            style: "https://demotiles.maplibre.org/style.json",
-            center: [0, 0],
-            zoom: 2
+            style: "https://maptoons.github.io/maptoons.json",
+            center: [-73.5251, 40.7684],
+            zoom: 12,
+            pixelRatio: 1,
+            hash: true
+        });
+
+        map.on('load', () => {
+            map.addSource('location', {
+                'type': 'geojson',
+                'data': 'https://maptoons.github.io/data/hicksville.geojson',
+                'cluster': false
+            });
+
+            map.addLayer({
+                id: 'location',
+                type: 'circle', // Use a simple layer type
+                source: 'location',
+                paint: {
+                    'circle-radius': 3, // Make the layer invisible
+                    'circle-opacity': 1 // Make the layer invisible
+                }
+            });
         });
 
         const draw = new MapboxDraw({
@@ -39,8 +62,21 @@
             draw.set(geojson);  // Add the GeoJSON features to the draw control
         }
 
-        map.on("load", () => {
-            loadGeoJSON("http://localhost:8000/data/hicksville.geojson"); // Replace with your GeoJSON file URL
+        // Handle file upload
+        document.getElementById('file-input').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const geojson = JSON.parse(e.target.result);
+                        draw.set(geojson);
+                    } catch (error) {
+                        alert("Error parsing GeoJSON file: " + error.message);
+                    }
+                };
+                reader.readAsText(file);
+            }
         });
 
         // Download the final state of GeoJSON (after dragging)
@@ -53,7 +89,7 @@
             const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: "application/json" });
             const a = document.createElement("a");
             a.href = URL.createObjectURL(blob);
-            a.download = "final_points.geojson";
+            a.download = "hicksville-art.geojson";
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);

@@ -51,6 +51,16 @@
 		},
 		{
 			"source": "osm",
+			"id": "building",
+			"type": "fill",
+			"source-layer": "buildings",
+			"paint": {
+				"fill-color": "hsl(90, 29%, 80%)",
+				"fill-opacity": { "stops": [ [ 14, 0 ], [ 15, 1 ] ] }
+			}
+		},
+		{
+			"source": "osm",
 			"id": "street-major-buffer",
 			"type": "line",
 			"source-layer": "streets",
@@ -63,6 +73,23 @@
 				"line-join": "round",
 				"line-cap": "round"
 			}
+		},
+		{
+			"source": "osm",
+			"id": "street-service",
+			"type": "line",
+			"source-layer": "streets",
+			"filter": [ "in", "kind", "service" ],
+			"paint": {
+				"line-color": "hsl(90, 29%, 80%)",
+				"line-dasharray": [2, 2],
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 20, 30 ]
+			},
+			"layout": {
+				"line-join": "round",
+				"line-cap": "round"
+			},
+			"minzoom": 16
 		},
 		{
 			"source": "osm",
@@ -87,13 +114,32 @@
 			"source-layer": "streets",
 			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
 			"paint": {
-				"line-color": "hsl(85, 48%, 84%)",
+				"line-color": "hsl(85, 48%, 94%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 20, 152 ]
 			},
 			"layout": {
 				"line-join": "round",
 				"line-cap": "round"
 			}
+		},
+		{
+			"source": "osm",
+			"id": "label-address-housenumber",
+			"type": "symbol",
+			"source-layer": "addresses",
+			"filter": [ "has", "housenumber" ],
+			"layout": {
+				"text-field": "{housenumber}",
+				"text-font": [ "fredoka-semibold" ],
+				"symbol-placement": "point",
+				"text-anchor": "center",
+				"text-size": 12
+			},
+			"paint": {
+				"icon-color": "hsl(90, 29%, 71%)",
+				"text-color": "hsl(90, 29%, 71%)"
+			},
+			"minzoom": 16
 		},
 		{
 			"source": "osm",
@@ -113,7 +159,7 @@
 			},
 			"paint": {
 				"text-color": "hsl(92, 21%, 50%)",
-				"text-halo-color": "hsl(85, 48%, 84%)",
+				"text-halo-color": "hsl(85, 48%, 94%)",
 				"text-halo-width": 2
 			}
 		},
@@ -128,10 +174,10 @@
 				"text-transform": "uppercase",
 				"text-font": [ "fredoka-semibold" ],
 				"text-letter-spacing": 0.1,
-				"text-size": { "stops": [ [ 5, 8 ], [ 8, 10 ] ] }
+				"text-size": 8
 			},
 			"paint": {
-				"text-color": "hsl(0, 0%, 50%)"
+				"text-color": "hsl(0, 0%, 20%)"
 			},
 			"maxzoom": 10
 		}

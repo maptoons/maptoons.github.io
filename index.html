@@ -6,7 +6,7 @@
     <meta property="og:description" content="maptoons.com" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
@@ -26,49 +26,47 @@
         nav a {color:white; text-decoration:none; font-size:14px; line-height:0.8; padding-bottom:10px; margin:10px;}
 
         #category-box { display: flex; position: fixed; top: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 90vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
-        .category-box-inner { display: flex; justify-content: flex-start; gap: 10px; margin: 0 auto; background-color: hsla(0, 0%, 100%, 1); padding: 10px; border-radius: 5px; }
+        .category-box-inner { display: flex; justify-content: flex-start; gap: 10px; margin: 0 auto; background-color: hsl(0, 0%, 100%); padding: 10px; border-radius: 5px; }
         .category-feature { position: relative; flex-shrink: 0; width: 40px; height: 40px; overflow: visible; cursor: pointer; }
         .category-feature .image-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; justify-content: center; align-items: center; z-index: 2; }
         .category-feature .image-container img { width: 40px; height: 40px; border-radius: 5px; }
-        .category-text { position: absolute; bottom: -10%; left: 50%; transform: translate(-50%, 50%); font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 8px; line-height: 0.8; color: hsl(0, 0%, 20%); letter-spacing: 1px; text-align: center; width: fit-content; white-space: pre-wrap; word-wrap: break-word; overflow-wrap: break-word; display: inline-block; z-index: 1; }
+        .category-text { position: absolute; bottom: -10%; left: 50%; transform: translate(-50%, 50%); font-size: 9px; line-height: 0.8; letter-spacing: 0px; text-align: center; width: fit-content; white-space: pre-wrap; word-wrap: break-word; overflow-wrap: break-word; display: inline-block; z-index: 1; }
 
-        .category-feature.active { filter: drop-shadow(0px 0px 2px hsla(60, 100%, 50%, 0.1)); }
-        .category-feature.active img { width: 55px; height: 55px; }
+        .category-feature.active img { border: 2px solid hsla(60, 100%, 50%, 1); }
 
         #info-box { display: flex; position: fixed; bottom: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 90vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
-        .info-box-inner { display: flex; gap: 10px; margin: 0 auto; background-color: hsla(0, 0%, 100%, 1); padding: 10px; border-radius: 5px; }
+        .info-box-inner { display: flex; gap: 10px; margin: 0 auto; background-color: hsl(0, 0%, 100%); padding: 10px; border-radius: 5px; }
         .info-feature { position: relative; width: auto; height: auto; overflow: visible; cursor: pointer; }
         .info-feature .info-image-container { text-align: center; line-height: 0; }
-        .info-feature .info-image { width: auto; height: 30px; cursor: pointer; }
+        .info-feature .info-image { width: auto; height: 30px; cursor: pointer; filter: drop-shadow(0 -1px 0 hsl(0, 0%, 0%)) drop-shadow(0 1px 0 hsl(0, 0%, 0%)) drop-shadow(-1px 0 0 hsl(0, 0%, 0%)) drop-shadow(1px 0 0 hsl(0, 0%, 0%)); border-radius: 2px; }
 
         .marker { left: 0; top: 0; pointer-events: auto; cursor: pointer; background-color: transparent !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); will-change: transform; }
-        .marker-image { display: block; pointer-events: auto; max-width: 30px; max-height: 30px; }
-        .marker-circle { display: none; pointer-events: auto; }
-
-        .maplibregl-popup { width: auto; height: auto; z-index: 900 !important; }
-        .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; box-shadow: 2px 2px 2px hsla(0, 0%, 20%, 0.2); }
-        .popup-content { position: relative; padding:10px; overflow-y:auto; overflow-x:hidden; width: 100%; height: 100%; }
-        .popup-image { width: 100%; height: 100%; }
-        .popup-logo { position: relative; width: 100%; height: 100%;}
-        .popup-logo img { position: absolute; top: 50%; left: 50%; transform: translate( -50% -50%); width: 50%; height: auto; }
-        .popup-category { position:relative; width:100%; text-align:center; }
-        .popup-category img { width:250px; height:auto; }
-        .popup-title { max-width:100%; overflow:hidden; }
-        .popup-title h3 { margin:0 0 4px 0; font-size:14px; color:#666; white-space:normal; word-wrap:break-word; }
-        .popup-title h2 { margin:0; font-size:18px; white-space:normal; word-break:break-word; max-width:100%; }
-        .popup-body { font-size:14px; line-height:1.4; max-width:100%; overflow-wrap:break-word; }
-        .popup-body p { margin:8px 0; overflow-wrap:break-word; max-width:100%; }
-        .popup-body a { word-break:break-all; max-width:100%; display:inline-block; }
+        .marker-image { display: block; pointer-events: auto; max-width: 30px; max-height: 30px; border-radius: 2px; }
         
-        a { color: hsl(200, 50%, 40%); text-decoration: none; }
-        h1 { font-size: 15px; font-weight: 600; line-height: 1.1; margin-bottom: 2px; }
-        h2 { font-size: 13px; font-weight: 600; line-height: 1.1; margin-bottom: 2px; }
-        h3 { font-size: 9px; font-weight: 400; line-height: 1.1; margin-bottom: 2px; }
-        h4 { color: hsl(0, 0%, 100%); font-size: 8px; font-weight: 900; letter-spacing: 0; line-height: 1; }
-        p { font-size: 12px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
-        p.ellipsis { max-width: calc(100vw - 100px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
+        .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; }
+        .popup-container { position: relative; overflow-y:auto; overflow-x:hidden; width: 100%; height: 100%; background-color: hsl(0, 0%, 100%); }
+        .popup-content { display: flex; flex-direction: column; width: 100%; height: 100%; }
+        .popup-header { position: relative; overflow: hidden; width: 100%; height: 100px; text-align: center; }
+        .popup-header img { width: 100%; height: auto; object-fit: cover; display: block; }
+        .popup-header .popup-title { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%; color: hsl(0, 0%, 100%); margin: 0 auto; text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5); }
+        .popup-text { padding: 10px; }
+        .popup-footer { display: flex; gap: 5px; justify-content: center; padding: 0px 5px 10px 5px; }
+        .popup-footer .footer-column { flex: 1; min-width: 0; text-align: center; }
+
+        .maplibregl-popup-close-button { font-size: 18px; color: #6c757d; padding: 5px; margin: 3px 3px 0 0; }
+        .maplibregl-popup-close-button:hover { color: #495057; background-color: #f1f3f5; }
+        
+        a { color: hsl(200, 50%, 40%); text-decoration: none !important; border: none; outline: none; }
+        h1 { font-size: 30px; font-weight: 900; line-height: 0.9; letter-spacing: -2px; }
+        h2 { font-size: 13px; font-weight: 600; line-height: 1; margin-bottom: 2px; }
+        h3 { font-size: 9px; font-weight: 400; line-height: 1; margin-bottom: 2px; }
+        h4 { font-size: 9px; font-weight: 400; letter-spacing: 0; line-height: 1.4; margin-top: 2px; }
+        p { font-size: 14px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
+        .ellipsis { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
         @media (min-width: 768px) {
-            p.ellipsis { max-width: 180px; }
+            .ellipsis { max-width: 100px; }
         }
     </style>
 </head>
@@ -108,8 +106,8 @@
         const styleFile = 'https://maptoons.github.io/maptoons.json'
         //const locationFile = 'http://localhost:8000/data/hicksville.geojson'
         const locationFile = 'https://maptoons.github.io/data/hicksville.geojson'
-        //const artFile = 'http://localhost:8000/data/background-art.geojson'
-        const artFile = 'https://maptoons.github.io/data/background-art.geojson'
+        //const artFile = 'http://localhost:8000/data/hicksville-art.geojson'
+        const artFile = 'https://maptoons.github.io/data/hicksville-art.geojson'
 
         const map = new maplibregl.Map({
             container: "map",
@@ -128,7 +126,7 @@
         });
 
         //map.setBearing(20);
-        map.getCanvas().addEventListener('contextmenu', (e) => e.stopPropagation(), true);
+        //map.getCanvas().addEventListener('contextmenu', (e) => e.stopPropagation(), true);
 
         const loadLocation = async () => {
             const response = await fetch(locationFile);
@@ -194,6 +192,12 @@
                 
                 const category = categoryFeatureElement.dataset.category;
                 if (!category) return;
+
+                // Close any open popup when clicking a category
+                if (window.featurePopup) {
+                    window.featurePopup.remove();
+                    window.featurePopup = null;
+                }
 
                 // Toggle logic
                 if (currentActiveCategory === category) {
@@ -275,8 +279,8 @@
                 minzoom: 12,
                 layout: {
                     'icon-image': ['get', 'img'],
-                    'icon-size': 0.3,
-                    'icon-allow-overlap': true
+                    'icon-size': 0.2,
+                    'icon-allow-overlap': false
                 }
             },'location-temp');
         };
@@ -309,17 +313,36 @@
                 18: 110
             };
 
+            // Shadow intensity scaling (2px at zoom 14 → 1px at zoom 18)
+            const shadowSteps = {
+                14: 1,
+                15: 1,
+                16: 1,
+                17: 1,
+                18: 1
+            };
+
             const getClosestZoom = (current) => 
                 Object.keys(sizeSteps).reduce((prev, curr) => 
                     Math.abs(curr - current) < Math.abs(prev - current) ? curr : prev
                 );
 
-            const size = sizeSteps[getClosestZoom(currentZoom)] || 30;
+            const closestZoom = getClosestZoom(currentZoom);
+            const size = sizeSteps[closestZoom] || 30;
+            const shadowSize = shadowSteps[closestZoom] || 1; // Default to 1px if no match
             
             // Apply styles directly to the image
             img.style.maxWidth = `${size}px`;
             img.style.maxHeight = `${size}px`;
             img.style.transformOrigin = 'center bottom'; // Better anchor point
+
+            // Dynamic drop-shadow (scales from 2px to 1px)
+            img.style.filter = `
+                drop-shadow(0 -${shadowSize}px 0 hsl(0, 0%, 0%))
+                drop-shadow(0 ${shadowSize}px 0 hsl(0, 0%, 0%))
+                drop-shadow(-${shadowSize}px 0 0 hsl(0, 0%, 0%))
+                drop-shadow(${shadowSize}px 0 0 hsl(0, 0%, 0%))
+            `;
         };
 
         let lastZoom = map.getZoom();
@@ -528,71 +551,6 @@
             }
         };
 
-        function updateSprites() {
-            const addresses = map.querySourceFeatures('osm', {
-                sourceLayer: 'addresses'
-            });
-
-            const pois = map.querySourceFeatures('osm', {
-                 sourceLayer: 'pois'
-            });
-
-            // const features = [...addresses, ...pois];
-            const features = pois;
-            const totalIcons = 60; //trees (1-24), flowers (25-43), people (44-60)
-
-            const osm_icons = {
-                type: "FeatureCollection",
-                features: features.map((feature) => ({
-                    type: "Feature",
-                    geometry: feature.geometry,
-                    properties: {
-                        icon_number: Math.round(Math.abs(feature.geometry.coordinates[0] * 100000)) % totalIcons + 1,
-                    }
-                }))
-            };
-
-            if (map.getSource('osm-icons')) {
-                map.getSource('osm-icons').setData(osm_icons);
-            } else {
-                map.addSource('osm-icons', {
-                    type: 'geojson',
-                    data: osm_icons
-                });
-
-                map.addLayer({
-                    "source": "osm-icons",
-                    "id": "osm-icons",
-                    "type": "symbol",
-                    "layout": {
-                        "symbol-placement": "point",
-                        "icon-keep-upright": true,
-                        "icon-allow-overlap": false,
-                        "icon-ignore-placement": true,
-                        "icon-anchor": "bottom",
-                        "icon-size": [
-                            "case",
-                            [">=", ["get", "icon_number"], 44], 0.2,
-                            [">=", ["get", "icon_number"], 25], 0.2,
-                            0.3
-                        ],
-                        "icon-image": [
-                            "concat",
-                            "icon-",
-                            ["get", "icon_number"]
-                        ]
-                    },
-                    "paint": {
-                        "icon-color": "hsl(0, 0%, 100%)",
-                        "text-color": "hsl(0, 0%, 100%)",
-                        "icon-opacity": 0.5
-                    },
-                    minzoom: 14
-                }, 'temp-location');
-
-            }
-        }
-
         // Click feature with popup support
         const clickFeature = async (feature) => {
             if (!feature?.geometry?.coordinates) return;
@@ -622,62 +580,118 @@
 
             const { properties } = feature;
             const imageLogo = `${imgSource}/${properties.img || 'default'}.png`;
-            const imageCategory = `${imgSource}/${properties.category || 'default'}.png`;
+            const imageBanner = `${imgSource}/${properties.category || 'default'}_banner.png`;
 
-            // Calculate sizes based on window dimensions
+            // Define fixed sizes (mobile or desktop)
             const isMobile = window.innerWidth < 768;
-            const maxWidth = isMobile ? window.innerWidth * 0.9 : 400;
-            const maxHeight = isMobile ? window.innerHeight * 0.5 : 500;
+            const maxWidth = isMobile ? 300 : 400;  // Fixed values (adjust as needed)
+            const maxHeight = isMobile ? 300 : 500; // Fixed values
 
-            const popupContent = document.createElement('div');
-            popupContent.className = 'popup-content';
-            popupContent.style.maxHeight = `${maxHeight}px`;
-            popupContent.style.overflowY = 'auto';
+            const popupContainer = document.createElement('div');
+            popupContainer.className = 'popup-container';
 
             // Clear existing content (optional, if needed)
-            popupContent.textContent = ''; // or popupContent.replaceChildren();
+            popupContainer.textContent = ''; // or popupContainer.replaceChildren();
 
-            // Create the outer div with class 'popup-image'
-            const popupImageDiv = document.createElement('div');
-            popupImageDiv.className = 'popup-image';
+            // Create the outer div
+            const popupContent = document.createElement('div');
+            popupContent.className = 'popup-content';
 
-            // Create the inner div with class 'popup-category'
-            const popupCategoryDiv = document.createElement('div');
-            popupCategoryDiv.className = 'popup-category';
+            // Create the inner div
+            const popupHeader = document.createElement('div');
+            popupHeader.className = 'popup-header';
 
-            // Create the img element
+            // Create img element
             const img = document.createElement('img');
-            img.src = imageCategory;
+            img.src = imageBanner;
+
+            const title = document.createElement('h1');
+            title.className = 'popup-title';
+            title.textContent = properties.mapname;
+
+            // Create text element
+            const textContainer = document.createElement('p');
+            textContainer.className = 'popup-text';
+            textContainer.textContent = properties.info;
+
+            // Create footer container
+            const footer = document.createElement('div');
+            footer.className = 'popup-footer';
+
+            // Add Address if exists
+            if (properties.address) {
+            const addressColumn = document.createElement('div');
+            addressColumn.className = 'footer-column footer-address';
+            
+            // Generate Google Maps search URL using mapname + address
+            const searchQuery = encodeURIComponent(`${properties.mapname} ${properties.address}`);
+            addressColumn.innerHTML = `
+                <a href="https://www.google.com/maps/search/?api=1&query=${searchQuery}" target="_blank">
+                <i class="fa-solid fa-location-dot"></i>
+                </a>
+                <h4>${properties.address}</h4>
+            `;
+            
+            footer.appendChild(addressColumn);
+            }
+
+            // Add Phone if exists
+            if (properties.phone) {
+            const phoneColumn = document.createElement('div');
+            phoneColumn.className = 'footer-column footer-phone';
+            phoneColumn.innerHTML = `
+                <a href="tel:${properties.phone}"><i class="fa-solid fa-phone"></i></a>
+                <h4>${properties.phone}</h4>
+            `;
+            footer.appendChild(phoneColumn);
+            }
+
+            // Add Email if exists
+            if (properties.email) {
+            const emailColumn = document.createElement('div');
+            emailColumn.className = 'footer-column footer-email';
+            emailColumn.innerHTML = `
+                <a href="mailto:${properties.email}"><i class="fa-solid fa-envelope"></i></a>
+                <h4 class="ellipsis">${properties.email}</h4>
+            `;
+            footer.appendChild(emailColumn);
+            }
+
+            // Add Website if exists
+            if (properties.web) {
+            const webColumn = document.createElement('div');
+            webColumn.className = 'footer-column footer-web';
+            webColumn.innerHTML = `
+                <a href="${properties.web}" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                <h4 class="ellipsis">${properties.web}</h4>
+            `;
+            footer.appendChild(webColumn);
+            }
+
+            // Only add footer if at least one contact method exists
+            if (footer.children.length > 0) {
+            popupContent.appendChild(footer);
+            }
 
             // Assemble the structure
-            popupCategoryDiv.appendChild(img);
-            popupImageDiv.appendChild(popupCategoryDiv);
-            popupContent.appendChild(popupImageDiv);
+            popupHeader.appendChild(img);
+            popupHeader.appendChild(title);
+            popupContent.appendChild(popupHeader);
+            popupContent.appendChild(textContainer);
+            popupContent.appendChild(footer);
+            popupContainer.appendChild(popupContent);
 
             const popup = new maplibregl.Popup({
                 closeButton: false,
                 closeOnClick: true,
                 anchor: 'bottom',
                 offset: 20,
-                maxWidth: `${maxWidth}px`
+                maxWidth: `${maxWidth}px`,
+                maxHeight: `${maxHeight}px`
             })
                 .setLngLat(coordinates)
-                .setDOMContent(popupContent)
+                .setDOMContent(popupContainer)
                 .addTo(map);
-
-            // Handle window resize
-            const resizeHandler = () => {
-                const newMaxWidth = window.innerWidth < 768 ? window.innerWidth * 0.9 : 400;
-                popup.options.maxWidth = `${newMaxWidth}px`;
-                popupContent.style.maxHeight = `${window.innerHeight * 0.5}px`;
-            };
-
-            window.addEventListener('resize', resizeHandler);
-
-            // Cleanup on popup close
-            popup.on('close', () => {
-                window.removeEventListener('resize', resizeHandler);
-            });
 
             window.featurePopup = popup;
             return popup;
@@ -829,7 +843,7 @@
 
         map.once('load', (e) => {
             loadLocation();
-            loadArt();
+            //loadArt();
         });
 
         map.on('moveend', () => {
