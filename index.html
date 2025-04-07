@@ -41,7 +41,7 @@
         .info-feature .info-image { width: auto; height: 30px; cursor: pointer; filter: drop-shadow(0 -1px 0 hsl(0, 0%, 0%)) drop-shadow(0 1px 0 hsl(0, 0%, 0%)) drop-shadow(-1px 0 0 hsl(0, 0%, 0%)) drop-shadow(1px 0 0 hsl(0, 0%, 0%)); border-radius: 2px; }
 
         .marker { left: 0; top: 0; pointer-events: auto; cursor: pointer; background-color: transparent !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); will-change: transform; }
-        .marker-image { display: block; pointer-events: auto; max-width: 30px; max-height: 30px; border-radius: 2px; }
+        .marker-image { display: block; pointer-events: auto; max-width: 30px; max-height: 30px; border-radius: 2px; filter: drop-shadow(0 -1px 0 hsl(0, 0%, 0%)) drop-shadow(0 1px 0 hsl(0, 0%, 0%)) drop-shadow(-1px 0 0 hsl(0, 0%, 0%)) drop-shadow(1px 0 0 hsl(0, 0%, 0%)); }
         
         .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
         .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; }
@@ -295,7 +295,7 @@
             }
             
             // Show marker if it was previously hidden
-            markerElement.style.display = 'block';
+            //markerElement.style.display = 'block';
 
             // Safely get the image element
             const img = markerElement.querySelector('.marker-image') || 
@@ -309,9 +309,7 @@
             // Calculate size - example using logarithmic scaling
             const sizeSteps = {
                 14: 30,
-                15: 50,
                 16: 70,
-                17: 90,
                 18: 110
             };
 
@@ -340,12 +338,12 @@
             img.style.transformOrigin = 'center bottom'; // Better anchor point
 
             // Dynamic drop-shadow (scales from 2px to 1px)
-            img.style.filter = `
-                drop-shadow(0 -${shadowSize}px 0 hsl(0, 0%, 0%))
-                drop-shadow(0 ${shadowSize}px 0 hsl(0, 0%, 0%))
-                drop-shadow(-${shadowSize}px 0 0 hsl(0, 0%, 0%))
-                drop-shadow(${shadowSize}px 0 0 hsl(0, 0%, 0%))
-            `;
+            //img.style.filter = `
+            //    drop-shadow(0 -${shadowSize}px 0 hsl(0, 0%, 0%))
+            //    drop-shadow(0 ${shadowSize}px 0 hsl(0, 0%, 0%))
+            //    drop-shadow(-${shadowSize}px 0 0 hsl(0, 0%, 0%))
+            //    drop-shadow(${shadowSize}px 0 0 hsl(0, 0%, 0%))
+            //`;
         };
 
         let lastZoom = map.getZoom();
@@ -427,9 +425,6 @@
                         marker = markers[id] = new maplibregl.Marker({
                             element: el
                         }).setLngLat(coordinates);
-
-                        // Initial size update
-                        updateMarkerSize(el, map.getZoom());
 
                     }
                     newMarkers[id] = marker;
