@@ -37,8 +37,10 @@
         .info-feature .info-image-container { text-align: center; line-height: 0; }
         .info-feature .info-image { width: auto; height: 30px; cursor: pointer; filter: drop-shadow(0 -1px 0 hsl(0, 0%, 0%)) drop-shadow(0 1px 0 hsl(0, 0%, 0%)) drop-shadow(-1px 0 0 hsl(0, 0%, 0%)) drop-shadow(1px 0 0 hsl(0, 0%, 0%)); border-radius: 2px; }
 
-        .custom-marker { display: flex; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
-        .custom-marker img { display: block; pointer-events: auto; max-width: 15px; max-height: 15px; filter: grayscale(100%) contrast(1000%) brightness(0%) invert(100%); }
+        .custom-marker { display: flex; flex-direction: row; justify-content: center; align-items: center; }
+        .custom-marker-img-container { display: flex; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
+        .custom-marker-img { display: block; pointer-events: auto; max-width: 15px; max-height: 15px; filter: grayscale(100%) contrast(1000%) brightness(0%) invert(100%); }
+        .custom-marker-label { font-size: 9px; font-weight: 500; line-height: 1; padding-left: 3px; max-width: 120px; }
         
         .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
         .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; }
@@ -59,7 +61,7 @@
         h2 { font-size: 13px; font-weight: 600; line-height: 1; margin-bottom: 2px; }
         h3 { font-size: 9px; font-weight: 400; line-height: 1; margin-bottom: 2px; }
         h4 { font-size: 9px; font-weight: 400; letter-spacing: 0; line-height: 1.4; margin-top: 2px; }
-        p { font-size: 14px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
+        p { font-size: 9px; font-weight: 400; letter-spacing: 0; line-height: 0.9; }
         .ellipsis { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
         @media (min-width: 768px) {
@@ -86,7 +88,7 @@
         //const artFile = 'http://localhost:8000/data/hicksville-art.geojson'
         const artFile = 'https://maptoons.github.io/data/hicksville-art.geojson'
 
-        const zoomThreshold = 14
+        const zoomThreshold = 14 // For clusters and markers
 
         const map = new maplibregl.Map({
             container: "map",
@@ -116,7 +118,7 @@
                 'cluster': true,
                 'clusterRadius': 20,
                 'clusterMinPoints': 3,
-                'clusterMaxZoom': zoomThreshold
+                'clusterMaxZoom': zoomThreshold - 1
             });
 
             // Style for clustered points
@@ -140,8 +142,7 @@
                         10, 20,
                         25, 25
                     ]
-                },
-                'maxzoom': zoomThreshold
+                }
             });
 
             // Text label for cluster count
@@ -157,8 +158,7 @@
                 },
                 paint: {
                     'text-color': 'hsl(0, 0%, 0%)'
-                },
-                'maxzoom': zoomThreshold
+                }
             });
 
             // Style for individual (non-clustered) points
@@ -216,10 +216,10 @@
 
             // Determine which priorities should be displayed at this zoom level
             let priorityLevels = [];
-            if (zoom >= 14 && zoom < 15) priorityLevels = ['Q'];
-            if (zoom >= 15 && zoom < 16) priorityLevels = ['Q', 'T'];
-            if (zoom >= 16 && zoom < 17) priorityLevels = ['Q', 'T', 'D'];
-            if (zoom >= 17) priorityLevels = ['Q', 'T', 'D', 'S'];
+            if (zoom >= zoomThreshold && zoom < zoomThreshold + 1) priorityLevels = ['Q'];
+            if (zoom >= zoomThreshold + 1 && zoom < zoomThreshold + 2) priorityLevels = ['Q', 'T'];
+            if (zoom >= zoomThreshold + 2 && zoom < zoomThreshold + 3) priorityLevels = ['Q', 'T', 'D'];
+            if (zoom >= zoomThreshold + 3) priorityLevels = ['Q', 'T', 'D', 'S'];
 
             const newMarkers = {};
             const features = map.querySourceFeatures('location');
@@ -233,17 +233,35 @@
 
                 let marker = markers[id];
                 if (!marker) {
+                    // Create container div
                     const el = document.createElement('div');
                     el.className = 'custom-marker';
-                    el.style.backgroundColor = getCategoryColor(props.category);
-                    
+
+                    // Create image container div
+                    const imgContainer = document.createElement('div');
+                    imgContainer.className = 'custom-marker-img-container';
+                    imgContainer.style.backgroundColor = getCategoryColor(props.category);
+
+                    // Create image element
                     const img = document.createElement('img');
                     img.src = `${imgSource}/${props.img}.png`;
-                    
-                    el.appendChild(img);
+                    img.className = 'custom-marker-img';
+
+                    // Create label element
+                    const label = document.createElement('p');
+                    label.innerText = `${props.mapname}`;
+                    label.className = 'custom-marker-label';
+                    label.style.color = getCategoryColor(props.category);
+
+                    // Build the structure
+                    imgContainer.appendChild(img);
+                    el.appendChild(imgContainer);
+                    el.appendChild(label);
 
                     marker = markers[id] = new maplibregl.Marker({
-                        element: el
+                        element: el,
+                        anchor: 'left',
+                        offset: [-15, 0]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
@@ -280,21 +298,31 @@
             updateMarkers();
         });
 
-        // Point zoom based on priority
-        map.on('zoom', () => {
+        // Remove points based on zoom and priority
+        map.on('zoomend', () => {
             const zoom = map.getZoom();
             map.setFilter('points', [
-                '<',
+                '>',
                 ['match', ['get', 'priority'],
-                    'Q', 15,
-                    'T', 16,
-                    'D', 17,
-                    'S', 18,
-                    18
+                    'Q', zoomThreshold - 1,
+                    'T', zoomThreshold - 2,
+                    'D', zoomThreshold - 3,
+                    'S', zoomThreshold - 4,
+                    zoomThreshold - 4
                 ],
                 zoom
             ]);
         });
+
+        map.on('click', (e) => {
+            const features = map.queryRenderedFeatures(e.point);
+            if (features.length > 0) {
+                console.log('Clicked feature:', features[0].properties);
+            } else {
+                console.log('No features at this location');
+            }
+        });
+
     </script>
 
 </body>
