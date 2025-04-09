@@ -31,15 +31,16 @@
 
         .category-feature.active img { width: 30px; height: 30px; }
 
-        #info-box { display: flex; position: fixed; bottom: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 90vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
-        .info-box-inner { display: flex; gap: 10px; margin: 0 auto; background-color: hsl(0, 0%, 100%); padding: 10px; border-radius: 5px; }
-        .info-feature { position: relative; width: auto; height: auto; overflow: visible; cursor: pointer; }
-        .info-feature .info-image-container { text-align: center; line-height: 0; }
-        .info-feature .info-image { width: auto; height: 30px; cursor: pointer; filter: drop-shadow(0 -1px 0 hsl(0, 0%, 0%)) drop-shadow(0 1px 0 hsl(0, 0%, 0%)) drop-shadow(-1px 0 0 hsl(0, 0%, 0%)) drop-shadow(1px 0 0 hsl(0, 0%, 0%)); border-radius: 2px; }
+        #info-box { position: fixed; bottom: 0px; top: 0px; height: auto; width: 300px; border-radius: 0px 5px 5px 0; overflow-y: scroll; overflow-x: hidden; z-index: 100; background: hsla(0, 0%, 100%); box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1); }
+        .info-feature { display: flex; width: 100%; padding: 10px 5px; border-bottom: 1px solid hsl(0, 0%, 80%); gap: 5px; }
+        .info-feature:last-child { border-bottom: none; }
+        .info-feature .info-image-container { width: 50px; }
+        .info-feature .info-image { height: auto; width: 50px; }
+        .info-feature .info-text { padding: 0 5px 0 0; overflow: visible; }
 
         .custom-marker { display: flex; flex-direction: row; justify-content: center; align-items: center; }
         .custom-marker-img-container { display: flex; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
-        .custom-marker-img { display: block; pointer-events: auto; max-width: 15px; max-height: 15px; filter: grayscale(100%) contrast(1000%) brightness(0%) invert(100%); }
+        .custom-marker-img { display: block; max-width: 15px; max-height: 15px; filter: grayscale(100%) contrast(1000%) brightness(0%) invert(100%); }
         .custom-marker-label { font-size: 9px; font-weight: 400; line-height: 1; padding-left: 3px; max-width: 120px; }
         
         .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
@@ -87,6 +88,8 @@
         const locationFile = 'https://maptoons.github.io/data/hicksville.geojson'
         //const artFile = 'http://localhost:8000/data/hicksville-art.geojson'
         const artFile = 'https://maptoons.github.io/data/hicksville-art.geojson'
+        //const spritesFile = 'http://localhost:8000/data/sprites.geojson'
+        const spritesFile = 'https://maptoons.github.io/data/sprites.geojson'
 
         const zoomThreshold = 14 // For clusters and markers
 
@@ -106,6 +109,41 @@
 
         map.on('load', () => {
 
+            map.addSource('sprites', {
+                'type': 'geojson',
+                'data': spritesFile,
+                'cluster': false
+            });
+
+            map.addLayer({
+                "id": "sprites",
+                "source": "sprites",
+                "type": "symbol",
+                "layout": {
+                    "icon-size": 0.4,
+                    "symbol-placement": "point",
+                    "icon-keep-upright": true,
+                    "icon-allow-overlap": true,
+                    "icon-ignore-placement": true,
+                    "icon-anchor": "bottom",
+                    "icon-image": [
+                            "concat",
+                            "icon-",
+                            ["get", "icon_number"]
+                        ]
+                },
+                "paint": {
+                    "icon-color": "hsl(0, 0%, 100%)",
+                    "icon-opacity": [
+                    "interpolate",
+                    ["exponential", 0.5],
+                    ["zoom"],
+                    15, 0, 16, 1
+                    ]
+                },
+                minZoom: 16
+            });
+
             map.addSource('location', {
                 'type': 'geojson',
                 'data': locationFile,
@@ -118,7 +156,7 @@
                 'cluster': true,
                 'clusterRadius': 20,
                 'clusterMinPoints': 3,
-                'clusterMaxZoom': zoomThreshold
+                'clusterMaxZoom': zoomThreshold - 1
             });
 
             // Style for clustered points
@@ -196,6 +234,34 @@
                 }
             });
 
+            // Click for markers
+            document.addEventListener('click', (e) => {
+                // 1. Detect clicks on either:
+                const clickedElement = e.target.closest(
+                    '.custom-marker-img-container'
+                );
+                if (!clickedElement) return;
+
+                // 2. Get the nearest parent with feature data
+                const featureElement = clickedElement.closest('[data-feature]');
+                if (!featureElement) return;
+
+                // 3. Parse and pass the feature
+                try {
+                    const feature = JSON.parse(featureElement.dataset.feature);
+                    clickFeature(feature);
+
+                    // Add active class
+                    // document.querySelectorAll('.custom-marker-img.active').forEach(el => {
+                    //     el.classList.remove('active');
+                    // });
+                    // featureElement.classList.add('active');
+
+                } catch (error) {
+                    console.error("Couldn't parse feature data:", error);
+                }
+            });
+
         });
 
         // objects for caching and keeping track of HTML marker objects (for performance)
@@ -228,6 +294,7 @@
                 const coords = features[i].geometry.coordinates;
                 const props = features[i].properties;
                 
+                // Exclude clusters
                 if (props.cluster || !priorityLevels.includes(props.priority)) continue;
                 const id = props.id;
 
@@ -240,6 +307,8 @@
                     // Create image container div
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
+                    imgContainer.dataset.id = id;
+                    imgContainer.dataset.feature = JSON.stringify(features[i]);
                     imgContainer.style.backgroundColor = getCategoryColor(props.category);
 
                     // Create image element
@@ -274,6 +343,139 @@
             }
             markersOnScreen = newMarkers;
         }
+
+        // Helper function for clicks
+        const clickFeature = (feature) => {
+            let coordinates = feature.geometry.coordinates;
+
+            try {
+                // Update info-box
+                //const infoBox = updateInfoBox(feature);
+
+                // Fly to location
+                flyToFeature(coordinates);
+
+                //await updateInfoBox();
+                //scrollToFeatureInfo(feature.properties.id);
+
+            } catch (error) {
+                console.error('Error handling feature click:', error);
+            }
+        };
+
+        // Update info-box
+        const updateInfoBox = (feature) => {
+            const imageLogo = `${imgSource}/${feature.properties.img || 'default'}.png`;
+            const imageBanner = `${imgSource}/${feature.properties.category || 'default'}_banner.png`;
+
+            const infoBox = document.getElementById('info-box');
+
+            // Clear existing content (optional, if needed)
+            //infoBox.replaceChildren();
+
+            // Create the outer div
+            const infoBoxContent = document.createElement('div');
+            infoBoxContent.className = 'popup-content';
+
+            // Create the inner div
+            const popupHeader = document.createElement('div');
+            popupHeader.className = 'popup-header';
+
+            // Create img element
+            const img = document.createElement('img');
+            img.src = imageBanner;
+
+            const title = document.createElement('h1');
+            title.className = 'popup-title';
+            title.textContent = properties.mapname;
+
+            // Create text element
+            const textContainer = document.createElement('p');
+            textContainer.className = 'popup-text';
+            textContainer.textContent = properties.info;
+
+            // Create footer container
+            const footer = document.createElement('div');
+            footer.className = 'popup-footer';
+
+            // Add Address if exists
+            if (properties.address) {
+            const addressColumn = document.createElement('div');
+            addressColumn.className = 'footer-column footer-address';
+            
+            // Generate Google Maps search URL using mapname + address
+            const searchQuery = encodeURIComponent(`${properties.mapname} ${properties.address}`);
+            addressColumn.innerHTML = `
+                <a href="https://www.google.com/maps/search/?api=1&query=${searchQuery}" target="_blank">
+                <i class="fa-solid fa-location-dot"></i>
+                </a>
+                <h4>${properties.address}</h4>
+            `;
+            
+            footer.appendChild(addressColumn);
+            }
+
+            // Add Phone if exists
+            if (properties.phone) {
+            const phoneColumn = document.createElement('div');
+            phoneColumn.className = 'footer-column footer-phone';
+            phoneColumn.innerHTML = `
+                <a href="tel:${properties.phone}"><i class="fa-solid fa-phone"></i></a>
+                <h4>${properties.phone}</h4>
+            `;
+            footer.appendChild(phoneColumn);
+            }
+
+            // Add Email if exists
+            if (properties.email) {
+            const emailColumn = document.createElement('div');
+            emailColumn.className = 'footer-column footer-email';
+            emailColumn.innerHTML = `
+                <a href="mailto:${properties.email}"><i class="fa-solid fa-envelope"></i></a>
+                <h4 class="ellipsis">${properties.email}</h4>
+            `;
+            footer.appendChild(emailColumn);
+            }
+
+            // Add Website if exists
+            if (properties.web) {
+            const webColumn = document.createElement('div');
+            webColumn.className = 'footer-column footer-web';
+            webColumn.innerHTML = `
+                <a href="${properties.web}" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                <h4 class="ellipsis">${properties.web}</h4>
+            `;
+            footer.appendChild(webColumn);
+            }
+
+            // Only add footer if at least one contact method exists
+            if (footer.children.length > 0) {
+            popupContent.appendChild(footer);
+            }
+
+            // Assemble the structure
+            popupHeader.appendChild(img);
+            popupHeader.appendChild(title);
+            popupContent.appendChild(popupHeader);
+            popupContent.appendChild(textContainer);
+            popupContent.appendChild(footer);
+            popupContainer.appendChild(popupContent);
+        };
+
+        // Helper function for flyTo animation
+        const flyToFeature = (coordinates) => {
+            return new Promise((resolve) => {
+
+                map.easeTo({
+                    center: coordinates,
+                    zoom: 17,
+                    //padding: { top: 300, bottom: 100, left: 20, right: 20 },
+                    essential: true
+                });
+
+                map.once('moveend', resolve);
+            });
+        };
 
         const getCategoryColor = (category) => {
             const colorMap = {
