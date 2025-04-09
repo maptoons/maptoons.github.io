@@ -17,7 +17,7 @@
 			"id": "background",
 			"type": "background",
 			"paint": {
-				"background-color": "hsl(90, 29%, 71%)"
+				"background-color": "hsl(90, 59%, 90%)"
 			}
 		},
 		{
@@ -41,13 +41,28 @@
 		},
 		{
 			"source": "osm",
+			"id": "street-minor",
+			"type": "line",
+			"source-layer": "streets",
+			"filter": [ "in", "kind", "residential" ],
+			"paint": {
+				"line-color": "hsl(85, 48%, 100%)",
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 20, 150 ]
+			},
+			"layout": {
+				"line-join": "round",
+				"line-cap": "round"
+			}
+		},
+		{
+			"source": "osm",
 			"id": "street-major",
 			"type": "line",
 			"source-layer": "streets",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary" ],
 			"paint": {
-				"line-color": "hsl(85, 48%, 94%)",
-				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 20, 152 ]
+				"line-color": "hsl(85, 48%, 100%)",
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 1, 20, 200 ]
 			},
 			"layout": {
 				"line-join": "round",
@@ -63,7 +78,7 @@
 			"layout": {
 				"text-field": "{name}",
 				"text-transform": "uppercase",
-				"text-font": [ "fredoka-semibold" ],
+				"text-font": [ "montserrat-regular" ],
 				"text-letter-spacing": 0.2,
 				"symbol-placement": "line",
 				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 12, 200, 20, 400 ],
@@ -71,9 +86,7 @@
 				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 0, 20, 40 ]
 			},
 			"paint": {
-				"text-color": "hsl(92, 21%, 50%)",
-				"text-halo-color": "hsl(85, 48%, 94%)",
-				"text-halo-width": 2
+				"text-color": "hsl(0, 0%, 40%)"
 			}
 		}
 	]

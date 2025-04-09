@@ -40,7 +40,7 @@
         .custom-marker { display: flex; flex-direction: row; justify-content: center; align-items: center; }
         .custom-marker-img-container { display: flex; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
         .custom-marker-img { display: block; pointer-events: auto; max-width: 15px; max-height: 15px; filter: grayscale(100%) contrast(1000%) brightness(0%) invert(100%); }
-        .custom-marker-label { font-size: 9px; font-weight: 500; line-height: 1; padding-left: 3px; max-width: 120px; }
+        .custom-marker-label { font-size: 9px; font-weight: 400; line-height: 1; padding-left: 3px; max-width: 120px; }
         
         .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
         .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; }
@@ -93,9 +93,9 @@
         const map = new maplibregl.Map({
             container: "map",
             style: styleFile,
-            center: [-73.5251, 40.7684],
+            center: [-73.52307, 40.765],
             //maxBounds: bounds,
-            zoom: 14,
+            zoom: 15,
             //minZoom: 12,
             maxZoom: 18,
             bearing: 20,
@@ -118,7 +118,7 @@
                 'cluster': true,
                 'clusterRadius': 20,
                 'clusterMinPoints': 3,
-                'clusterMaxZoom': zoomThreshold - 1
+                'clusterMaxZoom': zoomThreshold
             });
 
             // Style for clustered points
@@ -217,9 +217,9 @@
             // Determine which priorities should be displayed at this zoom level
             let priorityLevels = [];
             if (zoom >= zoomThreshold && zoom < zoomThreshold + 1) priorityLevels = ['Q'];
-            if (zoom >= zoomThreshold + 1 && zoom < zoomThreshold + 2) priorityLevels = ['Q', 'T'];
-            if (zoom >= zoomThreshold + 2 && zoom < zoomThreshold + 3) priorityLevels = ['Q', 'T', 'D'];
-            if (zoom >= zoomThreshold + 3) priorityLevels = ['Q', 'T', 'D', 'S'];
+            if (zoom >= zoomThreshold + 1 && zoom < zoomThreshold + 1.5) priorityLevels = ['Q', 'T'];
+            if (zoom >= zoomThreshold + 1.5 && zoom < zoomThreshold + 2) priorityLevels = ['Q', 'T', 'D'];
+            if (zoom >= zoomThreshold + 2) priorityLevels = ['Q', 'T', 'D', 'S'];
 
             const newMarkers = {};
             const features = map.querySourceFeatures('location');
@@ -298,21 +298,21 @@
             updateMarkers();
         });
 
-        // Remove points based on zoom and priority
-        map.on('zoomend', () => {
-            const zoom = map.getZoom();
-            map.setFilter('points', [
-                '>',
-                ['match', ['get', 'priority'],
-                    'Q', zoomThreshold - 1,
-                    'T', zoomThreshold - 2,
-                    'D', zoomThreshold - 3,
-                    'S', zoomThreshold - 4,
-                    zoomThreshold - 4
-                ],
-                zoom
-            ]);
-        });
+        // // Remove points based on zoom and priority
+        // map.on('zoomend', () => {
+        //     const zoom = map.getZoom();
+        //     map.setFilter('points', [
+        //         '>',
+        //         ['match', ['get', 'priority'],
+        //             'Q', zoomThreshold - 1,
+        //             'T', zoomThreshold - 2,
+        //             'D', zoomThreshold - 3,
+        //             'S', zoomThreshold - 4,
+        //             zoomThreshold - 4
+        //         ],
+        //         zoom
+        //     ]);
+        // });
 
         map.on('click', (e) => {
             const features = map.queryRenderedFeatures(e.point);
