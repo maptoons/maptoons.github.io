@@ -39,19 +39,25 @@
         .info-box-header { position: relative; overflow: hidden; width: 100%; height: 100px; text-align: center; }
         .info-box-header img { width: 100%; height: auto; border-radius: 5px; object-fit: cover; display: block; z-index: 1; }
         .info-box-header .info-box-title { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%; color: hsl(0, 0%, 100%); margin: 0 auto; z-index: 2; }
+
+        .info-box-title-container { display: flex; align-items: center; justify-items: center; width: 100%; gap: 5px; }
+        .info-box-title-container-text { flex: 1; }
+        .info-box-title-container-image { display: flex; align-items: center; justify-items: center; width: 50px; height: 50px; border-radius: 50%; background-color: hsl(0, 0%, 90%);}
+        .info-box-title-container-image .info-box-img { width: 50px; height: auto; max-height: 50px; max-width: 50px; object-fit: cover; }
+        .info-box-title-container .info-box-mapname { color: hsl(0, 0%, 12%); }
+        .info-box-title-container .info-box-category { font-size: 0.875rem; color: hsl(0, 0%, 37%); }
+
         .info-box-text-container .info-box-info { margin: 10px 0; padding: 10px 0; border-top: 1px solid hsl(0, 0%, 80%); border-bottom: 1px solid hsl(0, 0%, 80%); }
-        .info-box-text-container .info-box-mapname { color: hsl(0, 0%, 12%); }
-        .info-box-text-container .info-box-category { font-size: 0.875rem; color: hsl(0, 0%, 37%); }
         .info-box-footer { color: hsl(0, 0%, 37%); }
         .info-box-footer .footer-row { display: block; min-width: 0; max-width: 100%; margin: 10px auto; }
         .ellipsis { display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; }
 
         #info-box.visible { transform: translateX(0); }
 
-        .custom-marker { display: inline-flex; flex-direction: row; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; background-color: hsl(0, 0%, 100%); padding: 2px 5px; border-radius: 5px; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3)); width: fit-content; min-width: 0; }
-        .custom-marker-img-container { display: flex; justify-content: center; align-items: center; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
+        .custom-marker { display: inline-flex; flex-direction: row; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3)); width: min-content; min-width: 0; }
+        .custom-marker-img-container { display: inline-flex; justify-content: center; align-items: center; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
         .custom-marker-img { display: block; max-width: 20px; max-height: 20px; }
-        .custom-marker-label { font-size: 11px; font-weight: 900; line-height: 1; max-width: 120px; flex-shrink: 0; }
+        .custom-marker-label { font-size: 11px; font-weight: 900; line-height: 1; max-width: 120px; flex-shrink: 0; padding: 2px 5px; border-radius: 5px; background-color: hsl(0, 0%, 100%); }
         
         .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
         .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; }
@@ -101,7 +107,7 @@
         //const artFile = 'http://localhost:8000/data/hicksville-art.geojson'
         const artFile = 'https://maptoons.github.io/data/hicksville-art.geojson'
         //const spritesFile = 'http://localhost:8000/data/sprites.geojson'
-        const spritesFile = 'https://maptoons.github.io/data/maptoons-sprites.geojson'
+        const spritesFile = 'https://maptoons.github.io/data/sprites.geojson'
 
         const zoomThreshold = 14 // For clusters and markers
 
@@ -121,42 +127,42 @@
 
         map.on('load', () => {
 
-            // map.addSource('sprites', {
-            //     'type': 'vector',
-            //     tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf'],
-            //     'minzoon': 14,
-            //     'maxzoom': 18
-            // });
+            map.addSource('sprites', {
+                'type': 'vector',
+                tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf'],
+                'minzoon': 14,
+                'maxzoom': 18
+            });
 
-            // map.addLayer({
-            //     "id": "sprites",
-            //     "source": "sprites",
-            //     "source-layer": "maptoons-tiles",
-            //     "type": "symbol",
-            //     "layout": {
-            //         "icon-size": 0.4,
-            //         "symbol-placement": "point",
-            //         "icon-keep-upright": true,
-            //         "icon-allow-overlap": true,
-            //         "icon-ignore-placement": true,
-            //         "icon-anchor": "bottom",
-            //         "icon-image": [
-            //                 "concat",
-            //                 "icon-",
-            //                 ["get", "icon_number"]
-            //             ]
-            //     },
-            //     "paint": {
-            //         "icon-color": "hsl(0, 0%, 100%)",
-            //         "icon-opacity": [
-            //         "interpolate",
-            //         ["exponential", 0.5],
-            //         ["zoom"],
-            //         14, 0, 15, 1
-            //         ]
-            //     },
-            //     minZoom: 16
-            // });
+            map.addLayer({
+                "id": "sprites",
+                "source": "sprites",
+                "source-layer": "maptoons-tiles",
+                "type": "symbol",
+                "layout": {
+                    "icon-size": 0.4,
+                    "symbol-placement": "point",
+                    "icon-keep-upright": true,
+                    "icon-allow-overlap": true,
+                    "icon-ignore-placement": true,
+                    "icon-anchor": "bottom",
+                    "icon-image": [
+                            "concat",
+                            "icon-",
+                            ["get", "icon_number"]
+                        ]
+                },
+                "paint": {
+                    "icon-color": "hsl(0, 0%, 100%)",
+                    "icon-opacity": [
+                    "interpolate",
+                    ["exponential", 0.5],
+                    ["zoom"],
+                    14, 0, 15, 1
+                    ]
+                },
+                minZoom: 16
+            });
 
             map.addSource('location', {
                 'type': 'geojson',
@@ -409,18 +415,29 @@
             const img = document.createElement('img');
             //img.src = `${imgSource}/${properties.img || 'default'}.png`;
             img.src = `${imgSource}/${properties.category || 'default'}_banner.png`;
-
-
-            const title = document.createElement('h1');
-            title.className = 'info-box-title';
-            title.textContent = properties.mapname;
-
             header.appendChild(img);
+
+            // Create overlay title
+            //const title = document.createElement('h1');
+            //title.className = 'info-box-title';
+            //title.textContent = properties.mapname;
             //header.appendChild(title);
 
-            // Create text element
-            const textContainer = document.createElement('div');
-            textContainer.className = 'info-box-text-container';
+            // Create title element
+            const titleContainer = document.createElement('div');
+            titleContainer.className = 'info-box-title-container';
+
+            const titleContainerImage = document.createElement('div');
+            titleContainerImage.className = 'info-box-title-container-image';
+
+            const imgElement = document.createElement('img');
+            imgElement.className = 'info-box-img';
+            imgElement.src = `${imgSource}/${properties.img}.png`;
+            titleContainerImage.appendChild(imgElement);
+            titleContainer.appendChild(titleContainerImage);
+
+            const titleContainerText = document.createElement('div');
+            titleContainerText.className = 'info-box-title-container-text';
 
             const headingElement = document.createElement('h2');
             headingElement.className = 'info-box-mapname';
@@ -433,13 +450,18 @@
                 .replace(/\b\w/g, char => char.toUpperCase())
                 .replace(' And ', ' & ');
 
+            titleContainerText.appendChild(headingElement);
+            titleContainerText.appendChild(categoryElement);
+            titleContainer.appendChild(titleContainerText);
+
+            // Create text element
+            const textContainer = document.createElement('div');
+            textContainer.className = 'info-box-text-container';
+
             const infoElement = document.createElement('p');
             infoElement.className = 'info-box-info';
             infoElement.textContent = properties.info;
 
-            // Add both elements to the container
-            textContainer.appendChild(headingElement);
-            textContainer.appendChild(categoryElement);
             textContainer.appendChild(infoElement);
 
             // Create footer container
@@ -488,10 +510,30 @@
                 footer.appendChild(webColumn);
             }
 
+            if (properties.facebook) {
+                const facebookColumn = document.createElement('div');
+                facebookColumn.className = 'footer-row';
+                facebookColumn.innerHTML = `
+                    <a href="${properties.facebook}" target="_blank"><i class="fa-brands fa-facebook"></i> <span class="ellipsis">${properties.facebook}</span></a>
+                `;
+                footer.appendChild(facebookColumn);
+            }
+
+            if (properties.instagram) {
+                const instagramColumn = document.createElement('div');
+                instagramColumn.className = 'footer-row';
+                instagramColumn.innerHTML = `
+                    <a href="${properties.instagram}" target="_blank"><i class="fa-brands fa-instagram"></i> <span class="ellipsis">${properties.instagram}</span></a>
+                `;
+                footer.appendChild(instagramColumn);
+            }
+
             // Assemble the structure
             infoBoxContent.appendChild(header);
+            infoBoxContent.appendChild(titleContainer);
             infoBoxContent.appendChild(textContainer);
             infoBoxContent.appendChild(footer);
+        
             infoBoxContainer.appendChild(infoBoxContent);
             infoBox.appendChild(infoBoxContainer);
 

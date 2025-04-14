@@ -5,7 +5,7 @@
 		"maputnik:renderer": "mbgljs"
 	},
 	"glyphs": "https://maptoons.github.io/assets/fonts/{fontstack}/{range}.pbf",
-	"sprite": "https://maptoons.github.io/assets/sprites/maptoons-sprites",
+	"sprite": "https://maptoons.github.io/assets/sprites/sprites",
 	"sources": {
 		"osm": {
 			"type": "vector",
@@ -17,7 +17,7 @@
 			"id": "background",
 			"type": "background",
 			"paint": {
-				"background-color": "hsl(90, 59%, 90%)"
+				"background-color": "hsl(90, 29%, 70%)"
 			}
 		},
 		{
@@ -38,6 +38,27 @@
 				"fill-color": "hsl(181, 45%, 80%)",
 				"fill-opacity": { "stops": [ [ 4, 0 ], [ 6, 1 ] ] }
 			}
+		},
+		{
+			"source": "osm",
+			"id": "land-beach",
+			"type": "fill",
+			"source-layer": "land",
+			"filter": [ "all", [ "in", "kind", "beach", "sand" ] ],
+			"paint": {
+				"fill-color": "hsl(39, 100%, 85%)"
+			}
+		},
+		{
+			"source": "osm",
+			"id": "building",
+			"type": "fill",
+			"source-layer": "buildings",
+			"paint": {
+				"fill-color": "hsl(90, 29%, 75%)",
+				"fill-opacity": { "stops": [ [ 14, 0 ], [ 15, 1 ] ] }
+			},
+			"minzoom": 16
 		},
 		{
 			"source": "osm",
