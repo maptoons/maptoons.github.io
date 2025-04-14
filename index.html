@@ -7,11 +7,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; font-size: 16px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; font-size: 16px; }
         body { color: hsl(0, 0%, 12%); height: 100vh; width: 100vw; }
         .container { position:relative; height: 100%; width: 100%; }
         #map { height: 100%; width: 100%; }
@@ -48,10 +48,10 @@
 
         #info-box.visible { transform: translateX(0); }
 
-        .custom-marker { display: flex; flex-direction: row; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; }
+        .custom-marker { display: inline-flex; flex-direction: row; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; background-color: hsl(0, 0%, 100%); padding: 2px 5px; border-radius: 5px; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3)); width: fit-content; min-width: 0; }
         .custom-marker-img-container { display: flex; justify-content: center; align-items: center; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
-        .custom-marker-img { display: block; max-width: 15px; max-height: 15px; filter: grayscale(100%) contrast(1000%) brightness(0%) invert(100%); }
-        .custom-marker-label { font-size: 9px; line-height: 1; padding-left: 3px; max-width: 120px; text-shadow: 2px 2px 0px hsla(0, 0%, 100%, 1); }
+        .custom-marker-img { display: block; max-width: 20px; max-height: 20px; }
+        .custom-marker-label { font-size: 11px; font-weight: 900; line-height: 1; max-width: 120px; flex-shrink: 0; }
         
         .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
         .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; }
@@ -72,7 +72,7 @@
         h2 { font-size: 1.375rem; font-weight: 400; line-height: 1.5rem; }
         h3 { font-size: 9px; font-weight: 400; line-height: 1; margin-bottom: 2px; }
         h4 { font-size: 14px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
-        p { font-size: 1rem; font-weight: 400; letter-spacing: 0.00625rem; line-height: 1.5rem; }
+        p { font-size: 1rem; font-weight: 400; letter-spacing: 0.001rem; line-height: 1.5rem; }
         span { vertical-align: text-bottom; }
 
         @media (min-width: 768px) {
@@ -122,14 +122,16 @@
         map.on('load', () => {
 
             // map.addSource('sprites', {
-            //     'type': 'geojson',
-            //     'data': spritesFile,
-            //     'cluster': false
+            //     'type': 'vector',
+            //     tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf'],
+            //     'minzoon': 14,
+            //     'maxzoom': 18
             // });
 
             // map.addLayer({
             //     "id": "sprites",
             //     "source": "sprites",
+            //     "source-layer": "maptoons-tiles",
             //     "type": "symbol",
             //     "layout": {
             //         "icon-size": 0.4,
@@ -150,7 +152,7 @@
             //         "interpolate",
             //         ["exponential", 0.5],
             //         ["zoom"],
-            //         15, 0, 16, 1
+            //         14, 0, 15, 1
             //         ]
             //     },
             //     minZoom: 16
@@ -181,9 +183,9 @@
                     'circle-color': [
                         'step',
                         ['get', 'point_count'],
-                        'hsl(270, 29%, 90%)',
+                        'hsl(270, 29%, 95%)',
                         10, 'hsl(270, 29%, 90%)',
-                        25, 'hsl(270, 29%, 90%)'
+                        25, 'hsl(270, 29%, 85%)'
                     ],
                     'circle-radius': [
                         'step',
@@ -348,7 +350,7 @@
                     // Create image container div
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
-                    imgContainer.style.backgroundColor = getCategoryColor(props.category);
+                    //imgContainer.style.backgroundColor = getCategoryColor(props.category);
 
                     // Create image element
                     const img = document.createElement('img');
@@ -368,8 +370,8 @@
 
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
-                        anchor: 'left',
-                        offset: [-15, 0]
+                        anchor: 'center',
+                        //offset: [-15, 0]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
