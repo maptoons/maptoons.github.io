@@ -23,7 +23,6 @@
                 "img": "HK-11Q",
                 "category": "live_and_work",
                 "subcategory": "insurance",
-                "town": "Plainview",
                 "address_formatted": "54 Sunnyside Boulevard, Plainview, NY 11803, United States of America"
             },
             "geometry": {
@@ -424,7 +423,6 @@
                 "img": "HK-27T",
                 "category": "live_and_work",
                 "subcategory": "real_estate",
-                "town": "Plainview",
                 "address_formatted": "255 Executive Drive, Plainview, NY 11803, United States of America"
             },
             "geometry": {
@@ -593,13 +591,12 @@
                 "info": "Your one-stop shop for all your custom embroidery, screen printing, and promotional products needs. We are experts in helping you select high-impact meaningful products for your projects, events, and self-promotions.",
                 "phone": "516-931-2485",
                 "web": "http://www.UniqueImpressions.com",
-                "address": "47 Elliott Drive, Hicksvile, New York 11801",
                 "loc": 71,
                 "priority": "D",
                 "img": "HK-71D",
                 "category": "shop_and_discover",
                 "subcategory": "specialty_retail",
-                "town": "York",
+                "address": "47 Elliot Drive, Hicksville, NY 11801",
                 "address_formatted": "47 Elliot Drive, Hicksville, NY 11801, United States of America"
             },
             "geometry": {
@@ -1025,19 +1022,19 @@
                 "info": "As a leading restoration service for Hicksville/ Plainview, we have experts ready at a moment's notice for water damage, fire damage, and mold emergencies of all sizes, including cleanup and restoration. Call 24 hours.",
                 "phone": "516-733-1800",
                 "web": "http://www.SERVPROHicksvillePlainview.com",
-                "address": "17B East Old Country Road, Suite 328, Hicksvile, New York",
                 "loc": 98,
                 "priority": "Q",
                 "img": "HK-98Q",
                 "category": "live_and_work",
                 "subcategory": "restoration_services",
+                "address": "17B East Old Country Road, Suite 328, Hicksvile, New York",
                 "address_formatted": "17 B East Old Country Road, Hicksville, NY 11801, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.517236,
-                    40.763947
+                    -73.517353996,
+                    40.764068708
                 ]
             }
         },
@@ -1224,7 +1221,7 @@
                 "info": "Rock-solid Indian cooking that’s intensely hot and spicy draws a fire-loving following to this inexpensive subcontinental trio. Staff is eager to explain the menu, so you feel like a King and Queen.",
                 "phone": "516-932-5191",
                 "web": "http://www.KiranPalaceLI.com",
-                "address": "75 E. Old Country Rd., Hicksville, NY 11801",
+                "address": "67-75 E. Old Country Rd.",
                 "discount": "10% off when you pay cash.",
                 "exp": "Exp. 01-31-2026",
                 "loc": 36,
@@ -1232,7 +1229,6 @@
                 "img": "HK-36T",
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
-                "town": "Hicksville",
                 "address_formatted": "75 East Old Country Road, Hicksville, NY 11801, United States of America"
             },
             "geometry": {
@@ -1769,8 +1765,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.5299939,
-                    40.7609036
+                    -73.529892,
+                    40.7609283
                 ]
             }
         },
@@ -2062,13 +2058,12 @@
                 "info": "With practice, your child's math and reading skills can soar to new heights. Hicksville Center provides the tools and support for your child to excel in school and life.",
                 "phone": "516-933-8533",
                 "web": "http://www.Kumon.com/Hicksville",
-                "address": "495 South Broadway Store Suite 10, Hicksville, NY 11801",
+                "address": "495-10 S. Broadway",
                 "loc": 16,
                 "priority": "D",
                 "img": "HK-16D",
                 "category": "play_and_learn",
                 "subcategory": "youth_services",
-                "town": "Hicksville",
                 "address_formatted": "495 South Broadway, Hicksville, NY 11801, United States of America"
             },
             "geometry": {
@@ -2101,8 +2096,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.5418843,
-                    40.7547681
+                    -73.5418731,
+                    40.7546154
                 ]
             }
         },
@@ -2369,12 +2364,12 @@
                 "web": "http://www.EastNewYorkTax.com",
                 "discount": "$10 off personal income tax return! For new customers only. Please mention MapToons.",
                 "exp": "Exp. 01-31-2026",
-                "address": "7 Elliot Drive, Hicksvile, NY 11801, United States of America",
                 "loc": 17,
                 "priority": "Q",
                 "img": "HK-17Q",
                 "category": "live_and_work",
                 "subcategory": "accountants",
+                "address": "7 Elliot Drive, Hicksville, NY 11801",
                 "address_formatted": "7 Elliot Drive, Hicksville, NY 11801, United States of America"
             },
             "geometry": {
@@ -2530,8 +2525,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.5001733,
-                    40.7449833
+                    -73.5000682,
+                    40.7448915
                 ]
             }
         },
@@ -2555,8 +2550,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.500214,
-                    40.7450274
+                    -73.500523,
+                    40.74491373
                 ]
             }
         },
