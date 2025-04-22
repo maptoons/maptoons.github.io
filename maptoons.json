@@ -4,7 +4,7 @@
 	"metadata": {
 		"maputnik:renderer": "mbgljs"
 	},
-	"glyphs": "https://maptoons.github.io/assets/fonts/{fontstack}/{range}.pbf",
+	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
 	"sprite": "https://maptoons.github.io/assets/sprites/sprites",
 	"sources": {
 		"osm": {
@@ -17,7 +17,7 @@
 			"id": "background",
 			"type": "background",
 			"paint": {
-				"background-color": "hsl(90, 29%, 70%)"
+				"background-color": "hsl(92, 43%, 89%)"
 			}
 		},
 		{
@@ -27,16 +27,6 @@
 			"source-layer": "ocean",
 			"paint": {
 				"fill-color": "hsl(181, 45%, 80%)"
-			}
-		},
-		{
-			"source": "osm",
-			"id": "water-polygons",
-			"type": "fill",
-			"source-layer": "water_polygons",
-			"paint": {
-				"fill-color": "hsl(181, 45%, 80%)",
-				"fill-opacity": { "stops": [ [ 4, 0 ], [ 6, 1 ] ] }
 			}
 		},
 		{
@@ -51,29 +41,19 @@
 		},
 		{
 			"source": "osm",
-			"id": "building",
-			"type": "fill",
-			"source-layer": "buildings",
-			"paint": {
-				"fill-color": "hsl(90, 29%, 75%)",
-				"fill-opacity": { "stops": [ [ 14, 0 ], [ 15, 1 ] ] }
-			},
-			"minzoom": 16
-		},
-		{
-			"source": "osm",
 			"id": "street-minor",
 			"type": "line",
 			"source-layer": "streets",
 			"filter": [ "in", "kind", "residential" ],
 			"paint": {
-				"line-color": "hsl(85, 48%, 100%)",
+				"line-color": "hsl(92, 43%, 97%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 20, 150 ]
 			},
 			"layout": {
 				"line-join": "round",
 				"line-cap": "round"
-			}
+			},
+			"minzoom": 10
 		},
 		{
 			"source": "osm",
@@ -82,13 +62,14 @@
 			"source-layer": "streets",
 			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary" ],
 			"paint": {
-				"line-color": "hsl(85, 48%, 100%)",
+				"line-color": "hsl(92, 43%, 97%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 1, 20, 200 ]
 			},
 			"layout": {
 				"line-join": "round",
 				"line-cap": "round"
-			}
+			},
+			"minzoom": 11
 		},
 		{
 			"source": "osm",
@@ -109,6 +90,26 @@
 			"paint": {
 				"text-color": "hsl(0, 0%, 40%)"
 			}
+		},
+		{
+			"source": "osm",
+			"id": "label-city",
+			"type": "symbol",
+			"source-layer": "place_labels",
+			"filter": [ "in", "kind", "city", "town", "village", "capital", "state_capital" ],
+			"layout": {
+				"text-field": "{name}",
+				"text-transform": "uppercase",
+				"text-font": [ "montserrat-regular" ],
+				"text-letter-spacing": 0.1,
+				"text-size": 10
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 20%)",
+				"text-halo-color": "hsla(0, 0%, 100%, 0.5)",
+				"text-halo-width": 0
+			},
+			"maxzoom": 11
 		}
 	]
 }

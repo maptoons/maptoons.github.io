@@ -7,83 +7,431 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; font-size: 16px; }
-        body { color: hsl(0, 0%, 12%); height: 100vh; width: 100vw; }
-        .container { position:relative; height: 100%; width: 100%; }
-        #map { height: 100%; width: 100%; }
-
-        .maplibregl-ctrl-bottom-right{ display: none; }
-        .maplibregl-canvas-container { text-rendering: optimizeLegibility; }
-
-        #location-picker { position: fixed; top: 10px; right: 10px; width: 25px; height: 25px; z-index: 999; font-size: 35px; text-align:right; display: block; width: auto; height: auto; cursor: pointer; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 1)); }
-        nav {display: none; flex-direction: column; align-items: flex-start; width:100%; background-color:#333; position:absolute; right:0; top:50px;}
-        nav.show {display:flex;}
-        nav a {color:white; text-decoration:none; font-size:14px; line-height:0.8; padding-bottom:10px; margin:10px;}
-
-        #category-box { display: flex; position: fixed; top: 10px; left: 0; right: 0; overflow-x: auto; overflow-y: visible; z-index: 1000; max-width: 90vw; height: auto; margin: 0 auto; scrollbar-width: none; -ms-overflow-style: none; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); border-radius: 5px; }
-        .category-box-inner { display: flex; justify-content: flex-start; gap: 10px; margin: 0 auto; background-color: hsl(0, 0%, 100%); padding: 10px; border-radius: 5px; }
-        .category-feature { position: relative; flex-shrink: 0; width: 40px; height: 40px; overflow: visible; cursor: pointer; }
-        .category-feature .image-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; justify-content: center; align-items: center; z-index: 2; }
-        .category-feature .image-container img { width: 40px; height: 40px; border-radius: 5px; }
-        .category-text { position: absolute; bottom: -10%; left: 50%; transform: translate(-50%, 50%); font-size: 9px; line-height: 0.8; letter-spacing: 0px; text-align: center; width: fit-content; white-space: pre-wrap; word-wrap: break-word; overflow-wrap: break-word; display: inline-block; z-index: 1; }
-
-        .category-feature.active img { width: 30px; height: 30px; }
-
-        #info-box { display: block; position: fixed; bottom: 0px; top: 0px; height: auto; width: 300px; border-radius: 0px 5px 5px 0; overflow-y: scroll; overflow-x: hidden; z-index: 900; background: hsla(0, 0%, 100%); box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1); transform: translateX(-100%); transition: transform 0.3s ease-out; will-change: transform; }
-        .info-box-container { position: relative; overflow-y: auto; overflow-x: hidden; width: 100%; height: 100%; background-color: hsl(0, 0%, 100%); }
-        .info-box-content { width: 100%; height: 100%; padding: 10px; }
-        .info-box-header { position: relative; overflow: hidden; width: 100%; height: 100px; text-align: center; }
-        .info-box-header img { width: 100%; height: auto; border-radius: 5px; object-fit: cover; display: block; z-index: 1; }
-        .info-box-header .info-box-title { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%; color: hsl(0, 0%, 100%); margin: 0 auto; z-index: 2; }
-
-        .info-box-title-container { display: flex; align-items: center; justify-items: center; width: 100%; gap: 5px; }
-        .info-box-title-container-text { flex: 1; }
-        .info-box-title-container-image { display: flex; align-items: center; justify-items: center; width: 50px; height: 50px; border-radius: 50%; background-color: hsl(0, 0%, 90%);}
-        .info-box-title-container-image .info-box-img { width: 50px; height: auto; max-height: 50px; max-width: 50px; object-fit: cover; }
-        .info-box-title-container .info-box-mapname { color: hsl(0, 0%, 12%); }
-        .info-box-title-container .info-box-category { font-size: 0.875rem; color: hsl(0, 0%, 37%); }
-
-        .info-box-text-container .info-box-info { margin: 10px 0; padding: 10px 0; border-top: 1px solid hsl(0, 0%, 80%); border-bottom: 1px solid hsl(0, 0%, 80%); }
-        .info-box-footer { color: hsl(0, 0%, 37%); }
-        .info-box-footer .footer-row { display: block; min-width: 0; max-width: 100%; margin: 10px auto; }
-        .ellipsis { display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; }
-
-        #info-box.visible { transform: translateX(0); }
-
-        .custom-marker { display: inline-flex; flex-direction: row; justify-content: center; align-items: center; pointer-events: auto; cursor: pointer; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3)); width: min-content; min-width: 0; }
-        .custom-marker-img-container { display: inline-flex; justify-content: center; align-items: center; background-color: hsl(0, 0%, 100%); width: 25px; height: 25px; border-radius: 50%; border: 2px solid hsl(0, 0%, 100%); }
-        .custom-marker-img { display: block; max-width: 20px; max-height: 20px; }
-        .custom-marker-label { font-size: 11px; font-weight: 900; line-height: 1; max-width: 120px; flex-shrink: 0; padding: 2px 5px; border-radius: 5px; background-color: hsl(0, 0%, 100%); }
-        
-        .maplibregl-popup { z-index: 900 !important; filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2)); }
-        .maplibregl-popup-content { padding: 0; width: 100%; height: 100%; }
-        .popup-container { position: relative; overflow-y:auto; overflow-x:hidden; width: 100%; height: 100%; background-color: hsl(0, 0%, 100%); }
-        .popup-content { display: flex; flex-direction: column; width: 100%; height: 100%; }
-        .popup-header { position: relative; overflow: hidden; width: 100%; height: 100px; text-align: center; }
-        .popup-header img { width: 100%; height: auto; object-fit: cover; display: block; }
-        .popup-header .popup-title { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%; color: hsl(0, 0%, 100%); margin: 0 auto; text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5); }
-        .popup-text { padding: 10px; }
-        .popup-footer { display: flex; gap: 5px; justify-content: center; padding: 0px 5px 10px 5px; }
-        .popup-footer .footer-column { flex: 1; min-width: 0; text-align: center; }
-
-        .maplibregl-popup-close-button { font-size: 18px; color: #6c757d; padding: 5px; margin: 3px 3px 0 0; }
-        .maplibregl-popup-close-button:hover { color: #495057; background-color: #f1f3f5; }
-        
-        a { color: hsl(200, 50%, 40%); text-decoration: none !important; border: none; outline: none; }
-        h1 { font-size: 28px; font-weight: 900; line-height: 0.9; letter-spacing: -2px; }
-        h2 { font-size: 1.375rem; font-weight: 400; line-height: 1.5rem; }
-        h3 { font-size: 9px; font-weight: 400; line-height: 1; margin-bottom: 2px; }
-        h4 { font-size: 14px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
-        p { font-size: 1rem; font-weight: 400; letter-spacing: 0.001rem; line-height: 1.5rem; }
-        span { vertical-align: text-bottom; }
-
-        @media (min-width: 768px) {
-
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
         }
+
+        body {
+            color: hsl(0, 0%, 12%);
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        .maplibregl-ctrl-bottom-right {
+            display: none;
+        }
+
+        .maplibregl-canvas-container {
+            text-rendering: optimizeLegibility;
+        }
+
+        #location-picker {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 25px;
+            height: 25px;
+            z-index: 999;
+            font-size: 35px;
+            text-align: right;
+            display: block;
+            width: auto;
+            height: auto;
+            cursor: pointer;
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 1));
+        }
+
+        nav {
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            background-color: #333;
+            position: absolute;
+            right: 0;
+            top: 50px;
+        }
+
+        nav.show {
+            display: flex;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 0.8;
+            padding-bottom: 10px;
+            margin: 10px;
+        }
+
+        #category-box {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            overflow-x: auto;
+            overflow-y: visible;
+            z-index: 1000;
+            width: 100vw;
+            height: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            background-color: hsl(0, 0%, 100%);
+        }
+
+        .category-box-inner {
+            display: flex;
+            justify-content: flex-start;
+            gap: 12px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .category-feature {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 2px 10px;
+            border-radius: 9999px;
+            background-color: hsl(0, 0%, 97%);
+            color: hsl(0, 0%, 40%);
+            font-weight: 500;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .activeCategory {
+            background-color: hsl(0, 0%, 0%);
+            color: hsl(0, 0%, 100%);
+        }
+
+        .category-feature span, i {
+            font-size: 12px;
+        }
+
+        #info-box {
+            display: block;
+            position: fixed;
+            bottom: 0px;
+            top: 0px;
+            height: auto;
+            width: 300px;
+            border-radius: 0px 5px 5px 0;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            z-index: 900;
+            background: hsla(0, 0%, 100%);
+            box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1);
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-out;
+            will-change: transform;
+        }
+
+        .info-box-container {
+            position: relative;
+            overflow-y: auto;
+            overflow-x: hidden;
+            width: 100%;
+            height: 100%;
+            background-color: hsl(0, 0%, 100%);
+        }
+
+        .info-box-content {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+        }
+
+        .info-box-header {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+
+        .info-box-header img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            object-fit: cover;
+            display: block;
+            z-index: 1;
+        }
+
+        .info-box-header .info-box-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            color: hsl(0, 0%, 100%);
+            margin: 0 auto;
+            z-index: 2;
+        }
+
+        .info-box-title-container {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            width: 100%;
+            gap: 5px;
+        }
+
+        .info-box-title-container-text {
+            flex: 1;
+        }
+
+        .info-box-title-container-image {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: hsl(0, 0%, 90%);
+        }
+
+        .info-box-title-container-image .info-box-img {
+            width: 50px;
+            height: auto;
+            max-height: 50px;
+            max-width: 50px;
+            object-fit: cover;
+        }
+
+        .info-box-title-container .info-box-mapname {
+            color: hsl(0, 0%, 12%);
+        }
+
+        .info-box-title-container .info-box-category {
+            font-size: 0.875rem;
+            color: hsl(0, 0%, 37%);
+        }
+
+        .info-box-text-container .info-box-info {
+            margin: 10px 0;
+            padding: 10px 0;
+            border-top: 1px solid hsl(0, 0%, 80%);
+            border-bottom: 1px solid hsl(0, 0%, 80%);
+        }
+
+        .info-box-footer {
+            color: hsl(0, 0%, 37%);
+        }
+
+        .info-box-footer .footer-row {
+            display: block;
+            min-width: 0;
+            max-width: 100%;
+            margin: 10px auto;
+        }
+
+        .ellipsis {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
+        }
+
+        #info-box.visible {
+            transform: translateX(0);
+        }
+
+        .custom-marker {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            pointer-events: auto;
+            cursor: pointer;
+            width: fit-content;
+        }
+
+        .custom-marker-img-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hwb(0 100% 0%);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid hsl(0, 0%, 100%);
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
+        }
+
+        .custom-marker-img {
+            display: block;
+            max-width: 25px;
+            max-height: 25px;
+        }
+
+        .custom-marker-label {
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 1;
+            text-align: center;
+            max-width: 100px;
+            width: 100%;
+            text-shadow:
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
+        }
+
+        .maplibregl-popup {
+            z-index: 900 !important;
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2));
+        }
+
+        .maplibregl-popup-content {
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .popup-container {
+            position: relative;
+            overflow-y: auto;
+            overflow-x: hidden;
+            width: 100%;
+            height: 100%;
+            background-color: hsl(0, 0%, 100%);
+        }
+
+        .popup-content {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+
+        .popup-header {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+
+        .popup-header img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block;
+        }
+
+        .popup-header .popup-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            color: hsl(0, 0%, 100%);
+            margin: 0 auto;
+            text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
+        }
+
+        .popup-text {
+            padding: 10px;
+        }
+
+        .popup-footer {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            padding: 0px 5px 10px 5px;
+        }
+
+        .popup-footer .footer-column {
+            flex: 1;
+            min-width: 0;
+            text-align: center;
+        }
+
+        .maplibregl-popup-close-button {
+            font-size: 18px;
+            color: #6c757d;
+            padding: 5px;
+            margin: 3px 3px 0 0;
+        }
+
+        .maplibregl-popup-close-button:hover {
+            color: #495057;
+            background-color: #f1f3f5;
+        }
+
+        a {
+            color: hsl(200, 50%, 40%);
+            text-decoration: none !important;
+            border: none;
+            outline: none;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 0.9;
+            letter-spacing: -2px;
+        }
+
+        h2 {
+            font-size: 1.375rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+        }
+
+        h3 {
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 2px;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 1.4;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0.001rem;
+            line-height: 1.5rem;
+        }
+
+        span {
+            vertical-align: text-bottom;
+        }
+
+        @media (min-width: 768px) {}
     </style>
 </head>
 
@@ -97,19 +445,16 @@
     </div>
 
     <script>
-        
-        //const imgSource = 'http://localhost:8000/img'
-        const imgSource = 'https://maptoons.github.io/img'
-        //const styleFile = 'http://localhost:8000/maptoons.json'
-        const styleFile = 'https://maptoons.github.io/maptoons.json'
-        //const locationFile = 'http://localhost:8000/data/hicksville.geojson'
-        const locationFile = 'https://maptoons.github.io/data/hicksville.geojson'
-        //const artFile = 'http://localhost:8000/data/hicksville-art.geojson'
-        const artFile = 'https://maptoons.github.io/data/hicksville-art.geojson'
-        //const spritesFile = 'http://localhost:8000/data/sprites.geojson'
-        const spritesFile = 'https://maptoons.github.io/data/sprites.geojson'
+
+        const imgSource = 'img'
+        const styleFile = 'maptoons.json'
+        const locationFile = 'data/hicksville.geojson'
+        const artFile = 'data/hicksville-art.geojson'
+        const spritesFile = 'data/sprites.geojson'
 
         const zoomThreshold = 14 // For clusters and markers
+        let currentActiveCategory = 'all';
+        let locationData;
 
         const map = new maplibregl.Map({
             container: "map",
@@ -129,9 +474,7 @@
 
             map.addSource('sprites', {
                 'type': 'vector',
-                tiles: ['https://maptoons.github.io/maptoons-tiles/{z}/{x}/{y}.pbf'],
-                'minzoon': 14,
-                'maxzoom': 18
+                tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf']
             });
 
             map.addLayer({
@@ -142,35 +485,26 @@
                 "layout": {
                     "icon-size": 0.4,
                     "symbol-placement": "point",
-                    "icon-keep-upright": true,
-                    "icon-allow-overlap": true,
-                    "icon-ignore-placement": true,
                     "icon-anchor": "bottom",
                     "icon-image": [
-                            "concat",
-                            "icon-",
-                            ["get", "icon_number"]
-                        ]
+                        "concat",
+                        "icon-",
+                        ["get", "icon_number"]
+                    ]
                 },
                 "paint": {
                     "icon-color": "hsl(0, 0%, 100%)",
                     "icon-opacity": [
-                    "interpolate",
-                    ["exponential", 0.5],
-                    ["zoom"],
-                    14, 0, 15, 1
+                        "interpolate",
+                        ["exponential", 0.5],
+                        ["zoom"],
+                        14, 0, 15, 1
                     ]
                 },
-                minZoom: 16
+                "minzoom": 16
             });
 
             map.addSource('location', {
-                'type': 'geojson',
-                'data': locationFile,
-                'cluster': false
-            });
-
-            map.addSource('location-cluster', {
                 'type': 'geojson',
                 'data': locationFile,
                 'cluster': true,
@@ -183,7 +517,7 @@
             map.addLayer({
                 id: 'clusters',
                 type: 'circle',
-                source: 'location-cluster',
+                source: 'location',
                 filter: ['has', 'point_count'],
                 paint: {
                     'circle-color': [
@@ -207,7 +541,7 @@
             map.addLayer({
                 id: 'cluster-count',
                 type: 'symbol',
-                source: 'location-cluster',
+                source: 'location',
                 filter: ['has', 'point_count'],
                 layout: {
                     'text-field': '{point_count_abbreviated}',
@@ -223,10 +557,10 @@
             map.addLayer({
                 id: 'cluster-points',
                 type: 'circle',
-                source: 'location-cluster',
+                source: 'location',
                 filter: ['!', ['has', 'point_count']],
                 paint: {
-                    'circle-radius': 5,
+                    'circle-radius': 7,
                     'circle-color': [
                         'case',
                         ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 40%)',
@@ -243,24 +577,13 @@
                 }
             });
 
-            // NEED THIS STYLE TO ACCESS UNCLUSTERED DATA!
-            map.addLayer({
-                id: 'points',
-                type: 'circle',
-                source: 'location',
-                paint: {
-                    'circle-opacity': 0,
-                    'circle-radius': 0
-                }
-            });
-
             // Handle clicks on cluster layer
             map.on('click', (e) => {
                 // Check for any features at click location
                 const features = map.queryRenderedFeatures(e.point, {
                     layers: ['clusters', 'cluster-count', 'cluster-points']
                 });
-                
+
                 if (features.length > 0) {
                     // If it's a cluster
                     if (features[0].properties?.cluster_id) {
@@ -271,7 +594,7 @@
                             duration: 500,
                             essential: true
                         });
-                    } 
+                    }
                     // If it's a regular point feature
                     else {
                         // Show the feature info
@@ -309,7 +632,101 @@
                 }
             });
 
+            // Handle clicks on category filter
+            document.addEventListener('click', (e) => {
+                const categoryFeatureElement = e.target.closest('.category-feature');
+                if (!categoryFeatureElement) return;
+
+                const category = categoryFeatureElement.dataset.category;
+                if (!category) return;
+
+                // Close any open popup when clicking a category
+                if (window.featurePopup) {
+                    window.featurePopup.remove();
+                    window.featurePopup = null;
+                }
+
+                // Remove all activeCategory classes first
+                document.querySelectorAll('.category-feature.activeCategory').forEach(el => {
+                    el.classList.remove('activeCategory');
+                });
+
+                // Toggle logic
+                if (currentActiveCategory === category) {
+                    // Second click on same category - remove filter
+                    filterLocation('all'); // Show all features
+                    categoryFeatureElement.classList.remove('activeCategory');
+                    currentActiveCategory = 'all';
+                } else {
+                    // New category selected
+                    filterLocation(category);
+                    document.querySelectorAll('.category-feature.active').forEach(el => {
+                        el.classList.remove('activeCategory');
+                    });
+                    categoryFeatureElement.classList.add('activeCategory');
+                    currentActiveCategory = category;
+                }
+            });
+
         });
+
+        const createCategoryBox = () => {
+            const categoryBox = document.getElementById('category-box');
+
+            categoryBox.innerHTML = '';
+            const innerContainer = document.createElement('div');
+            innerContainer.className = 'category-box-inner';
+            categoryBox.appendChild(innerContainer);
+
+            const categories = [
+                { id: 'eat_and_drink', icon: 'fa-utensils' },
+                { id: 'visit_and_experience', icon: 'fa-landmark' },
+                { id: 'play_and_learn', icon: 'fa-child' },
+                { id: 'thrive_and_restore', icon: 'fa-leaf' },
+                { id: 'shop_and_discover', icon: 'fa-shopping-bag' },
+                { id: 'live_and_work', icon: 'fa-home' },
+                { id: 'gather_and_worship', icon: 'fa-church' }
+            ];
+
+            categories.forEach(({ id, icon }) => {
+                const categoryElement = document.createElement('div');
+                categoryElement.className = 'category-feature';
+                categoryElement.dataset.category = id;
+                label = id
+                    .replace(/_and_/g, ' & ') // Replace _and_ with " & "
+                    .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize the first letter of each word
+
+                categoryElement.innerHTML = `
+                    <i class="fa-solid ${icon}"></i>
+                    <span>${label}</span>
+                `;
+
+                innerContainer.appendChild(categoryElement);
+            });
+        };
+
+        const filterLocation = (category) => {
+            // Filter clusters by category
+            const clusterFilter = category === 'all'
+                ? ['has', 'point_count']
+                : ['all', ['has', 'point_count'], ['==', ['get', 'category'], category]];
+            map.setFilter('clusters', clusterFilter);
+
+            // Filter cluster count by category
+            const clusterFilterCount = category === 'all'
+                ? ['has', 'point_count']
+                : ['all', ['has', 'point_count'], ['==', ['get', 'category'], category]];
+            map.setFilter('cluster-count', clusterFilterCount);
+
+            // Filter individual points by category
+            const pointsFilter = category === 'all'
+                ? ['!', ['has', 'point_count']]
+                : ['all', ['!', ['has', 'point_count']], ['==', ['get', 'category'], category]];
+            map.setFilter('cluster-points', pointsFilter);
+
+            // Filter markers by category
+            updateMarkers();
+        };
 
         // objects for caching and keeping track of HTML marker objects (for performance)
         const markers = {};
@@ -340,7 +757,10 @@
             for (let i = 0; i < features.length; i++) {
                 const coords = features[i].geometry.coordinates;
                 const props = features[i].properties;
-                
+
+                // Apply the category filter based on the global selectedCategory
+                if (currentActiveCategory !== 'all' && props.category !== currentActiveCategory) continue;
+
                 // Exclude clusters
                 if (props.cluster || !priorityLevels.includes(props.priority)) continue;
                 const id = props.id;
@@ -356,7 +776,7 @@
                     // Create image container div
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
-                    //imgContainer.style.backgroundColor = getCategoryColor(props.category);
+                    imgContainer.style.backgroundColor = getCategoryColor(props.category);
 
                     // Create image element
                     const img = document.createElement('img');
@@ -367,7 +787,7 @@
                     const label = document.createElement('p');
                     label.innerText = `${props.mapname}`;
                     label.className = 'custom-marker-label';
-                    label.style.color = getCategoryColor(props.category);
+                    //label.style.color = getCategoryColor(props.category);
 
                     // Build the structure
                     imgContainer.appendChild(img);
@@ -377,7 +797,7 @@
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
                         anchor: 'center',
-                        //offset: [-15, 0]
+                        offset: [0, 10]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
@@ -396,7 +816,7 @@
 
             // Get the info box element
             const infoBox = document.getElementById('info-box');
-            
+
             // Clear existing content
             infoBox.innerHTML = '';
 
@@ -471,7 +891,7 @@
             if (properties.address) {
                 const addressColumn = document.createElement('div');
                 addressColumn.className = 'footer-row';
-                
+
                 // Generate Google Maps search URL using mapname + address
                 const searchQuery = encodeURIComponent(`${properties.mapname} ${properties.address}`);
                 addressColumn.innerHTML = `
@@ -479,7 +899,7 @@
                     <i class="fa-solid fa-location-dot"></i> <span>${properties.address}</span>
                     </a>
                 `;
-                
+
                 footer.appendChild(addressColumn);
             }
 
@@ -533,7 +953,7 @@
             infoBoxContent.appendChild(titleContainer);
             infoBoxContent.appendChild(textContainer);
             infoBoxContent.appendChild(footer);
-        
+
             infoBoxContainer.appendChild(infoBoxContent);
             infoBox.appendChild(infoBoxContainer);
 
@@ -551,10 +971,10 @@
 
         function hideInfoBox() {
             document.getElementById('info-box').classList.remove('visible');
-            }
+        }
 
-            // Optional: Auto-close when clicking outside
-            document.addEventListener('click', (e) => {
+        // Optional: Auto-close when clicking outside
+        document.addEventListener('click', (e) => {
             const infoBox = document.getElementById('info-box');
             if (!infoBox.contains(e.target)) {
                 hideInfoBox();
@@ -616,6 +1036,10 @@
             map.on('move', updateMarkers);
             map.on('moveend', updateMarkers);
             updateMarkers();
+        });
+
+        map.once('idle', () => {
+            createCategoryBox();
         });
 
         // // Remove points based on zoom and priority
