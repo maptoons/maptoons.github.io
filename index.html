@@ -128,7 +128,8 @@
             color: hsl(0, 0%, 100%);
         }
 
-        .category-feature span, i {
+        .category-feature span,
+        i {
             font-size: 12px;
         }
 
@@ -472,203 +473,221 @@
 
         map.on('load', () => {
 
-            map.addSource('sprites', {
-                'type': 'vector',
-                tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf']
-            });
-
-            map.addLayer({
-                "id": "sprites",
-                "source": "sprites",
-                "source-layer": "maptoons-tiles",
-                "type": "symbol",
-                "layout": {
-                    "icon-size": 0.4,
-                    "symbol-placement": "point",
-                    "icon-anchor": "bottom",
-                    "icon-image": [
-                        "concat",
-                        "icon-",
-                        ["get", "icon_number"]
-                    ]
-                },
-                "paint": {
-                    "icon-color": "hsl(0, 0%, 100%)",
-                    "icon-opacity": [
-                        "interpolate",
-                        ["exponential", 0.5],
-                        ["zoom"],
-                        14, 0, 15, 1
-                    ]
-                },
-                "minzoom": 16
-            });
-
-            map.addSource('location', {
-                'type': 'geojson',
-                'data': locationFile,
-                'cluster': true,
-                'clusterRadius': 20,
-                'clusterMinPoints': 3,
-                'clusterMaxZoom': zoomThreshold - 1
-            });
-
-            // Style for clustered points
-            map.addLayer({
-                id: 'clusters',
-                type: 'circle',
-                source: 'location',
-                filter: ['has', 'point_count'],
-                paint: {
-                    'circle-color': [
-                        'step',
-                        ['get', 'point_count'],
-                        'hsl(270, 29%, 95%)',
-                        10, 'hsl(270, 29%, 90%)',
-                        25, 'hsl(270, 29%, 85%)'
-                    ],
-                    'circle-radius': [
-                        'step',
-                        ['get', 'point_count'],
-                        15,
-                        10, 20,
-                        25, 25
-                    ]
-                }
-            });
-
-            // Text label for cluster count
-            map.addLayer({
-                id: 'cluster-count',
-                type: 'symbol',
-                source: 'location',
-                filter: ['has', 'point_count'],
-                layout: {
-                    'text-field': '{point_count_abbreviated}',
-                    'text-font': ['montserrat-regular'],
-                    'text-size': 12
-                },
-                paint: {
-                    'text-color': 'hsl(0, 0%, 0%)'
-                }
-            });
-
-            // Style for individual (non-clustered) points
-            map.addLayer({
-                id: 'cluster-points',
-                type: 'circle',
-                source: 'location',
-                filter: ['!', ['has', 'point_count']],
-                paint: {
-                    'circle-radius': 7,
-                    'circle-color': [
-                        'case',
-                        ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 40%)',
-                        ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 45%)',
-                        ['==', ['get', 'category'], 'play_and_learn'], 'hsl(296, 30%, 38%)',
-                        ['==', ['get', 'category'], 'thrive_and_restore'], 'hsl(18, 55%, 33%)',
-                        ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 31%)',
-                        ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 36%)',
-                        ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 24%)',
-                        'hsl(0, 0%, 100%)' // default color if none match
-                    ],
-                    'circle-stroke-width': 0,
-                    'circle-stroke-color': 'hsl(0, 0%, 0%)'
-                }
-            });
-
-            // Handle clicks on cluster layer
-            map.on('click', (e) => {
-                // Check for any features at click location
-                const features = map.queryRenderedFeatures(e.point, {
-                    layers: ['clusters', 'cluster-count', 'cluster-points']
-                });
-
-                if (features.length > 0) {
-                    // If it's a cluster
-                    if (features[0].properties?.cluster_id) {
-                        // Simply fly to clicked position with slight zoom-in
-                        map.easeTo({
-                            center: e.lngLat,
-                            zoom: zoomThreshold,  // Zoom in one level
-                            duration: 500,
-                            essential: true
-                        });
-                    }
-                    // If it's a regular point feature
-                    else {
-                        // Show the feature info
-                        clickFeature(features[0]);
-                    }
-                    return;
-                }
-            });
-
-            // Handle clicks on marker layer
-            document.addEventListener('click', (e) => {
-                // 1. Detect clicks on:
-                const clickedElement = e.target.closest(
-                    '.custom-marker'
-                );
-                if (!clickedElement) return;
-
-                // 2. Get the nearest parent with feature data
-                const featureElement = clickedElement.closest('[data-feature]');
-                if (!featureElement) return;
-
-                // 3. Parse and pass the feature
-                try {
-                    const feature = JSON.parse(featureElement.dataset.feature);
-                    clickFeature(feature);
-
-                    // Add active class
-                    // document.querySelectorAll('.custom-marker-img.active').forEach(el => {
-                    //     el.classList.remove('active');
+            fetch(locationFile)
+                .then(res => res.json())
+                .then(data => {
+                    locationData = data;
+                    // map.addSource('sprites', {
+                    //     'type': 'vector',
+                    //     tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf']
                     // });
-                    // featureElement.classList.add('active');
 
-                } catch (error) {
-                    console.error("Couldn't parse feature data:", error);
-                }
-            });
+                    // map.addLayer({
+                    //     "id": "sprites",
+                    //     "source": "sprites",
+                    //     "source-layer": "maptoons-tiles",
+                    //     "type": "symbol",
+                    //     "layout": {
+                    //         "icon-size": 0.4,
+                    //         "symbol-placement": "point",
+                    //         "icon-anchor": "bottom",
+                    //         "icon-image": [
+                    //             "concat",
+                    //             "icon-",
+                    //             ["get", "icon_number"]
+                    //         ]
+                    //     },
+                    //     "paint": {
+                    //         "icon-color": "hsl(0, 0%, 100%)",
+                    //         "icon-opacity": [
+                    //             "interpolate",
+                    //             ["exponential", 0.5],
+                    //             ["zoom"],
+                    //             14, 0, 15, 1
+                    //         ]
+                    //     },
+                    //     "minzoom": 16
+                    // });
 
-            // Handle clicks on category filter
-            document.addEventListener('click', (e) => {
-                const categoryFeatureElement = e.target.closest('.category-feature');
-                if (!categoryFeatureElement) return;
-
-                const category = categoryFeatureElement.dataset.category;
-                if (!category) return;
-
-                // Close any open popup when clicking a category
-                if (window.featurePopup) {
-                    window.featurePopup.remove();
-                    window.featurePopup = null;
-                }
-
-                // Remove all activeCategory classes first
-                document.querySelectorAll('.category-feature.activeCategory').forEach(el => {
-                    el.classList.remove('activeCategory');
-                });
-
-                // Toggle logic
-                if (currentActiveCategory === category) {
-                    // Second click on same category - remove filter
-                    filterLocation('all'); // Show all features
-                    categoryFeatureElement.classList.remove('activeCategory');
-                    currentActiveCategory = 'all';
-                } else {
-                    // New category selected
-                    filterLocation(category);
-                    document.querySelectorAll('.category-feature.active').forEach(el => {
-                        el.classList.remove('activeCategory');
+                    map.addSource('location', {
+                        'type': 'geojson',
+                        'data': locationData,
+                        'cluster': true,
+                        'clusterRadius': 20,
+                        'clusterMinPoints': 3,
+                        'clusterMaxZoom': zoomThreshold - 1
                     });
-                    categoryFeatureElement.classList.add('activeCategory');
-                    currentActiveCategory = category;
-                }
-            });
 
+                    // Style for clustered points
+                    map.addLayer({
+                        id: 'clusters',
+                        type: 'circle',
+                        source: 'location',
+                        filter: ['has', 'point_count'],
+                        paint: {
+                            'circle-color': [
+                                'step',
+                                ['get', 'point_count'],
+                                'hsl(270, 29%, 95%)',
+                                10, 'hsl(270, 29%, 90%)',
+                                25, 'hsl(270, 29%, 85%)'
+                            ],
+                            'circle-radius': [
+                                'step',
+                                ['get', 'point_count'],
+                                15,
+                                10, 20,
+                                25, 25
+                            ]
+                        }
+                    });
+
+                    // Text label for cluster count
+                    map.addLayer({
+                        id: 'cluster-count',
+                        type: 'symbol',
+                        source: 'location',
+                        filter: ['has', 'point_count'],
+                        layout: {
+                            'text-field': '{point_count_abbreviated}',
+                            'text-font': ['poppins-regular'],
+                            'text-size': 12
+                        },
+                        paint: {
+                            'text-color': 'hsl(0, 0%, 0%)'
+                        }
+                    });
+
+                    // Style for individual (non-clustered) points
+                    map.addLayer({
+                        id: 'cluster-points',
+                        type: 'circle',
+                        source: 'location',
+                        filter: ['!', ['has', 'point_count']],
+                        paint: {
+                            'circle-radius': 7,
+                            'circle-color': [
+                                'case',
+                                ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 40%)',
+                                ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 45%)',
+                                ['==', ['get', 'category'], 'play_and_learn'], 'hsl(296, 30%, 38%)',
+                                ['==', ['get', 'category'], 'thrive_and_restore'], 'hsl(18, 55%, 33%)',
+                                ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 31%)',
+                                ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 36%)',
+                                ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 24%)',
+                                'hsl(0, 0%, 100%)' // default color if none match
+                            ],
+                            'circle-stroke-width': 0,
+                            'circle-stroke-color': 'hsl(0, 0%, 0%)'
+                        }
+                    });
+
+                    // Handle clicks on cluster layer
+                    map.on('click', (e) => {
+                        // Check for any features at click location
+                        const features = map.queryRenderedFeatures(e.point, {
+                            layers: ['clusters', 'cluster-count', 'cluster-points']
+                        });
+
+                        if (features.length > 0) {
+                            // If it's a cluster
+                            if (features[0].properties?.cluster_id) {
+                                // Simply fly to clicked position with slight zoom-in
+                                map.easeTo({
+                                    center: e.lngLat,
+                                    zoom: zoomThreshold,  // Zoom in one level
+                                    duration: 500,
+                                    essential: true
+                                });
+                            }
+                            // If it's a regular point feature
+                            else {
+                                // Show the feature info
+                                clickFeature(features[0]);
+                            }
+                            return;
+                        }
+                    });
+
+                    // Handle clicks on marker layer
+                    document.addEventListener('click', (e) => {
+                        // 1. Detect clicks on:
+                        const clickedElement = e.target.closest(
+                            '.custom-marker'
+                        );
+                        if (!clickedElement) return;
+
+                        // 2. Get the nearest parent with feature data
+                        const featureElement = clickedElement.closest('[data-feature]');
+                        if (!featureElement) return;
+
+                        // 3. Parse and pass the feature
+                        try {
+                            const feature = JSON.parse(featureElement.dataset.feature);
+                            clickFeature(feature);
+
+                            // Add active class
+                            // document.querySelectorAll('.custom-marker-img.active').forEach(el => {
+                            //     el.classList.remove('active');
+                            // });
+                            // featureElement.classList.add('active');
+
+                        } catch (error) {
+                            console.error("Couldn't parse feature data:", error);
+                        }
+                    });
+
+                    // Handle clicks on category filter
+                    document.addEventListener('click', (e) => {
+                        const categoryFeatureElement = e.target.closest('.category-feature');
+                        if (!categoryFeatureElement) return;
+
+                        const category = categoryFeatureElement.dataset.category;
+                        if (!category) return;
+
+                        // Close any open popup when clicking a category
+                        if (window.featurePopup) {
+                            window.featurePopup.remove();
+                            window.featurePopup = null;
+                        }
+
+                        // Remove all activeCategory classes first
+                        document.querySelectorAll('.category-feature.activeCategory').forEach(el => {
+                            el.classList.remove('activeCategory');
+                        });
+
+                        // Toggle logic
+                        if (currentActiveCategory === category) {
+                            // Second click on same category - remove filter
+                            filterLocation('all'); // Show all features
+                            categoryFeatureElement.classList.remove('activeCategory');
+                            currentActiveCategory = 'all';
+                        } else {
+                            // New category selected
+                            filterLocation(category);
+                            categoryFeatureElement.classList.add('activeCategory');
+                            currentActiveCategory = category;
+                        }
+                    });
+
+                });
         });
+
+        const filterLocation = (category) => {
+            if (!locationData) return;
+
+            const filtered = {
+                ...locationData,
+                features: category === 'all'
+                    ? locationData.features
+                    : locationData.features.filter(f => f.properties.category === category)
+            };
+
+            map.getSource('location').setData(filtered);
+
+            currentActiveCategory = category;
+            updateMarkers(); // now update markers as usual
+        };
 
         const createCategoryBox = () => {
             const categoryBox = document.getElementById('category-box');
@@ -703,29 +722,6 @@
 
                 innerContainer.appendChild(categoryElement);
             });
-        };
-
-        const filterLocation = (category) => {
-            // Filter clusters by category
-            const clusterFilter = category === 'all'
-                ? ['has', 'point_count']
-                : ['all', ['has', 'point_count'], ['==', ['get', 'category'], category]];
-            map.setFilter('clusters', clusterFilter);
-
-            // Filter cluster count by category
-            const clusterFilterCount = category === 'all'
-                ? ['has', 'point_count']
-                : ['all', ['has', 'point_count'], ['==', ['get', 'category'], category]];
-            map.setFilter('cluster-count', clusterFilterCount);
-
-            // Filter individual points by category
-            const pointsFilter = category === 'all'
-                ? ['!', ['has', 'point_count']]
-                : ['all', ['!', ['has', 'point_count']], ['==', ['get', 'category'], category]];
-            map.setFilter('cluster-points', pointsFilter);
-
-            // Filter markers by category
-            updateMarkers();
         };
 
         // objects for caching and keeping track of HTML marker objects (for performance)

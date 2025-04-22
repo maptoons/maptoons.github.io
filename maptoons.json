@@ -73,22 +73,42 @@
 		},
 		{
 			"source": "osm",
-			"id": "label-street",
+			"id": "label-street-minor",
 			"type": "symbol",
 			"source-layer": "street_labels",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
+			"filter": [ "in", "kind", "residential" ],
 			"layout": {
 				"text-field": "{name}",
 				"text-transform": "uppercase",
-				"text-font": [ "montserrat-regular" ],
+				"text-font": [ "poppins-regular" ],
 				"text-letter-spacing": 0.2,
 				"symbol-placement": "line",
-				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 12, 200, 20, 400 ],
+				"symbol-spacing": 400,
 				"text-anchor": "center",
-				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 0, 20, 40 ]
+				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 5, 20, 30 ]
 			},
 			"paint": {
-				"text-color": "hsl(0, 0%, 40%)"
+				"text-color": "hsl(0, 0%, 30%)"
+			}
+		},
+		{
+			"source": "osm",
+			"id": "label-street-major",
+			"type": "symbol",
+			"source-layer": "street_labels",
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary" ],
+			"layout": {
+				"text-field": "{name}",
+				"text-transform": "uppercase",
+				"text-font": [ "poppins-regular" ],
+				"text-letter-spacing": 0.2,
+				"symbol-placement": "line",
+				"symbol-spacing": 400,
+				"text-anchor": "center",
+				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 10, 20, 40 ]
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 30%)"
 			}
 		},
 		{
@@ -99,8 +119,7 @@
 			"filter": [ "in", "kind", "city", "town", "village", "capital", "state_capital" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-transform": "uppercase",
-				"text-font": [ "montserrat-regular" ],
+				"text-font": [ "poppins-regular" ],
 				"text-letter-spacing": 0.1,
 				"text-size": 10
 			},
