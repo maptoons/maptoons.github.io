@@ -292,12 +292,13 @@
         }
 
         .custom-marker-label {
-            font-size: 11px;
+            font-size: 10px;
             font-weight: 500;
             line-height: 1;
             text-align: center;
             max-width: 100px;
             width: 100%;
+            margin-top: 2px;
             text-shadow:
                 -1px -1px 0 white,
                 1px -1px 0 white,
@@ -462,7 +463,7 @@
             style: styleFile,
             center: [-73.52307, 40.765],
             //maxBounds: bounds,
-            zoom: 15,
+            zoom: zoomThreshold + 0.1,
             //minZoom: 12,
             maxZoom: 18,
             bearing: 20,
@@ -518,7 +519,7 @@
                         'clusterMaxZoom': zoomThreshold - 1
                     });
 
-                    // Style for clustered points
+                    // Style for clustered circles
                     map.addLayer({
                         id: 'clusters',
                         type: 'circle',
@@ -578,7 +579,25 @@
                                 'hsl(0, 0%, 100%)' // default color if none match
                             ],
                             'circle-stroke-width': 0,
-                            'circle-stroke-color': 'hsl(0, 0%, 0%)'
+                            'circle-stroke-color': 'hsl(0, 0%, 0%)',
+                            'circle-opacity': [
+                            'step',
+                            ['zoom'],
+                            // Default state (zoom < zoomThreshold): All priorities visible
+                            ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
+                            
+                            // Q disappears at zoomThreshold
+                            zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
+                            
+                            // T disappears at zoomThreshold + 1
+                            zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
+                            
+                            // D disappears at zoomThreshold + 1.5
+                            zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
+                            
+                            // S disappears at zoomThreshold + 2
+                            zoomThreshold + 2, 0
+                            ]
                         }
                     });
 
@@ -793,7 +812,7 @@
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
                         anchor: 'center',
-                        offset: [0, 10]
+                        offset: [0, 15]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;

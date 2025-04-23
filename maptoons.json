@@ -41,26 +41,10 @@
 		},
 		{
 			"source": "osm",
-			"id": "street-minor",
-			"type": "line",
-			"source-layer": "streets",
-			"filter": [ "in", "kind", "residential" ],
-			"paint": {
-				"line-color": "hsl(92, 43%, 97%)",
-				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 0, 20, 150 ]
-			},
-			"layout": {
-				"line-join": "round",
-				"line-cap": "round"
-			},
-			"minzoom": 10
-		},
-		{
-			"source": "osm",
 			"id": "street-major",
 			"type": "line",
 			"source-layer": "streets",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary" ],
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
 			"paint": {
 				"line-color": "hsl(92, 43%, 97%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 10, 1, 20, 200 ]
@@ -73,10 +57,10 @@
 		},
 		{
 			"source": "osm",
-			"id": "label-street-minor",
+			"id": "label-street-major",
 			"type": "symbol",
 			"source-layer": "street_labels",
-			"filter": [ "in", "kind", "residential" ],
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
 			"layout": {
 				"text-field": "{name}",
 				"text-transform": "uppercase",
@@ -86,26 +70,6 @@
 				"symbol-spacing": 400,
 				"text-anchor": "center",
 				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 5, 20, 30 ]
-			},
-			"paint": {
-				"text-color": "hsl(0, 0%, 30%)"
-			}
-		},
-		{
-			"source": "osm",
-			"id": "label-street-major",
-			"type": "symbol",
-			"source-layer": "street_labels",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary" ],
-			"layout": {
-				"text-field": "{name}",
-				"text-transform": "uppercase",
-				"text-font": [ "poppins-regular" ],
-				"text-letter-spacing": 0.2,
-				"symbol-placement": "line",
-				"symbol-spacing": 400,
-				"text-anchor": "center",
-				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 10, 20, 40 ]
 			},
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)"
@@ -124,7 +88,7 @@
 				"text-size": 10
 			},
 			"paint": {
-				"text-color": "hsl(0, 0%, 20%)",
+				"text-color": "hsl(0, 0%, 30%)",
 				"text-halo-color": "hsla(0, 0%, 100%, 0.5)",
 				"text-halo-width": 0
 			},
