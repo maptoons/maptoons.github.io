@@ -134,121 +134,51 @@
         }
 
         #info-box {
-            display: block;
+            display: flex;
             position: fixed;
-            bottom: 0px;
-            top: 0px;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            overflow-x: auto;
+            overflow-y: visible;
+            z-index: 1000;
+            max-width: 90vw;
             height: auto;
-            width: 300px;
-            border-radius: 0px 5px 5px 0;
-            overflow-y: scroll;
-            overflow-x: hidden;
-            z-index: 900;
-            background: hsla(0, 0%, 100%);
-            box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1);
-            transform: translateX(-100%);
-            transition: transform 0.3s ease-out;
-            will-change: transform;
-        }
-
-        .info-box-container {
-            position: relative;
-            overflow-y: auto;
-            overflow-x: hidden;
-            width: 100%;
-            height: 100%;
-            background-color: hsl(0, 0%, 100%);
-        }
-
-        .info-box-content {
-            width: 100%;
-            height: 100%;
-            padding: 10px;
-        }
-
-        .info-box-header {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-            height: 100px;
-            text-align: center;
-        }
-
-        .info-box-header img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-            object-fit: cover;
-            display: block;
-            z-index: 1;
-        }
-
-        .info-box-header .info-box-title {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%;
-            color: hsl(0, 0%, 100%);
             margin: 0 auto;
-            z-index: 2;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2));
+            border-radius: 5px;
         }
 
-        .info-box-title-container {
+        .info-box-inner {
             display: flex;
-            align-items: center;
-            justify-items: center;
-            width: 100%;
-            gap: 5px;
+            gap: 10px;
+            margin: 0 auto;
+            background-color: hsl(0, 0%, 100%);
+            padding: 10px;
+            border-radius: 5px;
         }
 
-        .info-box-title-container-text {
-            flex: 1;
-        }
-
-        .info-box-title-container-image {
-            display: flex;
-            align-items: center;
-            justify-items: center;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: hsl(0, 0%, 90%);
-        }
-
-        .info-box-title-container-image .info-box-img {
-            width: 50px;
+        .info-feature {
+            position: relative;
+            width: auto;
             height: auto;
-            max-height: 50px;
-            max-width: 50px;
-            object-fit: cover;
+            overflow: visible;
+            cursor: pointer;
         }
 
-        .info-box-title-container .info-box-mapname {
-            color: hsl(0, 0%, 12%);
+        .info-feature .info-image-container {
+            text-align: center;
+            line-height: 0;
         }
 
-        .info-box-title-container .info-box-category {
-            font-size: 0.875rem;
-            color: hsl(0, 0%, 37%);
-        }
-
-        .info-box-text-container .info-box-info {
-            margin: 10px 0;
-            padding: 10px 0;
-            border-top: 1px solid hsl(0, 0%, 80%);
-            border-bottom: 1px solid hsl(0, 0%, 80%);
-        }
-
-        .info-box-footer {
-            color: hsl(0, 0%, 37%);
-        }
-
-        .info-box-footer .footer-row {
-            display: block;
-            min-width: 0;
-            max-width: 100%;
-            margin: 10px auto;
+        .info-feature .info-image {
+            width: auto;
+            height: 30px;
+            cursor: pointer;
+            filter: drop-shadow(0 -1px 0 hsl(0, 0%, 0%)) drop-shadow(0 1px 0 hsl(0, 0%, 0%)) drop-shadow(-1px 0 0 hsl(0, 0%, 0%)) drop-shadow(1px 0 0 hsl(0, 0%, 0%));
+            border-radius: 2px;
         }
 
         .ellipsis {
@@ -396,10 +326,9 @@
         }
 
         h1 {
-            font-size: 28px;
-            font-weight: 900;
+            font-size: 16px;
+            font-weight: 500;
             line-height: 0.9;
-            letter-spacing: -2px;
         }
 
         h2 {
@@ -440,9 +369,7 @@
 <body>
     <div class="container">
         <div id="map"></div>
-        <div id="info-box">
-            <div class="close-tab" onclick="hideInfoBox()"></div>
-        </div>
+        <div id="info-box"></div>
         <div id="category-box"></div>
     </div>
 
@@ -581,22 +508,22 @@
                             'circle-stroke-width': 0,
                             'circle-stroke-color': 'hsl(0, 0%, 0%)',
                             'circle-opacity': [
-                            'step',
-                            ['zoom'],
-                            // Default state (zoom < zoomThreshold): All priorities visible
-                            ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
-                            
-                            // Q disappears at zoomThreshold
-                            zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
-                            
-                            // T disappears at zoomThreshold + 1
-                            zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
-                            
-                            // D disappears at zoomThreshold + 1.5
-                            zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
-                            
-                            // S disappears at zoomThreshold + 2
-                            zoomThreshold + 2, 0
+                                'step',
+                                ['zoom'],
+                                // Default state (zoom < zoomThreshold): All priorities visible
+                                ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
+
+                                // Q disappears at zoomThreshold
+                                zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
+
+                                // T disappears at zoomThreshold + 1
+                                zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
+
+                                // D disappears at zoomThreshold + 1.5
+                                zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
+
+                                // S disappears at zoomThreshold + 2
+                                zoomThreshold + 2, 0
                             ]
                         }
                     });
@@ -826,162 +753,90 @@
             markersOnScreen = newMarkers;
         }
 
-        const updateInfoBox = (feature) => {
-            const { properties } = feature;
-
-            // Get the info box element
+        const updateInfoBox = async () => {
+            const features = map.querySourceFeatures('location');
             const infoBox = document.getElementById('info-box');
+            let uniqueFeatures = new Map();
 
-            // Clear existing content
+            // Store the current content of the infoBox
+            const currentContent = infoBox.innerHTML;
+
+            // Clear the infoBox only after new content is ready
+            let newContent = '';
+
+            const innerContainer = document.createElement('div');
+            innerContainer.className = 'info-box-inner';
+
+            // Process each feature
+            for (const feature of features) {
+                if (feature.properties.cluster_id) {
+                    // Handle clustered features
+                    const clusterId = feature.properties.cluster_id;
+
+                    try {
+                        // Get the individual features within the cluster
+                        const clusterFeatures = await map.getSource('location').getClusterLeaves(
+                            clusterId,
+                            Infinity,
+                            0
+                        );
+                        clusterFeatures.forEach(clusterFeature => {
+                            const featureId = clusterFeature.properties.id;
+                            if (!uniqueFeatures.has(featureId)) {
+                                uniqueFeatures.set(featureId, clusterFeature);
+                            }
+                        });
+                    } catch (error) {
+                        console.error('Error fetching cluster leaves:', error);
+                    }
+                } else {
+                    const featureId = feature.properties.id;
+                    if (!uniqueFeatures.has(featureId)) {
+                        uniqueFeatures.set(featureId, feature);
+                    }
+                }
+            }
+
+            // Convert the Map values to an array
+            let allFeatures = Array.from(uniqueFeatures.values());
+
+            // Sort features alphabetically by the 'mapname' property
+            allFeatures.sort((a, b) => {
+                const nameA = a.properties.id || ''; // Handle undefined values
+                const nameB = b.properties.id || ''; // Handle undefined values
+                return nameA.localeCompare(nameB); // Sort alphabetically
+            });
+
+            let html = '';
+            allFeatures.forEach(feature => {
+                const id = feature.properties.id;
+                const image = feature.properties.img;
+                const imageUrl = `${imgSource}/${image}.png`;
+
+                const featureElement = document.createElement('div');
+                featureElement.className = 'info-feature';
+                featureElement.dataset.id = id;
+                featureElement.dataset.feature = JSON.stringify(feature);
+
+                const imageContainer = document.createElement('div');
+                imageContainer.className = 'info-image-container';
+
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.className = 'info-image';
+
+                imageContainer.appendChild(img);
+                featureElement.appendChild(imageContainer);
+                innerContainer.appendChild(featureElement);
+            });
+
+            // Update DOM
             infoBox.innerHTML = '';
-
-            // Create container
-            const infoBoxContainer = document.createElement('div');
-            infoBoxContainer.className = 'info-box-container';
-
-            // Create the outer div
-            const infoBoxContent = document.createElement('div');
-            infoBoxContent.className = 'info-box-content';
-
-            // Create the header div
-            const header = document.createElement('div');
-            header.className = 'info-box-header';
-
-            const img = document.createElement('img');
-            //img.src = `${imgSource}/${properties.img || 'default'}.png`;
-            img.src = `${imgSource}/${properties.category || 'default'}_banner.png`;
-            header.appendChild(img);
-
-            // Create overlay title
-            //const title = document.createElement('h1');
-            //title.className = 'info-box-title';
-            //title.textContent = properties.mapname;
-            //header.appendChild(title);
-
-            // Create title element
-            const titleContainer = document.createElement('div');
-            titleContainer.className = 'info-box-title-container';
-
-            const titleContainerImage = document.createElement('div');
-            titleContainerImage.className = 'info-box-title-container-image';
-
-            const imgElement = document.createElement('img');
-            imgElement.className = 'info-box-img';
-            imgElement.src = `${imgSource}/${properties.img}.png`;
-            titleContainerImage.appendChild(imgElement);
-            titleContainer.appendChild(titleContainerImage);
-
-            const titleContainerText = document.createElement('div');
-            titleContainerText.className = 'info-box-title-container-text';
-
-            const headingElement = document.createElement('h2');
-            headingElement.className = 'info-box-mapname';
-            headingElement.textContent = properties.mapname;
-
-            const categoryElement = document.createElement('p');
-            categoryElement.className = 'info-box-category';
-            categoryElement.textContent = properties.category
-                .replace(/_/g, ' ')
-                .replace(/\b\w/g, char => char.toUpperCase())
-                .replace(' And ', ' & ');
-
-            titleContainerText.appendChild(headingElement);
-            titleContainerText.appendChild(categoryElement);
-            titleContainer.appendChild(titleContainerText);
-
-            // Create text element
-            const textContainer = document.createElement('div');
-            textContainer.className = 'info-box-text-container';
-
-            const infoElement = document.createElement('p');
-            infoElement.className = 'info-box-info';
-            infoElement.textContent = properties.info;
-
-            textContainer.appendChild(infoElement);
-
-            // Create footer container
-            const footer = document.createElement('div');
-            footer.className = 'info-box-footer';
-
-            if (properties.address) {
-                const addressColumn = document.createElement('div');
-                addressColumn.className = 'footer-row';
-
-                // Generate Google Maps search URL using mapname + address
-                const searchQuery = encodeURIComponent(`${properties.mapname} ${properties.address}`);
-                addressColumn.innerHTML = `
-                    <a href="https://www.google.com/maps/search/?api=1&query=${searchQuery}" target="_blank">
-                    <i class="fa-solid fa-location-dot"></i> <span>${properties.address}</span>
-                    </a>
-                `;
-
-                footer.appendChild(addressColumn);
+            infoBox.appendChild(innerContainer);
+            if (innerContainer.children.length === 0 && currentContent) {
+                infoBox.innerHTML = currentContent;
             }
 
-            if (properties.phone) {
-                const phoneColumn = document.createElement('div');
-                phoneColumn.className = 'footer-row';
-                phoneColumn.innerHTML = `
-                    <a href="tel:${properties.phone}"><i class="fa-solid fa-phone"></i> <span>${properties.phone}</span></a>
-                `;
-                footer.appendChild(phoneColumn);
-            }
-
-            if (properties.email) {
-                const emailColumn = document.createElement('div');
-                emailColumn.className = 'footer-row';
-                emailColumn.innerHTML = `
-                    <a href="mailto:${properties.email}"><i class="fa-solid fa-envelope"></i> <span class="ellipsis">${properties.email}</span></a>
-                `;
-                footer.appendChild(emailColumn);
-            }
-
-            if (properties.web) {
-                const webColumn = document.createElement('div');
-                webColumn.className = 'footer-row';
-                webColumn.innerHTML = `
-                    <a href="${properties.web}" target="_blank"><i class="fa-solid fa-globe"></i> <span class="ellipsis">${properties.web}</span></a>
-                `;
-                footer.appendChild(webColumn);
-            }
-
-            if (properties.facebook) {
-                const facebookColumn = document.createElement('div');
-                facebookColumn.className = 'footer-row';
-                facebookColumn.innerHTML = `
-                    <a href="${properties.facebook}" target="_blank"><i class="fa-brands fa-facebook"></i> <span class="ellipsis">${properties.facebook}</span></a>
-                `;
-                footer.appendChild(facebookColumn);
-            }
-
-            if (properties.instagram) {
-                const instagramColumn = document.createElement('div');
-                instagramColumn.className = 'footer-row';
-                instagramColumn.innerHTML = `
-                    <a href="${properties.instagram}" target="_blank"><i class="fa-brands fa-instagram"></i> <span class="ellipsis">${properties.instagram}</span></a>
-                `;
-                footer.appendChild(instagramColumn);
-            }
-
-            // Assemble the structure
-            infoBoxContent.appendChild(header);
-            infoBoxContent.appendChild(titleContainer);
-            infoBoxContent.appendChild(textContainer);
-            infoBoxContent.appendChild(footer);
-
-            infoBoxContainer.appendChild(infoBoxContent);
-            infoBox.appendChild(infoBoxContainer);
-
-            // Make sure the info box is visible
-            infoBox.style.display = 'block';
-
-            // Store reference if needed
-            window.featureInfoBox = infoBox;
-
-            // Trigger slide-in
-            infoBox.classList.add('visible');
-
-            return infoBox;
         };
 
         function hideInfoBox() {
@@ -1057,21 +912,11 @@
             createCategoryBox();
         });
 
-        // // Remove points based on zoom and priority
-        // map.on('zoomend', () => {
-        //     const zoom = map.getZoom();
-        //     map.setFilter('points', [
-        //         '>',
-        //         ['match', ['get', 'priority'],
-        //             'Q', zoomThreshold - 1,
-        //             'T', zoomThreshold - 2,
-        //             'D', zoomThreshold - 3,
-        //             'S', zoomThreshold - 4,
-        //             zoomThreshold - 4
-        //         ],
-        //         zoom
-        //     ]);
-        // });
+        map.on('data', (e) => {
+            if (e.sourceId === 'location' && e.isSourceLoaded) {
+                updateInfoBox();
+            }
+        });
 
         map.on('click', (e) => {
             const features = map.queryRenderedFeatures(e.point);
