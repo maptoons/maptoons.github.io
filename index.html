@@ -18,7 +18,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
         }
 
         body {
@@ -128,8 +128,7 @@
             color: hsl(0, 0%, 100%);
         }
 
-        .category-feature span,
-        i {
+        .category-feature span, i {
             font-size: 12px;
         }
 
@@ -142,43 +141,121 @@
             overflow-x: auto;
             overflow-y: visible;
             z-index: 1000;
-            max-width: 90vw;
             height: auto;
             margin: 0 auto;
             scrollbar-width: none;
             -ms-overflow-style: none;
-            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.2));
-            border-radius: 5px;
         }
 
         .info-box-inner {
             display: flex;
             gap: 10px;
             margin: 0 auto;
-            background-color: hsl(0, 0%, 100%);
-            padding: 10px;
-            border-radius: 5px;
         }
 
         .info-feature {
             position: relative;
-            width: auto;
-            height: auto;
-            overflow: visible;
-            cursor: pointer;
+            width: 300px;
+            height: 200px;
+            min-width: 250px;
+            background: hsl(0, 0%, 100%);
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+            display: flex;
+            flex-direction: column;
         }
 
-        .info-feature .info-image-container {
+        .info-popup-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        .info-popup-header {
+            position: relative;
+            height: 60px;
+            width: 100%;
+            overflow: hidden;
             text-align: center;
-            line-height: 0;
+            flex-shrink: 0;
         }
 
-        .info-feature .info-image {
-            width: auto;
-            height: 30px;
-            cursor: pointer;
-            filter: drop-shadow(0 -1px 0 hsl(0, 0%, 0%)) drop-shadow(0 1px 0 hsl(0, 0%, 0%)) drop-shadow(-1px 0 0 hsl(0, 0%, 0%)) drop-shadow(1px 0 0 hsl(0, 0%, 0%));
-            border-radius: 2px;
+        .info-popup-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            flex-shrink: 0;
+        }
+
+        .info-popup-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            color: hsl(0, 0%, 100%);
+            text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
+            font-size: 18px;
+            font-weight: 800;
+            overflow: hidden;
+        }
+
+        .info-popup-text {
+            padding: 10px;
+            font-size: 12px;
+            line-height: 1.4;
+            overflow-y: auto;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+
+        .contact-item i {
+            width: 16px;
+            text-align: center;
+            color: hsl(0, 0%, 40%);
+        }
+
+        .contact-item a {
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .info-popup-footer {
+            display: flex;
+            gap: 5px;
+            margin-top: auto;
+            padding: 5px 5px 10px 5px;
+            background-color: hsl(0, 0%, 97%);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .info-footer-column {
+            flex: 1;
+            min-width: 0;
+            text-align: center;
+            text-overflow: ellipsis;
+        }
+
+        .info-footer-column a {
+            text-decoration: none;
         }
 
         .ellipsis {
@@ -186,11 +263,7 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            max-width: 200px;
-        }
-
-        #info-box.visible {
-            transform: translateX(0);
+            max-width: 75px;
         }
 
         .custom-marker {
@@ -637,7 +710,7 @@
 
         const createCategoryBox = () => {
             const categoryBox = document.getElementById('category-box');
-
+            
             categoryBox.innerHTML = '';
             const innerContainer = document.createElement('div');
             innerContainer.className = 'category-box-inner';
@@ -657,15 +730,23 @@
                 const categoryElement = document.createElement('div');
                 categoryElement.className = 'category-feature';
                 categoryElement.dataset.category = id;
-                label = id
-                    .replace(/_and_/g, ' & ') // Replace _and_ with " & "
-                    .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize the first letter of each word
-
-                categoryElement.innerHTML = `
-                    <i class="fa-solid ${icon}"></i>
-                    <span>${label}</span>
-                `;
-
+                const label = id
+                    .replace(/_and_/g, ' & ')
+                    .replace(/\b\w/g, char => char.toUpperCase());
+                
+                // Create icon element separately to apply color
+                const iconElement = document.createElement('i');
+                iconElement.className = `fa-solid ${icon}`;
+                iconElement.style.color = getCategoryColor(id); // Apply category color
+                
+                // Create text span
+                const textSpan = document.createElement('span');
+                textSpan.textContent = label;
+                
+                // Append elements
+                categoryElement.appendChild(iconElement);
+                categoryElement.appendChild(textSpan);
+                
                 innerContainer.appendChild(categoryElement);
             });
         };
@@ -761,9 +842,6 @@
             // Store the current content of the infoBox
             const currentContent = infoBox.innerHTML;
 
-            // Clear the infoBox only after new content is ready
-            let newContent = '';
-
             const innerContainer = document.createElement('div');
             innerContainer.className = 'info-box-inner';
 
@@ -802,31 +880,208 @@
 
             // Sort features alphabetically by the 'mapname' property
             allFeatures.sort((a, b) => {
-                const nameA = a.properties.id || ''; // Handle undefined values
-                const nameB = b.properties.id || ''; // Handle undefined values
-                return nameA.localeCompare(nameB); // Sort alphabetically
+                const nameA = a.properties.mapname || ''; // Changed from id to mapname for sorting
+                const nameB = b.properties.mapname || '';
+                return nameA.localeCompare(nameB);
             });
 
-            let html = '';
             allFeatures.forEach(feature => {
-                const id = feature.properties.id;
-                const image = feature.properties.img;
-                const imageUrl = `${imgSource}/${image}.png`;
+                const properties = feature.properties;
 
+                // Create feature container
                 const featureElement = document.createElement('div');
                 featureElement.className = 'info-feature';
-                featureElement.dataset.id = id;
+                featureElement.dataset.id = properties.id;
                 featureElement.dataset.feature = JSON.stringify(feature);
 
-                const imageContainer = document.createElement('div');
-                imageContainer.className = 'info-image-container';
+                // Create popup-like structure
+                const popupContent = document.createElement('div');
+                popupContent.className = 'info-popup-content';
 
-                const img = document.createElement('img');
-                img.src = imageUrl;
-                img.className = 'info-image';
+                // Create header section
+                const popupHeader = document.createElement('div');
+                popupHeader.className = 'info-popup-header';
 
-                imageContainer.appendChild(img);
-                featureElement.appendChild(imageContainer);
+                // Create img element
+                if (properties.img) {
+                    const img = document.createElement('img');
+                    img.src = `${imgSource}/${properties.category}_banner.png`;
+                    img.className = 'info-popup-image';
+                    popupHeader.appendChild(img);
+                }
+
+                // Create title
+                const title = document.createElement('h1');
+                title.className = 'info-popup-title';
+                title.textContent = properties.mapname;
+                popupHeader.appendChild(title);
+
+                // Add header to content
+                popupContent.appendChild(popupHeader);
+
+                // Create text content container
+                const textContainer = document.createElement('div');
+                textContainer.className = 'info-popup-text';
+
+                // Add info text if exists
+                if (properties.info) {
+                    const infoText = document.createElement('p');
+                    infoText.textContent = properties.info;
+                    textContainer.appendChild(infoText);
+                }
+
+                // Create contact info container
+                const contactInfo = document.createElement('div');
+                contactInfo.className = 'contact-info';
+
+                // Add Address if exists
+                if (properties.address) {
+                    const addressDiv = document.createElement('div');
+                    addressDiv.className = 'contact-item';
+                    addressDiv.innerHTML = `
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(properties.address)}" 
+                        target="_blank">${properties.address}</a>
+                    `;
+                    contactInfo.appendChild(addressDiv);
+                }
+
+                // Add Phone if exists
+                if (properties.phone) {
+                    const phoneDiv = document.createElement('div');
+                    phoneDiv.className = 'contact-item';
+                    phoneDiv.innerHTML = `
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:${properties.phone}">${properties.phone}</a>
+                    `;
+                    contactInfo.appendChild(phoneDiv);
+                }
+
+                // Add Email if exists
+                if (properties.email) {
+                    const emailDiv = document.createElement('div');
+                    emailDiv.className = 'contact-item';
+                    emailDiv.innerHTML = `
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:${properties.email}">${properties.email}</a>
+                    `;
+                    contactInfo.appendChild(emailDiv);
+                }
+
+                // Add Website if exists
+                if (properties.web) {
+                    const webDiv = document.createElement('div');
+                    webDiv.className = 'contact-item';
+                    webDiv.innerHTML = `
+                        <i class="fa-solid fa-globe"></i>
+                        <a href="${properties.web}" target="_blank">${properties.web.replace(/^https?:\/\//, '')}</a>
+                    `;
+                    contactInfo.appendChild(webDiv);
+                }
+
+                // Add Facebook if exists
+                if (properties.facebook) {
+                    const fbDiv = document.createElement('div');
+                    fbDiv.className = 'contact-item';
+                    fbDiv.innerHTML = `
+                        <i class="fa-brands fa-facebook"></i>
+                        <a href="${properties.facebook}" target="_blank">${properties.facebook.replace(/^https?:\/\//, '')}</a>
+                    `;
+                    contactInfo.appendChild(fbDiv);
+                }
+
+                // Add Instagram if exists
+                if (properties.instagram) {
+                    const igDiv = document.createElement('div');
+                    igDiv.className = 'contact-item';
+                    igDiv.innerHTML = `
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="${properties.instagram}" target="_blank">${properties.instagram.replace(/^https?:\/\//, '')}</a>
+                    `;
+                    contactInfo.appendChild(igDiv);
+                }
+
+                // Only add contact info if at least one exists
+                if (contactInfo.children.length > 0) {
+                    textContainer.appendChild(contactInfo);
+                }
+
+                // Add the complete text container to popup content
+                popupContent.appendChild(textContainer);
+
+                // Create footer container
+                const footer = document.createElement('div');
+                footer.className = 'info-popup-footer';
+
+                // Add Address if exists
+                if (properties.address) {
+                    const addressColumn = document.createElement('div');
+                    addressColumn.className = 'info-footer-column info-footer-address';
+
+                    const searchQuery = encodeURIComponent(`${properties.mapname} ${properties.address}`);
+                    addressColumn.innerHTML = `
+                        <a href="https://www.google.com/maps/search/?api=1&query=${searchQuery}" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+                    `;
+                    footer.appendChild(addressColumn);
+                }
+
+                // Add Phone if exists
+                if (properties.phone) {
+                    const phoneColumn = document.createElement('div');
+                    phoneColumn.className = 'info-footer-column info-footer-phone';
+                    phoneColumn.innerHTML = `
+                        <a href="tel:${properties.phone}"><i class="fa-solid fa-phone"></i></a>
+                    `;
+                    footer.appendChild(phoneColumn);
+                }
+
+                // Add Email if exists
+                if (properties.email) {
+                    const emailColumn = document.createElement('div');
+                    emailColumn.className = 'info-footer-column info-footer-email';
+                    emailColumn.innerHTML = `
+                        <a href="mailto:${properties.email}"><i class="fa-solid fa-envelope"></i></a>
+                    `;
+                    footer.appendChild(emailColumn);
+                }
+
+                // Add Website if exists
+                if (properties.web) {
+                    const webColumn = document.createElement('div');
+                    webColumn.className = 'info-footer-column info-footer-web';
+                    webColumn.innerHTML = `
+                        <a href="${properties.web}" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                    `;
+                    footer.appendChild(webColumn);
+                }
+
+                // Add Facebook if exists
+                if (properties.facebook) {
+                    const facebookColumn = document.createElement('div');
+                    facebookColumn.className = 'info-footer-column info-footer-facebook';
+                    facebookColumn.innerHTML = `
+                        <a href="${properties.facebook}" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    `;
+                    footer.appendChild(facebookColumn);
+                }
+
+                // Add Instagram if exists
+                if (properties.instagram) {
+                    const instagramColumn = document.createElement('div');
+                    instagramColumn.className = 'info-footer-column info-footer-instagram';
+                    instagramColumn.innerHTML = `
+                        <a href="${properties.instagram}" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    `;
+                    footer.appendChild(instagramColumn);
+                }
+
+                // Only add footer if at least one contact method exists
+                if (footer.children.length > 0) {
+                    popupContent.appendChild(footer);
+                }
+
+                // Add the complete popup content to the feature element
+                featureElement.appendChild(popupContent);
                 innerContainer.appendChild(featureElement);
             });
 
@@ -836,7 +1091,6 @@
             if (innerContainer.children.length === 0 && currentContent) {
                 infoBox.innerHTML = currentContent;
             }
-
         };
 
         function hideInfoBox() {
@@ -912,7 +1166,7 @@
             createCategoryBox();
         });
 
-        map.on('data', (e) => {
+        map.once('data', (e) => {
             if (e.sourceId === 'location' && e.isSourceLoaded) {
                 updateInfoBox();
             }
