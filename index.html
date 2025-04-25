@@ -223,7 +223,9 @@
 
         .contact-item a {
             text-decoration: none;
-            word-break: break-all;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         }
 
         .info-popup-footer {
@@ -262,6 +264,7 @@
             align-items: center;
             width: fit-content;
             pointer-events: none;
+            z-index: 1;
         }
 
         .custom-marker-img-container {
@@ -297,6 +300,16 @@
                 1px -1px 0 white,
                 -1px 1px 0 white,
                 1px 1px 0 white;
+        }
+
+        .custom-marker.active {
+            z-index: 999;
+        }
+
+        .custom-marker.active .custom-marker-img-container{
+            transform: scale(2);
+            transition: transform 0.2s ease;
+            background-color: hsl(0, 0%, 100%);
         }
 
         #map-controls {
@@ -587,29 +600,41 @@
 
                     // Handle clicks on marker layer
                     document.addEventListener('click', (e) => {
-                        // 1. Detect clicks on:
-                        const clickedElement = e.target.closest(
-                            '.custom-marker-img-container'
-                        );
-                        if (!clickedElement) return;
+                        // Check if clicking a marker image container
+                        const clickedElement = e.target.closest('.custom-marker-img-container');
+                        const parentMarker = clickedElement?.closest('.custom-marker');
 
-                        // 2. Get the nearest parent with feature data
+                        // Check if clicking anywhere EXCEPT markers
+                        if (!parentMarker) {
+                            // Remove active class from all markers
+                            document.querySelectorAll('.custom-marker.active').forEach(el => {
+                                el.classList.remove('active');
+                            });
+                            return;
+                        }
+
+                        // If we got here, we're clicking a marker
+                        
+                        // Remove active class from all markers first
+                        document.querySelectorAll('.custom-marker.active').forEach(el => {
+                            // Don't remove from current marker if it's already active (toggle behavior)
+                            if (el !== parentMarker) {
+                                el.classList.remove('active');
+                            }
+                        });
+
+                        // Toggle active state on clicked marker
+                        parentMarker.classList.toggle('active');
+
+                        // Handle feature data
                         const featureElement = clickedElement.closest('[data-feature]');
-                        if (!featureElement) return;
-
-                        // 3. Parse and pass the feature
-                        try {
-                            const feature = JSON.parse(featureElement.dataset.feature);
-                            clickFeature(feature);
-
-                            // Add active class
-                            // document.querySelectorAll('.custom-marker-img-container.active').forEach(el => {
-                            //     el.classList.remove('active');
-                            // });
-                            // featureElement.classList.add('active');
-
-                        } catch (error) {
-                            console.error("Couldn't parse feature data:", error);
+                        if (featureElement) {
+                            try {
+                                const feature = JSON.parse(featureElement.dataset.feature);
+                                clickFeature(feature);
+                            } catch (error) {
+                                console.error("Couldn't parse feature data:", error);
+                            }
                         }
                     });
 
@@ -870,14 +895,15 @@
                 // Create header section
                 const popupHeader = document.createElement('div');
                 popupHeader.className = 'info-popup-header';
+                popupHeader.style.backgroundColor = getCategoryColor(properties.category); 
 
-                // Create img element
-                if (properties.img) {
-                    const img = document.createElement('img');
-                    img.src = `${imgSource}/${properties.category}_banner.png`;
-                    img.className = 'info-popup-image';
-                    popupHeader.appendChild(img);
-                }
+                // Create img banner
+                // if (properties.img) {
+                //     const img = document.createElement('img');
+                //     img.src = `${imgSource}/${properties.category}_banner.png`;
+                //     img.className = 'info-popup-image';
+                //     popupHeader.appendChild(img);
+                // }
 
                 // Create title
                 const title = document.createElement('h1');
@@ -1126,7 +1152,7 @@
                 map.easeTo({
                     center: coordinates,
                     zoom: zoomThreshold + 2,
-                    offset: [0, -50],
+                    offset: [0, -100],
                     essential: true
                 });
 
@@ -1171,8 +1197,19 @@
                 
                 if (featureStart <= centerX && featureEnd >= centerX) {
                     const featureData = JSON.parse(feature.dataset.feature);
-                    console.log('Centered feature:', featureData.properties.id);
                     
+                    // Remove active class from all markers first
+                    document.querySelectorAll('.custom-marker.active').forEach(el => {
+                        el.classList.remove('active');
+                    });
+
+                    // Find and activate the corresponding map marker
+                    const markerId = featureData.properties.id;
+                    const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
+                    if (markerElement) {
+                        markerElement.classList.add('active');
+                    }
+
                     // Fly to the feature's coordinates
                     flyToFeature(featureData.geometry.coordinates);
                     return featureData.properties.id;
