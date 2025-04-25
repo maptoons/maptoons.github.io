@@ -102,6 +102,11 @@
             z-index: 1000;
             height: auto;
             margin: 0 auto;
+            display: none;
+        }
+
+        #info-box.visible {
+            display: block;
         }
 
         .info-box-inner {
@@ -641,6 +646,9 @@
                         }
                     });
 
+                    // Close infobox on click
+                    setupInfoBoxAutoClose();
+
                 });
         });
 
@@ -790,6 +798,8 @@
             const features = map.querySourceFeatures('location');
             const infoBox = document.getElementById('info-box');
             let uniqueFeatures = new Map();
+
+            infoBox.classList.add('visible');
 
             // Store the current content of the infoBox
             const currentContent = infoBox.innerHTML;
@@ -1062,13 +1072,34 @@
             setupFeatureTracking();
         };
 
-        // Optional: Auto-close when clicking outside
-        document.addEventListener('click', (e) => {
+        // Close infobox on map click
+        let clickOutsideHandler;
+
+        function setupInfoBoxAutoClose() {
+        // Remove previous handler if exists
+        if (clickOutsideHandler) {
+            document.removeEventListener('click', clickOutsideHandler);
+        }
+
+        clickOutsideHandler = (e) => {
             const infoBox = document.getElementById('info-box');
-            if (!infoBox.contains(e.target)) {
-                document.getElementById('info-box').classList.remove('visible');
+            if (!infoBox?.classList.contains('visible')) return;
+
+            const protected = [
+            '.mapboxgl-marker',
+            '.custom-marker',
+            '#refresh-features-btn',
+            '#info-box',
+            '.maplibregl-popup' // Add if using popups
+            ].join(',');
+
+            if (!e.target.closest(protected)) {
+            infoBox.classList.remove('visible');
             }
-        });
+        };
+
+        document.addEventListener('click', clickOutsideHandler);
+        }
 
         // Helper function to handle clicks
         const clickFeature = (feature) => {
