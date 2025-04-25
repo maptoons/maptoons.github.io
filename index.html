@@ -112,9 +112,19 @@
             scroll-padding: 0 calc(50vw - 150px); /* Center a 300px-wide item */
             gap: 10px;
             width: 100%;
-            padding-left: 300px; /* Add space before the first item */
-            padding-right: 300px; /* Add space after the last item */
             scrollbar-width: none;
+        }
+
+        /* Center items with pseudo-elements */
+        .info-box-inner::before,
+        .info-box-inner::after {
+            content: "";
+            flex: 0 0 calc(50% - 150px); /* Half viewport minus half item width */
+            scroll-snap-align: none;
+        }
+
+        .info-box-inner::-webkit-scrollbar {
+            display: none;
         }
 
         .info-feature {
@@ -138,11 +148,12 @@
 
         .info-popup-header {
             position: relative;
-            height: 60px;
+            height: 50px;
             width: 100%;
-            overflow: hidden;
             text-align: center;
             flex-shrink: 0;
+            background-color: hsl(0, 0%, 97%);
+            overflow: visible;
         }
 
         .info-popup-header img {
@@ -159,11 +170,12 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 100%;
+            width: 96%;
             color: hsl(0, 0%, 100%);
-            text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
-            font-size: 18px;
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
+            font-size: 16px;
             font-weight: 800;
+            padding: 5px;
             overflow: hidden;
         }
 
@@ -189,8 +201,6 @@
 
         .contact-info {
             margin-top: 10px;
-            padding-top: 10px;
-            border-top: 1px solid #eee;
         }
 
         .contact-item {
@@ -241,13 +251,12 @@
         }
 
         .custom-marker {
-            display: flex;
+            display: inline-flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            pointer-events: auto;
-            cursor: pointer;
             width: fit-content;
+            pointer-events: none;
         }
 
         .custom-marker-img-container {
@@ -260,6 +269,8 @@
             border-radius: 50%;
             border: 2px solid hsl(0, 0%, 100%);
             filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
+            pointer-events: auto;
+            cursor: pointer;
         }
 
         .custom-marker-img {
@@ -344,7 +355,7 @@
         }
 
         p {
-            font-size: 1rem;
+            font-size: 14px;
             font-weight: 400;
             letter-spacing: 0.001rem;
             line-height: 1.5rem;
@@ -385,12 +396,12 @@
         const map = new maplibregl.Map({
             container: "map",
             style: styleFile,
-            center: [-73.52307, 40.765],
+            center: [-73.52547, 40.76562],
             //maxBounds: bounds,
-            zoom: zoomThreshold + 0.1,
-            //minZoom: 12,
+            zoom: zoomThreshold + 0.4,
+            minZoom: 7,
             maxZoom: 18,
-            bearing: 20,
+            bearing: 0,
             pitch: 20,
             hash: true,
             pixelRatio: 1
@@ -587,7 +598,7 @@
                             clickFeature(feature);
 
                             // Add active class
-                            // document.querySelectorAll('.custom-marker-img.active').forEach(el => {
+                            // document.querySelectorAll('.custom-marker-img-container.active').forEach(el => {
                             //     el.classList.remove('active');
                             // });
                             // featureElement.classList.add('active');
@@ -820,10 +831,17 @@
             let allFeatures = Array.from(uniqueFeatures.values());
 
             // Sort features alphabetically by the 'mapname' property
+            // allFeatures.sort((a, b) => {
+            //     const nameA = a.properties.mapname || ''; // Changed from id to mapname for sorting
+            //     const nameB = b.properties.mapname || '';
+            //     return nameA.localeCompare(nameB);
+            // });
+
+            // Sort features by longitude (east to west)
             allFeatures.sort((a, b) => {
-                const nameA = a.properties.mapname || ''; // Changed from id to mapname for sorting
-                const nameB = b.properties.mapname || '';
-                return nameA.localeCompare(nameB);
+                const lonA = a.geometry.coordinates[0]; // Get longitude from first array element
+                const lonB = b.geometry.coordinates[0];
+                return lonA - lonB; // Sort from west (negative) to east (positive)
             });
 
             allFeatures.forEach(feature => {
@@ -1024,9 +1042,9 @@
                 }
 
                 // Only add footer if at least one contact method exists
-                if (footer.children.length > 0) {
-                    popupContent.appendChild(footer);
-                }
+                // if (footer.children.length > 0) {
+                //     popupContent.appendChild(footer);
+                // }
 
                 // Add the complete popup content to the feature element
                 featureElement.appendChild(popupContent);
@@ -1039,20 +1057,20 @@
             if (innerContainer.children.length === 0 && currentContent) {
                 infoBox.innerHTML = currentContent;
             }
-        };
 
-        function hideInfoBox() {
-            document.getElementById('info-box').classList.remove('visible');
-        }
+            // Get center feature
+            setupFeatureTracking();
+        };
 
         // Optional: Auto-close when clicking outside
         document.addEventListener('click', (e) => {
             const infoBox = document.getElementById('info-box');
             if (!infoBox.contains(e.target)) {
-                hideInfoBox();
+                document.getElementById('info-box').classList.remove('visible');
             }
         });
 
+        // Helper function to handle clicks
         const clickFeature = (feature) => {
             let coordinates = feature.geometry.coordinates;
 
@@ -1064,12 +1082,13 @@
                 updateInfoBox();
 
                 // Scroll to feature in infobox
-                scrollToFeatureInfo(feature.properties.id);
+                scrollToFeatureInfo(feature);
             } catch (error) {
                 console.error('Error handling feature click:', error);
             }
         };
 
+        // Helper function to fly to feature
         const flyToFeature = (coordinates) => {
             return new Promise((resolve) => {
 
@@ -1085,24 +1104,76 @@
         };
 
         // Helper function to scroll to feature info
-        const scrollToFeatureInfo = (featureId) => {
+        const scrollToFeatureInfo = (feature) => {
+            const featureId = feature.properties.id;
             const infoBox = document.querySelector(`.info-feature[data-id="${featureId}"]`);
+            
             if (infoBox) {
-                // Small timeout ensures DOM update is complete
-                setTimeout(() => {
+                // Use requestAnimationFrame for better timing
+                requestAnimationFrame(() => {
                     infoBox.scrollIntoView({
                         behavior: 'smooth',
-                        block: 'center',
+                        block: 'nearest',  // Better for horizontal scrolling
                         inline: 'center'
                     });
-
-                    // Add highlight effect
-                    infoBox.classList.add('highlight');
-                    //setTimeout(() => infoBox.classList.remove('highlight'), 2000); // timed highlight
-                }, 100);
+                    
+                    // Highlight effect
+                    //infoBox.classList.add('highlight');
+                    //setTimeout(() => infoBox.classList.remove('highlight'), 1500);
+                });
             }
         };
 
+        // Helper function to get center infobox feature
+        function handleCenterFeature() {
+            const container = document.querySelector('.info-box-inner');
+            if (!container) return;
+
+            // Calculate center position
+            const centerX = container.scrollLeft + (container.offsetWidth / 2);
+
+            // Find centered feature
+            const features = document.querySelectorAll('.info-feature');
+            for (const feature of features) {
+                const featureStart = feature.offsetLeft;
+                const featureEnd = featureStart + feature.offsetWidth;
+                
+                if (featureStart <= centerX && featureEnd >= centerX) {
+                    const featureData = JSON.parse(feature.dataset.feature);
+                    console.log('Centered feature:', featureData.properties.id);
+                    
+                    // Fly to the feature's coordinates
+                    flyToFeature(featureData.geometry.coordinates);
+                    return featureData.properties.id;
+                }
+            }
+        }
+
+        // Helper function scroll listener
+        let isUserScrolling = false;
+
+        function setupFeatureTracking() {
+            const container = document.querySelector('.info-box-inner');
+            if (!container) return;
+
+            // Detect ALL user scroll initiations (mouse, trackpad, touch, wheel)
+            container.addEventListener('mousedown', () => isUserScrolling = true);
+            container.addEventListener('touchstart', () => isUserScrolling = true);
+            container.addEventListener('wheel', () => isUserScrolling = true, { passive: true });
+
+            // Handle scroll events
+            container.addEventListener('scroll', () => {
+                if (!isUserScrolling) return; // Ignore programmatic scrolls
+                
+                clearTimeout(window.scrollTimer);
+                window.scrollTimer = setTimeout(() => {
+                    handleCenterFeature(); // Your existing center-feature function
+                    isUserScrolling = false; // Reset after scroll ends
+                }, 150); // 150ms delay after scrolling stops
+            });
+        }
+
+        // Helper function to get category color
         const getCategoryColor = (category) => {
             const colorMap = {
                 'eat_and_drink': 'hsl(35, 100%, 60%)',
@@ -1130,12 +1201,14 @@
             createCategoryBox();
         });
 
+        // Update infobox in real time
         // map.on('data', (e) => {
         //     if (e.sourceId === 'location' && e.isSourceLoaded) {
         //         updateInfoBox();
         //     }
         // });
 
+        // Log clicks
         map.on('click', (e) => {
             const features = map.queryRenderedFeatures(e.point);
             if (features.length > 0) {
