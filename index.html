@@ -137,9 +137,6 @@
             width: 300px;
             height: 200px;
             scroll-snap-align: center;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
         }
 
         .info-popup-content {
@@ -149,6 +146,9 @@
             height: 100%;
             overflow-y: auto;
             overflow-x: hidden;
+            border-radius: 5px;
+            background: hsl(0, 0%, 100%);
+            box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
         }
 
         .info-popup-header {
@@ -272,8 +272,8 @@
             justify-content: center;
             align-items: center;
             background-color: hwb(0 100% 0%);
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
             border: 2px solid hsl(0, 0%, 100%);
             filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
@@ -307,7 +307,7 @@
         }
 
         .custom-marker.active .custom-marker-img-container{
-            transform: scale(2);
+            transform: scale(4);
             transition: transform 0.2s ease;
             background-color: hsl(0, 0%, 100%);
         }
@@ -612,8 +612,6 @@
                             });
                             return;
                         }
-
-                        // If we got here, we're clicking a marker
                         
                         // Remove active class from all markers first
                         document.querySelectorAll('.custom-marker.active').forEach(el => {
@@ -670,10 +668,8 @@
                             currentActiveCategory = category;
                         }
                     });
-
                     // Close infobox on click
                     setupInfoBoxAutoClose();
-
                 });
         });
 
@@ -1151,7 +1147,7 @@
 
                 map.easeTo({
                     center: coordinates,
-                    zoom: zoomThreshold + 2,
+                    zoom: zoomThreshold + 3,
                     offset: [0, -100],
                     essential: true
                 });
@@ -1203,15 +1199,16 @@
                         el.classList.remove('active');
                     });
 
-                    // Find and activate the corresponding map marker
-                    const markerId = featureData.properties.id;
-                    const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
-                    if (markerElement) {
-                        markerElement.classList.add('active');
-                    }
+                    flyToFeature(featureData.geometry.coordinates).then(() => {
 
-                    // Fly to the feature's coordinates
-                    flyToFeature(featureData.geometry.coordinates);
+                        // Find and activate the corresponding map marker
+                        const markerId = featureData.properties.id;
+                        const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
+                        if (markerElement) {
+                            markerElement.classList.add('active');
+                        }
+
+                    });
                     return featureData.properties.id;
                 }
             }
@@ -1228,6 +1225,15 @@
             container.addEventListener('mousedown', () => isUserScrolling = true);
             container.addEventListener('touchstart', () => isUserScrolling = true);
             container.addEventListener('wheel', () => isUserScrolling = true, { passive: true });
+
+            // Add keyboard scroll detection (NEW)
+            document.addEventListener('keydown', (e) => {
+                const scrollKeys = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 
+                                'PageUp', 'PageDown', 'Home', 'End'];
+                if (scrollKeys.includes(e.key)) {
+                    isUserScrolling = true;
+                }
+            });
 
             // Handle scroll events
             container.addEventListener('scroll', () => {
