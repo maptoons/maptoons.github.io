@@ -41,7 +41,7 @@
 		},
 		{
 			"source": "osm",
-			"id": "street-major",
+			"id": "street",
 			"type": "line",
 			"source-layer": "streets",
 			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
@@ -57,7 +57,7 @@
 		},
 		{
 			"source": "osm",
-			"id": "label-street-major",
+			"id": "label-street",
 			"type": "symbol",
 			"source-layer": "street_labels",
 			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
