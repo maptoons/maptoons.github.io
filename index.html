@@ -310,20 +310,34 @@
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            background-color: hwb(0 100% 0%);
+            background-color: hsl(0 0% 100%);
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
             width: 35px;
             height: 35px;
-            border-radius: 50%;
-            border: 2px solid hsl(0, 0%, 100%);
-            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
+            border-radius: 5px;
             pointer-events: auto;
             cursor: pointer;
         }
 
+        .custom-marker-img-container::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 6px solid hsl(0 0% 100%);
+            opacity: inherit;
+        }
+
         .custom-marker-img {
             display: block;
-            max-width: 25px;
-            max-height: 25px;
+            isolation: isolate;
+            max-width: 30px;
+            max-height: 30px;
         }
 
         .custom-marker-label {
@@ -531,7 +545,10 @@
                                 15,
                                 10, 20,
                                 25, 25
-                            ]
+                            ],
+                            'circle-stroke-width': 1,
+                            'circle-stroke-color': 'hsl(0, 0%, 50%)',
+                            'circle-stroke-opacity': 1
                         }
                     });
 
@@ -570,8 +587,6 @@
                                 ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 24%)',
                                 'hsl(0, 0%, 100%)' // default color if none match
                             ],
-                            'circle-stroke-width': 0,
-                            'circle-stroke-color': 'hsl(0, 0%, 0%)',
                             'circle-opacity': [
                                 'step',
                                 ['zoom'],
@@ -582,13 +597,33 @@
                                 zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
 
                                 // T disappears at zoomThreshold + 1
-                                zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
+                                zoomThreshold + 0.5, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
 
                                 // D disappears at zoomThreshold + 1.5
-                                zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
+                                zoomThreshold + 1, ['match', ['get', 'priority'], ['S'], 1, 0],
 
                                 // S disappears at zoomThreshold + 2
-                                zoomThreshold + 2, 0
+                                zoomThreshold + 1.5, 0
+                            ],
+                            'circle-stroke-width': 2,
+                            'circle-stroke-color': 'hsl(0, 0%, 100%)',
+                            'circle-stroke-opacity': [
+                                'step',
+                                ['zoom'],
+                                // Default state (zoom < zoomThreshold): All priorities visible
+                                ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
+
+                                // Q disappears at zoomThreshold
+                                zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
+
+                                // T disappears at zoomThreshold + 1
+                                zoomThreshold + 0.5, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
+
+                                // D disappears at zoomThreshold + 1.5
+                                zoomThreshold + 1, ['match', ['get', 'priority'], ['S'], 1, 0],
+
+                                // S disappears at zoomThreshold + 2
+                                zoomThreshold + 1.5, 0
                             ]
                         }
                     });
@@ -725,6 +760,8 @@
                         btn.style.display = 'block';
                     });
 
+                    map.on('load', handleMarkerCollisions);
+
                 });
         });
 
@@ -753,52 +790,60 @@
             categoryBox.appendChild(innerContainer);
 
             const dropdownWrapper = document.createElement('div');
-dropdownWrapper.className = 'category-dropdown-wrapper';
+            dropdownWrapper.className = 'category-dropdown-wrapper';
 
-// Dropdown button (the part you click)
-const dropdownButton = document.createElement('div');
-dropdownButton.className = 'dropdown-button';
-dropdownButton.textContent = 'Jump To...';
+            // Dropdown button (the part you click)
+            const dropdownButton = document.createElement('div');
+            dropdownButton.className = 'dropdown-button';
+            dropdownButton.textContent = 'Jump To...';
 
-// Dropdown menu (the collapsible part)
-const dropdownMenu = document.createElement('div');
-dropdownMenu.className = 'dropdown-menu';
+            // Dropdown menu (the collapsible part)
+            const dropdownMenu = document.createElement('div');
+            dropdownMenu.className = 'dropdown-menu';
 
-// Example locations
-const locations = [
-    { id: 'loc1', name: 'Location 1' },
-    { id: 'loc2', name: 'Location 2' },
-    { id: 'loc3', name: 'Location 3' }
-];
+            // Example locations
+            const locations = [
+                { id: 'loc1', name: 'Location 1' },
+                { id: 'loc2', name: 'Location 2' },
+                { id: 'loc3', name: 'Location 3' }
+            ];
 
-// Add locations to the dropdown menu
-locations.forEach(location => {
-    const option = document.createElement('div');
-    option.className = 'dropdown-option';
-    option.dataset.value = location.id;
-    option.textContent = location.name;
-    
-    // Click event to select an option
-    option.addEventListener('click', () => {
-        dropdownButton.textContent = location.name; // Update button text
-        dropdownMenu.classList.remove('open'); // Close menu
-        // you can trigger anything here, like flying to location
-    });
+            // Add locations to the dropdown menu
+            locations.forEach(location => {
+                const option = document.createElement('div');
+                option.className = 'dropdown-option';
+                option.dataset.value = location.id;
+                option.textContent = location.name;
+                
+                // Click event to select an option
+                option.addEventListener('click', () => {
+                    dropdownButton.textContent = location.name; // Update button text
+                    dropdownMenu.classList.remove('open'); // Close menu
+                    // you can trigger anything here, like flying to location
+                });
 
-    dropdownMenu.appendChild(option);
-});
+                dropdownMenu.appendChild(option);
+            });
 
-// Toggle menu open/close when clicking the button
-dropdownButton.addEventListener('click', () => {
-    dropdownMenu.classList.toggle('open');
-});
+            // Toggle menu open/close
+            dropdownButton.addEventListener('click', (e) => {
+                e.stopPropagation(); // prevent the click from bubbling up
+                dropdownMenu.classList.toggle('open');
+            });
 
-// Assemble the dropdown
-dropdownWrapper.appendChild(dropdownButton);
-dropdownWrapper.appendChild(dropdownMenu);
+            // Close the menu on any outside click
+            document.addEventListener('click', (e) => {
+                if (!dropdownWrapper.contains(e.target)) {
+                    dropdownMenu.classList.remove('open');
+                }
+            });
 
-// Insert into the container
-innerContainer.appendChild(dropdownWrapper);
+            // Assemble the dropdown
+            dropdownWrapper.appendChild(dropdownButton);
+            dropdownWrapper.appendChild(dropdownMenu);
+
+            // Insert into the container
+            innerContainer.appendChild(dropdownWrapper);
 
             // Categories
             const categories = [
@@ -881,31 +926,42 @@ innerContainer.appendChild(dropdownWrapper);
                     el.dataset.id = id;
                     el.dataset.feature = JSON.stringify(features[i]);
 
+                    // Set z-index based on priority
+                    const priorityZIndex = {
+                        'Q': 400,  // Highest priority
+                        'T': 300,
+                        'D': 200,
+                        'S': 100   // Lowest priority
+                    };
+
+                    // Default to lowest priority if not specified
+                    el.style.zIndex = priorityZIndex[props.priority] || 100; 
+
                     // Create image container div
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
-                    imgContainer.style.backgroundColor = getCategoryColor(props.category);
+                    //imgContainer.style.backgroundColor = getCategoryColor(props.category);
 
                     // Create image element
                     const img = document.createElement('img');
                     img.src = `${imgSource}/${props.img}.png`;
                     img.className = 'custom-marker-img';
 
-                    // Create label element
-                    const label = document.createElement('p');
-                    label.innerText = `${props.mapname}`;
-                    label.className = 'custom-marker-label';
-                    //label.style.color = getCategoryColor(props.category);
-
-                    // Build the structure
                     imgContainer.appendChild(img);
                     el.appendChild(imgContainer);
-                    el.appendChild(label);
+
+                    // Create label element
+                    // const label = document.createElement('p');
+                    // label.innerText = `${props.mapname}`;
+                    // label.className = 'custom-marker-label';
+                    // label.style.color = getCategoryColor(props.category);
+
+                    // el.appendChild(label);
 
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
-                        anchor: 'center',
-                        offset: [0, 15]
+                        anchor: 'bottom',
+                        offset: [0, -5]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
@@ -1365,6 +1421,77 @@ innerContainer.appendChild(dropdownWrapper);
             };
             return colorMap[category] || colorMap.default;
         };
+
+// Helper function for marker collisions
+function handleMarkerCollisions() {
+    const allMarkers = Array.from(document.querySelectorAll('.custom-marker'));
+    const markerPositions = [];
+    
+    // Calculate positions and z-indexes
+    allMarkers.forEach(marker => {
+        const rect = marker.getBoundingClientRect();
+        const zIndex = parseInt(window.getComputedStyle(marker).zIndex) || 0;
+        
+        markerPositions.push({
+            element: marker,
+            x: rect.left,
+            y: rect.top,
+            width: rect.width,
+            height: rect.height,
+            zIndex: zIndex,
+            id: marker.dataset.id
+        });
+    });
+
+    // Sort markers by z-index (highest first)
+    markerPositions.sort((a, b) => b.zIndex - a.zIndex);
+
+    // Reset all to opaque first
+    allMarkers.forEach(marker => {
+        const imgContainer = marker.querySelector('.custom-marker-img-container');
+        if (imgContainer) imgContainer.style.opacity = '1';
+    });
+
+    // Check collisions with z-index priority
+    for (let i = 0; i < markerPositions.length; i++) {
+        const markerA = markerPositions[i];
+        const imgContainerA = markerA.element.querySelector('.custom-marker-img-container');
+        if (!imgContainerA) continue;
+
+        for (let j = i + 1; j < markerPositions.length; j++) {
+            const markerB = markerPositions[j];
+            
+            for (let j = i + 1; j < markerPositions.length; j++) {
+                const markerB = markerPositions[j];
+                
+                if (checkCollision(markerA, markerB)) {
+                    // Make the TOP marker (higher z-index) semi-transparent
+                    imgContainerA.style.opacity = '0.6';
+                    // Keep lower markers opaque
+                    const imgContainerB = markerB.element.querySelector('.custom-marker-img-container');
+                    if (imgContainerB) imgContainerB.style.opacity = '1';
+                }
+            }
+        }
+    }
+}
+
+// Helper function to check collision
+function checkCollision(a, b) {
+    return !(
+        a.y + a.height < b.y ||
+        a.y > b.y + b.height ||
+        a.x + a.width < b.x ||
+        a.x > b.x + b.width
+    );
+}
+
+// Run collision detection periodically and after movement
+map.on('render', () => {
+    if (map.isMoving()) {
+        handleMarkerCollisions();
+    }
+});
 
         // Update markers on the screen and do so on every map move/moveend
         map.on('data', (e) => {
