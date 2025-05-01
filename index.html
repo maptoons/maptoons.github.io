@@ -75,6 +75,7 @@
             top: 50px;
             left: 10px;
             width: 150px;
+            padding: 10px;
             border-radius: 5px;
             background: hsl(0, 0%, 100%);
             z-index: 2000;
@@ -86,7 +87,7 @@
         }
 
         .dropdown-option {
-            padding: 2px 10px;
+            padding: 5px;
             cursor: pointer;
         }
 
@@ -142,6 +143,7 @@
             height: auto;
             margin: 0 auto;
             display: none;
+            overflow: visible;
         }
 
         #info-box.visible {
@@ -150,6 +152,7 @@
 
         .info-box-inner {
             display: flex;
+            overflow-y: visible;
             overflow-x: auto;
             scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
@@ -157,6 +160,7 @@
             gap: 10px;
             width: 100%;
             scrollbar-width: none;
+            padding-top: 10px;
         }
 
         /* Center items with pseudo-elements */
@@ -178,6 +182,11 @@
             scroll-snap-align: center;
         }
 
+        .info-feature.active {
+            position: relative;
+            transform: translate(0, -10px);
+        }
+        
         .info-popup-content {
             position: relative;
             display: flex;
@@ -194,19 +203,40 @@
             position: relative;
             height: 50px;
             width: 100%;
-            text-align: center;
-            flex-shrink: 0;
-            background-color: hsl(0, 0%, 97%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
             overflow: visible;
         }
 
-        .info-popup-header img {
+        .info-popup-banner {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
             object-fit: cover;
             object-position: center;
-            display: block;
-            flex-shrink: 0;
+            z-index: 0;
+            pointer-events: none;
+            filter: grayscale(100%);
+        }
+
+        .info-popup-banner-overlay {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+            mix-blend-mode: overlay;
+        }
+
+        .info-popup-image {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            z-index: 1;
         }
 
         .info-popup-title {
@@ -306,38 +336,44 @@
             z-index: 1;
         }
 
+        .custom-marker-img-container:hover {
+            transform: scale(1.5);
+        }
+
+        .custom-marker.active {
+            z-index: 999;
+        }
+
+        .custom-marker.active .custom-marker-img-container{
+            transform: scale(1.5);
+            transform-origin: bottom center;
+            transition: transform 0.2s ease;
+        }
+
+        .custom-marker.active .custom-marker-label{
+            transform: scale(1.5);
+            transform-origin: top center;
+            transition: transform 0.2s ease;
+        }
+
         .custom-marker-img-container {
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            background-color: hsl(0 0% 100%);
-            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
+            background-color: hsl(0 0% 97%);
             width: 35px;
             height: 35px;
-            border-radius: 5px;
+            border-radius: 50%;
+            border: 2px solid hsl(0, 0%, 100%);
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
             pointer-events: auto;
             cursor: pointer;
         }
 
-        .custom-marker-img-container::after {
-            content: '';
-            position: absolute;
-            bottom: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 0;
-            border-left: 6px solid transparent;
-            border-right: 6px solid transparent;
-            border-top: 6px solid hsl(0 0% 100%);
-            opacity: inherit;
-        }
-
         .custom-marker-img {
             display: block;
-            isolation: isolate;
-            max-width: 30px;
-            max-height: 30px;
+            max-width: 25px;
+            max-height: 25px;
         }
 
         .custom-marker-label {
@@ -353,16 +389,6 @@
                 1px -1px 0 white,
                 -1px 1px 0 white,
                 1px 1px 0 white;
-        }
-
-        .custom-marker.active {
-            z-index: 999;
-        }
-
-        .custom-marker.active .custom-marker-img{
-            transform: scale(8);
-            filter: drop-shadow(1px 1px 1px hsla(0, 0%, 0%, 0.3));
-            transition: transform 0.2s ease;
         }
 
         #map-controls {
@@ -442,6 +468,7 @@
 
 <body>
     <div class="container">
+        <div id="header"></div>
         <div id="map"></div>
         <div id="info-box"></div>
         <div id="category-box"></div>
@@ -545,10 +572,7 @@
                                 15,
                                 10, 20,
                                 25, 25
-                            ],
-                            'circle-stroke-width': 1,
-                            'circle-stroke-color': 'hsl(0, 0%, 50%)',
-                            'circle-stroke-opacity': 1
+                            ]
                         }
                     });
 
@@ -587,6 +611,8 @@
                                 ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 24%)',
                                 'hsl(0, 0%, 100%)' // default color if none match
                             ],
+                            'circle-stroke-width': 0,
+                            'circle-stroke-color': 'hsl(0, 0%, 0%)',
                             'circle-opacity': [
                                 'step',
                                 ['zoom'],
@@ -597,33 +623,13 @@
                                 zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
 
                                 // T disappears at zoomThreshold + 1
-                                zoomThreshold + 0.5, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
+                                zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
 
                                 // D disappears at zoomThreshold + 1.5
-                                zoomThreshold + 1, ['match', ['get', 'priority'], ['S'], 1, 0],
+                                zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
 
                                 // S disappears at zoomThreshold + 2
-                                zoomThreshold + 1.5, 0
-                            ],
-                            'circle-stroke-width': 2,
-                            'circle-stroke-color': 'hsl(0, 0%, 100%)',
-                            'circle-stroke-opacity': [
-                                'step',
-                                ['zoom'],
-                                // Default state (zoom < zoomThreshold): All priorities visible
-                                ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
-
-                                // Q disappears at zoomThreshold
-                                zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
-
-                                // T disappears at zoomThreshold + 1
-                                zoomThreshold + 0.5, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
-
-                                // D disappears at zoomThreshold + 1.5
-                                zoomThreshold + 1, ['match', ['get', 'priority'], ['S'], 1, 0],
-
-                                // S disappears at zoomThreshold + 2
-                                zoomThreshold + 1.5, 0
+                                zoomThreshold + 2, 0
                             ]
                         }
                     });
@@ -760,8 +766,6 @@
                         btn.style.display = 'block';
                     });
 
-                    map.on('load', handleMarkerCollisions);
-
                 });
         });
 
@@ -825,17 +829,9 @@
                 dropdownMenu.appendChild(option);
             });
 
-            // Toggle menu open/close
-            dropdownButton.addEventListener('click', (e) => {
-                e.stopPropagation(); // prevent the click from bubbling up
+            // Toggle menu open/close when clicking the button
+            dropdownButton.addEventListener('click', () => {
                 dropdownMenu.classList.toggle('open');
-            });
-
-            // Close the menu on any outside click
-            document.addEventListener('click', (e) => {
-                if (!dropdownWrapper.contains(e.target)) {
-                    dropdownMenu.classList.remove('open');
-                }
             });
 
             // Assemble the dropdown
@@ -926,42 +922,32 @@
                     el.dataset.id = id;
                     el.dataset.feature = JSON.stringify(features[i]);
 
-                    // Set z-index based on priority
-                    const priorityZIndex = {
-                        'Q': 400,  // Highest priority
-                        'T': 300,
-                        'D': 200,
-                        'S': 100   // Lowest priority
-                    };
-
-                    // Default to lowest priority if not specified
-                    el.style.zIndex = priorityZIndex[props.priority] || 100; 
-
                     // Create image container div
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
                     //imgContainer.style.backgroundColor = getCategoryColor(props.category);
+                    imgContainer.style.border = `2px solid ${getCategoryColor(props.category)}`;
 
                     // Create image element
                     const img = document.createElement('img');
                     img.src = `${imgSource}/${props.img}.png`;
                     img.className = 'custom-marker-img';
 
+                    // Create label element
+                    const label = document.createElement('p');
+                    label.innerText = `${props.mapname}`;
+                    label.className = 'custom-marker-label';
+                    //label.style.color = getCategoryColor(props.category);
+
+                    // Build the structure
                     imgContainer.appendChild(img);
                     el.appendChild(imgContainer);
-
-                    // Create label element
-                    // const label = document.createElement('p');
-                    // label.innerText = `${props.mapname}`;
-                    // label.className = 'custom-marker-label';
-                    // label.style.color = getCategoryColor(props.category);
-
-                    // el.appendChild(label);
+                    el.appendChild(label);
 
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
-                        anchor: 'bottom',
-                        offset: [0, -5]
+                        anchor: 'center',
+                        offset: [0, 15]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
@@ -1051,21 +1037,32 @@
                 // Create header section
                 const popupHeader = document.createElement('div');
                 popupHeader.className = 'info-popup-header';
-                popupHeader.style.backgroundColor = getCategoryColor(properties.category); 
+                //popupHeader.style.backgroundColor = getCategoryColor(properties.category); 
 
-                // Create img banner
-                // if (properties.img) {
-                //     const img = document.createElement('img');
-                //     img.src = `${imgSource}/${properties.category}_banner.png`;
-                //     img.className = 'info-popup-image';
-                //     popupHeader.appendChild(img);
-                // }
+                // Create banner and logo
+                if (properties.img) {
+                    const banner = document.createElement('img');
+                    banner.src = `${imgSource}/${properties.category}_banner.png`;
+                    banner.className = 'info-popup-banner';
+                    popupHeader.appendChild(banner);
 
-                // Create title
-                const title = document.createElement('h1');
-                title.className = 'info-popup-title';
-                title.textContent = properties.mapname;
-                popupHeader.appendChild(title);
+                    // Create color overlay
+                    const overlay = document.createElement('div');
+                    overlay.className = 'info-popup-banner-overlay';
+                    overlay.style.backgroundColor = getCategoryColor(properties.category);
+                    popupHeader.appendChild(overlay);
+
+                    const img = document.createElement('img');
+                    img.src = `${imgSource}/${properties.img}.png`;
+                    img.className = 'info-popup-image';
+                    popupHeader.appendChild(img);
+                }
+
+                // Create banner title
+                // const title = document.createElement('h1');
+                // title.className = 'info-popup-title';
+                // title.textContent = properties.mapname;
+                // popupHeader.appendChild(title);
 
                 // Add header to content
                 popupContent.appendChild(popupHeader);
@@ -1308,7 +1305,7 @@
                 map.easeTo({
                     center: coordinates,
                     zoom: zoomThreshold + 3,
-                    offset: [0, -100],
+                    offset: [0, -80],
                     essential: true
                 });
 
@@ -1319,21 +1316,23 @@
         // Helper function to scroll to feature info
         const scrollToFeatureInfo = (feature) => {
             const featureId = feature.properties.id;
-            const infoBox = document.querySelector(`.info-feature[data-id="${featureId}"]`);
+            const infoFeature = document.querySelector(`.info-feature[data-id="${featureId}"]`);
             
-            if (infoBox) {
-                // Use requestAnimationFrame for better timing
+            if (infoFeature) {
+                // Scroll into view
                 requestAnimationFrame(() => {
-                    infoBox.scrollIntoView({
+                    infoFeature.scrollIntoView({
                         behavior: 'smooth',
                         block: 'nearest',  // Better for horizontal scrolling
                         inline: 'center'
                     });
-                    
-                    // Highlight effect
-                    //infoBox.classList.add('highlight');
-                    //setTimeout(() => infoBox.classList.remove('highlight'), 1500);
                 });
+
+                // Activate infobox feature
+                if (infoFeature) {
+                    infoFeature.classList.add('active');
+                    setTimeout(() => infoFeature.classList.remove('active'), 1500);
+                }
             }
         };
 
@@ -1366,6 +1365,14 @@
                         const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
                         if (markerElement) {
                             markerElement.classList.add('active');
+                        }
+
+                        // Find and activate infobox feature
+                        const infoFeature = document.querySelector(`.info-feature[data-id="${markerId}"]`);
+                        if (infoFeature) {
+                            infoFeature.classList.add('active');
+                            setTimeout(() => infoFeature.classList.remove('active'), 1500);
+
                         }
 
                     });
@@ -1421,77 +1428,6 @@
             };
             return colorMap[category] || colorMap.default;
         };
-
-// Helper function for marker collisions
-function handleMarkerCollisions() {
-    const allMarkers = Array.from(document.querySelectorAll('.custom-marker'));
-    const markerPositions = [];
-    
-    // Calculate positions and z-indexes
-    allMarkers.forEach(marker => {
-        const rect = marker.getBoundingClientRect();
-        const zIndex = parseInt(window.getComputedStyle(marker).zIndex) || 0;
-        
-        markerPositions.push({
-            element: marker,
-            x: rect.left,
-            y: rect.top,
-            width: rect.width,
-            height: rect.height,
-            zIndex: zIndex,
-            id: marker.dataset.id
-        });
-    });
-
-    // Sort markers by z-index (highest first)
-    markerPositions.sort((a, b) => b.zIndex - a.zIndex);
-
-    // Reset all to opaque first
-    allMarkers.forEach(marker => {
-        const imgContainer = marker.querySelector('.custom-marker-img-container');
-        if (imgContainer) imgContainer.style.opacity = '1';
-    });
-
-    // Check collisions with z-index priority
-    for (let i = 0; i < markerPositions.length; i++) {
-        const markerA = markerPositions[i];
-        const imgContainerA = markerA.element.querySelector('.custom-marker-img-container');
-        if (!imgContainerA) continue;
-
-        for (let j = i + 1; j < markerPositions.length; j++) {
-            const markerB = markerPositions[j];
-            
-            for (let j = i + 1; j < markerPositions.length; j++) {
-                const markerB = markerPositions[j];
-                
-                if (checkCollision(markerA, markerB)) {
-                    // Make the TOP marker (higher z-index) semi-transparent
-                    imgContainerA.style.opacity = '0.6';
-                    // Keep lower markers opaque
-                    const imgContainerB = markerB.element.querySelector('.custom-marker-img-container');
-                    if (imgContainerB) imgContainerB.style.opacity = '1';
-                }
-            }
-        }
-    }
-}
-
-// Helper function to check collision
-function checkCollision(a, b) {
-    return !(
-        a.y + a.height < b.y ||
-        a.y > b.y + b.height ||
-        a.x + a.width < b.x ||
-        a.x > b.x + b.width
-    );
-}
-
-// Run collision detection periodically and after movement
-map.on('render', () => {
-    if (map.isMoving()) {
-        handleMarkerCollisions();
-    }
-});
 
         // Update markers on the screen and do so on every map move/moveend
         map.on('data', (e) => {
