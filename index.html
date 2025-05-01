@@ -104,7 +104,7 @@
             height: auto;
             scrollbar-width: none;
             -ms-overflow-style: none;
-            background-color: hsl(0, 0%, 100%);
+            background-color: hsl(92, 26%, 52%);
         }
 
         .category-box-inner {
@@ -220,6 +220,7 @@
             z-index: 0;
             pointer-events: none;
             filter: grayscale(100%);
+            opacity: 0.5;
         }
 
         .info-popup-banner-overlay {
@@ -336,10 +337,6 @@
             z-index: 1;
         }
 
-        .custom-marker-img-container:hover {
-            transform: scale(1.5);
-        }
-
         .custom-marker.active {
             z-index: 999;
         }
@@ -360,11 +357,11 @@
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            background-color: hsl(0 0% 97%);
+            background-color: hsl(0 0% 100%);
             width: 35px;
             height: 35px;
             border-radius: 50%;
-            border: 2px solid hsl(0, 0%, 100%);
+            border: 2px solid hsl(0, 0%, 30%);
             filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
             pointer-events: auto;
             cursor: pointer;
@@ -377,18 +374,19 @@
         }
 
         .custom-marker-label {
-            font-size: 10px;
+            font-size: 11px;
             font-weight: 500;
             line-height: 1;
             text-align: center;
             max-width: 100px;
             width: 100%;
             margin-top: 5px;
+            color: hsl(0, 0%, 20%);
             text-shadow:
-                -1px -1px 0 white,
-                1px -1px 0 white,
-                -1px 1px 0 white,
-                1px 1px 0 white;
+                -1px -1px 0 hsl(0 0% 100%),
+                1px -1px 0 hsl(0 0% 100%),
+                -1px 1px 0 hsl(0 0% 100%),
+                1px 1px 0 hsl(0 0% 100%);
         }
 
         #map-controls {
@@ -410,7 +408,7 @@
             border: none;
             outline: none;
             border-radius: 9999px;
-            background-color: hsla(0, 0%, 100%, 0.7);
+            background-color: hsla(0, 0%, 100%, 0.5);
             color: hsl(0, 0%, 40%);
             font-weight: 500;
             cursor: pointer;
@@ -572,7 +570,9 @@
                                 15,
                                 10, 20,
                                 25, 25
-                            ]
+                            ],
+                            'circle-stroke-width': 1.5,
+                            'circle-stroke-color': 'hsl(0, 0%, 30%)',
                         }
                     });
 
@@ -602,17 +602,17 @@
                             'circle-radius': 7,
                             'circle-color': [
                                 'case',
-                                ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 40%)',
-                                ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 45%)',
-                                ['==', ['get', 'category'], 'play_and_learn'], 'hsl(296, 30%, 38%)',
-                                ['==', ['get', 'category'], 'thrive_and_restore'], 'hsl(18, 55%, 33%)',
-                                ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 31%)',
-                                ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 36%)',
-                                ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 24%)',
+                                ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 80%)',
+                                ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 85%)',
+                                ['==', ['get', 'category'], 'play_and_learn'], 'hsl(296, 30%, 78%)',
+                                ['==', ['get', 'category'], 'thrive_and_restore'], 'hsl(18, 55%, 73%)',
+                                ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 71%)',
+                                ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 76%)',
+                                ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 64%)',
                                 'hsl(0, 0%, 100%)' // default color if none match
                             ],
-                            'circle-stroke-width': 0,
-                            'circle-stroke-color': 'hsl(0, 0%, 0%)',
+                            'circle-stroke-width': 1.5,
+                            'circle-stroke-color': 'hsl(0, 0%, 30%)',
                             'circle-opacity': [
                                 'step',
                                 ['zoom'],
@@ -926,7 +926,8 @@
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
                     //imgContainer.style.backgroundColor = getCategoryColor(props.category);
-                    imgContainer.style.border = `2px solid ${getCategoryColor(props.category)}`;
+                    //imgContainer.style.border = `2px solid ${getCategoryColor(props.category)}`;
+                    //imgContainer.style.filter = `drop-shadow(0 0 5px ${getCategoryColor(props.category)})`;
 
                     // Create image element
                     const img = document.createElement('img');
@@ -1415,15 +1416,23 @@
         }
 
         // Helper function to get category color
+        // original category colors
+        // 'eat_and_drink': 'hsl(35, 100%, 40%)',
+        // 'visit_and_experience': 'hsl(0, 79%, 45%)',
+        // 'play_and_learn': 'hsl(296, 30%, 38%)',
+        // 'thrive_and_restore': 'hsl(18, 55%, 33%)',
+        // 'shop_and_discover': 'hsl(114, 35%, 31%)',
+        // 'live_and_work': 'hsl(197, 35%, 36%)',
+        // 'gather_and_worship': 'hsl(240, 12%, 24%)'
         const getCategoryColor = (category) => {
             const colorMap = {
-                'eat_and_drink': 'hsl(35, 100%, 60%)',
-                'visit_and_experience': 'hsl(0, 79%, 65%)',
-                'play_and_learn': 'hsl(296, 30%, 58%)',
-                'thrive_and_restore': 'hsl(18, 55%, 53%)',
-                'shop_and_discover': 'hsl(114, 35%, 51%)',
-                'live_and_work': 'hsl(197, 35%, 56%)',
-                'gather_and_worship': 'hsl(240, 12%, 44%)',
+                'eat_and_drink': 'hsl(35, 100%, 80%)',
+                'visit_and_experience': 'hsl(0, 79%, 85%)',
+                'play_and_learn': 'hsl(296, 30%, 78%)',
+                'thrive_and_restore': 'hsl(18, 55%, 73%)',
+                'shop_and_discover': 'hsl(114, 35%, 71%)',
+                'live_and_work': 'hsl(197, 35%, 76%)',
+                'gather_and_worship': 'hsl(240, 12%, 64%)',
                 'default': 'hsl(0, 0%, 100%)'
             };
             return colorMap[category] || colorMap.default;
