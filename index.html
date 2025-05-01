@@ -571,7 +571,7 @@
                                 10, 20,
                                 25, 25
                             ],
-                            'circle-stroke-width': 1.5,
+                            'circle-stroke-width': 1,
                             'circle-stroke-color': 'hsl(0, 0%, 30%)',
                         }
                     });
@@ -611,9 +611,27 @@
                                 ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 64%)',
                                 'hsl(0, 0%, 100%)' // default color if none match
                             ],
+                            'circle-opacity': [
+                                'step',
+                                ['zoom'],
+                                // Default state (zoom < zoomThreshold): All priorities visible
+                                ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
+
+                                // Q disappears at zoomThreshold
+                                zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
+
+                                // T disappears at zoomThreshold + 1
+                                zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
+
+                                // D disappears at zoomThreshold + 1.5
+                                zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
+
+                                // S disappears at zoomThreshold + 2
+                                zoomThreshold + 2, 0
+                            ],
                             'circle-stroke-width': 1.5,
                             'circle-stroke-color': 'hsl(0, 0%, 30%)',
-                            'circle-opacity': [
+                            'circle-stroke-opacity': [
                                 'step',
                                 ['zoom'],
                                 // Default state (zoom < zoomThreshold): All priorities visible
@@ -701,16 +719,9 @@
                             return;
                         }
 
-                        // Remove active class from all markers first
-                        document.querySelectorAll('.custom-marker.active').forEach(el => {
-                            // Don't remove from current marker if it's already active (toggle behavior)
-                            if (el !== parentMarker) {
-                                el.classList.remove('active');
-                            }
-                        });
-
                         // Toggle active state on clicked marker
                         parentMarker.classList.toggle('active');
+                        setTimeout(() => parentMarker.classList.remove('active'), 1500);
 
                         // Handle feature data
                         const featureElement = clickedElement.closest('[data-feature]');
@@ -1364,11 +1375,6 @@
                 
                 if (featureStart <= centerX && featureEnd >= centerX) {
                     const featureData = JSON.parse(feature.dataset.feature);
-                    
-                    // Remove active class from all markers first
-                    document.querySelectorAll('.custom-marker.active').forEach(el => {
-                        el.classList.remove('active');
-                    });
 
                     flyToFeature(featureData.geometry.coordinates).then(() => {
 
@@ -1377,6 +1383,7 @@
                         const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
                         if (markerElement) {
                             markerElement.classList.add('active');
+                            setTimeout(() => markerElement.classList.remove('active'), 1500);
                         }
 
                         // Find and activate infobox feature
