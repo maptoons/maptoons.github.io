@@ -929,6 +929,17 @@
                     //imgContainer.style.border = `2px solid ${getCategoryColor(props.category)}`;
                     //imgContainer.style.filter = `drop-shadow(0 0 5px ${getCategoryColor(props.category)})`;
 
+                    // Map priority to z-index values
+                    const priorityMap = {
+                        'Q': 400,
+                        'T': 300,
+                        'D': 200,
+                        'S': 100
+                    };
+
+                    // Set z-index based on the priority
+                    imgContainer.style.zIndex = priorityMap[`${props.priority}`] || 0;
+
                     // Create image element
                     const img = document.createElement('img');
                     img.src = `${imgSource}/${props.img}.png`;
