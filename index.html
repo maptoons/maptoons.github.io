@@ -21,7 +21,8 @@
             font-size: 14px;
         }
 
-        html, body {
+        html,
+        body {
             overscroll-behavior-x: none;
             overscroll-behavior-y: none;
         }
@@ -63,7 +64,7 @@
         .dropdown-button {
             padding: 2px 10px;
             border-radius: 9999px;
-            background-color: hsl(0, 0%, 97%);
+            background-color: hsl(0, 0%, 95%);
             color: hsl(0, 0%, 40%);
             font-weight: 500;
             cursor: pointer;
@@ -104,7 +105,7 @@
             height: auto;
             scrollbar-width: none;
             -ms-overflow-style: none;
-            background-color: hsl(92, 26%, 52%);
+            background-color: hsl(0, 0%, 100%);
         }
 
         .category-box-inner {
@@ -121,7 +122,7 @@
             gap: 5px;
             padding: 2px 10px;
             border-radius: 9999px;
-            background-color: hsl(0, 0%, 97%);
+            background-color: hsl(0, 0%, 95%);
             color: hsl(0, 0%, 40%);
             font-weight: 500;
             cursor: pointer;
@@ -156,7 +157,8 @@
             overflow-x: auto;
             scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
-            scroll-padding: 0 calc(50vw - 150px); /* Center a 300px-wide item */
+            scroll-padding: 0 calc(50vw - 150px);
+            /* Center a 300px-wide item */
             gap: 10px;
             width: 100%;
             scrollbar-width: none;
@@ -167,7 +169,8 @@
         .info-box-inner::before,
         .info-box-inner::after {
             content: "";
-            flex: 0 0 calc(50% - 150px); /* Half viewport minus half item width */
+            flex: 0 0 calc(50% - 150px);
+            /* Half viewport minus half item width */
             scroll-snap-align: none;
         }
 
@@ -186,7 +189,7 @@
             position: relative;
             transform: translate(0, -10px);
         }
-        
+
         .info-popup-content {
             position: relative;
             display: flex;
@@ -220,17 +223,18 @@
             z-index: 0;
             pointer-events: none;
             filter: grayscale(100%);
-            opacity: 0.5;
+            opacity: 1;
         }
 
         .info-popup-banner-overlay {
             position: absolute;
-            top: 0; left: 0;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
             z-index: 1;
             pointer-events: none;
-            mix-blend-mode: overlay;
+            mix-blend-mode: normal;
         }
 
         .info-popup-image {
@@ -262,7 +266,8 @@
 
         .truncated-text {
             display: -webkit-box;
-            -webkit-line-clamp: 2; /* Limit to 2 lines */
+            -webkit-line-clamp: 2;
+            /* Limit to 2 lines */
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -271,7 +276,8 @@
         }
 
         .truncated-text.expanded {
-            -webkit-line-clamp: unset; /* Remove line limit */
+            -webkit-line-clamp: unset;
+            /* Remove line limit */
         }
 
         .contact-info {
@@ -341,13 +347,13 @@
             z-index: 999;
         }
 
-        .custom-marker.active .custom-marker-img-container{
+        .custom-marker.active .custom-marker-img-container {
             transform: scale(1.5);
             transform-origin: bottom center;
             transition: transform 0.2s ease;
         }
 
-        .custom-marker.active .custom-marker-label{
+        .custom-marker.active .custom-marker-label {
             transform: scale(1.5);
             transform-origin: top center;
             transition: transform 0.2s ease;
@@ -361,10 +367,23 @@
             width: 35px;
             height: 35px;
             border-radius: 50%;
-            border: 2px solid hsl(0, 0%, 30%);
             filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
             pointer-events: auto;
             cursor: pointer;
+        }
+
+        .custom-marker-img-container::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid hsl(0 0% 100%);
+            opacity: inherit;
         }
 
         .custom-marker-img {
@@ -374,8 +393,8 @@
         }
 
         .custom-marker-label {
-            font-size: 11px;
-            font-weight: 700;
+            font-size: 9px;
+            font-weight: 600;
             line-height: 1;
             text-align: center;
             max-width: 100px;
@@ -408,7 +427,7 @@
             border: none;
             outline: none;
             border-radius: 9999px;
-            background-color: hsla(0, 0%, 100%, 0.5);
+            background-color: hsla(0, 0%, 100%, 0.7);
             color: hsl(0, 0%, 40%);
             font-weight: 500;
             cursor: pointer;
@@ -602,53 +621,17 @@
                             'circle-radius': 7,
                             'circle-color': [
                                 'case',
-                                ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 80%)',
-                                ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 85%)',
-                                ['==', ['get', 'category'], 'play_and_learn'], 'hsl(296, 30%, 78%)',
-                                ['==', ['get', 'category'], 'thrive_and_restore'], 'hsl(18, 55%, 73%)',
-                                ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 71%)',
-                                ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 76%)',
-                                ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 64%)',
+                                ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 70%)',
+                                ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 75%)',
+                                ['==', ['get', 'category'], 'play_and_learn'], 'hsl(296, 30%, 68%)',
+                                ['==', ['get', 'category'], 'thrive_and_restore'], 'hsl(18, 55%, 63%)',
+                                ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 61%)',
+                                ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 66%)',
+                                ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 54%)',
                                 'hsl(0, 0%, 100%)' // default color if none match
                             ],
-                            'circle-opacity': [
-                                'step',
-                                ['zoom'],
-                                // Default state (zoom < zoomThreshold): All priorities visible
-                                ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
-
-                                // Q disappears at zoomThreshold
-                                zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
-
-                                // T disappears at zoomThreshold + 1
-                                zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
-
-                                // D disappears at zoomThreshold + 1.5
-                                zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
-
-                                // S disappears at zoomThreshold + 2
-                                zoomThreshold + 2, 0
-                            ],
                             'circle-stroke-width': 1.5,
-                            'circle-stroke-color': 'hsl(0, 0%, 30%)',
-                            'circle-stroke-opacity': [
-                                'step',
-                                ['zoom'],
-                                // Default state (zoom < zoomThreshold): All priorities visible
-                                ['match', ['get', 'priority'], ['Q', 'T', 'D', 'S'], 1, 0],
-
-                                // Q disappears at zoomThreshold
-                                zoomThreshold, ['match', ['get', 'priority'], ['T', 'D', 'S'], 1, 0],
-
-                                // T disappears at zoomThreshold + 1
-                                zoomThreshold + 1, ['match', ['get', 'priority'], ['D', 'S'], 1, 0],
-
-                                // D disappears at zoomThreshold + 1.5
-                                zoomThreshold + 1.5, ['match', ['get', 'priority'], ['S'], 1, 0],
-
-                                // S disappears at zoomThreshold + 2
-                                zoomThreshold + 2, 0
-                            ]
+                            'circle-stroke-color': 'hsl(0, 0%, 30%)'
                         }
                     });
 
@@ -658,10 +641,10 @@
                         const btn = document.getElementById('refresh-features-btn');
                         btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
                         btn.disabled = true;
-                        
+
                         // Call your function
                         updateInfoBox();
-                        
+
                         // Reset button after a short delay (optional)
                         setTimeout(() => {
                             btn.innerHTML = 'Show Info';
@@ -713,7 +696,7 @@
                             });
                             return;
                         }
-                        
+
                         // If clicking on info box, do nothing
                         if (clickedInfoBox) {
                             return;
@@ -829,7 +812,7 @@
                 option.className = 'dropdown-option';
                 option.dataset.value = location.id;
                 option.textContent = location.name;
-                
+
                 // Click event to select an option
                 option.addEventListener('click', () => {
                     dropdownButton.textContent = location.name; // Update button text
@@ -870,20 +853,20 @@
                 const label = id
                     .replace(/_and_/g, ' & ')
                     .replace(/\b\w/g, char => char.toUpperCase());
-                
+
                 // Create icon element separately to apply color
                 const iconElement = document.createElement('i');
                 iconElement.className = `fa-solid ${icon}`;
                 iconElement.style.color = getCategoryColor(id); // Apply category color
-                
+
                 // Create text span
                 const textSpan = document.createElement('span');
                 textSpan.textContent = label;
-                
+
                 // Append elements
                 categoryElement.appendChild(iconElement);
                 categoryElement.appendChild(textSpan);
-                
+
                 innerContainer.appendChild(categoryElement);
             });
         };
@@ -937,19 +920,8 @@
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
                     //imgContainer.style.backgroundColor = getCategoryColor(props.category);
-                    //imgContainer.style.border = `2px solid ${getCategoryColor(props.category)}`;
+                    imgContainer.style.border = `3px solid ${getCategoryColor(props.category)}`;
                     //imgContainer.style.filter = `drop-shadow(0 0 5px ${getCategoryColor(props.category)})`;
-
-                    // Map priority to z-index values
-                    const priorityMap = {
-                        'Q': 400,
-                        'T': 300,
-                        'D': 200,
-                        'S': 100
-                    };
-
-                    // Set z-index based on the priority
-                    imgContainer.style.zIndex = priorityMap[`${props.priority}`] || 0;
 
                     // Create image element
                     const img = document.createElement('img');
@@ -965,12 +937,23 @@
                     // Build the structure
                     imgContainer.appendChild(img);
                     el.appendChild(imgContainer);
-                    el.appendChild(label);
+                    //el.appendChild(label);
+
+                    // Map priority to z-index values
+                    const priorityMap = {
+                        'Q': 400,
+                        'T': 300,
+                        'D': 200,
+                        'S': 100
+                    };
+
+                    // Set z-index based on the priority
+                    el.style.zIndex = priorityMap[`${props.priority}`] || 0;
 
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
-                        anchor: 'center',
-                        offset: [0, 15]
+                        anchor: 'bottom',
+                        offset: [0, -5]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
@@ -1067,7 +1050,7 @@
                     const banner = document.createElement('img');
                     banner.src = `${imgSource}/${properties.category}_banner.png`;
                     banner.className = 'info-popup-banner';
-                    popupHeader.appendChild(banner);
+                    //popupHeader.appendChild(banner);
 
                     // Create color overlay
                     const overlay = document.createElement('div');
@@ -1099,12 +1082,12 @@
                     const infoText = document.createElement('p');
                     infoText.className = 'truncated-text';
                     infoText.textContent = properties.info;
-                    
+
                     // Add click to expand functionality
                     infoText.addEventListener('click', (e) => {
                         e.currentTarget.classList.toggle('expanded');
                     });
-                    
+
                     textContainer.appendChild(infoText);
                 }
 
@@ -1278,29 +1261,29 @@
         let clickOutsideHandler;
 
         function setupInfoBoxAutoClose() {
-        // Remove previous handler if exists
-        if (clickOutsideHandler) {
-            document.removeEventListener('click', clickOutsideHandler);
-        }
-
-        clickOutsideHandler = (e) => {
-            const infoBox = document.getElementById('info-box');
-            if (!infoBox?.classList.contains('visible')) return;
-
-            const protected = [
-            '.mapboxgl-marker',
-            '.custom-marker',
-            '#refresh-features-btn',
-            '#info-box',
-            '.maplibregl-popup' // Add if using popups
-            ].join(',');
-
-            if (!e.target.closest(protected)) {
-            infoBox.classList.remove('visible');
+            // Remove previous handler if exists
+            if (clickOutsideHandler) {
+                document.removeEventListener('click', clickOutsideHandler);
             }
-        };
 
-        document.addEventListener('click', clickOutsideHandler);
+            clickOutsideHandler = (e) => {
+                const infoBox = document.getElementById('info-box');
+                if (!infoBox?.classList.contains('visible')) return;
+
+                const protected = [
+                    '.mapboxgl-marker',
+                    '.custom-marker',
+                    '#refresh-features-btn',
+                    '#info-box',
+                    '.maplibregl-popup' // Add if using popups
+                ].join(',');
+
+                if (!e.target.closest(protected)) {
+                    infoBox.classList.remove('visible');
+                }
+            };
+
+            document.addEventListener('click', clickOutsideHandler);
         }
 
         // Helper function to handle clicks
@@ -1340,7 +1323,7 @@
         const scrollToFeatureInfo = (feature) => {
             const featureId = feature.properties.id;
             const infoFeature = document.querySelector(`.info-feature[data-id="${featureId}"]`);
-            
+
             if (infoFeature) {
                 // Scroll into view
                 requestAnimationFrame(() => {
@@ -1372,7 +1355,7 @@
             for (const feature of features) {
                 const featureStart = feature.offsetLeft;
                 const featureEnd = featureStart + feature.offsetWidth;
-                
+
                 if (featureStart <= centerX && featureEnd >= centerX) {
                     const featureData = JSON.parse(feature.dataset.feature);
 
@@ -1414,8 +1397,8 @@
 
             // Add keyboard scroll detection (NEW)
             document.addEventListener('keydown', (e) => {
-                const scrollKeys = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 
-                                'PageUp', 'PageDown', 'Home', 'End'];
+                const scrollKeys = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight',
+                    'PageUp', 'PageDown', 'Home', 'End'];
                 if (scrollKeys.includes(e.key)) {
                     isUserScrolling = true;
                 }
@@ -1424,7 +1407,7 @@
             // Handle scroll events
             container.addEventListener('scroll', () => {
                 if (!isUserScrolling) return; // Ignore programmatic scrolls
-                
+
                 clearTimeout(window.scrollTimer);
                 window.scrollTimer = setTimeout(() => {
                     handleCenterFeature(); // Your existing center-feature function
@@ -1444,13 +1427,13 @@
         // 'gather_and_worship': 'hsl(240, 12%, 24%)'
         const getCategoryColor = (category) => {
             const colorMap = {
-                'eat_and_drink': 'hsl(35, 100%, 80%)',
-                'visit_and_experience': 'hsl(0, 79%, 85%)',
-                'play_and_learn': 'hsl(296, 30%, 78%)',
-                'thrive_and_restore': 'hsl(18, 55%, 73%)',
-                'shop_and_discover': 'hsl(114, 35%, 71%)',
-                'live_and_work': 'hsl(197, 35%, 76%)',
-                'gather_and_worship': 'hsl(240, 12%, 64%)',
+                'eat_and_drink': 'hsl(35, 100%, 70%)',
+                'visit_and_experience': 'hsl(0, 79%, 75%)',
+                'play_and_learn': 'hsl(296, 30%, 68%)',
+                'thrive_and_restore': 'hsl(18, 55%, 63%)',
+                'shop_and_discover': 'hsl(114, 35%, 61%)',
+                'live_and_work': 'hsl(197, 35%, 66%)',
+                'gather_and_worship': 'hsl(240, 12%, 54%)',
                 'default': 'hsl(0, 0%, 100%)'
             };
             return colorMap[category] || colorMap.default;
