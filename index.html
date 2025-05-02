@@ -340,23 +340,20 @@
             align-items: center;
             width: fit-content;
             pointer-events: none;
-            z-index: 1;
         }
 
-        .custom-marker.active {
-            z-index: 999;
-        }
-
-        .custom-marker.active .custom-marker-img-container {
+        .custom-marker.active .custom-marker-wrapper {
             transform: scale(1.5);
             transform-origin: bottom center;
             transition: transform 0.2s ease;
         }
 
-        .custom-marker.active .custom-marker-label {
-            transform: scale(1.5);
-            transform-origin: top center;
-            transition: transform 0.2s ease;
+        .custom-marker-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.5));
         }
 
         .custom-marker-img-container {
@@ -367,23 +364,24 @@
             width: 35px;
             height: 35px;
             border-radius: 50%;
-            filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0.3));
+            border: 3px solid;
             pointer-events: auto;
             cursor: pointer;
+            position: relative;
+            z-index: 2;
         }
 
-        .custom-marker-img-container::after {
-            content: '';
+        .custom-marker-triangle {
             position: absolute;
-            bottom: -5px;
+            bottom: -6px;
             left: 50%;
             transform: translateX(-50%);
             width: 0;
             height: 0;
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
-            border-top: 8px solid hsl(0 0% 100%);
-            opacity: inherit;
+            border-top: 8px solid;
+            z-index: 1;
         }
 
         .custom-marker-img {
@@ -916,28 +914,36 @@
                     el.dataset.id = id;
                     el.dataset.feature = JSON.stringify(features[i]);
 
-                    // Create image container div
+                    // Create marker wrapper (holds circle + triangle)
+                    const markerWrapper = document.createElement('div');
+                    markerWrapper.className = 'custom-marker-wrapper';
+
+                    // Create image container div (circle)
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'custom-marker-img-container';
-                    //imgContainer.style.backgroundColor = getCategoryColor(props.category);
                     imgContainer.style.border = `3px solid ${getCategoryColor(props.category)}`;
-                    //imgContainer.style.filter = `drop-shadow(0 0 5px ${getCategoryColor(props.category)})`;
 
                     // Create image element
                     const img = document.createElement('img');
                     img.src = `${imgSource}/${props.img}.png`;
                     img.className = 'custom-marker-img';
 
+                    // Create triangle element (now separate from the circle)
+                    const triangle = document.createElement('div');
+                    triangle.className = 'custom-marker-triangle';
+                    triangle.style.borderTopColor = getCategoryColor(props.category); // Match border color
+
+                    // Build the structure
+                    imgContainer.appendChild(img);
+                    markerWrapper.appendChild(triangle); // Triangle first (behind)
+                    markerWrapper.appendChild(imgContainer); // Circle on top
+                    el.appendChild(markerWrapper);
+
                     // Create label element
                     const label = document.createElement('p');
                     label.innerText = `${props.mapname}`;
                     label.className = 'custom-marker-label';
                     //label.style.color = getCategoryColor(props.category);
-
-                    // Build the structure
-                    imgContainer.appendChild(img);
-                    el.appendChild(imgContainer);
-                    //el.appendChild(label);
 
                     // Map priority to z-index values
                     const priorityMap = {
@@ -948,12 +954,12 @@
                     };
 
                     // Set z-index based on the priority
-                    el.style.zIndex = priorityMap[`${props.priority}`] || 0;
+                    //el.style.zIndex = priorityMap[`${props.priority}`] || 0;
 
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
                         anchor: 'bottom',
-                        offset: [0, -5]
+                        offset: [-1, -5]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
