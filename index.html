@@ -47,16 +47,13 @@
             width: 100%;
         }
 
+        .maplibregl-ctrl-attrib.maplibregl-compact {
+            background-color: hsla(0, 0%, 100%, 1);
+            opacity: 0.7;
+        }
+
         .maplibregl-ctrl-attrib-inner a {
             font-size: 12px;
-        }
-
-        .maplibregl-ctrl-attrib.maplibregl-compact {
-            background-color: hsla(0, 0%, 100%, 0.5);
-        }
-
-        .maplibregl-canvas-container {
-            text-rendering: optimizeLegibility;
         }
 
         #logo {
@@ -104,12 +101,12 @@
             padding: 10px;
             border-radius: 5px;
             background: hsl(0, 0%, 100%);
-            z-index: 2000;
             display: none;
         }
 
         .dropdown-menu.open {
             display: block;
+            z-index: 1000;
         }
 
         .dropdown-option {
@@ -187,7 +184,7 @@
             gap: 10px;
             width: 100%;
             scrollbar-width: none;
-            padding: 10px 0;
+            padding: 20px 0 10px 0;
         }
 
         /* Center items with pseudo-elements */
@@ -213,10 +210,10 @@
             box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
         }
 
-        .info-feature.active {
+        /* .info-feature.active {
             position: relative;
-            transform: translate(0, -10px);
-        }
+            transform: translate(0, -20px);
+        } */
 
         .info-popup-content {
             position: relative;
@@ -364,10 +361,13 @@
             pointer-events: none;
         }
 
+        @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        }
+
         .custom-marker.active .custom-marker-wrapper {
-            transform: translateY(-5px) scale(1.2);
-            transform-origin: bottom center;
-            transition: transform 0.2s ease;
+        animation: bounce 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28) both;
         }
 
         .custom-marker-wrapper {
@@ -436,7 +436,7 @@
             right: 0;
             width: fit-content;
             margin: 0 auto;
-            z-index: 1000;
+            z-index: 900;
         }
 
         .pill-button {
@@ -447,12 +447,49 @@
             border: none;
             outline: none;
             border-radius: 9999px;
-            background-color: hsla(0, 0%, 100%, 0.7);
+            background-color: hsla(0, 0%, 100%, 1);
             color: hsl(0, 0%, 40%);
             font-weight: 500;
             cursor: pointer;
             white-space: nowrap;
             transition: all 0.2s ease;
+        }
+
+        #splash-screen {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            border-radius: 5px;
+            transform: translate(-50%, -50%);
+            background: hsla(0, 0%, 100%, 1);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 1s ease;
+        }
+
+        #splash-screen img {
+            max-width: 250px;
+        }
+
+        .splash-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .spinner-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         a {
@@ -508,6 +545,7 @@
     <div class="container">
         <div id="logo"><a href="https://www.maptoons.com/" target="_blank"><img src="img/logo.png"></a></div>
         <div id="map"></div>
+        <div id="splash-screen"></div>
         <div id="info-box"></div>
         <div id="category-box"></div>
         <div id="map-controls">
@@ -529,6 +567,26 @@
         let currentActiveCategory = 'all';
         let locationData;
 
+        // Show splash screen
+        const splash = document.getElementById('splash-screen');
+        splash.style.display = 'flex';
+
+        const splashContent = document.createElement('div');
+        splashContent.className = 'splash-content';
+
+        const logo = document.createElement('img');
+        logo.src = 'img/logo.png';
+        logo.alt = 'MapToons Logo';
+
+        const spinnerContainer = document.createElement('div');
+        spinnerContainer.className = 'spinner-container';
+        spinnerContainer.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
+
+        splashContent.appendChild(logo);
+        splashContent.appendChild(spinnerContainer);
+        splash.appendChild(splashContent);
+
+        // Load map
         const map = new maplibregl.Map({
             container: "map",
             style: styleFile,
@@ -544,6 +602,14 @@
         });
 
         map.on('load', () => {
+
+            // Hide splash screen
+            setTimeout(() => {
+                splash.style.opacity = '0';
+                setTimeout(() => {
+                    splash.style.display = 'none';
+                }, 1000); // Fade-out duration
+            }, 100); // Display duration
 
             fetch(locationFile)
                 .then(res => res.json())
@@ -658,7 +724,7 @@
                         }
                     });
 
-                    // Labels
+                    // Marker labels
                     map.addLayer({
                         id: 'cluster-points-labels',
                         type: 'symbol',
@@ -666,7 +732,7 @@
                         filter: ['!', ['has', 'point_count']],
                         layout: {
                             'text-field': '{mapname}',
-                            'text-font': ['poppins-semibold'],
+                            'text-font': ['poppins-medium'],
                             'text-size': 11,
                             'text-line-height': 0.9,
                             'text-offset': [0, 0.8], // Adjust vertical position
@@ -679,6 +745,34 @@
                         },
                         'minzoom': zoomThreshold + 2
                     });
+
+                    // Places labels
+                    // map.addLayer({
+                    //     'id': 'label-city-large',
+                    //     'type': 'symbol',
+                    //     'source': 'osm',
+                    //     'source-layer': 'place_labels',
+                    //     'filter': [ "in", "kind", "city", "town", "village", "capital", "state_capital" ],
+                    //     layout: {
+                    //         "text-field": "{name}",
+                    //         "text-font": [ "poppins-medium" ],
+                    //         "text-transform": "uppercase",
+                    //         "text-letter-spacing": 0,
+                    //         "text-size": 30,
+                    //         "text-allow-overlap":false,
+                    //         "text-ignore-placement": true,
+                    //         "text-optional": false,
+                    //         "symbol-sort-key": 100
+                    //     },
+                    //     paint: {
+                    //         'text-color': 'hsl(0, 0%, 0%)',
+                    //         'text-halo-color': "hsla(0, 0%, 100%, 0)",
+                    //         'text-halo-width': 0,
+                    //         'text-opacity': 0.3
+                    //     },
+                    //     "minzoom": 13,
+                    //     "maxzoom": 14
+                    // });
 
                     // Handle click on info button
                     document.getElementById('refresh-features-btn').addEventListener('click', () => {
@@ -860,7 +954,6 @@
 
                 // Click event to select an option
                 option.addEventListener('click', () => {
-                    dropdownButton.textContent = location.name; // Update button text
                     dropdownMenu.classList.remove('open'); // Close menu
                     // you can trigger anything here, like flying to location
                 });
@@ -942,7 +1035,15 @@
             const newMarkers = {};
             const features = map.querySourceFeatures('location');
 
-            for (let i = 0; i < features.length; i++) {
+            // Sort by latitude for z-index
+            const sortedFeatures = features.sort((a, b) => {
+                return b.geometry.coordinates[1] - a.geometry.coordinates[1]; // Reverse subtraction
+            }).map((feature, index) => {
+                feature.properties.zindex = index;
+                return feature;
+            });
+
+            for (let i = 0; i < sortedFeatures.length; i++) {
                 const coords = features[i].geometry.coordinates;
                 const props = features[i].properties;
 
@@ -996,6 +1097,7 @@
 
                     // Set z-index based on the priority
                     //el.style.zIndex = priorityMap[`${props.priority}`] || 0;
+                    el.style.zIndex = props.zindex || 0;
 
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
@@ -1361,10 +1463,15 @@
         const flyToFeature = (coordinates) => {
             return new Promise((resolve) => {
 
+                // Calculate dynamic offset based on viewport height
+                const viewportHeight = window.innerHeight;
+                const isMobile = window.innerWidth <= 768; // Common mobile breakpoint
+                const offsetY = isMobile ? -viewportHeight * 0.15 : -80; // Adjust percentage as needed
+
                 map.easeTo({
                     center: coordinates,
                     zoom: zoomThreshold + 3,
-                    offset: [0, -80],
+                    offset: [0, offsetY],
                     essential: true
                 });
 
@@ -1427,7 +1534,6 @@
                         if (infoFeature) {
                             infoFeature.classList.add('active');
                             setTimeout(() => infoFeature.classList.remove('active'), 1500);
-
                         }
 
                     });
@@ -1512,14 +1618,9 @@
         //     }
         // });
 
-        // Log clicks
-        map.on('click', (e) => {
-            const features = map.queryRenderedFeatures(e.point);
-            if (features.length > 0) {
-                console.log('Clicked feature:', features[0].properties);
-            } else {
-                console.log('No features at this location');
-            }
+        // Forces depth re-calculation
+        map.on('rotate', () => {
+            map.triggerRepaint();
         });
 
         // Add attribution
@@ -1531,6 +1632,16 @@
                 
                 // Or replace completely:
                 // attribControl.innerHTML = `Your content <a href="...">Steve</a>`;
+            }
+        });
+
+        // Log clicks
+        map.on('click', (e) => {
+            const features = map.queryRenderedFeatures(e.point);
+            if (features.length > 0) {
+                console.log('Clicked feature:', features[0].properties);
+            } else {
+                console.log('No features at this location');
             }
         });
 

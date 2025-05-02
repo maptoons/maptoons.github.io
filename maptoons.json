@@ -83,7 +83,7 @@
 			"filter": [ "in", "kind", "city", "town", "village", "capital", "state_capital" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "poppins-regular" ],
+				"text-font": [ "poppins-medium" ],
 				"text-letter-spacing": 0.1,
 				"text-size": 10
 			},
