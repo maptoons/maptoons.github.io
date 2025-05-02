@@ -40,7 +40,10 @@
         }
 
         #map {
-            height: 100%;
+            position: absolute;
+            top: 45px;
+            bottom: 0;
+            left: 0;
             width: 100%;
         }
 
@@ -50,6 +53,24 @@
 
         .maplibregl-canvas-container {
             text-rendering: optimizeLegibility;
+        }
+
+        #logo {
+            position: fixed;
+            top: 50px;
+            left: 5px;
+            width: auto;
+            height: 35px;
+            z-index: 1000;
+            pointer-events: auto;
+        }
+
+        #logo img {
+            width: auto;
+            height: 100%;
+            display: block;
+            filter: grayscale(100%);
+            opacity: 0.7;
         }
 
         #refresh-features-btn {
@@ -483,7 +504,7 @@
 
 <body>
     <div class="container">
-        <div id="header"></div>
+        <div id="logo"><a href="https://www.maptoons.com/" target="_blank"><img src="img/logo.png"></a></div>
         <div id="map"></div>
         <div id="info-box"></div>
         <div id="category-box"></div>
@@ -567,7 +588,7 @@
                         'clusterMaxZoom': zoomThreshold - 1
                     });
 
-                    // Style for clustered circles
+                    // Cluster circles
                     map.addLayer({
                         id: 'clusters',
                         type: 'circle',
@@ -590,10 +611,11 @@
                             ],
                             'circle-stroke-width': 1,
                             'circle-stroke-color': 'hsl(0, 0%, 30%)',
-                        }
+                        },
+                        'maxzoom': zoomThreshold
                     });
 
-                    // Text label for cluster count
+                    // Cluster count
                     map.addLayer({
                         id: 'cluster-count',
                         type: 'symbol',
@@ -606,10 +628,11 @@
                         },
                         paint: {
                             'text-color': 'hsl(0, 0%, 0%)'
-                        }
+                        },
+                        'maxzoom': zoomThreshold
                     });
 
-                    // Style for individual (non-clustered) points
+                    // Points
                     map.addLayer({
                         id: 'cluster-points',
                         type: 'circle',
@@ -631,6 +654,28 @@
                             'circle-stroke-width': 1.5,
                             'circle-stroke-color': 'hsl(0, 0%, 30%)'
                         }
+                    });
+
+                    // Labels
+                    map.addLayer({
+                        id: 'cluster-points-labels',
+                        type: 'symbol',
+                        source: 'location',
+                        filter: ['!', ['has', 'point_count']],
+                        layout: {
+                            'text-field': '{mapname}',
+                            'text-font': ['fredoka-semibold'],
+                            'text-size': 11,
+                            'text-line-height': 0.9,
+                            'text-offset': [0, 1], // Adjust vertical position
+                            'text-anchor': 'top'
+                        },
+                        paint: {
+                            'text-color': 'hsl(0, 0%, 20%)',
+                            'text-halo-color': 'hsla(0, 0%, 100%, 0.75)',
+                            'text-halo-width': 1
+                        },
+                        'minzoom': zoomThreshold + 2
                     });
 
                     // Handle click on info button
@@ -931,19 +976,13 @@
                     // Create triangle element (now separate from the circle)
                     const triangle = document.createElement('div');
                     triangle.className = 'custom-marker-triangle';
-                    triangle.style.borderTopColor = getCategoryColor(props.category); // Match border color
+                    triangle.style.borderTopColor = getCategoryColor(props.category);
 
                     // Build the structure
                     imgContainer.appendChild(img);
-                    markerWrapper.appendChild(triangle); // Triangle first (behind)
-                    markerWrapper.appendChild(imgContainer); // Circle on top
+                    markerWrapper.appendChild(triangle);
+                    markerWrapper.appendChild(imgContainer);
                     el.appendChild(markerWrapper);
-
-                    // Create label element
-                    const label = document.createElement('p');
-                    label.innerText = `${props.mapname}`;
-                    label.className = 'custom-marker-label';
-                    //label.style.color = getCategoryColor(props.category);
 
                     // Map priority to z-index values
                     const priorityMap = {
@@ -959,7 +998,7 @@
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
                         anchor: 'bottom',
-                        offset: [-1, -5]
+                        offset: [-1, -7]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
