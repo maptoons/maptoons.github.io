@@ -158,7 +158,7 @@
         #info-box {
             display: flex;
             position: fixed;
-            bottom: 10px;
+            bottom: 0;
             left: 0;
             right: 0;
             z-index: 1000;
@@ -178,20 +178,20 @@
             overflow-x: auto;
             scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
-            scroll-padding: 0 calc(50vw - 150px);
             /* Center a 300px-wide item */
+            scroll-padding: 0 calc(50vw - 150px);
             gap: 10px;
             width: 100%;
             scrollbar-width: none;
-            padding-top: 10px;
+            padding: 10px 0;
         }
 
         /* Center items with pseudo-elements */
         .info-box-inner::before,
         .info-box-inner::after {
             content: "";
-            flex: 0 0 calc(50% - 150px);
             /* Half viewport minus half item width */
+            flex: 0 0 calc(50% - 150px);
             scroll-snap-align: none;
         }
 
@@ -202,8 +202,11 @@
         .info-feature {
             flex: 0 0 auto;
             width: 300px;
-            height: 200px;
+            height: 240px;
             scroll-snap-align: center;
+            border-radius: 5px;
+            background: hsl(0, 0%, 100%);
+            box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
         }
 
         .info-feature.active {
@@ -218,9 +221,6 @@
             height: 100%;
             overflow-y: auto;
             overflow-x: hidden;
-            border-radius: 5px;
-            background: hsl(0, 0%, 100%);
-            box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
         }
 
         .info-popup-header {
@@ -243,8 +243,6 @@
             object-position: center;
             z-index: 0;
             pointer-events: none;
-            filter: grayscale(100%);
-            opacity: 1;
         }
 
         .info-popup-banner-overlay {
@@ -255,7 +253,6 @@
             height: 100%;
             z-index: 1;
             pointer-events: none;
-            mix-blend-mode: normal;
         }
 
         .info-popup-image {
@@ -285,7 +282,7 @@
             overflow-y: auto;
         }
 
-        .truncated-text {
+        .info-text {
             display: -webkit-box;
             -webkit-line-clamp: 2;
             /* Limit to 2 lines */
@@ -296,7 +293,7 @@
             transition: all 0.2s ease;
         }
 
-        .truncated-text.expanded {
+        .info-text.expanded {
             -webkit-line-clamp: unset;
             /* Remove line limit */
         }
@@ -364,7 +361,7 @@
         }
 
         .custom-marker.active .custom-marker-wrapper {
-            transform: scale(1.5);
+            transform: translateY(-5px) scale(1.2);
             transform-origin: bottom center;
             transition: transform 0.2s ease;
         }
@@ -462,9 +459,10 @@
         }
 
         h1 {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 500;
             line-height: 0.9;
+            margin-bottom: 10px;
         }
 
         h2 {
@@ -671,7 +669,7 @@
                             'text-anchor': 'top'
                         },
                         paint: {
-                            'text-color': 'hsl(0, 0%, 20%)',
+                            'text-color': 'hsl(0, 0%, 10%)',
                             'text-halo-color': 'hsla(0, 0%, 100%, 0.75)',
                             'text-halo-width': 1
                         },
@@ -1080,6 +1078,7 @@
                 featureElement.className = 'info-feature';
                 featureElement.dataset.id = properties.id;
                 featureElement.dataset.feature = JSON.stringify(feature);
+                //featureElement.style.border = `2px solid ${getCategoryColor(properties.category)}`;
 
                 // Create popup-like structure
                 const popupContent = document.createElement('div');
@@ -1122,10 +1121,15 @@
                 const textContainer = document.createElement('div');
                 textContainer.className = 'info-popup-text';
 
+                const mapname = document.createElement('h1');
+                mapname.className = 'mapname';
+                mapname.textContent = properties.mapname;
+                textContainer.appendChild(mapname);
+
                 // Add info text if exists
                 if (properties.info) {
                     const infoText = document.createElement('p');
-                    infoText.className = 'truncated-text';
+                    infoText.className = 'info-text';
                     infoText.textContent = properties.info;
 
                     // Add click to expand functionality
@@ -1207,7 +1211,7 @@
                     contactInfo.appendChild(igDiv);
                 }
 
-                // Only add contact info if at least one exists
+                // Add contact info
                 if (contactInfo.children.length > 0) {
                     textContainer.appendChild(contactInfo);
                 }
@@ -1281,7 +1285,7 @@
                     footer.appendChild(instagramColumn);
                 }
 
-                // Only add footer if at least one contact method exists
+                // Add footer
                 // if (footer.children.length > 0) {
                 //     popupContent.appendChild(footer);
                 // }
