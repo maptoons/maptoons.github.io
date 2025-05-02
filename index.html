@@ -47,8 +47,12 @@
             width: 100%;
         }
 
-        .maplibregl-ctrl-bottom-right {
-            display: none;
+        .maplibregl-ctrl-attrib-inner a {
+            font-size: 12px;
+        }
+
+        .maplibregl-ctrl-attrib.maplibregl-compact {
+            background-color: hsla(0, 0%, 100%, 0.5);
         }
 
         .maplibregl-canvas-container {
@@ -996,7 +1000,7 @@
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
                         anchor: 'bottom',
-                        offset: [-1, -7]
+                        offset: [0, -7]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
@@ -1515,6 +1519,18 @@
                 console.log('Clicked feature:', features[0].properties);
             } else {
                 console.log('No features at this location');
+            }
+        });
+
+        // Add attribution
+        map.on('load', () => {
+            const attribControl = document.querySelector('.maplibregl-ctrl-attrib-inner');
+            if (attribControl) {
+                // Preserve existing attribs while adding yours
+                attribControl.innerHTML += ` | <a href="https://geographyclub.github.io/" target="_blank">Jamie & Steve</a>`;
+                
+                // Or replace completely:
+                // attribControl.innerHTML = `Your content <a href="...">Steve</a>`;
             }
         });
 
