@@ -44,6 +44,7 @@
             top: 45px;
             bottom: 0;
             left: 0;
+            right: 0;
             width: 100%;
         }
 
@@ -58,8 +59,8 @@
 
         #logo {
             position: fixed;
-            top: 50px;
-            left: 5px;
+            top: 48px;
+            left: 3px;
             width: auto;
             height: 25px;
             z-index: 1000;
@@ -93,7 +94,7 @@
             user-select: none;
         }
 
-        .dropdown-menu {
+        .location-menu {
             position: fixed;
             top: 50px;
             left: 10px;
@@ -104,7 +105,7 @@
             display: none;
         }
 
-        .dropdown-menu.open {
+        .location-menu.open {
             display: block;
             z-index: 1000;
         }
@@ -167,6 +168,10 @@
             margin: 0 auto;
             display: none;
             overflow: visible;
+        }
+
+        #info-box * {
+            pointer-events: auto;
         }
 
         #info-box.visible {
@@ -296,7 +301,6 @@
 
         .info-text.expanded {
             -webkit-line-clamp: unset;
-            /* Remove line limit */
         }
 
         .contact-info {
@@ -307,7 +311,7 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            margin-bottom: 6px;
+            margin-bottom: 5px;
         }
 
         .contact-item i {
@@ -362,12 +366,12 @@
         }
 
         @keyframes bounce {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
         }
 
         .custom-marker.active .custom-marker-wrapper {
-        animation: bounce 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28) both;
+            animation: bounce 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28) both;
         }
 
         .custom-marker-wrapper {
@@ -457,14 +461,11 @@
 
         #splash-screen {
             position: fixed;
-            top: 50%;
-            left: 50%;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-            padding: 30px;
-            border-radius: 5px;
-            transform: translate(-50%, -50%);
-            background: hsla(0, 0%, 100%, 1);
+            background: hsl(0, 0%, 100%);
             display: none;
             justify-content: center;
             align-items: center;
@@ -500,10 +501,10 @@
         }
 
         h1 {
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 0.9;
-            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 5px;
         }
 
         h2 {
@@ -936,26 +937,44 @@
 
             // Dropdown menu (the collapsible part)
             const dropdownMenu = document.createElement('div');
-            dropdownMenu.className = 'dropdown-menu';
+            dropdownMenu.className = 'location-menu';
 
             // Example locations
             const locations = [
-                { id: 'loc1', name: 'Location 1' },
-                { id: 'loc2', name: 'Location 2' },
-                { id: 'loc3', name: 'Location 3' }
+                {
+                    name: 'Hicksville',
+                    centroid: [-73.52547, 40.76562]
+                },
+                {
+                    name: 'Long Beach',
+                    centroid: [-73.6576, 40.5884]
+                }
             ];
 
             // Add locations to the dropdown menu
             locations.forEach(location => {
                 const option = document.createElement('div');
                 option.className = 'dropdown-option';
-                option.dataset.value = location.id;
                 option.textContent = location.name;
 
                 // Click event to select an option
                 option.addEventListener('click', () => {
                     dropdownMenu.classList.remove('open'); // Close menu
-                    // you can trigger anything here, like flying to location
+                    
+                    // Fly to centroid
+                    map.flyTo({
+                        center: location.centroid,
+                        zoom: zoomThreshold + 0.4,
+                        offset: [0, 0],
+                        essential: true,
+                        duration: 2000, // Animation duration in milliseconds (2 seconds)
+                        speed: 1.2, // Animation speed factor
+                        curve: 1.42, // Affects the zooming curve
+                        easing(t) {
+                            return t * (2 - t); // Ease-out cubic
+                        }
+                    });
+
                 });
 
                 dropdownMenu.appendChild(option);
@@ -1193,7 +1212,6 @@
                 // Create header section
                 const popupHeader = document.createElement('div');
                 popupHeader.className = 'info-popup-header';
-                //popupHeader.style.backgroundColor = getCategoryColor(properties.category); 
 
                 // Create banner and logo
                 if (properties.img) {
@@ -1211,6 +1229,34 @@
                     const img = document.createElement('img');
                     img.src = `${imgSource}/${properties.img}.png`;
                     img.className = 'info-popup-image';
+
+                    // Make image clickable
+                    img.style.cursor = 'pointer';
+                    img.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        
+                        // Get the feature data from the parent element
+                        const featureData = JSON.parse(featureElement.dataset.feature);
+                        
+                        // Fly to the feature's coordinates
+                        flyToFeature(featureData.geometry.coordinates)
+                            .then(() => {
+                                // Find and activate the corresponding marker
+                                const markerId = featureData.properties.id;
+                                const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
+                                
+                                if (markerElement) {
+                                    markerElement.classList.add('active');
+                                    setTimeout(() => {
+                                        markerElement.classList.remove('active');
+                                    }, 1500);
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Fly to feature failed:', error);
+                            });
+                    });
+
                     popupHeader.appendChild(img);
                 }
 
@@ -1324,77 +1370,6 @@
 
                 // Add the complete text container to popup content
                 popupContent.appendChild(textContainer);
-
-                // Create footer container
-                const footer = document.createElement('div');
-                footer.className = 'info-popup-footer';
-
-                // Add Address if exists
-                if (properties.address) {
-                    const addressColumn = document.createElement('div');
-                    addressColumn.className = 'info-footer-column info-footer-address';
-
-                    const searchQuery = encodeURIComponent(`${properties.mapname} ${properties.address}`);
-                    addressColumn.innerHTML = `
-                        <a href="https://www.google.com/maps/search/?api=1&query=${searchQuery}" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
-                    `;
-                    footer.appendChild(addressColumn);
-                }
-
-                // Add Phone if exists
-                if (properties.phone) {
-                    const phoneColumn = document.createElement('div');
-                    phoneColumn.className = 'info-footer-column info-footer-phone';
-                    phoneColumn.innerHTML = `
-                        <a href="tel:${properties.phone}"><i class="fa-solid fa-phone"></i></a>
-                    `;
-                    footer.appendChild(phoneColumn);
-                }
-
-                // Add Email if exists
-                if (properties.email) {
-                    const emailColumn = document.createElement('div');
-                    emailColumn.className = 'info-footer-column info-footer-email';
-                    emailColumn.innerHTML = `
-                        <a href="mailto:${properties.email}"><i class="fa-solid fa-envelope"></i></a>
-                    `;
-                    footer.appendChild(emailColumn);
-                }
-
-                // Add Website if exists
-                if (properties.web) {
-                    const webColumn = document.createElement('div');
-                    webColumn.className = 'info-footer-column info-footer-web';
-                    webColumn.innerHTML = `
-                        <a href="${properties.web}" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                    `;
-                    footer.appendChild(webColumn);
-                }
-
-                // Add Facebook if exists
-                if (properties.facebook) {
-                    const facebookColumn = document.createElement('div');
-                    facebookColumn.className = 'info-footer-column info-footer-facebook';
-                    facebookColumn.innerHTML = `
-                        <a href="${properties.facebook}" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    `;
-                    footer.appendChild(facebookColumn);
-                }
-
-                // Add Instagram if exists
-                if (properties.instagram) {
-                    const instagramColumn = document.createElement('div');
-                    instagramColumn.className = 'info-footer-column info-footer-instagram';
-                    instagramColumn.innerHTML = `
-                        <a href="${properties.instagram}" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    `;
-                    footer.appendChild(instagramColumn);
-                }
-
-                // Add footer
-                // if (footer.children.length > 0) {
-                //     popupContent.appendChild(footer);
-                // }
 
                 // Add the complete popup content to the feature element
                 featureElement.appendChild(popupContent);
