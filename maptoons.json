@@ -5,7 +5,7 @@
 		"maputnik:renderer": "mbgljs"
 	},
 	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
-	"sprite": "http://localhost:8000/assets/sprites/sprites",
+	"sprite": "https://maptoons.github.io/assets/sprites/sprites",
 	"sources": {
 		"osm": {
 			"type": "vector",
@@ -17,7 +17,7 @@
 			"id": "background",
 			"type": "background",
 			"paint": {
-				"background-color": "hsl(92, 26%, 72%)"
+				"background-color": "hsl(92, 46%, 72%)"
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 			"source-layer": "streets",
 			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
 			"paint": {
-				"line-color": "hsl(92, 26%, 95%)",
+				"line-color": "HSL(54, 56%, 90%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ]
 			},
 			"layout": {

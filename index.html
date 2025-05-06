@@ -22,7 +22,8 @@
         <div id="splash-screen"></div>
         <div id="info-box"></div>
         <div id="category-box"></div>
-        <div id="map-controls">
+        <div id="featured"></div>
+        <div id="info-button">
             <button id="refresh-features-btn" class="pill-button">
                 Show Info
             </button>
@@ -48,14 +49,19 @@
         const splashContent = document.createElement('div');
         splashContent.className = 'splash-content';
 
+        const bg = document.createElement('img');
+        bg.className = 'splash-background'
+        bg.src = 'img/splash.jpg';
+
         const logo = document.createElement('img');
+        logo.className = 'splash-logo'
         logo.src = 'img/logo.png';
-        logo.alt = 'MapToons Logo';
 
         const spinnerContainer = document.createElement('div');
         spinnerContainer.className = 'spinner-container';
         spinnerContainer.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
 
+        //splashContent.appendChild(bg);
         splashContent.appendChild(logo);
         splashContent.appendChild(spinnerContainer);
         splash.appendChild(splashContent);
@@ -89,10 +95,11 @@
                 .then(res => res.json())
                 .then(data => {
                     locationData = data;
-                    map.addSource('sprites', {
-                        'type': 'vector',
-                        tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf']
-                    });
+                    
+                    // map.addSource('sprites', {
+                    //     'type': 'vector',
+                    //     tiles: ['http://localhost:8000/maptoons-tiles/{z}/{x}/{y}.pbf']
+                    // });
 
                     // map.addLayer({
                     //     "id": "sprites",
@@ -261,7 +268,7 @@
 
                         // Reset button after a short delay (optional)
                         setTimeout(() => {
-                            btn.innerHTML = 'Show Info';
+                            btn.innerHTML = 'Refresh Info';
                             btn.disabled = false;
                         }, 1000);
                     });
@@ -374,6 +381,67 @@
                         btn.style.display = 'block';
                     });
 
+                    // get random feature for featured
+                    const getRandomFeature = (locationData) => {
+                        const features = locationData.features;
+                        randomFeature = features[Math.floor(Math.random() * features.length)];
+                        return randomFeature;
+                    }
+
+                    function createFeaturedItems() {
+                        const featuredContainer = document.getElementById('featured');
+                        
+                        // Clear previous content
+                        featuredContainer.innerHTML = '';
+                        
+                        // Create random features
+                        const features = [];
+                        for (let i = 0; i < 1; i++) {
+                            const feature = getRandomFeature(locationData);
+                            if (feature && feature.properties) {
+                                features.push(feature);
+                            }
+                        }
+                        
+                        // Create and append feature items
+                        const createdItems = [];
+                        features.forEach(feature => {
+                            const img = `${imgSource}/${feature.properties.img}.png`;
+                            
+                            const featureItem = document.createElement('div');
+                            featureItem.className = 'featured-item';
+                            
+                            // Add title inside the item
+                            const titleElement = document.createElement('div');
+                            titleElement.className = 'featured-title';
+                            titleElement.textContent = 'Featured';
+                            featureItem.appendChild(titleElement);
+                            
+                            // Apply category color (commented out as per your code)
+                            // const category = feature.properties.category;
+                            // const categoryColor = getCategoryColor(category);
+                            
+                            const imgElement = document.createElement('img');
+                            imgElement.className = 'featured-logo';
+                            imgElement.src = img;
+                            imgElement.alt = feature.properties.name || 'Featured location';
+                            
+                            featureItem.appendChild(imgElement);
+                            featuredContainer.appendChild(featureItem);
+                            
+                            createdItems.push({
+                                item: featureItem,
+                                image: imgElement,
+                                feature: feature
+                            });
+                        });
+                        
+                        return createdItems;
+                    }
+
+                    // Call the function
+                    createFeaturedItems();
+
                 });
         });
 
@@ -394,7 +462,6 @@
         };
 
         const createCategoryBox = () => {
-
             const categoryBox = document.getElementById('category-box');
             categoryBox.innerHTML = '';
             const innerContainer = document.createElement('div');
@@ -404,14 +471,24 @@
             const dropdownWrapper = document.createElement('div');
             dropdownWrapper.className = 'category-dropdown-wrapper';
 
-            // Dropdown button (the part you click)
+            // Dropdown button
             const dropdownButton = document.createElement('div');
             dropdownButton.className = 'dropdown-button';
-            dropdownButton.textContent = 'Jump To...';
 
-            // Dropdown menu (the collapsible part)
+            const buttonText = document.createElement('span');
+            buttonText.textContent = 'Quick Travel';
+
+            const arrowIcon = document.createElement('span');
+            arrowIcon.className = 'dropdown-arrow';
+            arrowIcon.innerHTML = '&dtrif;'; // ▼ (down arrow by default)
+
+            dropdownButton.appendChild(buttonText);
+            dropdownButton.appendChild(arrowIcon);
+
+            // Dropdown menu
             const dropdownMenu = document.createElement('div');
             dropdownMenu.className = 'location-menu';
+            dropdownMenu.style.display = 'none'; // Start hidden
 
             // Example locations
             const locations = [
@@ -425,45 +502,55 @@
                 }
             ];
 
-            // Add locations to the dropdown menu
+            // Add locations to dropdown
             locations.forEach(location => {
                 const option = document.createElement('div');
                 option.className = 'dropdown-option';
                 option.textContent = location.name;
 
-                // Click event to select an option
                 option.addEventListener('click', () => {
-                    dropdownMenu.classList.remove('open'); // Close menu
+                    dropdownMenu.style.display = 'none';
+                    arrowIcon.innerHTML = '&dtrif;'; // Reset to down arrow
                     
-                    // Fly to centroid
                     map.flyTo({
                         center: location.centroid,
                         zoom: zoomThreshold + 0.4,
                         offset: [0, 0],
                         essential: true,
-                        duration: 2000, // Animation duration in milliseconds (2 seconds)
-                        speed: 1.2, // Animation speed factor
-                        curve: 1.42, // Affects the zooming curve
+                        duration: 2000,
+                        speed: 1.2,
+                        curve: 1.42,
                         easing(t) {
-                            return t * (2 - t); // Ease-out cubic
+                            return t * (2 - t);
                         }
                     });
-
                 });
 
                 dropdownMenu.appendChild(option);
             });
 
-            // Toggle menu open/close when clicking the button
-            dropdownButton.addEventListener('click', () => {
-                dropdownMenu.classList.toggle('open');
+            // Toggle menu and arrow
+            dropdownButton.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const isOpening = dropdownMenu.style.display !== 'block';
+                dropdownMenu.style.display = isOpening ? 'block' : 'none';
+                arrowIcon.innerHTML = isOpening ? '&utrif;' : '&dtrif;'; // ▲ or ▼
             });
 
-            // Assemble the dropdown
+            // Close when clicking elsewhere
+            document.addEventListener('click', () => {
+                dropdownMenu.style.display = 'none';
+                arrowIcon.innerHTML = '&dtrif;';
+            });
+
+            // Prevent menu clicks from closing
+            dropdownMenu.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            // Assemble dropdown
             dropdownWrapper.appendChild(dropdownButton);
             dropdownWrapper.appendChild(dropdownMenu);
-
-            // Insert into the container
             innerContainer.appendChild(dropdownWrapper);
 
             // Categories
@@ -506,7 +593,7 @@
         const markers = {};
         let markersOnScreen = {};
 
-        function updateMarkers() {
+        const updateMarkers = () => {
             const zoom = map.getZoom();
 
             if (zoom <= zoomThreshold) {
@@ -543,7 +630,7 @@
                 // Apply the category filter based on the global selectedCategory
                 if (currentActiveCategory !== 'all' && props.category !== currentActiveCategory) continue;
 
-                // Exclude clusters
+                // Exclude clusters and zoom-based priority levels
                 if (props.cluster || !priorityLevels.includes(props.priority)) continue;
                 const id = props.id;
 
@@ -580,17 +667,19 @@
                     markerWrapper.appendChild(imgContainer);
                     el.appendChild(markerWrapper);
 
+                    // Set z-index based on latitude
+                    el.style.zIndex = props.zindex || 0;
+
                     // Map priority to z-index values
-                    const priorityMap = {
-                        'Q': 400,
-                        'T': 300,
-                        'D': 200,
-                        'S': 100
-                    };
+                    // const priorityMap = {
+                    //     'Q': 400,
+                    //     'T': 300,
+                    //     'D': 200,
+                    //     'S': 100
+                    // };
 
                     // Set z-index based on the priority
-                    //el.style.zIndex = priorityMap[`${props.priority}`] || 0;
-                    el.style.zIndex = props.zindex || 0;
+                    // el.style.zIndex = priorityMap[`${props.priority}`] || 0;
 
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
