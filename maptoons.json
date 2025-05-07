@@ -5,7 +5,7 @@
 		"maputnik:renderer": "mbgljs"
 	},
 	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
-	"sprite": "https://github.com/maptoons/maptoons.github.io/tree/main/assets/sprites",
+	"sprite": "https://maptoons.github.io/assets/sprites/sprites",
 	"sources": {
 		"osm": {
 			"type": "vector",
