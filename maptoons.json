@@ -14,6 +14,10 @@
 		"long_island_highway": {
 			"type": "vector",
 			"tiles": ["https://maptoons.github.io/data/long_island_highway/{z}/{x}/{y}.pbf"]
+		},
+		"long_island_place": {
+			"type": "vector",
+			"tiles": ["https://maptoons.github.io/data/long_island_place/{z}/{x}/{y}.pbf"]
 		}
 	},
 	"layers": [
@@ -67,6 +71,25 @@
 				"text-color": "hsl(0, 0%, 30%)",
 				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ]
 			}
+		},
+		{
+			"source": "long_island_place",
+			"id": "label-city",
+			"type": "symbol",
+			"source-layer": "long_island_place",
+			"layout": {
+				"text-field": "{name}",
+				"text-font": [ "poppins-medium" ],
+				"text-letter-spacing": 0.1,
+				"text-size": 10
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 30%)",
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 1, 12, 0 ],
+				"text-halo-color": "hsla(0, 0%, 100%, 0.5)",
+				"text-halo-width": 0
+			},
+			"maxzoom": 12
 		}
 	]
 }
