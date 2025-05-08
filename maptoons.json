@@ -9,11 +9,11 @@
 	"sources": {
 		"long_island": {
 			"type": "vector",
-			"tiles": ["data/long_island/{z}/{x}/{y}.pbf"]
+			"tiles": ["https://maptoons.github.io/data/long_island/{z}/{x}/{y}.pbf"]
 		},
 		"long_island_highway": {
 			"type": "vector",
-			"tiles": ["data/long_island_highway/{z}/{x}/{y}.pbf"]
+			"tiles": ["https://maptoons.github.io/data/long_island_highway/{z}/{x}/{y}.pbf"]
 		}
 	},
 	"layers": [
