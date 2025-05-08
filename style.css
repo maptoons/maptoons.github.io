@@ -502,6 +502,9 @@ body {
     opacity: 1;
     overflow: hidden;
     transition: opacity 1s ease;
+    pointer-events: all !important;
+    touch-action: none !important;
+    user-select: none !important;
 }
 
 .splash-content {
