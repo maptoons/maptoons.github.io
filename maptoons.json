@@ -7,9 +7,13 @@
 	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
 	"sprite": "https://maptoons.github.io/assets/sprites/sprites",
 	"sources": {
-		"osm": {
+		"long_island": {
 			"type": "vector",
-			"url": "https://vector.openstreetmap.org/shortbread_v1/tilejson.json"
+			"tiles": ["data/long_island/{z}/{x}/{y}.pbf"]
+		},
+		"long_island_highway": {
+			"type": "vector",
+			"tiles": ["data/long_island_highway/{z}/{x}/{y}.pbf"]
 		}
 	},
 	"layers": [
@@ -17,34 +21,23 @@
 			"id": "background",
 			"type": "background",
 			"paint": {
-				"background-color": "hsl(92, 46%, 72%)"
+				"background-color": "hsl(0, 0%, 100%)"
 			}
 		},
 		{
-			"source": "osm",
-			"id": "ocean",
+			"source": "long_island",
+			"id": "long-island",
 			"type": "fill",
-			"source-layer": "ocean",
+			"source-layer": "long_island",
 			"paint": {
-				"fill-color": "hsl(181, 45%, 80%)"
+				"fill-color": "hsl(92, 46%, 72%)"
 			}
 		},
 		{
-			"source": "osm",
-			"id": "land-beach",
-			"type": "fill",
-			"source-layer": "land",
-			"filter": [ "all", [ "in", "kind", "beach", "sand" ] ],
-			"paint": {
-				"fill-color": "hsl(39, 100%, 85%)"
-			}
-		},
-		{
-			"source": "osm",
+			"source": "long_island_highway",
 			"id": "street",
 			"type": "line",
-			"source-layer": "streets",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
+			"source-layer": "long_island_highway",
 			"paint": {
 				"line-color": "HSL(54, 56%, 90%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ]
@@ -56,11 +49,10 @@
 			"minzoom": 11
 		},
 		{
-			"source": "osm",
+			"source": "long_island_highway",
 			"id": "label-street",
 			"type": "symbol",
-			"source-layer": "street_labels",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
+			"source-layer": "long_island_highway",
 			"layout": {
 				"text-field": "{name}",
 				"text-transform": "uppercase",
@@ -75,26 +67,6 @@
 				"text-color": "hsl(0, 0%, 30%)",
 				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ]
 			}
-		},
-		{
-			"source": "osm",
-			"id": "label-city",
-			"type": "symbol",
-			"source-layer": "place_labels",
-			"filter": [ "in", "kind", "city", "town", "village", "capital", "state_capital" ],
-			"layout": {
-				"text-field": "{name}",
-				"text-font": [ "poppins-medium" ],
-				"text-letter-spacing": 0.1,
-				"text-size": 10
-			},
-			"paint": {
-				"text-color": "hsl(0, 0%, 30%)",
-				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 1, 12, 0 ],
-				"text-halo-color": "hsla(0, 0%, 100%, 0.5)",
-				"text-halo-width": 0
-			},
-			"maxzoom": 12
 		}
 	]
 }
