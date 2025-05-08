@@ -23,7 +23,8 @@
                 "img": "HK-11Q",
                 "category": "live_and_work",
                 "subcategory": "insurance",
-                "address_formatted": "54 Sunnyside Boulevard, Plainview, NY 11803, United States of America"
+                "address_formatted": "54 Sunnyside Boulevard, Plainview, NY 11803, United States of America",
+                "vehicle": "sky"
             },
             "geometry": {
                 "type": "Point",
@@ -75,7 +76,8 @@
                 "img": "HK-91Q",
                 "category": "live_and_work",
                 "subcategory": "real_estate",
-                "address_formatted": "54 West John Street, Hicksville, NY 11801, United States of America"
+                "address_formatted": "54 West John Street, Hicksville, NY 11801, United States of America",
+                "vehicle": "sky"
             },
             "geometry": {
                 "type": "Point",
@@ -101,7 +103,8 @@
                 "category": "live_and_work",
                 "subcategory": "tax_services",
                 "town": "Glen Cove",
-                "address_formatted": "114 Forest Avenue, City of Glen Cove, NY 11542, United States of America"
+                "address_formatted": "114 Forest Avenue, City of Glen Cove, NY 11542, United States of America",
+                "vehicle": "sky"
             },
             "geometry": {
                 "type": "Point",
@@ -423,7 +426,8 @@
                 "img": "HK-27T",
                 "category": "live_and_work",
                 "subcategory": "real_estate",
-                "address_formatted": "255 Executive Drive, Plainview, NY 11803, United States of America"
+                "address_formatted": "255 Executive Drive, Plainview, NY 11803, United States of America",
+                "vehicle": "sky"
             },
             "geometry": {
                 "type": "Point",
@@ -547,7 +551,8 @@
                 "img": "HK-70Q",
                 "category": "live_and_work",
                 "subcategory": "electricians",
-                "address_formatted": "14 Holman Boulevard, Hicksville, NY 11801, United States of America"
+                "address_formatted": "14 Holman Boulevard, Hicksville, NY 11801, United States of America",
+                "vehicle": "land"
             },
             "geometry": {
                 "type": "Point",
@@ -597,7 +602,8 @@
                 "category": "shop_and_discover",
                 "subcategory": "specialty_retail",
                 "address": "47 Elliot Drive, Hicksville, NY 11801",
-                "address_formatted": "47 Elliot Drive, Hicksville, NY 11801, United States of America"
+                "address_formatted": "47 Elliot Drive, Hicksville, NY 11801, United States of America",
+                "vehicle": "sky"
             },
             "geometry": {
                 "type": "Point",
@@ -622,7 +628,8 @@
                 "img": "HK-7T",
                 "category": "live_and_work",
                 "subcategory": "transportation_services",
-                "address_formatted": "455 West John Street, Hicksville, NY 11801, United States of America"
+                "address_formatted": "455 West John Street, Hicksville, NY 11801, United States of America",
+                "vehicle": "land"
             },
             "geometry": {
                 "type": "Point",
@@ -952,7 +959,8 @@
                 "img": "HK-101Q",
                 "category": "live_and_work",
                 "subcategory": "pest_control",
-                "address_formatted": "1 Enterprise Place, Hicksville, NY 11801, United States of America"
+                "address_formatted": "1 Enterprise Place, Hicksville, NY 11801, United States of America",
+                "vehicle": "land"
             },
             "geometry": {
                 "type": "Point",
@@ -1003,7 +1011,8 @@
                 "category": "live_and_work",
                 "subcategory": "moving_services",
                 "town": "Woodbury",
-                "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America"
+                "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+                "vehicle": "land"
             },
             "geometry": {
                 "type": "Point",
@@ -1028,7 +1037,8 @@
                 "category": "live_and_work",
                 "subcategory": "restoration_services",
                 "address": "17B East Old Country Road, Suite 328, Hicksvile, New York",
-                "address_formatted": "17 B East Old Country Road, Hicksville, NY 11801, United States of America"
+                "address_formatted": "17 B East Old Country Road, Hicksville, NY 11801, United States of America",
+                "vehicle": "land"
             },
             "geometry": {
                 "type": "Point",
@@ -1128,7 +1138,8 @@
                 "img": "HK-110S",
                 "category": "live_and_work",
                 "subcategory": "junk_and_recycling",
-                "address_formatted": "12 A Commercial Street, Hicksville, NY 11801, United States of America"
+                "address_formatted": "12 A Commercial Street, Hicksville, NY 11801, United States of America",
+                "vehicle": "land"
             },
             "geometry": {
                 "type": "Point",
@@ -1965,7 +1976,8 @@
                 "img": "HK-82D",
                 "category": "live_and_work",
                 "subcategory": "real_estate",
-                "address_formatted": "70 East Old Country Road, Hicksville, NY 11801, United States of America"
+                "address_formatted": "70 East Old Country Road, Hicksville, NY 11801, United States of America",
+                "vehicle": "sky"
             },
             "geometry": {
                 "type": "Point",
