@@ -379,26 +379,33 @@
                         const createdItems = [];
                         features.forEach(feature => {
                             const img = `${imgSource}/${feature.properties.img}.png`;
+                            //const imgSpecial = `${imgSource}/${feature.properties.special}.png`;
+                            const imgSpecial = `${imgSource}/land.png`;
                             
                             const featureItem = document.createElement('div');
                             featureItem.className = 'featured-item';
+                            featureItem.style.backgroundImage = `url(${imgSpecial})`
                             
                             // Add title inside the item
                             const titleElement = document.createElement('div');
                             titleElement.className = 'featured-title';
                             titleElement.textContent = 'Featured';
-                            featureItem.appendChild(titleElement);
-                            
-                            // Apply category color (commented out as per your code)
-                            // const category = feature.properties.category;
-                            // const categoryColor = getCategoryColor(category);
-                            
+                            //featureItem.appendChild(titleElement);
+
+                            // Add image
                             const imgElement = document.createElement('img');
                             imgElement.className = 'featured-logo';
                             imgElement.src = img;
                             imgElement.alt = feature.properties.name || 'Featured location';
-                            
                             featureItem.appendChild(imgElement);
+
+                            // Add mapname
+                            const mapNameElement = document.createElement('div');
+                            mapNameElement.className = 'featured-mapname';
+                            mapNameElement.textContent = feature.properties.mapname || '';
+                            //featureItem.appendChild(mapNameElement); 
+                            
+                            // Append items
                             featuredContainer.appendChild(featureItem);
                             
                             createdItems.push({
