@@ -540,7 +540,7 @@
                 { id: 'thrive_and_restore', icon: 'fa-leaf' },
                 { id: 'shop_and_discover', icon: 'fa-shopping-bag' },
                 { id: 'live_and_work', icon: 'fa-home' },
-                { id: 'gather_and_worship', icon: 'fa-church' }
+                { id: 'gather_and_worship', icon: 'fa-user-group' }
             ];
 
             categories.forEach(({ id, icon }) => {
@@ -635,16 +635,26 @@
                     img.src = `${imgSource}/${props.img}.png`;
                     img.className = 'custom-marker-img';
 
-                    // Create triangle element (now separate from the circle)
+                    // Create triangle element
                     const triangle = document.createElement('div');
                     triangle.className = 'custom-marker-triangle';
                     triangle.style.borderTopColor = getCategoryColor(props.category);
 
+                    // Create star
+                    if (['Q', 'T', 'D'].includes(props.priority)) {
+                        const star = document.createElement('div');
+                        star.className = 'custom-marker-star';
+                        star.innerHTML = '<i class="fas fa-star"></i>';
+                        star.style.color = getPriorityColor(props.priority);
+                        star.title = `Priority: ${props.priority}`;
+                        markerWrapper.appendChild(star);
+                    }
+
                     // Build the structure
                     imgContainer.appendChild(img);
-                    markerWrapper.appendChild(triangle);
                     markerWrapper.appendChild(imgContainer);
-                    el.appendChild(markerWrapper);
+                    markerWrapper.appendChild(triangle);
+                    el.appendChild(markerWrapper); 
 
                     // Set z-index based on latitude
                     el.style.zIndex = props.zindex || 0;
@@ -1092,15 +1102,6 @@
             });
         }
 
-        // Helper function to get category color
-        // original category colors
-        // 'eat_and_drink': 'hsl(35, 100%, 40%)',
-        // 'visit_and_experience': 'hsl(0, 79%, 45%)',
-        // 'play_and_learn': 'hsl(296, 30%, 38%)',
-        // 'thrive_and_restore': 'hsl(18, 55%, 33%)',
-        // 'shop_and_discover': 'hsl(114, 35%, 31%)',
-        // 'live_and_work': 'hsl(197, 35%, 36%)',
-        // 'gather_and_worship': 'hsl(240, 12%, 24%)'
         const getCategoryColor = (category) => {
             const colorMap = {
                 'eat_and_drink': 'hsl(35, 100%, 70%)',
@@ -1114,6 +1115,15 @@
             };
             return colorMap[category] || colorMap.default;
         };
+
+        const getPriorityColor = (priority) => {
+            switch(priority) {
+                case 'Q': return 'hsl(51, 100%, 50%)';
+                case 'T': return 'hsl(30, 100%, 50%)';
+                case 'D': return 'hsl(240, 5%, 75%)';
+                default: return 'hsl(0, 0%, 100%)';
+            }
+        }
 
         // Update markers on the screen and do so on every map move/moveend
         map.on('data', (e) => {

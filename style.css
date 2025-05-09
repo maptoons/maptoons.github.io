@@ -426,6 +426,7 @@ body {
 }
 
 .custom-marker-img-container {
+    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -436,7 +437,6 @@ body {
     border: 3px solid;
     pointer-events: auto;
     cursor: pointer;
-    position: relative;
     z-index: 2;
 }
 
@@ -451,6 +451,18 @@ body {
     border-right: 8px solid transparent;
     border-top: 8px solid;
     z-index: 1;
+}
+
+.custom-marker-star {
+    position: absolute;
+    top: -7px;
+    right: -3px;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.2);
+    -webkit-text-stroke: 1px hsl(0, 0%, 50%);
+    text-stroke: 1px hsl(0, 0%, 50%);
+    z-index: 3;
+    pointer-events: none;
 }
 
 .custom-marker-img {
