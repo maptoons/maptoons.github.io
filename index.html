@@ -33,13 +33,14 @@
     <script>
 
         const imgSource = 'img'
-        const styleFile = 'maptoons.json'
+        const styleFile = 'maptoons-v2.json'
         const locationFile = 'data/hicksville.geojson'
         const artFile = 'data/hicksville-art.geojson'
         const spritesFile = 'data/sprites.geojson'
-
         const zoomThreshold = 14 // For clusters and markers
+
         let currentActiveCategory = 'all';
+        let infoBoxOpen = false;
         let locationData;
 
         // Show splash screen
@@ -194,11 +195,11 @@
                                 'case',
                                 ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 70%)',
                                 ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 75%)',
-                                ['==', ['get', 'category'], 'play_and_learn'], 'hsl(296, 30%, 68%)',
-                                ['==', ['get', 'category'], 'thrive_and_restore'], 'hsl(18, 55%, 63%)',
+                                ['==', ['get', 'category'], 'learn_and_play'], 'hsl(296, 30%, 68%)',
+                                ['==', ['get', 'category'], 'thrive_and_be_well'], 'hsl(18, 55%, 63%)',
                                 ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 61%)',
                                 ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 66%)',
-                                ['==', ['get', 'category'], 'gather_and_worship'], 'hsl(240, 12%, 54%)',
+                                ['==', ['get', 'category'], 'gather_and_connect'], 'hsl(240, 12%, 54%)',
                                 'hsl(0, 0%, 100%)' // default color if none match
                             ],
                             'circle-stroke-width': 1.5,
@@ -228,22 +229,24 @@
                         'minzoom': zoomThreshold + 2
                     });
 
-                    // Handle click on info button
                     document.getElementById('refresh-features-btn').addEventListener('click', () => {
-                        // Optional: Add loading indicator
-                        const btn = document.getElementById('refresh-features-btn');
-                        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
-                        btn.disabled = true;
-
-                        // Call your function
-                        updateInfoBox();
-
-                        // Reset button after a short delay (optional)
-                        setTimeout(() => {
-                            btn.innerHTML = 'Refresh Info';
-                            btn.disabled = false;
-                        }, 1000);
-                    });
+    const btn = document.getElementById('refresh-features-btn');
+    const infoBox = document.getElementById('info-box');
+    
+    if (infoBoxOpen) {
+        // Close the info box
+        infoBox.classList.remove('visible');
+        btn.innerHTML = 'Show Info';
+        infoBoxOpen = false;
+    } else {
+        // Open/refresh the info box
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
+        updateInfoBox().then(() => {
+            btn.innerHTML = 'Hide Info';
+            infoBoxOpen = true;
+        });
+    }
+});
 
                     // Handle clicks on cluster layer
                     map.on('click', (e) => {
@@ -536,11 +539,11 @@
             const categories = [
                 { id: 'eat_and_drink', icon: 'fa-utensils' },
                 { id: 'visit_and_experience', icon: 'fa-landmark' },
-                { id: 'play_and_learn', icon: 'fa-child' },
-                { id: 'thrive_and_restore', icon: 'fa-leaf' },
+                { id: 'learn_and_play', icon: 'fa-child' },
+                { id: 'thrive_and_be_well', icon: 'fa-leaf' },
                 { id: 'shop_and_discover', icon: 'fa-shopping-bag' },
                 { id: 'live_and_work', icon: 'fa-home' },
-                { id: 'gather_and_worship', icon: 'fa-user-group' }
+                { id: 'gather_and_connect', icon: 'fa-user-group' }
             ];
 
             categories.forEach(({ id, icon }) => {
@@ -548,7 +551,8 @@
                 categoryElement.className = 'category-feature';
                 categoryElement.dataset.category = id;
                 const label = id
-                    .replace(/_and_/g, ' & ')
+                    .replace(/and/g, '&')
+                    .replace(/_/g, ' ')
                     .replace(/\b\w/g, char => char.toUpperCase());
 
                 // Create icon element separately to apply color
@@ -646,7 +650,6 @@
                         star.className = 'custom-marker-star';
                         star.innerHTML = '<i class="fas fa-star"></i>';
                         star.style.color = getPriorityColor(props.priority);
-                        star.title = `Priority: ${props.priority}`;
                         markerWrapper.appendChild(star);
                     }
 
@@ -690,9 +693,17 @@
         const updateInfoBox = async () => {
             const features = map.querySourceFeatures('location');
             const infoBox = document.getElementById('info-box');
+            const btn = document.getElementById('refresh-features-btn');
+
             let uniqueFeatures = new Map();
 
             infoBox.classList.add('visible');
+            infoBoxOpen = true;
+
+            if (btn) {
+                btn.innerHTML = 'Hide Info';
+                btn.disabled = false;
+            }
 
             // Store the current content of the infoBox
             const currentContent = infoBox.innerHTML;
@@ -828,6 +839,18 @@
                 const mapname = document.createElement('h1');
                 mapname.className = 'mapname';
                 mapname.textContent = properties.mapname;
+
+// Create priority star if applicable
+if (properties.priority && ['Q', 'T', 'D'].includes(properties.priority)) {
+    const star = document.createElement('span');
+    star.className = 'mapname-priority-star';
+    star.innerHTML = '<i class="fas fa-star"></i>';
+    star.style.color = getPriorityColor(properties.priority);
+    
+    // Insert star after map name
+    mapname.appendChild(star);
+}
+
                 textContainer.appendChild(mapname);
 
                 // Add info text if exists
@@ -950,6 +973,8 @@
 
             clickOutsideHandler = (e) => {
                 const infoBox = document.getElementById('info-box');
+                const btn = document.getElementById('refresh-features-btn');
+
                 if (!infoBox?.classList.contains('visible')) return;
 
                 const protected = [
@@ -962,6 +987,12 @@
 
                 if (!e.target.closest(protected)) {
                     infoBox.classList.remove('visible');
+                    infoBoxOpen = false;
+
+                    if (btn) {
+                        btn.innerHTML = 'Show Info';
+                        btn.disabled = false;
+                    }
                 }
             };
 
@@ -1106,11 +1137,11 @@
             const colorMap = {
                 'eat_and_drink': 'hsl(35, 100%, 70%)',
                 'visit_and_experience': 'hsl(0, 79%, 75%)',
-                'play_and_learn': 'hsl(296, 30%, 68%)',
-                'thrive_and_restore': 'hsl(18, 55%, 63%)',
+                'learn_and_play': 'hsl(296, 30%, 68%)',
+                'thrive_and_be_well': 'hsl(18, 55%, 63%)',
                 'shop_and_discover': 'hsl(114, 35%, 61%)',
                 'live_and_work': 'hsl(197, 35%, 66%)',
-                'gather_and_worship': 'hsl(240, 12%, 54%)',
+                'gather_and_connect': 'hsl(240, 12%, 54%)',
                 'default': 'hsl(0, 0%, 100%)'
             };
             return colorMap[category] || colorMap.default;
