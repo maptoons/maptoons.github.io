@@ -836,22 +836,27 @@
                 const textContainer = document.createElement('div');
                 textContainer.className = 'info-popup-text';
 
-                const mapname = document.createElement('h1');
-                mapname.className = 'mapname';
-                mapname.textContent = properties.mapname;
+// Create title container
+const titleContainer = document.createElement('div');
+titleContainer.className = 'info-popup-title-container';
 
 // Create priority star if applicable
 if (properties.priority && ['Q', 'T', 'D'].includes(properties.priority)) {
     const star = document.createElement('span');
-    star.className = 'mapname-priority-star';
+    star.className = 'info-popup-star';
     star.innerHTML = '<i class="fas fa-star"></i>';
     star.style.color = getPriorityColor(properties.priority);
     
     // Insert star after map name
-    mapname.appendChild(star);
+    titleContainer.appendChild(star);
 }
 
-                textContainer.appendChild(mapname);
+                const mapname = document.createElement('h1');
+                mapname.className = 'info-popup-mapname';
+                mapname.textContent = properties.mapname;
+                titleContainer.appendChild(mapname);
+
+                textContainer.appendChild(titleContainer);
 
                 // Add info text if exists
                 if (properties.info) {
