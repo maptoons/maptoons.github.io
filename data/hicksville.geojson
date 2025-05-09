@@ -47,7 +47,7 @@
                 "loc": 47,
                 "priority": "Q",
                 "img": "HK-47Q",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dentists",
                 "address_formatted": "386 South Oyster Bay Road, Hicksville, NY 11801, United States of America"
             },
@@ -127,7 +127,7 @@
                 "loc": 113,
                 "priority": "S",
                 "img": "HK-113S",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "beauty_services",
                 "address_formatted": "217 Bethpage Road, Hicksville, NY 11801, United States of America"
             },
@@ -251,7 +251,7 @@
                 "loc": 94,
                 "priority": "D",
                 "img": "HK-94D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "fitness_centers",
                 "address_formatted": "366 North Broadway, Jericho, NY 11753, United States of America"
             },
@@ -276,7 +276,7 @@
                 "loc": 42,
                 "priority": "D",
                 "img": "HK-42D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dentists",
                 "address_formatted": "295 North Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -326,7 +326,7 @@
                 "loc": 54,
                 "priority": "D",
                 "img": "HK-54D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pet_grooming",
                 "address_formatted": "188 Woodbury Road, Hicksville, NY 11801, United States of America"
             },
@@ -450,7 +450,7 @@
                 "loc": 26,
                 "priority": "D",
                 "img": "HK-26D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "martial_arts_studios",
                 "address_formatted": "204 Broadway Mall, Hicksville, NY 11801, United States of America"
             },
@@ -878,7 +878,7 @@
                 "loc": 69,
                 "priority": "Q",
                 "img": "HK-69Q",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "k12_schools",
                 "address_formatted": "40 West Nicholai Street, Hicksville, NY 11801, United States of America"
             },
@@ -1162,7 +1162,7 @@
                 "loc": 77,
                 "priority": "D",
                 "img": "HK-77D",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "130 Jerusalem Avenue, Hicksville, NY 11801, United States of America"
             },
@@ -1187,7 +1187,7 @@
                 "loc": 76,
                 "priority": "D",
                 "img": "HK-76D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "chiropractic",
                 "address_formatted": "125 Jerusalem Avenue, Hicksville, NY 11801, United States of America"
             },
@@ -1312,7 +1312,7 @@
                 "loc": 80,
                 "priority": "D",
                 "img": "HK-80D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "home_health_care",
                 "address_formatted": "115 Newbridge Road, Hicksville, NY 11801, United States of America"
             },
@@ -1337,7 +1337,7 @@
                 "loc": 57,
                 "priority": "D",
                 "img": "HK-57D",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "youth_services",
                 "address_formatted": "79 West Old Country Road, Hicksville, NY 11801, United States of America"
             },
@@ -1437,7 +1437,7 @@
                 "loc": 21,
                 "priority": "D",
                 "img": "HK-21D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "79 East Old Country Road, Hicksville, NY 11801, United States of America"
             },
@@ -1515,7 +1515,7 @@
                 "loc": 67,
                 "priority": "D",
                 "img": "HK-67D",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "dance_schools",
                 "address_formatted": "376 Old Country Road, Hicksville, NY 11801, United States of America"
             },
@@ -1640,7 +1640,7 @@
                 "loc": 28,
                 "priority": "T",
                 "img": "HK-28T",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "270 South Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -1692,7 +1692,7 @@
                 "loc": 114,
                 "priority": "S",
                 "img": "HK-114S",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dentists",
                 "address_formatted": "333 South Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -1850,7 +1850,7 @@
                 "loc": 37,
                 "priority": "Q",
                 "img": "HK-37Q",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "martial_arts_studios",
                 "address_formatted": "300 South Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -1949,7 +1949,7 @@
                 "loc": 83,
                 "priority": "Q",
                 "img": "HK-83Q",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "261 West Old Country Road, Hicksville, NY 11801, United States of America"
             },
@@ -1999,7 +1999,7 @@
                 "loc": 59,
                 "priority": "S",
                 "img": "HK-59S",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pharmacies",
                 "address_formatted": "459 South Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -2074,7 +2074,7 @@
                 "loc": 16,
                 "priority": "D",
                 "img": "HK-16D",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "youth_services",
                 "address_formatted": "495 South Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -2101,7 +2101,7 @@
                 "loc": 96,
                 "priority": "Q",
                 "img": "HK-96Q",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "103 Levittown Parkway, Hicksville, NY 11801, United States of America"
             },
@@ -2251,7 +2251,7 @@
                 "loc": 79,
                 "priority": "S",
                 "img": "HK-79S",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pharmacies",
                 "address_formatted": "420 Newbridge Road, Hicksville, NY 11801, United States of America"
             },
@@ -2277,7 +2277,7 @@
                 "loc": 12,
                 "priority": "Q",
                 "img": "HK-12Q",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dentists",
                 "address_formatted": "404 Jerusalem Avenue, Hicksville, NY 11801, United States of America"
             },
@@ -2302,7 +2302,7 @@
                 "loc": 95,
                 "priority": "S",
                 "img": "HK-95S",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "youth_services",
                 "address_formatted": "762 South Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -2327,7 +2327,7 @@
                 "loc": 32,
                 "priority": "T",
                 "img": "HK-32T",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "youth_services",
                 "address_formatted": "95 Stewart Avenue, Hicksville, NY 11801, United States of America"
             },
@@ -2480,7 +2480,7 @@
                 "loc": 68,
                 "priority": "S",
                 "img": "HK-68S",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "dance_schools",
                 "address_formatted": "940 South Broadway, Hicksville, NY 11801, United States of America"
             },
@@ -2630,7 +2630,7 @@
                 "loc": 40,
                 "priority": "D",
                 "img": "HK-40D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "32 West Village Green, Hicksville, NY 11801, United States of America"
             },
@@ -2782,7 +2782,7 @@
                 "loc": 13,
                 "priority": "D",
                 "img": "HK-13D",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pet_grooming",
                 "town": "Bethpage",
                 "address_formatted": "603 Hicksville Road, Bethpage, NY 11714, United States of America"

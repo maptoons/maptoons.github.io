@@ -59,7 +59,7 @@
                 "discount": "Re-schedule your dog for grooming within four weeks and receive $5 off our regular fee.",
                 "info": "Too busy to take the pooch to the grooming salon? State-of-the-Art Groom Mobile will come to you and provide Professional Dog Grooming by a licensed groomer.",
                 "mapname": "Luv'n Poches",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pet_grooming",
                 "address_formatted": "Long Beach, NY, United States of America"
             },
@@ -341,13 +341,13 @@
                 "mapname": "Hope's Land of Candy",
                 "category": "eat_and_drink",
                 "subcategory": "ice_cream_and_desserts",
-                "address_formatted": "Island Park, 3951 Long Beach Road, Village of Island Park, NY 11558, United States of America"
+                "address_formatted": "Island Park, 3951 Long Beach Road, Barnum Island, NY 11558, United States of America"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6445195,
-                    40.6136072
+                    -73.64452,
+                    40.613607
                 ]
             }
         },
@@ -433,7 +433,7 @@
                 "discount": "$20 off registration.",
                 "info": "Our school seeks to provide a learning experience of love, acceptance, warmth and understanding where each child's sense of responsibility is fostered.",
                 "mapname": "The Little Sea Shell Nursery School",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "preschools",
                 "address_formatted": "364 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
@@ -456,7 +456,7 @@
                 "discount": "$25 off your tattoo $150 or more; $100 off your tattoo of $750 or more.",
                 "info": "Custom tattooing with highly capable and experienced artists. Dealing in all styles of tattoo art (including coverup and repair work) in a clean and relaxed environment.",
                 "mapname": "Green Apple Tattoo",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "tattoo_and_piercing",
                 "address_formatted": "4000 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
@@ -504,7 +504,7 @@
                 "discount": "1) First group class free for new students. 2) $25 off your first individual session. First time students only.",
                 "info": "30+ years experience utilizing movement to access the brains capacity for growth and change, which promotes Neuroplasticity. From infants-to-elders, we offer individual hands on sessions and group classes.",
                 "mapname": "The Feldenkrais Center For Wellness in Action",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "physical_therapy",
                 "address_formatted": "4025 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
@@ -696,7 +696,7 @@
                 "discount": "Free conditioning treatment with any cut or color service.",
                 "info": "We are a talented team with a passion for our craft. Our experienced stylists, colorists, and make-up artists are all here to bring out your best.",
                 "mapname": "Vivo Salon",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "4000 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
             },
@@ -837,7 +837,7 @@
                 "business": "Nursing Facility, Rehabilitation",
                 "info": "Staffed by healthcare professionals who are dedicated to improving the quality of life for those with specialized needs including short and long term therapy.",
                 "mapname": "South Point Plaza - Nursing And Rehabilitation Center",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "rehabilitation_centers",
                 "address_formatted": "Rehabilitation & Nursing Home, 1 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
@@ -906,7 +906,7 @@
                 "business": "House of Worship",
                 "info": "This conservative, egalitarian congregation has been serving the community since 1952. Women are accorded Aliyahs, and counted for Minyans. Services for Shabbat, Festivals, and high holidays. Recently merged with Congregation Beth Sholom.",
                 "mapname": "South Shore Jewish Center",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "191 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
@@ -952,7 +952,7 @@
                 "business": "House of Worship",
                 "info": "Saturday 4-5pm",
                 "mapname": "Sacred Heart R.C. Church",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "282 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
@@ -975,7 +975,7 @@
                 "business": "House of Worship",
                 "info": "Since 1926, the Island Park UMC serves the community with love and a family-oriented atmosphere. We welcome you to come and worship God with us!",
                 "mapname": "Island Park Methodist Church",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "364 Long Beach Road, Village of Island Park, NY 11558, United States of America"
             },
@@ -1061,7 +1061,6 @@
                 "phone": "516-442-5607",
                 "web": "http://KingKullen.com/shoponline/",
                 "business": "Supermarket",
-                "info": "",
                 "mapname": "King Kullen",
                 "category": "shop_and_discover",
                 "subcategory": "supermarkets",
@@ -1200,7 +1199,7 @@
                 "business": "Special Needs",
                 "info": "Honoring the memory of Theresa Alessandra Russo by touching the lives of children with special needs. We foster each child's unique abilities through programs focusing on art, music, dance and recreation.",
                 "mapname": "Theresa Academy of Performing Arts",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "special_needs_education",
                 "address_formatted": "250 Lido Boulevard, Lido Beach, NY 11561, United States of America"
             },
@@ -1270,7 +1269,7 @@
                 "discount": "$10.00 off any purchase or procedure. One per customer.",
                 "info": "Offering compassionate, comprehensive medical services for your family's pet. We make every effort to incorporate the latest techniques in veterinary medical care at our facility.",
                 "mapname": "All Creatures Veterinary Services",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "veterinarians",
                 "address_formatted": "733 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -1294,7 +1293,7 @@
                 "discount": "$50 off any party package - one time use only.",
                 "info": "We are a children's play center offering toddler separation classes, summer camp hours, birthday parties, room rentals and Friday night babysitting services.",
                 "mapname": "Seaside Celebrations",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "youth_services",
                 "address_formatted": "949 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
@@ -1364,7 +1363,7 @@
                 "business": "Health & Wellness, Spa",
                 "info": "Our goal is to restore your health and inner peace while giving you the highest quality massage services that you will ever experience.",
                 "mapname": "Healing Oasis",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "spas_and_wellness",
                 "address_formatted": "Healing Oasis Massage, 252 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -1646,7 +1645,7 @@
                 "discount": "$50 off one complete pair of glasses. Minimum purchase $150.",
                 "info": "Over 30 years experience. Affordable eyewear with many designer frames. Contact lens specialist with hard to fit patient cases. Accept most insurances including VSP and EyeMed. Closed Sundays.",
                 "mapname": "Dr. Leland Barry",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "optometrists",
                 "address_formatted": "651 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -1670,7 +1669,7 @@
                 "discount": "$50 off one complete pair of glasses. Minimum purchase $200. Not to be combined with insurance or other offers.",
                 "info": "Come in for personal care and great service. Convenient hours--open late two nights each week. Most insurances accepted.",
                 "mapname": "Above All Eyes",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "optometrists",
                 "address_formatted": "Umi Nail Spa, 264 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -1694,7 +1693,7 @@
                 "discount": "$50 off Zoom teeth whitening.",
                 "info": "The latest techniques in Cosmetic Dentistry in a gentle and relaxed atmosphere. TVs, coffee bar and many extras. Convenient hours, Zoom bleaching, Lumineers and much more.",
                 "mapname": "Laleh Tavabi, DDS",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dentists",
                 "address_formatted": "324 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -1814,7 +1813,7 @@
                 "discount": "10% off all services (except injectables).",
                 "info": "We devote our knowledge and expertise towards providing you with the best service possible. Consultations are the foundation to our success.",
                 "mapname": "Highlights West",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "805 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
@@ -1838,7 +1837,7 @@
                 "discount": "10% off any products purchased at office.",
                 "info": "Ronald H. Falcon, MD; Charisse A. Dolitsky, MD; K. Andrew Cerveny, Jr., MD; Wil D. Tutrone, M.D.; Adarsh V. Mudgil, M.D.; Linda M. Dodick, MPAS",
                 "mapname": "Island Dermatology",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dermatologists",
                 "address_formatted": "604 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2286,7 +2285,7 @@
                 "business": "Pediatrics",
                 "info": "State-of-the-art facility, open seven days with 24-hour on call services. Modern comfortable environment. Friendly and courteous staff. Well child care, urgent care issues, summer patients welcome.",
                 "mapname": "Matthew S. Cohen, MD, FAAP",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pediatricians",
                 "address_formatted": "272 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2309,7 +2308,7 @@
                 "business": "Blood / Clinical Testing",
                 "info": "We provide high quality clinical blood testing. Our location offers patients personalized service with minimal wait times, quick reported results and high patient satisfaction.",
                 "mapname": "LI Path",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "laboratory_services",
                 "address_formatted": "303 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2332,7 +2331,7 @@
                 "business": "Primary Care / Walk-In",
                 "info": "A competent and compassionate team of physicians and nurse practitioners. Routine, DOT, school and employment physicals, management of acute and chronic diseases, home visits. Most insurances accepted.",
                 "mapname": "Right Choice Primary Care",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "primary_care",
                 "address_formatted": "303 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2355,7 +2354,7 @@
                 "business": "Child Care / Pre-School",
                 "info": "Offering quality year round programs. Our early childhood, school-age and holiday programs are licensed by NYS. Stop by and meet our experienced and loving staff.",
                 "mapname": "Friedberg JCC",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "childcare",
                 "address_formatted": "310 National Boulevard, City of Long Beach, NY 11561, United States of America"
             },
@@ -2445,7 +2444,7 @@
                 "business": "Dietitian / Nutritionist",
                 "info": "Licensed Registered Dietitian. Through nutrition education, motivation and support we can help you on your journey to optimum health and wellness.",
                 "mapname": "Nutrition Counseling",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "nutritionists",
                 "address_formatted": "535 A West Broadway, City of Long Beach, NY 11561, United States of America"
             },
@@ -2491,7 +2490,7 @@
                 "business": "Dentist",
                 "info": "Specializing in extreme smile makeovers for a brighter smile. Dr Gitt's procedures include dental veneers, dental bonding, metal free fillings, teeth whitening, and crowns.",
                 "mapname": "Cosmetic & Implant Dentistry of Long Beach",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dentists",
                 "address_formatted": "618 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2514,7 +2513,7 @@
                 "business": "Pharmacy",
                 "info": "Family owned pharmacy that will fill prescription while you wait. No cost Rx transfer. We offer diabetic and home health care supplies and have free delivery service.",
                 "mapname": "Precision Pharmacy",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pharmacies",
                 "address_formatted": "629 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2583,7 +2582,7 @@
                 "business": "Acupuncture",
                 "info": "Pain-arthritis-headaches-insomnia-depression-chronic fatigue-stress/anxiety-hypertension-Bell's palsy-TMJ-post stroke-Fibromyalgia-Carpal Tunnel-auto injury-gynecological problems-digestive disorders-allergies",
                 "mapname": "East Park Chiropractic Health & Wellness Care",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "acupuncture",
                 "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2606,7 +2605,7 @@
                 "business": "Chiropractor",
                 "info": "Traditional and non-forced chiropractic for preventive care, pain and injuries. Automobile accident, work-related, sports injury, massage therapy, homeopathic pain management and nutritional consultation.",
                 "mapname": "East Park Chiropractic Health & Wellness Care",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "chiropractic",
                 "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -2629,7 +2628,7 @@
                 "business": "House of Worship",
                 "info": "Sat -5pm, Sunday-8am, 10am, 12noon. Weekdays-8am. We welcome as family all who knock on our door seeking the face of Christ.",
                 "mapname": "St. Ignatius Martyr R.C. Church",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "721 West Broadway, City of Long Beach, NY 11561, United States of America"
             },
@@ -2697,7 +2696,7 @@
                 "business": "Urgent Care",
                 "info": "Our Board-Certified physicians can treat almost any injury or illness, on-site lab, x-ray, EKG, IV. Open 365 days, including holidays. Children & adults. No appointment needed.",
                 "mapname": "CityMD",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "urgent_care",
                 "address_formatted": "904 West Beech Street, City of Long Beach, NY 11561, United States of America"
             },
@@ -2860,7 +2859,7 @@
                 "discount": "$5 off your purchase of $25 or more. Excludes prescriptions.",
                 "info": "We pride ourselves as being a true Neighborhood Pharmacy with personalized service that celebrates the heritage of our community of Point Lookout.",
                 "mapname": "Gelo's Point Pharmacy",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "pharmacies",
                 "address_formatted": "62 Lido Boulevard, Point Lookout, NY 11569, United States of America"
             },
@@ -2952,7 +2951,7 @@
                 "business": "House of Worship",
                 "info": "00am Solemn High Mass, Children's Sunday School - 10am.",
                 "mapname": "St. James of Jerusalem Episcopal Church",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "220 West Penn Street, City of Long Beach, NY 11561, United States of America"
             },
@@ -2974,7 +2973,7 @@
                 "business": "Internal Medicine",
                 "info": "Our practice is dedicated to providing quality health care. We give our patients the utmost care and service and have the interest and desire to listen to what you are saying.",
                 "mapname": "Lowell B. Taubman, MD - Internal Medicine",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "primary_care",
                 "address_formatted": "206 Riverside Boulevard, City of Long Beach, NY 11561, United States of America"
             },
@@ -2997,7 +2996,7 @@
                 "business": "Counseling",
                 "info": "Providing comprehensive professional services for local individuals and families since 1970. Our mission is to help develop self-awareness and self-esteem and to create positive alternatives.",
                 "mapname": "Long Beach Reach",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "mental_health_services",
                 "address_formatted": "2 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3043,7 +3042,7 @@
                 "business": "Education",
                 "info": "An alternative high school diploma program for students who have withdrawn from the traditional education system. College and vocational admission assistance are also provided.",
                 "mapname": "Harriet Eisman Community School",
-                "category": "play_and_learn",
+                "category": "learn_and_play",
                 "subcategory": "educational_services",
                 "address_formatted": "165 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3201,7 +3200,7 @@
                 "business": "Dentist",
                 "info": "Our goal and policy is to treat your children as if they were our own. We consider your children not just a patient, but part of our extended family.",
                 "mapname": "Dr. Glen's Happy Teeth",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "dentists",
                 "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3224,7 +3223,7 @@
                 "business": "Orthodontist",
                 "info": "State-of-the-art technology, including digital x-rays, self-ligating braces, clear ceramic braces, lingual (hidden) braces and Invisalign. Treating children, adolescents, and adults with care and compassion.",
                 "mapname": "Adam Cohen, DMD - Orthodontist",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "orthodontists",
                 "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3270,7 +3269,7 @@
                 "business": "House of Worship",
                 "info": "Our Orthodox synagogue is located in the heart of Long Beach. We have provided minyanim, shiurim and programming for over 50 years and are one of the warmest, vibrant synagogues in the country.",
                 "mapname": "Young Israel of Long Beach",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "Young Israel of Long Beach, 120 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
             },
@@ -3435,7 +3434,7 @@
                 "discount": "One month free trial class.",
                 "info": "Serving Long Beach since 2001. Classes tailored to individual needs. We combine fitness, self-defense, and stress relief with a stimulating varied program. Children, teen and adult classes.",
                 "mapname": "Master Park's Martial Arts",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "martial_arts_studios",
                 "address_formatted": "Tae Kwon Do, 217 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3554,7 +3553,7 @@
                 "discount": "Free 1 week unlimited (new students only); 30 days for $30 (students who have not been at studio in over one year).",
                 "info": "The Original Beginner's Hot Yoga Class. \"Never too late, never too bad, never too old or too sick to start from scratch again.\"",
                 "mapname": "Bikram Yoga",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "yoga_studios",
                 "address_formatted": "120 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3743,7 +3742,7 @@
                 "discount": "50% off your first visit. Includes chiropractic evaluation, advanced nerve scan and first adjustment.",
                 "info": "Our mission is to support families in a joyful journey of health, growth and transformation. We serve people of all ages and walks of life.",
                 "mapname": "Cafe of Life Chiropractic",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "chiropractic",
                 "address_formatted": "100 West Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3814,7 +3813,7 @@
                 "discount": "20% off your tattoo at time of booking. 50% deposit required.",
                 "info": "Founded 2008. Salvation Tattoo prides itself on being local, friendly, professional and staffed with highly skilled artists. Open 7 days. Walk-ins welcome.",
                 "mapname": "Salvation South Tattoo Gallery",
-                "category": "thrive_and_restore",
+                "category": "thrive_and_be_well",
                 "subcategory": "tattoo_and_piercing",
                 "address_formatted": "58 East Park Avenue, City of Long Beach, NY 11561, United States of America"
             },
@@ -3980,7 +3979,7 @@
                 "business": "House of Worship",
                 "info": "20-21, to be in harmony with Him and to inspire others to do the same.",
                 "mapname": "Point Lookout Community Church",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "60 Freeport Avenue, Point Lookout, NY 11569, United States of America"
             },
@@ -4004,7 +4003,7 @@
                 "discount": "10% off your purchase of $100 or more.",
                 "info": "Praise be the name of Jesus Christ! You are invited to join us so that we might worship God together. Please grace us with your presence.",
                 "mapname": "Our Lady of the Miraculous Medal Church",
-                "category": "gather_and_worship",
+                "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "75 Parkside Drive, Point Lookout, NY 11569, United States of America"
             },
