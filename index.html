@@ -33,7 +33,7 @@
     <script>
 
         const imgSource = 'img'
-        const styleFile = 'maptoons-v2.json'
+        const styleFile = 'maptoons.json'
         const locationFile = 'data/hicksville.geojson'
         const artFile = 'data/hicksville-art.geojson'
         const spritesFile = 'data/sprites.geojson'
@@ -50,20 +50,20 @@
         const splashContent = document.createElement('div');
         splashContent.className = 'splash-content';
 
-        const bg = document.createElement('img');
-        bg.className = 'splash-background'
-        bg.src = 'img/splash.jpg';
+        // const bg = document.createElement('img');
+        // bg.className = 'splash-background'
+        // bg.src = 'img/splash.jpg';
+        // splashContent.appendChild(bg);
 
         const logo = document.createElement('img');
         logo.className = 'splash-logo'
         logo.src = 'img/logo.png';
+        splashContent.appendChild(logo);
 
         const spinnerContainer = document.createElement('div');
         spinnerContainer.className = 'spinner-container';
         spinnerContainer.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
 
-        //splashContent.appendChild(bg);
-        splashContent.appendChild(logo);
         splashContent.appendChild(spinnerContainer);
         splash.appendChild(splashContent);
 
@@ -97,6 +97,11 @@
                 .then(data => {
                     locationData = data;
                     
+                    // Filter vehicles
+                    vehicleFeatures = locationData.features.filter(feature => 
+                        feature.properties && feature.properties.vehicle
+                    );
+
                     // map.addSource('sprites', {
                     //     'type': 'vector',
                     //     tiles: ['http://localhost:8000/sprite-tiles/{z}/{x}/{y}.pbf']
@@ -230,23 +235,23 @@
                     });
 
                     document.getElementById('refresh-features-btn').addEventListener('click', () => {
-    const btn = document.getElementById('refresh-features-btn');
-    const infoBox = document.getElementById('info-box');
-    
-    if (infoBoxOpen) {
-        // Close the info box
-        infoBox.classList.remove('visible');
-        btn.innerHTML = 'Show Info';
-        infoBoxOpen = false;
-    } else {
-        // Open/refresh the info box
-        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
-        updateInfoBox().then(() => {
-            btn.innerHTML = 'Hide Info';
-            infoBoxOpen = true;
-        });
-    }
-});
+                        const btn = document.getElementById('refresh-features-btn');
+                        const infoBox = document.getElementById('info-box');
+
+                        if (infoBoxOpen) {
+                            // Close the info box
+                            infoBox.classList.remove('visible');
+                            btn.innerHTML = 'Show Info';
+                            infoBoxOpen = false;
+                        } else {
+                            // Open/refresh the info box
+                            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
+                            updateInfoBox().then(() => {
+                                btn.innerHTML = 'Hide Info';
+                                infoBoxOpen = true;
+                            });
+                        }
+                    });
 
                     // Handle clicks on cluster layer
                     map.on('click', (e) => {
@@ -356,73 +361,72 @@
                         btn.style.display = 'block';
                     });
 
-                    // get random feature for featured
-                    const getRandomFeature = (locationData) => {
-                        const features = locationData.features;
-                        randomFeature = features[Math.floor(Math.random() * features.length)];
-                        return randomFeature;
-                    }
-
-                    function createFeaturedItems() {
+                    // Create featured vehicle
+                    createFeaturedItems = () => {
                         const featuredContainer = document.getElementById('featured');
-                        
+
+                        // Get map center
+                        const center = map.getCenter();
+                        const centerLngLat = [center.lng, center.lat];
+
+                        // Calculate distance manually
+                        const featuresWithDistance = vehicleFeatures.map(feature => {
+                            const featureLngLat = feature.geometry.coordinates;
+                            const distance = getDistance(centerLngLat, featureLngLat);
+
+                            return {
+                                ...feature,
+                                _distanceFromCenter: distance
+                            };
+                        });
+
+                        // Sort by distance (closest first)
+                        const sortedFeatures = featuresWithDistance.sort((a, b) =>
+                            a._distanceFromCenter - b._distanceFromCenter
+                        );
+
+                        // Select random feature
+                        // randomFeature = features[Math.floor(Math.random() * features.length)];
+
+                        // Select the closest feature (first item in the sorted array)
+                        const feature = sortedFeatures[0];
+
                         // Clear previous content
                         featuredContainer.innerHTML = '';
-                        
-                        // Create random features
-                        const features = [];
-                        for (let i = 0; i < 1; i++) {
-                            const feature = getRandomFeature(locationData);
-                            if (feature && feature.properties) {
-                                features.push(feature);
-                            }
-                        }
-                        
-                        // Create and append feature items
-                        const createdItems = [];
-                        features.forEach(feature => {
-                            const img = `${imgSource}/${feature.properties.img}.png`;
-                            //const imgSpecial = `${imgSource}/${feature.properties.special}.png`;
-                            const imgSpecial = `${imgSource}/land.png`;
-                            
-                            const featureItem = document.createElement('div');
-                            featureItem.className = 'featured-item';
-                            featureItem.style.backgroundImage = `url(${imgSpecial})`
-                            
-                            // Add title inside the item
-                            const titleElement = document.createElement('div');
-                            titleElement.className = 'featured-title';
-                            titleElement.textContent = 'Featured';
-                            //featureItem.appendChild(titleElement);
 
-                            // Add image
-                            const imgElement = document.createElement('img');
-                            imgElement.className = 'featured-logo';
-                            imgElement.src = img;
-                            imgElement.alt = feature.properties.name || 'Featured location';
-                            featureItem.appendChild(imgElement);
+                        const featureItem = document.createElement('div');
+                        featureItem.className = 'featured-item';
 
-                            // Add mapname
-                            const mapNameElement = document.createElement('div');
-                            mapNameElement.className = 'featured-mapname';
-                            mapNameElement.textContent = feature.properties.mapname || '';
-                            //featureItem.appendChild(mapNameElement); 
-                            
-                            // Append items
-                            featuredContainer.appendChild(featureItem);
-                            
-                            createdItems.push({
-                                item: featureItem,
-                                image: imgElement,
-                                feature: feature
-                            });
-                        });
-                        
-                        return createdItems;
+                        //const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
+                        const imgVehicle = `${imgSource}/vehicle_car.png`;
+                        featureItem.style.backgroundImage = `url(${imgVehicle})`
+
+                        // Add title
+                        const titleElement = document.createElement('div');
+                        titleElement.className = 'featured-title';
+                        titleElement.textContent = 'Featured';
+                        //featureItem.appendChild(titleElement);
+
+                        // Add image
+                        const img = `${imgSource}/${feature.properties.img}.png`;
+                        const imgElement = document.createElement('img');
+                        imgElement.className = 'featured-logo';
+                        imgElement.src = img;
+                        featureItem.appendChild(imgElement);
+
+                        // Add mapname
+                        const mapNameElement = document.createElement('div');
+                        mapNameElement.className = 'featured-mapname';
+                        mapNameElement.textContent = feature.properties.mapname || '';
+                        //featureItem.appendChild(mapNameElement); 
+
+                        // Append items
+                        featuredContainer.appendChild(featureItem);
                     }
-
-                    // Call the function
                     createFeaturedItems();
+
+                    // Update featured vehicle whenever map stops moving
+                    map.on('moveend', createFeaturedItems);
 
                 });
         });
@@ -493,7 +497,7 @@
                 option.addEventListener('click', () => {
                     dropdownMenu.style.display = 'none';
                     arrowIcon.innerHTML = '&dtrif;'; // Reset to down arrow
-                    
+
                     map.flyTo({
                         center: location.centroid,
                         zoom: zoomThreshold + 0.4,
@@ -657,7 +661,7 @@
                     imgContainer.appendChild(img);
                     markerWrapper.appendChild(imgContainer);
                     markerWrapper.appendChild(triangle);
-                    el.appendChild(markerWrapper); 
+                    el.appendChild(markerWrapper);
 
                     // Set z-index based on latitude
                     el.style.zIndex = props.zindex || 0;
@@ -797,17 +801,17 @@
                     img.style.cursor = 'pointer';
                     img.addEventListener('click', (e) => {
                         e.stopPropagation();
-                        
+
                         // Get the feature data from the parent element
                         const featureData = JSON.parse(featureElement.dataset.feature);
-                        
+
                         // Fly to the feature's coordinates
                         flyToFeature(featureData.geometry.coordinates)
                             .then(() => {
                                 // Find and activate the corresponding marker
                                 const markerId = featureData.properties.id;
                                 const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
-                                
+
                                 if (markerElement) {
                                     markerElement.classList.add('active');
                                     setTimeout(() => {
@@ -836,20 +840,20 @@
                 const textContainer = document.createElement('div');
                 textContainer.className = 'info-popup-text';
 
-// Create title container
-const titleContainer = document.createElement('div');
-titleContainer.className = 'info-popup-title-container';
+                // Create title container
+                const titleContainer = document.createElement('div');
+                titleContainer.className = 'info-popup-title-container';
 
-// Create priority star if applicable
-if (properties.priority && ['Q', 'T', 'D'].includes(properties.priority)) {
-    const star = document.createElement('span');
-    star.className = 'info-popup-star';
-    star.innerHTML = '<i class="fas fa-star"></i>';
-    star.style.color = getPriorityColor(properties.priority);
-    
-    // Insert star after map name
-    titleContainer.appendChild(star);
-}
+                // Create priority star if applicable
+                if (properties.priority && ['Q', 'T', 'D'].includes(properties.priority)) {
+                    const star = document.createElement('span');
+                    star.className = 'info-popup-star';
+                    star.innerHTML = '<i class="fas fa-star"></i>';
+                    star.style.color = getPriorityColor(properties.priority);
+
+                    // Insert star after map name
+                    titleContainer.appendChild(star);
+                }
 
                 const mapname = document.createElement('h1');
                 mapname.className = 'info-popup-mapname';
@@ -1153,12 +1157,30 @@ if (properties.priority && ['Q', 'T', 'D'].includes(properties.priority)) {
         };
 
         const getPriorityColor = (priority) => {
-            switch(priority) {
+            switch (priority) {
                 case 'Q': return 'hsl(51, 100%, 50%)';
                 case 'T': return 'hsl(30, 100%, 50%)';
                 case 'D': return 'hsl(240, 5%, 75%)';
                 default: return 'hsl(0, 0%, 100%)';
             }
+        }
+
+        // Helper function: Haversine distance formula (in km)
+        function getDistance(lngLat1, lngLat2) {
+            const [lng1, lat1] = lngLat1;
+            const [lng2, lat2] = lngLat2;
+
+            const R = 6371; // Earth's radius in km
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLng = (lng2 - lng1) * Math.PI / 180;
+
+            const a =
+                Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLng / 2) * Math.sin(dLng / 2);
+
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c;
         }
 
         // Update markers on the screen and do so on every map move/moveend
@@ -1192,7 +1214,7 @@ if (properties.priority && ['Q', 'T', 'D'].includes(properties.priority)) {
             if (attribControl) {
                 // Preserve existing attribs while adding yours
                 attribControl.innerHTML += ` | <a href="https://geographyclub.github.io/" target="_blank">Jamie & Steve</a>`;
-                
+
                 // Or replace completely:
                 // attribControl.innerHTML = `Your content <a href="...">Steve</a>`;
             }

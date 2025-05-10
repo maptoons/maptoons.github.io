@@ -308,7 +308,8 @@ body {
     display: inline;
     vertical-align: middle;
     margin-right: 5px;
-    font-size: 0.9em;
+    -webkit-text-stroke: 1px hsl(0, 0%, 50%);
+    text-stroke: 1px hsl(0, 0%, 50%);
 }
 
 .contact-info {
