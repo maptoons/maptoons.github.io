@@ -86,6 +86,10 @@ body {
     gap: 5px;
 }
 
+.dropdown-arrow {
+    font-size: 14px;
+}
+
 .location-menu {
     position: fixed;
     top: 50px;

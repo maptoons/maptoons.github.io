@@ -604,7 +604,7 @@
 
             // Sort by latitude for z-index
             const sortedFeatures = features.sort((a, b) => {
-                return b.geometry.coordinates[1] - a.geometry.coordinates[1]; // Reverse subtraction
+                return b.geometry.coordinates[1] - a.geometry.coordinates[1];
             }).map((feature, index) => {
                 feature.properties.zindex = index;
                 return feature;
@@ -663,20 +663,6 @@
                     markerWrapper.appendChild(triangle);
                     el.appendChild(markerWrapper);
 
-                    // Set z-index based on latitude
-                    el.style.zIndex = props.zindex || 0;
-
-                    // Map priority to z-index values
-                    // const priorityMap = {
-                    //     'Q': 400,
-                    //     'T': 300,
-                    //     'D': 200,
-                    //     'S': 100
-                    // };
-
-                    // Set z-index based on the priority
-                    // el.style.zIndex = priorityMap[`${props.priority}`] || 0;
-
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
                         anchor: 'bottom',
@@ -685,6 +671,8 @@
                 }
                 newMarkers[id] = marker;
 
+                // Add z-index by latitude
+                marker.getElement().style.zIndex = sortedFeatures.length + i;
                 if (!markersOnScreen[id]) marker.addTo(map);
             }
 
