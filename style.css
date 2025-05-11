@@ -87,7 +87,7 @@ body {
 }
 
 .dropdown-arrow {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .location-menu {
@@ -131,7 +131,7 @@ body {
 .category-box-inner {
     display: flex;
     justify-content: flex-start;
-    gap: 12px;
+    gap: 5px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -262,6 +262,7 @@ body {
     max-width: 90%;
     max-height: 90%;
     z-index: 2;
+    cursor: pointer;
 }
 
 .info-popup-title {

@@ -786,7 +786,6 @@
                     img.className = 'info-popup-image';
 
                     // Make image clickable
-                    img.style.cursor = 'pointer';
                     img.addEventListener('click', (e) => {
                         e.stopPropagation();
 
@@ -806,6 +805,9 @@
                                         markerElement.classList.remove('active');
                                     }, 1500);
                                 }
+
+                                // Scroll to feature
+                                scrollToFeatureInfo(featureData);
                             })
                             .catch(error => {
                                 console.error('Fly to feature failed:', error);
