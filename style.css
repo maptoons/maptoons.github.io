@@ -73,13 +73,13 @@ body {
     top: 0;
     left: 0;
     height: auto;
-    width: 160px;
+    width: 135px;
     padding: 10px;
     background: linear-gradient(
         to right,
         hsla(0, 0%, 100%, 1) 0px,
-        hsla(0, 0%, 100%, 1) 150px,
-        hsla(0, 0%, 100%, 0) 160px
+        hsla(0, 0%, 100%, 1) 125px,
+        hsla(0, 0%, 100%, 0) 135px
     );
     z-index: 1001;
 }
@@ -96,7 +96,7 @@ body {
     align-items: center;
     gap: 5px;
     white-space: nowrap;
-    width: 140px;
+    width: 115px;
 }
 
 .dropdown-arrow {
@@ -129,7 +129,7 @@ body {
     position: fixed;
     display: flex;
     top: 0;
-    left: 150px;
+    left: 125px;
     right: 0;
     width: auto;
     height: auto;
