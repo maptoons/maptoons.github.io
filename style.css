@@ -283,7 +283,6 @@ body {
 .info-text {
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    /* Limit to 2 lines */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -318,13 +317,14 @@ body {
 
 .contact-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
     margin-bottom: 5px;
 }
 
 .contact-item i {
-    width: 16px;
+    width: 14px;
+    margin-top: 3px;
     text-align: center;
     color: hsl(0, 0%, 40%);
 }
@@ -334,6 +334,20 @@ body {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.discount-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.discount-text.expanded {
+    -webkit-line-clamp: unset;
 }
 
 .info-popup-footer {

@@ -870,6 +870,7 @@
 
                     // Add click to expand functionality
                     infoText.addEventListener('click', (e) => {
+                        e.stopPropagation();
                         e.currentTarget.classList.toggle('expanded');
                     });
 
@@ -945,6 +946,33 @@
                         <a href="${properties.instagram}" target="_blank">${properties.instagram.replace(/^https?:\/\//, '')}</a>
                     `;
                     contactInfo.appendChild(igDiv);
+                }
+
+                // Add discount if exists
+                if (properties.discount) {
+                    const discountDiv = document.createElement('div');
+                    discountDiv.className = 'contact-item';
+                    
+                    // Create icon element
+                    const icon = document.createElement('i');
+                    icon.className = 'fas fa-tag';
+                    
+                    // Create text element
+                    const text = document.createElement('p');
+                    text.className = 'discount-text';
+                    text.textContent = properties.discount + (properties.exp ? ` (${properties.exp})` : '');
+                    
+                    // Add click handler to text
+                    text.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        e.currentTarget.classList.toggle('expanded');
+                    });
+                    
+                    // Append elements
+                    discountDiv.appendChild(icon);
+                    discountDiv.appendChild(text);
+                    
+                    contactInfo.appendChild(discountDiv);
                 }
 
                 // Add contact info
