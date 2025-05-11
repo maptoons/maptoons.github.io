@@ -393,7 +393,7 @@ body {
 }
 
 #featured {
-    position: absolute;
+    position: fixed;
     top: 55px;
     right: 10px;
     z-index: 999;
@@ -540,7 +540,7 @@ body {
 }
 
 #info-button {
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 0;
     right: 0;
