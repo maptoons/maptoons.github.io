@@ -21,6 +21,7 @@
         <div id="map"></div>
         <div id="splash-screen"></div>
         <div id="info-box"></div>
+        <div id="location-box"></div>
         <div id="category-box"></div>
         <div id="featured"></div>
         <div id="info-button">
@@ -96,9 +97,9 @@
                 .then(res => res.json())
                 .then(data => {
                     locationData = data;
-                    
+
                     // Filter vehicles
-                    vehicleFeatures = locationData.features.filter(feature => 
+                    vehicleFeatures = locationData.features.filter(feature =>
                         feature.properties && feature.properties.vehicle
                     );
 
@@ -447,15 +448,12 @@
             updateMarkers(); // now update markers as usual
         };
 
-        const createCategoryBox = () => {
-            const categoryBox = document.getElementById('category-box');
-            categoryBox.innerHTML = '';
-            const innerContainer = document.createElement('div');
-            innerContainer.className = 'category-box-inner';
-            categoryBox.appendChild(innerContainer);
+        const createLocationBox = () => {
+            const locationBox = document.getElementById('location-box');
+            locationBox.innerHTML = '';
 
             const dropdownWrapper = document.createElement('div');
-            dropdownWrapper.className = 'category-dropdown-wrapper';
+            dropdownWrapper.className = 'location-dropdown-wrapper';
 
             // Dropdown button
             const dropdownButton = document.createElement('div');
@@ -537,7 +535,16 @@
             // Assemble dropdown
             dropdownWrapper.appendChild(dropdownButton);
             dropdownWrapper.appendChild(dropdownMenu);
-            innerContainer.appendChild(dropdownWrapper);
+            locationBox.appendChild(dropdownWrapper);
+        }
+
+        const createCategoryBox = () => {
+            const categoryBox = document.getElementById('category-box');
+            categoryBox.innerHTML = '';
+
+            const innerContainer = document.createElement('div');
+            innerContainer.className = 'category-box-inner';
+            categoryBox.appendChild(innerContainer);
 
             // Categories
             const categories = [
@@ -571,7 +578,6 @@
                 // Append elements
                 categoryElement.appendChild(iconElement);
                 categoryElement.appendChild(textSpan);
-
                 innerContainer.appendChild(categoryElement);
             });
         };
@@ -942,26 +948,26 @@
                 if (properties.discount) {
                     const discountDiv = document.createElement('div');
                     discountDiv.className = 'contact-item';
-                    
+
                     // Create icon element
                     const icon = document.createElement('i');
                     icon.className = 'fas fa-tag';
-                    
+
                     // Create text element
                     const text = document.createElement('p');
                     text.className = 'discount-text';
                     text.textContent = properties.discount + (properties.exp ? ` (${properties.exp})` : '');
-                    
+
                     // Add click handler to text
                     text.addEventListener('click', (e) => {
                         e.stopPropagation();
                         e.currentTarget.classList.toggle('expanded');
                     });
-                    
+
                     // Append elements
                     discountDiv.appendChild(icon);
                     discountDiv.appendChild(text);
-                    
+
                     contactInfo.appendChild(discountDiv);
                 }
 
@@ -1211,6 +1217,7 @@
         });
 
         map.once('idle', () => {
+            createLocationBox();
             createCategoryBox();
         });
 

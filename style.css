@@ -68,9 +68,20 @@ body {
     display: none;
 }
 
-.category-dropdown-wrapper {
-    position: relative;
-    width: 150px;
+.location-dropdown-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 160px;
+    padding: 10px;
+    background: linear-gradient(
+        to right,
+        hsla(0, 0%, 100%, 1) 0px,
+        hsla(0, 0%, 100%, 1) 150px,
+        hsla(0, 0%, 100%, 0) 160px
+    );
+    z-index: 1001;
 }
 
 .dropdown-button {
@@ -84,6 +95,8 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    white-space: nowrap;
+    width: 140px;
 }
 
 .dropdown-arrow {
@@ -94,7 +107,7 @@ body {
     position: fixed;
     top: 50px;
     left: 10px;
-    width: 150px;
+    width: auto;
     padding: 10px;
     border-radius: 5px;
     background: hsl(0, 0%, 100%);
@@ -113,27 +126,29 @@ body {
 }
 
 #category-box {
-    display: flex;
     position: fixed;
+    display: flex;
     top: 0;
-    left: 0;
+    left: 150px;
     right: 0;
+    width: auto;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 1000;
     overflow-x: auto;
     overflow-y: visible;
-    z-index: 1000;
-    width: 100vw;
-    height: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    background-color: hsl(0, 0%, 100%);
 }
 
 .category-box-inner {
+    position: relative;
+    top: 0;
+    left: 0;
     display: flex;
-    justify-content: flex-start;
     gap: 5px;
-    margin: 0 auto;
     padding: 10px;
+    margin: 0 auto;
 }
 
 .category-feature {
@@ -147,6 +162,7 @@ body {
     font-weight: 500;
     cursor: pointer;
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .activeCategory {
