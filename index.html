@@ -26,7 +26,7 @@
         <div id="featured"></div>
         <div id="info-button">
             <button id="refresh-features-btn" class="pill-button">
-                Show Info
+                <i class="fas fa-chevron-up"></i> Show Info
             </button>
         </div>
     </div>
@@ -242,13 +242,13 @@
                         if (infoBoxOpen) {
                             // Close the info box
                             infoBox.classList.remove('visible');
-                            btn.innerHTML = 'Show Info';
+                            btn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Info';
                             infoBoxOpen = false;
                         } else {
                             // Open/refresh the info box
                             btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
                             updateInfoBox().then(() => {
-                                btn.innerHTML = 'Hide Info';
+                                btn.innerHTML = '<i class="fas fa-chevron-down"></i> Hide Info';
                                 infoBoxOpen = true;
                             });
                         }
@@ -402,11 +402,24 @@
                         const imgVehicle = `${imgSource}/vehicle_car.png`;
                         featureItem.style.backgroundImage = `url(${imgVehicle})`
 
-                        // Add title
-                        const titleElement = document.createElement('div');
-                        titleElement.className = 'featured-title';
-                        titleElement.textContent = 'Featured';
-                        //featureItem.appendChild(titleElement);
+                        // Create SVG container (for curved text)
+                        const svgContainer = document.createElement('div');
+                        svgContainer.className = 'svg-container';
+                        const formattedText = 'Quick Travel';
+
+                        svgContainer.innerHTML = `
+                            <svg width="105" height="105" viewBox="0 0 105 105" overflow="visible">
+                                <!-- 70px diameter circle (35px radius) -->
+                                <path id="curve" d="M52.5,17.5 A35,35 0 1 0 52.5,87.5 A35,35 0 1 0 52.5,17.5" fill="none"/>
+                                <text font-size="12" fill="white" text-anchor="middle">
+                                    <textPath href="#curve" startOffset="50%">
+                                        ${formattedText}
+                                    </textPath>
+                                </text>
+                            </svg>
+                        `;
+
+                        featureItem.appendChild(svgContainer);
 
                         // Add image
                         const img = `${imgSource}/${feature.properties.img}.png`;
@@ -464,7 +477,7 @@
 
             const arrowIcon = document.createElement('span');
             arrowIcon.className = 'dropdown-arrow';
-            arrowIcon.innerHTML = '&dtrif;'; // ▼ (down arrow by default)
+            arrowIcon.innerHTML = '<i class="fas fa-caret-down"></i>';
 
             dropdownButton.appendChild(buttonText);
             dropdownButton.appendChild(arrowIcon);
@@ -494,7 +507,7 @@
 
                 option.addEventListener('click', () => {
                     dropdownMenu.style.display = 'none';
-                    arrowIcon.innerHTML = '&dtrif;'; // Reset to down arrow
+                    arrowIcon.innerHTML = '<i class="fas fa-caret-down"></i>';
 
                     map.flyTo({
                         center: location.centroid,
@@ -518,13 +531,13 @@
                 e.stopPropagation();
                 const isOpening = dropdownMenu.style.display !== 'block';
                 dropdownMenu.style.display = isOpening ? 'block' : 'none';
-                arrowIcon.innerHTML = isOpening ? '&utrif;' : '&dtrif;'; // ▲ or ▼
+                arrowIcon.innerHTML = isOpening ? '<i class="fas fa-caret-up"></i>' : '<i class="fas fa-caret-down"></i>';
             });
 
             // Close when clicking elsewhere
             document.addEventListener('click', () => {
                 dropdownMenu.style.display = 'none';
-                arrowIcon.innerHTML = '&dtrif;';
+                arrowIcon.innerHTML = '<i class="fas fa-caret-down"></i>';
             });
 
             // Prevent menu clicks from closing
@@ -699,7 +712,7 @@
             infoBoxOpen = true;
 
             if (btn) {
-                btn.innerHTML = 'Hide Info';
+                btn.innerHTML = '<i class="fas fa-chevron-down"></i> Hide Info';
                 btn.disabled = false;
             }
 
@@ -1023,7 +1036,7 @@
                     infoBoxOpen = false;
 
                     if (btn) {
-                        btn.innerHTML = 'Show Info';
+                        btn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Info';
                         btn.disabled = false;
                     }
                 }

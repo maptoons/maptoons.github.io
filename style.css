@@ -75,12 +75,10 @@ body {
     height: auto;
     width: 135px;
     padding: 10px;
-    background: linear-gradient(
-        to right,
-        hsla(0, 0%, 100%, 1) 0px,
-        hsla(0, 0%, 100%, 1) 125px,
-        hsla(0, 0%, 100%, 0) 135px
-    );
+    background: linear-gradient(to right,
+            hsla(0, 0%, 100%, 1) 0px,
+            hsla(0, 0%, 100%, 1) 125px,
+            hsla(0, 0%, 100%, 0) 135px);
     z-index: 1001;
 }
 
@@ -101,6 +99,7 @@ body {
 
 .dropdown-arrow {
     font-size: 0.875rem;
+    margin-top: 3px;
 }
 
 .location-menu {
@@ -444,6 +443,14 @@ body {
     max-width: 100%;
 }
 
+.svg-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+}
+
 .custom-marker {
     display: inline-flex;
     flex-direction: column;
@@ -563,6 +570,7 @@ body {
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.2s ease;
+    width: 110px;
 }
 
 #splash-screen {
