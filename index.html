@@ -409,10 +409,15 @@
 
                         svgContainer.innerHTML = `
                             <svg width="105" height="105" viewBox="0 0 105 105" overflow="visible">
-                                <!-- 70px diameter circle (35px radius) -->
-                                <path id="curve" d="M52.5,17.5 A35,35 0 1 0 52.5,87.5 A35,35 0 1 0 52.5,17.5" fill="none"/>
-                                <text font-size="12" fill="white" text-anchor="middle">
-                                    <textPath href="#curve" startOffset="50%">
+                                <path id="curve" d="M52.5,87.5 A35,35 0 1 1 52.5,17.5 A35,35 0 1 1 52.5,87.5" 
+                                    fill="none"/>
+                                <text font-size="12" text-anchor="middle">
+                                    <textPath href="#curve" startOffset="50%" 
+                                            fill="hsl(0, 0%, 100%)" 
+                                            stroke="hsl(0, 0%, 0%)"
+                                            stroke-width="1"
+                                            stroke-linejoin="round"
+                                            paint-order="stroke">
                                         ${formattedText}
                                     </textPath>
                                 </text>
@@ -436,6 +441,36 @@
 
                         // Append items
                         featuredContainer.appendChild(featureItem);
+
+                        // Add click handler to featured item
+                        featureItem.addEventListener('click', (e) => {
+
+                        // Fly to the feature's coordinates
+                        flyToFeature(feature.geometry.coordinates)
+                            .then(() => {
+                                // Find and activate the corresponding marker
+                                const markerId = feature.properties.id;
+                                const markerElement = document.querySelector(`.custom-marker[data-id="${markerId}"]`);
+
+                                if (markerElement) {
+                                    markerElement.classList.add('active');
+                                    setTimeout(() => {
+                                        markerElement.classList.remove('active');
+                                    }, 1500);
+                                }
+
+                                // Update infobox
+                                updateInfoBox();
+
+                                // Scroll to feature
+                                scrollToFeatureInfo(feature);
+                            })
+                            .catch(error => {
+                                console.error('Fly to feature failed:', error);
+                            });
+
+                        });
+
                     }
                     createFeaturedItems();
 
