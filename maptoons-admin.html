@@ -89,7 +89,7 @@
             const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: "application/json" });
             const a = document.createElement("a");
             a.href = URL.createObjectURL(blob);
-            a.download = "hicksville-art.geojson";
+            a.download = "hicksville-corrected.geojson";
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);

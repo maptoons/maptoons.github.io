@@ -938,8 +938,8 @@
                     addressDiv.className = 'contact-item';
                     addressDiv.innerHTML = `
                         <i class="fa-solid fa-location-dot"></i>
-                        <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(properties.address)}" 
-                        target="_blank">${properties.address}</a>
+                        <a style="margin-left:4px;" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(properties.address_formatted)}" 
+                        target="_blank">${properties.address_formatted}</a>
                     `;
                     contactInfo.appendChild(addressDiv);
                 }
