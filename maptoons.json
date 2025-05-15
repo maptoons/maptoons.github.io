@@ -46,7 +46,7 @@
 			"source-layer": "streets",
 			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
 			"paint": {
-				"line-color": "HSL(54, 56%, 90%)",
+				"line-color": "hsl(54, 56%, 90%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ]
 			},
 			"layout": {
