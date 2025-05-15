@@ -3924,7 +3924,7 @@
                 "priority": "Q",
                 "img": "LB-150Q"
             },
-            "geometry": {}
+            "geometry": null
         },
         {
             "type": "Feature",
@@ -4611,7 +4611,9 @@
                 "web": "http://ProfessionalYouthTheatre.com",
                 "category": "eat_and_drink",
                 "subcategory": "delis_and_catering",
-                "address_formatted": "75 East Walnut Street, City of Long Beach, NY 11561, United States of America"
+                "address_formatted": "75 East Walnut Street, City of Long Beach, NY 11561, United States of America",
+                "priority": "Q",
+                "img": "LB-175Q"
             },
             "geometry": {
                 "type": "Point",

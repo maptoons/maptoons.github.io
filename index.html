@@ -33,12 +33,13 @@
 
     <script>
 
+        const geoJsonFiles = ['hicksville', 'long_beach'];
         const imgSource = 'img'
         const styleFile = 'maptoons.json'
-        const locationFile = 'data/hicksville.geojson'
         const artFile = 'data/hicksville-art.geojson'
         const spritesFile = 'data/sprites.geojson'
-        const zoomThreshold = 14 // For clusters and markers
+        const zoomThreshold = 14
+        const bounds = [[-75, 40], [-71.8, 42]]
 
         let currentActiveCategory = 'all';
         let infoBoxOpen = false;
@@ -73,9 +74,9 @@
             container: "map",
             style: styleFile,
             center: [-73.52547, 40.76562],
-            //maxBounds: bounds,
+            maxBounds: bounds,
             zoom: zoomThreshold + 0.4,
-            minZoom: 7,
+            minZoom: 8,
             maxZoom: 18,
             bearing: 0,
             pitch: 20,
@@ -94,8 +95,16 @@
             }, 100); // Display duration
 
             // Load location data
-            const pointsResponse = await fetch(locationFile);
-            const pointsData = await pointsResponse.json();
+            const pointsData = {
+                type: 'FeatureCollection',
+                features: (await Promise.all(
+                    geoJsonFiles.map(name => 
+                        fetch(`data/${name}.geojson`)
+                            .then(r => r.json())
+                            .then(data => data.features)
+                    )
+                )).flat()
+            };
             locationData = pointsData;
 
             // Filter vehicles for featured items
@@ -403,7 +412,6 @@
 
                     // Set vehicle image background
                     const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
-                    featureItem.style.backgroundColor = 'hsl(40, 50%, 90%)';
                     //featureItem.style.backgroundColor = getVehicleColor(feature.properties.vehicle);
                     //featureItem.style.backgroundImage = `url(${imgVehicle})`;
 
