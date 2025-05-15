@@ -83,7 +83,7 @@
             pixelRatio: 1
         });
 
-        map.on('load', () => {
+        map.on('load', async () => {
 
             // Hide splash screen
             setTimeout(() => {
@@ -93,357 +93,357 @@
                 }, 1000); // Fade-out duration
             }, 100); // Display duration
 
-            fetch(locationFile)
-                .then(res => res.json())
-                .then(data => {
-                    locationData = data;
+            // Load location data
+            const pointsResponse = await fetch(locationFile);
+            const pointsData = await pointsResponse.json();
+            locationData = pointsData;
 
-                    // Filter vehicles
-                    vehicleFeatures = locationData.features.filter(feature =>
-                        feature.properties && feature.properties.vehicle
-                    );
+            // Filter vehicles for featured items
+            vehicleFeatures = locationData.features.filter(feature =>
+                feature.properties && feature.properties.vehicle
+            );
 
-                    // map.addSource('sprites', {
-                    //     'type': 'vector',
-                    //     tiles: ['http://localhost:8000/sprite-tiles/{z}/{x}/{y}.pbf']
-                    // });
+            // map.addSource('sprites', {
+            //     'type': 'vector',
+            //     tiles: ['http://localhost:8000/sprite-tiles/{z}/{x}/{y}.pbf']
+            // });
 
-                    // map.addLayer({
-                    //     "id": "sprites",
-                    //     "source": "sprites",
-                    //     "source-layer": "maptoons-tiles",
-                    //     "type": "symbol",
-                    //     "layout": {
-                    //         "icon-size": 0.8,
-                    //         "symbol-placement": "point",
-                    //         "icon-anchor": "bottom",
-                    //         "icon-image": [
-                    //             "concat",
-                    //             "icon-",
-                    //             ["get", "icon_number"]
-                    //         ],
-                    //         "icon-allow-overlap": false
-                    //     },
-                    //     "paint": {
-                    //         "icon-color": "hsl(0, 0%, 100%)",
-                    //         "icon-opacity": [
-                    //             "interpolate",
-                    //             ["exponential", 0.5],
-                    //             ["zoom"],
-                    //             16, 0, 17, 1
-                    //         ]
-                    //     },
-                    //     "minzoom": 16
-                    // });
+            // map.addLayer({
+            //     "id": "sprites",
+            //     "source": "sprites",
+            //     "source-layer": "maptoons-tiles",
+            //     "type": "symbol",
+            //     "layout": {
+            //         "icon-size": 0.8,
+            //         "symbol-placement": "point",
+            //         "icon-anchor": "bottom",
+            //         "icon-image": [
+            //             "concat",
+            //             "icon-",
+            //             ["get", "icon_number"]
+            //         ],
+            //         "icon-allow-overlap": false
+            //     },
+            //     "paint": {
+            //         "icon-color": "hsl(0, 0%, 100%)",
+            //         "icon-opacity": [
+            //             "interpolate",
+            //             ["exponential", 0.5],
+            //             ["zoom"],
+            //             16, 0, 17, 1
+            //         ]
+            //     },
+            //     "minzoom": 16
+            // });
 
-                    map.addSource('location', {
-                        'type': 'geojson',
-                        'data': locationData,
-                        'cluster': true,
-                        'clusterRadius': 20,
-                        'clusterMinPoints': 3,
-                        'clusterMaxZoom': zoomThreshold - 1
+            map.addSource('location', {
+                'type': 'geojson',
+                'data': locationData,
+                'cluster': true,
+                'clusterRadius': 20,
+                'clusterMinPoints': 3,
+                'clusterMaxZoom': zoomThreshold - 1
+            });
+
+            // Cluster circles
+            map.addLayer({
+                id: 'clusters',
+                type: 'circle',
+                source: 'location',
+                filter: ['has', 'point_count'],
+                paint: {
+                    'circle-color': [
+                        'step',
+                        ['get', 'point_count'],
+                        'hsl(270, 29%, 95%)',
+                        10, 'hsl(270, 29%, 90%)',
+                        25, 'hsl(270, 29%, 85%)'
+                    ],
+                    'circle-radius': [
+                        'step',
+                        ['get', 'point_count'],
+                        15,
+                        10, 20,
+                        25, 25
+                    ],
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': 'hsl(0, 0%, 30%)',
+                },
+                'maxzoom': zoomThreshold
+            });
+
+            // Cluster count
+            map.addLayer({
+                id: 'cluster-count',
+                type: 'symbol',
+                source: 'location',
+                filter: ['has', 'point_count'],
+                layout: {
+                    'text-field': '{point_count_abbreviated}',
+                    'text-font': ['poppins-regular'],
+                    'text-size': 12,
+                    'text-allow-overlap': true,
+                    'text-ignore-placement': true
+                },
+                paint: {
+                    'text-color': 'hsl(0, 0%, 0%)'
+                },
+                'maxzoom': zoomThreshold
+            });
+
+            // Points
+            map.addLayer({
+                id: 'cluster-points',
+                type: 'circle',
+                source: 'location',
+                filter: ['!', ['has', 'point_count']],
+                paint: {
+                    'circle-radius': 7,
+                    'circle-color': [
+                        'case',
+                        ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 70%)',
+                        ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 75%)',
+                        ['==', ['get', 'category'], 'learn_and_play'], 'hsl(296, 30%, 68%)',
+                        ['==', ['get', 'category'], 'thrive_and_be_well'], 'hsl(18, 55%, 63%)',
+                        ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 61%)',
+                        ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 66%)',
+                        ['==', ['get', 'category'], 'gather_and_connect'], 'hsl(240, 12%, 54%)',
+                        'hsl(0, 0%, 100%)' // default color if none match
+                    ],
+                    'circle-stroke-width': 1.5,
+                    'circle-stroke-color': 'hsl(0, 0%, 30%)'
+                }
+            });
+
+            // Marker labels
+            map.addLayer({
+                id: 'cluster-points-labels',
+                type: 'symbol',
+                source: 'location',
+                filter: ['!', ['has', 'point_count']],
+                layout: {
+                    'text-field': '{mapname}',
+                    'text-font': ['poppins-medium'],
+                    'text-size': 11,
+                    'text-line-height': 0.9,
+                    'text-offset': [0, 0.8], // Adjust vertical position
+                    'text-anchor': 'top'
+                },
+                paint: {
+                    'text-color': 'hsl(0, 0%, 10%)',
+                    'text-halo-color': 'hsla(0, 0%, 100%, 0.75)',
+                    'text-halo-width': 1
+                },
+                'minzoom': zoomThreshold + 2
+            });
+
+            document.getElementById('refresh-features-btn').addEventListener('click', () => {
+                const btn = document.getElementById('refresh-features-btn');
+                const infoBox = document.getElementById('info-box');
+
+                if (infoBoxOpen) {
+                    // Close the info box
+                    infoBox.classList.remove('visible');
+                    btn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Info';
+                    infoBoxOpen = false;
+                } else {
+                    // Open/refresh the info box
+                    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
+                    updateInfoBox().then(() => {
+                        btn.innerHTML = '<i class="fas fa-chevron-down"></i> Hide Info';
+                        infoBoxOpen = true;
                     });
+                }
+            });
 
-                    // Cluster circles
-                    map.addLayer({
-                        id: 'clusters',
-                        type: 'circle',
-                        source: 'location',
-                        filter: ['has', 'point_count'],
-                        paint: {
-                            'circle-color': [
-                                'step',
-                                ['get', 'point_count'],
-                                'hsl(270, 29%, 95%)',
-                                10, 'hsl(270, 29%, 90%)',
-                                25, 'hsl(270, 29%, 85%)'
-                            ],
-                            'circle-radius': [
-                                'step',
-                                ['get', 'point_count'],
-                                15,
-                                10, 20,
-                                25, 25
-                            ],
-                            'circle-stroke-width': 1,
-                            'circle-stroke-color': 'hsl(0, 0%, 30%)',
-                        },
-                        'maxzoom': zoomThreshold
-                    });
+            // Handle clicks on cluster layer
+            map.on('click', (e) => {
+                // Check for any features at click location
+                const features = map.queryRenderedFeatures(e.point, {
+                    layers: ['clusters', 'cluster-count', 'cluster-points']
+                });
 
-                    // Cluster count
-                    map.addLayer({
-                        id: 'cluster-count',
-                        type: 'symbol',
-                        source: 'location',
-                        filter: ['has', 'point_count'],
-                        layout: {
-                            'text-field': '{point_count_abbreviated}',
-                            'text-font': ['poppins-regular'],
-                            'text-size': 12
-                        },
-                        paint: {
-                            'text-color': 'hsl(0, 0%, 0%)'
-                        },
-                        'maxzoom': zoomThreshold
-                    });
-
-                    // Points
-                    map.addLayer({
-                        id: 'cluster-points',
-                        type: 'circle',
-                        source: 'location',
-                        filter: ['!', ['has', 'point_count']],
-                        paint: {
-                            'circle-radius': 7,
-                            'circle-color': [
-                                'case',
-                                ['==', ['get', 'category'], 'eat_and_drink'], 'hsl(35, 100%, 70%)',
-                                ['==', ['get', 'category'], 'visit_and_experience'], 'hsl(0, 79%, 75%)',
-                                ['==', ['get', 'category'], 'learn_and_play'], 'hsl(296, 30%, 68%)',
-                                ['==', ['get', 'category'], 'thrive_and_be_well'], 'hsl(18, 55%, 63%)',
-                                ['==', ['get', 'category'], 'shop_and_discover'], 'hsl(114, 35%, 61%)',
-                                ['==', ['get', 'category'], 'live_and_work'], 'hsl(197, 35%, 66%)',
-                                ['==', ['get', 'category'], 'gather_and_connect'], 'hsl(240, 12%, 54%)',
-                                'hsl(0, 0%, 100%)' // default color if none match
-                            ],
-                            'circle-stroke-width': 1.5,
-                            'circle-stroke-color': 'hsl(0, 0%, 30%)'
-                        }
-                    });
-
-                    // Marker labels
-                    map.addLayer({
-                        id: 'cluster-points-labels',
-                        type: 'symbol',
-                        source: 'location',
-                        filter: ['!', ['has', 'point_count']],
-                        layout: {
-                            'text-field': '{mapname}',
-                            'text-font': ['poppins-medium'],
-                            'text-size': 11,
-                            'text-line-height': 0.9,
-                            'text-offset': [0, 0.8], // Adjust vertical position
-                            'text-anchor': 'top'
-                        },
-                        paint: {
-                            'text-color': 'hsl(0, 0%, 10%)',
-                            'text-halo-color': 'hsla(0, 0%, 100%, 0.75)',
-                            'text-halo-width': 1
-                        },
-                        'minzoom': zoomThreshold + 2
-                    });
-
-                    document.getElementById('refresh-features-btn').addEventListener('click', () => {
-                        const btn = document.getElementById('refresh-features-btn');
-                        const infoBox = document.getElementById('info-box');
-
-                        if (infoBoxOpen) {
-                            // Close the info box
-                            infoBox.classList.remove('visible');
-                            btn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Info';
-                            infoBoxOpen = false;
-                        } else {
-                            // Open/refresh the info box
-                            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
-                            updateInfoBox().then(() => {
-                                btn.innerHTML = '<i class="fas fa-chevron-down"></i> Hide Info';
-                                infoBoxOpen = true;
-                            });
-                        }
-                    });
-
-                    // Handle clicks on cluster layer
-                    map.on('click', (e) => {
-                        // Check for any features at click location
-                        const features = map.queryRenderedFeatures(e.point, {
-                            layers: ['clusters', 'cluster-count', 'cluster-points']
+                if (features.length > 0) {
+                    // If it's a cluster
+                    if (features[0].properties?.cluster_id) {
+                        // Simply fly to clicked position with slight zoom-in
+                        map.easeTo({
+                            center: e.lngLat,
+                            zoom: zoomThreshold + 2,
+                            duration: 500,
+                            essential: true
                         });
+                    }
+                    // If it's a regular point feature
+                    else {
+                        // Show the feature info
+                        clickFeature(features[0]);
+                    }
+                    return;
+                }
+            });
 
-                        if (features.length > 0) {
-                            // If it's a cluster
-                            if (features[0].properties?.cluster_id) {
-                                // Simply fly to clicked position with slight zoom-in
-                                map.easeTo({
-                                    center: e.lngLat,
-                                    zoom: zoomThreshold + 2,
-                                    duration: 500,
-                                    essential: true
-                                });
-                            }
-                            // If it's a regular point feature
-                            else {
-                                // Show the feature info
-                                clickFeature(features[0]);
-                            }
-                            return;
-                        }
+            // Handle clicks on marker layer
+            document.addEventListener('click', (e) => {
+                // Check if clicking a marker image container
+                const clickedElement = e.target.closest('.custom-marker-img-container');
+                const parentMarker = clickedElement?.closest('.custom-marker');
+
+                // Check if clicking the info box or its children
+                const clickedInfoBox = e.target.closest('#info-box');
+
+                // Check if clicking anywhere EXCEPT markers
+                if (!parentMarker && !clickedInfoBox) {
+                    // Remove active class from all markers
+                    document.querySelectorAll('.custom-marker.active').forEach(el => {
+                        el.classList.remove('active');
                     });
+                    return;
+                }
 
-                    // Handle clicks on marker layer
-                    document.addEventListener('click', (e) => {
-                        // Check if clicking a marker image container
-                        const clickedElement = e.target.closest('.custom-marker-img-container');
-                        const parentMarker = clickedElement?.closest('.custom-marker');
+                // If clicking on info box, do nothing
+                if (clickedInfoBox) {
+                    return;
+                }
 
-                        // Check if clicking the info box or its children
-                        const clickedInfoBox = e.target.closest('#info-box');
+                // Toggle active state on clicked marker
+                parentMarker.classList.toggle('active');
+                setTimeout(() => parentMarker.classList.remove('active'), 1500);
 
-                        // Check if clicking anywhere EXCEPT markers
-                        if (!parentMarker && !clickedInfoBox) {
-                            // Remove active class from all markers
-                            document.querySelectorAll('.custom-marker.active').forEach(el => {
-                                el.classList.remove('active');
-                            });
-                            return;
-                        }
+                // Handle feature data
+                const featureElement = clickedElement.closest('[data-feature]');
+                if (featureElement) {
+                    try {
+                        const feature = JSON.parse(featureElement.dataset.feature);
+                        clickFeature(feature);
+                    } catch (error) {
+                        console.error("Couldn't parse feature data:", error);
+                    }
+                }
+            });
 
-                        // If clicking on info box, do nothing
-                        if (clickedInfoBox) {
-                            return;
-                        }
+            // Handle clicks on category filter
+            document.addEventListener('click', (e) => {
+                const categoryFeatureElement = e.target.closest('.category-feature');
+                if (!categoryFeatureElement) return;
 
-                        // Toggle active state on clicked marker
-                        parentMarker.classList.toggle('active');
-                        setTimeout(() => parentMarker.classList.remove('active'), 1500);
+                const category = categoryFeatureElement.dataset.category;
+                if (!category) return;
 
-                        // Handle feature data
-                        const featureElement = clickedElement.closest('[data-feature]');
-                        if (featureElement) {
-                            try {
-                                const feature = JSON.parse(featureElement.dataset.feature);
-                                clickFeature(feature);
-                            } catch (error) {
-                                console.error("Couldn't parse feature data:", error);
-                            }
-                        }
-                    });
+                // Close any open popup when clicking a category
+                if (window.featurePopup) {
+                    window.featurePopup.remove();
+                    window.featurePopup = null;
+                }
 
-                    // Handle clicks on category filter
-                    document.addEventListener('click', (e) => {
-                        const categoryFeatureElement = e.target.closest('.category-feature');
-                        if (!categoryFeatureElement) return;
+                // Remove all activeCategory classes first
+                document.querySelectorAll('.category-feature.activeCategory').forEach(el => {
+                    el.classList.remove('activeCategory');
+                });
 
-                        const category = categoryFeatureElement.dataset.category;
-                        if (!category) return;
+                // Toggle logic
+                if (currentActiveCategory === category) {
+                    // Second click on same category - remove filter
+                    filterLocation('all'); // Show all features
+                    categoryFeatureElement.classList.remove('activeCategory');
+                    currentActiveCategory = 'all';
+                } else {
+                    // New category selected
+                    filterLocation(category);
+                    categoryFeatureElement.classList.add('activeCategory');
+                    currentActiveCategory = category;
+                }
+            });
 
-                        // Close any open popup when clicking a category
-                        if (window.featurePopup) {
-                            window.featurePopup.remove();
-                            window.featurePopup = null;
-                        }
+            // Close infobox on click
+            setupInfoBoxAutoClose();
 
-                        // Remove all activeCategory classes first
-                        document.querySelectorAll('.category-feature.activeCategory').forEach(el => {
-                            el.classList.remove('activeCategory');
-                        });
+            // Show info button
+            map.once('idle', () => {
+                const btn = document.getElementById('refresh-features-btn');
+                btn.style.display = 'block';
+            });
 
-                        // Toggle logic
-                        if (currentActiveCategory === category) {
-                            // Second click on same category - remove filter
-                            filterLocation('all'); // Show all features
-                            categoryFeatureElement.classList.remove('activeCategory');
-                            currentActiveCategory = 'all';
-                        } else {
-                            // New category selected
-                            filterLocation(category);
-                            categoryFeatureElement.classList.add('activeCategory');
-                            currentActiveCategory = category;
-                        }
-                    });
+            // Create featured vehicle
+            createFeaturedItems = () => {
+                const featuredContainer = document.getElementById('featured');
 
-                    // Close infobox on click
-                    setupInfoBoxAutoClose();
+                // Clear previous content
+                featuredContainer.innerHTML = '';
 
-                    // Show info button
-                    map.once('idle', () => {
-                        const btn = document.getElementById('refresh-features-btn');
-                        btn.style.display = 'block';
-                    });
+                // Get map center
+                const center = map.getCenter();
+                const centerLngLat = [center.lng, center.lat];
 
-                    // Create featured vehicle
-                    createFeaturedItems = () => {
-                        const featuredContainer = document.getElementById('featured');
+                // Calculate distance manually
+                const featuresWithDistance = vehicleFeatures.map(feature => {
+                    const featureLngLat = feature.geometry.coordinates;
+                    const distance = getDistance(centerLngLat, featureLngLat);
 
-                        // Get map center
-                        const center = map.getCenter();
-                        const centerLngLat = [center.lng, center.lat];
+                    return {
+                        ...feature,
+                        _distanceFromCenter: distance
+                    };
+                });
 
-                        // Calculate distance manually
-                        const featuresWithDistance = vehicleFeatures.map(feature => {
-                            const featureLngLat = feature.geometry.coordinates;
-                            const distance = getDistance(centerLngLat, featureLngLat);
+                // Sort by distance (closest first)
+                const sortedFeatures = featuresWithDistance.sort((a, b) =>
+                    a._distanceFromCenter - b._distanceFromCenter
+                );
 
-                            return {
-                                ...feature,
-                                _distanceFromCenter: distance
-                            };
-                        });
+                // Select random feature
+                // randomFeature = features[Math.floor(Math.random() * features.length)];
 
-                        // Sort by distance (closest first)
-                        const sortedFeatures = featuresWithDistance.sort((a, b) =>
-                            a._distanceFromCenter - b._distanceFromCenter
-                        );
+                // Loop through first 3 features (or all if less than 3 exist)
+                for (let i = 0; i < Math.min(3, sortedFeatures.length); i++) {
+                    const feature = sortedFeatures[i];
 
-                        // Select random feature
-                        // randomFeature = features[Math.floor(Math.random() * features.length)];
+                    const featureItem = document.createElement('div');
+                    featureItem.className = 'featured-item';
 
-                        // Select the closest feature (first item in the sorted array)
-                        const feature = sortedFeatures[0];
+                    // Set vehicle image background
+                    const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
+                    featureItem.style.backgroundColor = getVehicleColor(feature.properties.vehicle);
+                    //featureItem.style.backgroundImage = `url(${imgVehicle})`;
 
-                        // Clear previous content
-                        featuredContainer.innerHTML = '';
+                    // Create logo image
+                    const img = `${imgSource}/${feature.properties.img}.png`;
+                    const imgElement = document.createElement('img');
+                    imgElement.className = 'featured-logo';
+                    imgElement.src = img;
+                    featureItem.appendChild(imgElement);
 
-                        const featureItem = document.createElement('div');
-                        featureItem.className = 'featured-item';
+                    // Create map name element (commented out as per your original)
+                    const mapNameElement = document.createElement('div');
+                    mapNameElement.className = 'featured-mapname';
+                    mapNameElement.textContent = feature.properties.mapname || '';
+                    // featureItem.appendChild(mapNameElement);
 
-                        //const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
-                        const imgVehicle = `${imgSource}/vehicle_car.png`;
-                        featureItem.style.backgroundImage = `url(${imgVehicle})`
+                    // Add curved SVG text (commented out but available)
+                    /*
+                    const svgContainer = document.createElement('div');
+                    svgContainer.className = 'svg-container';
+                    svgContainer.innerHTML = `
+                        <svg width="105" height="105" viewBox="0 0 105 105" overflow="visible">
+                            <path id="curve" d="M52.5,87.5 A35,35 0 1 1 52.5,17.5 A35,35 0 1 1 52.5,87.5" fill="none"/>
+                            <text font-size="12" text-anchor="middle">
+                                <textPath href="#curve" startOffset="50%" 
+                                        fill="hsl(0, 0%, 100%)" 
+                                        stroke="hsl(0, 0%, 0%)"
+                                        stroke-width="1"
+                                        stroke-linejoin="round"
+                                        paint-order="stroke">
+                                    Quick Travel
+                                </textPath>
+                            </text>
+                        </svg>`;
+                    featureItem.appendChild(svgContainer);
+                    */
 
-                        // Create SVG container (for curved text)
-                        const svgContainer = document.createElement('div');
-                        svgContainer.className = 'svg-container';
-                        const formattedText = 'Quick Travel';
+                    featuredContainer.appendChild(featureItem);
 
-                        svgContainer.innerHTML = `
-                            <svg width="105" height="105" viewBox="0 0 105 105" overflow="visible">
-                                <path id="curve" d="M52.5,87.5 A35,35 0 1 1 52.5,17.5 A35,35 0 1 1 52.5,87.5" 
-                                    fill="none"/>
-                                <text font-size="12" text-anchor="middle">
-                                    <textPath href="#curve" startOffset="50%" 
-                                            fill="hsl(0, 0%, 100%)" 
-                                            stroke="hsl(0, 0%, 0%)"
-                                            stroke-width="1"
-                                            stroke-linejoin="round"
-                                            paint-order="stroke">
-                                        ${formattedText}
-                                    </textPath>
-                                </text>
-                            </svg>
-                        `;
-
-                        featureItem.appendChild(svgContainer);
-
-                        // Add image
-                        const img = `${imgSource}/${feature.properties.img}.png`;
-                        const imgElement = document.createElement('img');
-                        imgElement.className = 'featured-logo';
-                        imgElement.src = img;
-                        featureItem.appendChild(imgElement);
-
-                        // Add mapname
-                        const mapNameElement = document.createElement('div');
-                        mapNameElement.className = 'featured-mapname';
-                        mapNameElement.textContent = feature.properties.mapname || '';
-                        //featureItem.appendChild(mapNameElement); 
-
-                        // Append items
-                        featuredContainer.appendChild(featureItem);
-
-                        // Add click handler to featured item
-                        featureItem.addEventListener('click', (e) => {
+                    // Add click handler to featured item
+                    featureItem.addEventListener('click', (e) => {
 
                         // Fly to the feature's coordinates
                         flyToFeature(feature.geometry.coordinates)
@@ -468,16 +468,14 @@
                             .catch(error => {
                                 console.error('Fly to feature failed:', error);
                             });
+                    });
+                }
+            }
+            createFeaturedItems();
 
-                        });
+            // Update featured vehicle whenever map stops moving
+            map.on('moveend', createFeaturedItems);
 
-                    }
-                    createFeaturedItems();
-
-                    // Update featured vehicle whenever map stops moving
-                    map.on('moveend', createFeaturedItems);
-
-                });
         });
 
         const filterLocation = (category) => {
@@ -1236,6 +1234,15 @@
                 default: return 'hsl(0, 0%, 100%)';
             }
         }
+
+        const getVehicleColor = (vehicle) => {
+            const colorMap = {
+                'plane': 'hsl(200, 60%, 80%)',
+                'car': 'hsl(40, 80%, 80%)',
+                'boat': 'hsl(240, 50%, 80%)'
+            };
+            return colorMap[vehicle] || colorMap.default;
+        };
 
         // Helper function: Haversine distance formula (in km)
         function getDistance(lngLat1, lngLat2) {
