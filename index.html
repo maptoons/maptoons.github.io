@@ -655,10 +655,10 @@
 
             // Determine which priorities should be displayed at this zoom level
             let priorityLevels = [];
-            if (zoom >= zoomThreshold && zoom < zoomThreshold + 1) priorityLevels = ['Q'];
-            if (zoom >= zoomThreshold + 1 && zoom < zoomThreshold + 1.5) priorityLevels = ['Q', 'T'];
-            if (zoom >= zoomThreshold + 1.5 && zoom < zoomThreshold + 2) priorityLevels = ['Q', 'T', 'D'];
-            if (zoom >= zoomThreshold + 2) priorityLevels = ['Q', 'T', 'D', 'S'];
+            if (zoom >= zoomThreshold && zoom < zoomThreshold + 1) priorityLevels = ['Q', 'P'];
+            if (zoom >= zoomThreshold + 1 && zoom < zoomThreshold + 1.5) priorityLevels = ['Q', 'P', 'T'];
+            if (zoom >= zoomThreshold + 1.5 && zoom < zoomThreshold + 2) priorityLevels = ['Q', 'P', 'T', 'D'];
+            if (zoom >= zoomThreshold + 2) priorityLevels = ['Q', 'P', 'T', 'D', 'S'];
 
             const newMarkers = {};
             const features = map.querySourceFeatures('location');
@@ -710,7 +710,7 @@
                     triangle.style.borderTopColor = getCategoryColor(props.category);
 
                     // Create star
-                    if (['Q', 'T', 'D'].includes(props.priority)) {
+                    if (['Q', 'P'].includes(props.priority)) {
                         const star = document.createElement('div');
                         star.className = 'custom-marker-star';
                         star.innerHTML = '<i class="fas fa-star"></i>';
@@ -896,7 +896,7 @@
                 titleContainer.className = 'info-popup-title-container';
 
                 // Create priority star if applicable
-                if (properties.priority && ['Q', 'T', 'D'].includes(properties.priority)) {
+                if (properties.priority && ['Q', 'P'].includes(properties.priority)) {
                     const star = document.createElement('span');
                     star.className = 'info-popup-star';
                     star.innerHTML = '<i class="fas fa-star"></i>';
@@ -1238,6 +1238,7 @@
         const getPriorityColor = (priority) => {
             switch (priority) {
                 case 'Q': return 'hsl(51, 100%, 50%)';
+                case 'P': return 'hsl(51, 100%, 50%)';
                 case 'T': return 'hsl(30, 100%, 50%)';
                 case 'D': return 'hsl(240, 5%, 75%)';
                 default: return 'hsl(0, 0%, 100%)';
