@@ -4645,6 +4645,8 @@
                 "category": "learn_and_play",
                 "subcategory": "youth_services",
                 "address_formatted": "75 East Walnut Street, City of Long Beach, NY 11561, United States of America",
+                "priority": "D",
+                "img": "LB-176D",
                 "vehicle": "boat"
             },
             "geometry": {
