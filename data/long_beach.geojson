@@ -3951,7 +3951,7 @@
                 "priority": "P",
                 "img": "LB-150P"
             },
-            "geometry": {}
+            "geometry": null
         },
         {
             "type": "Feature",
