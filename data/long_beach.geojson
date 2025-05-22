@@ -23,8 +23,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "spas_and_wellness",
                 "address_formatted": "Healing Oasis Massage, 252 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-1D"
+                "priority": "T",
+                "img": "LB-1T"
             },
             "geometry": {
                 "type": "Point",
@@ -49,8 +49,8 @@
                 "category": "learn_and_play",
                 "subcategory": "",
                 "address_formatted": "1 Laurelton Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-2S"
+                "priority": "D",
+                "img": "LB-2D"
             },
             "geometry": {
                 "type": "Point",
@@ -73,10 +73,10 @@
                 "phone": "516-431-4411",
                 "web": "http://LidoKosherDeli.com",
                 "category": "eat_and_drink",
-                "subcategory": "delis_and_catering",
+                "subcategory": "",
                 "address_formatted": "641 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-3S"
+                "priority": "D",
+                "img": "LB-3D"
             },
             "geometry": {
                 "type": "Point",
@@ -101,8 +101,8 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "675 East Olive Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-4S"
+                "priority": "T",
+                "img": "LB-4T"
             },
             "geometry": {
                 "type": "Point",
@@ -125,10 +125,10 @@
                 "phone": "516-442-3131",
                 "web": "http://LiddleBites.com",
                 "category": "learn_and_play",
-                "subcategory": "youth_services",
+                "subcategory": "",
                 "address_formatted": "132 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-5S"
+                "priority": "D",
+                "img": "LB-5D"
             },
             "geometry": {
                 "type": "Point",
@@ -153,8 +153,9 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "pet_grooming",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "D",
-                "img": "LB-6D"
+                "priority": "T",
+                "img": "LB-6T",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -179,8 +180,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "860 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-7T"
+                "priority": "D",
+                "img": "LB-7D",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -205,8 +207,8 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "1047 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-8Q"
+                "priority": "D",
+                "img": "LB-8D"
             },
             "geometry": {
                 "type": "Point",
@@ -230,8 +232,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "delis_and_catering",
                 "address_formatted": "579 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-9S"
+                "priority": "D",
+                "img": "LB-9D"
             },
             "geometry": {
                 "type": "Point",
@@ -256,8 +258,8 @@
                 "category": "live_and_work",
                 "subcategory": "attorneys",
                 "address_formatted": "1005 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-10S"
+                "priority": "P",
+                "img": "LB-10P"
             },
             "geometry": {
                 "type": "Point",
@@ -280,10 +282,11 @@
                 "phone": "934-414-8242",
                 "web": "http://Zaretsky-Wellness.com",
                 "category": "thrive_and_be_well",
-                "subcategory": "spas_and_wellness",
+                "subcategory": "",
                 "address_formatted": "Lido Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-11Q"
+                "priority": "D",
+                "img": "LB-11D",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -308,8 +311,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "ice_cream_and_desserts",
                 "address_formatted": "170 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-12Q"
+                "priority": "D",
+                "img": "LB-12D"
             },
             "geometry": {
                 "type": "Point",
@@ -335,7 +338,8 @@
                 "subcategory": "",
                 "address_formatted": "600 Magnolia Boulevard, City of Long Beach, NY 11561, United States of America",
                 "priority": "T",
-                "img": "LB-13T"
+                "img": "LB-13T",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -386,8 +390,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "248 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-15Q"
+                "priority": "P",
+                "img": "LB-15P",
+                "vehicle": "plane"
             },
             "geometry": {
                 "type": "Point",
@@ -412,8 +417,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "bakeries",
                 "address_formatted": "Country Boy Bakery, 256 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-16S"
+                "priority": "D",
+                "img": "LB-16D"
             },
             "geometry": {
                 "type": "Point",
@@ -436,7 +441,7 @@
                 "phone": "516-897-6616",
                 "facebook": "https://www.facebook.com/CoffeeNutCafeNY",
                 "category": "eat_and_drink",
-                "subcategory": "coffee_shops",
+                "subcategory": "",
                 "address_formatted": "250 East Park Avenue, City of Long Beach, NY 11561, United States of America",
                 "priority": "D",
                 "img": "LB-17D"
@@ -464,8 +469,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "120 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-18S"
+                "priority": "T",
+                "img": "LB-18T"
             },
             "geometry": {
                 "type": "Point",
@@ -518,8 +523,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "157 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-20T"
+                "priority": "D",
+                "img": "LB-20D"
             },
             "geometry": {
                 "type": "Point",
@@ -544,8 +549,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "303 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-21S"
+                "priority": "D",
+                "img": "LB-21D"
             },
             "geometry": {
                 "type": "Point",
@@ -595,8 +600,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "78 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-23S"
+                "priority": "P",
+                "img": "LB-23P"
             },
             "geometry": {
                 "type": "Point",
@@ -621,8 +626,8 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-24T"
+                "priority": "D",
+                "img": "LB-24D"
             },
             "geometry": {
                 "type": "Point",
@@ -671,7 +676,7 @@
                 "phone": "516-897-1110",
                 "web": "http://LongBeachNRC.com",
                 "category": "thrive_and_be_well",
-                "subcategory": "rehabilitation_centers",
+                "subcategory": "",
                 "address_formatted": "Long Beach Nursing and Rehabilitation Center, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America"
             },
             "geometry": {
@@ -695,10 +700,10 @@
                 "phone": "516-897-1000",
                 "web": "http://LongBeachNRC.com",
                 "category": "thrive_and_be_well",
-                "subcategory": "rehabilitation_centers",
+                "subcategory": "",
                 "address_formatted": "Long Beach Nursing and Rehabilitation Center, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-26Q"
+                "priority": "P",
+                "img": "LB-26P"
             },
             "geometry": {
                 "type": "Point",
@@ -750,8 +755,9 @@
                 "category": "live_and_work",
                 "subcategory": "home_and_garden_supplies",
                 "address_formatted": "Wantagh, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-28Q"
+                "priority": "D",
+                "img": "LB-28D",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -776,8 +782,9 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "257 West Walnut Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-29S"
+                "priority": "D",
+                "img": "LB-29D",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -802,8 +809,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "optometrists",
                 "address_formatted": "651 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-30S"
+                "priority": "T",
+                "img": "LB-30T"
             },
             "geometry": {
                 "type": "Point",
@@ -828,8 +835,8 @@
                 "category": "shop_and_discover",
                 "subcategory": "jewelry_and_accessories",
                 "address_formatted": "643 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-31S"
+                "priority": "D",
+                "img": "LB-31D"
             },
             "geometry": {
                 "type": "Point",
@@ -854,8 +861,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "647 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-32Q"
+                "priority": "S",
+                "img": "LB-32S"
             },
             "geometry": {
                 "type": "Point",
@@ -882,8 +889,8 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "1025 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-33D"
+                "priority": "P",
+                "img": "LB-33P"
             },
             "geometry": {
                 "type": "Point",
@@ -908,8 +915,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "1025 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-34T"
+                "priority": "D",
+                "img": "LB-34D",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -934,8 +942,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "163 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-35Q"
+                "priority": "T",
+                "img": "LB-35T"
             },
             "geometry": {
                 "type": "Point",
@@ -983,10 +991,10 @@
                 "loc": 37,
                 "phone": "516-889-9047",
                 "category": "live_and_work",
-                "subcategory": "tailoring",
+                "subcategory": "dry_cleaning",
                 "address_formatted": "48 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-37Q"
+                "priority": "D",
+                "img": "LB-37D"
             },
             "geometry": {
                 "type": "Point",
@@ -1011,8 +1019,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-38T"
+                "priority": "P",
+                "img": "LB-38P",
+                "vehicle": "plane"
             },
             "geometry": {
                 "type": "Point",
@@ -1037,8 +1046,8 @@
                 "category": "live_and_work",
                 "subcategory": "insurance",
                 "address_formatted": "1013 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-39S"
+                "priority": "T",
+                "img": "LB-39T"
             },
             "geometry": {
                 "type": "Point",
@@ -1062,8 +1071,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-40Q"
+                "priority": "D",
+                "img": "LB-40D"
             },
             "geometry": {
                 "type": "Point",
@@ -1088,8 +1097,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "805 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-41S"
+                "priority": "D",
+                "img": "LB-41D"
             },
             "geometry": {
                 "type": "Point",
@@ -1114,8 +1123,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "42 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-42Q"
+                "priority": "D",
+                "img": "LB-42D"
             },
             "geometry": {
                 "type": "Point",
@@ -1140,8 +1149,8 @@
                 "category": "shop_and_discover",
                 "subcategory": "",
                 "address_formatted": "285 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-43Q"
+                "priority": "D",
+                "img": "LB-43D"
             },
             "geometry": {
                 "type": "Point",
@@ -1166,8 +1175,8 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "100 Lido Boulevard, Point Lookout, NY 11569, United States of America",
-                "priority": "D",
-                "img": "LB-44D"
+                "priority": "P",
+                "img": "LB-44P"
             },
             "geometry": {
                 "type": "Point",
@@ -1218,8 +1227,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "51 Oswego Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-46T"
+                "priority": "P",
+                "img": "LB-46P",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -1296,8 +1306,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "fitness_centers",
                 "address_formatted": "16 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-51S"
+                "priority": "D",
+                "img": "LB-51D"
             },
             "geometry": {
                 "type": "Point",
@@ -1348,8 +1358,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-53S"
+                "priority": "P",
+                "img": "LB-53P",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -1374,8 +1385,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "bars_and_pubs",
                 "address_formatted": "435 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-55S"
+                "priority": "D",
+                "img": "LB-55D"
             },
             "geometry": {
                 "type": "Point",
@@ -1400,8 +1411,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "169 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-56S"
+                "priority": "T",
+                "img": "LB-56T"
             },
             "geometry": {
                 "type": "Point",
@@ -1426,8 +1437,9 @@
                 "category": "live_and_work",
                 "subcategory": "pest_control",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "T",
-                "img": "LB-57T"
+                "priority": "D",
+                "img": "LB-57D",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -1452,8 +1464,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "425 National Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-58T"
+                "priority": "P",
+                "img": "LB-58P"
             },
             "geometry": {
                 "type": "Point",
@@ -1477,8 +1489,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "pharmacies",
                 "address_formatted": "629 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-59S"
+                "priority": "D",
+                "img": "LB-59D"
             },
             "geometry": {
                 "type": "Point",
@@ -1503,8 +1515,9 @@
                 "category": "shop_and_discover",
                 "subcategory": "florists",
                 "address_formatted": "233 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-                "priority": "S",
-                "img": "LB-60S"
+                "priority": "P",
+                "img": "LB-60P",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -1529,8 +1542,8 @@
                 "category": "live_and_work",
                 "subcategory": "web_design",
                 "address_formatted": "38 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-61T"
+                "priority": "D",
+                "img": "LB-61D"
             },
             "geometry": {
                 "type": "Point",
@@ -1555,8 +1568,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "pharmacies",
                 "address_formatted": "62 Lido Boulevard, Point Lookout, NY 11569, United States of America",
-                "priority": "Q",
-                "img": "LB-62Q"
+                "priority": "D",
+                "img": "LB-62D"
             },
             "geometry": {
                 "type": "Point",
@@ -1581,8 +1594,9 @@
                 "category": "live_and_work",
                 "subcategory": "plumbing",
                 "address_formatted": "77 Lido Boulevard, Point Lookout, NY 11569, United States of America",
-                "priority": "D",
-                "img": "LB-63D"
+                "priority": "P",
+                "img": "LB-63P",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -1609,8 +1623,9 @@
                 "category": "live_and_work",
                 "subcategory": "auto_repair",
                 "address_formatted": "4452 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
-                "priority": "D",
-                "img": "LB-64D"
+                "priority": "T",
+                "img": "LB-64T",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -1661,8 +1676,8 @@
                 "category": "shop_and_discover",
                 "subcategory": "clothing_and_fashion",
                 "address_formatted": "130 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-66D"
+                "priority": "S",
+                "img": "LB-66S"
             },
             "geometry": {
                 "type": "Point",
@@ -1713,8 +1728,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "",
                 "address_formatted": "100 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-68Q"
+                "priority": "S",
+                "img": "LB-68S"
             },
             "geometry": {
                 "type": "Point",
@@ -1739,8 +1754,8 @@
                 "category": "live_and_work",
                 "subcategory": "telecommunications",
                 "address_formatted": "54 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-69Q"
+                "priority": "P",
+                "img": "LB-69P"
             },
             "geometry": {
                 "type": "Point",
@@ -1765,8 +1780,8 @@
                 "category": "live_and_work",
                 "subcategory": "telecommunications",
                 "address_formatted": "64 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-70Q"
+                "priority": "P",
+                "img": "LB-70P"
             },
             "geometry": {
                 "type": "Point",
@@ -1793,8 +1808,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "647 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-71S"
+                "priority": "T",
+                "img": "LB-71T"
             },
             "geometry": {
                 "type": "Point",
@@ -1818,8 +1833,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-72Q"
+                "priority": "D",
+                "img": "LB-72D"
             },
             "geometry": {
                 "type": "Point",
@@ -1844,8 +1859,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "places_of_worship",
                 "address_formatted": "220 West Penn Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-73T"
+                "priority": "D",
+                "img": "LB-73D"
             },
             "geometry": {
                 "type": "Point",
@@ -1870,8 +1885,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "The Tides Nursing Home, 640 West Broadway, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-74D"
+                "priority": "P",
+                "img": "LB-74P"
             },
             "geometry": {
                 "type": "Point",
@@ -1972,8 +1987,9 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "600 Shore Road, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-77D"
+                "priority": "S",
+                "img": "LB-77S",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -1998,8 +2014,8 @@
                 "category": "shop_and_discover",
                 "subcategory": "",
                 "address_formatted": "1083 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-78T"
+                "priority": "S",
+                "img": "LB-78S"
             },
             "geometry": {
                 "type": "Point",
@@ -2024,8 +2040,8 @@
                 "category": "shop_and_discover",
                 "subcategory": "",
                 "address_formatted": "880 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-79S"
+                "priority": "D",
+                "img": "LB-79D"
             },
             "geometry": {
                 "type": "Point",
@@ -2052,8 +2068,9 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "160 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-                "priority": "S",
-                "img": "LB-80S"
+                "priority": "D",
+                "img": "LB-80D",
+                "vehicle": "plane"
             },
             "geometry": {
                 "type": "Point",
@@ -2107,7 +2124,8 @@
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
                 "priority": "T",
-                "img": "LB-82T"
+                "img": "LB-82T",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -2132,8 +2150,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "100 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-83T"
+                "priority": "D",
+                "img": "LB-83D"
             },
             "geometry": {
                 "type": "Point",
@@ -2157,8 +2175,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "pediatricians",
                 "address_formatted": "350 National Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-84T"
+                "priority": "S",
+                "img": "LB-84S"
             },
             "geometry": {
                 "type": "Point",
@@ -2209,8 +2227,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "acupuncture",
                 "address_formatted": "323 Magnolia Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-86Q"
+                "priority": "S",
+                "img": "LB-86S"
             },
             "geometry": {
                 "type": "Point",
@@ -2235,8 +2253,8 @@
                 "category": "live_and_work",
                 "subcategory": "building_materials",
                 "address_formatted": "669 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-87D"
+                "priority": "T",
+                "img": "LB-87T"
             },
             "geometry": {
                 "type": "Point",
@@ -2287,8 +2305,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "fitness_centers",
                 "address_formatted": "28 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-89S"
+                "priority": "D",
+                "img": "LB-89D"
             },
             "geometry": {
                 "type": "Point",
@@ -2313,8 +2331,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "36 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-90T"
+                "priority": "S",
+                "img": "LB-90S"
             },
             "geometry": {
                 "type": "Point",
@@ -2339,8 +2357,9 @@
                 "category": "live_and_work",
                 "subcategory": "moving_services",
                 "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
-                "priority": "Q",
-                "img": "LB-91Q"
+                "priority": "T",
+                "img": "LB-91T",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -2365,8 +2384,8 @@
                 "category": "live_and_work",
                 "subcategory": "storage",
                 "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
-                "priority": "S",
-                "img": "LB-92S"
+                "priority": "T",
+                "img": "LB-92T"
             },
             "geometry": {
                 "type": "Point",
@@ -2391,7 +2410,7 @@
                 "exp": "05/31/2026",
                 "web": "http://Athlete-Protocol.com",
                 "category": "thrive_and_be_well",
-                "subcategory": "spas_and_wellness",
+                "subcategory": "",
                 "address_formatted": "Long Beach Municipal Ice Arena, 150 West Bay Drive, City of Long Beach, NY 11561, United States of America",
                 "priority": "S",
                 "img": "LB-93S"
@@ -2419,8 +2438,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "mental_health_services",
                 "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-94Q"
+                "priority": "S",
+                "img": "LB-94S"
             },
             "geometry": {
                 "type": "Point",
@@ -2443,10 +2462,10 @@
                 "phone": "888-751-9000",
                 "web": "http://TD.com",
                 "category": "live_and_work",
-                "subcategory": "financial_services",
+                "subcategory": "",
                 "address_formatted": "TD Bank, 550 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-95Q"
+                "priority": "S",
+                "img": "LB-95S"
             },
             "geometry": {
                 "type": "Point",
@@ -2471,8 +2490,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "126 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-96D"
+                "priority": "S",
+                "img": "LB-96S"
             },
             "geometry": {
                 "type": "Point",
@@ -2497,8 +2516,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "52 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-97S"
+                "priority": "D",
+                "img": "LB-97D"
             },
             "geometry": {
                 "type": "Point",
@@ -2523,8 +2542,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "30 A West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-98S"
+                "priority": "P",
+                "img": "LB-98P",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -2549,8 +2569,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "MLK Community Center, 615 Riverside Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-99S"
+                "priority": "D",
+                "img": "LB-99D"
             },
             "geometry": {
                 "type": "Point",
@@ -2575,8 +2595,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-100S"
+                "priority": "P",
+                "img": "LB-100P",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -2627,8 +2648,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "bike_rentals",
                 "address_formatted": "176 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-102Q"
+                "priority": "S",
+                "img": "LB-102S"
             },
             "geometry": {
                 "type": "Point",
@@ -2703,10 +2724,10 @@
                 "phone": "516-889-1300",
                 "web": "http://AllegriaHotelNY.com",
                 "category": "visit_and_experience",
-                "subcategory": "hotels",
+                "subcategory": "",
                 "address_formatted": "80 West Broadway, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-105D"
+                "priority": "P",
+                "img": "LB-105P"
             },
             "geometry": {
                 "type": "Point",
@@ -2731,8 +2752,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "",
                 "address_formatted": "Patchogue, NY, United States of America",
-                "priority": "T",
-                "img": "LB-106T"
+                "priority": "D",
+                "img": "LB-106D"
             },
             "geometry": {
                 "type": "Point",
@@ -2757,8 +2778,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "1011 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-107S"
+                "priority": "P",
+                "img": "LB-107P"
             },
             "geometry": {
                 "type": "Point",
@@ -2783,8 +2804,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "Long Beach Historical & Preservation Society Museum, 226 West Penn Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-108T"
+                "priority": "S",
+                "img": "LB-108S"
             },
             "geometry": {
                 "type": "Point",
@@ -2834,8 +2855,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "delis_and_catering",
                 "address_formatted": "44 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-110Q"
+                "priority": "S",
+                "img": "LB-110S"
             },
             "geometry": {
                 "type": "Point",
@@ -2860,8 +2881,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "1 West Chester Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-111T"
+                "priority": "S",
+                "img": "LB-111S"
             },
             "geometry": {
                 "type": "Point",
@@ -2887,7 +2908,8 @@
                 "subcategory": "",
                 "address_formatted": "3197 Long Beach Road, Oceanside, NY 11572, United States of America",
                 "priority": "D",
-                "img": "LB-112D"
+                "img": "LB-112D",
+                "vehicle": "plane"
             },
             "geometry": {
                 "type": "Point",
@@ -2912,8 +2934,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "57 Lido Boulevard, Point Lookout, NY 11569, United States of America",
-                "priority": "D",
-                "img": "LB-113D"
+                "priority": "S",
+                "img": "LB-113S"
             },
             "geometry": {
                 "type": "Point",
@@ -2990,8 +3012,8 @@
                 "category": "learn_and_play",
                 "subcategory": "",
                 "address_formatted": "1028 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-116Q"
+                "priority": "S",
+                "img": "LB-116S"
             },
             "geometry": {
                 "type": "Point",
@@ -3016,8 +3038,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "4547 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
-                "priority": "D",
-                "img": "LB-117D"
+                "priority": "S",
+                "img": "LB-117S"
             },
             "geometry": {
                 "type": "Point",
@@ -3043,7 +3065,8 @@
                 "subcategory": "taxi_services",
                 "address_formatted": "1 West Park Avenue, City of Long Beach, NY 11561, United States of America",
                 "priority": "D",
-                "img": "LB-118D"
+                "img": "LB-118D",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -3066,7 +3089,7 @@
                 "phone": "516-544-4444",
                 "web": "http://LongBeachHotelNY.com",
                 "category": "visit_and_experience",
-                "subcategory": "hotels",
+                "subcategory": "",
                 "address_formatted": "405 East Broadway, City of Long Beach, NY 11561, United States of America",
                 "priority": "D",
                 "img": "LB-119D"
@@ -3095,8 +3118,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "bakeries",
                 "address_formatted": "159 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-120T"
+                "priority": "D",
+                "img": "LB-120D"
             },
             "geometry": {
                 "type": "Point",
@@ -3121,8 +3144,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "62 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "T",
-                "img": "LB-121T"
+                "priority": "D",
+                "img": "LB-121D"
             },
             "geometry": {
                 "type": "Point",
@@ -3147,8 +3170,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "150 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-122Q"
+                "priority": "D",
+                "img": "LB-122D"
             },
             "geometry": {
                 "type": "Point",
@@ -3173,8 +3196,8 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "Long Beach Boulevard, Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-123S"
+                "priority": "D",
+                "img": "LB-123D"
             },
             "geometry": {
                 "type": "Point",
@@ -3199,8 +3222,8 @@
                 "category": "learn_and_play",
                 "subcategory": "",
                 "address_formatted": "811 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-124Q"
+                "priority": "D",
+                "img": "LB-124D"
             },
             "geometry": {
                 "type": "Point",
@@ -3225,8 +3248,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "beach_clubs",
                 "address_formatted": "1875 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
-                "priority": "Q",
-                "img": "LB-125Q"
+                "priority": "P",
+                "img": "LB-125P"
             },
             "geometry": {
                 "type": "Point",
@@ -3250,8 +3273,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "78 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-126D"
+                "priority": "P",
+                "img": "LB-126P"
             },
             "geometry": {
                 "type": "Point",
@@ -3276,8 +3299,9 @@
                 "category": "shop_and_discover",
                 "subcategory": "",
                 "address_formatted": "3050 Long Beach Road, Oceanside, NY 11572, United States of America",
-                "priority": "S",
-                "img": "LB-127S"
+                "priority": "P",
+                "img": "LB-127P",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -3302,8 +3326,8 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-                "priority": "D",
-                "img": "LB-128D"
+                "priority": "P",
+                "img": "LB-128P"
             },
             "geometry": {
                 "type": "Point",
@@ -3328,8 +3352,9 @@
                 "category": "live_and_work",
                 "subcategory": "electricians",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "S",
-                "img": "LB-129S"
+                "priority": "P",
+                "img": "LB-129P",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -3406,8 +3431,8 @@
                 "category": "live_and_work",
                 "subcategory": "funeral_services",
                 "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-                "priority": "Q",
-                "img": "LB-131Q"
+                "priority": "P",
+                "img": "LB-131P"
             },
             "geometry": {
                 "type": "Point",
@@ -3432,8 +3457,8 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-                "priority": "Q",
-                "img": "LB-132Q"
+                "priority": "P",
+                "img": "LB-132P"
             },
             "geometry": {
                 "type": "Point",
@@ -3456,10 +3481,10 @@
                 "phone": "516-283-0043",
                 "web": "http://ColdStoneCreamery.com/stores/24127",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts",
+                "subcategory": "",
                 "address_formatted": "Stop & Shop, 85 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-133S"
+                "priority": "D",
+                "img": "LB-133D"
             },
             "geometry": {
                 "type": "Point",
@@ -3483,8 +3508,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-134Q"
+                "priority": "S",
+                "img": "LB-134S"
             },
             "geometry": {
                 "type": "Point",
@@ -3508,8 +3533,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "T",
-                "img": "LB-135T"
+                "priority": "S",
+                "img": "LB-135S"
             },
             "geometry": {
                 "type": "Point",
@@ -3534,8 +3559,8 @@
                 "category": "learn_and_play",
                 "subcategory": "",
                 "address_formatted": "60 The Plaza, Village of Atlantic Beach, NY 11509, United States of America",
-                "priority": "S",
-                "img": "LB-136S"
+                "priority": "D",
+                "img": "LB-136D"
             },
             "geometry": {
                 "type": "Point",
@@ -3560,8 +3585,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "",
                 "address_formatted": "105 Putnam Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
-                "priority": "D",
-                "img": "LB-137D"
+                "priority": "T",
+                "img": "LB-137T"
             },
             "geometry": {
                 "type": "Point",
@@ -3586,8 +3611,9 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-138Q"
+                "priority": "D",
+                "img": "LB-138D",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -3612,8 +3638,9 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-139Q"
+                "priority": "D",
+                "img": "LB-139D",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -3662,8 +3689,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-140D"
+                "priority": "P",
+                "img": "LB-140P"
             },
             "geometry": {
                 "type": "Point",
@@ -3688,8 +3715,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "beach_clubs",
                 "address_formatted": "2035 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
-                "priority": "T",
-                "img": "LB-141T"
+                "priority": "P",
+                "img": "LB-141P"
             },
             "geometry": {
                 "type": "Point",
@@ -3714,8 +3741,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "beach_clubs",
                 "address_formatted": "1845 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
-                "priority": "D",
-                "img": "LB-142D"
+                "priority": "P",
+                "img": "LB-142P"
             },
             "geometry": {
                 "type": "Point",
@@ -3740,8 +3767,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "72 Bayside Drive, Point Lookout, NY 11569, United States of America",
-                "priority": "T",
-                "img": "LB-143T"
+                "priority": "D",
+                "img": "LB-143D"
             },
             "geometry": {
                 "type": "Point",
@@ -3791,8 +3818,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "670 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-145Q"
+                "priority": "S",
+                "img": "LB-145S"
             },
             "geometry": {
                 "type": "Point",
@@ -3817,8 +3844,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "",
                 "address_formatted": "954 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-146Q"
+                "priority": "T",
+                "img": "LB-146T"
             },
             "geometry": {
                 "type": "Point",
@@ -3869,8 +3896,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "174 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-148Q"
+                "priority": "S",
+                "img": "LB-148S"
             },
             "geometry": {
                 "type": "Point",
@@ -3895,8 +3922,8 @@
                 "category": "shop_and_discover",
                 "subcategory": "supermarkets",
                 "address_formatted": "663 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-149Q"
+                "priority": "T",
+                "img": "LB-149T"
             },
             "geometry": {
                 "type": "Point",
@@ -3921,10 +3948,10 @@
                 "category": "learn_and_play",
                 "subcategory": "",
                 "address_formatted": "",
-                "priority": "Q",
-                "img": "LB-150Q"
+                "priority": "P",
+                "img": "LB-150P"
             },
-            "geometry": null
+            "geometry": {}
         },
         {
             "type": "Feature",
@@ -3941,8 +3968,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "116 East Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-151Q"
+                "priority": "D",
+                "img": "LB-151D"
             },
             "geometry": {
                 "type": "Point",
@@ -3993,8 +4020,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "10 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-153Q"
+                "priority": "D",
+                "img": "LB-153D"
             },
             "geometry": {
                 "type": "Point",
@@ -4043,8 +4070,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
                 "address_formatted": "23 Bellmore Avenue, Point Lookout, NY 11569, United States of America",
-                "priority": "S",
-                "img": "LB-154S"
+                "priority": "D",
+                "img": "LB-154D"
             },
             "geometry": {
                 "type": "Point",
@@ -4069,8 +4096,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "236 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-155Q"
+                "priority": "S",
+                "img": "LB-155S"
             },
             "geometry": {
                 "type": "Point",
@@ -4095,8 +4122,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "Beginnings Bar & Restaurant, 1986 Park Street, Village of Atlantic Beach, NY 11509, United States of America",
-                "priority": "Q",
-                "img": "LB-156Q"
+                "priority": "S",
+                "img": "LB-156S"
             },
             "geometry": {
                 "type": "Point",
@@ -4119,7 +4146,7 @@
                 "phone": "516-689-7580",
                 "web": "http://BalancedHealthLB.com",
                 "category": "thrive_and_be_well",
-                "subcategory": "spas_and_wellness",
+                "subcategory": "",
                 "address_formatted": "917 West Beech Street, City of Long Beach, NY 11561, United States of America",
                 "priority": "S",
                 "img": "LB-157S"
@@ -4147,8 +4174,9 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "990 Stewart Avenue, Uniondale, NY 11530, United States of America",
-                "priority": "T",
-                "img": "LB-158T"
+                "priority": "D",
+                "img": "LB-158D",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -4172,8 +4200,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "",
                 "address_formatted": "852 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-159Q"
+                "priority": "S",
+                "img": "LB-159S"
             },
             "geometry": {
                 "type": "Point",
@@ -4198,8 +4226,9 @@
                 "category": "visit_and_experience",
                 "subcategory": "",
                 "address_formatted": "Point Lookout, NY, United States of America",
-                "priority": "T",
-                "img": "LB-160T"
+                "priority": "S",
+                "img": "LB-160S",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -4224,8 +4253,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "physical_therapy",
                 "address_formatted": "670 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-161Q"
+                "priority": "S",
+                "img": "LB-161S"
             },
             "geometry": {
                 "type": "Point",
@@ -4250,8 +4279,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "",
                 "address_formatted": "Long Beach, NY, United States of America",
-                "priority": "T",
-                "img": "LB-162T"
+                "priority": "D",
+                "img": "LB-162D"
             },
             "geometry": {
                 "type": "Point",
@@ -4276,8 +4305,8 @@
                 "category": "learn_and_play",
                 "subcategory": "",
                 "address_formatted": "162 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-163Q"
+                "priority": "S",
+                "img": "LB-163S"
             },
             "geometry": {
                 "type": "Point",
@@ -4328,8 +4357,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "70 Lido Boulevard, Point Lookout, NY 11569, United States of America",
-                "priority": "D",
-                "img": "LB-165D"
+                "priority": "S",
+                "img": "LB-165S"
             },
             "geometry": {
                 "type": "Point",
@@ -4354,8 +4383,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "",
                 "address_formatted": "64 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-166Q"
+                "priority": "S",
+                "img": "LB-166S"
             },
             "geometry": {
                 "type": "Point",
@@ -4380,8 +4409,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "1034 West Beech Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-167S"
+                "priority": "D",
+                "img": "LB-167D"
             },
             "geometry": {
                 "type": "Point",
@@ -4405,8 +4434,8 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "dog_walking",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "D",
-                "img": "LB-168D"
+                "priority": "S",
+                "img": "LB-168S"
             },
             "geometry": {
                 "type": "Point",
@@ -4431,8 +4460,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "89 Bayside Drive, Point Lookout, NY 11569, United States of America",
-                "priority": "Q",
-                "img": "LB-169Q"
+                "priority": "D",
+                "img": "LB-169D"
             },
             "geometry": {
                 "type": "Point",
@@ -4457,8 +4486,9 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "12 A Commercial Street, Hicksville, NY 11801, United States of America",
-                "priority": "D",
-                "img": "LB-170D"
+                "priority": "S",
+                "img": "LB-170S",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -4482,8 +4512,9 @@
                 "category": "live_and_work",
                 "subcategory": "construction",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "D",
-                "img": "LB-171D"
+                "priority": "S",
+                "img": "LB-171S",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -4507,8 +4538,9 @@
                 "category": "live_and_work",
                 "subcategory": "real_estate",
                 "address_formatted": "30 A West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-172S"
+                "priority": "P",
+                "img": "LB-172P",
+                "vehicle": "plane"
             },
             "geometry": {
                 "type": "Point",
@@ -4535,8 +4567,9 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "10 Broadway, Village of Island Park, NY 11558, United States of America",
-                "priority": "Q",
-                "img": "LB-173Q"
+                "priority": "S",
+                "img": "LB-173S",
+                "vehicle": "plane"
             },
             "geometry": {
                 "type": "Point",
@@ -4559,10 +4592,10 @@
                 "phone": "516-240-1159",
                 "web": "http://MarvelFrozenDairy.com",
                 "category": "eat_and_drink",
-                "subcategory": "ice_cream_and_desserts",
+                "subcategory": "",
                 "address_formatted": "1 National Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-174Q"
+                "priority": "D",
+                "img": "LB-174D"
             },
             "geometry": {
                 "type": "Point",
@@ -4586,8 +4619,8 @@
                 "category": "gather_and_connect",
                 "subcategory": "",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-175Q"
+                "priority": "S",
+                "img": "LB-175S"
             },
             "geometry": {
                 "type": "Point",
@@ -4603,17 +4636,16 @@
                 "id": "professionalyouththeatre",
                 "address": "75 E. Walnut St.",
                 "town": "Long Beach",
-                "business": "",
+                "business": "Children & Youth",
                 "info": "Offering elite musical theatre training to aspiring young actors from ages 4 to 18. Students work exclusively with experienced Broadway professionals.",
                 "mapname": "Professional Youth Theatre",
                 "loc": 176,
                 "phone": "516-992-0766",
                 "web": "http://ProfessionalYouthTheatre.com",
-                "category": "eat_and_drink",
-                "subcategory": "delis_and_catering",
+                "category": "learn_and_play",
+                "subcategory": "youth_services",
                 "address_formatted": "75 East Walnut Street, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-175Q"
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -4638,8 +4670,9 @@
                 "category": "learn_and_play",
                 "subcategory": "",
                 "address_formatted": "160 West Park Avenue, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-176S"
+                "priority": "D",
+                "img": "LB-176D",
+                "vehicle": "boat"
             },
             "geometry": {
                 "type": "Point",
@@ -4689,8 +4722,9 @@
                 "category": "live_and_work",
                 "subcategory": "glass_services",
                 "address_formatted": "855 East Broadway, City of Long Beach, NY 11561, United States of America",
-                "priority": "D",
-                "img": "LB-178D"
+                "priority": "T",
+                "img": "LB-178T",
+                "vehicle": "car"
             },
             "geometry": {
                 "type": "Point",
@@ -4715,8 +4749,9 @@
                 "category": "live_and_work",
                 "subcategory": "construction",
                 "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
-                "priority": "Q",
-                "img": "LB-182Q"
+                "priority": "S",
+                "img": "LB-182S",
+                "vehicle": "plane"
             },
             "geometry": {
                 "type": "Point",
@@ -4765,8 +4800,8 @@
                 "category": "eat_and_drink",
                 "subcategory": "restaurants",
                 "address_formatted": "1 Grand Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "Q",
-                "img": "LB-184Q"
+                "priority": "D",
+                "img": "LB-184D"
             },
             "geometry": {
                 "type": "Point",
@@ -4816,8 +4851,8 @@
                 "category": "visit_and_experience",
                 "subcategory": "surf_schools",
                 "address_formatted": "1 Riverside Boulevard, City of Long Beach, NY 11561, United States of America",
-                "priority": "S",
-                "img": "LB-186S"
+                "priority": "D",
+                "img": "LB-186D"
             },
             "geometry": {
                 "type": "Point",
