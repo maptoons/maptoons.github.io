@@ -142,7 +142,7 @@
             "type": "Feature",
             "properties": {
                 "id": "zoomingroomin",
-                "address": "",
+                "address": "East Atlantic Beach, NY, United States of America",
                 "town": "Long Beach",
                 "business": "Services - Pet Grooming",
                 "info": "Our Professional Mobile Pet Groomers bring the comforts and amenities to you in our High Tech Mobile Grooming vans. Supporting most of the South Shore!",
@@ -152,7 +152,7 @@
                 "web": "http://ZoominGroomin.com",
                 "category": "thrive_and_be_well",
                 "subcategory": "pet_grooming",
-                "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+                "address_formatted": "East Atlantic Beach, NY, United States of America",
                 "priority": "T",
                 "img": "LB-6T",
                 "vehicle": "car"
@@ -160,8 +160,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.712204,
+                    40.585582
                 ]
             }
         },
@@ -677,7 +677,9 @@
                 "web": "http://LongBeachNRC.com",
                 "category": "thrive_and_be_well",
                 "subcategory": "",
-                "address_formatted": "Long Beach Nursing and Rehabilitation Center, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America"
+                "address_formatted": "Long Beach Nursing and Rehabilitation Center, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America",
+                "priority": "P",
+                "img": "LB-26P"
             },
             "geometry": {
                 "type": "Point",
@@ -1426,7 +1428,7 @@
             "type": "Feature",
             "properties": {
                 "id": "steveswildlife",
-                "address": "",
+                "address": "400 Hampton Rd Oceanside, NY 11572",
                 "town": "Long Beach",
                 "business": "Pest Control",
                 "info": "Humane and effective removal of wildlife, birds, and rodents. Exclusion, repairs, and remediation services available 24/7, 365 days a year.",
@@ -1436,7 +1438,7 @@
                 "web": "http://StevesWildlife.com",
                 "category": "live_and_work",
                 "subcategory": "pest_control",
-                "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+                "address_formatted": "400 Hampton Road, Oceanside, NY 11572, United States of America",
                 "priority": "D",
                 "img": "LB-57D",
                 "vehicle": "car"
@@ -1444,8 +1446,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6524599,
+                    40.6196491
                 ]
             }
         },
@@ -1823,7 +1825,7 @@
             "type": "Feature",
             "properties": {
                 "id": "longbeachlionsclub",
-                "address": "",
+                "address": "Long Beach VFW, 675 W. Park Avenue, Long Beach",
                 "town": "Long Beach",
                 "business": "Community Organization",
                 "info": "The Lions Club is a civic organization whose members do charitable work for the community and Lions Clubs International. Serving the Long Beach community since 1926.",
@@ -1832,15 +1834,15 @@
                 "web": "http://LongBeachLionsClub.org",
                 "category": "gather_and_connect",
                 "subcategory": "",
-                "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+                "address_formatted": "675 W Park Ave, Long Beach, NY 11561, United States of America",
                 "priority": "D",
                 "img": "LB-72D"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.6862921,
+                    40.5887507
                 ]
             }
         },
@@ -1936,7 +1938,9 @@
                 "web": "http://ClinicalStaffingResources.com",
                 "category": "live_and_work",
                 "subcategory": "",
-                "address_formatted": "806 West Beech Street, City of Long Beach, NY 11561, United States of America"
+                "address_formatted": "806 West Beech Street, City of Long Beach, NY 11561, United States of America",
+                "priority": "T",
+                "img": "LB-76T"
             },
             "geometry": {
                 "type": "Point",
@@ -3378,7 +3382,9 @@
                 "instagram": "https://www.instagram.com/MonarchBeverageLBNY/",
                 "category": "eat_and_drink",
                 "subcategory": "alcohol_specialty",
-                "address_formatted": "505 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America"
+                "address_formatted": "505 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+                "priority": "S",
+                "img": "LB-130S"
             },
             "geometry": {
                 "type": "Point",
@@ -3498,7 +3504,7 @@
             "type": "Feature",
             "properties": {
                 "id": "longbeachcleanup",
-                "address": "",
+                "address": "98 Edwards Blvd, Long Beach, NY 11561, United States",
                 "town": "Long Beach",
                 "business": "Community Organization",
                 "info": "Through weekly beach cleanup events we empower individuals of all ages to take action for the environment.",
@@ -3507,15 +3513,15 @@
                 "web": "http://LBCleanup.com",
                 "category": "gather_and_connect",
                 "subcategory": "",
-                "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+                "address_formatted": "98 Edwards Boulevard, City of Long Beach, NY 11561, United States of America",
                 "priority": "S",
                 "img": "LB-134S"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.663852,
+                    40.584596
                 ]
             }
         },
@@ -3664,7 +3670,9 @@
                 "web": "http://SoftwaveLongIsland.com",
                 "category": "thrive_and_be_well",
                 "subcategory": "",
-                "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America"
+                "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+                "priority": "P",
+                "img": "LB-140P"
             },
             "geometry": {
                 "type": "Point",
@@ -3937,7 +3945,7 @@
             "type": "Feature",
             "properties": {
                 "id": "beachbaseballcampclinics",
-                "address": "",
+                "address": "322 Lagoon Drive West, Lido Beach",
                 "town": "Serving our Barrier Island, Island Park, and more!",
                 "business": "Camp",
                 "info": "Experienced coaches instruct young athletes to reach their full potential in hitting, pitching, fielding, and running. Scrimmages and games played during two one-week summer baseball and softball camps.",
@@ -3947,11 +3955,17 @@
                 "web": "http://BeachBaseballCamp.com",
                 "category": "learn_and_play",
                 "subcategory": "",
-                "address_formatted": "",
+                "address_formatted": "322 Lagoon Drive West, Lido Beach, NY 11561, United States of America",
                 "priority": "P",
                 "img": "LB-150P"
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63512043917477,
+                    40.5944932
+                ]
+            }
         },
         {
             "type": "Feature",
@@ -4045,7 +4059,9 @@
                 "web": "http://linktr.ee/BraidsByAnabel",
                 "category": "thrive_and_be_well",
                 "subcategory": "hair_salons_and_barbers",
-                "address_formatted": "23 Bellmore Avenue, Point Lookout, NY 11569, United States of America"
+                "address_formatted": "23 Bellmore Avenue, Point Lookout, NY 11569, United States of America",
+                "priority": "D",
+                "img": "LB-154D"
             },
             "geometry": {
                 "type": "Point",
@@ -4645,9 +4661,9 @@
                 "category": "learn_and_play",
                 "subcategory": "youth_services",
                 "address_formatted": "75 East Walnut Street, City of Long Beach, NY 11561, United States of America",
+                "vehicle": "boat",
                 "priority": "D",
-                "img": "LB-176D",
-                "vehicle": "boat"
+                "img": "LB-176D"
             },
             "geometry": {
                 "type": "Point",
@@ -4740,7 +4756,7 @@
             "type": "Feature",
             "properties": {
                 "id": "recastindustries",
-                "address": "",
+                "address": "127 W Hudson St, Long Beach NY 11561, USA",
                 "town": "Long Beach",
                 "business": "Construction",
                 "info": "Recast Industries delivers captivating, trouble-free renovation experiences and reliable maintenance, guided by transparent communication, rock-solid safety, and elite quality assurance. Veteran owned.",
@@ -4750,7 +4766,7 @@
                 "web": "http://RecastNY.com",
                 "category": "live_and_work",
                 "subcategory": "construction",
-                "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+                "address_formatted": "127 West Hudson Street, City of Long Beach, NY 11561, United States of America",
                 "priority": "S",
                 "img": "LB-182S",
                 "vehicle": "plane"
@@ -4758,8 +4774,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.6582631,
-                    40.5885508
+                    -73.66809525,
+                    40.5911652
                 ]
             }
         },
