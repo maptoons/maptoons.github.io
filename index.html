@@ -24,6 +24,7 @@
         <div id="location-box"></div>
         <div id="category-box"></div>
         <div id="featured"></div>
+        <div id="attribution"></div>
         <div id="info-button">
             <button id="refresh-features-btn" class="pill-button">
                 <i class="fas fa-chevron-up"></i> Show Info
@@ -98,7 +99,7 @@
             const pointsData = {
                 type: 'FeatureCollection',
                 features: (await Promise.all(
-                    geoJsonFiles.map(name => 
+                    geoJsonFiles.map(name =>
                         fetch(`data/${name}.geojson`)
                             .then(r => r.json())
                             .then(data => data.features)
@@ -537,7 +538,7 @@
                 },
                 {
                     name: 'Long Beach',
-                    centroid: [-73.6576, 40.5884]
+                    centroid: [-73.66342, 40.5883]
                 }
             ];
 
@@ -761,8 +762,40 @@
             // Store the current content of the infoBox
             const currentContent = infoBox.innerHTML;
 
+            // Create content
             const innerContainer = document.createElement('div');
             innerContainer.className = 'info-box-inner';
+
+            // Add forward/back buttons
+            const backButton = document.createElement('div');
+            backButton.id = 'info-box-back';
+            backButton.innerHTML = '<i class="fas fa-chevron-left"></i>';
+
+            const forwardButton = document.createElement('div');
+            forwardButton.id = 'info-box-forward';
+            forwardButton.innerHTML = '<i class="fas fa-chevron-right"></i>';
+
+            innerContainer.appendChild(backButton);
+            innerContainer.appendChild(forwardButton);
+
+            // Scroll amounts (adjust as needed)
+            const scrollAmount = 300;
+
+            // Back button click handler
+            backButton.addEventListener('click', () => {
+                innerContainer.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Forward button click handler
+            forwardButton.addEventListener('click', () => {
+                innerContainer.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
 
             // Process each feature
             for (const feature of features) {
@@ -1298,17 +1331,27 @@
             map.triggerRepaint();
         });
 
-        // Add attribution
         map.on('load', () => {
-            const attribControl = document.querySelector('.maplibregl-ctrl-attrib-inner');
-            if (attribControl) {
-                // Preserve existing attribs while adding yours
-                attribControl.innerHTML += ` | <a href="https://geographyclub.github.io/" target="_blank">Jamie & Steve</a>`;
+    // Remove default MapLibre attribution
+    const defaultAttribution = document.querySelector('.maplibregl-ctrl-attrib');
+    if (defaultAttribution) defaultAttribution.remove();
 
-                // Or replace completely:
-                // attribControl.innerHTML = `Your content <a href="...">Steve</a>`;
-            }
-        });
+    // Create custom attribution div if it doesn't exist
+    let customAttrib = document.getElementById('attribution');
+    if (!customAttrib) {
+        customAttrib = document.createElement('div');
+        customAttrib.id = 'attribution';
+        customAttrib.className = 'custom-attribution';
+        document.body.appendChild(customAttrib); // Append to body (or map container)
+    }
+
+    // Update content
+    customAttrib.innerHTML = `
+        <a href="https://www.maptoons.com/" target="_blank">© 2025 MapToons</a> |
+        <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a> |
+        <a href="https://geographyclub.github.io/" target="_blank">J&S</a>
+    `;
+});
 
         // Log clicks
         map.on('click', (e) => {
