@@ -21,24 +21,24 @@
         }
 
         .menu-container {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        z-index: 1000;
-        display: flex;
-        gap: 10px;
-        background: rgba(255, 255, 255, 0.8);
-        padding: 10px;
-        border-radius: 4px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    .menu-container button {
-        position: relative;
-        top: auto;
-        left: auto;
-        margin: 0;
-    }
+        .menu-container button {
+            position: relative;
+            top: auto;
+            left: auto;
+            margin: 0;
+        }
 
         #file-input {
             display: none;
@@ -61,6 +61,8 @@
             container: 'map',
             style: {
                 version: 8,
+                glyphs: "assets/fonts/{fontstack}/{range}.pbf",
+                sprite: "https://maptoons.github.io/assets/sprites/sprites",
                 sources: {
                     'osm': {
                         type: 'raster',
@@ -94,62 +96,6 @@
             hash: true
         });
 
-        // Add editing tools
-        const draw = new MapboxDraw({
-            displayControlsDefault: true
-        });
-
-        map.addControl(draw);
-
-        // History stack for undo functionality
-        const historyStack = [];
-        const MAX_HISTORY = 20; // Limit history to prevent memory issues
-
-        // Function to save current state to history
-        function saveState() {
-            const currentState = draw.getAll();
-            historyStack.push(JSON.parse(JSON.stringify(currentState)));
-            
-            // Limit history size
-            if (historyStack.length > MAX_HISTORY) {
-                historyStack.shift();
-            }
-        }
-
-        // Initialize with empty state
-        saveState();
-
-        // Listen for draw events to save history
-        map.on('draw.create', saveState);
-        map.on('draw.delete', saveState);
-        map.on('draw.update', saveState);
-
-        // Undo function
-        function undo() {
-            if (historyStack.length > 1) {
-                // Remove current state
-                historyStack.pop();
-                // Get previous state
-                const previousState = historyStack[historyStack.length - 1];
-                // Apply previous state
-                draw.set(previousState);
-                // Update the visible layer
-                if (map.getSource('uploaded-geojson')) {
-                    map.getSource('uploaded-geojson').setData(previousState);
-                }
-            } else {
-                alert("Nothing to undo!");
-            }
-        }
-
-        // Add Ctrl+Z keyboard shortcut
-        document.addEventListener('keydown', (e) => {
-            if (e.ctrlKey && e.key === 'z') {
-                e.preventDefault();
-                undo();
-            }
-        });
-
         // Function to add GeoJSON to the map as a visible layer
         function addGeoJSONLayer(geojson) {
             // Remove existing layer if it exists
@@ -164,17 +110,43 @@
                 data: geojson
             });
 
-            // Add a layer to display the GeoJSON
+            // Add the reference layer
             map.addLayer({
                 id: 'uploaded-layer',
                 type: 'circle',
                 source: 'uploaded-geojson',
                 paint: {
-                    'circle-radius': 8,
-                    'circle-color': 'hsl(0, 0%, 0%)',
-                    'circle-opacity': 1,
+                    'circle-radius': 7,
+                    'circle-color': 'hsl(0, 0%, 90%)',
+                    'circle-opacity': 0,
                     'circle-stroke-width': 2,
-                    'circle-stroke-color': 'hsl(0, 0%, 100%)'
+                    'circle-stroke-color': [
+                        'match',
+                        ['get', 'vehicle'],  // Check the 'vehicle' property
+                        'car', 'hsl(0, 80%, 50%)',     // Red for cars
+                        'plane', 'hsl(210, 80%, 50%)',  // Blue for planes
+                        'boat', 'hsl(180, 80%, 50%)',   // Teal for boats
+                        'hsl(0, 0%, 100%)'              // Default white
+                    ]
+                }
+            });
+
+            // Add text labels for "mapname" property
+            map.addLayer({
+                id: 'mapname-labels',
+                type: 'symbol',
+                source: 'uploaded-geojson',
+                layout: {
+                    'text-field': ['get', 'mapname'],
+                    "text-font": ["poppins-regular"],
+                    'text-size': 8,
+                    'text-offset': [0, 0.8],
+                    'text-anchor': 'top',
+                    'text-allow-overlap': false,
+                    'text-ignore-placement': false
+                },
+                paint: {
+                    'text-color': 'hsl(0, 0%, 50%)'
                 }
             });
 
@@ -189,7 +161,7 @@
                     feature.geometry.coordinates.flat(2).forEach(coord => bounds.extend(coord));
                 }
             });
-            
+
             if (bounds.isEmpty()) {
                 console.log("No valid bounds could be calculated from the GeoJSON");
             } else {
@@ -197,44 +169,168 @@
             }
         }
 
-        // Handle file upload
-        document.getElementById('file-input').addEventListener('change', function (e) {
-            const file = e.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function (e) {
-                    try {
-                        const geojson = JSON.parse(e.target.result);
-                        // Clear history and start fresh
-                        historyStack.length = 0;
-                        // Add to both the draw control and as a visible layer
-                        draw.set(geojson);
-                        addGeoJSONLayer(geojson);
-                        // Save initial state
-                        saveState();
-                    } catch (error) {
-                        alert("Error parsing GeoJSON file: " + error.message);
+        map.on('load', function () {
+            // Initialize Draw control with vehicle-specific styling
+            const draw = new MapboxDraw({
+                displayControlsDefault: false,
+                styles: [
+                    {
+                        id: 'gl-draw-point',
+                        type: 'circle',
+                        filter: ['all', ['==', '$type', 'Point'], ['!=', 'meta', 'midpoint']],
+                        paint: {
+                            'circle-radius': 7,
+                            'circle-color': 'hsl(30, 100%, 50%)',
+                            'circle-stroke-color': [
+                                'match',
+                                ['get', 'vehicle'],
+                                'car', 'hsl(0, 80%, 50%)',
+                                'plane', 'hsl(210, 80%, 50%)',
+                                'boat', 'hsl(180, 80%, 50%)',
+                                'hsl(0, 0%, 100%)'
+                            ],
+                            'circle-stroke-width': 1,
+                            'circle-opacity': 0.9
+                        }
+                    },
+                    {
+                        id: 'gl-draw-point-active',
+                        type: 'circle',
+                        filter: ['all', ['==', '$type', 'Point'], ['==', 'active', 'true']],
+                        paint: {
+                            'circle-radius': 7,
+                            'circle-color': 'hsl(60, 100%, 50%)',
+                        }
                     }
-                };
-                reader.readAsText(file);
+                ]
+            });
+            map.addControl(draw);
+
+            // Label management
+            function updateLabelLayer() {
+                if (!map.getSource('dynamic-labels')) {
+                    map.addSource('dynamic-labels', {
+                        type: 'geojson',
+                        data: { type: 'FeatureCollection', features: [] }
+                    });
+
+                    map.addLayer({
+                        id: 'dynamic-point-labels',
+                        type: 'symbol',
+                        source: 'dynamic-labels',
+                        layout: {
+                            'text-field': ['get', 'mapname'],
+                            "text-font": ["poppins-regular"],
+                            'text-size': 8,
+                            'text-offset': [0, 0.8],
+                            'text-anchor': 'top',
+                            'text-allow-overlap': false,
+                            'text-ignore-placement': false
+                        },
+                        paint: {
+                            'text-color': 'hsl(30, 100%, 50%)'
+                        }
+                    });
+                }
+
+                const features = draw.getAll();
+                map.getSource('dynamic-labels').setData(features);
+            }
+
+            // Set up event listeners for drawing operations
+            map.on('draw.create', updateLabelLayer);
+            map.on('draw.update', updateLabelLayer);
+            map.on('draw.delete', updateLabelLayer);
+
+            // Undo functionality
+            const historyStack = [];
+            const MAX_HISTORY = 20;
+
+            function saveState() {
+                const currentState = draw.getAll();
+                historyStack.push(JSON.parse(JSON.stringify(currentState)));
+
+                if (historyStack.length > MAX_HISTORY) {
+                    historyStack.shift();
+                }
+            }
+
+            saveState(); // Initialize with empty state
+
+            map.on('draw.create', saveState);
+            map.on('draw.delete', saveState);
+            map.on('draw.update', saveState);
+
+            function undo() {
+                if (historyStack.length > 1) {
+                    historyStack.pop();
+                    const previousState = historyStack[historyStack.length - 1];
+                    draw.set(previousState);
+                    if (map.getSource('uploaded-geojson')) {
+                        map.getSource('uploaded-geojson').setData(previousState);
+                    }
+                    if (map.getSource('dynamic-labels')) {
+                        map.getSource('dynamic-labels').setData(previousState);
+                    }
+                } else {
+                    alert("Nothing to undo!");
+                }
+            }
+
+            document.addEventListener('keydown', (e) => {
+                if (e.ctrlKey && e.key === 'z') {
+                    e.preventDefault();
+                    undo();
+                }
+            });
+
+            // Your existing file upload handler can remain outside if needed,
+            // or you can move it inside and attach it conditionally
+            document.getElementById('file-input').addEventListener('change', function (e) {
+                // ... existing file handling code ...
+            });
+
+            // Handle file upload
+            document.getElementById('file-input').addEventListener('change', function (e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        try {
+                            const geojson = JSON.parse(e.target.result);
+                            // Clear history and start fresh
+                            historyStack.length = 0;
+                            // Add to both the draw control and as a visible layer
+                            draw.set(geojson);
+                            addGeoJSONLayer(geojson);
+                            // Save initial state
+                            saveState();
+                        } catch (error) {
+                            alert("Error parsing GeoJSON file: " + error.message);
+                        }
+                    };
+                    reader.readAsText(file);
+                }
+            });
+
+            // Download the final state of GeoJSON (after dragging)
+            function downloadGeoJSON() {
+                const geojson = draw.getAll();
+                if (!geojson || geojson.features.length === 0) {
+                    alert("No points to save!");
+                    return;
+                }
+                const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: "application/json" });
+                const a = document.createElement("a");
+                a.href = URL.createObjectURL(blob);
+                a.download = "hicksville-corrected.geojson";
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
             }
         });
 
-        // Download the final state of GeoJSON (after dragging)
-        function downloadGeoJSON() {
-            const geojson = draw.getAll();
-            if (!geojson || geojson.features.length === 0) {
-                alert("No points to save!");
-                return;
-            }
-            const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: "application/json" });
-            const a = document.createElement("a");
-            a.href = URL.createObjectURL(blob);
-            a.download = "hicksville-corrected.geojson";
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-        }
     </script>
 </body>
+
 </html>
