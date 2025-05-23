@@ -1,76 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Draggable Points from GeoJSON</title>
+    <title>Draggable Points with Undo</title>
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.5.0/mapbox-gl-draw.min.js"></script>
     <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.5.0/mapbox-gl-draw.css" rel="stylesheet" />
     <style>
-        body { margin: 0; padding: 0; }
-        #map { width: 100vw; height: 100vh; }
-        button { position: absolute; top: 10px; left: 10px; z-index: 1000; padding: 10px; background: white; border: 1px solid #ccc; cursor: pointer; }
-        #file-input { display: none; }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .menu-container {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+        display: flex;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-container button {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 0;
+    }
+
+        #file-input {
+            display: none;
+        }
     </style>
 </head>
+
 <body>
     <div id="map"></div>
-    <button onclick="document.getElementById('file-input').click()">Upload GeoJSON</button>
-    <button onclick="downloadGeoJSON()" style="left: 150px;">Download GeoJSON</button>
-    <input type="file" id="file-input" accept=".geojson,.json" />
+
+    <div class="menu-container">
+        <button onclick="document.getElementById('file-input').click()">Upload GeoJSON</button>
+        <button onclick="downloadGeoJSON()">Download GeoJSON</button>
+        <button onclick="undo()">Undo (Ctrl+Z)</button>
+        <input type="file" id="file-input" accept=".geojson,.json" />
+    </div>
 
     <script>
         const map = new maplibregl.Map({
-            container: "map",
-            style: "https://maptoons.github.io/maptoons.json",
-            center: [-73.5251, 40.7684],
-            zoom: 12,
+            container: 'map',
+            style: {
+                version: 8,
+                sources: {
+                    'osm': {
+                        type: 'raster',
+                        tiles: ['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'],
+                        tileSize: 256,
+                        attribution: '&copy; OpenStreetMap Contributors',
+                        maxzoom: 19
+                    }
+                },
+                layers: [
+                    {
+                        id: 'osm',
+                        type: 'raster',
+                        source: 'osm',
+                        paint: {
+                            'raster-hue-rotate': 0,
+                            'raster-contrast': 0,
+                            'raster-saturation': -1,
+                            'raster-brightness-min': 0.5,
+                            'raster-brightness-max': 1,
+                            'raster-opacity': 1
+                        }
+                    }
+                ]
+            },
+            center: [-79.385015, 43.64507],
+            zoom: 17,
+            bearing: 0,
+            pitch: 0,
             pixelRatio: 1,
             hash: true
         });
 
-        map.on('load', () => {
-            map.addSource('location', {
-                'type': 'geojson',
-                'data': 'https://maptoons.github.io/data/hicksville.geojson',
-                'cluster': false
-            });
-
-            map.addLayer({
-                id: 'location',
-                type: 'circle', // Use a simple layer type
-                source: 'location',
-                paint: {
-                    'circle-radius': 3, // Make the layer invisible
-                    'circle-opacity': 1 // Make the layer invisible
-                }
-            });
-        });
-
+        // Add editing tools
         const draw = new MapboxDraw({
             displayControlsDefault: true
         });
 
         map.addControl(draw);
 
-        // Load GeoJSON and add to the map
-        async function loadGeoJSON(url) {
-            const response = await fetch(url);
-            const geojson = await response.json();
-            draw.set(geojson);  // Add the GeoJSON features to the draw control
+        // History stack for undo functionality
+        const historyStack = [];
+        const MAX_HISTORY = 20; // Limit history to prevent memory issues
+
+        // Function to save current state to history
+        function saveState() {
+            const currentState = draw.getAll();
+            historyStack.push(JSON.parse(JSON.stringify(currentState)));
+            
+            // Limit history size
+            if (historyStack.length > MAX_HISTORY) {
+                historyStack.shift();
+            }
+        }
+
+        // Initialize with empty state
+        saveState();
+
+        // Listen for draw events to save history
+        map.on('draw.create', saveState);
+        map.on('draw.delete', saveState);
+        map.on('draw.update', saveState);
+
+        // Undo function
+        function undo() {
+            if (historyStack.length > 1) {
+                // Remove current state
+                historyStack.pop();
+                // Get previous state
+                const previousState = historyStack[historyStack.length - 1];
+                // Apply previous state
+                draw.set(previousState);
+                // Update the visible layer
+                if (map.getSource('uploaded-geojson')) {
+                    map.getSource('uploaded-geojson').setData(previousState);
+                }
+            } else {
+                alert("Nothing to undo!");
+            }
+        }
+
+        // Add Ctrl+Z keyboard shortcut
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.key === 'z') {
+                e.preventDefault();
+                undo();
+            }
+        });
+
+        // Function to add GeoJSON to the map as a visible layer
+        function addGeoJSONLayer(geojson) {
+            // Remove existing layer if it exists
+            if (map.getSource('uploaded-geojson')) {
+                map.removeLayer('uploaded-layer');
+                map.removeSource('uploaded-geojson');
+            }
+
+            // Add the GeoJSON source
+            map.addSource('uploaded-geojson', {
+                type: 'geojson',
+                data: geojson
+            });
+
+            // Add a layer to display the GeoJSON
+            map.addLayer({
+                id: 'uploaded-layer',
+                type: 'circle',
+                source: 'uploaded-geojson',
+                paint: {
+                    'circle-radius': 8,
+                    'circle-color': 'hsl(0, 0%, 0%)',
+                    'circle-opacity': 1,
+                    'circle-stroke-width': 2,
+                    'circle-stroke-color': 'hsl(0, 0%, 100%)'
+                }
+            });
+
+            // Fit the map to the bounds of the GeoJSON
+            const bounds = new maplibregl.LngLatBounds();
+            geojson.features.forEach(feature => {
+                if (feature.geometry.type === 'Point') {
+                    bounds.extend(feature.geometry.coordinates);
+                } else if (feature.geometry.type === 'LineString' || feature.geometry.type === 'MultiLineString') {
+                    feature.geometry.coordinates.flat().forEach(coord => bounds.extend(coord));
+                } else if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'MultiPolygon') {
+                    feature.geometry.coordinates.flat(2).forEach(coord => bounds.extend(coord));
+                }
+            });
+            
+            if (bounds.isEmpty()) {
+                console.log("No valid bounds could be calculated from the GeoJSON");
+            } else {
+                map.fitBounds(bounds, { padding: 50 });
+            }
         }
 
         // Handle file upload
-        document.getElementById('file-input').addEventListener('change', function(e) {
+        document.getElementById('file-input').addEventListener('change', function (e) {
             const file = e.target.files[0];
             if (file) {
                 const reader = new FileReader();
-                reader.onload = function(e) {
+                reader.onload = function (e) {
                     try {
                         const geojson = JSON.parse(e.target.result);
+                        // Clear history and start fresh
+                        historyStack.length = 0;
+                        // Add to both the draw control and as a visible layer
                         draw.set(geojson);
+                        addGeoJSONLayer(geojson);
+                        // Save initial state
+                        saveState();
                     } catch (error) {
                         alert("Error parsing GeoJSON file: " + error.message);
                     }
