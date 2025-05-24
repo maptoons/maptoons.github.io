@@ -300,7 +300,9 @@
             // Handle clicks on marker layer
             document.addEventListener('click', (e) => {
                 // Check if clicking a marker image container
-                const clickedElement = e.target.closest('.custom-marker-img-container');
+                const clickedElement = e.target.closest(
+                    '.custom-marker-img-container, .custom-vehicle-img-container'
+                );
                 const parentMarker = clickedElement?.closest('.custom-marker');
 
                 // Check if clicking the info box or its children
@@ -542,7 +544,7 @@
                 },
                 {
                     name: 'Long Beach',
-                    centroid: [-73.66342, 40.5883]
+                    centroid: [-73.66338, 40.58704]
                 }
             ];
 
@@ -760,8 +762,8 @@
                     // Create marker
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
-                        anchor: 'bottom',
-                        offset: [0, -7]
+                        anchor: props.vehicle ? 'center' : 'bottom',
+                        offset: props.vehicle ? [0, 0] : [0, -7]
                     }).setLngLat(coords);
                 }
                 newMarkers[id] = marker;
