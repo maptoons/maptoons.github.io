@@ -422,7 +422,7 @@ body {
     gap: 5px;
     width: 50px;
     height: 50px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(51, 100%, 95%);
     box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
     border-radius: 10px;
     border: 3px solid hsl(51, 100%, 50%);
@@ -552,11 +552,8 @@ body {
     width: 100%;
     margin-top: 2px;
     color: hsl(0, 0%, 20%);
-    text-shadow:
-        -1px -1px 0 hsl(0 0% 100%),
-        1px -1px 0 hsl(0 0% 100%),
-        -1px 1px 0 hsl(0 0% 100%),
-        1px 1px 0 hsl(0 0% 100%);
+    -webkit-text-stroke: 1px hsl(0, 0%, 100%);
+    text-stroke: 1px hsl(0, 0%, 100%);
 }
 
 .custom-vehicle-img-container {

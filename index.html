@@ -240,7 +240,12 @@
                     'text-font': ['poppins-medium'],
                     'text-size': 11,
                     'text-line-height': 0.9,
-                    'text-offset': [0, 0.8], // Adjust vertical position
+                    'text-offset': [
+                        'case',
+                        ['has', 'vehicle'],
+                        ['literal', [0, 2.2]],
+                        ['literal', [0, 0.8]]
+                    ],
                     'text-anchor': 'top'
                 },
                 paint: {
