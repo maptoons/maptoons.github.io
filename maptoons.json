@@ -78,10 +78,30 @@
 		},
 		{
 			"source": "osm",
+			"id": "label-neighbourhood",
+			"type": "symbol",
+			"source-layer": "place_labels",
+			"filter": [ "in", "kind", "neighbourhood", "quarter", "suburb" ],
+			"layout": {
+				"text-field": "{name}",
+				"text-font": [ "poppins-medium" ],
+				"text-letter-spacing": 0.1,
+				"text-size": 10
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 30%)",
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 1, 12, 0 ],
+				"text-halo-color": "hsla(0, 0%, 100%, 0.5)",
+				"text-halo-width": 0
+			},
+			"maxzoom": 12
+		},
+		{
+			"source": "osm",
 			"id": "label-city",
 			"type": "symbol",
 			"source-layer": "place_labels",
-			"filter": [ "in", "kind", "city", "town", "village", "capital", "state_capital" ],
+			"filter": [ "in", "kind", "city", "town", "village", "hamlet", "capital", "state_capital" ],
 			"layout": {
 				"text-field": "{name}",
 				"text-font": [ "poppins-medium" ],
