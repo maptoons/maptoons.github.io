@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "PUWyZxa2ROu3xxP4bw2riaEc4XOxlIaa",
+      "id": "pEX0INJ6kmmlHv7NcLcfeeBFEM8JacjJ",
       "type": "Feature",
       "properties": {
         "id": "allstate-edward",
@@ -22,14 +22,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53895812662003,
-          40.772843808722314
+          -73.51517154018629,
+          40.77057418085187
         ],
         "type": "Point"
       }
     },
     {
-      "id": "SrzfbmOp2yb6g0tALExQ1ceuUQlKU5Te",
+      "id": "vmGbaqZOoUeI65ktcEojFfE8kXWUTDVs",
       "type": "Feature",
       "properties": {
         "id": "simpli-smiles",
@@ -55,7 +55,7 @@
       }
     },
     {
-      "id": "6x81tTVrWxcbQDedLsR8z2N4pWu3TxRF",
+      "id": "UkZQ5KoPPBx8IjtSlcWC2YwuRCLLwcyh",
       "type": "Feature",
       "properties": {
         "id": "trj-balloon-teamrajjaggi",
@@ -77,14 +77,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53145095808878,
-          40.76900548388794
+          -73.52890348396306,
+          40.76910195000001
         ],
         "type": "Point"
       }
     },
     {
-      "id": "QVafopn8VMRYXLFV46gaDvl6lQeO8zXt",
+      "id": "u7MwVKvFI7bkS11nZVIHnWMwU5RU8292",
       "type": "Feature",
       "properties": {
         "id": "empire-tax-reductions",
@@ -105,14 +105,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5123421095588,
-          40.77453801691381
+          -73.53560079295497,
+          40.770802682885105
         ],
         "type": "Point"
       }
     },
     {
-      "id": "53yHAMxtdWoQMjPZuapkH637NfpDvFY1",
+      "id": "bNRM2M775IhLkcKhOQ6uNkDdvkVD4LMz",
       "type": "Feature",
       "properties": {
         "id": "shahnaz-husain-salon",
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "OGbliWV9A6gpFJag11hIooWS4bckXIOr",
+      "id": "ruNPLJffni5BzpsNKgHNmVv4mzNHOslH",
       "type": "Feature",
       "properties": {
         "id": "harmonaireheatpumps",
@@ -164,7 +164,7 @@
       }
     },
     {
-      "id": "Uv5sPJYBoF7VCgZZ83mrenpArgkRAkiT",
+      "id": "0CzLpGRM20sO33ZGIJKIpZrhnf4MFQQf",
       "type": "Feature",
       "properties": {
         "id": "newyorkembroidery",
@@ -190,7 +190,7 @@
       }
     },
     {
-      "id": "Eb2yF9Q6yTM5uVt8bJrNRi4YcBSmThNb",
+      "id": "oiA0cMtulBQ2hITc25XPDPbmVGFl7mIz",
       "type": "Feature",
       "properties": {
         "id": "gggconstructioncorp",
@@ -208,14 +208,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51792271447435,
-          40.77557042136213
+          -73.5181453417438,
+          40.775945899999996
         ],
         "type": "Point"
       }
     },
     {
-      "id": "Y0viftjSXv3NsOz6AipjaiTqNSeKgBP3",
+      "id": "2qazI293r0Z8qjmA33z81XkTACftV0AO",
       "type": "Feature",
       "properties": {
         "id": "pasta-eria",
@@ -241,7 +241,7 @@
       }
     },
     {
-      "id": "nVcOphie6lnVaVHbSZKgjenWBv4P6gD7",
+      "id": "WnAfuqNyLtRu4Ivmyxdat7FyLcdyBzQF",
       "type": "Feature",
       "properties": {
         "id": "inthezone",
@@ -267,7 +267,7 @@
       }
     },
     {
-      "id": "Lua66wzYJMM9uJxAHmFAb1oJQZ9pmmfk",
+      "id": "oatuQHd3Hd5ihccTNY9s6vcfcQ3Vzy6h",
       "type": "Feature",
       "properties": {
         "id": "family-dental",
@@ -286,14 +286,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53082447058824,
-          40.77891567647059
+          -73.53107932544492,
+          40.778801815153074
         ],
         "type": "Point"
       }
     },
     {
-      "id": "rMquldZVX2SuRTxAj83OUBPVs1WjhL90",
+      "id": "65otcYVM5WmN2wkvQ8BORZPjd3ekBKt1",
       "type": "Feature",
       "properties": {
         "id": "davidjrothfeldcpa",
@@ -319,7 +319,7 @@
       }
     },
     {
-      "id": "1fZwg7BAw1W0Af93LdHHHpBYAmrHJnBr",
+      "id": "E6gm5NvohXW17r7H2VX9w99wbUEmoOgh",
       "type": "Feature",
       "properties": {
         "id": "sudzeepups-petgrooming",
@@ -345,7 +345,7 @@
       }
     },
     {
-      "id": "bfOJsuJjkdULmxuYKN89alB8fztxaIP1",
+      "id": "cezpU3GjkFOmi4TOL7nnmNZ0E3wAjlx5",
       "type": "Feature",
       "properties": {
         "id": "wagner-construction",
@@ -371,7 +371,7 @@
       }
     },
     {
-      "id": "T9GEHeShAmEHUJvKp0LatoacfLF2zP20",
+      "id": "SHbdCVvfvowsavAIgwhcOn8jHB18bXvG",
       "type": "Feature",
       "properties": {
         "id": "7eleven",
@@ -396,7 +396,7 @@
       }
     },
     {
-      "id": "RT457LZenrckSCkWeSK3U3iIMuD5pzuY",
+      "id": "romnuzItgejcOPSIjHmtQTeFSAAY9URj",
       "type": "Feature",
       "properties": {
         "id": "thefoundary",
@@ -414,14 +414,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51838997152682,
-          40.771974170309974
+          -73.51797472782182,
+          40.77208574867551
         ],
         "type": "Point"
       }
     },
     {
-      "id": "g5G19DqVDPAKJTL70aHg4O4IffM0ljtR",
+      "id": "mmwdqulI3RaZ4C3jam3wcrFktWnX9nYt",
       "type": "Feature",
       "properties": {
         "id": "charlesrutenberg-realtyinc",
@@ -441,14 +441,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51149085902118,
-          40.762997508131704
+          -73.51000616663597,
+          40.76281452282397
         ],
         "type": "Point"
       }
     },
     {
-      "id": "DtikA4elyLkXUsXMDfy3IlUoCy0gygLD",
+      "id": "9RiiPiyIpIIGK45eU9EhMhoBdVo5gonO",
       "type": "Feature",
       "properties": {
         "id": "jkta-teamprojung",
@@ -474,7 +474,7 @@
       }
     },
     {
-      "id": "Ng5o8oWT4RmcvlM5jtfYHEP8PxytHuGB",
+      "id": "rDPjZ603vGzRWUgs2pqHRQZidE0rmAHG",
       "type": "Feature",
       "properties": {
         "id": "buffalowildwings",
@@ -493,14 +493,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.530009,
-          40.772713
+          -73.52954963750531,
+          40.772910136080974
         ],
         "type": "Point"
       }
     },
     {
-      "id": "9SzfVIQ1lyOSqrj8xKwOvK9vJtug5tCe",
+      "id": "iHIrWlwM5x9p4d1Vs5qVufieMkouU1y4",
       "type": "Feature",
       "properties": {
         "id": "realestatemontanainsurance",
@@ -526,7 +526,7 @@
       }
     },
     {
-      "id": "S9xogXSUDxpl8TYqRRukb1Vp9s7Y1ntz",
+      "id": "IebGWoPAxM4ZRFmxA1w9U4ijeCwCZKxJ",
       "type": "Feature",
       "properties": {
         "id": "johnepotentensons-inc",
@@ -544,14 +544,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51884613478734,
-          40.77157006834006
+          -73.51913248763391,
+          40.77133384797694
         ],
         "type": "Point"
       }
     },
     {
-      "id": "cltsUMCFrbfeGMZSNA2N4vUzQASDHjOW",
+      "id": "kjCnJQAXAqInWLG9i0IYLlLxJl1Ko9eI",
       "type": "Feature",
       "properties": {
         "id": "bestqualityelectric",
@@ -571,14 +571,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53487953081526,
-          40.767370381836045
+          -73.53456788774488,
+          40.767416584708585
         ],
         "type": "Point"
       }
     },
     {
-      "id": "hIy4raSomNi0QM5ob2eNeq8tOdTjJOUu",
+      "id": "bIJkdJNpjlDeyMs6aRbnkOlY1lPf5t2f",
       "type": "Feature",
       "properties": {
         "id": "hicksvillebeernsoda",
@@ -604,7 +604,7 @@
       }
     },
     {
-      "id": "VWEcKJogPq5Nc5NNQiTjSLe6mWcCLIts",
+      "id": "fqJxgTp9McadNvvOHG71Ho3GD0cUN2gx",
       "type": "Feature",
       "properties": {
         "id": "uniqueimpressions",
@@ -624,14 +624,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52136230628936,
-          40.76005709662876
+          -73.51272914880947,
+          40.750490153801955
         ],
         "type": "Point"
       }
     },
     {
-      "id": "7tzT2yTF1552M3eHN5aW4e4sO3PCfIPF",
+      "id": "F9BVMbE7yTLzlvASP6zBxaWu1NDoGaHL",
       "type": "Feature",
       "properties": {
         "id": "firststudent",
@@ -651,14 +651,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.54389745,
-          40.765683100000004
+          -73.5440070178553,
+          40.76598617566255
         ],
         "type": "Point"
       }
     },
     {
-      "id": "vqLFeCQ9bt3BkWgWXJnv7RCmIkFmwcQ4",
+      "id": "SY3gvjxVlzz2fNHKC31BZLEv2bOltJV1",
       "type": "Feature",
       "properties": {
         "id": "batteriesplus",
@@ -684,7 +684,7 @@
       }
     },
     {
-      "id": "vuzSOly8ekz9B0o65iHXlceiOU3XmP6P",
+      "id": "mn0fr40LV7T1EAPeZzcAcl9yPsbORS9f",
       "type": "Feature",
       "properties": {
         "id": "mollymaid",
@@ -710,7 +710,7 @@
       }
     },
     {
-      "id": "a4Im5iQkI9Id3bC6hE0c8z2QAMhzPPaI",
+      "id": "gIiQOURHVMdSPp64kzq6lMlh4kyfMh9b",
       "type": "Feature",
       "properties": {
         "id": "jvcautocollisionnrepairs",
@@ -736,7 +736,7 @@
       }
     },
     {
-      "id": "hzDtj4g6iJkv8Y7OT6mOQ7oLOGavmytM",
+      "id": "eVX5q1iyhE3jKoerpSLQzFSeHxo2CY8I",
       "type": "Feature",
       "properties": {
         "id": "thebarthlomew-co",
@@ -762,7 +762,7 @@
       }
     },
     {
-      "id": "hhX9uYpaPYCPGjBZx7y2mmMNI44RiSfR",
+      "id": "APqyuIm57nvyWmjNwzmQMPOlXJacyoFU",
       "type": "Feature",
       "properties": {
         "id": "tamperproof",
@@ -788,7 +788,7 @@
       }
     },
     {
-      "id": "AQXv8OUes0LvdNukxvEGBWKoBBhqndBE",
+      "id": "7W0ucPPXQ7k6e9IsfycLSfd9slGP4378",
       "type": "Feature",
       "properties": {
         "id": "jmtravelnmultiservicesincometax",
@@ -807,14 +807,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52351267527641,
-          40.767550538847885
+          -73.52356727327245,
+          40.76765950307883
         ],
         "type": "Point"
       }
     },
     {
-      "id": "oCc7hRCAVFyQ6p0Q4BsKaW9iBAyzOCTn",
+      "id": "rzYenp5mw9HFXnxb2W9IPdZgT5cnX4Mw",
       "type": "Feature",
       "properties": {
         "id": "hicksvillegregorymuseum",
@@ -840,7 +840,7 @@
       }
     },
     {
-      "id": "SPNDULoo16IUPhOsWXf6XQLhfPbJPmyM",
+      "id": "NftqKaWbMPSvt4L9ptNCEtyxBrMR1InN",
       "type": "Feature",
       "properties": {
         "id": "thesouthasiantimes",
@@ -859,14 +859,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52271114271565,
-          40.767249937604184
+          -73.52299176091157,
+          40.76714387416839
         ],
         "type": "Point"
       }
     },
     {
-      "id": "SjWAaaLfVyktcidsPIOCrGYuTZ0R4TtJ",
+      "id": "V0akL8ypwRMpcAXqj8iESDEdgX3FKEtb",
       "type": "Feature",
       "properties": {
         "id": "advantagehyundai",
@@ -892,7 +892,7 @@
       }
     },
     {
-      "id": "s7fo3FQZfdP8gwQua8PkepKno6gGTdiC",
+      "id": "CLVw2CoDfQGUHK90xuEgnN11rr3FJLcg",
       "type": "Feature",
       "properties": {
         "id": "trinitylutheranchurchnschool",
@@ -919,7 +919,7 @@
       }
     },
     {
-      "id": "hU5ilghWqT6EZ7mFRUndFvA0PLJo2532",
+      "id": "eNHaIwhYYOSEz8JHUeWsVZLTLFz2cxSF",
       "type": "Feature",
       "properties": {
         "id": "lkkassociateslkkcpapc",
@@ -938,14 +938,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5227656288909,
-          40.765848442821635
+          -73.52300035154575,
+          40.76570851641898
         ],
         "type": "Point"
       }
     },
     {
-      "id": "jW03dN7WkYSDZtVGM6smBoOwKhbNpDy4",
+      "id": "ifyci8TH9jfACJQAWeWqXKEMoL8xYFOU",
       "type": "Feature",
       "properties": {
         "id": "lawofficesscottrschneider",
@@ -973,7 +973,7 @@
       }
     },
     {
-      "id": "s0HhaCbrqnhy7xDD3YdvxPhLRqurvDnU",
+      "id": "jVj8YkqmJqiB48xAS1Tsbvo43aeodSOI",
       "type": "Feature",
       "properties": {
         "id": "ecoshieldpetsol",
@@ -995,14 +995,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.50966056360149,
-          40.755937306007176
+          -73.5023056,
+          40.7578014
         ],
         "type": "Point"
       }
     },
     {
-      "id": "fo3HMlUZBHQtKlyPw9B19GVbea9bdq6u",
+      "id": "HgakCaXg11R4RUPkcdAhsuTqIz255gqs",
       "type": "Feature",
       "properties": {
         "id": "genesisofthenorthshore",
@@ -1028,7 +1028,7 @@
       }
     },
     {
-      "id": "OQg4SZGPlYxFxv1Nov8TCNkr1qxHv0Xz",
+      "id": "sYtO7xTfyMLoALKGlUBCkqriFAhvUoTK",
       "type": "Feature",
       "properties": {
         "id": "menonthemove-movingandselfstorage",
@@ -1056,7 +1056,7 @@
       }
     },
     {
-      "id": "I8maB7mIwDPnJj5ZS15k798gOeUvhmyD",
+      "id": "UJMUlANaySlFEMid0YQ8SEueGSUZUCFC",
       "type": "Feature",
       "properties": {
         "id": "servpro-firenwaterr",
@@ -1076,14 +1076,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51790498267508,
-          40.764639260040646
+          -73.51752922763093,
+          40.7647358612384
         ],
         "type": "Point"
       }
     },
     {
-      "id": "G3W8NNvbFT3xPFtjolVii5aC4L7b1LTO",
+      "id": "LWlzRKRfYhHDeMRFYKtlrcMFyGru520N",
       "type": "Feature",
       "properties": {
         "id": "sarashiva",
@@ -1102,14 +1102,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52209646216376,
-          40.7657071573412
+          -73.52215851578137,
+          40.76577345027543
         ],
         "type": "Point"
       }
     },
     {
-      "id": "UegzoybQiKKhwjtbh7j05sZBGBpC81ux",
+      "id": "QbGvC6JEuyarFUzfOwZ6Z4tu8Qwy35cH",
       "type": "Feature",
       "properties": {
         "id": "nassaugoldbuyers",
@@ -1128,14 +1128,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52217950335401,
-          40.7652540769759
+          -73.5222894554445,
+          40.76518482807074
         ],
         "type": "Point"
       }
     },
     {
-      "id": "lbeJhlMkT5BQQ9QXR6sqf0psaVzc95FD",
+      "id": "Y9sSthM4N9gzNF8IYT6CdRWaqoSy1YD8",
       "type": "Feature",
       "properties": {
         "id": "omnimmortgage",
@@ -1161,7 +1161,7 @@
       }
     },
     {
-      "id": "pD5gUpW6HpuIKYnVrmoXj44xc6XeZZ3t",
+      "id": "IlsYdPT3ZDxCyJbnaVoZRhTlXNbHgjko",
       "type": "Feature",
       "properties": {
         "id": "thejunkluggers",
@@ -1181,14 +1181,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51410177569645,
-          40.75967963693715
+          -73.5085984,
+          40.7599608
         ],
         "type": "Point"
       }
     },
     {
-      "id": "RXJoJWEIGGwfOTPL3G0nRZAb59rUlZ30",
+      "id": "OVl9NbeOw0DOw1g3Lav4Q16k6FTkRkbK",
       "type": "Feature",
       "properties": {
         "id": "holytrinityepiscopalchurch",
@@ -1207,14 +1207,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52370995518623,
-          40.76374181752183
+          -73.52385090352135,
+          40.763697738464714
         ],
         "type": "Point"
       }
     },
     {
-      "id": "qqiVjs62JwKWsJiNd4YkG6kZfrd8N8CR",
+      "id": "Nq5SQD6EHqPfrrTjrTLrBgtCpq2FON3n",
       "type": "Feature",
       "properties": {
         "id": "platinumchiropractic",
@@ -1233,14 +1233,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52341638419638,
-          40.763288171716994
+          -73.52335315794733,
+          40.76322718192435
         ],
         "type": "Point"
       }
     },
     {
-      "id": "PhtLTKZgiHLxrWSWDW7xI6Wzcx07N7Pb",
+      "id": "Gdd1B1qUDakFKtQwokkZKQmBmhTU1TJy",
       "type": "Feature",
       "properties": {
         "id": "brillianspiritsandwine",
@@ -1258,14 +1258,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51673884519168,
-          40.76450905814643
+          -73.5164264,
+          40.764325
         ],
         "type": "Point"
       }
     },
     {
-      "id": "S2SXPQRd8VpAYSAawxAxnus30e9AUSfe",
+      "id": "ehEiY3BJK4nF3GAysfbm9wwn3RxBLWQh",
       "type": "Feature",
       "properties": {
         "id": "kiranpalace-indiancuisine",
@@ -1286,14 +1286,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5163442575407,
-          40.7642505911308
+          -73.51569475479037,
+          40.76384952451804
         ],
         "type": "Point"
       }
     },
     {
-      "id": "pnErhHZT9bZkkCYqKIdB1oLpwdilgRma",
+      "id": "BYpmwRvvuv5PIL84wOkccvxqaGvx2m01",
       "type": "Feature",
       "properties": {
         "id": "centershops",
@@ -1311,14 +1311,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52824571039793,
-          40.762578251735626
+          -73.52814178509071,
+          40.76253889394369
         ],
         "type": "Point"
       }
     },
     {
-      "id": "GWQL53HZjIibGVrwZgxNqcZ4iUnYCXdc",
+      "id": "seCBNdQVkxn9CaTIVQOsxai0zSYPQOVp",
       "type": "Feature",
       "properties": {
         "id": "hitechhvacservices",
@@ -1337,14 +1337,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52798184543569,
-          40.76306864048025
+          -73.5278909550359,
+          40.76305395115981
         ],
         "type": "Point"
       }
     },
     {
-      "id": "CutPW41Qplc2aB0HwbYh8KVSxPrvsTpq",
+      "id": "xWWY1eiCO6tuUTPpbACVYb13ezqedfVG",
       "type": "Feature",
       "properties": {
         "id": "seniorhelpers",
@@ -1363,14 +1363,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52691874441469,
-          40.76525743896992
+          -73.526982,
+          40.765212
         ],
         "type": "Point"
       }
     },
     {
-      "id": "0nf1uu9ueQs49m4hofxie4Yfm7HtQ3wu",
+      "id": "GjmjOOULNNDlzdQNNDWI6le8ZoxRwMBh",
       "type": "Feature",
       "properties": {
         "id": "hicksvilleboysngirlsclub",
@@ -1396,7 +1396,7 @@
       }
     },
     {
-      "id": "YlRx5vTH4yXUzwxAgHTAC8FvAvfiD2Uz",
+      "id": "2aUDnVe8aTQLQkXTveBXOu4MKr5YI1Qd",
       "type": "Feature",
       "properties": {
         "id": "alloutautomotive",
@@ -1422,7 +1422,7 @@
       }
     },
     {
-      "id": "j73nEHLL7OvjJlDu69QGjQsPPQbhzPt7",
+      "id": "YOYls0QxA8VDHOlXkigbLFMmqiUVcJjO",
       "type": "Feature",
       "properties": {
         "id": "theupsstore",
@@ -1441,14 +1441,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51714139916558,
-          40.76383198879262
+          -73.51742153738087,
+          40.76394275591912
         ],
         "type": "Point"
       }
     },
     {
-      "id": "LFTufZxqEnVoZ0DLLAtTrTFJv3FBswC2",
+      "id": "iCOGRNAeWfNhLPuacKAKnRj8nXcgGwoZ",
       "type": "Feature",
       "properties": {
         "id": "periperiguys",
@@ -1467,14 +1467,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5167413,
-          40.7622276
+          -73.51731523100372,
+          40.762780864848125
         ],
         "type": "Point"
       }
     },
     {
-      "id": "XqQWMMDR0o70Wstf4wjkeEewZN7v71tY",
+      "id": "582OZ2ljzCHfkAoLR4Vl0nXsLej3N4x4",
       "type": "Feature",
       "properties": {
         "id": "alexsbarbershop",
@@ -1493,14 +1493,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51587941184212,
-          40.763997
+          -73.51499196151929,
+          40.763435192540314
         ],
         "type": "Point"
       }
     },
     {
-      "id": "vNW4XoHAm56kG6rZ8ZcDCRNJVu1siXRs",
+      "id": "qES4BDIjPhBYt55VGeKATkMrCfWqDARq",
       "type": "Feature",
       "properties": {
         "id": "embritchqualityprinting",
@@ -1520,14 +1520,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53041563266834,
-          40.761767275552245
+          -73.5301914,
+          40.7615275
         ],
         "type": "Point"
       }
     },
     {
-      "id": "iYd0V9gHnbCW48ANDHwKWYMATZH6a170",
+      "id": "ro5xMdBuXo2p7e5xe5l6aAyDMdGCFE1F",
       "type": "Feature",
       "properties": {
         "id": "platinumvolkswagen",
@@ -1546,14 +1546,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53754914999999,
-          40.7596607
+          -73.53633507442683,
+          40.76014372424747
         ],
         "type": "Point"
       }
     },
     {
-      "id": "2PC10ZfIRiAxVwAe4EWTseIrmNNrl00d",
+      "id": "rcloGrZYuCXZVA9cZhi1LaM2qTr2VYOC",
       "type": "Feature",
       "properties": {
         "id": "emd-ellamarieschool",
@@ -1581,7 +1581,7 @@
       }
     },
     {
-      "id": "lANEYRE7z8k86R2TIbr06jLAC98NWkZk",
+      "id": "qiZYDsaUq68zIrZXi3VRDa86dj3x5j03",
       "type": "Feature",
       "properties": {
         "id": "ridgewoodsavingsbank",
@@ -1607,7 +1607,7 @@
       }
     },
     {
-      "id": "15DI3sMIUVzTEizbhRBhXTY3xPKqPgpm",
+      "id": "14OR18aFfKBU1R7CAOIrmJZHeCt5hqjh",
       "type": "Feature",
       "properties": {
         "id": "alsonestopauto",
@@ -1633,7 +1633,7 @@
       }
     },
     {
-      "id": "77cY9URsE6R9x028QHyQ7Fzi5q4kt6nq",
+      "id": "JvHepun5OA1n7c5fSm2x0eibOQNqtM0r",
       "type": "Feature",
       "properties": {
         "id": "whitelight",
@@ -1659,7 +1659,7 @@
       }
     },
     {
-      "id": "GJttTmqmn7p8VZiGBePPMCc06Ay2HCwj",
+      "id": "pxBSe79W13EXu5l55IsZHW4eoRV7kh7F",
       "type": "Feature",
       "properties": {
         "id": "vernoncwagnerfuneralhome",
@@ -1685,7 +1685,7 @@
       }
     },
     {
-      "id": "TlWUsw6TZBQNEfrLpPQCPXF0wJHj20un",
+      "id": "z1CNhqYdFzqgYYOk5jgaGKFWia7dF6ML",
       "type": "Feature",
       "properties": {
         "id": "ststephensevangelicalchurch",
@@ -1704,14 +1704,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51799413177854,
-          40.76272927648211
+          -73.51886024583841,
+          40.76317978906358
         ],
         "type": "Point"
       }
     },
     {
-      "id": "CHedJuUX6KaJjCrIzs5E0jbEENOHZg0q",
+      "id": "UwTlIdsUbYjjO2H2Y2rIcsyK0WjGr14N",
       "type": "Feature",
       "properties": {
         "id": "riwajevents",
@@ -1730,14 +1730,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51598119800809,
-          40.7616414
+          -73.51616902997299,
+          40.76178366979556
         ],
         "type": "Point"
       }
     },
     {
-      "id": "JVCnu7HQTdoGvKvdvSqPaIfKeMwg4PL6",
+      "id": "Sa4u6ZJxBbCFOe9sLw07Wsut2o8eR0Yy",
       "type": "Feature",
       "properties": {
         "id": "prestigedentalcare",
@@ -1758,14 +1758,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51554514722963,
-          40.761280784601816
+          -73.515505021836,
+          40.761214366821726
         ],
         "type": "Point"
       }
     },
     {
-      "id": "BjEXGfEeE6RrQ8dXT7RiXHcEyUZhrMUL",
+      "id": "P2S5u5dtC2V7vOAARwbq9neoZyG5Hjh9",
       "type": "Feature",
       "properties": {
         "id": "daysinn-bestvalueundersun",
@@ -1786,14 +1786,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.500752,
-          40.761681
+          -73.50079380003775,
+          40.760762834781154
         ],
         "type": "Point"
       }
     },
     {
-      "id": "drwUAWHHtJTkILsWN7Ri7xOtbXZb3OP8",
+      "id": "2oaZxybYmsMKjjrPKjcNawOamhmHtlUP",
       "type": "Feature",
       "properties": {
         "id": "sexycrab-cajunseafood",
@@ -1812,14 +1812,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.500752,
-          40.761681
+          -73.50090946203913,
+          40.76235581882755
         ],
         "type": "Point"
       }
     },
     {
-      "id": "e4CPNqXzORcWIe31ytboeNyuNFJvBMiu",
+      "id": "gPlXnRIDXkOFdnK8Omz9YyVWMbS39VEH",
       "type": "Feature",
       "properties": {
         "id": "sugarbaedessertcafe",
@@ -1838,14 +1838,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52949872617681,
-          40.760705051860995
+          -73.52946975941843,
+          40.76103560863781
         ],
         "type": "Point"
       }
     },
     {
-      "id": "OuINLu4O4nF0fgBpg3mLvr9wY6MpNclz",
+      "id": "aXHcWZmY6TtuDqVxmf7KgP4hVnuhvU2b",
       "type": "Feature",
       "properties": {
         "id": "rainbowcarwash",
@@ -1866,14 +1866,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52883257523928,
-          40.761347353157106
+          -73.52909637837837,
+          40.761407297297296
         ],
         "type": "Point"
       }
     },
     {
-      "id": "FBfu9UWyy6MHRWPsrPeWgbypqI7D7Iym",
+      "id": "qsJXoZKlkqNdIQUe16nkY7V1ZxGPaSAy",
       "type": "Feature",
       "properties": {
         "id": "parkwaycarstereo",
@@ -1901,7 +1901,7 @@
       }
     },
     {
-      "id": "6dyoCgmlyTQKvaDSN5msHwFVVPtuBmdY",
+      "id": "l5SkRDSBqvVKaka9deuMVwpWBQuCkOeV",
       "type": "Feature",
       "properties": {
         "id": "goforltmartialarts",
@@ -1922,14 +1922,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5170648,
-          40.7616433
+          -73.51735698305676,
+          40.76191203161247
         ],
         "type": "Point"
       }
     },
     {
-      "id": "jCuRUCGEc3U9jIDkj8cgWJtGcoFGFtHd",
+      "id": "FSqx1pcd7hg0ro11NQdGWZ1qAEaw0UFM",
       "type": "Feature",
       "properties": {
         "id": "traveltimeandtours",
@@ -1947,14 +1947,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51504,
-          40.7607639
+          -73.51508174043646,
+          40.7608271318326
         ],
         "type": "Point"
       }
     },
     {
-      "id": "1HnS1r2ZpznbulLrj8uusBiX1BQcnLf6",
+      "id": "NHMiS0ptZA8zryWjGvSUBri4fL34OqTy",
       "type": "Feature",
       "properties": {
         "id": "indianvisacenter",
@@ -1973,14 +1973,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51450877713438,
-          40.76041013241654
+          -73.51428010410538,
+          40.760164769900186
         ],
         "type": "Point"
       }
     },
     {
-      "id": "quyoeFTk3tZ1WYbSA2aquEGOmpt2U4eP",
+      "id": "RumaNqQWqY1SuQhnVTKtomW1WuXPVf1x",
       "type": "Feature",
       "properties": {
         "id": "nemotilestone",
@@ -1999,14 +1999,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53118997539228,
-          40.76039115137768
+          -73.531157,
+          40.760556
         ],
         "type": "Point"
       }
     },
     {
-      "id": "l4SeaX8ZOFAPC9yW8joTnISQGWkM7nB5",
+      "id": "tjOnStCrGyzbSNyKbS4Z5g9aXxulADjt",
       "type": "Feature",
       "properties": {
         "id": "wisdomsalon",
@@ -2025,14 +2025,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53045456576338,
-          40.76093562606216
+          -73.530475195292,
+          40.760765870629434
         ],
         "type": "Point"
       }
     },
     {
-      "id": "tugNRDSOLXmcZ6TYHPONamfZ85FBUn2n",
+      "id": "rElOAuwyNPzUYBMrL9gBrzbIROFY2ZE1",
       "type": "Feature",
       "properties": {
         "id": "callkomalkataria",
@@ -2052,14 +2052,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51727914140562,
-          40.767519129775195
+          -73.5142124501817,
+          40.767332565962676
         ],
         "type": "Point"
       }
     },
     {
-      "id": "DpUk1KQCDJrXz1o58SDnhFn9gobsAc4q",
+      "id": "A3wuD1iTWYJGE8n7id5C8MsHsSMBmf1e",
       "type": "Feature",
       "properties": {
         "id": "goodrxpharmacy",
@@ -2084,7 +2084,7 @@
       }
     },
     {
-      "id": "DkjN1K2VIL4ulakDOfG4v472S0PJLCWE",
+      "id": "TFWsLFvvq5mQjJESJsQbgbIH5G4v7UVe",
       "type": "Feature",
       "properties": {
         "id": "diwanhicksville",
@@ -2110,7 +2110,7 @@
       }
     },
     {
-      "id": "qu8WVlBTb6akySx2TgnyhQLzGJvzwTdV",
+      "id": "EwC85JmQTwYbv5x7AU9M76O1m8uFdqay",
       "type": "Feature",
       "properties": {
         "id": "summitremodelinginc",
@@ -2136,7 +2136,7 @@
       }
     },
     {
-      "id": "700PI4RbrOAY2q3z6yisEwHkSd3ARNaP",
+      "id": "Pi93uXdm4c2WpmnLhTUOjGOf8BhAP7UC",
       "type": "Feature",
       "properties": {
         "id": "kumonmathnreadingcenter",
@@ -2162,7 +2162,7 @@
       }
     },
     {
-      "id": "QPbmiO8NdNpmWopn1obAQWhZEvtos20c",
+      "id": "6AuhmNzc57yJvWcZQZcseDQctWXa8Kkc",
       "type": "Feature",
       "properties": {
         "id": "creations",
@@ -2183,14 +2183,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5418731,
-          40.7546154
+          -73.54170141254501,
+          40.75327767425252
         ],
         "type": "Point"
       }
     },
     {
-      "id": "yjOVl7lIMxSSfgOEeYfyxCg5wUBnQyyQ",
+      "id": "1dk03sXEjjKFPnF9s7XDf7fAqB0ench6",
       "type": "Feature",
       "properties": {
         "id": "madisonavephotostudio",
@@ -2216,7 +2216,7 @@
       }
     },
     {
-      "id": "qfA07weFlUWxesQInFXO6bFvaD8Ehfip",
+      "id": "YU9cNt4qd3e7pRfREYEphPaDeisxcNrQ",
       "type": "Feature",
       "properties": {
         "id": "libardi-insuranceagency",
@@ -2242,7 +2242,7 @@
       }
     },
     {
-      "id": "mC22nxP2k15ENDD9yaxh4cfU59PYSYOM",
+      "id": "zyHdrIYHX0n9ljCEjydXefvkWmHcN61C",
       "type": "Feature",
       "properties": {
         "id": "francescossandwichespasta",
@@ -2268,7 +2268,7 @@
       }
     },
     {
-      "id": "V2Z6h7jNR5kBZ0xgpJ5637i4Y54571MT",
+      "id": "LZWZV8wDyp3ezMroMAvsQwh6rAfW7SLb",
       "type": "Feature",
       "properties": {
         "id": "libardititleservices",
@@ -2294,7 +2294,7 @@
       }
     },
     {
-      "id": "oNDJgIOAypF1bWkklo0SLhRmMPtMydBC",
+      "id": "HlUERMpHqovPqx4L29kNo7ZlrtSvYBt6",
       "type": "Feature",
       "properties": {
         "id": "fenetiwindowsystems",
@@ -2313,14 +2313,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.52134447181156,
-          40.765123047687524
+          -73.5214008353313,
+          40.76525996498876
         ],
         "type": "Point"
       }
     },
     {
-      "id": "cny8bB2P52ocYSBoDSdCiyiGq2y49Vsi",
+      "id": "K6TZg838a8mHYlR7vqMSsbj4xkM0hpSw",
       "type": "Feature",
       "properties": {
         "id": "newbridgepharmacy",
@@ -2346,7 +2346,7 @@
       }
     },
     {
-      "id": "CDQqhrl1MHSKLFaYX1Z698r75wmkRAw9",
+      "id": "mueer8UqguLV3rBvBaoimrLAfm6SHsTJ",
       "type": "Feature",
       "properties": {
         "id": "philipmtornatore-dds",
@@ -2366,14 +2366,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.51921995000001,
-          40.75024395
+          -73.51954100140325,
+          40.75021446921582
         ],
         "type": "Point"
       }
     },
     {
-      "id": "MBbniWMCBc5JmaTN3gMwH0EotDfmOABJ",
+      "id": "fNt8RV83w523ylhebn7lFoUVZnSgpYZQ",
       "type": "Feature",
       "properties": {
         "id": "strivetogether",
@@ -2399,7 +2399,7 @@
       }
     },
     {
-      "id": "5ZsM8yU1X5ijaccKDu5Xfstbr0FTx9rX",
+      "id": "Gt76C0CZhPhR0HKD3QexjTjpyanOulOv",
       "type": "Feature",
       "properties": {
         "id": "firststepnurseryschool",
@@ -2425,7 +2425,7 @@
       }
     },
     {
-      "id": "5tJWaC5Z3lHlQ5FroEHB34itlyhJ8Jvc",
+      "id": "uiLNzpKKGlhSat97QajzKNT0C6ebDCoF",
       "type": "Feature",
       "properties": {
         "id": "bestfarms",
@@ -2445,14 +2445,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5191081,
-          40.7493419
+          -73.51883569274916,
+          40.748759644604185
         ],
         "type": "Point"
       }
     },
     {
-      "id": "G4e3dmvEqeW869tAEFFs9VbWBWVTUa82",
+      "id": "8Td5cw7jlDY0hSZiTBsLtQ3IGcj9KJo4",
       "type": "Feature",
       "properties": {
         "id": "eastnewyork-taxservice",
@@ -2473,14 +2473,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.506662703125,
-          40.74581440122135
+          -73.50679640517859,
+          40.74561915648805
         ],
         "type": "Point"
       }
     },
     {
-      "id": "nPiJsVyHZ9KkuGSNQ0K4CFgOtY6qJG5j",
+      "id": "RpLcpXmpAfj8miZzhYd3QZfOzoa4i3RW",
       "type": "Feature",
       "properties": {
         "id": "airpros-airconditioning",
@@ -2499,14 +2499,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.50495632676673,
-          40.74545106884274
+          -73.50489771548555,
+          40.745456000000004
         ],
         "type": "Point"
       }
     },
     {
-      "id": "bTequ8ozqQe90w48x6p6Z1ReT4cvru67",
+      "id": "NXMmLumR0vLuBr5WLTSKHovBTdxniCWH",
       "type": "Feature",
       "properties": {
         "id": "alphagraphics",
@@ -2525,14 +2525,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.50189424246298,
-          40.74546380739213
+          -73.50243298211721,
+          40.745214937343036
         ],
         "type": "Point"
       }
     },
     {
-      "id": "cOEAsNf0UQUMpWKMrOXRaVBYhyTxhTnD",
+      "id": "JkQnYjrNSGdTSJ92mp411hbLaEavE6D4",
       "type": "Feature",
       "properties": {
         "id": "applebees-grillbar",
@@ -2551,14 +2551,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.50102245588879,
-          40.74607487057433
+          -73.5020233214851,
+          40.747093408575566
         ],
         "type": "Point"
       }
     },
     {
-      "id": "IJiwIm08a5Kp8nQrt24S5mmQB2O7K8vL",
+      "id": "MYHVypz5YfqM4NQBf4h05u5sBBojmVsu",
       "type": "Feature",
       "properties": {
         "id": "dancedimensions",
@@ -2577,14 +2577,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.50056708216756,
-          40.74557202494959
+          -73.50131319707496,
+          40.74635116635415
         ],
         "type": "Point"
       }
     },
     {
-      "id": "lZXDsp36f0POglhWRCQmfIPpQuxRfRmX",
+      "id": "ibRrUsXS8XWB9CWRGgmFlPVBYWlRcYFm",
       "type": "Feature",
       "properties": {
         "id": "fastfood-madeincolombia",
@@ -2603,14 +2603,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53377126000314,
-          40.745116632543116
+          -73.53380451605614,
+          40.7451084598939
         ],
         "type": "Point"
       }
     },
     {
-      "id": "V0vu3zA3m6A5WGaEniLPlgIEuXC30Xem",
+      "id": "SSv9RDMZqGdrmdQsry7XhMoREKfLgo1J",
       "type": "Feature",
       "properties": {
         "id": "dcapinsurance",
@@ -2629,14 +2629,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.49987549320188,
-          40.74468402722324
+          -73.49940672667978,
+          40.74468890813683
         ],
         "type": "Point"
       }
     },
     {
-      "id": "nl5i87mJDbHVOIJaUQ5SiyBVCKpj9aMf",
+      "id": "UJCZHHARpwI4vmG3yPHj1MxA4kt2tiRq",
       "type": "Feature",
       "properties": {
         "id": "smok-haus",
@@ -2662,7 +2662,7 @@
       }
     },
     {
-      "id": "V3stACQX5HlkziQPomh8hhTEBZsoWVdS",
+      "id": "yDfC8SgUNiLbNnC0wPYRBAhqFqPZPoHY",
       "type": "Feature",
       "properties": {
         "id": "wineudesign",
@@ -2681,14 +2681,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.50182573822558,
-          40.74476301582222
+          -73.50166259971033,
+          40.744754705898536
         ],
         "type": "Point"
       }
     },
     {
-      "id": "75EbbxCf9w7mbPQGirgnH5ywxXH7jqrm",
+      "id": "skYV9XuPVcqcIDf8QY5HSLaHztnBDmKm",
       "type": "Feature",
       "properties": {
         "id": "regalbilliards",
@@ -2707,14 +2707,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.49989971379397,
-          40.7451867621077
+          -73.50059951056093,
+          40.74565794497301
         ],
         "type": "Point"
       }
     },
     {
-      "id": "xWwfHCgbQfPjXaq9QhJy5Et5Ne8rWAS6",
+      "id": "7KGsSEa0HQbCFQFZHaCdS0V3cEHC7cHk",
       "type": "Feature",
       "properties": {
         "id": "salonisage",
@@ -2733,14 +2733,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.53424409333748,
-          40.744022145097496
+          -73.53426343211173,
+          40.74399258726985
         ],
         "type": "Point"
       }
     },
     {
-      "id": "k5naaYjr4QMJeBz2NDtjGzIdqZDokmPa",
+      "id": "QKcoEQvfp6ciiVzVipEtOIxNgF0t7oku",
       "type": "Feature",
       "properties": {
         "id": "dancomputers",
@@ -2759,14 +2759,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5025602,
-          40.7441389
+          -73.50346092962747,
+          40.74397895732927
         ],
         "type": "Point"
       }
     },
     {
-      "id": "iRA56pF1E4Kl7Hq1ehSHk1AqctcnAxzJ",
+      "id": "weHfKDBbl77aRe2Oj2Zc0K4gCPtTXLWi",
       "type": "Feature",
       "properties": {
         "id": "newyorkmicroscopecompany",
@@ -2785,14 +2785,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.5011781,
-          40.7441215
+          -73.5009669914935,
+          40.74391890584297
         ],
         "type": "Point"
       }
     },
     {
-      "id": "icTlf3poc0yubo0WEeI5oV5EoZ56ZUWE",
+      "id": "qhNDnDlL9GhZklgDkalRvCsRSK4zgJwS",
       "type": "Feature",
       "properties": {
         "id": "roastsandwichhouse",
@@ -2818,7 +2818,7 @@
       }
     },
     {
-      "id": "DcTwpgW7OLqTxpHjN9mCGyjFdzSym7gw",
+      "id": "y2qPqLgIXrWGQZj1o2RfB7Svan1GKjYX",
       "type": "Feature",
       "properties": {
         "id": "drinklocal-harmonybar",
@@ -2845,7 +2845,7 @@
       }
     },
     {
-      "id": "CLb2JZZ1XSTKK5WLcbe00JOfzzBoAQPa",
+      "id": "AhyBm2coArBrDErI3vWBqVGU2hUwMpMX",
       "type": "Feature",
       "properties": {
         "id": "menonthemove-storagecube",
@@ -2865,14 +2865,14 @@
       },
       "geometry": {
         "coordinates": [
-          -73.48849751106309,
-          40.8068538
+          -73.51855349839448,
+          40.768219912838674
         ],
         "type": "Point"
       }
     },
     {
-      "id": "fJhWNiFYLwtq3eIk59p6B6XrlcLNkTy1",
+      "id": "ZYKmH4Xx0fZVTPG6a3CQZwBNeXB5vr5g",
       "type": "Feature",
       "properties": {
         "id": "doggonegorgeous",
