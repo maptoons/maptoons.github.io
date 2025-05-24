@@ -206,7 +206,11 @@
                 id: 'cluster-points',
                 type: 'circle',
                 source: 'location',
-                filter: ['!', ['has', 'point_count']],
+                filter: [
+                    'all',
+                    ['!', ['has', 'point_count']],
+                    ['!', ['has', 'vehicle']]
+                ],
                 paint: {
                     'circle-radius': 7,
                     'circle-color': [
@@ -705,20 +709,41 @@
                     const markerWrapper = document.createElement('div');
                     markerWrapper.className = 'custom-marker-wrapper';
 
-                    // Create image container div (circle)
-                    const imgContainer = document.createElement('div');
-                    imgContainer.className = 'custom-marker-img-container';
-                    imgContainer.style.border = `3px solid ${getCategoryColor(props.category)}`;
+                    if (props.vehicle) {
+                        // vehicle marker
+                        const imgContainer = document.createElement('div');
+                        imgContainer.className = 'custom-vehicle-img-container';
+                        imgContainer.style.border = `3px solid ${getCategoryColor(props.category)}`;
 
-                    // Create image element
-                    const img = document.createElement('img');
-                    img.src = `${imgSource}/${props.img}.png`;
-                    img.className = 'custom-marker-img';
+                        // Create image element
+                        const img = document.createElement('img');
+                        img.src = `${imgSource}/${props.img}.png`;
+                        img.className = 'custom-vehicle-img';
 
-                    // Create triangle element
-                    const triangle = document.createElement('div');
-                    triangle.className = 'custom-marker-triangle';
-                    triangle.style.borderTopColor = getCategoryColor(props.category);
+                        // Build the structure
+                        imgContainer.appendChild(img);
+                        markerWrapper.appendChild(imgContainer);
+                    } else {
+                        // non-vehicle marker
+                        const imgContainer = document.createElement('div');
+                        imgContainer.className = 'custom-marker-img-container';
+                        imgContainer.style.border = `3px solid ${getCategoryColor(props.category)}`;
+
+                        // Create image element
+                        const img = document.createElement('img');
+                        img.src = `${imgSource}/${props.img}.png`;
+                        img.className = 'custom-marker-img';
+
+                        // Create triangle element
+                        const triangle = document.createElement('div');
+                        triangle.className = 'custom-marker-triangle';
+                        triangle.style.borderTopColor = getCategoryColor(props.category);
+
+                        // Build the structure
+                        imgContainer.appendChild(img);
+                        markerWrapper.appendChild(imgContainer);
+                        markerWrapper.appendChild(triangle);
+                    }
 
                     // Create star
                     if (['Q', 'P'].includes(props.priority)) {
@@ -729,12 +754,10 @@
                         markerWrapper.appendChild(star);
                     }
 
-                    // Build the structure
-                    imgContainer.appendChild(img);
-                    markerWrapper.appendChild(imgContainer);
-                    markerWrapper.appendChild(triangle);
+                    // Add all elements to wrapper
                     el.appendChild(markerWrapper);
 
+                    // Create marker
                     marker = markers[id] = new maplibregl.Marker({
                         element: el,
                         anchor: 'bottom',
@@ -1342,26 +1365,26 @@
         });
 
         map.on('load', () => {
-    // Remove default MapLibre attribution
-    const defaultAttribution = document.querySelector('.maplibregl-ctrl-attrib');
-    if (defaultAttribution) defaultAttribution.remove();
+            // Remove default MapLibre attribution
+            const defaultAttribution = document.querySelector('.maplibregl-ctrl-attrib');
+            if (defaultAttribution) defaultAttribution.remove();
 
-    // Create custom attribution div if it doesn't exist
-    let customAttrib = document.getElementById('attribution');
-    if (!customAttrib) {
-        customAttrib = document.createElement('div');
-        customAttrib.id = 'attribution';
-        customAttrib.className = 'custom-attribution';
-        document.body.appendChild(customAttrib); // Append to body (or map container)
-    }
+            // Create custom attribution div if it doesn't exist
+            let customAttrib = document.getElementById('attribution');
+            if (!customAttrib) {
+                customAttrib = document.createElement('div');
+                customAttrib.id = 'attribution';
+                customAttrib.className = 'custom-attribution';
+                document.body.appendChild(customAttrib); // Append to body (or map container)
+            }
 
-    // Update content
-    customAttrib.innerHTML = `
+            // Update content
+            customAttrib.innerHTML = `
         <a href="https://www.maptoons.com/" target="_blank">© 2025 MapToons</a> |
         <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a> |
         <a href="https://geographyclub.github.io/" target="_blank">J&S</a>
     `;
-});
+        });
 
         // Log clicks
         map.on('click', (e) => {
