@@ -51,7 +51,7 @@
 
     <div class="menu-container">
         <button onclick="document.getElementById('file-input').click()">Upload GeoJSON</button>
-        <button onclick="downloadGeoJSON()">Download GeoJSON</button>
+        <button id="download-btn">Download GeoJSON</button>
         <button onclick="undo()">Undo (Ctrl+Z)</button>
         <input type="file" id="file-input" accept=".geojson,.json" />
     </div>
@@ -117,17 +117,17 @@
                 source: 'uploaded-geojson',
                 paint: {
                     'circle-radius': 7,
-                    'circle-color': 'hsl(0, 0%, 90%)',
+                    'circle-color': 'hsl(0, 0%, 0%)',
                     'circle-opacity': 0,
-                    'circle-stroke-width': 2,
+                    'circle-stroke-width': 3,
                     'circle-stroke-color': [
                         'match',
-                        ['get', 'vehicle'],  // Check the 'vehicle' property
-                        'car', 'hsl(0, 80%, 50%)',     // Red for cars
-                        'plane', 'hsl(210, 80%, 50%)',  // Blue for planes
-                        'boat', 'hsl(180, 80%, 50%)',   // Teal for boats
-                        'hsl(0, 0%, 100%)'              // Default white
-                    ]
+                        ['get', 'vehicle'],
+                        'car', 'hsl(0, 80%, 50%)',     // Red
+                        'plane', 'hsl(210, 80%, 50%)',  // Blue
+                        'boat', 'hsl(180, 80%, 50%)',   // Teal
+                        'hsl(0, 0%, 100%)'
+                    ],
                 }
             });
 
@@ -169,6 +169,9 @@
             }
         }
 
+        let originalFilename = 'points'; // Default fallback name
+        let draw; // Will store the Draw control instance
+
         map.on('load', function () {
             // Initialize Draw control with vehicle-specific styling
             const draw = new MapboxDraw({
@@ -181,16 +184,9 @@
                         paint: {
                             'circle-radius': 7,
                             'circle-color': 'hsl(30, 100%, 50%)',
-                            'circle-stroke-color': [
-                                'match',
-                                ['get', 'vehicle'],
-                                'car', 'hsl(0, 80%, 50%)',
-                                'plane', 'hsl(210, 80%, 50%)',
-                                'boat', 'hsl(180, 80%, 50%)',
-                                'hsl(0, 0%, 100%)'
-                            ],
-                            'circle-stroke-width': 1,
-                            'circle-opacity': 0.9
+                            'circle-stroke-color': 'hsl(0, 0%, 100%)',
+                            'circle-stroke-width': 0,
+                            'circle-opacity': 1
                         }
                     },
                     {
@@ -284,26 +280,18 @@
                 }
             });
 
-            // Your existing file upload handler can remain outside if needed,
-            // or you can move it inside and attach it conditionally
-            document.getElementById('file-input').addEventListener('change', function (e) {
-                // ... existing file handling code ...
-            });
-
-            // Handle file upload
+            // Modify your file upload handler to capture the original filename
             document.getElementById('file-input').addEventListener('change', function (e) {
                 const file = e.target.files[0];
                 if (file) {
+                    originalFilename = file.name.replace('.geojson', '').replace('.json', '');
                     const reader = new FileReader();
                     reader.onload = function (e) {
                         try {
                             const geojson = JSON.parse(e.target.result);
-                            // Clear history and start fresh
                             historyStack.length = 0;
-                            // Add to both the draw control and as a visible layer
                             draw.set(geojson);
                             addGeoJSONLayer(geojson);
-                            // Save initial state
                             saveState();
                         } catch (error) {
                             alert("Error parsing GeoJSON file: " + error.message);
@@ -313,8 +301,7 @@
                 }
             });
 
-            // Download the final state of GeoJSON (after dragging)
-            function downloadGeoJSON() {
+            document.getElementById('download-btn').addEventListener('click', function () {
                 const geojson = draw.getAll();
                 if (!geojson || geojson.features.length === 0) {
                     alert("No points to save!");
@@ -323,11 +310,11 @@
                 const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: "application/json" });
                 const a = document.createElement("a");
                 a.href = URL.createObjectURL(blob);
-                a.download = "hicksville-corrected.geojson";
+                a.download = `${originalFilename}_corrected.geojson`;
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
-            }
+            });
         });
 
     </script>
