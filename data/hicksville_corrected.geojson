@@ -1,0 +1,2902 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "PUWyZxa2ROu3xxP4bw2riaEc4XOxlIaa",
+      "type": "Feature",
+      "properties": {
+        "id": "allstate-edward",
+        "mapname": "Allstate - Edward H. Lehmann Agency",
+        "business": "Insurance",
+        "info": "Think about insurance is before you need it! If you have not reviewed your coverage in the last year, call today to learn how to maximize your coverage for the best rate!",
+        "phone": "516-935-3900",
+        "web": "http://www.Allstate.com/EL",
+        "address": "54 Sunnyside Blvd. Suite H Plainview",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "54 Sunnyside Boulevard, Plainview, NY 11803, United States of America",
+        "loc": 11,
+        "priority": "Q",
+        "img": "HK-11Q",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53895812662003,
+          40.772843808722314
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SrzfbmOp2yb6g0tALExQ1ceuUQlKU5Te",
+      "type": "Feature",
+      "properties": {
+        "id": "simpli-smiles",
+        "mapname": "Simpli Smiles",
+        "business": "Dentist",
+        "info": "Our goal is to provide exceptional dental care to our patients in a friendly, comfortable, and caring environment; educating and encouraging you towards a state of optimal oral health.",
+        "phone": "516-336-4902",
+        "web": "http://www.SimpliSmiles.com",
+        "address": "386 S. Oyster Bay Rd.",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "386 South Oyster Bay Road, Hicksville, NY 11801, United States of America",
+        "loc": 47,
+        "priority": "Q",
+        "img": "HK-47Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50365243936253,
+          40.7848075
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6x81tTVrWxcbQDedLsR8z2N4pWu3TxRF",
+      "type": "Feature",
+      "properties": {
+        "id": "trj-balloon-teamrajjaggi",
+        "mapname": "Team Raj Jaggi",
+        "business": "Real Estate",
+        "info": "Team Raj Jaggi, Hicksville's #1 real estate experts, sell over 400 homes annually with unmatched customer service and over 1,100 5-star reviews. Your trusted Long Island Realtors!",
+        "phone": "516-715-3222",
+        "web": "http://www.TeamRajJaggi.com",
+        "address": "54 W. John St.",
+        "discount": "$5000 off your commission when you hire Team Raj Jaggi to sell your home.",
+        "exp": "Exp. 01-31-2026",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "54 West John Street, Hicksville, NY 11801, United States of America",
+        "loc": 91,
+        "priority": "Q",
+        "img": "HK-91Q",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53145095808878,
+          40.76900548388794
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "QVafopn8VMRYXLFV46gaDvl6lQeO8zXt",
+      "type": "Feature",
+      "properties": {
+        "id": "empire-tax-reductions",
+        "mapname": "Empire Tax Reductions",
+        "business": "Property Tax Reduction",
+        "info": "We've successfully challenged over-assessment for 20 years, securing millions of dollars in property tax reductions. Our fees are 20% lower than the competition. If you don't save money, we don't get paid.",
+        "phone": "516-746-4646",
+        "web": "http://www.EmpireTaxReductions.com",
+        "address": "114 Forest Ave. Glen Cove",
+        "category": "live_and_work",
+        "subcategory": "tax_services",
+        "town": "Glen Cove",
+        "address_formatted": "114 Forest Avenue, City of Glen Cove, NY 11542, United States of America",
+        "loc": 1,
+        "priority": "Q",
+        "img": "HK-1Q",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5123421095588,
+          40.77453801691381
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "53yHAMxtdWoQMjPZuapkH637NfpDvFY1",
+      "type": "Feature",
+      "properties": {
+        "id": "shahnaz-husain-salon",
+        "mapname": "Shahnaz Husain Franchise Salon by Nina Lamba",
+        "business": "Beauty",
+        "info": "Over 20 years of experience. Proud to introduce the first ever in US - Shahnaz Husain Franchise Salon. Treatments include Vegetable Peel, Gold, Pearl, Oxygen, Diamond, Plant Stem Cells, Platinum, Telomere DNA Defence, Black Diamond Facials, Body Polish, Hair Spa, and breakthroughs in herbal beauty care.",
+        "phone": "516-206-1440",
+        "web": "http://www.ShahnazHusainNY.com",
+        "address": "217 Bethpage Rd. 2nd Floor",
+        "category": "thrive_and_be_well",
+        "subcategory": "beauty_services",
+        "address_formatted": "217 Bethpage Road, Hicksville, NY 11801, United States of America",
+        "loc": 113,
+        "priority": "S",
+        "img": "HK-113S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5282144,
+          40.7783176
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "OGbliWV9A6gpFJag11hIooWS4bckXIOr",
+      "type": "Feature",
+      "properties": {
+        "id": "harmonaireheatpumps",
+        "mapname": "HarmonAire Ductless Heat Pumps",
+        "business": "Air Conditioning & Heating",
+        "info": "We bring harmony and comfort to your home with energy-efficient heating and cooling solutions. As a Mitsubishi Elite Contractor, we proudly provide expert installation and maintenance for comfortable homes year-round.",
+        "phone": "516-433-0918",
+        "web": "http://www.CallHarmonAire.com",
+        "address": "50 Bethpage Rd.",
+        "category": "live_and_work",
+        "subcategory": "hvac",
+        "address_formatted": "50 Bethpage Road, Hicksville, NY 11801, United States of America",
+        "loc": 60,
+        "priority": "Q",
+        "img": "HK-60Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5200179,
+          40.7736969
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Uv5sPJYBoF7VCgZZ83mrenpArgkRAkiT",
+      "type": "Feature",
+      "properties": {
+        "id": "newyorkembroidery",
+        "mapname": "New York Embroidery/Worldwide Embroidery Plus",
+        "business": "Embroidery",
+        "info": "The right place for embroidery, screen printing, digital printing, or eye-catching promotional products! In the business of decorating since 1987. Embroidery • Screen Printing • Direct-to-Garment • Promotional Products • Custom Logo Design",
+        "phone": "516-822-6456",
+        "web": "http://www.NYEmbroidery.com",
+        "address": "25 Midland Ave.",
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail",
+        "address_formatted": "25 Midland Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 90,
+        "priority": "S",
+        "img": "HK-90S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5188752,
+          40.7760023
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Eb2yF9Q6yTM5uVt8bJrNRi4YcBSmThNb",
+      "type": "Feature",
+      "properties": {
+        "id": "gggconstructioncorp",
+        "mapname": "G.G.G. Construction Corp.",
+        "business": "Construction",
+        "info": "GGG Construction is a general contractor that serves the Hicksville, NY area and specializes in masonry, concrete, and earthwork. Serving Long Island since 1964.",
+        "phone": "516-938-8383",
+        "address": "30 Midland Ave.",
+        "category": "live_and_work",
+        "subcategory": "construction",
+        "address_formatted": "30 Midland Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 89,
+        "priority": "Q",
+        "img": "HK-89Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51792271447435,
+          40.77557042136213
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Y0viftjSXv3NsOz6AipjaiTqNSeKgBP3",
+      "type": "Feature",
+      "properties": {
+        "id": "pasta-eria",
+        "mapname": "Pasta-eria",
+        "business": "Restaurant",
+        "info": "Excellent authentic Italian food. Half pasta - half pizza restaurant. Nice atmosphere and friendly staff. Serving lunch and dinner. We cater, too! A staple in Hicksville for 32 years.",
+        "phone": "516-938-1555",
+        "web": "http://www.Pastaeria.com",
+        "address": "440 S. Oyster Bay Rd.",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "440 South Oyster Bay Road, Hicksville, NY 11803, United States of America",
+        "loc": 44,
+        "priority": "T",
+        "img": "HK-44T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50265981250001,
+          40.7809631875
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nVcOphie6lnVaVHbSZKgjenWBv4P6gD7",
+      "type": "Feature",
+      "properties": {
+        "id": "inthezone",
+        "mapname": "In The Zone Personal Fitness / Silverspine Chiropractic & Health",
+        "business": "Health and Fitness",
+        "info": "Private one-on-one personal training, chiropractic care and nutritional counseling.",
+        "phone": "516-216-4279",
+        "web": "http://www.BodyBySilver.com",
+        "address": "366 N. Broadway Jericho",
+        "category": "thrive_and_be_well",
+        "subcategory": "fitness_centers",
+        "address_formatted": "366 North Broadway, Jericho, NY 11753, United States of America",
+        "loc": 94,
+        "priority": "D",
+        "img": "HK-94D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53294193713269,
+          40.7818104
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Lua66wzYJMM9uJxAHmFAb1oJQZ9pmmfk",
+      "type": "Feature",
+      "properties": {
+        "id": "family-dental",
+        "mapname": "PDM Family Dental",
+        "business": "Dentist",
+        "info": "Providing personalized comprehensive dental care for the whole family, including cleanings, fillings, extractions, implants, bridges, dentures, oral cancer screenings, cosmetic dentistry, and more.",
+        "phone": "516-388-5002",
+        "web": "http://www.DentistJerichoNY.com",
+        "address": "295 N. Broadway Jericho",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "295 North Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 42,
+        "priority": "D",
+        "img": "HK-42D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53082447058824,
+          40.77891567647059
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "rMquldZVX2SuRTxAj83OUBPVs1WjhL90",
+      "type": "Feature",
+      "properties": {
+        "id": "davidjrothfeldcpa",
+        "mapname": "David J. Rothfeld, CPA",
+        "business": "Accounting & Tax Preparation",
+        "info": "Offering a unique, low-pressure approach to personal and professional services. We have an excellent client-retention rate, and we are extremely proud of the high-quality services that our firm provides.",
+        "phone": "516-433-2128",
+        "web": "http://www.DRothTax.com",
+        "address": "120 Bethpage Rd. Suite 301",
+        "category": "live_and_work",
+        "subcategory": "accountants",
+        "address_formatted": "120 Bethpage Road, Hicksville, NY 11801, United States of America",
+        "loc": 87,
+        "priority": "S",
+        "img": "HK-87S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5255121,
+          40.7763557
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "1fZwg7BAw1W0Af93LdHHHpBYAmrHJnBr",
+      "type": "Feature",
+      "properties": {
+        "id": "sudzeepups-petgrooming",
+        "mapname": "Sudzee Pups",
+        "business": "Pet Grooming",
+        "info": "Our dog grooming and daycare facility is family-owned and operated, providing high-quality service that promotes canine health and happiness. Offering a range of grooming services, including bathing, haircuts, nail trimming, teeth cleaning, and more.",
+        "phone": "516-342-1675",
+        "web": "http://www.SudzPups.com",
+        "address": "188 Woodbury Rd.",
+        "category": "thrive_and_be_well",
+        "subcategory": "pet_grooming",
+        "address_formatted": "188 Woodbury Road, Hicksville, NY 11801, United States of America",
+        "loc": 54,
+        "priority": "D",
+        "img": "HK-54D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5161225,
+          40.7733085
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bfOJsuJjkdULmxuYKN89alB8fztxaIP1",
+      "type": "Feature",
+      "properties": {
+        "id": "wagner-construction",
+        "mapname": "Wagner Construction",
+        "business": "Home Improvements",
+        "info": "Serving the community for over 30 years. Best in quality and services in the industry for all our customers. Happy customers are the heart of our business model.",
+        "phone": "516-937-1392",
+        "web": "http://www.WagnerConstruction.US",
+        "address": "44 Bethpage Rd. Unit 8",
+        "category": "live_and_work",
+        "subcategory": "home_improvement",
+        "address_formatted": "44 Bethpage Road, Hicksville, NY 11801, United States of America",
+        "loc": 3,
+        "priority": "T",
+        "img": "HK-3T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5192225,
+          40.7734937
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "T9GEHeShAmEHUJvKp0LatoacfLF2zP20",
+      "type": "Feature",
+      "properties": {
+        "id": "7eleven",
+        "mapname": "7-11",
+        "business": "Convenience Store",
+        "info": "SNAP accepted, Redbox, lottery, specialty coffee + fresh bakery, hot foods, ATM, beer, wine, propane, delivery, 7-Eleven Wallet.",
+        "phone": "516-433-0750",
+        "address": "158 Woodbury Rd.",
+        "category": "shop_and_discover",
+        "subcategory": "convenience",
+        "address_formatted": "158 Woodbury Road, Hicksville, NY 11801, United States of America",
+        "loc": 99,
+        "priority": "S",
+        "img": "HK-99S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51675866666666,
+          40.772472
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RT457LZenrckSCkWeSK3U3iIMuD5pzuY",
+      "type": "Feature",
+      "properties": {
+        "id": "thefoundary",
+        "mapname": "The Foundry",
+        "business": "Restaurant",
+        "info": "A tiny hidden gem amongst a sea of Long Island restaurants. A relaxed atmosphere to fill your belly, mind, and soul. Great food, great laughs, great memories are made daily here!",
+        "phone": "516-342-9603",
+        "address": "120 Woodbury Rd.",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "120 Woodbury Road, Hicksville, NY 11801, United States of America",
+        "loc": 63,
+        "priority": "D",
+        "img": "HK-63D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51838997152682,
+          40.771974170309974
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "g5G19DqVDPAKJTL70aHg4O4IffM0ljtR",
+      "type": "Feature",
+      "properties": {
+        "id": "charlesrutenberg-realtyinc",
+        "mapname": "Malgorzata Parlewicz - Charles Rutenberg Realty",
+        "business": "Real Estate",
+        "info": "Looking to buy or sell real estate in the US or abroad? As a Certified International Property Specialist I can help you achieve your goals.",
+        "phone": "516-312-7851",
+        "web": "http://www.CRRLI.com",
+        "address": "255 Executive Dr. Suite 208 Plainview",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "255 Executive Drive, Plainview, NY 11803, United States of America",
+        "loc": 27,
+        "priority": "T",
+        "img": "HK-27T",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51149085902118,
+          40.762997508131704
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "DtikA4elyLkXUsXMDfy3IlUoCy0gygLD",
+      "type": "Feature",
+      "properties": {
+        "id": "jkta-teamprojung",
+        "mapname": "Team Pro. JK Taekwondo Academy",
+        "business": "Martial Arts",
+        "info": "Our taekwondo program helps children grow physically and mentally, focusing on respect, patience, consideration, leadership, and concentration. Teach traditional taekwondo through sparring, poomsae, self-defense, and breaking techniques.",
+        "phone": "516-931-5425",
+        "instagram": "https://www.instagram.com/jkta_ny/",
+        "address": "204 Broadway Mall",
+        "category": "thrive_and_be_well",
+        "subcategory": "martial_arts_studios",
+        "address_formatted": "204 Broadway Mall, Hicksville, NY 11801, United States of America",
+        "loc": 26,
+        "priority": "D",
+        "img": "HK-26D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.531111,
+          40.772492
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Ng5o8oWT4RmcvlM5jtfYHEP8PxytHuGB",
+      "type": "Feature",
+      "properties": {
+        "id": "buffalowildwings",
+        "mapname": "Buffalo Wild Wings",
+        "business": "Restaurant",
+        "info": "Come to Buffalo Wild Wings with wall-to-wall TVs and 30 beers on draft! With 26 signature sauces and seasonings – from Teriyaki to Wild, plus hand-breaded chicken tenders, burgers & more!",
+        "phone": "516-937-9453",
+        "web": "http://www.BuffaloWildWings.com",
+        "address": "358 B Broadway Mall",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "358 B Broadway Mall, Hicksville, NY 11801, United States of America",
+        "loc": 56,
+        "priority": "D",
+        "img": "HK-56D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.530009,
+          40.772713
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9SzfVIQ1lyOSqrj8xKwOvK9vJtug5tCe",
+      "type": "Feature",
+      "properties": {
+        "id": "realestatemontanainsurance",
+        "mapname": "Montana Agency",
+        "business": "Insurance",
+        "info": "We are a full service insurance agency providing all types of personal and commercial insurance. We also provide complete life and health products for our clients.",
+        "phone": "516-938-3600",
+        "web": "http://www.MontanaAgency.com",
+        "address": "115 N. Broadway",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "115 North Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 92,
+        "priority": "Q",
+        "img": "HK-92Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5267015,
+          40.7717686
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "S9xogXSUDxpl8TYqRRukb1Vp9s7Y1ntz",
+      "type": "Feature",
+      "properties": {
+        "id": "johnepotentensons-inc",
+        "mapname": "John E. Potente & Sons, Inc.",
+        "business": "Construction",
+        "info": "Manufacturing and distributing quality precast concrete products and cast iron manhole frames and covers. Servicing our clients with quality products and great customer service since 1955.",
+        "phone": "516-935-8585",
+        "address": "114 Woodbury Rd.",
+        "category": "live_and_work",
+        "subcategory": "construction",
+        "address_formatted": "114 Woodbury Road, Hicksville, NY 11801, United States of America",
+        "loc": 64,
+        "priority": "D",
+        "img": "HK-64D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51884613478734,
+          40.77157006834006
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cltsUMCFrbfeGMZSNA2N4vUzQASDHjOW",
+      "type": "Feature",
+      "properties": {
+        "id": "bestqualityelectric",
+        "mapname": "Best Quality Electric",
+        "business": "Electrician",
+        "info": "In need of electrical work and looking for the best prices and service? Give us a call! Fast response time, fully licensed & insured, up-front affordable pricing, all work guaranteed & warrantied.",
+        "phone": "516-268-3376",
+        "web": "http://www.BQElectric.com",
+        "address": "14 Holman Blvd.",
+        "category": "live_and_work",
+        "subcategory": "electricians",
+        "address_formatted": "14 Holman Boulevard, Hicksville, NY 11801, United States of America",
+        "loc": 70,
+        "priority": "Q",
+        "img": "HK-70Q",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53487953081526,
+          40.767370381836045
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hIy4raSomNi0QM5ob2eNeq8tOdTjJOUu",
+      "type": "Feature",
+      "properties": {
+        "id": "hicksvillebeernsoda",
+        "mapname": "Hicksville Beer and Soda",
+        "business": "Beverage",
+        "info": "Free delivery 6 days a week! Open 363 days a year! Wholesale, retail, business, and house accounts are welcome! Largest selection of craft beer in area.",
+        "phone": "516-931-3040",
+        "web": "http://www.HicksvilleBeerLI.com",
+        "address": "70 Woodbury Rd.",
+        "category": "eat_and_drink",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "70 Woodbury Road, Hicksville, NY 11801, United States of America",
+        "loc": 20,
+        "priority": "D",
+        "img": "HK-20D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5203822,
+          40.7706566
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "VWEcKJogPq5Nc5NNQiTjSLe6mWcCLIts",
+      "type": "Feature",
+      "properties": {
+        "id": "uniqueimpressions",
+        "mapname": "Unique Impressions",
+        "business": "Embroidery",
+        "info": "Your one-stop shop for all your custom embroidery, screen printing, and promotional products needs. We are experts in helping you select high-impact meaningful products for your projects, events, and self-promotions.",
+        "phone": "516-931-2485",
+        "web": "http://www.UniqueImpressions.com",
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail",
+        "loc": 71,
+        "priority": "D",
+        "img": "HK-71D",
+        "address": "47 Elliot Drive, Hicksville, NY 11801",
+        "address_formatted": "47 Elliot Drive, Hicksville, NY 11801, United States of America",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52136230628936,
+          40.76005709662876
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7tzT2yTF1552M3eHN5aW4e4sO3PCfIPF",
+      "type": "Feature",
+      "properties": {
+        "id": "firststudent",
+        "mapname": "First Student",
+        "business": "Transportation",
+        "info": "Provide solutions for an increasingly congested world, keeping people moving and communities prospering.",
+        "phone": "516-433-2221",
+        "web": "http://www.FirstStudentInc.com",
+        "address": "455 W. John St.",
+        "category": "live_and_work",
+        "subcategory": "transportation_services",
+        "address_formatted": "455 West John Street, Hicksville, NY 11801, United States of America",
+        "loc": 7,
+        "priority": "T",
+        "img": "HK-7T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.54389745,
+          40.765683100000004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vqLFeCQ9bt3BkWgWXJnv7RCmIkFmwcQ4",
+      "type": "Feature",
+      "properties": {
+        "id": "batteriesplus",
+        "mapname": "BatteriesPlus",
+        "business": "Batteries",
+        "info": "More than just a battery store. Providing outstanding service and expertise for a range of solutions - including power, phone repair, auto battery installation, key fobs, lighting, and more!",
+        "phone": "516-271-2715",
+        "web": "http://www.BatteriesPlus.com",
+        "address": "396 W. John St.",
+        "category": "live_and_work",
+        "subcategory": "auto_parts",
+        "address_formatted": "396 West John Street, Hicksville, NY 11801, United States of America",
+        "loc": 22,
+        "priority": "D",
+        "img": "HK-22D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5415011,
+          40.7666219
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vuzSOly8ekz9B0o65iHXlceiOU3XmP6P",
+      "type": "Feature",
+      "properties": {
+        "id": "mollymaid",
+        "mapname": "Molly Maid",
+        "business": "Cleaning Services",
+        "info": "Providing exceptional cleaning services for homes & businesses. With over 40 years of housekeeping experience, you can count on Molly Maid for customized cleaning options to meet your needs, schedule & budget.",
+        "phone": "516-513-0792",
+        "web": "http://www.MollyMaid.com",
+        "address": "45C W. John St.",
+        "category": "live_and_work",
+        "subcategory": "cleaning_services",
+        "address_formatted": "45 West John Street, Hicksville, NY 11801, United States of America",
+        "loc": 55,
+        "priority": "S",
+        "img": "HK-55S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5285549,
+          40.7685733
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "a4Im5iQkI9Id3bC6hE0c8z2QAMhzPPaI",
+      "type": "Feature",
+      "properties": {
+        "id": "jvcautocollisionnrepairs",
+        "mapname": "J.V.C. Auto Collision and Repairs",
+        "business": "Autobody",
+        "info": "A family business for over 40 years. Generations have been coming to us for our expert collision work, 24-hour towing, and detailing. Come see our annual holiday lights display!",
+        "phone": "516-939-0020",
+        "facebook": "https://www.facebook.com/p/JVC-Auto-Repairs-100049433417787/",
+        "address": "60 Barclay St.",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "60 East Barclay Street, Hicksville, NY 11801, United States of America",
+        "loc": 43,
+        "priority": "Q",
+        "img": "HK-43Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.523108,
+          40.769598
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hzDtj4g6iJkv8Y7OT6mOQ7oLOGavmytM",
+      "type": "Feature",
+      "properties": {
+        "id": "thebarthlomew-co",
+        "mapname": "The Bartholomew Company",
+        "business": "Cranes",
+        "info": "Providing the metropolitan New York area customers with the best in overhead crane and hoist service since 1949. Hoist, load testing, modernization, and inspection services.",
+        "phone": "516-513-1295",
+        "web": "http://www.BartCranes.net",
+        "address": "307 W. John St.",
+        "category": "live_and_work",
+        "subcategory": "construction",
+        "address_formatted": "307 West John Street, Hicksville, NY 11801, United States of America",
+        "loc": 84,
+        "priority": "Q",
+        "img": "HK-84Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5373336,
+          40.7667775
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hhX9uYpaPYCPGjBZx7y2mmMNI44RiSfR",
+      "type": "Feature",
+      "properties": {
+        "id": "tamperproof",
+        "mapname": "Tamperproof Screw Co., Inc.",
+        "business": "Construction",
+        "info": "We offer a complete line of corrosion-resistant security screws designed to prevent vandalism and theft, yet allow easy access by authorized personnel.",
+        "phone": "516-931-1616",
+        "web": "http://www.TamperProof.com",
+        "address": "30 Laurel St.",
+        "category": "live_and_work",
+        "subcategory": "construction",
+        "address_formatted": "30 Laurel Street, Hicksville, NY 11801, United States of America",
+        "loc": 66,
+        "priority": "D",
+        "img": "HK-66D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5364268,
+          40.7656102
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AQXv8OUes0LvdNukxvEGBWKoBBhqndBE",
+      "type": "Feature",
+      "properties": {
+        "id": "jmtravelnmultiservicesincometax",
+        "mapname": "JM Travel & Multiservices",
+        "business": "Multi-Services",
+        "info": "Impuestos (income taxes), Notary Public, traducciones (translation), pre-paid phone, re-charge, T-Mobile, SIMPLE Mobile, Lycamobile, H20 Wireless, Ultra Mobile, bill payment, envios, money transfers, fax, copies, MetroPCS dealer, open 7 days.",
+        "phone": "516-938-2592",
+        "facebook": "https://www.facebook.com/p/Jm-Travel-and-Multiservices-Corp-100054616951870/",
+        "address": "2 E. Marie St.",
+        "category": "live_and_work",
+        "subcategory": "business_services",
+        "address_formatted": "2 East Marie Street, Hicksville, NY 11801, United States of America",
+        "loc": 29,
+        "priority": "T",
+        "img": "HK-29T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52351267527641,
+          40.767550538847885
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "oCc7hRCAVFyQ6p0Q4BsKaW9iBAyzOCTn",
+      "type": "Feature",
+      "properties": {
+        "id": "hicksvillegregorymuseum",
+        "mapname": "Hicksville Gregory Museum",
+        "business": "Museum",
+        "info": "30; Sat-Sun 1-5.",
+        "phone": "516-822-7505",
+        "facebook": "https://www.facebook.com/hicksvillegregorymuseum/",
+        "address": "1 Heitz Pl.",
+        "category": "visit_and_experience",
+        "subcategory": "museums",
+        "address_formatted": "1 Heitz Place, Hicksville, NY 11801, United States of America",
+        "loc": 65,
+        "priority": "D",
+        "img": "HK-65D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.522029,
+          40.768511
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SPNDULoo16IUPhOsWXf6XQLhfPbJPmyM",
+      "type": "Feature",
+      "properties": {
+        "id": "thesouthasiantimes",
+        "mapname": "The South Asian Times",
+        "business": "Newspaper",
+        "info": "Your Gateway to affluent South Asian communities of Long Island, display your product and services in the most read and admired weekly print and digital newspaper.",
+        "phone": "516-390-7847",
+        "web": "http://www.TheSouthAsianTimes.info",
+        "address": "95 Broadway Suite 2",
+        "category": "live_and_work",
+        "subcategory": "printing_services",
+        "address_formatted": "95 Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 41,
+        "priority": "Q",
+        "img": "HK-41Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52271114271565,
+          40.767249937604184
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SjWAaaLfVyktcidsPIOCrGYuTZ0R4TtJ",
+      "type": "Feature",
+      "properties": {
+        "id": "advantagehyundai",
+        "mapname": "Advantage Hyundai",
+        "business": "Auto Dealership",
+        "info": "Offering exceptional customer service. Our teams are trained to address your needs from the moment you walk through the door, whether you're in the market for your next vehicle or tuning up your current one.",
+        "phone": "516-465-7000",
+        "web": "http://www.AdvantageHyundai.com",
+        "address": "440 Plainview Rd.",
+        "category": "live_and_work",
+        "subcategory": "car_dealerships",
+        "address_formatted": "440 Plainview Road, Hicksville, NY 11801, United States of America",
+        "loc": 45,
+        "priority": "Q",
+        "img": "HK-45Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5027353266942,
+          40.770217450000004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "s7fo3FQZfdP8gwQua8PkepKno6gGTdiC",
+      "type": "Feature",
+      "properties": {
+        "id": "trinitylutheranchurchnschool",
+        "mapname": "Trinity Lutheran School",
+        "business": "Grade School",
+        "info": "Trinity Lutheran’s Grade School educates students from Kindergarten through Eighth Grade. For over 70 years, our fully accredited program is designed to provide a well rounded education, giving students vital skills that they need to succeed beyond our school doors.",
+        "phone": "516-931-2211",
+        "web": "http://www.TrinityHicksville.org",
+        "address": "40 W. Nicholai St.",
+        "email": "info@trinityli.org",
+        "category": "learn_and_play",
+        "subcategory": "k12_schools",
+        "address_formatted": "40 West Nicholai Street, Hicksville, NY 11801, United States of America",
+        "loc": 69,
+        "priority": "Q",
+        "img": "HK-69Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52642316666666,
+          40.7642204375
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hU5ilghWqT6EZ7mFRUndFvA0PLJo2532",
+      "type": "Feature",
+      "properties": {
+        "id": "lkkassociateslkkcpapc",
+        "mapname": "LKK Associates/LKK CPA PC",
+        "business": "Accounting & Tax Preparation",
+        "info": "Bookkeeping, tax preparation for businesses, non-profits, and individuals, payroll services, tax planning, and consulting on day-to-day matters.",
+        "phone": "516-513-0966",
+        "web": "http://www.LKKAssociates.com",
+        "address": "15 W. Nicholai St.",
+        "category": "live_and_work",
+        "subcategory": "accountants",
+        "address_formatted": "15 West Nicholai Street, Hicksville, NY 11801, United States of America",
+        "loc": 30,
+        "priority": "D",
+        "img": "HK-30D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5227656288909,
+          40.765848442821635
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "jW03dN7WkYSDZtVGM6smBoOwKhbNpDy4",
+      "type": "Feature",
+      "properties": {
+        "id": "lawofficesscottrschneider",
+        "mapname": "Law Offices of Scott R. Schneider P.C.",
+        "business": "Attorney",
+        "info": "25 years of helping people get rid of debt and save their homes through bankruptcy. To get the guidance and representation of an experienced, committed legal advocate please contact me today.",
+        "phone": "516-433-1555",
+        "web": "http://www.NassauBankruptcyAttorney.com",
+        "address": "117 Broadway",
+        "discount": "Free 30 minute consultation.",
+        "exp": "Exp. 01-31-2026",
+        "category": "live_and_work",
+        "subcategory": "attorneys",
+        "address_formatted": "117 Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 4,
+        "priority": "T",
+        "img": "HK-4T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.522398,
+          40.766701
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "s0HhaCbrqnhy7xDD3YdvxPhLRqurvDnU",
+      "type": "Feature",
+      "properties": {
+        "id": "ecoshieldpetsol",
+        "mapname": "EcoShield Pest Solutions",
+        "business": "Pest Control",
+        "info": "Eliminate pests without damaging your home with EcoShield Pest Solutions. Worry no more! EcoShield Pest Solutions will take care of unwanted pests!",
+        "phone": "631-274-7022",
+        "web": "http://www.EcoShieldPest.com",
+        "address": "1 Enterprise Pl. Suite E",
+        "discount": "$100 off quarterly General Pest Services, plus a FREE rodent /termite inspection with purchase.",
+        "exp": "Exp. 01-31-2026",
+        "category": "live_and_work",
+        "subcategory": "pest_control",
+        "address_formatted": "1 Enterprise Place, Hicksville, NY 11801, United States of America",
+        "loc": 101,
+        "priority": "Q",
+        "img": "HK-101Q",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50966056360149,
+          40.755937306007176
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "fo3HMlUZBHQtKlyPw9B19GVbea9bdq6u",
+      "type": "Feature",
+      "properties": {
+        "id": "genesisofthenorthshore",
+        "mapname": "Genesis of the North Shore",
+        "business": "Auto Dealership",
+        "info": "Offering exceptional customer service. Our teams are trained to address your needs from the moment you walk through the door, whether you're in the market for your next vehicle or tuning up your current one.",
+        "phone": "516-265-1880",
+        "web": "http://www.GenesisOfTheNorthShore.com",
+        "address": "430 Plainview Rd",
+        "category": "live_and_work",
+        "subcategory": "car_dealerships",
+        "address_formatted": "430 Plainview Road, Hicksville, NY 11801, United States of America",
+        "loc": 46,
+        "priority": "Q",
+        "img": "HK-46Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50313,
+          40.769603
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "OQg4SZGPlYxFxv1Nov8TCNkr1qxHv0Xz",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemove-movingandselfstorage",
+        "mapname": "Men on the Move",
+        "business": "Moving Company",
+        "info": "With over 35 years of experience, hundreds of five-star reviews and dozens of awards, we're your best choice for moving! Get your free estimate online or call us today.",
+        "phone": "516-773-6683",
+        "web": "http://www.MenOnTheMove.com",
+        "address": "150 Crossways Park Drive West, Woodbury, NY 11797",
+        "category": "live_and_work",
+        "subcategory": "moving_services",
+        "town": "Woodbury",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+        "loc": 108,
+        "priority": "T",
+        "img": "HK-108T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.48849751106309,
+          40.8068538
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "I8maB7mIwDPnJj5ZS15k798gOeUvhmyD",
+      "type": "Feature",
+      "properties": {
+        "id": "servpro-firenwaterr",
+        "mapname": "SERVPRO of Hicksville/Plainview",
+        "business": "Fire, Water and Mold Restoration",
+        "info": "As a leading restoration service for Hicksville/ Plainview, we have experts ready at a moment's notice for water damage, fire damage, and mold emergencies of all sizes, including cleanup and restoration. Call 24 hours.",
+        "phone": "516-733-1800",
+        "web": "http://www.SERVPROHicksvillePlainview.com",
+        "category": "live_and_work",
+        "subcategory": "restoration_services",
+        "loc": 98,
+        "priority": "Q",
+        "img": "HK-98Q",
+        "address": "17B East Old Country Road, Suite 328, Hicksvile, New York",
+        "address_formatted": "17 B East Old Country Road, Hicksville, NY 11801, United States of America",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51790498267508,
+          40.764639260040646
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "G3W8NNvbFT3xPFtjolVii5aC4L7b1LTO",
+      "type": "Feature",
+      "properties": {
+        "id": "sarashiva",
+        "mapname": "Sarashiva",
+        "business": "Indian Fashion",
+        "info": "An Indian fashion boutique offering a vibrant collection of traditional clothing, accessories, and exquisite costume jewelry. Come visit us to discover the perfect ensemble for any occasion.",
+        "phone": "516-513-0989",
+        "instagram": "https://www.instagram.com/sarashiva9/",
+        "address": "144 Broadway",
+        "category": "shop_and_discover",
+        "subcategory": "clothing_and_fashion",
+        "address_formatted": "144 Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 75,
+        "priority": "S",
+        "img": "HK-75S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52209646216376,
+          40.7657071573412
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UegzoybQiKKhwjtbh7j05sZBGBpC81ux",
+      "type": "Feature",
+      "properties": {
+        "id": "nassaugoldbuyers",
+        "mapname": "Nassau Gold Buyers",
+        "business": "Gold Buyer",
+        "info": "We have generations of experience buying diamonds and precious metals, including gold, silver, and platinum. Long-standing success is built on providing an honest assessment of your valuables. Long Island’s premier buyer of gold and vintage estate jewelry.",
+        "phone": "516-827-3131",
+        "web": "http://www.NassauDiamondBuyers.com",
+        "address": "10 W. Cherry St.",
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail",
+        "address_formatted": "10 West Cherry Street, Hicksville, NY 11801, United States of America",
+        "loc": 86,
+        "priority": "T",
+        "img": "HK-86T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52217950335401,
+          40.7652540769759
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lbeJhlMkT5BQQ9QXR6sqf0psaVzc95FD",
+      "type": "Feature",
+      "properties": {
+        "id": "omnimmortgage",
+        "mapname": "Omni Mortgage",
+        "business": "Banking / Finance",
+        "info": "Experienced mortgage professionals who have a hands-on approach to mortgage guidance. Whether purchasing a new home or refinancing your existing home, we strive to match you with the best mortgage product on the market.",
+        "phone": "516-441-7000",
+        "instagram": "https://www.instagram.com/omnimortgage/",
+        "address": "16 E. Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "financial_services",
+        "address_formatted": "16 East Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 107,
+        "priority": "D",
+        "img": "HK-107D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.519093,
+          40.7645963
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pD5gUpW6HpuIKYnVrmoXj44xc6XeZZ3t",
+      "type": "Feature",
+      "properties": {
+        "id": "thejunkluggers",
+        "mapname": "The Junkluggers of Queens & Long Island",
+        "business": "Junk Removal",
+        "info": "Junkluggers is your local eco-friendly junk removal company that can help you remove a single item to clearing out a home or business!",
+        "phone": "516-202-8761",
+        "web": "https://www.junkluggers.com/long-island/",
+        "address": "12A Commercial St.",
+        "category": "live_and_work",
+        "subcategory": "junk_and_recycling",
+        "address_formatted": "12 A Commercial Street, Hicksville, NY 11801, United States of America",
+        "loc": 110,
+        "priority": "S",
+        "img": "HK-110S",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51410177569645,
+          40.75967963693715
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RXJoJWEIGGwfOTPL3G0nRZAb59rUlZ30",
+      "type": "Feature",
+      "properties": {
+        "id": "holytrinityepiscopalchurch",
+        "mapname": "Holy Trinity Episcopal Church",
+        "business": "House of Worship",
+        "info": "30pm. All are welcome.",
+        "phone": "516-931-1920",
+        "web": "http://www.HolyTrinityEpiscopalChurchHicksvilleNY.com",
+        "address": "130 Jerusalem Ave.",
+        "category": "gather_and_connect",
+        "subcategory": "places_of_worship",
+        "address_formatted": "130 Jerusalem Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 77,
+        "priority": "D",
+        "img": "HK-77D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52370995518623,
+          40.76374181752183
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qqiVjs62JwKWsJiNd4YkG6kZfrd8N8CR",
+      "type": "Feature",
+      "properties": {
+        "id": "platinumchiropractic",
+        "mapname": "Platinum Chiropractic - Dr. Kimberly O'Connor",
+        "business": "Chiropractor",
+        "info": "We are dedicated to restoring, maintaining and building better health for you and your family through natural, safe, and scientific chiropractic methods.",
+        "phone": "516-935-3555",
+        "web": "http://www.PlatinumChiroNY.com",
+        "address": "125 Jerusalem Ave.",
+        "category": "thrive_and_be_well",
+        "subcategory": "chiropractic",
+        "address_formatted": "125 Jerusalem Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 76,
+        "priority": "D",
+        "img": "HK-76D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52341638419638,
+          40.763288171716994
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PhtLTKZgiHLxrWSWDW7xI6Wzcx07N7Pb",
+      "type": "Feature",
+      "properties": {
+        "id": "brillianspiritsandwine",
+        "mapname": "Brilliant Spirits and Wine",
+        "business": "Wine & Liquor",
+        "info": "Servicing the towns of Hicksville, Plainview, Bethpage, and their surroundings for 20 years...BSW is sure to have a fine wine or liquor for you.",
+        "phone": "516-822-2826",
+        "address": "69 E. Old Country Rd.",
+        "category": "shop_and_discover",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "69 East Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 15,
+        "priority": "D",
+        "img": "HK-15D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51673884519168,
+          40.76450905814643
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "S2SXPQRd8VpAYSAawxAxnus30e9AUSfe",
+      "type": "Feature",
+      "properties": {
+        "id": "kiranpalace-indiancuisine",
+        "mapname": "Kiran Palace",
+        "business": "Restaurant",
+        "info": "Rock-solid Indian cooking that’s intensely hot and spicy draws a fire-loving following to this inexpensive subcontinental trio. Staff is eager to explain the menu, so you feel like a King and Queen.",
+        "phone": "516-932-5191",
+        "web": "http://www.KiranPalaceLI.com",
+        "address": "67-75 E. Old Country Rd.",
+        "discount": "10% off when you pay cash.",
+        "exp": "Exp. 01-31-2026",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "75 East Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 36,
+        "priority": "T",
+        "img": "HK-36T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5163442575407,
+          40.7642505911308
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pnErhHZT9bZkkCYqKIdB1oLpwdilgRma",
+      "type": "Feature",
+      "properties": {
+        "id": "centershops",
+        "mapname": "Center Shops",
+        "business": "Shopping Center",
+        "info": "Hicksville’s best shopping center for over 70 years is home to great places to eat and shop, including a 24-hour CVS plus quality retailers.",
+        "phone": "516-626-3434",
+        "address": "182-234 W. Old Country Rd. / 146-148 Newbridge Rd.",
+        "category": "shop_and_discover",
+        "subcategory": "shopping_centers",
+        "address_formatted": "148 Newbridge Road, Hicksville, NY 11801, United States of America",
+        "loc": 24,
+        "priority": "T",
+        "img": "HK-24T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52824571039793,
+          40.762578251735626
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "GWQL53HZjIibGVrwZgxNqcZ4iUnYCXdc",
+      "type": "Feature",
+      "properties": {
+        "id": "hitechhvacservices",
+        "mapname": "Hi-Tech HVAC Services",
+        "business": "Air Conditioning & Heating",
+        "info": "We have 20+ years of experience in installing and servicing heat pumps in residential and commercial projects. Our professional team is fully insured and licensed with a comprehensive knowledge of the trade.",
+        "phone": "718-969-6888",
+        "web": "http://www.HiTechHVACServices.com",
+        "address": "148 Newbridge Rd.",
+        "category": "live_and_work",
+        "subcategory": "hvac",
+        "address_formatted": "148 Newbridge Road, Hicksville, NY 11801, United States of America",
+        "loc": 50,
+        "priority": "D",
+        "img": "HK-50D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52798184543569,
+          40.76306864048025
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CutPW41Qplc2aB0HwbYh8KVSxPrvsTpq",
+      "type": "Feature",
+      "properties": {
+        "id": "seniorhelpers",
+        "mapname": "Senior Helpers",
+        "business": "Home Health Care",
+        "info": "We've assigned thousands of our caregivers into the homes of Long Island seniors, facilitating safe and comfortable aging at home. Helping since 2009.",
+        "phone": "516-750-0035",
+        "web": "http://www.SeniorHelpers.com/ny/long-island-central/",
+        "address": "115 Newbridge Rd.",
+        "category": "thrive_and_be_well",
+        "subcategory": "home_health_care",
+        "address_formatted": "115 Newbridge Road, Hicksville, NY 11801, United States of America",
+        "loc": 80,
+        "priority": "D",
+        "img": "HK-80D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52691874441469,
+          40.76525743896992
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0nf1uu9ueQs49m4hofxie4Yfm7HtQ3wu",
+      "type": "Feature",
+      "properties": {
+        "id": "hicksvilleboysngirlsclub",
+        "mapname": "Hicksville Boys & Girls Club",
+        "business": "Children & Youth",
+        "info": "Our goal is to help provide every child with the tools needed for a successful and bright future by implementing programs that help promote self-esteem, positive values, morals, and dignity.",
+        "phone": "516-822-7594",
+        "web": "http://www.HYCBGC.com",
+        "address": "79 W. Old Country Rd.",
+        "category": "learn_and_play",
+        "subcategory": "youth_services",
+        "address_formatted": "79 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 57,
+        "priority": "D",
+        "img": "HK-57D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52227584118765,
+          40.76317075
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YlRx5vTH4yXUzwxAgHTAC8FvAvfiD2Uz",
+      "type": "Feature",
+      "properties": {
+        "id": "alloutautomotive",
+        "mapname": "All Out Automotive",
+        "business": "Auto Repair",
+        "info": "Premier auto repair shop. For 15 years, we’ve been redefining the automotive experience. Our car mechanics proudly serve our community with unparalleled expertise and passion.",
+        "phone": "516-743-9800",
+        "web": "http://www.AllOutMotorWorks.com",
+        "address": "63 W. Old Country Rd",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "63 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 74,
+        "priority": "S",
+        "img": "HK-74S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52122567067482,
+          40.76362239492943
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "j73nEHLL7OvjJlDu69QGjQsPPQbhzPt7",
+      "type": "Feature",
+      "properties": {
+        "id": "theupsstore",
+        "mapname": "The UPS Store",
+        "business": "Shipping & Printing",
+        "info": "Offering a range of services including shipping, packing, printing, mailbox rentals, document shredding, and notary services. A convenient one-stop-shop designed to meet all your shipping, business, and document needs with friendly, efficient service.",
+        "phone": "516-822-8404",
+        "web": "http://www.TheUPSStore.com/5164",
+        "address": "17B E. Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "shipping_services",
+        "address_formatted": "17 B East Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 33,
+        "priority": "D",
+        "img": "HK-33D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51714139916558,
+          40.76383198879262
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "LFTufZxqEnVoZ0DLLAtTrTFJv3FBswC2",
+      "type": "Feature",
+      "properties": {
+        "id": "periperiguys",
+        "mapname": "Peri Peri Guys",
+        "business": "Restaurant",
+        "info": "Come visit Peri-Peri GUYS for a fast-casual dining experience, or place an order for curbside pickup! Let us cater your event and let your guests enjoy our famous peri peri dishes & sides!",
+        "phone": "516-470-0303",
+        "web": "http://www.PeriPeriGuys.com",
+        "address": "285 S. Broadway",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "285 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 115,
+        "priority": "S",
+        "img": "HK-115S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5167413,
+          40.7622276
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XqQWMMDR0o70Wstf4wjkeEewZN7v71tY",
+      "type": "Feature",
+      "properties": {
+        "id": "alexsbarbershop",
+        "mapname": "Alex's Barber Shop",
+        "business": "Barbershop",
+        "info": "Specialize in all types of hair, haircuts, hot towel shaves, beards, etc. Open 7 days. No appointment needed!",
+        "phone": "516-342-9108",
+        "instagram": "https://www.instagram.com/alexsbarbershophicksville/",
+        "address": "79 E. Old Country Rd.",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "79 East Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 21,
+        "priority": "D",
+        "img": "HK-21D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51587941184212,
+          40.763997
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vNW4XoHAm56kG6rZ8ZcDCRNJVu1siXRs",
+      "type": "Feature",
+      "properties": {
+        "id": "embritchqualityprinting",
+        "mapname": "Embritch",
+        "business": "Embroidery",
+        "info": "We specialize in high quality embroidery and custom printing services. We bring your designs to life with precision, creativity and unmatched attention to detail.",
+        "phone": "631-601-3939",
+        "instagram": "https://www.instagram.com/embritch.co/",
+        "address": "246 W. Old Country Rd. Suite #2",
+        "discount": "20% off your order for first-time customers.",
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail",
+        "address_formatted": "246 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 81,
+        "priority": "S",
+        "img": "HK-81S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53041563266834,
+          40.761767275552245
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "iYd0V9gHnbCW48ANDHwKWYMATZH6a170",
+      "type": "Feature",
+      "properties": {
+        "id": "platinumvolkswagen",
+        "mapname": "Platinum Volkswagen",
+        "business": "Auto Dealership",
+        "info": "We take pride in the vehicles we sell and strive to succeed in customer experience and satisfaction. We are eager to assist you in your car-buying process.",
+        "phone": "516-942-7300",
+        "web": "http://www.PlatinumVW.com",
+        "address": "340 W. Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "car_dealerships",
+        "address_formatted": "Platinum Volkswagen, 340 Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 9,
+        "priority": "D",
+        "img": "HK-9D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53754914999999,
+          40.7596607
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2PC10ZfIRiAxVwAe4EWTseIrmNNrl00d",
+      "type": "Feature",
+      "properties": {
+        "id": "emd-ellamarieschool",
+        "mapname": "Ella Marie School of Dance",
+        "business": "Dance School",
+        "info": "Over 60 years teaching dance. Ages 2 and up. We offer Tiny Stars combo classes, tap, jazz, ballet, hip hop, and lyrical. Competition and performance teams .",
+        "phone": "516-681-1484",
+        "instagram": "https://www.instagram.com/ellamariedance/",
+        "address": "376 W. Old Country Rd.",
+        "discount": "10% off all dance supplies.",
+        "exp": "Exp. 01-31-2026",
+        "category": "learn_and_play",
+        "subcategory": "dance_schools",
+        "address_formatted": "376 Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 67,
+        "priority": "D",
+        "img": "HK-67D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5389501,
+          40.7595052
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lANEYRE7z8k86R2TIbr06jLAC98NWkZk",
+      "type": "Feature",
+      "properties": {
+        "id": "ridgewoodsavingsbank",
+        "mapname": "Ridgewood Savings Bank",
+        "business": "Banking / Finance",
+        "info": "Proudly serving our communities since 1921. Personal & Business Banking, Checking & Savings Accounts, Residential & Commercial Mortgage Lending, Member FDIC, Equal Housing Lender.",
+        "phone": "516-935-0522",
+        "web": "http://www.RidgewoodBank.com",
+        "address": "220 W. Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "financial_services",
+        "address_formatted": "220 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 25,
+        "priority": "T",
+        "img": "HK-25T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5293773,
+          40.7622415
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "15DI3sMIUVzTEizbhRBhXTY3xPKqPgpm",
+      "type": "Feature",
+      "properties": {
+        "id": "alsonestopauto",
+        "mapname": "Al’s One Stop Auto",
+        "business": "Auto Repair",
+        "info": "Family-owned and operated for over 38 years. Meet the honest mechanic from TV channel 4! If we can’t fix it no one can! Free estimates on repairs.",
+        "phone": "516-593-7303",
+        "web": "http://www.AlsOneStopAutoRepairs.com",
+        "address": "178 W. Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "178 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 8,
+        "priority": "D",
+        "img": "HK-8D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.527332,
+          40.76205
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "77cY9URsE6R9x028QHyQ7Fzi5q4kt6nq",
+      "type": "Feature",
+      "properties": {
+        "id": "whitelight",
+        "mapname": "White Light Photo & Video Corp",
+        "business": "Photography",
+        "info": "We pride ourselves on creating personalized and unique visual experiences that capture our clients' vision and can be appreciated by families forever.",
+        "phone": "516-933-3399",
+        "web": "http://www.WhiteLightPhotoVideo.com",
+        "address": "98 Tec St.",
+        "category": "live_and_work",
+        "subcategory": "photography_services",
+        "address_formatted": "98 Tec Street, Hicksville, NY 11801, United States of America",
+        "loc": 58,
+        "priority": "S",
+        "img": "HK-58S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5446144,
+          40.7583477
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "GJttTmqmn7p8VZiGBePPMCc06Ay2HCwj",
+      "type": "Feature",
+      "properties": {
+        "id": "vernoncwagnerfuneralhome",
+        "mapname": "Vernon C. Wagner Funeral Homes",
+        "business": "Funeral Home",
+        "info": "For almost 70 years, the Vernon C. Wagner Funeral Home has been providing thoughtful and dignified funeral arrangements to the members of our community. A Dignity Memorial provider.",
+        "phone": "516-935-7100",
+        "web": "http://www.VernonCWagnerFuneralHome.com",
+        "address": "125 W. Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "funeral_services",
+        "address_formatted": "125 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 39,
+        "priority": "Q",
+        "img": "HK-39Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52419011690338,
+          40.7625223
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "TlWUsw6TZBQNEfrLpPQCPXF0wJHj20un",
+      "type": "Feature",
+      "properties": {
+        "id": "ststephensevangelicalchurch",
+        "mapname": "St. Stephen's Evangelical Lutheran Church",
+        "business": "House of Worship",
+        "info": "A welcoming community in Christ where every person matters. Join us for worship, bible study, fellowship, and community outreach.",
+        "phone": "516-931-0710",
+        "web": "http://www.StStephensHicksville.com",
+        "address": "270 S. Broadway",
+        "category": "gather_and_connect",
+        "subcategory": "places_of_worship",
+        "address_formatted": "270 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 28,
+        "priority": "T",
+        "img": "HK-28T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51799413177854,
+          40.76272927648211
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CHedJuUX6KaJjCrIzs5E0jbEENOHZg0q",
+      "type": "Feature",
+      "properties": {
+        "id": "riwajevents",
+        "mapname": "Riwaj Events",
+        "business": "Events",
+        "info": "With over 15+ years in the event & bridal industry - we specialize in Event Design, Floral Design, Wedding Planning & Coordination. Let us make your big day memorable!",
+        "phone": "516-904-8854",
+        "instagram": "https://www.instagram.com/Riwaj.Events/",
+        "address": "301 S. Broadway",
+        "category": "visit_and_experience",
+        "subcategory": "event_planning",
+        "address_formatted": "301 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 102,
+        "priority": "S",
+        "img": "HK-102S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51598119800809,
+          40.7616414
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JVCnu7HQTdoGvKvdvSqPaIfKeMwg4PL6",
+      "type": "Feature",
+      "properties": {
+        "id": "prestigedentalcare",
+        "mapname": "Prestige Dental Care",
+        "business": "Dentist",
+        "info": "Practicing dentistry for close to 25 years. To provide good dentistry, one needs compassion and patience. Offering a wide range of dental services, including family, emergency, cosmetic, and implants.",
+        "phone": "516-470-0808",
+        "web": "http://www.MyPrestigeDental.com",
+        "address": "333 S. Broadway",
+        "discount": "Free consultations.",
+        "exp": "Exp. 01-31-2026",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "333 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 114,
+        "priority": "S",
+        "img": "HK-114S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51554514722963,
+          40.761280784601816
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "BjEXGfEeE6RrQ8dXT7RiXHcEyUZhrMUL",
+      "type": "Feature",
+      "properties": {
+        "id": "daysinn-bestvalueundersun",
+        "mapname": "Days Inn - Hicksville",
+        "business": "Hotel / Motel",
+        "info": "The Best Value Under the Sun. Warm hospitality and clean, comfortable rooms with mini-fridge, free Wi-Fi, free HD satellite TV.",
+        "phone": "516-433-1900",
+        "web": "http://www.DaysInn.com",
+        "address": "828 S. Oyster Bay Rd.",
+        "discount": "10% off Rack Rate. Not to be combined with other discounts.",
+        "exp": "Exp. 01-31-2026",
+        "category": "visit_and_experience",
+        "subcategory": "hotels",
+        "address_formatted": "828 South Oyster Bay Road, Hicksville, NY 11801, United States of America",
+        "loc": 18,
+        "priority": "T",
+        "img": "HK-18T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.500752,
+          40.761681
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "drwUAWHHtJTkILsWN7Ri7xOtbXZb3OP8",
+      "type": "Feature",
+      "properties": {
+        "id": "sexycrab-cajunseafood",
+        "mapname": "Sexy Crab",
+        "business": "Restaurant",
+        "info": "The freshest, most flavorful Cajun seafood cuisine. We aim to satisfy your taste buds with authentic tastes in fusion cooking. Visit and let the savory dishes unfold our history for you!",
+        "phone": "516-605-0655",
+        "web": "http://www.SexyCrabNY.com",
+        "address": "828 S. Oyster Bay Rd.",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "828 South Oyster Bay Road, Hicksville, NY 11801, United States of America",
+        "loc": 19,
+        "priority": "D",
+        "img": "HK-19D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.500752,
+          40.761681
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "e4CPNqXzORcWIe31ytboeNyuNFJvBMiu",
+      "type": "Feature",
+      "properties": {
+        "id": "sugarbaedessertcafe",
+        "mapname": "Sugar Bae Dessert Cafe",
+        "business": "Catering",
+        "info": "Make your events unforgettable with Sugar Bae Catering! We offer live crepe stations, bubble waffles, bubble teas, and indulgent desserts, crafted to impress every guest.",
+        "phone": "516-470-9598",
+        "instagram": "https://www.instagram.com/SugarBaeCafe/",
+        "address": "259 W. Old Country Rd.",
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering",
+        "address_formatted": "259 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 97,
+        "priority": "D",
+        "img": "HK-97D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52949872617681,
+          40.760705051860995
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "OuINLu4O4nF0fgBpg3mLvr9wY6MpNclz",
+      "type": "Feature",
+      "properties": {
+        "id": "rainbowcarwash",
+        "mapname": "Rainbow Car Wash",
+        "business": "Car Wash",
+        "info": "Your car need a quick wash? Bring it to our trained staff. A family-owned business with years of experience in washing and polishing cars. Fully equipped to get the job done right.",
+        "phone": "516-595-7217",
+        "web": "http://www.RainbowCarWashNY.com",
+        "address": "225 W. Old Country Rd.",
+        "discount": "$3 off any full service car wash.",
+        "exp": "Exp. 01-31-2026",
+        "category": "live_and_work",
+        "subcategory": "car_washes",
+        "address_formatted": "225 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 31,
+        "priority": "Q",
+        "img": "HK-31Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52883257523928,
+          40.761347353157106
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "FBfu9UWyy6MHRWPsrPeWgbypqI7D7Iym",
+      "type": "Feature",
+      "properties": {
+        "id": "parkwaycarstereo",
+        "mapname": "Parkway Car Stereo",
+        "business": "Car Audio & Security",
+        "info": "Alarms, remote start, car audio, mobile video, window tinting, GPS navigation, Apple CarPlay, Android Auto, and dash cams.",
+        "phone": "516-937-3630",
+        "instagram": "https://www.instagram.com/parkwaycarstereo/",
+        "address": "151 W. Old Country Rd.",
+        "discount": "10% off in store purchases.",
+        "exp": "Exp. 01-31-2026",
+        "category": "live_and_work",
+        "subcategory": "auto_accessories",
+        "address_formatted": "151 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 35,
+        "priority": "T",
+        "img": "HK-35T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52512225000001,
+          40.7624895
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6dyoCgmlyTQKvaDSN5msHwFVVPtuBmdY",
+      "type": "Feature",
+      "properties": {
+        "id": "goforltmartialarts",
+        "mapname": "GoForIt Martial Arts",
+        "business": "Martial Arts",
+        "info": "Our award-winning “I Can!” Character Development Program is designed to help kids develop a non-quitting spirit that will be vital to their academic success and, more importantly, success in life!",
+        "phone": "516-932-5272",
+        "web": "http://www.GoForItMartialArts.com",
+        "address": "300 S. Broadway",
+        "discount": "2 free weeks plus free uniform.",
+        "exp": "Exp. 01-31-2026",
+        "category": "thrive_and_be_well",
+        "subcategory": "martial_arts_studios",
+        "address_formatted": "300 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 37,
+        "priority": "Q",
+        "img": "HK-37Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5170648,
+          40.7616433
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "jCuRUCGEc3U9jIDkj8cgWJtGcoFGFtHd",
+      "type": "Feature",
+      "properties": {
+        "id": "traveltimeandtours",
+        "mapname": "Travel Time and Tours",
+        "business": "Travel Agency",
+        "info": "Serving the Hicksville community for over 20 years. We are a full-service travel agency, from visas and passports to finding you a vehicle to travel around in. Trips all over the world with a special focus on trips to and from India.",
+        "phone": "516-433-6655",
+        "address": "349 S. Broadway",
+        "category": "visit_and_experience",
+        "subcategory": "travel_agencies",
+        "address_formatted": "349 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 73,
+        "priority": "T",
+        "img": "HK-73T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51504,
+          40.7607639
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "1HnS1r2ZpznbulLrj8uusBiX1BQcnLf6",
+      "type": "Feature",
+      "properties": {
+        "id": "indianvisacenter",
+        "mapname": "Indian Visa Center",
+        "business": "Travel Agency",
+        "info": "OCI applications, visas, Indian passport renewals, consular services, US passport expediting, green card renewals, naturalization, and visa application assistance for other countries.",
+        "phone": "516-218-8000",
+        "email": "https://maps.app.goo.gl/16qTh8fUWW7xvs71A",
+        "address": "353 S. Broadway",
+        "category": "visit_and_experience",
+        "subcategory": "travel_agencies",
+        "address_formatted": "353 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 6,
+        "priority": "D",
+        "img": "HK-6D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51450877713438,
+          40.76041013241654
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "quyoeFTk3tZ1WYbSA2aquEGOmpt2U4eP",
+      "type": "Feature",
+      "properties": {
+        "id": "nemotilestone",
+        "mapname": "Nemo Tile + Stone",
+        "business": "Home Improvements",
+        "info": "We are the trusted source of premium surfacing materials for over a century, offering tailored support and expert advice.",
+        "phone": "516-935-5300",
+        "web": "http://www.NemoTile.com",
+        "address": "277 Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "home_improvement",
+        "address_formatted": "277 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 52,
+        "priority": "T",
+        "img": "HK-52T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53118997539228,
+          40.76039115137768
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "l4SeaX8ZOFAPC9yW8joTnISQGWkM7nB5",
+      "type": "Feature",
+      "properties": {
+        "id": "wisdomsalon",
+        "mapname": "Wisdom Salon",
+        "business": "Hair Salon",
+        "info": "Hicksville's premier hair salon. No one does hair better. Hair extensions, coloring, advanced hair straightening with Magic Sleek-OXO Organic and unisex hair loss solutions.",
+        "phone": "516-597-5599",
+        "instagram": "https://www.instagram.com/wisdom_salon/",
+        "address": "261 W. Old Country Rd.",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "261 West Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 83,
+        "priority": "Q",
+        "img": "HK-83Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53045456576338,
+          40.76093562606216
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "tugNRDSOLXmcZ6TYHPONamfZ85FBUn2n",
+      "type": "Feature",
+      "properties": {
+        "id": "callkomalkataria",
+        "mapname": "Komal Kataria - Property Professionals Realty",
+        "business": "Real Estate",
+        "info": "Dedicated Hicksville, NY realtor with 25 years of experience helping buyers and sellers navigate the real estate market. Committed to excellent service and successful transactions!",
+        "phone": "516-503-2754",
+        "instagram": "https://www.instagram.com/KomalSellsRealEstate/",
+        "address": "70 E. Old Country Rd.",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "70 East Old Country Road, Hicksville, NY 11801, United States of America",
+        "loc": 82,
+        "priority": "D",
+        "img": "HK-82D",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51727914140562,
+          40.767519129775195
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "DpUk1KQCDJrXz1o58SDnhFn9gobsAc4q",
+      "type": "Feature",
+      "properties": {
+        "id": "goodrxpharmacy",
+        "mapname": "Good Rx Pharmacy",
+        "business": "Pharmacy",
+        "info": "We provide a unique blend of old fashioned values coupled with modern day care. Trust us with your healthcare needs today!",
+        "phone": "516-595-7400",
+        "address": "459 S. Broadway",
+        "category": "thrive_and_be_well",
+        "subcategory": "pharmacies",
+        "address_formatted": "459 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 59,
+        "priority": "S",
+        "img": "HK-59S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51158859076581,
+          40.75798015
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "DkjN1K2VIL4ulakDOfG4v472S0PJLCWE",
+      "type": "Feature",
+      "properties": {
+        "id": "diwanhicksville",
+        "mapname": "Diwan",
+        "business": "Restaurant",
+        "info": "Diwan is a great place to go for a delicious and authentic Indian meal. The restaurant has a wide variety of dishes to choose from, including vegetarian and vegan options.",
+        "phone": "516-513-1057",
+        "instagram": "https://www.instagram.com/DiwanHicksville/",
+        "address": "405 S. Broadway",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "405 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 111,
+        "priority": "T",
+        "img": "HK-111T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5128513,
+          40.7591197
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qu8WVlBTb6akySx2TgnyhQLzGJvzwTdV",
+      "type": "Feature",
+      "properties": {
+        "id": "summitremodelinginc",
+        "mapname": "Summit Remodeling Inc.",
+        "business": "Home Improvements",
+        "info": "We are a woman owned full-service contractor specializing in all phases of home remodeling. Matching your vision with our expertise your dream home awaits.",
+        "phone": "516-221-2300",
+        "web": "http://www.SummitRemodelingInc.com",
+        "address": "101 Levittown Pkwy.",
+        "category": "live_and_work",
+        "subcategory": "home_improvement",
+        "address_formatted": "101 Levittown Parkway, Hicksville, NY 11801, United States of America",
+        "loc": 106,
+        "priority": "T",
+        "img": "HK-106T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5418919,
+          40.7548083
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "700PI4RbrOAY2q3z6yisEwHkSd3ARNaP",
+      "type": "Feature",
+      "properties": {
+        "id": "kumonmathnreadingcenter",
+        "mapname": "Kumon of Hicksville",
+        "business": "Children & Youth",
+        "info": "With practice, your child's math and reading skills can soar to new heights. Hicksville Center provides the tools and support for your child to excel in school and life.",
+        "phone": "516-933-8533",
+        "web": "http://www.Kumon.com/Hicksville",
+        "address": "495-10 S. Broadway",
+        "category": "learn_and_play",
+        "subcategory": "youth_services",
+        "address_formatted": "495 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 16,
+        "priority": "D",
+        "img": "HK-16D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.510049,
+          40.757141
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "QPbmiO8NdNpmWopn1obAQWhZEvtos20c",
+      "type": "Feature",
+      "properties": {
+        "id": "creations",
+        "mapname": "Creations Hair Design",
+        "business": "Hair Salon",
+        "info": "We do keratin treatments, and specialize in all aspects of color, highlights, blowouts, and deep conditioning. We'll help you create a new look!",
+        "phone": "516-433-3300",
+        "facebook": "https://www.facebook.com/CreationsHairDesign/",
+        "address": "103 Levittown Pkwy.",
+        "discount": "$10 off any service over $100.",
+        "exp": "Exp. 01-31-2026",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "103 Levittown Parkway, Hicksville, NY 11801, United States of America",
+        "loc": 96,
+        "priority": "Q",
+        "img": "HK-96Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5418731,
+          40.7546154
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yjOVl7lIMxSSfgOEeYfyxCg5wUBnQyyQ",
+      "type": "Feature",
+      "properties": {
+        "id": "madisonavephotostudio",
+        "mapname": "Madison Ave. Photo Studio",
+        "business": "Photography",
+        "info": "Our professional photographers and videographers service the tri-state area. Lovely, lasting photographs and videos that capture the true flavor and excitement of your special day.",
+        "phone": "516-932-8416",
+        "web": "http://www.MadisonAvePhoto.com",
+        "address": "547 S. Broadway",
+        "category": "live_and_work",
+        "subcategory": "photography_services",
+        "address_formatted": "547 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 10,
+        "priority": "D",
+        "img": "HK-10D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5083744,
+          40.7550177
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qfA07weFlUWxesQInFXO6bFvaD8Ehfip",
+      "type": "Feature",
+      "properties": {
+        "id": "libardi-insuranceagency",
+        "mapname": "Libardi Service Agency",
+        "business": "Insurance",
+        "info": "Your local personal and commercial insurance specialists. Serving the community since 1965.",
+        "phone": "516-333-3611",
+        "web": "http://www.Libardi.com",
+        "address": "100 Stewart Ave.",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "100 Stewart Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 104,
+        "priority": "D",
+        "img": "HK-104D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.54437402615144,
+          40.748418799999996
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "mC22nxP2k15ENDD9yaxh4cfU59PYSYOM",
+      "type": "Feature",
+      "properties": {
+        "id": "francescossandwichespasta",
+        "mapname": "Francesco's Bakery",
+        "business": "Bakery",
+        "info": "Since 1986. All baking done on premises. For 39 years, we've been baking the old-fashioned way. “I have a real love for baking; I continue to keep the Italian family traditions of baking alive!\"",
+        "phone": "516-931-6821",
+        "web": "http://www.FrancescosBakery.com",
+        "address": "640 S. Broadway",
+        "category": "eat_and_drink",
+        "subcategory": "bakeries",
+        "address_formatted": "640 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 88,
+        "priority": "Q",
+        "img": "HK-88Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5059256,
+          40.7511991
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "V2Z6h7jNR5kBZ0xgpJ5637i4Y54571MT",
+      "type": "Feature",
+      "properties": {
+        "id": "libardititleservices",
+        "mapname": "Libardi Title Services",
+        "business": "Real Estate",
+        "info": "We are a title insurance agency providing high-quality and outstanding service for all your title insurance needs.",
+        "phone": "516-320-6505",
+        "web": "http://www.LibardiTitle.com",
+        "address": "100 Stewart Ave.",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "100 Stewart Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 103,
+        "priority": "D",
+        "img": "HK-103D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.54437402615144,
+          40.748418799999996
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "oNDJgIOAypF1bWkklo0SLhRmMPtMydBC",
+      "type": "Feature",
+      "properties": {
+        "id": "fenetiwindowsystems",
+        "mapname": "Feneti Window Systems",
+        "business": "Windows",
+        "info": "Wholesaler and distributor of custom-designed window and door products, specializing in vinyl and aluminum systems. A full line of double hung, slider, casement, awning, bow/bay windows, architectural shapes, sliding doors, terrace doors, storefronts, shower doors, skylights, and more.",
+        "phone": "516-495-4849",
+        "facebook": "https://www.facebook.com/p/Feneti-Window-61555315769796/",
+        "address": "759 S. Broadway",
+        "category": "live_and_work",
+        "subcategory": "window_services",
+        "address_formatted": "759 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 62,
+        "priority": "S",
+        "img": "HK-62S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.52134447181156,
+          40.765123047687524
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cny8bB2P52ocYSBoDSdCiyiGq2y49Vsi",
+      "type": "Feature",
+      "properties": {
+        "id": "newbridgepharmacy",
+        "mapname": "Newbridge Pharmacy",
+        "business": "Pharmacy",
+        "info": "A brand-new full-service pharmacy equipped with all of the latest technology and managed by a team of pharmacists with vast experience in multiple fields. We offer free delivery for any medication and over-the-counter items.",
+        "phone": "516-303-9944",
+        "email": "https://www.google.com/search?q=Newbridge Pharmacy",
+        "address": "420 Newbridge Rd.",
+        "category": "thrive_and_be_well",
+        "subcategory": "pharmacies",
+        "address_formatted": "420 Newbridge Road, Hicksville, NY 11801, United States of America",
+        "loc": 79,
+        "priority": "S",
+        "img": "HK-79S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53420015,
+          40.74805805
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CDQqhrl1MHSKLFaYX1Z698r75wmkRAw9",
+      "type": "Feature",
+      "properties": {
+        "id": "philipmtornatore-dds",
+        "mapname": "Philip M. Tornatore, DDS",
+        "business": "Dentist",
+        "info": "You deserve the best dentistry available, and we want to help you achieve your dental goals. Call us today for a full evaluation.",
+        "phone": "516-931-5483",
+        "web": "http://www.DrPhilDDS.com",
+        "address": "404 Jerusalem Ave.",
+        "discount": "Free initial exam and $50 off In-Office Whitening.",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "404 Jerusalem Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 12,
+        "priority": "Q",
+        "img": "HK-12Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.51921995000001,
+          40.75024395
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "MBbniWMCBc5JmaTN3gMwH0EotDfmOABJ",
+      "type": "Feature",
+      "properties": {
+        "id": "strivetogether",
+        "mapname": "Strive Together",
+        "business": "Children & Youth",
+        "info": "We believe in helping our learners achieve socially significant goals. Based on individualized assessments, each learner will be taught crucial skills needed to lead an independent life.",
+        "phone": "516-879-0500",
+        "web": "http://www.Strive-Together.com",
+        "address": "762 S. Broadway",
+        "category": "learn_and_play",
+        "subcategory": "youth_services",
+        "address_formatted": "762 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 95,
+        "priority": "S",
+        "img": "HK-95S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5047055,
+          40.749806
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5ZsM8yU1X5ijaccKDu5Xfstbr0FTx9rX",
+      "type": "Feature",
+      "properties": {
+        "id": "firststepnurseryschool",
+        "mapname": "First Step Nursery School at Parkway Community Church",
+        "business": "Children & Youth",
+        "info": "Serving families in Hicksville and surrounding communities since 1984. Located at and operated by Parkway Community Church, we are a half-day, nonreligious preschool for children ages 2 to 4.",
+        "phone": "516-938-4080",
+        "web": "http://www.FirstStepNursery.org",
+        "address": "95 Stewart Ave.",
+        "category": "learn_and_play",
+        "subcategory": "youth_services",
+        "address_formatted": "95 Stewart Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 32,
+        "priority": "T",
+        "img": "HK-32T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.54385824489796,
+          40.748099591836734
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5tJWaC5Z3lHlQ5FroEHB34itlyhJ8Jvc",
+      "type": "Feature",
+      "properties": {
+        "id": "bestfarms",
+        "mapname": "Best Farms",
+        "business": "Supermarket",
+        "info": "Shop local and family owned! Custom cut of any meat free of charge! Stock up and SAVE with our Weekly Ad!",
+        "phone": "516-822-3234",
+        "web": "http://www.BestFarmsMarket.com",
+        "address": "434 Jerusalem Ave.",
+        "exp": "Exp. 31-01-2026",
+        "category": "shop_and_discover",
+        "subcategory": "supermarkets",
+        "address_formatted": "434 Jerusalem Avenue, Hicksville, NY 11801, United States of America",
+        "loc": 85,
+        "priority": "T",
+        "img": "HK-85T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5191081,
+          40.7493419
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "G4e3dmvEqeW869tAEFFs9VbWBWVTUa82",
+      "type": "Feature",
+      "properties": {
+        "id": "eastnewyork-taxservice",
+        "mapname": "East New York Tax",
+        "business": "Accounting & Tax Preparation",
+        "info": "Devoted to quality, reliable, and honest service in income tax preparation. Our experienced staff serves clients with preparing returns, continuing education in tax preparation, and keeping up with changes in tax law.",
+        "phone": "516-786-4700",
+        "web": "http://www.EastNewYorkTax.com",
+        "discount": "$10 off personal income tax return! For new customers only. Please mention MapToons.",
+        "exp": "Exp. 01-31-2026",
+        "category": "live_and_work",
+        "subcategory": "accountants",
+        "loc": 17,
+        "priority": "Q",
+        "img": "HK-17Q",
+        "address": "7 Elliot Drive, Hicksville, NY 11801",
+        "address_formatted": "7 Elliot Drive, Hicksville, NY 11801, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.506662703125,
+          40.74581440122135
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nPiJsVyHZ9KkuGSNQ0K4CFgOtY6qJG5j",
+      "type": "Feature",
+      "properties": {
+        "id": "airpros-airconditioning",
+        "mapname": "AIRPROS Inc.",
+        "business": "Air Conditioning & Heating",
+        "info": "We do what it takes to get the job done right. From installation and repair to ongoing maintenance, we offer a full suite of HVAC services for residential and commercial properties.",
+        "phone": "516-427-3983",
+        "web": "http://www.AirprosNY.com",
+        "address": "105 Bloomingdale Rd.",
+        "category": "live_and_work",
+        "subcategory": "hvac",
+        "address_formatted": "105 Bloomingdale Road, Hicksville, NY 11801, United States of America",
+        "loc": 14,
+        "priority": "T",
+        "img": "HK-14T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50495632676673,
+          40.74545106884274
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bTequ8ozqQe90w48x6p6Z1ReT4cvru67",
+      "type": "Feature",
+      "properties": {
+        "id": "alphagraphics",
+        "mapname": "AlphaGraphics New York",
+        "business": "Printing",
+        "info": "A premier provider of print, marketing, and signage solutions. We specialize in creating customized business and event signage to enhance customer branding.",
+        "phone": "516-228-2312",
+        "web": "http://www.AlphaGraphics.nyc",
+        "address": "119 Engineers Dr.",
+        "category": "live_and_work",
+        "subcategory": "printing_services",
+        "address_formatted": "119 Engineers Drive, Hicksville, NY 11801, United States of America",
+        "loc": 93,
+        "priority": "D",
+        "img": "HK-93D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50189424246298,
+          40.74546380739213
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cOEAsNf0UQUMpWKMrOXRaVBYhyTxhTnD",
+      "type": "Feature",
+      "properties": {
+        "id": "applebees-grillbar",
+        "mapname": "Applebee's Grill + Bar",
+        "business": "Restaurant",
+        "info": "For affordable lunch specials with co-workers or a delicious dinner with family and friends, Applebee's offers dining options you'll love. If you’re in a hurry, use our To Go service and pick up your food without ever leaving your car.",
+        "phone": "516-932-3780",
+        "web": "http://www.Applebees.com",
+        "address": "938 S. Broadway",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "Applebee's, 938 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 105,
+        "priority": "S",
+        "img": "HK-105S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50102245588879,
+          40.74607487057433
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IJiwIm08a5Kp8nQrt24S5mmQB2O7K8vL",
+      "type": "Feature",
+      "properties": {
+        "id": "dancedimensions",
+        "mapname": "Dance Dimensions",
+        "business": "Dance School",
+        "info": "An integral part of the Hicksville community for over 25 years, we are proud to offer quality dance education in a safe and fun environment for children and adults.",
+        "phone": "516-938-5299",
+        "web": "http://www.Dance-Dimensions.com",
+        "address": "940 S. Broadway",
+        "category": "learn_and_play",
+        "subcategory": "dance_schools",
+        "address_formatted": "940 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 68,
+        "priority": "S",
+        "img": "HK-68S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50056708216756,
+          40.74557202494959
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lZXDsp36f0POglhWRCQmfIPpQuxRfRmX",
+      "type": "Feature",
+      "properties": {
+        "id": "fastfood-madeincolombia",
+        "mapname": "Made in Colombia",
+        "business": "Restaurant",
+        "info": "Your new favorite Colombian fast food restaurant, serving authentic Colombian cuisine in a fun and welcoming atmosphere.",
+        "phone": "516-934-0090",
+        "instagram": "https://www.instagram.com/madeincolombia_ny/",
+        "address": "7 W. Village Green",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "7 West Village Green, Hicksville, NY 11801, United States of America",
+        "loc": 23,
+        "priority": "S",
+        "img": "HK-23S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53377126000314,
+          40.745116632543116
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "V0vu3zA3m6A5WGaEniLPlgIEuXC30Xem",
+      "type": "Feature",
+      "properties": {
+        "id": "dcapinsurance",
+        "mapname": "DCAP East Meadow Inc.",
+        "business": "Insurance",
+        "info": "Saving customers money on their insurance for over 30 years. Experts in all forms of insurance. Auto, Commercial Auto, Motorcycle, Home, Condo/Coop, Renters, Boat RV, Business, and Life.",
+        "phone": "516-822-4848 / 516-469-8600",
+        "web": "http://www.DCAPInsurance.com",
+        "address": "956 S. Broadway",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "956 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 5,
+        "priority": "T",
+        "img": "HK-5T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.49987549320188,
+          40.74468402722324
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nl5i87mJDbHVOIJaUQ5SiyBVCKpj9aMf",
+      "type": "Feature",
+      "properties": {
+        "id": "smok-haus",
+        "mapname": "Smok-Haus",
+        "business": "Restaurant",
+        "info": "We redefine BBQ with our bold, globally-inspired flavors. Check out the smok-haus menu for all of our delicious offerings and discover why smok-haus is the ultimate BBQ destination in New York.",
+        "phone": "516-400-7102",
+        "web": "https://www.Smok-Haus.com",
+        "address": "954 S. Broadway Unit B",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "954 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 38,
+        "priority": "S",
+        "img": "HK-38S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.500523,
+          40.74491373
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "V3stACQX5HlkziQPomh8hhTEBZsoWVdS",
+      "type": "Feature",
+      "properties": {
+        "id": "wineudesign",
+        "mapname": "wineUdesign",
+        "business": "Winery",
+        "info": "The first licensed winery in Nassau County. Here in Hicksville since 2010. Families and friends make great wine for their own personal enjoyment. Interactive Winemaking and Wine Blending classes. So much fun!",
+        "phone": "516-939-9463",
+        "web": "https://www.wineUdesign.com",
+        "address": "156 Engineers Dr.",
+        "category": "eat_and_drink",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "156 Engineers Drive, Hicksville, NY 11801, United States of America",
+        "loc": 51,
+        "priority": "D",
+        "img": "HK-51D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.50182573822558,
+          40.74476301582222
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "75EbbxCf9w7mbPQGirgnH5ywxXH7jqrm",
+      "type": "Feature",
+      "properties": {
+        "id": "regalbilliards",
+        "mapname": "Regal Billiards",
+        "business": "Billiards",
+        "info": "Long Island's premier retailer for pool tables, game tables, game room furniture and accessories.",
+        "phone": "516-938-6832",
+        "web": "https://www.RegalBilliards.com",
+        "address": "952 S. Broadway",
+        "category": "visit_and_experience",
+        "subcategory": "billiards_halls",
+        "address_formatted": "952 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 78,
+        "priority": "S",
+        "img": "HK-78S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.49989971379397,
+          40.7451867621077
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xWwfHCgbQfPjXaq9QhJy5Et5Ne8rWAS6",
+      "type": "Feature",
+      "properties": {
+        "id": "salonisage",
+        "mapname": "Salon Visage",
+        "business": "Hair Salon",
+        "info": "A beloved, professional salon since 2006, we have everything to keep you looking and feeling ravishing for that special occasion you have lined up. Walk out as the best version of yourself.",
+        "phone": "516-997-5069",
+        "web": "https://www.SalonVisageJericho.org",
+        "address": "32 W. Village Green",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "32 West Village Green, Hicksville, NY 11801, United States of America",
+        "loc": 40,
+        "priority": "D",
+        "img": "HK-40D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.53424409333748,
+          40.744022145097496
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "k5naaYjr4QMJeBz2NDtjGzIdqZDokmPa",
+      "type": "Feature",
+      "properties": {
+        "id": "dancomputers",
+        "mapname": "Dan Computers",
+        "business": "Computer Consulting, Sales & Service",
+        "info": "Welcome to Dan Computers - the right place to buy refurbished laptops, desktop computers, iMac, MacBooks, iPads, Chrome Books, and lots more.",
+        "phone": "516-342-9114",
+        "web": "https://www.DanComputers.com",
+        "address": "148 Lauman Ln.",
+        "category": "live_and_work",
+        "subcategory": "computer_services",
+        "address_formatted": "148 Lauman Lane, Hicksville, NY 11801, United States of America",
+        "loc": 49,
+        "priority": "S",
+        "img": "HK-49S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5025602,
+          40.7441389
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "iRA56pF1E4Kl7Hq1ehSHk1AqctcnAxzJ",
+      "type": "Feature",
+      "properties": {
+        "id": "newyorkmicroscopecompany",
+        "mapname": "New York Microscope Company",
+        "business": "Microscope",
+        "info": "Woman-owned small business. The microscope experts since 1979. Sales, service, and repairs.",
+        "phone": "877-877-7274",
+        "web": "https://www.MicroscopeInternational.com",
+        "address": "100A Lauman Ln.",
+        "category": "live_and_work",
+        "subcategory": "specialty_retail",
+        "address_formatted": "100 F;100 Lauman Lane, Hicksville, NY 11801, United States of America",
+        "loc": 34,
+        "priority": "D",
+        "img": "HK-34D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5011781,
+          40.7441215
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "icTlf3poc0yubo0WEeI5oV5EoZ56ZUWE",
+      "type": "Feature",
+      "properties": {
+        "id": "roastsandwichhouse",
+        "mapname": "Roast Sandwich House",
+        "business": "Restaurant",
+        "info": "Established in 2010, we combine restaurant-quality food with a fast-casual setting. Our menu is chef-inspired, featuring all-natural whole, roasted meats, fresh produce, artisanal bread, and housemade condiments.",
+        "phone": "516-261-9376",
+        "web": "https://www.RoastSandwichHouse.com",
+        "address": "1040 S. Broadway",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "KidStrong, 1040 South Broadway, Hicksville, NY 11801, United States of America",
+        "loc": 2,
+        "priority": "D",
+        "img": "HK-2D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.4983578,
+          40.7426005
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "DcTwpgW7OLqTxpHjN9mCGyjFdzSym7gw",
+      "type": "Feature",
+      "properties": {
+        "id": "drinklocal-harmonybar",
+        "mapname": "Harmony Bar",
+        "business": "Bar",
+        "info": "Casual bar - Always a Good Time with the Friendliest of People. Pool table, NFL & MLB ticket.",
+        "phone": "516-342-6481",
+        "web": "https://www.TheHarmonyBarLevittown.com",
+        "address": "673 N. Newbridge Rd. Levittown",
+        "category": "eat_and_drink",
+        "subcategory": "bars_and_pubs",
+        "town": "Levittown",
+        "address_formatted": "673 North Newbridge Road, Levittown, NY 11756, United States of America",
+        "loc": 100,
+        "priority": "Q",
+        "img": "HK-100Q"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5361681,
+          40.7424233
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CLb2JZZ1XSTKK5WLcbe00JOfzzBoAQPa",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemove-storagecube",
+        "mapname": "Men on the Move - Mobile Storage",
+        "business": "Mobile Storage",
+        "info": "Long Island's best value in mobile storage! We offer the only insulated mobile storage units, along with available award-winning moving services to load and offload your Cube! Call or visit us online.",
+        "phone": "516-773-6683",
+        "web": "https://www.MenOnTheMove.com",
+        "address": "150 Crossways Park Dr. W. Woodbury",
+        "category": "live_and_work",
+        "subcategory": "storage",
+        "town": "Woodbury",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+        "loc": 109,
+        "priority": "T",
+        "img": "HK-109T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.48849751106309,
+          40.8068538
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "fJhWNiFYLwtq3eIk59p6B6XrlcLNkTy1",
+      "type": "Feature",
+      "properties": {
+        "id": "doggonegorgeous",
+        "mapname": "Dog Gone Gorgeous by Victoria",
+        "business": "Pet Grooming",
+        "info": "The absolute finest in pet grooming. Making dogs \"Dog Gone Gorgeous\" since 1994.",
+        "phone": "516-342-9400",
+        "facebook": "https://www.facebook.com/dggbyvictoria",
+        "address": "603 Hicksville Rd. Bethpage",
+        "category": "thrive_and_be_well",
+        "subcategory": "pet_grooming",
+        "town": "Bethpage",
+        "address_formatted": "603 Hicksville Road, Bethpage, NY 11714, United States of America",
+        "loc": 13,
+        "priority": "D",
+        "img": "HK-13D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.497027,
+          40.7411178
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

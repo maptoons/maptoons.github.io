@@ -34,7 +34,7 @@
 
     <script>
 
-        const geoJsonFiles = ['hicksville', 'long_beach'];
+        const geoJsonFiles = ['hicksville_corrected', 'long_beach'];
         const imgSource = 'img'
         const styleFile = 'maptoons.json'
         const artFile = 'data/hicksville-art.geojson'
@@ -654,12 +654,22 @@
                 return;
             }
 
-            // Determine which priorities should be displayed at this zoom level
-            let priorityLevels = [];
-            if (zoom >= zoomThreshold && zoom < zoomThreshold + 1) priorityLevels = ['Q', 'P'];
-            if (zoom >= zoomThreshold + 1 && zoom < zoomThreshold + 1.5) priorityLevels = ['Q', 'P', 'T'];
-            if (zoom >= zoomThreshold + 1.5 && zoom < zoomThreshold + 2) priorityLevels = ['Q', 'P', 'T', 'D'];
-            if (zoom >= zoomThreshold + 2) priorityLevels = ['Q', 'P', 'T', 'D', 'S'];
+            // Include vehicle by zoom
+            // const vehicleLevels = [];
+            // if (zoom >= zoomThreshold) {
+            //     if (zoom < zoomThreshold + 1) vehicleLevels = ['plane'];
+            //     else if (zoom < zoomThreshold + 1.5) vehicleLevels = ['car', 'plane'];
+            //     else vehicleLevels = ['car', 'plane', 'boat'];
+            // }
+
+            // Include priority by zoom
+            const priorityLevels = [];
+            if (zoom >= zoomThreshold) {
+                if (zoom < zoomThreshold + 1) priorityLevels.push('Q', 'P');
+                else if (zoom < zoomThreshold + 1.5) priorityLevels.push('Q', 'P', 'T');
+                else if (zoom < zoomThreshold + 2) priorityLevels.push('Q', 'P', 'T', 'D');
+                else priorityLevels.push('Q', 'P', 'T', 'D', 'S');
+            }
 
             const newMarkers = {};
             const features = map.querySourceFeatures('location');

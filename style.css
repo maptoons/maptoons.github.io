@@ -443,7 +443,6 @@ body {
     max-width: 45px;
     max-height: 45px;
     object-fit: contain;
-    filter: drop-shadow(2px 2px 2px hsla(0, 0%, 0%, 0));
 }
 
 .featured-logo:hover {
@@ -542,6 +541,12 @@ body {
     display: block;
     max-width: 25px;
     max-height: 25px;
+}
+
+.custom-marker-vehicle {
+    display: block;
+    max-width: 70px;
+    max-height: 70px;
 }
 
 .custom-marker-label {

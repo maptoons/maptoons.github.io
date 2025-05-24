@@ -118,8 +118,8 @@
                 paint: {
                     'circle-radius': 7,
                     'circle-color': 'hsl(0, 0%, 0%)',
-                    'circle-opacity': 0,
-                    'circle-stroke-width': 3,
+                    'circle-opacity': 0.2,
+                    'circle-stroke-width': 0,
                     'circle-stroke-color': [
                         'match',
                         ['get', 'vehicle'],
@@ -176,6 +176,7 @@
             // Initialize Draw control with vehicle-specific styling
             const draw = new MapboxDraw({
                 displayControlsDefault: false,
+                userProperties: true,
                 styles: [
                     {
                         id: 'gl-draw-point',
@@ -184,8 +185,15 @@
                         paint: {
                             'circle-radius': 7,
                             'circle-color': 'hsl(30, 100%, 50%)',
-                            'circle-stroke-color': 'hsl(0, 0%, 100%)',
-                            'circle-stroke-width': 0,
+                            'circle-stroke-color': [
+                                'match',
+                                ['get', 'vehicle'],
+                                'car', 'hsl(0, 80%, 50%)',     // Red
+                                'plane', 'hsl(210, 80%, 50%)',  // Blue
+                                'boat', 'hsl(180, 80%, 50%)',   // Teal
+                                'hsl(0, 0%, 100%)'
+                            ],
+                            'circle-stroke-width': 3,
                             'circle-opacity': 1
                         }
                     },
@@ -220,6 +228,24 @@
                             'text-size': 8,
                             'text-offset': [0, 0.8],
                             'text-anchor': 'top',
+                            'text-allow-overlap': false,
+                            'text-ignore-placement': false
+                        },
+                        paint: {
+                            'text-color': 'hsl(30, 100%, 50%)'
+                        }
+                    });
+
+                    map.addLayer({
+                        id: 'dynamic-vehicle-labels',
+                        type: 'symbol',
+                        source: 'dynamic-labels',
+                        layout: {
+                            'text-field': ['get', 'vehicle'],
+                            "text-font": ["poppins-regular"],
+                            'text-size': 16,
+                            'text-offset': [0, -0.8],
+                            'text-anchor': 'bottom',
                             'text-allow-overlap': false,
                             'text-ignore-placement': false
                         },
@@ -290,8 +316,9 @@
                         try {
                             const geojson = JSON.parse(e.target.result);
                             historyStack.length = 0;
-                            draw.set(geojson);
                             addGeoJSONLayer(geojson);
+                            draw.set(geojson);
+                            updateLabelLayer();
                             saveState();
                         } catch (error) {
                             alert("Error parsing GeoJSON file: " + error.message);
