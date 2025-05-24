@@ -700,8 +700,10 @@
                 // Apply the category filter based on the global selectedCategory
                 if (currentActiveCategory !== 'all' && props.category !== currentActiveCategory) continue;
 
-                // Exclude clusters and zoom-based priority levels
-                if (props.cluster || !priorityLevels.includes(props.priority)) continue;
+                // Exclude clusters and zoom-based priority levels (if not vehicle)
+                if (!props.vehicle) {
+                    if (props.cluster || !priorityLevels.includes(props.priority)) continue;
+                }
                 const id = props.id;
 
                 let marker = markers[id];
