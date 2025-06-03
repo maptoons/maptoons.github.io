@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rgr28ms6ce8h/public_html/maps-subdomain/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R data $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp maptoons-admin.html $DEPLOYPATH
+    - /bin/cp maptoons.json $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
