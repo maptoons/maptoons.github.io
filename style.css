@@ -176,6 +176,7 @@ body {
 #info-box.visible {
     display: block;
 }
+
 #info-box-back, #info-box-forward {
     width: 30px;
     height: 30px;

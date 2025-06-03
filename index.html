@@ -431,10 +431,17 @@
                     const featureItem = document.createElement('div');
                     featureItem.className = 'featured-item';
 
-                    // Set vehicle image background
-                    const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
+                    // Vehicle styles
                     //featureItem.style.backgroundColor = getVehicleColor(feature.properties.vehicle);
                     //featureItem.style.backgroundImage = `url(${imgVehicle})`;
+
+                    // Vary hue by index to get visually distinct borders
+                    const hue = (51 - i * 10) % 360; // Example: 51, 91, 131...
+                    const borderColor = `3px solid hsl(${hue}, 100%, 50%)`;
+                    featureItem.style.border = borderColor;
+
+                    // Set vehicle image background
+                    const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
 
                     // Create logo image
                     const img = `${imgSource}/${feature.properties.img}.png`;
