@@ -561,11 +561,13 @@
             const locations = [
                 {
                     name: 'Hicksville',
-                    centroid: [-73.522247, 40.766297]
+                    centroid: [-73.522247, 40.766297],
+                    zoom: 15
                 },
                 {
                     name: 'Long Beach',
-                    centroid: [-73.65977, 40.588153]
+                    centroid: [-73.65977, 40.588153],
+                    zoom: 16.5
                 }
             ];
 
@@ -581,7 +583,7 @@
 
                     map.flyTo({
                         center: location.centroid,
-                        zoom: zoomThreshold + 2.5,
+                        zoom: location.zoom ?? zoomThreshold + 1,
                         offset: [0, 0],
                         essential: true,
                         duration: 2000,
