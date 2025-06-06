@@ -355,6 +355,8 @@
             // Handle clicks on category filter
             document.addEventListener('click', (e) => {
                 const categoryFeatureElement = e.target.closest('.category-feature');
+                const featuredItem = document.getElementById('featured');
+
                 if (!categoryFeatureElement) return;
 
                 const category = categoryFeatureElement.dataset.category;
@@ -377,11 +379,13 @@
                     filterLocation('all'); // Show all features
                     categoryFeatureElement.classList.remove('activeCategory');
                     currentActiveCategory = 'all';
+                    featuredItem.style.visibility = 'visible';
                 } else {
                     // New category selected
                     filterLocation(category);
                     categoryFeatureElement.classList.add('activeCategory');
                     currentActiveCategory = category;
+                    featuredItem.style.visibility = 'hidden';
                 }
             });
 
@@ -436,13 +440,12 @@
                     //featureItem.style.backgroundImage = `url(${imgVehicle})`;
 
                     // Color by rotating hue
-                    // const hue = (21 + i * 10) % 360;
+                    // const hue = (51 + i * 5) % 360;
                     // const borderColor = `3px solid hsl(${hue}, 100%, 50%)`;
                     // featureItem.style.border = borderColor;
 
                     // Color by category
-                    featureItem.style.borderColor = getCategoryColor(feature.properties.category);
-                    
+                    // featureItem.style.borderColor = getCategoryColor(feature.properties.category);
 
                     // Set vehicle image background
                     const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
