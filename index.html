@@ -83,9 +83,9 @@
         const map = new maplibregl.Map({
             container: "map",
             style: styleFile,
-            center: [-73.66342, 40.5883],
+            center: [-73.662542, 40.588077],
             maxBounds: bounds,
-            zoom: zoomThreshold + 0.4,
+            zoom: zoomThreshold + 2.5,
             minZoom: 8,
             maxZoom: 18,
             bearing: 0,
@@ -436,7 +436,7 @@
                     //featureItem.style.backgroundImage = `url(${imgVehicle})`;
 
                     // Vary hue by index to get visually distinct borders
-                    const hue = (51 - i * 10) % 360; // Example: 51, 91, 131...
+                    const hue = (21 + i * 15) % 360; // Example: 51, 91, 131...
                     const borderColor = `3px solid hsl(${hue}, 100%, 50%)`;
                     featureItem.style.border = borderColor;
 
@@ -561,11 +561,11 @@
             const locations = [
                 {
                     name: 'Hicksville',
-                    centroid: [-73.52547, 40.76562]
+                    centroid: [-73.522247, 40.766297]
                 },
                 {
                     name: 'Long Beach',
-                    centroid: [-73.66338, 40.58704]
+                    centroid: [-73.65977, 40.588153]
                 }
             ];
 
@@ -581,7 +581,7 @@
 
                     map.flyTo({
                         center: location.centroid,
-                        zoom: zoomThreshold + 0.4,
+                        zoom: zoomThreshold + 2.5,
                         offset: [0, 0],
                         essential: true,
                         duration: 2000,
