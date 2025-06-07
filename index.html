@@ -83,13 +83,13 @@
         const map = new maplibregl.Map({
             container: "map",
             style: styleFile,
-            center: [-73.662542, 40.588077],
+            center: [-73.665422, 40.58821],
             maxBounds: bounds,
-            zoom: zoomThreshold + 2.5,
+            zoom: 16.3,
             minZoom: 8,
             maxZoom: 18,
-            bearing: 0,
-            pitch: 20,
+            bearing: -39,
+            pitch: 30,
             hash: true,
             pixelRatio: 1
         });
@@ -258,8 +258,8 @@
                     'text-anchor': 'top'
                 },
                 paint: {
-                    'text-color': 'hsl(0, 0%, 10%)',
-                    'text-halo-color': 'hsla(0, 0%, 100%, 0.75)',
+                    'text-color': 'hsl(0, 0%, 20%)',
+                    'text-halo-color': 'hsla(0, 0%, 100%, 0.5)',
                     'text-halo-width': 1
                 },
                 'minzoom': zoomThreshold + 2
@@ -435,20 +435,21 @@
                     const featureItem = document.createElement('div');
                     featureItem.className = 'featured-item';
 
-                    // Color by vehicle
-                    //featureItem.style.backgroundColor = getVehicleColor(feature.properties.vehicle);
-                    //featureItem.style.backgroundImage = `url(${imgVehicle})`;
+                    // Background color by vehicle
+                    // featureItem.style.backgroundColor = getVehicleColor(feature.properties.vehicle);
 
-                    // Color by rotating hue
-                    // const hue = (51 + i * 5) % 360;
-                    // const borderColor = `3px solid hsl(${hue}, 100%, 50%)`;
-                    // featureItem.style.border = borderColor;
+                    // Background img by vehicle
+                    const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
+                    featureItem.style.backgroundImage = `url(${imgVehicle})`;
+
+                    // Border color by rotating hsl
+                    const hue = (51 + i * 5) % 360;
+                    const light = (50 + i * 10) % 100;
+                    const borderColor = `3px solid hsl(51, 100%, ${light}%)`;
+                    featureItem.style.border = borderColor;
 
                     // Color by category
                     // featureItem.style.borderColor = getCategoryColor(feature.properties.category);
-
-                    // Set vehicle image background
-                    const imgVehicle = `${imgSource}/vehicle_${feature.properties.vehicle}.png`;
 
                     // Create logo image
                     const img = `${imgSource}/${feature.properties.img}.png`;
@@ -569,16 +570,16 @@
                 {
                     name: 'Hicksville',
                     centroid: [-73.52233, 40.76445],
-                    zoom: 14.5,
+                    zoom: 14.2,
                     pitch: 40,
                     bearing: -50
                 },
                 {
                     name: 'Long Beach',
-                    centroid: [-73.665292, 40.588255],
-                    zoom: 17,
+                    centroid: [-73.665422, 40.58821],
+                    zoom: 16.6,
                     pitch: 30,
-                    bearing: -50
+                    bearing: -39
                 }
             ];
 
