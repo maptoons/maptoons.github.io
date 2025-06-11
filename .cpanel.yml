@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/rgr28ms6ce8h/public_html/maps-subdomain
-    - /bin/cp -r * $DEPLOYPATH
