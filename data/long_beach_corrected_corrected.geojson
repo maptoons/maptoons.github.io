@@ -1,0 +1,5090 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ipuGDfy1JcTTC2sIEwrs1FjzYyYmlDdD",
+      "type": "Feature",
+      "properties": {
+        "id": "bodylogicspa",
+        "address": "252 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Spa",
+        "info": "Massage. Facial. Repeat. – A fresh take on your favorite place to relax and renew.",
+        "mapname": "Bodylogic Spa",
+        "loc": 1,
+        "phone": "516-431-5400",
+        "web": "http://BodylogicSpa.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "spas_and_wellness",
+        "address_formatted": "Healing Oasis Massage, 252 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-1T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65731346851648,
+          40.58834034999148
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JyDtNXqIkXo15Co9vtPDAgLj2DvTDIeC",
+      "type": "Feature",
+      "properties": {
+        "id": "eastendvolleyball",
+        "address": "1 Laurelton Blvd.",
+        "town": "Long Beach",
+        "business": "Recreation",
+        "info": "Digging it in the sand since 1977, EEVB offers weeknight leagues, weekend tournaments, and training for players of all ages and levels! Come play!",
+        "mapname": "East End Volleyball",
+        "loc": 2,
+        "phone": "631-355-1293",
+        "web": "http://EEVB.net",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "1 Laurelton Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-2D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.672687,
+          40.584186
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pf5wptPXF8NBYy46mNG7ljjQThSAkZee",
+      "type": "Feature",
+      "properties": {
+        "id": "lidokosherdeli",
+        "address": "641 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Deli",
+        "info": "Serving Long Island for nearly 60 years with the freshest, highest-quality traditional Jewish soul food.. Full-service dining area, free delivery, take-out counter, and catering.",
+        "mapname": "Lido Kosher Deli",
+        "loc": 3,
+        "phone": "516-431-4411",
+        "web": "http://LidoKosherDeli.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "641 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-3D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64578535562566,
+          40.589078351518125
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3PnojBH93UkA8Mhq2XbHbi1Wd7XCvT9G",
+      "type": "Feature",
+      "properties": {
+        "id": "roseottdesign",
+        "address": "675 E. Olive St.",
+        "town": "Long Beach",
+        "business": "Interior Design",
+        "info": "We are an award winning, full service boutique interior design firm specializing in kitchens and baths.",
+        "mapname": "Rose Ott Design",
+        "loc": 4,
+        "phone": "516-510-9665",
+        "web": "http://RoseOttDesign.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "675 East Olive Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-4T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64420659999999,
+          40.58728225
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "mqC1yH13JRlCpffAlv37opZHuaR7tzse",
+      "type": "Feature",
+      "properties": {
+        "id": "liddlebitesplaycafe",
+        "address": "132 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Children",
+        "info": "A must-visit indoor play space! Whether you're local or just visiting, enjoy good old-fashioned playtime with Open Play, birthdays, and fun classes.",
+        "mapname": "Liddle Bites Play Cafe",
+        "loc": 5,
+        "phone": "516-442-3131",
+        "web": "http://LiddleBites.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "132 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-5D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65955947450792,
+          40.58814955940711
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HAAa0dA3LUYd5aJ1xk1C0eW31DGUpaya",
+      "type": "Feature",
+      "properties": {
+        "id": "zoomingroomin",
+        "address": "East Atlantic Beach, NY, United States of America",
+        "town": "Long Beach",
+        "business": "Services - Pet Grooming",
+        "info": "Our Professional Mobile Pet Groomers bring the comforts and amenities to you in our High Tech Mobile Grooming vans. Supporting most of the South Shore!",
+        "mapname": "Zoomin Groomin",
+        "loc": 6,
+        "phone": "516-879-7006",
+        "web": "http://ZoominGroomin.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "pet_grooming",
+        "address_formatted": "East Atlantic Beach, NY, United States of America",
+        "priority": "T",
+        "img": "LB-6T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69367245386024,
+          40.58458533631058
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RCajyqJWdarp9YPCEsWp72IVSPomDmjT",
+      "type": "Feature",
+      "properties": {
+        "id": "berkshirehathawayhomeserviceslaffeyinternationalrealty",
+        "address": "860 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Serving the community for over 100 years; now partnered with BHHS, full service expertise on the Barrier Island & beyond! FREE legal services if you buy or sell with us.",
+        "mapname": "Berkshire Hathaway HomeServices Laffey International Realty",
+        "loc": 7,
+        "phone": "516-431-0828",
+        "web": "http://BHHSLaffey.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "860 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-7D",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6795529807606,
+          40.5824891416159
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JY66cXZPs2j98yIZ5uQsqpIpNlmlHn4Y",
+      "type": "Feature",
+      "properties": {
+        "id": "paulgoldrealestate",
+        "address": "1047 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Services - Real Estate",
+        "info": "Our family serving your family since 1946.",
+        "mapname": "Paul Gold Real Estate",
+        "loc": 8,
+        "phone": "516-432-4900",
+        "web": "http://PaulGoldRealEstate.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "1047 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-8D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69859705775427,
+          40.586192111648195
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "py274Bd59xsW61fOg68MKqIz6Makj1wv",
+      "type": "Feature",
+      "properties": {
+        "id": "lindelldeligrocery",
+        "address": "579 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Delicatessen",
+        "info": "Quality since 1973. Hot & cold catering. Boar's Head cold cuts. Daily breakfast and lunch specials. Homemade salads. Dinners to go. Grocery, dairy, beer, ice & more. ",
+        "mapname": "Lindell Deli & Grocery",
+        "loc": 9,
+        "phone": "516-432-9171",
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering",
+        "address_formatted": "579 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-9D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6810709,
+          40.5887025
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "FgsFhzmVYMPfZ8RpWfuDPNIx4SS0TaG6",
+      "type": "Feature",
+      "properties": {
+        "id": "peknicpeknicschaeferllc",
+        "address": "1005 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Attorney",
+        "info": "Experienced representation across New York State. Practice areas include insurance defense, personal injury, medical malpractice, real estate, corporate law, estate planning, criminal, and matrimonial law.",
+        "mapname": "Peknic, Peknic & Schaefer, LLC.",
+        "loc": 10,
+        "phone": "516-432-9400",
+        "web": "http://PeknicLaw.com",
+        "category": "live_and_work",
+        "subcategory": "attorneys",
+        "address_formatted": "1005 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-10P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69667181818252,
+          40.586154241421085
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "dPTbi4ZxqY4YJtYhHt4ycc3oS44K4tmP",
+      "type": "Feature",
+      "properties": {
+        "id": "zaretskywellness",
+        "address": "",
+        "town": "Lido Beach",
+        "business": "Wellness",
+        "info": "Our Signature Hypnotherapy Coaching Program, expert consulting, counseling, and growing range of products support transformative results, clarity, and optimal wellbeing. Begin today!",
+        "mapname": "Zaretsky Wellness",
+        "loc": 11,
+        "phone": "934-414-8242",
+        "web": "http://Zaretsky-Wellness.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "Lido Beach, NY, United States of America",
+        "priority": "D",
+        "img": "LB-11D",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6566839336408,
+          40.581927719997104
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2camr0eEvUQx7tJ1cZa9EgTOPkEMrpTY",
+      "type": "Feature",
+      "properties": {
+        "id": "baskinrobbins",
+        "address": "170 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Ice Cream / Ices",
+        "info": "World’s largest chain of ice cream shops. Innovative, providing premium ice cream, specialty frozen desserts, cakes, and beverages to our customers. An original location, open 70+ years.",
+        "mapname": "Baskin Robbins",
+        "loc": 12,
+        "phone": "516-889-6950",
+        "web": "http://BaskinRobbins.com",
+        "category": "eat_and_drink",
+        "subcategory": "ice_cream_and_desserts",
+        "address_formatted": "170 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-12D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6587280888435,
+          40.588171187880086
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9LqdwgdlWuFP2Pxrl0G7pkErwUhddSNY",
+      "type": "Feature",
+      "properties": {
+        "id": "whitbreadssonslumberco",
+        "address": "600 Magnolia Blvd.",
+        "town": "Long Beach",
+        "business": "Lumber and Building Materials",
+        "info": "For over 100 years, the Whitbread Family has been supplying Long Beach and the South Shore with quality service and building materials: Lumber, Drywall Mason Materials, Millwork, and Hardware.",
+        "mapname": "Whitbread’s Sons Lumber Co.",
+        "loc": 13,
+        "phone": "516-432-1900",
+        "web": "http://WhitbreadLumber.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "600 Magnolia Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-13T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6670494782521,
+          40.59166712748892
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "uAyAJbIPA1IvCliIiUNpJ3GgRgDx8oNm",
+      "type": "Feature",
+      "properties": {
+        "id": "decaff",
+        "address": "151 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Coffee/Bakery",
+        "info": "One-stop for coffee and baked goods from Italy. Wide selection of coffees, sweet and savory croissants, cookies, pastries, cakes, desserts, and ice cream. Treat your sweet tooth.",
+        "mapname": "d'e Caffè",
+        "loc": 14,
+        "phone": "516-726-7005",
+        "web": "http://deCaffeNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "151 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-14T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66100697447882,
+          40.58891419864562
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SwLUqDmymETnWFgPjzWe8sYgDl5FLy3h",
+      "type": "Feature",
+      "properties": {
+        "id": "ruthredlenerrealtyconnectusa",
+        "address": "248 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Your neighbor and Realtor… Responding to your real estate needs and questions. Serving the Long Beach Barrier Island and Beyond since 2007! Call TODAY!",
+        "mapname": "Ruth Redlener - Realty Connect USA",
+        "loc": 15,
+        "phone": "516-884-6698",
+        "web": "http://RuthRedlener.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "248 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-15P",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67409590902813,
+          40.59037374721436
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HGTRPyL001T3AUD205FfJKsBoPno74mH",
+      "type": "Feature",
+      "properties": {
+        "id": "countryboybakery",
+        "address": "256 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Bakery",
+        "info": "Serving the community for 70+ years! Cakes, cookies, pastries, rolls, Danishes, muffins, pies, doughnuts, breakfast specials and more! Sugar free section and cakes to order. Certified Kosher South Shore Vaad. ",
+        "mapname": "Country Boy Bakery",
+        "loc": 16,
+        "phone": "516-889-7295",
+        "web": "http://CountryBoyBakery.com",
+        "category": "eat_and_drink",
+        "subcategory": "bakeries",
+        "address_formatted": "Country Boy Bakery, 256 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-16D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6556816078297,
+          40.588265769928974
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "H5xJMvIQRPgcWeunPBhgSdXf7u4xtMjL",
+      "type": "Feature",
+      "properties": {
+        "id": "coffeenutcafe",
+        "address": "250 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Coffee",
+        "info": "We offer 45 varieties of beans along with a changing daily rotation of freshly brewed coffee. Try our smoothies and gluten free & vegan snacks!",
+        "mapname": "Coffee Nut Cafe",
+        "loc": 17,
+        "phone": "516-897-6616",
+        "facebook": "https://www.facebook.com/CoffeeNutCafeNY",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "250 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-17D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65628163438089,
+          40.58834729121556
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "l1CxeHPzV2uaIINq7x3Hvq5mEbl2hMqa",
+      "type": "Feature",
+      "properties": {
+        "id": "activelifelongbeach",
+        "address": "120 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "We help clients say yes to an Active Life without the aches, pains, or fears that hold most people back.",
+        "mapname": "Active Life Long Beach",
+        "loc": 18,
+        "phone": "516-990-1765",
+        "web": "http://ActiveLifeLongBeach.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "120 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-18T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66056648580009,
+          40.58830370612333
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "FsJ1KUrA4qZ7X1F6Becbs2l6wEc3ZPXj",
+      "type": "Feature",
+      "properties": {
+        "id": "goldenera",
+        "address": "227 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "Highest quality supplements. Protein-packed smoothies. Pre-workout - Creatine - Proteins - Aminos - Fat Burners",
+        "mapname": "Golden Era",
+        "loc": 19,
+        "phone": "516-806-2320",
+        "discount": "Buy one smoothie get one half off!",
+        "exp": "05/31/2026",
+        "instagram": "https://www.instagram.com/goldeneralb/",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "Ripped Long Beach, 227 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-19D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65706160031034,
+          40.588924197613615
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "OVyUxxs3CkzCJ9TrW46IVRvX5psBykha",
+      "type": "Feature",
+      "properties": {
+        "id": "francescospizzarestaurant",
+        "address": "157 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Pizzeria / Restaurant",
+        "info": "Family owned, serving Long Beach with a smile since 2020. Best pizza in town!",
+        "mapname": "Francesco's Pizza & Restaurant",
+        "loc": 20,
+        "phone": "516-682-2900",
+        "web": "http://FrancescosLongBeach.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "157 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-20D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65989588752846,
+          40.588944528592364
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hUCfzD6bFbfKkMqaRFzxmvDb5H1J1tDJ",
+      "type": "Feature",
+      "properties": {
+        "id": "abovealleyesopticians",
+        "address": "303 E. Park Ave. Suite E",
+        "town": "Long Beach",
+        "business": "Optical/Optometrist",
+        "info": "Come in for personal care and great service. Convenient hours. Most insurances accepted. Free parking.",
+        "mapname": "Above All Eyes Opticians",
+        "loc": 21,
+        "phone": "516-889-2010",
+        "web": "http://AboveAllEyesOpticians.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "303 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-21D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65503964973573,
+          40.5889461
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "jAAhgW2kkt7jqJP1CV5Vvydn00m8TDNB",
+      "type": "Feature",
+      "properties": {
+        "id": "naomichaimwatmanmdfaap",
+        "address": "303 E. Park Ave., Suite A",
+        "town": "Long Beach",
+        "business": "Medical",
+        "info": "From birth to adolescence, we take care of all your kid's needs: from vaccines, well visits, and same-day sick visits. Most insurance plans accepted.",
+        "mapname": "Naomi Chaim Watman, M.D., F.AAP",
+        "loc": 22,
+        "phone": "516-897-4600",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "303 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-22D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6543335575844,
+          40.58894609998738
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "OwbHuj1QdpRWLnA6hpV6gJMR5Iy1Dkvz",
+      "type": "Feature",
+      "properties": {
+        "id": "sherryblossom",
+        "address": "78 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Bringing New York's most trendy healthy food of 2017 to Long Beach. Sushi burritos, Poke Bowls, Ramen, and Bubble Tea.",
+        "mapname": "Sherry Blossom",
+        "loc": 23,
+        "phone": "516-889-1200",
+        "web": "http://SherryBlossom.net",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "78 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-23P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66664766851675,
+          40.58825760211586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UZ4yKnYT2I7kxF8sBobb4qJP7JJXtAqo",
+      "type": "Feature",
+      "properties": {
+        "id": "execproenterprises",
+        "address": "58 W. Park Ave. Suite 203",
+        "town": "Long Beach",
+        "business": "Computer Services",
+        "info": "Innovative IT solutions provider offering tailored services for small to medium-sized businesses, including consulting, hardware/software, on-site/remote support, cloud/on-prem infrastructure, managed services & more.",
+        "mapname": "ExecPro Enterprises",
+        "loc": 24,
+        "phone": "516-620-0304",
+        "web": "http://ExecPro.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-24D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66580947219818,
+          40.58826242140721
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "kvYx3e8op3RDVR7Ixmjhx1jqGb49hMMh",
+      "type": "Feature",
+      "properties": {
+        "id": "bernsteingraylawgroup",
+        "address": "350 National Blvd. Suite 2E",
+        "town": "Long Beach",
+        "business": "Attorney",
+        "info": "Trusted boutique law firm specializing in real estate, commercial litigation, family law, and divorce. Expert guidance, dedicated advocacy-protecting your rights & securing your future.",
+        "mapname": "Bernstein & Gray Law Group",
+        "loc": 25,
+        "phone": "516-853-0927",
+        "web": "http://BandGLawGroup.com",
+        "category": "live_and_work",
+        "subcategory": "attorneys",
+        "address_formatted": "350 National Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-25D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66670937564035,
+          40.58806303611638
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "VHMoV3NchE8pjZuF4D8bFJ1oRMUz2A0G",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachnursingrehab",
+        "address": "375 E. Bay Dr.",
+        "town": "Long Beach",
+        "business": "Nursing Facility",
+        "info": "Ready to empower you by giving you the care that can restore you to a state of optimal health and happiness. Visit today!",
+        "mapname": "Long Beach Nursing & Rehab",
+        "loc": 26,
+        "phone": "516-897-1110",
+        "web": "http://LongBeachNRC.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "Long Beach Nursing and Rehabilitation Center, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-26P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65342565104422,
+          40.594401228384164
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RcW2yreQwnOcnI26VmzjXp2VVmRbMqxx",
+      "type": "Feature",
+      "properties": {
+        "id": "bayvistaassistedliving",
+        "address": "375 E. Bay Dr.",
+        "town": "Long Beach",
+        "business": "Nursing Facility",
+        "info": "Searching for senior living in Long Beach? Discover true comfort and an abundance of amenities at our beautiful waterfront assisted living!",
+        "mapname": "Bay Vista Assisted Living",
+        "loc": 26,
+        "phone": "516-897-1000",
+        "web": "http://LongBeachNRC.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "Long Beach Nursing and Rehabilitation Center, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-26P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65516992384566,
+          40.59438824322297
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7tfflXq2mQ5Ma13VI2ekijLhfUHNkSNB",
+      "type": "Feature",
+      "properties": {
+        "id": "rocolive",
+        "address": "180 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "New American cuisine & specialty cocktails. Modern twist on some of your favorite dishes.",
+        "mapname": "ROC & OLIVE",
+        "loc": 27,
+        "phone": "516-442-1090",
+        "web": "http://RocAndOlive.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "180 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-27D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66957486535752,
+          40.58821263759878
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "zkisgMhe2UaksYK01SWzkAGL6Z15Hdd8",
+      "type": "Feature",
+      "properties": {
+        "id": "budgetblinds",
+        "address": "",
+        "town": "Wantagh",
+        "business": "Window Treatments",
+        "info": "A huge variety of custom window treatments, professionally measured and installed, for a great price! Celebrating our 33rd year serving you.",
+        "mapname": "Budget Blinds",
+        "loc": 28,
+        "phone": "516-825-3135",
+        "discount": "30% off all our exclusive brand products.",
+        "web": "http://BudgetBlinds.com",
+        "category": "live_and_work",
+        "subcategory": "home_and_garden_supplies",
+        "address_formatted": "Wantagh, NY, United States of America",
+        "priority": "D",
+        "img": "LB-28D",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70209251924562,
+          40.58598081175898
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0eVN0UnFgLjlnYaWorh38n6JdbS30Faq",
+      "type": "Feature",
+      "properties": {
+        "id": "seamanplumbingandheating",
+        "address": "257 W. Walnut St.",
+        "town": "Long Beach",
+        "business": "Heating and Plumbing",
+        "info": "Licensed and insured Long Beach plumbing company serving the community for 20 plus years. All phases of plumbing and heating. ",
+        "mapname": "Seaman Plumbing and Heating",
+        "loc": 29,
+        "phone": "516-431-7473",
+        "web": "http://SeamanPlumbing.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "257 West Walnut Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-29D",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67168095,
+          40.58776615
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "a3sCAArGhtMVRG4odcOySb3ZthwNrhM6",
+      "type": "Feature",
+      "properties": {
+        "id": "drlelandbarry",
+        "address": "651 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Optical / Optometrist",
+        "info": "Over 40 years experience. Affordable eyewear with many designer frames. Contact lens specialist. Accepts most insurances including VSP and EyeMed. Closed Sundays. ",
+        "mapname": "Dr. Leland Barry",
+        "loc": 30,
+        "phone": "516-670-0600",
+        "web": "http://DrBarryOD.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "optometrists",
+        "address_formatted": "651 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-30T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64456086193951,
+          40.589067663416486
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0xL0bcm1lvmoA5jy9BBEVOQHwleJwbcc",
+      "type": "Feature",
+      "properties": {
+        "id": "jewelrybysteven",
+        "address": "643 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Jewelry",
+        "info": "In a store filled with diamonds and gold the most precious thing is our customer. Custom designs. Expert repairs. We carry the fun stuff!",
+        "mapname": "Jewelry by Steven",
+        "loc": 31,
+        "phone": "516-897-0700",
+        "web": "http://JewelryBySteven.com",
+        "category": "shop_and_discover",
+        "subcategory": "jewelry_and_accessories",
+        "address_formatted": "643 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-31D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64551921511848,
+          40.588935644199566
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Fqi89I3Blaz9IaZXVO9w0I6hbHrQ6IM0",
+      "type": "Feature",
+      "properties": {
+        "id": "beinspiredlbsalon",
+        "address": "647 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Hair Salon",
+        "info": "Proudly serving our clients since 2015. Your inspiration fuels our creativity. Allow us to make your beauty a reality.",
+        "mapname": "Be Inspired LB Salon",
+        "loc": 32,
+        "phone": "516-415-7822",
+        "web": "http://LBInspiredSalon.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "647 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-32S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64517814784217,
+          40.58907921988009
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "miGEOy0aSZ92cnWBQrj1ODxrCeRZ9WNE",
+      "type": "Feature",
+      "properties": {
+        "id": "centuryverdeschiwalshrealty",
+        "address": "1025 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Serving Long Beach, Lido Beach, Atlantic Beach, E. Atlantic Beach, Pt. Lookout & Island Park for over 50 years. An experienced MLS Realtor for all your service needs. ",
+        "mapname": "CENTURY 21 - Verdeschi & Walsh Realty",
+        "loc": 33,
+        "phone": "516-431-6160",
+        "discount": "$500 credit payable towards the moving company of your choice when you sell or buy with us.",
+        "exp": "05/31/2026",
+        "web": "http://VerdeschiAndWalshRealty.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "1025 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-33P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69750013892023,
+          40.586152637166514
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ldtgb6Rl3ymy4uzpJZMoHgpMasfzmUXO",
+      "type": "Feature",
+      "properties": {
+        "id": "centuryverdeschiwalshrealtyrhondahealy",
+        "address": "1025 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Premier Real Salesperson Agent for Nassau and Suffolk Counties, and the five boroughs for 19+ years. Accredited buyer and seller representative, commercial and residential real estate.",
+        "mapname": "CENTURY 21 - Verdeschi & Walsh Realty - Rhonda Healy",
+        "loc": 34,
+        "phone": "516-236-7269",
+        "web": "http://Century21.com/real-estate-agent/profile/Rhonda-Healy-P80131995",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "1025 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-34D",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68527406935424,
+          40.582378430382185
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "P24z6vceSoWq31UGFXabYtrFNSZfRGnB",
+      "type": "Feature",
+      "properties": {
+        "id": "periperiguys",
+        "address": "163 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Portuguese Grilled Chicken - Farm fresh organic meats - Avocado salads, Chicken sandwiches - Robot server.",
+        "mapname": "Peri Peri GUYS",
+        "loc": 35,
+        "phone": "516-517-2899",
+        "web": "http://PeriPeriGuys.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "163 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-35T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65900924338719,
+          40.58895150196896
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Y7fJY1sRKHckxxFIhOg4Kt25uo6wh6V7",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachpubliclibrary",
+        "address": "111 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Public Library",
+        "info": "Fostering a love of reading and lifelong learning, cultivating community, and providing creative and cultural opportunities.",
+        "mapname": "Long Beach Public Library",
+        "loc": 36,
+        "phone": "516-432-7201",
+        "web": "http://LongBeachLibrary.org",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "111 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-36D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6674705,
+          40.5888677
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5niXuWPfmyOjz4RHTGjOVFURagGj9Fb5",
+      "type": "Feature",
+      "properties": {
+        "id": "michaelstailoringdrycleaning",
+        "address": "48 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Dry Cleaner",
+        "info": "Serving Long Beach for over 30 years with exceptional quality and experienced workmanship at reasonable prices. From jeans to wedding dresses, we handle it all.",
+        "mapname": "Michael's Tailoring & Dry Cleaning",
+        "loc": 37,
+        "phone": "516-889-9047",
+        "category": "live_and_work",
+        "subcategory": "dry_cleaning",
+        "address_formatted": "48 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-37D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66207170318043,
+          40.58829631437121
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RUHpJJmgkLp2BEy3Tmw74Wl0wRZ1RFs0",
+      "type": "Feature",
+      "properties": {
+        "id": "danielgalesothebysinternationalrealtykarenmay",
+        "address": "58 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Buying, selling, or renting? Karen Roth May of Daniel Gale Sotheby's International Realty delivers expert guidance, personalized service, and local market knowledge.",
+        "mapname": "Daniel Gale Sotheby’s International Realty - Karen May",
+        "loc": 38,
+        "phone": "516-380-8770",
+        "web": "http://DanielGale.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-38P",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66072512230926,
+          40.59478284850407
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5mSo3CrbbEZLGnTritp9L4Ym44DvkHqL",
+      "type": "Feature",
+      "properties": {
+        "id": "jilinsuranceagency",
+        "address": "1013 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Insurance",
+        "info": "Serving the insurance needs of Long Beach for over 34 years. Flood, home, auto, motorcycle and business insurance. Your full service neighbor insurance agency. ",
+        "mapname": "Jil Insurance Agency",
+        "loc": 39,
+        "phone": "516-432-4800",
+        "web": "http://JilAgency.com",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "1013 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-39T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69694910953605,
+          40.58631242107814
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "OgAUd6GyrzzIVlguOFzDSnqfnSXDBILQ",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachartleague",
+        "address": "PO Box 862",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "Showcasing diverse art and photography for 70+ years. Exhibits, creative programs, and artistic opportunities at the Long Beach Public Library.",
+        "mapname": "Long Beach Art League",
+        "loc": 40,
+        "web": "http://LongBeachArtLeague.com",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "D",
+        "img": "LB-40D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65805380999039,
+          40.588778164722065
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "i4lYvpAaQNreY8inp6D7TQ5qHdoD3qWB",
+      "type": "Feature",
+      "properties": {
+        "id": "beechcombersalon",
+        "address": "805 W Beech St.",
+        "town": "Long Beach",
+        "business": "Hair Salon",
+        "info": "Friendly full service salon with professional stylists. Call and make an appointment today!",
+        "mapname": "Beech Comber Salon",
+        "loc": 41,
+        "phone": "516-544-2907",
+        "instagram": "https://www.instagram.com/beech_comber_salon/",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "805 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-41D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68721580068075,
+          40.58635895563958
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XiZHiooUmMeaiWIUIgyJ9z1dM00rDGkt",
+      "type": "Feature",
+      "properties": {
+        "id": "baldoria",
+        "address": "42 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Offering fine Italian dining with a modern twist. Featuring an extensive menu, daily specials, handcrafted cocktails, and exceptional service in an elegant atmosphere.",
+        "mapname": "Baldoria",
+        "loc": 42,
+        "phone": "516-431-2122",
+        "web": "http://BaldoriaLBNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "42 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-42D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66236605238042,
+          40.58815152447803
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SSNtxkR9W5JszO35KZ35wy17Q8bEjBI8",
+      "type": "Feature",
+      "properties": {
+        "id": "laureltailorsanddrycleaners",
+        "address": "285 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Tailors and Dry Cleaners",
+        "info": "Family-owned and operated for three generations. Serving Long Beach since 1963. All work done on premises. Same-day service at no extra charge. \"A better cleaner for those who care.\" ",
+        "mapname": "Laurel Tailors and Dry Cleaners",
+        "loc": 43,
+        "phone": "516-431-6863",
+        "web": "http://LaurelCleaners.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "285 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-43D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67240539151948,
+          40.58876701777699
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "LHZjohS71zqEGg0tLvHL867iu6FWey1w",
+      "type": "Feature",
+      "properties": {
+        "id": "zapmytax",
+        "address": "100 Lido Blvd.",
+        "town": "Point Lookout",
+        "business": "Property Tax Reductions",
+        "info": "For over 35 years, ZapMyTax has helped homeowners save year after year. “No Reduction – No FEE, I guarantee it!”  Laurie Fey / CEO",
+        "mapname": "Zap My Tax",
+        "loc": 44,
+        "phone": "516-889-5500",
+        "web": "http://ZapMyTax.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "100 Lido Boulevard, Point Lookout, NY 11569, United States of America",
+        "priority": "P",
+        "img": "LB-44P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5801179,
+          40.59228815
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yvp6mAtkEHna5Dzrsr6PqzrgKYUuZyWZ",
+      "type": "Feature",
+      "properties": {
+        "id": "matthewscohenmdfaap",
+        "address": "255 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Pediatrics",
+        "info": "State-of-the-art facility, open 7 days a week with 24-hour on call services. Friendly and courteous staff. well child care, urgent care issues, and summer patients welcome.",
+        "mapname": "Matthew S. Cohen, MD, FAAP",
+        "loc": 45,
+        "phone": "516-543-5000",
+        "web": "http://MatthewCohenMD.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "pediatricians",
+        "address_formatted": "255 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-45D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6718467,
+          40.588780499488784
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ulW15XD4GTpI6FW03UBswBwYjJJbGrKI",
+      "type": "Feature",
+      "properties": {
+        "id": "josephjoesinnonanorthstarteamatexprealty",
+        "address": "51 Oswego Ave.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Top-tier real estate team specializing in Long Island, Queens, and Brooklyn, providing expert guidance and exceptional client service.",
+        "mapname": "Joseph (Joe) Sinnona - Northstar Team at Exp Realty",
+        "loc": 46,
+        "phone": "516-375-8162",
+        "web": "http://JosephSinnona.ExpRealty.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "51 Oswego Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-46P",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68253418798058,
+          40.58246107233754
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "20eL6IjLeI4xkonqfNe0wzTWZvgvaFWB",
+      "type": "Feature",
+      "properties": {
+        "id": "hollywoodhealthclub",
+        "address": "265 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Fitness",
+        "info": "A full-service, 18,000 sq. ft. gym with two levels, men’s and women’s locker rooms, saunas, parking, and expert personal training.",
+        "mapname": "Hollywood Health Club",
+        "loc": 49,
+        "phone": "516-348-6377",
+        "web": "http://HollywoodHealthClub.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "fitness_centers",
+        "address_formatted": "265 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-49D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65673091660834,
+          40.58861683725096
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "W9f1FmiwrFWp5vgRIQ3g3uKYI53BoA8O",
+      "type": "Feature",
+      "properties": {
+        "id": "hollywoodwest",
+        "address": "1079 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Health and Fitness",
+        "info": "A boutique fitness club featuring a sauna, towel service, and semi-private training in an exclusive, upscale setting.",
+        "mapname": "Hollywood West",
+        "loc": 50,
+        "phone": "516-348-6377",
+        "web": "http://HollywoodHealthClub.com/West",
+        "category": "thrive_and_be_well",
+        "subcategory": "fitness_centers",
+        "address_formatted": "1079 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-50D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70008116958581,
+          40.58612365306201
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "MyAxacnxrKLjiX70TlHFxOuGuCr6TJqf",
+      "type": "Feature",
+      "properties": {
+        "id": "theridebyhollywood",
+        "address": "16 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Fitness",
+        "info": "A premiere cycling class studio with 30+ weekly cycling sessions, plus yoga, total body workouts, and more for a dynamic fitness experience.",
+        "mapname": "The Ride by Hollywood",
+        "loc": 51,
+        "phone": "516-348-6377",
+        "web": "http://TheRideByHollywood.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "fitness_centers",
+        "address_formatted": "16 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-51D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66337134626976,
+          40.58817211393155
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sntPJRmypz7yzyxU4CzeFByZuX0ADpFJ",
+      "type": "Feature",
+      "properties": {
+        "id": "brighteyebeerco",
+        "address": "50 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Brewery",
+        "info": "A small, independent, family-owned production brewery and taproom in the heart of Long Beach.",
+        "mapname": "Bright Eye Beer Co",
+        "loc": 52,
+        "phone": "516-543-5736",
+        "web": "http://BrightEyeBeerCo.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "Bright Eye Beer Co, 50 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-52D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66545325260411,
+          40.588263499380155
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ynXu27H61UBS2d8UvdiosRYfISVvjVdp",
+      "type": "Feature",
+      "properties": {
+        "id": "danielgalesothebysinternationalrealtytheleahteam",
+        "address": "58 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "The #1 associate real estate broker, delivering an unrivaled experience through local expertise, global reach, elite connections, and community involvement.",
+        "mapname": "Daniel Gale Sotheby’s International Realty - The Leah Team",
+        "loc": 53,
+        "phone": "516-670-1700",
+        "web": "http://LeahTozer.DanielGale.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-53P",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6710811531475,
+          40.58260949140764
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9ZEdgmDxb3oUo9P90gSCUVohR5WKTCl3",
+      "type": "Feature",
+      "properties": {
+        "id": "nolanspub",
+        "address": "435 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Bar",
+        "info": "Since 1939, Long Beach's favorite East End pub. Friendly crowd and bartenders. Pool table and bocce. \"Coldest beer in town!\" Open 7 days. Recently renovated.",
+        "mapname": "Nolan's Pub",
+        "loc": 55,
+        "phone": "516-432-9530",
+        "instagram": "https://www.instagram.com/nolanspublb/",
+        "category": "eat_and_drink",
+        "subcategory": "bars_and_pubs",
+        "address_formatted": "435 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-55D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6512143,
+          40.5889464
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "dAiE6HvuOlaH29DK0qWOOk1pGDGtGoUt",
+      "type": "Feature",
+      "properties": {
+        "id": "nagahamajapaneserestaurant",
+        "address": "169 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Come and visit the best Japanese restaurant on Long Island. You have never tasted anything like Nagahama!",
+        "mapname": "Nagahama Japanese Restaurant",
+        "loc": 56,
+        "phone": "516-432-6446",
+        "web": "http://NagahamaSushi.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "169 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-56T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65848306484767,
+          40.588883241141225
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "4VPcEYZbd7DvjvpQ7HW9RTSC4bgAVv7L",
+      "type": "Feature",
+      "properties": {
+        "id": "steveswildlife",
+        "address": "400 Hampton Rd Oceanside, NY 11572",
+        "town": "Long Beach",
+        "business": "Pest Control",
+        "info": "Humane and effective removal of wildlife, birds, and rodents. Exclusion, repairs, and remediation services available 24/7, 365 days a year.",
+        "mapname": "Steve's Wildlife",
+        "loc": 57,
+        "phone": "646-604-4001",
+        "web": "http://StevesWildlife.com",
+        "category": "live_and_work",
+        "subcategory": "pest_control",
+        "address_formatted": "400 Hampton Road, Oceanside, NY 11572, United States of America",
+        "priority": "D",
+        "img": "LB-57D",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65407421159716,
+          40.600552688739945
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SRWN4ROUjRigy3qNsqkbNHwcUni2OttI",
+      "type": "Feature",
+      "properties": {
+        "id": "parkavenueextendedcare",
+        "address": "425 National Blvd.",
+        "town": "Long Beach",
+        "business": "Nursing and Rehabilitation",
+        "info": "Skilled nursing facility, immaculate environment, views of Ocean and Bay. Walking distance to LIRR, Specialties in HBOT, Woundcare, Neuro/Stroke recovery, Secure Dementia Unit, & Respiratory Therapist on site.",
+        "mapname": "Park Avenue Extended Care",
+        "loc": 58,
+        "phone": "516-431-2600",
+        "web": "http://ParkAveCare.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "425 National Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-58P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66727828838415,
+          40.589713149999994
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "G0x7AYLo7WFurqDpG3vmxHWt9Id5jktH",
+      "type": "Feature",
+      "properties": {
+        "id": "precisionpharmacy",
+        "address": "629 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Pharmacy",
+        "info": "Family owned pharmacy that will fill prescriptions while you wait. We offer diabetic and home health care supplies and offer free delivery service.",
+        "mapname": "Precision Pharmacy",
+        "loc": 59,
+        "phone": "516-889-8899",
+        "category": "thrive_and_be_well",
+        "subcategory": "pharmacies",
+        "address_formatted": "629 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-59D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64646764503348,
+          40.589067046543356
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YyXOFS6zLv0MrSIvRzJm4eDmq0IfcmXy",
+      "type": "Feature",
+      "properties": {
+        "id": "doristheflorist",
+        "address": "233 Long Beach Rd.",
+        "town": "Island Park",
+        "business": "Florist",
+        "info": "Over 40 years experience. Quality design. Daily delivery! Weddings; funeral arrangements; corporate events; theme parties; gourmet baskets.",
+        "mapname": "Doris The Florist",
+        "loc": 60,
+        "phone": "516-897-2460",
+        "web": "http://DorisTheFloristt.com",
+        "category": "shop_and_discover",
+        "subcategory": "florists",
+        "address_formatted": "233 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+        "priority": "P",
+        "img": "LB-60P",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65658555905932,
+          40.59546717082343
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "EPj0n9jvhiPPmN67DEH1m1lUSQKcPuoY",
+      "type": "Feature",
+      "properties": {
+        "id": "cybernetsynergy",
+        "address": "38 W. Park Ave. Suite 500",
+        "town": "Long Beach",
+        "business": "Web Development",
+        "info": "Website hosting, design, development and SEO since 2001. Friendly, experienced, helpful, we care about our customers. Your success is our business!",
+        "mapname": "Cybernet Synergy",
+        "loc": 61,
+        "phone": "516-897-8419",
+        "web": "http://CybernetNY.com",
+        "category": "live_and_work",
+        "subcategory": "web_design",
+        "address_formatted": "38 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-61D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66507225354003,
+          40.58826557855821
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "GTqb7NF2Lqb2MbgM69PUPj9yCpNpExdh",
+      "type": "Feature",
+      "properties": {
+        "id": "gelospointpharmacy",
+        "address": "62 Lido Blvd.",
+        "town": "Point Lookout",
+        "business": "Pharmacy",
+        "info": "Full service pharmacy, card & gift shop, and convenience store, all in one. Open 7 days a week. Free delivery. $5 off your purchase of $25+, excluding prescriptions.",
+        "mapname": "Gelo's Point Pharmacy",
+        "loc": 62,
+        "phone": "516-889-3444",
+        "web": "http://GelosRx.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "pharmacies",
+        "address_formatted": "62 Lido Boulevard, Point Lookout, NY 11569, United States of America",
+        "priority": "D",
+        "img": "LB-62D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58133550310957,
+          40.592425993607165
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "EObHs74KVN48TaluvHCKd1GMVbO9XQij",
+      "type": "Feature",
+      "properties": {
+        "id": "orderaplumber",
+        "address": "77 Lido Blvd.",
+        "town": "Point Lookout",
+        "business": "Plumbing & Heating",
+        "info": "Delivering white-glove plumbing services in Long Beach. Expert repairs, installations, and emergency solutions—reliable, fast, and trusted by the community",
+        "mapname": "Order A Plumber",
+        "loc": 63,
+        "phone": "516-432-0246",
+        "web": "http://OrderAPlumber.com",
+        "category": "live_and_work",
+        "subcategory": "plumbing",
+        "address_formatted": "77 Lido Boulevard, Point Lookout, NY 11569, United States of America",
+        "priority": "P",
+        "img": "LB-63P",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58714993299282,
+          40.592046212091155
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hirfvTtETjf6KyoST4jtW4r2sjMB4KIP",
+      "type": "Feature",
+      "properties": {
+        "id": "pitstopcollision",
+        "address": "4452 Austin Blvd.",
+        "town": "Island Park",
+        "business": "Auto Body",
+        "info": "All insurance claims. Drive-in claim center. Expert body repair and painting. Computerized color matching. End-of-lease repair and detailing. 24-hour towing. We work with all insurance companies.",
+        "mapname": "Pit Stop Collision",
+        "loc": 64,
+        "phone": "516-897-6064",
+        "discount": "10% off your bill.",
+        "exp": "05/31/2026",
+        "web": "http://PitStopCollision.com",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "4452 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+        "priority": "T",
+        "img": "LB-64T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65637128059893,
+          40.5974883575586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6bWqzYswLM7Bs0frG1pGxtSizU3hBsn5",
+      "type": "Feature",
+      "properties": {
+        "id": "blacksmithsbreads",
+        "address": "870 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Bakery/Cafe",
+        "info": "Fresh sourdough from local grain, delicious food, and Long Island-roasted coffee—all for the vibrant community we proudly call home.",
+        "mapname": "Blacksmith's Breads",
+        "loc": 65,
+        "phone": "516-490-5539",
+        "web": "http://BlacksmithsBreads.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "870 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-65S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68998368173477,
+          40.58541906597952
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "TwnnWUUjXFKaV0CcBTc2h0oMe3Q2LzbQ",
+      "type": "Feature",
+      "properties": {
+        "id": "covergirlfashion",
+        "address": "130 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Women's Boutique",
+        "info": "The next time you want to treat yourself to a shopping spree, visit Cover Girl! Our selection is extensive, and our prices are incredibly affordable.",
+        "mapname": "Cover Girl Fashion",
+        "loc": 66,
+        "phone": "516-442-3783",
+        "web": "http://WomensClothingLongBeach.com",
+        "category": "shop_and_discover",
+        "subcategory": "clothing_and_fashion",
+        "address_formatted": "130 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-66S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65990031272442,
+          40.5883105185375
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "f8PfQZ5ta9F4jfiroxGKA16McQRAYuer",
+      "type": "Feature",
+      "properties": {
+        "id": "familyplus",
+        "address": "214 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Party Supplies / Toys",
+        "info": "Your one-stop shop for all your needs! We carry balloons, toys, party supplies, cleaning products, health and beauty essentials, and home goods.",
+        "mapname": "Family 99¢ Plus",
+        "loc": 67,
+        "phone": "516-851-8086",
+        "web": "http://Find us on Google Maps",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "Family 99¢ Plus, 214 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-67D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6578129928912,
+          40.58817941828077
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "upSUK8wNWNxNR0kQJfv9DcCuEmV3VI52",
+      "type": "Feature",
+      "properties": {
+        "id": "redefinemeals",
+        "address": "100 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Meal Preparation",
+        "info": "A menu featuring 60+ balanced, nutrient dense meals that make eating healthy easy. We have 20+ grab-and-go locations and deliver throughout Long Island and NYC.",
+        "mapname": "Redefine Meals",
+        "loc": 68,
+        "phone": "516-208-5806",
+        "web": "http://RedefineMeals.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "100 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-68S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66749145516621,
+          40.588243498242
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "F4UrEyHxknOqKiGYVLQg7s8JJo3TlPuT",
+      "type": "Feature",
+      "properties": {
+        "id": "cellcity",
+        "address": "54 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Wireless",
+        "info": "Your 1-stop shop for all your wireless needs. Phones, access, repairs, e-bikes, prepaid, bill payments and more. Serving Long Beach for 30 years.",
+        "mapname": "Cell City",
+        "loc": 69,
+        "phone": "516-897-6060",
+        "web": "http://CellCityLB.com",
+        "category": "live_and_work",
+        "subcategory": "telecommunications",
+        "address_formatted": "54 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-69P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66563767650361,
+          40.58814534090152
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6Yni1LiqJHJaBeiGQuzN04QKmyOZqvyO",
+      "type": "Feature",
+      "properties": {
+        "id": "metrobytmobile",
+        "address": "64 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Wireless",
+        "info": "Switch to prepaid plans without the gotcha, unlimited Talk, Text & Data on Nationwide Fastest 5G Network. Starting as low as $25/month.",
+        "mapname": "Metro by T-Mobile",
+        "loc": 70,
+        "phone": "516-544-4656",
+        "web": "http://MetrobyT-Mobile.com",
+        "category": "live_and_work",
+        "subcategory": "telecommunications",
+        "address_formatted": "64 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-70P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6661226197236,
+          40.58826442681227
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "rH734NfKjC0KvMmvQ6lJyRidWa85Q94n",
+      "type": "Feature",
+      "properties": {
+        "id": "eastendpizza",
+        "address": "647 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Pizzeria / Restaurant",
+        "info": "Loved by locals for great pizza and Italian specialties since 1998.",
+        "mapname": "East End Pizza",
+        "loc": 71,
+        "phone": "516-889-8787",
+        "discount": "$2 off any large pie, 15% off dine-in orders of $50 or more.",
+        "exp": "05/31/2026",
+        "web": "http://EastEndPizzaLB.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "647 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-71T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64484510119739,
+          40.588956349920096
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XGft5bvYqvzVm1xMjbarjKfrw5NhxTri",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachlionsclub",
+        "address": "Long Beach VFW, 675 W. Park Avenue, Long Beach",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "The Lions Club is a civic organization whose members do charitable work for the community and Lions Clubs International. Serving the Long Beach community since 1926.",
+        "mapname": "Long Beach Lions Club",
+        "loc": 72,
+        "web": "http://LongBeachLionsClub.org",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "675 W Park Ave, Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-72D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6862921,
+          40.5887507
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hBxpMqGGRhXET9g5PAXQYNQGR4WcFW0u",
+      "type": "Feature",
+      "properties": {
+        "id": "stjamesofjerusalemepiscopalchurch",
+        "address": "220 W. Penn St.",
+        "town": "Long Beach",
+        "business": "House of Worship",
+        "info": "A church where everyone is not only welcomed, but embraced. Sunday Mass 10:00am. #stjameslb",
+        "mapname": "St. James of Jerusalem Episcopal Church",
+        "loc": 73,
+        "phone": "516-432-1080",
+        "web": "http://StJamesLB.org",
+        "category": "gather_and_connect",
+        "subcategory": "places_of_worship",
+        "address_formatted": "220 West Penn Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-73D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67021634282524,
+          40.58521326080172
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ov7njpF0KPqYtJxFf2J4qkaOYq7eg3vq",
+      "type": "Feature",
+      "properties": {
+        "id": "beachterracecarecenter",
+        "address": "640 W. Broadway",
+        "town": "Long Beach",
+        "business": "Nursing and Rehabilitation",
+        "info": "Located directly on the beautiful boardwalk in Long Beach, we're the perfect place to enjoy the outdoors with staff and family.",
+        "mapname": "Beach Terrace Care Center",
+        "loc": 74,
+        "phone": "516-431-4400",
+        "web": "http://Beach-Terrace.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "The Tides Nursing Home, 640 West Broadway, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-74P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68303682052615,
+          40.58420535
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "DLJZSq70dwfKspk7edqKgtbKg0iZ4ZIN",
+      "type": "Feature",
+      "properties": {
+        "id": "yummyyummyasianbistro",
+        "address": "153 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "We offer Chinese, Japanese, sushi and hibachi. Full bar. Serving Long Beach for 20 years.",
+        "mapname": "Yummy Yummy Asian Bistro",
+        "loc": 75,
+        "phone": "516-897-5598",
+        "web": "http://YummyYummyLB.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "153 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-75T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66048564581766,
+          40.588839995779665
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6EwQ4YQeAnzQISJYJI5GGFr6BuJ8AGvI",
+      "type": "Feature",
+      "properties": {
+        "id": "sunshinecarenetwork",
+        "address": "806 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Tutoring (Clinical Staffing)",
+        "info": "We offer tutoring services, mental health programs, and education and referral services for children and adults struggling with behavioral, social, and emotional concerns.",
+        "mapname": "Sunshine Care Network",
+        "loc": 76,
+        "phone": "516-665-9300",
+        "web": "http://ClinicalStaffingResources.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "806 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-76T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6872255975039,
+          40.58579487966385
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Adqe4F2gm42flX4kxUSl7MnfTS35K4z7",
+      "type": "Feature",
+      "properties": {
+        "id": "clinicalstaffingresources",
+        "address": "806 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Tutoring (Clinical Staffing)",
+        "info": "We offer per diem and contract positions for Nursing, Therapy, Behavior Specialists, and Educators within Schools, LTC, ABA providers, and State Certified NYS Mental Health Providers.",
+        "mapname": "Clinical Staffing Resources",
+        "loc": 76,
+        "phone": "516-665-9300",
+        "web": "http://ClinicalStaffingResources.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "806 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-76T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68719879841157,
+          40.585448893081875
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6GdtbHQ92oJrb5uPMfA4L6Tcq13SNWCR",
+      "type": "Feature",
+      "properties": {
+        "id": "dovhadasarchitectpc",
+        "address": "600 Shore Rd.",
+        "town": "Long Beach",
+        "business": "Architect",
+        "info": "Transform your dream into a tangible, functional, and attractive building. Whether a Residential or Commercial project, Dov Hadas, AIA ensures quality from design schematics through final construction.",
+        "mapname": "Dov Hadas Architect, P.C.",
+        "loc": 77,
+        "phone": "516-678-8200",
+        "web": "http://DovHadasArchitect.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "600 Shore Road, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-77S",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65382721297976,
+          40.581928277941465
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "51RZYHhs2sdfuT6lm5VxhjibrbZoRdpE",
+      "type": "Feature",
+      "properties": {
+        "id": "ironagetattoostudio",
+        "address": "1083 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Tattoo Shop",
+        "info": "Creating high-quality, custom tattoos in a relaxed, professional environment. Our team of five artists offers diverse styles, backgrounds, and unique areas of expertise.",
+        "mapname": "Iron Age Tattoo Studio",
+        "loc": 78,
+        "phone": "516-442-2075",
+        "web": "http://IronAgeTattooNY.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "1083 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-78S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7004154901849,
+          40.58628858648549
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "srnPEbxt4HLAjn8yhajFRRTw9EjfFnsg",
+      "type": "Feature",
+      "properties": {
+        "id": "advancedspecialtieselectronics",
+        "address": "880 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Electronics",
+        "info": "Specialized in Ham Radio, CB Radio, Treasure Finders (Metal Detectors) and Electronics.",
+        "mapname": "Advanced Specialties Electronics",
+        "loc": 79,
+        "phone": "516-998-0370",
+        "web": "http://AdvancedSpecialties.net",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "880 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-79D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69068290000001,
+          40.5858709
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "11XASljj8GpCju1gjIw7iqBLGKEzlZnc",
+      "type": "Feature",
+      "properties": {
+        "id": "malinaportals",
+        "address": "160 Long Beach Rd.",
+        "town": "Island Park",
+        "business": "Health and Wellness",
+        "info": "Gongs, Sound Healing (50+ instruments), Yoga, Meditation, Reiki, Breathwork, and more. Classes for adults and children! Private sessions available. Over 16 years of experience.",
+        "mapname": "Malina Portals",
+        "loc": 80,
+        "phone": "516-216-9350",
+        "discount": "Take 10% off any service of $100 or more.",
+        "exp": "05/31/2026",
+        "web": "http://MalinaPortals.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "160 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+        "priority": "D",
+        "img": "LB-80D",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66629107271177,
+          40.594369655746426
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HYynOtBUy9lErB8bnlKAjpzDOaVp8Nyx",
+      "type": "Feature",
+      "properties": {
+        "id": "thebungalow",
+        "address": "631 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Serving up the most creative and delicious dishes this side of Manhattan, we have the best shakes, salads, wraps, and more on the beach.",
+        "mapname": "The Bungalow",
+        "loc": 81,
+        "phone": "516-632-2501",
+        "discount": "$10 off your order of $60 or more on dine-in, take out and delivery orders.",
+        "exp": "05/31/2026",
+        "web": "http://TheBungalowGrill.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "631 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-81S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64614112996958,
+          40.58893961150368
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NvgnSB2PcCD8pu71dgbRJCAeSKnbarm7",
+      "type": "Feature",
+      "properties": {
+        "id": "thedjchefexperience",
+        "address": "",
+        "town": "Long Beach",
+        "business": "Entertainment",
+        "info": "High-energy, interactive adventure that blends gourmet cooking with live DJ entertainment. DJ CHEF creates an unforgettable atmosphere for eating, drinking, dancing, and partying.",
+        "mapname": "The DJ Chef Experience",
+        "loc": 82,
+        "phone": "516-263-CHEF",
+        "web": "http://DJChef.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "T",
+        "img": "LB-82T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66122659951122,
+          40.58693898808064
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nGTQ72M4cdXRrY3zBgX6KiDJ3YjbgpYB",
+      "type": "Feature",
+      "properties": {
+        "id": "cafeoflifechiropractic",
+        "address": "100 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Chiropractic",
+        "info": "We specialize in Pediatric, Pregnancy and Neuro-focused Family Care.",
+        "mapname": "Cafe of Life Chiropractic",
+        "loc": 83,
+        "phone": "516-425-0113",
+        "web": "http://CafeofLife.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "100 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-83D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66722820108998,
+          40.588139139348975
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "W3fjLMbuPSzgRA2CBci47jKKBgsEbfFn",
+      "type": "Feature",
+      "properties": {
+        "id": "theresaclanzonemdfaap",
+        "address": "350 National Blvd.",
+        "town": "Long Beach",
+        "business": "Pediatrics",
+        "info": "Board certified pediatrician with 20+ years of experience. Speaks Spanish and Italian. Accepts most major insurance.",
+        "mapname": "Theresa C. Lanzone, M.D., F.A.A.P.",
+        "loc": 84,
+        "phone": "516-432-0545",
+        "category": "thrive_and_be_well",
+        "subcategory": "pediatricians",
+        "address_formatted": "350 National Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-84S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66641803662796,
+          40.588257652111
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sn1G1uzCQHJuD4lvJ4bECiuP5QLxJZBU",
+      "type": "Feature",
+      "properties": {
+        "id": "felicia",
+        "address": "26 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Where exquisite small plates, fine wines, and crafted cocktails come together. Our chic, inviting space offers the perfect setting for both intimate evenings and lively gatherings.",
+        "mapname": "Felicia",
+        "loc": 85,
+        "phone": "516-417-8900",
+        "web": "http://FeliciaLBNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "Corazon de Cuba, 26 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-85D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66283658705515,
+          40.58813954734488
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "iQx4587BoWynlTj7YtIGfoSKCGdoE0aw",
+      "type": "Feature",
+      "properties": {
+        "id": "studioqiacupuncture",
+        "address": "323 Magnolia Blvd. Suite 200",
+        "town": "Long Beach",
+        "business": "Acupuncture",
+        "info": "New York State Licensed Acupuncturist providing acupuncture and cupping for lower back, neck, shoulder pain, stress, anxiety, headaches, fertility. Insurances accepted. 15-minute complimentary consultation.",
+        "mapname": "Studio Qi Acupuncture",
+        "loc": 86,
+        "phone": "516-967-1680",
+        "web": "http://StudioQIAcupuncture.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "acupuncture",
+        "address_formatted": "323 Magnolia Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-86S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66986591712447,
+          40.587846512242926
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HXwYTCn5w8w7lpe9C9T3KliebqLJdCLn",
+      "type": "Feature",
+      "properties": {
+        "id": "centremillworksupplyco",
+        "address": "669 Long Beach Blvd.",
+        "town": "Long Beach",
+        "business": "Lumber Yard",
+        "info": "A family-owned, full service lumberyard providing homeowners and professional contractors with quality lumber and building materials since 1949.",
+        "mapname": "Centre Millwork & Supply Co.",
+        "loc": 87,
+        "phone": "516-432-6566",
+        "web": "http://CentreMillwork.com",
+        "category": "live_and_work",
+        "subcategory": "building_materials",
+        "address_formatted": "669 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-87T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65846574416473,
+          40.592996052741405
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6nxqN6HSi7IJMgrQ3XOKCQIT82pdCnSN",
+      "type": "Feature",
+      "properties": {
+        "id": "magnoliapierbaittackle",
+        "address": "198 W. Bay Dr. Suite Blue",
+        "town": "Long Beach",
+        "business": "Bait & Tackle",
+        "info": "The best fishing on the island! One-stop shop for your fishing needs. Rod rentals, fresh bait, and tackle.",
+        "mapname": "Magnolia Pier Bait & Tackle",
+        "loc": 88,
+        "phone": "516-384-7702",
+        "web": "http://MagnoliaPier.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "Magnolia Pier Bait & Tackle, 198 West Bay Drive, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-88S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67002529145142,
+          40.5935596
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YQLdwCuIj2041lQjMiQZq6rPGLVIbld8",
+      "type": "Feature",
+      "properties": {
+        "id": "dynamicstudio",
+        "address": "28 W. Park Ave. 2nd Floor",
+        "town": "Long Beach",
+        "business": "Health and Fitness",
+        "info": "High energy Pilates studio in the center of town. Offering reformer, mat Pilates, yoga, sculpt, and dance cardio. All classes expertly programmed to help you train smarter.",
+        "mapname": "Dynamic Studio",
+        "loc": 89,
+        "phone": "516-970-4068",
+        "web": "http://DynamicStudioLB.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "fitness_centers",
+        "address_formatted": "28 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-89D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6646775823239,
+          40.58826834983424
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nvKAKNCiXzWqbWEUtthLMPn9T6drTqGd",
+      "type": "Feature",
+      "properties": {
+        "id": "tasteofitaly",
+        "address": "36 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "At Taste of Italy (formally La Bottega), the basis for every dish is prepared from scratch and made in-house. You won't find better Italian cuisine anywhere!",
+        "mapname": "Taste of Italy",
+        "loc": 90,
+        "phone": "516-442-0982",
+        "web": "http://TasteOfItalyLB.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "36 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-90S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66261156881355,
+          40.588305521599494
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "mvvIYVv6UEnaiZpBoztnjhd2pyPqJqbM",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemove",
+        "address": "150 Crossways Park Dr. West",
+        "town": "Woodbury",
+        "business": "Moving Company",
+        "info": "With over 35 years of experience, hundreds of five-star reviews, and dozens of awards, your best choice for moving! Get your free estimate online or call us today.",
+        "mapname": "Men on the Move",
+        "loc": 91,
+        "phone": "516-773-6683",
+        "web": "http://MenOnTheMove.com",
+        "category": "live_and_work",
+        "subcategory": "moving_services",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+        "priority": "T",
+        "img": "LB-91T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65261607277138,
+          40.59089271106734
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "VeiyuSGWOOM6oGPjy7zMIyNbRik5x3DJ",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemovemobilestorage",
+        "address": "150 Crossways Dr. West",
+        "town": "Woodbury",
+        "business": "Mobile Storage",
+        "info": "Long Island's best value in mobile storage! Insulated mobile storage units along with award-winning moving services to load and offload your Cube!",
+        "mapname": "Men on the Move - Mobile Storage",
+        "loc": 92,
+        "phone": "516-773-6683",
+        "web": "http://MenOnTheMove.com",
+        "category": "live_and_work",
+        "subcategory": "storage",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+        "priority": "T",
+        "img": "LB-92T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.61081587940038,
+          40.62143220851945
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vX3RzN0vIPgasfacii93QlU5VrWxPTaz",
+      "type": "Feature",
+      "properties": {
+        "id": "athleteprotocol",
+        "address": "150 W. Bay Dr. 2nd Floor",
+        "town": "Long Beach",
+        "business": "Health & Wellness",
+        "info": "Blending sports performance with personal development, empowering athletes to succeed in competition, life, and the transition from middle school to high school to college athletics.",
+        "mapname": "Athlete Protocol",
+        "loc": 93,
+        "phone": "516-518-7838",
+        "discount": "Free performance assessment.",
+        "exp": "05/31/2026",
+        "web": "http://Athlete-Protocol.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "Long Beach Municipal Ice Arena, 150 West Bay Drive, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-93S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66859649203252,
+          40.5927685
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "zC4WXXp8KpfEalyp8FvQK28rp5lsdLJp",
+      "type": "Feature",
+      "properties": {
+        "id": "danamanzapsychotherapy",
+        "address": "120 W. Park Ave. Suite 312B2",
+        "town": "Long Beach",
+        "business": "Counseling",
+        "info": "Private practice offering individual and couples therapy for adults facing mental health symptoms, life challenges, or relationship issues. In-person & telehealth sessions available.",
+        "mapname": "Dana Manza Psychotherapy",
+        "loc": 94,
+        "phone": "516-210-2398",
+        "web": "http://DanaManza.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "mental_health_services",
+        "address_formatted": "120 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-94S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66822373366347,
+          40.58823771027745
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gKMG1QXCbqkc78fEvKNuAZEqGWFWphG3",
+      "type": "Feature",
+      "properties": {
+        "id": "tdbank",
+        "address": "550 Long Beach Blvd.",
+        "town": "Long Beach",
+        "business": "Bank",
+        "info": "One of the 10 largest banks in the U.S. Full range of retail, small business, and commercial banking.",
+        "mapname": "TD Bank",
+        "loc": 95,
+        "phone": "888-751-9000",
+        "web": "http://TD.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "TD Bank, 550 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-95S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65706627189996,
+          40.5912935
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "WJNlaLFqw3BVZgkxkhaADcv79amwKFTX",
+      "type": "Feature",
+      "properties": {
+        "id": "core",
+        "address": "126 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "Heated, boutique fitness studio that offers multiple fitness classes in a 95 degree room. Core 95-Fitness that’s Hot!",
+        "mapname": "Core 95",
+        "loc": 96,
+        "phone": "516-587-6517",
+        "web": "http://Core95.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "126 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-96S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66028927789858,
+          40.58815207463177
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5FSnlYQL6UqFaiRBgGxFbLSuMD8EtKAg",
+      "type": "Feature",
+      "properties": {
+        "id": "virayogacollective",
+        "address": "52 E. Park Ave. 2nd Floor",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "A welcoming + inclusive yoga space to be more human, move your body, do the inside work, and find community. ",
+        "mapname": "Vira Yoga Collective",
+        "loc": 97,
+        "phone": "516-218-6716",
+        "web": "http://ViraYogaCollective.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "52 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-97D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66174059992059,
+          40.58814095509422
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YDY6kiQtX84uggXSDheFdIpi9ipI6fJL",
+      "type": "Feature",
+      "properties": {
+        "id": "douglasellimankarlavgrasso",
+        "address": "30A W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Bringing a fresh spirit to real estate in Long Beach and beyond…   Let me guide you on your Real Estate journey. ",
+        "mapname": "Douglas Elliman - Karla V. Grasso",
+        "loc": 98,
+        "phone": "516-972-9525",
+        "web": "http://Elliman.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "30 A West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-98P",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6681797484913,
+          40.58242485256633
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xejegDpMkNIvW1jFjmE65oEOUO7gL3PX",
+      "type": "Feature",
+      "properties": {
+        "id": "mlkcenter",
+        "address": "615 Riverside Blvd.",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "A charitable community based organization dedicated to improving the health, human welfare, and educational attainment of all residents on the City of Long Beach. ",
+        "mapname": "MLK Center",
+        "loc": 99,
+        "phone": "516-240-2230",
+        "web": "http://LBMLK.org",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "MLK Community Center, 615 Riverside Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-99D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66038341440985,
+          40.592074
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9BchgE2Z14KsGvi3yiLn2nge0F8Te7ZM",
+      "type": "Feature",
+      "properties": {
+        "id": "katherinecoladnerdanielgalesothebysinternationalrealty",
+        "address": "58 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Passionate about community, real estate, and bringing people together to fufill their dreams. Lets connect and make yours a reality.",
+        "mapname": "Katherine Coladner - Daniel Gale Sotheby's International Realty",
+        "loc": 100,
+        "phone": "917-450-5804",
+        "instagram": "https://www.instagram.com/katherinecoladner/",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-100P",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66511911507953,
+          40.58240132183842
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pk0MwmnENMzc6xkEz6WloHZCoTDbbbk3",
+      "type": "Feature",
+      "properties": {
+        "id": "lajebookkeepingsolutions",
+        "address": "20 W. Park Ave., Suite 205",
+        "town": "Long Beach",
+        "business": "Bookkeeping and Tax Services",
+        "info": "Offering reliable bookkeeping and corporate and personal tax services, ensuring accurate records and timely filings to help you and your business thrive.",
+        "mapname": "LAJE Bookkeeping Solutions",
+        "loc": 101,
+        "phone": "516-860-9587",
+        "web": "http://LAJE.co",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "Junction, 20 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-101S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66445845227227,
+          40.58815375115937
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "kpShXNLDXFydmLSzEPlIohmxDFWKfHim",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachbicycles",
+        "address": "176 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Bicycles",
+        "info": "Full service shop. Offer a great selection: kids, hybrids, cruisers, road, mountain, and electric bikes. Wide apartment of accessories. Repair and service all makes and models. Bike rentals available.",
+        "mapname": "Long Beach Bicycles",
+        "loc": 102,
+        "phone": "516-517-2453",
+        "web": "http://LongBeachCycles.com",
+        "category": "visit_and_experience",
+        "subcategory": "bike_rentals",
+        "address_formatted": "176 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-102S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66922251679856,
+          40.588409207629105
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cfmLPGoK9NCQbAdSKF4MvzTE2dIWgepN",
+      "type": "Feature",
+      "properties": {
+        "id": "coastalwavewellnessbeautytheallegriahotel",
+        "address": "80 W. Broadway 1st Floor",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "Co-owned by Cortney Kucker, PA, and Dana Salanitri, NP, a woman- and veteran-owned medspa specializing in botox, microneedling, skincare, weight loss, hair regrowth, and IV infusions.",
+        "mapname": "Coastal Wave Wellness & Beauty @ The Allegria Hotel",
+        "loc": 103,
+        "phone": "516-993-2007",
+        "web": "http://CoastalWaveWellness.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "80 West Broadway, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-103D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6663652896451,
+          40.584204880074665
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "aV4IsUanlsrysx1guYyvOtLR2nuFtVGy",
+      "type": "Feature",
+      "properties": {
+        "id": "borrellistaproom",
+        "address": "912 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Bar / Restaurant",
+        "info": "Located in the heart of the west end and featuring delicious wood fired pizzas, taphouse classics and a vibrant nightlife, we're the place to be!",
+        "mapname": "Borrelli’s Tap Room",
+        "loc": 104,
+        "phone": "516-705-8674",
+        "web": "http://BorrellisTaproom.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "912 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-104S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69228903584509,
+          40.585630054065845
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "iUYMPyjC95KxYX7OaiCXis08Clq3GVgM",
+      "type": "Feature",
+      "properties": {
+        "id": "allegriahotel",
+        "address": "80 W. Broadway",
+        "town": "Long Beach",
+        "business": "Hotel",
+        "info": "Our oceanfront hotel awaits you! Elegant guestrooms with breathtaking views and fine oceanfront dining, with a wide range of amenities.",
+        "mapname": "Allegria Hotel",
+        "loc": 105,
+        "phone": "516-889-1300",
+        "web": "http://AllegriaHotelNY.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "80 West Broadway, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-105P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6656307372692,
+          40.58412251197079
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "B6w91hi5ATSeExlaBR8JMbaqYTwnKRqV",
+      "type": "Feature",
+      "properties": {
+        "id": "bigcatbikerentalstheallegriahotel",
+        "address": "80 W. Broadway",
+        "town": "Patchogue",
+        "business": "Bicycle Rental",
+        "info": "Friendly, customer-focused E-Bike rental shop at Allegria Hotel, serving Long Island 15+ years with 4.5-star reviews.",
+        "mapname": "Big Cat Bike Rentals @ the Allegria Hotel",
+        "loc": 106,
+        "phone": "516-564-2600",
+        "web": "http://BigCatBikes.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "Patchogue, NY, United States of America",
+        "priority": "D",
+        "img": "LB-106D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.0151084,
+          40.7656539
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "tLQkcYpt2Cg39sZXyzGHTPWD3hxmnA68",
+      "type": "Feature",
+      "properties": {
+        "id": "halperfamilymedicine",
+        "address": "1011 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Medical",
+        "info": "Established in 1979, we provide comprehensive primary care. Annual physicals, sick visits, and advanced laser anti-aging treatments. Personalized, long-term wellness for every patient in a welcoming environment.",
+        "mapname": "Halper Family Medicine",
+        "loc": 107,
+        "phone": "516-536-2221",
+        "web": "http://HalperFamilyMedicine.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "1011 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-107P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69624772696567,
+          40.5864039938812
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PkaXXxPfwR8IdRtHlL5MuBMyaOJThEQk",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachhistoricalsociety",
+        "address": "226 W. Penn St.",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "The Long Beach Historical Society and Museum is the guardian of our local history. Open on Sundays. As an all-volunteer, non-profit organization, donations are welcome.",
+        "mapname": "Long Beach Historical Society",
+        "loc": 108,
+        "phone": "516-432-1192",
+        "web": "http://LongBeachHistoricalSociety.org",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "Long Beach Historical & Preservation Society Museum, 226 West Penn Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-108S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67159225766203,
+          40.58519069777857
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7Yl3jDnwFHU0zFIvLYKZ95bABa6B8KIC",
+      "type": "Feature",
+      "properties": {
+        "id": "pksmokeshop",
+        "address": "254 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Smoke Shop and Convenience",
+        "info": "Cigarettes, e-cigarettes, vape, cigars, CBD, kratom, tobacco pipe, water pipe, glass pipe, hookah, hookah flavors.",
+        "mapname": "PK Smoke Shop",
+        "loc": 109,
+        "phone": "516-442-4543",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "PK Smoke Shop & Card Store, 254 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-109D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65680557456386,
+          40.58822752113124
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UBOjFtAq9dKklgVvipSqnqIZjjYl9BHq",
+      "type": "Feature",
+      "properties": {
+        "id": "brandsdelicatessen",
+        "address": "44 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Delicatessen",
+        "info": "Known for fast, friendly service and Boar’s Head sandwiches.",
+        "mapname": "Brand’s Delicatessen",
+        "loc": 110,
+        "phone": "516-431-1795",
+        "instagram": "https://www.instagram.com/brandsdelicatessen/",
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering",
+        "address_formatted": "44 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-110S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66527332592844,
+          40.588146926602114
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7baSNu02JUkxgndKlb2xwFGeSJgZiX3d",
+      "type": "Feature",
+      "properties": {
+        "id": "artsintheplaza",
+        "address": "1 W. Chester St.",
+        "town": "Long Beach",
+        "business": "Arts Market",
+        "info": "Long Beach's weekly Arts Market featuring handcrafted art and live music. Saturdays 9am - 2pm.",
+        "mapname": "Arts In The Plaza",
+        "loc": 111,
+        "phone": "516-476-2473",
+        "web": "http://ArtsInThePlaza.com",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "1 West Chester Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-111S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6660904,
+          40.5896397
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "mfbNrEOCPTnkGbNRLIudWPWzymQPSQgJ",
+      "type": "Feature",
+      "properties": {
+        "id": "clubpilatesoceanside",
+        "address": "3197 Long Beach Rd.",
+        "town": "Oceanside",
+        "business": "Health and Wellness",
+        "info": "Award-winning boutique fitness studio providing reformer-based, full body Pilates workouts for everyBODY. Increase mobility, balance and strength with our group classes and private training! 80+ classes/week!",
+        "mapname": "Club Pilates Oceanside",
+        "loc": 112,
+        "phone": "516-280-1515",
+        "web": "http://ClubPilates.com/Oceanside",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "3197 Long Beach Road, Oceanside, NY 11572, United States of America",
+        "priority": "D",
+        "img": "LB-112D",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67696264087704,
+          40.59035701720682
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "43DJ6x6o5LAsyk9gSCepjAgRSToXW5TD",
+      "type": "Feature",
+      "properties": {
+        "id": "jaheneghanstavernrestaurant",
+        "address": "57 Lido Blvd.",
+        "town": "Point Lookout",
+        "business": "Restaurant",
+        "info": "A warm, friendly destination that is family orientated and serves pub standards as well as some surprising innovative dishes.",
+        "mapname": "J.A. Heneghan's Tavern & Restaurant",
+        "loc": 113,
+        "phone": "516-544-2777",
+        "web": "http://HeneghansTavern.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "57 Lido Boulevard, Point Lookout, NY 11569, United States of America",
+        "priority": "S",
+        "img": "LB-113S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.581587514787,
+          40.591909697392445
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "znXphshKZBPdBGL0ReqOo1BGa6ByeN55",
+      "type": "Feature",
+      "properties": {
+        "id": "allislandhearing",
+        "address": "108 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Audiological and Hearing Instrument Services",
+        "info": "Offering the best line of hearing devices, including rechargeable, smartphone compatible, invisible, and custom fit hearing aids. Services for all devices including custom fittings, battery replacement, and cleaning.",
+        "mapname": "All Island Hearing",
+        "loc": 114,
+        "phone": "631-487-0040",
+        "web": "http://AllIslandHearingNY.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "108 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-114S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66789593155747,
+          40.58811466047539
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XSMx4yOBGl42yMKT80AHcp2SxNGVw9A5",
+      "type": "Feature",
+      "properties": {
+        "id": "parkavenuerealtylb",
+        "address": "162 W. Park Ave. Suite #2",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Family operated realtor in Long Beach. Focused on delivering value for our clients every step of the way. Thinking of buying, selling, or renting? Give us a call!",
+        "mapname": "Park Avenue Realty L.B.",
+        "loc": 115,
+        "phone": "516-442-2170",
+        "web": "http://ParkAvenueRealty.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "162 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-115D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66893373543378,
+          40.58823300073408
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2uuswXB3VPewtB86EnbnOD7WNo8YoGdo",
+      "type": "Feature",
+      "properties": {
+        "id": "studionoir",
+        "address": "1028 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Music School",
+        "info": "An innovative and award-winning music studio that offers; private, group, virtual and in-home lessons under the direction of Benjamin \"Benoir\" Metzger!",
+        "mapname": "Studio Noir",
+        "loc": 116,
+        "phone": "917-545-3833",
+        "web": "http://StudioNoir.Rocks",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "1028 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-116S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69739499300783,
+          40.585880465044845
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PYFAzuW3Et9XtXm2kI1Eyc9zDOeUqfAX",
+      "type": "Feature",
+      "properties": {
+        "id": "ananauperuviancuisine",
+        "address": "4547 Austin Blvd.",
+        "town": "Island Park",
+        "business": "Restaurant",
+        "info": "Authentic Peruvian cuisine in a welcoming atmosphere. Our expert chefs use fresh, high-quality ingredients to create delicious, flavorful dishes. Discover Peru's culinary richness.",
+        "mapname": "Ananau Peruvian Cuisine",
+        "loc": 117,
+        "phone": "516-517-2633 / 516-208-5212",
+        "web": "http://AnanauRestaurant.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "4547 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+        "priority": "S",
+        "img": "LB-117S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6548877,
+          40.5989874
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "zZEq5BHFODpejg9hTlr6sqNIRbViKVnX",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachtaxi",
+        "address": "1 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Taxi",
+        "info": "Serving our community for over 70 years. Conveniently located at the LIRR. Open 24/7. We offer senior rates, corporate and personal accounts.",
+        "mapname": "Long Beach Taxi",
+        "loc": 118,
+        "phone": "516-432-5200",
+        "web": "http://LongBeachTaxiNY.com",
+        "category": "live_and_work",
+        "subcategory": "taxi_services",
+        "address_formatted": "1 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-118D",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66676681666746,
+          40.586180645649
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Ni5ME5tJUAbQXIKo9mIAZjWe1obakPi0",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachhotel",
+        "address": "405 E. Broadway",
+        "town": "Long Beach",
+        "business": "Hotel",
+        "info": "Just one block from the beach, unwind at the beautifully renovated bar, the perfect spot for craft cocktails and a relaxed coastal vibe.",
+        "mapname": "Long Beach Hotel",
+        "loc": 119,
+        "phone": "516-544-4444",
+        "web": "http://LongBeachHotelNY.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "405 East Broadway, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-119D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65192899964056,
+          40.5850921
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YEUE0rX7vfuATpowWHdGXQZiUDerZlkJ",
+      "type": "Feature",
+      "properties": {
+        "id": "maxbialystokcompany",
+        "address": "159 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Bagels",
+        "info": "Traditional hand-rolled bagels, sandwiches, wraps, salads, coffee. Boar's Head, breakfast all day, delivery to beach, catering.",
+        "mapname": "Max Bialystok & Company",
+        "loc": 120,
+        "phone": "516-432-5300",
+        "discount": "Buy one dozen bagels get six free. Buy six bagels get three free. Excludes flats. Mon-Thurs. No holidays.",
+        "exp": "05/31/2026",
+        "category": "eat_and_drink",
+        "subcategory": "bakeries",
+        "address_formatted": "159 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-120D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65944605593499,
+          40.58885049610425
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "tHtihtgerk8DJGMiMp2CGsrervBVRXup",
+      "type": "Feature",
+      "properties": {
+        "id": "lbsocial",
+        "address": "62 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "A seasonal American restaurant that offers a modern interpretation to the traditional dinner party in a rustic, warm, and inviting space.",
+        "mapname": "LB Social",
+        "loc": 121,
+        "phone": "516-431-7846",
+        "web": "http://LBSocialNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "62 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-121D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66596209413626,
+          40.58813291040555
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PyT895ME0BYtsjPWhNHLXqJJSpSXORZ2",
+      "type": "Feature",
+      "properties": {
+        "id": "lbbistro",
+        "address": "150 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Enjoy a culinary trip to France with our French inspired menu & cocktails featuring classics like Moules, Escargot, Bouillabaisse, Fondue and more!",
+        "mapname": "LB Bistro",
+        "loc": 122,
+        "phone": "516-992-0014",
+        "web": "http://LBBistroNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "150 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-122D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65914539615474,
+          40.58831922207623
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AdphlaOON5aeyknnTh8FKXAhpLwEeOhs",
+      "type": "Feature",
+      "properties": {
+        "id": "bridgeworks",
+        "address": "670 & 780 Long Beach Blvd.",
+        "town": "Long Beach",
+        "business": "Office Space",
+        "info": "Flexible work, conference and event spaces available on demand, for an hour, day, week or month. Become a member today.",
+        "mapname": "Bridgeworks",
+        "loc": 123,
+        "phone": "516-308-9498",
+        "web": "http://BridgeworksLongBeach.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "Long Beach Boulevard, Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-123D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.657144,
+          40.593324
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "aHKOq60PE7jtcijdEfrNqezVtXef3ia1",
+      "type": "Feature",
+      "properties": {
+        "id": "thekeenekanine",
+        "address": "811 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Dog Training",
+        "info": "Positive reward-based training solutions in your home and neighborhood. Solutions for everyday behaviors. There is always time to start training!",
+        "mapname": "The Keene Kanine",
+        "loc": 124,
+        "phone": "516-633-5201",
+        "web": "http://KeeneKanine.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "811 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-124D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68725252506005,
+          40.5885133
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YKLrXcOIJz7q8b0hxgJvdsw1lQ3ebfSa",
+      "type": "Feature",
+      "properties": {
+        "id": "clearwaterbeachclub",
+        "address": "1875 Ocean Blvd.",
+        "town": "Atlantic Beach",
+        "business": "Beach Club",
+        "info": "Established for families to create and cherish lasting summer memories. A private membership club on the majestic Atlantic Ocean.",
+        "mapname": "Clearwater Beach Club",
+        "loc": 125,
+        "phone": "516-239-5511",
+        "web": "http://ClearWaterBeachClub.com",
+        "category": "visit_and_experience",
+        "subcategory": "beach_clubs",
+        "address_formatted": "1875 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
+        "priority": "P",
+        "img": "LB-125P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.73262219620446,
+          40.5868112
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Nz9CrSYx8uoRIDF7Bi2Fqpw0Cb0eT622",
+      "type": "Feature",
+      "properties": {
+        "id": "drnaturerx",
+        "address": "78 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "Long Beach's premier CBD shop, offering high-quality CBD products and natural wellness solutions. Locally owned, community-focused, and committed to helping you feel your best. ",
+        "mapname": "Dr. Nature Rx",
+        "loc": 126,
+        "phone": "516-632-5986",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "78 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-126P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66141923694339,
+          40.5882994986281
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cAeCEhlseDxvXBC7Rr2kZlPsUPeNxyhK",
+      "type": "Feature",
+      "properties": {
+        "id": "homeappliance",
+        "address": "3050 Long Beach Rd.",
+        "town": "Oceanside",
+        "business": "Appliances and Home Furnishings",
+        "info": "Since 1987, one of Long Island's largest independent family-owned retailers. Our unparalleled customer service and expert staff make appliance shopping enjoyable and easy.",
+        "mapname": "Home Appliance",
+        "loc": 127,
+        "phone": "516-678-1190",
+        "web": "http://LIHomeAppliance.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "3050 Long Beach Road, Oceanside, NY 11572, United States of America",
+        "priority": "P",
+        "img": "LB-127P",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67831099548494,
+          40.586809242123515
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hkLbuBQuFYcDnpcTzEp5bXvYV3zu91yk",
+      "type": "Feature",
+      "properties": {
+        "id": "kleinbergfuneralservices",
+        "address": "3930 Long Beach Rd.",
+        "town": "Island Park",
+        "business": "Funeral and Cremation Services",
+        "info": "Funeral and Cremation Provider Serving Long Beach and Surrounding Communities. Experts in Jewish funerals, green burials, monuments, pre-planning and travel plan.",
+        "mapname": "Kleinberg Funeral Services",
+        "loc": 128,
+        "phone": "516-400-5580",
+        "web": "http://KleinbergFunerals.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+        "priority": "P",
+        "img": "LB-128P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64477933689719,
+          40.614831265140424
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5Z4zz04nQvt5O857VKcf5DxhQzPFFDfy",
+      "type": "Feature",
+      "properties": {
+        "id": "jondabelectricalcontractors",
+        "address": "",
+        "town": "Long Beach",
+        "business": "Electrician",
+        "info": "We provide comprehensive electrical solutions, ensuring your home is safe, functional, and energy-efficient. Lighting installation, remodeling services, and EV charging solutions.",
+        "mapname": "Jon Dab Electrical Contractors",
+        "loc": 129,
+        "phone": "516-806-2311",
+        "web": "http://JonDabElectric.com",
+        "category": "live_and_work",
+        "subcategory": "electricians",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "P",
+        "img": "LB-129P",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65258006275351,
+          40.58843600663578
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Pn8n52pyR0J8z5rAbxbv3GNtc1lJUQLW",
+      "type": "Feature",
+      "properties": {
+        "id": "monarchbeverage",
+        "address": "505 Long Beach Blvd.",
+        "town": "Long Beach",
+        "business": "Beverage",
+        "info": "Your source for ice, soda, water and beer.",
+        "mapname": "Monarch Beverage",
+        "loc": 130,
+        "phone": "516-432-6767",
+        "instagram": "https://www.instagram.com/MonarchBeverageLBNY/",
+        "category": "eat_and_drink",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "505 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-130S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65848009053566,
+          40.59026746179278
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "BioaYFdnKLGAnBDD5Sv9bihdCU2EbxEt",
+      "type": "Feature",
+      "properties": {
+        "id": "beachwinemore",
+        "address": "515 Long Beach Blvd.",
+        "town": "Long Beach",
+        "business": "Wine & Liquor",
+        "info": "Small wine & spirits shop with a focus on natural wine & other esoteric offerings.",
+        "mapname": "Beach Wine & More",
+        "loc": 130,
+        "phone": "516-208-6151",
+        "discount": "10% off any purchase over $20.",
+        "exp": "05/31/2026",
+        "instagram": "https://www.instagram.com/BeachWineLBNY/",
+        "category": "shop_and_discover",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "515 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-130S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65830531933729,
+          40.59079042238594
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "MPnHE2lZW9CA7HnTC8tK9LmKGpTUtLfx",
+      "type": "Feature",
+      "properties": {
+        "id": "mackenmortuary",
+        "address": "3930 Long Beach Rd.",
+        "town": "Island Park",
+        "business": "Funeral Home",
+        "info": "Serving families with dignity, respect, and compassion. We help you celebrate your loved one no matter your religion, culture, or budget. Family owned & operated over 100 years.",
+        "mapname": "Macken Mortuary",
+        "loc": 131,
+        "phone": "516-431-7800",
+        "web": "http://MackenMortuary.com",
+        "category": "live_and_work",
+        "subcategory": "funeral_services",
+        "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+        "priority": "P",
+        "img": "LB-131P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6454253696218,
+          40.61449503873516
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xcvfaXVQGuCnqltTEKcNI5WBojxEHDwH",
+      "type": "Feature",
+      "properties": {
+        "id": "newleafcremation",
+        "address": "3930 Long Beach Rd.",
+        "town": "Island Park",
+        "business": "Cremation and Memorials",
+        "info": "Experienced, local, affordable. Island Park's premier cremation & memorial services.",
+        "mapname": "New Leaf Cremation",
+        "loc": 132,
+        "phone": "855-770-3777",
+        "web": "http://NewLeafCremation.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+        "priority": "P",
+        "img": "LB-132P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64415892621274,
+          40.61518232598655
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vVk7U1Bh6KggVN0foEmlRPXxN2fxwyKc",
+      "type": "Feature",
+      "properties": {
+        "id": "coldstonecreamery",
+        "address": "85 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Ice Cream",
+        "info": "For more than 30 years, we are serving up the finest & freshest in house made ice cream, cakes, cookies, smoothies and shakes. Stop by today.",
+        "mapname": "Cold Stone Creamery",
+        "loc": 133,
+        "phone": "516-283-0043",
+        "web": "http://ColdStoneCreamery.com/stores/24127",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "Stop & Shop, 85 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-133D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66196108710253,
+          40.58955625
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YhV1yL5gUcnshG086R5oP90bE2DU5I5b",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachcleanup",
+        "address": "98 Edwards Blvd, Long Beach, NY 11561, United States",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "Through weekly beach cleanup events we empower individuals of all ages to take action for the environment.",
+        "mapname": "Long Beach Cleanup",
+        "loc": 134,
+        "web": "http://LBCleanup.com",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "98 Edwards Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-134S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66376498662454,
+          40.58455976148709
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "jNTgDFkeiTdou3c94b4kIjrscAtx0HXn",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachfarmersmarket",
+        "address": "PO Box 1241",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "Preserving open space and assisting local farmers, fishers, and food producers by providing direct access to homegrown, fresh and nutritious foods.",
+        "mapname": "Long Beach Farmers Market",
+        "loc": 135,
+        "web": "http://LongBeachFarmersMarket.com",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "S",
+        "img": "LB-135S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65804077309276,
+          40.588482610990575
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RrAPkfwjTNTc6fWEMusVryNYXDNI1JVz",
+      "type": "Feature",
+      "properties": {
+        "id": "atlanticbeachtennisandpickleballcenter",
+        "address": "60 The Plaza",
+        "town": "Atlantic Beach",
+        "business": "Tennis and Pickleball",
+        "info": "Atlantic Beach's premier tennis & pickleball hub. Elevate your game! Book your court time on our website.",
+        "mapname": "Atlantic Beach Tennis and Pickleball Center",
+        "loc": 136,
+        "phone": "516-239-2011",
+        "web": "http://AtlanticBeachTennisAndPickleballCenter.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "60 The Plaza, Village of Atlantic Beach, NY 11509, United States of America",
+        "priority": "D",
+        "img": "LB-136D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.73682110162885,
+          40.5882976
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "koI92qvjkuEgkERhFoQPQNof0PS9O2cg",
+      "type": "Feature",
+      "properties": {
+        "id": "boardwalkbageldelicatessen",
+        "address": "105 Putnam Blvd.",
+        "town": "Atlantic Beach",
+        "business": "Bagels and Delicatessen",
+        "info": "Friendly greetings, quick service, and great food! Experience our casual and generously made yummy sandwiches, bagels, and salads.",
+        "mapname": "Boardwalk Bagel & Delicatessen",
+        "loc": 137,
+        "phone": "516-239-3900",
+        "web": "http://BoardWalkBagel.com/AtlanticBeach",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "105 Putnam Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
+        "priority": "T",
+        "img": "LB-137T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.72431424957128,
+          40.58899495
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "rkL4I4y8YXMVVOAXiDNIbsCd8FoQ7XFR",
+      "type": "Feature",
+      "properties": {
+        "id": "thebolandgroupatafn",
+        "address": "",
+        "town": "Long Beach",
+        "business": "Mortgage",
+        "info": "Originating mortgages for over 17 years. Whether buying a new home or refinancing your current mortgage give John a call today!",
+        "mapname": "The Boland Group at AFN",
+        "loc": 138,
+        "phone": "516-660-0702",
+        "web": "http://JB-Mortgage.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "D",
+        "img": "LB-138D",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6623920138186,
+          40.582170861237834
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "EIxs0gvd7SL0Akdh58JJ00Kw2G9baqDR",
+      "type": "Feature",
+      "properties": {
+        "id": "royalventcleaning",
+        "address": "",
+        "town": "Long Beach",
+        "business": "Vent Cleaning",
+        "info": "Dryer vent cleaning, ductless splits, HVAC duct cleaning and bath exhaust vents, dryer vent line replacement. Protect your family, pets and your home!",
+        "mapname": "Royal Vent Cleaning",
+        "loc": 139,
+        "phone": "516-986-8368",
+        "web": "http://RoyalVentCleaning.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "D",
+        "img": "LB-139D",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65524058806974,
+          40.58628193294512
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gGYmJ7nx8trMCDWyyGvShmaybUZESTVB",
+      "type": "Feature",
+      "properties": {
+        "id": "softwavelongisland",
+        "address": "714 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "Offering non-invasive, FDA-cleared pain relief and tissue healing using advanced shockwave technology. Experience lasting results without surgery or drugs. Visit our website today!",
+        "mapname": "Softwave Long Island",
+        "loc": 140,
+        "phone": "516-455-5638",
+        "web": "http://SoftwaveLongIsland.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-140P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6430031161238,
+          40.58845021123604
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "77BlysIzAPemnQfk8vi90FCv6RKuc8fe",
+      "type": "Feature",
+      "properties": {
+        "id": "eastparkchiropracticwellness",
+        "address": "714 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "Traditional and non-forced chiropractic for preventive care, pain, and injuries. Automobile accident, work-related, sports injury, massage therapy, homeopathic pain management, and nutritional consultation.",
+        "mapname": "East Park Chiropractic & Wellness",
+        "loc": 140,
+        "phone": "516-431-7972",
+        "web": "http://EastParkChiropractic.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "714 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-140P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64355505629445,
+          40.58842983004705
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ZByOMWH21iWrPYYg4a4PLGAAxAVf8HmZ",
+      "type": "Feature",
+      "properties": {
+        "id": "sunnyatlanticbeachclub",
+        "address": "2035 Ocean Blvd.",
+        "town": "Atlantic Beach",
+        "business": "Beach Club",
+        "info": "Long Island’s place to be! A private beach club where family, friends, and fun in the sun come together all summer long.",
+        "mapname": "Sunny Atlantic Beach Club",
+        "loc": 141,
+        "phone": "516-239-9090",
+        "web": "http://SunnyAtlantic.com",
+        "category": "visit_and_experience",
+        "subcategory": "beach_clubs",
+        "address_formatted": "2035 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
+        "priority": "P",
+        "img": "LB-141P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7376838,
+          40.5869894
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PtO2xNTJVY5KEpnQlFG0MlC7njtGPdIg",
+      "type": "Feature",
+      "properties": {
+        "id": "theshoresatatlanticbeach",
+        "address": "1845 Ocean Blvd.",
+        "town": "Atlantic Beach",
+        "business": "Beach Club",
+        "info": "Established in 2012, The Shores is a boutique private beach club in Atlantic Beach where everyone comes with a smile & leaves with a smile!",
+        "mapname": "The Shores at Atlantic Beach",
+        "loc": 142,
+        "phone": "516-812-9411",
+        "web": "http://TheShoresAB.com",
+        "category": "visit_and_experience",
+        "subcategory": "beach_clubs",
+        "address_formatted": "1845 Ocean Boulevard, Village of Atlantic Beach, NY 11509, United States of America",
+        "priority": "P",
+        "img": "LB-142P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.72924937021911,
+          40.58650355
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pvvRivl7VPBj0KyRmlB5xaROBXRvQY59",
+      "type": "Feature",
+      "properties": {
+        "id": "thebuoybar",
+        "address": "72 Bayside Dr.",
+        "town": "Point Lookout",
+        "business": "Restaurant",
+        "info": "Family owned & operated full service waterfront restaurant and bar. Scotty's gas dock and tackle shop has been serving the South shore communities since 1929.",
+        "mapname": "The Buoy Bar",
+        "loc": 143,
+        "phone": "516-432-3975",
+        "web": "http://BuoyBarLI.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "72 Bayside Drive, Point Lookout, NY 11569, United States of America",
+        "priority": "D",
+        "img": "LB-143D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.57958797453728,
+          40.594140100000004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "fdBoQU9JJmasMajJWufGzscRfiORBUMI",
+      "type": "Feature",
+      "properties": {
+        "id": "riptides",
+        "address": "1 Edwards Blvd.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Family friendly restaurant known for our famous Riptides fries. Best views and best bites on the boardwalk!",
+        "mapname": "Riptides",
+        "loc": 144,
+        "phone": "516-600-9011",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "1 Edwards Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-144S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66396392153558,
+          40.5839767
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gVRPklCNjC0O1VBPluuTrQh75vGtitKT",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachlatinocivicassociation",
+        "address": "670 Long Beach Blvd.",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "Empowering and advocating for communities and individuals to help them achieve self-reliance. Focused on civic participation, economic education, youth development, cultural awareness, and environmental justice.",
+        "mapname": "Long Beach Latino Civic Association",
+        "loc": 145,
+        "phone": "516-988-0039",
+        "web": "http://LBLatinoCivic.org",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "670 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-145S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65633311306112,
+          40.59292126887232
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YZ3tKuiywDtqirJ9F53ESTVTYk7QOJm4",
+      "type": "Feature",
+      "properties": {
+        "id": "lillysoflongbeach",
+        "address": "954 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Restaurant and Bar",
+        "info": "Irish & American pub fare in a relaxed setting with outdoor dining, sports on TV & live music.",
+        "mapname": "Lilly’s of Long Beach",
+        "loc": 146,
+        "phone": "516-442-5484",
+        "web": "http://LillysOfLongBeach.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "954 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-146T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69405803049811,
+          40.58580972591194
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "WnR7YE3wPFOGXVoQ16HICHStpBSnZ9X6",
+      "type": "Feature",
+      "properties": {
+        "id": "superpollo",
+        "address": "18 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Peruvian restaurant known for outstanding rotisserie chicken and green sauce, rice, and beans. Our chef has 20 years experience cooking in the finest restaurants.",
+        "mapname": "Super Pollo",
+        "loc": 147,
+        "phone": "516-208-8966",
+        "web": "http://SuperPolloLI.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "18 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-147S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6630986731919,
+          40.58829151076822
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "atuycaG589IXL5xk48C0G7MC98kgI93c",
+      "type": "Feature",
+      "properties": {
+        "id": "salononpark",
+        "address": "174 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Hair Salon",
+        "info": "Specializing in enhancing the inner and outer beauty of our clients through: service excellence, constant innovation, and continuous education.",
+        "mapname": "Salon On Park",
+        "loc": 148,
+        "phone": "516-431-2959",
+        "web": "http://SalonOnParkLB.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "174 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-148S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6692559088787,
+          40.5880956023298
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xm655xNMy8eAmfgIFzNJE603DCeBc5bT",
+      "type": "Feature",
+      "properties": {
+        "id": "keyfoodmarketplace",
+        "address": "663 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Supermarket",
+        "info": "Free delivery 7 days a week. Shop our online store 7 days a week.",
+        "mapname": "Key Food Marketplace",
+        "loc": 149,
+        "phone": "516-431-5515",
+        "web": "http://KeyFoodLongBeach.com",
+        "category": "shop_and_discover",
+        "subcategory": "supermarkets",
+        "address_formatted": "663 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-149T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64414829700603,
+          40.58896117109837
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "KVFXwXLHUQucMjskOoVPB5T07MXUndwH",
+      "type": "Feature",
+      "properties": {
+        "id": "beachbaseballcampclinics",
+        "address": "322 Lagoon Drive West, Lido Beach",
+        "town": "Serving our Barrier Island, Island Park, and more!",
+        "business": "Camp",
+        "info": "Experienced coaches instruct young athletes to reach their full potential in hitting, pitching, fielding, and running. Scrimmages and games played during two one-week summer baseball and softball camps.",
+        "mapname": "Beach Baseball Camp & Clinics",
+        "loc": 150,
+        "phone": "516-548-1001",
+        "web": "http://BeachBaseballCamp.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "322 Lagoon Drive West, Lido Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-150P"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.63512043917477,
+          40.5944932
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "wYyvcnfOemfRCVloPEqI7g2spfXXLIxt",
+      "type": "Feature",
+      "properties": {
+        "id": "oishiomakase",
+        "address": "116 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Indulge in our extraordinary Omakase, carefully crafted to elevate your dining experience. Savor an endless selection of fresh, hand-prepared sushi.",
+        "mapname": "Oishi Omakase",
+        "loc": 151,
+        "phone": "516-208-8002",
+        "web": "http://OishiLBNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "116 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-151D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66097680189563,
+          40.5881415734715
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Hvj30nbENhCbmJYqrLMpvNnunoQIQ5Kc",
+      "type": "Feature",
+      "properties": {
+        "id": "himawariseasonsasianpan",
+        "address": "36 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "The best pan-Asian restaurant in town! Serving healthy, fresh ingredients with a passion for creating unique flavors. Open 7 days. Private room available. We deliver!",
+        "mapname": "Himawari Seasons Asian Pan",
+        "loc": 152,
+        "phone": "516-442-3111",
+        "web": "http://SeasonsAsianPanNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "36 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-152D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6648584069939,
+          40.588151048137384
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ZCvDsYhCgQRP0leQB6Izrm3i1f77xAuQ",
+      "type": "Feature",
+      "properties": {
+        "id": "badboyburrito",
+        "address": "10 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Mexican-Style Burrito Joint and Taqueria with a unique menu that focuses on the traditions of Mexican cuisine combined with modern American twists.",
+        "mapname": "Bad Boy Burrito",
+        "loc": 153,
+        "phone": "516-208-6500",
+        "web": "http://BadBoyBurritoLBNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "10 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-153D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66424645976166,
+          40.588277294288545
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "F1X2Iz8laR6MNQLtdaLY6DQDYQzQ0cjT",
+      "type": "Feature",
+      "properties": {
+        "id": "anabelsbraidingboutique",
+        "address": "23A Bellmore Ave.",
+        "town": "Point Lookout",
+        "business": "Hair Salon",
+        "info": "Specializing in braiding and creative color. DM or call to book an appointment! House calls available upon request. ",
+        "mapname": "Anabel's Braiding Boutique",
+        "loc": 154,
+        "phone": "516-450-8229",
+        "web": "http://linktr.ee/BraidsByAnabel",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "23 Bellmore Avenue, Point Lookout, NY 11569, United States of America",
+        "priority": "D",
+        "img": "LB-154D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58314693554128,
+          40.592150875061414
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "w5tItdRwlBVeowoJusRLBFNJMso7Hx1e",
+      "type": "Feature",
+      "properties": {
+        "id": "highlightsonpoint",
+        "address": "23A Bellmore Ave.",
+        "town": "Point Lookout",
+        "business": "Hair Salon",
+        "info": "Knowledge and expertise to provide you with the best service possible. Consultations are the foundation to our success.",
+        "mapname": "Highlights on Point",
+        "loc": 154,
+        "phone": "516-789-9990",
+        "web": "http://Google us",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "23 Bellmore Avenue, Point Lookout, NY 11569, United States of America",
+        "priority": "D",
+        "img": "LB-154D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58268490312815,
+          40.592464498285786
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qi4tY9Gfv31YDi8n5ulukv0PuY7WYARF",
+      "type": "Feature",
+      "properties": {
+        "id": "nagoya",
+        "address": "236 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Delicious Japanese cuisine. Our specialty dishes have been well-crafted to create a delightful culinary experience. Enjoy the convenience of pickup or delivery.",
+        "mapname": "Nagoya",
+        "loc": 155,
+        "phone": "516-897-0077",
+        "web": "http://NagoyaLongBeach.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "236 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-155S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6715137,
+          40.5880491
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qbaqiPFW5ARx62ZzjkR207OomrWhf9op",
+      "type": "Feature",
+      "properties": {
+        "id": "beginnings",
+        "address": "1986 Park St.",
+        "town": "Atlantic Beach",
+        "business": "Restaurant",
+        "info": "Beginnings Restaurant in Atlantic Beach, NY is a cozy spot where great food, crafted cocktails drinks, and bookish vibes come together for a memorable experience .",
+        "mapname": "beginnings",
+        "loc": 156,
+        "phone": "516-239-7483",
+        "web": "http://BeginningsRestaurant.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "Beginnings Bar & Restaurant, 1986 Park Street, Village of Atlantic Beach, NY 11509, United States of America",
+        "priority": "S",
+        "img": "LB-156S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7347171,
+          40.5895949
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "VaROOlx6MJ80TRjcrIzxvOATDB0oyCm6",
+      "type": "Feature",
+      "properties": {
+        "id": "balancedhealthwellness",
+        "address": "917 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Health & Wellness",
+        "info": "Experience personalized care—tailored treatments, expert guidance, and compassionate support to enhance your well-being and help you feel your absolute best.",
+        "mapname": "Balanced Health & Wellness",
+        "loc": 157,
+        "phone": "516-689-7580",
+        "web": "http://BalancedHealthLB.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "917 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-157S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69227472117464,
+          40.58642114238309
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JrR4h1FjImm5bhUMfPi186HdhW6Q98yW",
+      "type": "Feature",
+      "properties": {
+        "id": "contourmortgagetommarchioli",
+        "address": "990 Stewart Ave. Suite 660",
+        "town": "Garden City",
+        "business": "Home Financing",
+        "info": "A local, multi-state, full-service mortgage lender serving consumers with their home purchase, refinance, and renovation financing needs.",
+        "mapname": "Contour Mortgage - Tom Marchioli",
+        "loc": 158,
+        "phone": "516-233-8319",
+        "web": "http://ContourMortgage.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "990 Stewart Avenue, Uniondale, NY 11530, United States of America",
+        "priority": "D",
+        "img": "LB-158D",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67673229003681,
+          40.582522912727015
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "c0GB2sgY9VS07vUbzgNRKmH6y5cIx772",
+      "type": "Feature",
+      "properties": {
+        "id": "thespacebyevolve",
+        "address": "852 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Health and Wellness",
+        "info": "Airy and light filled place for creatives to share their gifts and for the community to enjoy them. It was created as a vision that wanted to be birthed into the world.",
+        "mapname": "The Space by Evolve",
+        "loc": 159,
+        "web": "http://TheSpaceByEvolve.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "852 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-159S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68929827465756,
+          40.58580586965658
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xAneWM5LPRbB1X6HiLvu2y6wNujwb5T2",
+      "type": "Feature",
+      "properties": {
+        "id": "superhawk",
+        "address": "",
+        "town": "Point Lookout",
+        "business": "Fishing Charter",
+        "info": "Daily public fishing and private party boat. Voted Long Island's #1 family-friendly fishing experience! Great for beginners.",
+        "mapname": "Super Hawk",
+        "loc": 160,
+        "phone": "516-607-3004",
+        "web": "http://SuperhawkFishing.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "Point Lookout, NY, United States of America",
+        "priority": "S",
+        "img": "LB-160S",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58670564223938,
+          40.58534385369036
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PPAnsMBiooGppWvCoAbDHw89qPnNywKv",
+      "type": "Feature",
+      "properties": {
+        "id": "metrophysicaltherapyaquaticsbythesea",
+        "address": "670 Long Beach Blvd.",
+        "town": "Long Beach",
+        "business": "Physical Therapy",
+        "info": "Providing the very best physical therapy care to Long Beach and the surrounding area since 2005. All insurance accepted.",
+        "mapname": "Metro Physical Therapy & Aquatics By The Sea",
+        "loc": 161,
+        "phone": "516-568-7858",
+        "web": "http://PhysicalTherapyAndAquatics.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "physical_therapy",
+        "address_formatted": "670 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-161S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65652914946853,
+          40.59240115570904
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "59qv8DJcqSrPF1LBP4hfRMHG7Ac6Ezpk",
+      "type": "Feature",
+      "properties": {
+        "id": "beachcomfort",
+        "address": "On the Beach at Edwards Blvd.",
+        "town": "Long Beach",
+        "business": "Beach Rental",
+        "info": "Enjoy the sun with Beach Comfort — Long Beach’s full-service beach chair and umbrella rental, offering resort-style amenities right on the beach!",
+        "mapname": "Beach Comfort",
+        "loc": 162,
+        "phone": "516-432-5001",
+        "web": "http://BeachComfort.net",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "Long Beach, NY, United States of America",
+        "priority": "D",
+        "img": "LB-162D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65788492687172,
+          40.588931035262355
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "WhAl1qtAQzpfzR46uxaCoV1sAo505Qmd",
+      "type": "Feature",
+      "properties": {
+        "id": "earthartspotterystudio",
+        "address": "162 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Pottery",
+        "info": "Offering walk-ins, classes, workshops, events, and memberships—a place for community to connect, be inspired, and make something beautiful.",
+        "mapname": "Earth Arts Pottery Studio",
+        "loc": 163,
+        "phone": "516-432-9000",
+        "web": "http://EarthArtsLB.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "162 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-163S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66859985796242,
+          40.58812351090495
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YpmWfhc3B2BTfp7boI1XzS1AzQIOumV8",
+      "type": "Feature",
+      "properties": {
+        "id": "pilatesbythesea",
+        "address": "40C Lido Blvd.",
+        "town": "Point Lookout",
+        "business": "Pilates",
+        "info": "Boutique Pilates studio specializing in small group classes using the Reformer, Tower & Wunda Chair + private sessions for all levels. Class schedule and bookings on our website.",
+        "mapname": "Pilates by the Sea",
+        "loc": 164,
+        "phone": "518-928-4168",
+        "web": "http://PilatesByTheSeaLB.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "40 Lido Boulevard, Point Lookout, NY 11569, United States of America",
+        "priority": "D",
+        "img": "LB-164D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5821178932846,
+          40.59214872505643
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NTjqA8a3o1TmQubrhatZIbDLraVM32LJ",
+      "type": "Feature",
+      "properties": {
+        "id": "reynoldsvine",
+        "address": "70 Lido Blvd.",
+        "town": "Point Lookout",
+        "business": "Restaurant",
+        "info": "Offering a fusion of New American cuisine, classic cocktails and genuine hospitality. Plan your next celebration with us! Creating memorable experiences for any occasion.",
+        "mapname": "Reynolds & Vine",
+        "loc": 165,
+        "phone": "516-544-4749",
+        "web": "http://ReynoldsAndVine.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "70 Lido Boulevard, Point Lookout, NY 11569, United States of America",
+        "priority": "S",
+        "img": "LB-165S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58093689761417,
+          40.59217320968648
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "F8L9pLcOs3xQp2O9EqlXiVUl8JmTUPkL",
+      "type": "Feature",
+      "properties": {
+        "id": "jimbosbeachrentals",
+        "address": "64 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Beach Rentals",
+        "info": "All your beach gear: surfboards, boogie-boards, beach chairs, umbrellas, wagons, towels, volleyballs, footballs, kadima paddles, soccer balls , Wiffle Balls, beach toys, kites, shirts, hats, sunglasses, sunscreen.",
+        "mapname": "Jimbo's Beach Rentals",
+        "loc": 166,
+        "phone": "516-427-0548",
+        "web": "http://JimbosBeachRentals.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "64 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-166S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.66627427439406,
+          40.58812480433566
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "GaDdPK8akhtozVBEvl6r7NJ6u1r2Vq0w",
+      "type": "Feature",
+      "properties": {
+        "id": "thecabana",
+        "address": "1034 W. Beech St.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "The Cabana is the West End's only Mexican American cuisine. Dine indoors or outdoors, free parking and delivery. Open 7 days during summer.",
+        "mapname": "The Cabana",
+        "loc": 167,
+        "phone": "516-889-1345",
+        "web": "http://TheCabanaLBNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "1034 West Beech Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-167D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69787004147373,
+          40.585879796380006
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "oNCuJPj0VBS6xey5Z3Gn0v2RXSVfF0yR",
+      "type": "Feature",
+      "properties": {
+        "id": "playadeperros",
+        "address": "",
+        "town": "Long Beach",
+        "business": "Dog Walking & Pet Sitting",
+        "info": "Offering trusted, professional care with easy booking and communication—dedicated sitters your pets love and you can count on.",
+        "mapname": "Playa De Perros",
+        "loc": 168,
+        "web": "http://PlayaDePerros.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "dog_walking",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "S",
+        "img": "LB-168S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65823446853074,
+          40.58830061864321
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "KmYUiIhuT5xkMM7eTITfjRv1L0G0pQe8",
+      "type": "Feature",
+      "properties": {
+        "id": "pointlookoutclambar",
+        "address": "99 and 111 Bayside Dr.",
+        "town": "Point Lookout",
+        "business": "Restaurant",
+        "info": "Waterfront, beachfront dining. Local, fresh fish, sushi, live music. We never close - open year round.",
+        "mapname": "Point Lookout Clam Bar",
+        "loc": 169,
+        "phone": "516-670-9717",
+        "web": "http://PointLookoutClamBar.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "89 Bayside Drive, Point Lookout, NY 11569, United States of America",
+        "priority": "D",
+        "img": "LB-169D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.580565,
+          40.593675
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "38Msi8JDV1zjD5EFWi2NAAiTxJKOHRJI",
+      "type": "Feature",
+      "properties": {
+        "id": "thejunkluggersoflongisland",
+        "address": "12A Commercial St.",
+        "town": "Hicksville",
+        "business": "Cleanouts / Junk Removal",
+        "info": "Your local eco-friendly junk removal company that can help you remove a single item to clearing out a home or business!",
+        "mapname": "The Junkluggers of Long Island",
+        "loc": 170,
+        "phone": "516-202-8761",
+        "web": "http://JunkLuggers.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "12 A Commercial Street, Hicksville, NY 11801, United States of America",
+        "priority": "S",
+        "img": "LB-170S",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7144150352893,
+          40.58696790529781
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Z0e4L9VcBeixp4oFX67qJrQ9utIrvyHT",
+      "type": "Feature",
+      "properties": {
+        "id": "fallondemorubbishremovalservice",
+        "address": "",
+        "town": "Long Beach",
+        "business": "Construction",
+        "info": "Long Beach’s only full service demolition / rubbish removal and restoration contractor. Specializing in fire/water and mold remediation.",
+        "mapname": "Fallon Demo & Rubbish Removal Service",
+        "loc": 171,
+        "phone": "516-322-6090",
+        "category": "live_and_work",
+        "subcategory": "construction",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "S",
+        "img": "LB-171S",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65830932845235,
+          40.586266130312076
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Md3hquRcKwSA1IBESrKC2r9HhbW457c4",
+      "type": "Feature",
+      "properties": {
+        "id": "douglasellimanjoycecoletti",
+        "address": "30A W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Real Estate",
+        "info": "Through her unsurpassed professionalism, integrity and utmost competence Joyce Coletti offers the highest level of expertise and outstanding representation to her valued clients.",
+        "mapname": "Douglas Elliman - Joyce Coletti",
+        "loc": 172,
+        "phone": "516-763-6150",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "30 A West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "P",
+        "img": "LB-172P",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6640272994935,
+          40.59116025267962
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "F32wcd7yvh8vf97D3IRxHPhGrNPkhejz",
+      "type": "Feature",
+      "properties": {
+        "id": "doxbarkitchen",
+        "address": "10 Broadway",
+        "town": "Island Park",
+        "business": "Restaurant",
+        "info": "Your all-season spot for live music and stunning waterside views! Dine, drink, and soak in the vibes at our restaurant & bar, open year-round.",
+        "mapname": "DOX Bar & Kitchen",
+        "loc": 173,
+        "phone": "516-992-2222",
+        "discount": "$10 off your purchase of $50 or more. Weekdays only.",
+        "exp": "05/31/2026",
+        "web": "http://DoxBarAndKitchen.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "10 Broadway, Village of Island Park, NY 11558, United States of America",
+        "priority": "S",
+        "img": "LB-173S",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.64963848563688,
+          40.59530901171312
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UxSkb1LmgEGT0OWSXI1PnG9Iy36eZZm9",
+      "type": "Feature",
+      "properties": {
+        "id": "marvelfrozendairy",
+        "address": "1 National Blvd.",
+        "town": "Long Beach",
+        "business": "Ice Cream",
+        "info": "Established 1951, Marvel has now expanded its menu to include cakes, slushies, shakes, and a wide assortment of soft serve flavors & toppings: including vegan & sugar-free options.",
+        "mapname": "Marvel Frozen Dairy",
+        "loc": 174,
+        "phone": "516-240-1159",
+        "web": "http://MarvelFrozenDairy.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "1 National Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-174D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6670985235866,
+          40.58417534198061
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "oKOdvvyv1pKnC5oZvcHno9XxoBm6sIun",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachnymemes",
+        "address": "",
+        "town": "Long Beach",
+        "business": "News and Events",
+        "info": "Long Beach's largest online community! Daily memes, news, events, and much more for our City by the Sea.",
+        "mapname": "Long Beach NY Memes",
+        "loc": 175,
+        "instagram": "https://www.instagram.com/longbeachnymemes/",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
+        "priority": "S",
+        "img": "LB-175S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65847546801969,
+          40.588608135312676
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "QWr4Wa3WmqstGaOGwHsyzU0CyuRdYDYZ",
+      "type": "Feature",
+      "properties": {
+        "id": "professionalyouththeatre",
+        "address": "75 E. Walnut St.",
+        "town": "Long Beach",
+        "business": "Children & Youth",
+        "info": "Offering elite musical theatre training to aspiring young actors from ages 4 to 18. Students work exclusively with experienced Broadway professionals.",
+        "mapname": "Professional Youth Theatre",
+        "loc": 176,
+        "phone": "516-992-0766",
+        "web": "http://ProfessionalYouthTheatre.com",
+        "category": "learn_and_play",
+        "subcategory": "youth_services",
+        "address_formatted": "75 East Walnut Street, City of Long Beach, NY 11561, United States of America",
+        "vehicle": "boat",
+        "priority": "D",
+        "img": "LB-176D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65956926997258,
+          40.582083298910206
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NklxJz7gaQQ0u5ibz6xItVhcJUgZNmye",
+      "type": "Feature",
+      "properties": {
+        "id": "thedanceloft",
+        "address": "160 W. Park Ave.",
+        "town": "Long Beach",
+        "business": "Dance Studio",
+        "info": "A leader in dance education on Long Island since 1984 and features faculty from the professional dance world.",
+        "mapname": "The Dance Loft",
+        "loc": 176,
+        "phone": "516-889-7837",
+        "web": "http://DanceLoftLB.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "160 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-176D",
+        "vehicle": "boat"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67390763385357,
+          40.58266459683654
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "s9wzt5tiQKDTikdPO4q9f3V30sE7Pgtn",
+      "type": "Feature",
+      "properties": {
+        "id": "barrierbeets",
+        "address": "190 Boardwalk",
+        "town": "Long Beach",
+        "business": "Restaurants",
+        "info": "Barrier Beets brings convenience to clean eating, with an emphasis on fresh ingredients and dynamic flavors to fuel your lifestyle. Come visit us on the boardwalk!",
+        "mapname": "Barrier Beets",
+        "loc": 177,
+        "web": "http://BarrierBeets.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "190 East Boardwalk, Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-177D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65958662320669,
+          40.58356359234426
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JHwbt5eVozjMJOJjUor4jJxPSpcLZrrJ",
+      "type": "Feature",
+      "properties": {
+        "id": "triviewreflections",
+        "address": "855 E. Broadway",
+        "town": "Long Beach",
+        "business": "Glass",
+        "info": "The complete shower door, glass, & mirror company. We install to perfection, with spotless cleanup and friendly, courteous service. Fully licensed and insured, we always guarantee our work. Let us reflect your good taste!",
+        "mapname": "TriView Reflections",
+        "loc": 178,
+        "phone": "516-338-4170",
+        "web": "http://TriViewShowerDoor.com",
+        "category": "live_and_work",
+        "subcategory": "glass_services",
+        "address_formatted": "855 East Broadway, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-178T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6494907682229,
+          40.58701342471774
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "52Cvf1Lnx1JFqYhtnk6x4vHdZr0dsfmA",
+      "type": "Feature",
+      "properties": {
+        "id": "recastindustries",
+        "address": "127 W Hudson St, Long Beach NY 11561, USA",
+        "town": "Long Beach",
+        "business": "Construction",
+        "info": "Recast Industries delivers captivating, trouble-free renovation experiences and reliable maintenance, guided by transparent communication, rock-solid safety, and elite quality assurance. Veteran owned.",
+        "mapname": "Recast Industries",
+        "loc": 182,
+        "phone": "631-867-2686",
+        "web": "http://RecastNY.com",
+        "category": "live_and_work",
+        "subcategory": "construction",
+        "address_formatted": "127 West Hudson Street, City of Long Beach, NY 11561, United States of America",
+        "priority": "S",
+        "img": "LB-182S",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67125623376948,
+          40.5903946763575
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "4ghVrAUX7vwtEZMpcGOcSv4aJfkWNhxt",
+      "type": "Feature",
+      "properties": {
+        "id": "thesnackshackonepacific",
+        "address": "1 Pacific Blvd.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Enjoy a lobster roll by the ocean! Dine in, takeout, and delivery.",
+        "mapname": "The Snack Shack @One Pacific",
+        "loc": 183,
+        "web": "http://OPLBNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "1 Pacific Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-183D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.641022,
+          40.584229
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sy66DhgMqJn0J7JRMfYW0jVna6un8vOM",
+      "type": "Feature",
+      "properties": {
+        "id": "driftwood",
+        "address": "1 Grand Blvd.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "LB Boardwalk Eatery: Breakfast, Waffles, Smoothies, Lobster Rolls, Burgers, Chicken Sandwiches",
+        "mapname": "Driftwood",
+        "loc": 184,
+        "web": "http://DriftwoodLBNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "1 Grand Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-184D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6841246,
+          40.584084849999996
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ZCkLhimoT3HES7KfpAGQVqoqMML2qXvz",
+      "type": "Feature",
+      "properties": {
+        "id": "lazarglizzy",
+        "address": "1 Lincoln Blvd.",
+        "town": "Long Beach",
+        "business": "Restaurant",
+        "info": "Hot dogs, smoothies, hand spun shakes, soups, salads, cold drinks, and coffee.",
+        "mapname": "Lazar Glizzy",
+        "loc": 185,
+        "web": "http://LazarGlizzy.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "1 Lincoln Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-185D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6524498,
+          40.5832646
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "uykiOGOc4cQfolzN8wjEIHzaChhBNa8i",
+      "type": "Feature",
+      "properties": {
+        "id": "skudinsurf",
+        "address": "1 Riverside Blvd.",
+        "town": "Long Beach",
+        "business": "Surf School",
+        "info": "Skudin Surf's curriculum, created by legendary East Coast surfers, promises to connect each learner with the ocean in a way they never have before.",
+        "mapname": "Skudin Surf",
+        "loc": 186,
+        "phone": "516-318-3993",
+        "web": "http://SkudinSurf.com",
+        "category": "visit_and_experience",
+        "subcategory": "surf_schools",
+        "address_formatted": "1 Riverside Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-186D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6610958,
+          40.5837191
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UeIBAewjo3eTLgJRKTjZJyLFh0Lh8yXH",
+      "type": "Feature",
+      "properties": {
+        "id": "skudinswim",
+        "address": "265 E. Park Ave.",
+        "town": "Long Beach",
+        "business": "Swim School",
+        "info": "Family business built around safety and competency in the water.  We offer swim lessons, water safety, lifeguarding and Red Cross courses to our community.",
+        "mapname": "Skudin Swim",
+        "loc": 187,
+        "phone": "516-978-7946",
+        "web": "http://SkudinSwim.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "265 East Park Avenue, City of Long Beach, NY 11561, United States of America",
+        "priority": "D",
+        "img": "LB-187D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65599774190443,
+          40.58862873411412
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
