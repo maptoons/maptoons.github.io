@@ -692,7 +692,7 @@
         "info": "Ready to empower you by giving you the care that can restore you to a state of optimal health and happiness. Visit today!",
         "mapname": "Long Beach Nursing & Rehab",
         "loc": 26,
-        "phone": "516-897-1110",
+        "phone": "516-897-1000",
         "web": "http://LongBeachNRC.com",
         "category": "thrive_and_be_well",
         "subcategory": "",
@@ -702,8 +702,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.65342565104422,
-          40.594401228384164
+          -73.65393707013216,
+          40.59437210299843
         ],
         "type": "Point"
       }
@@ -719,18 +719,18 @@
         "info": "Searching for senior living in Long Beach? Discover true comfort and an abundance of amenities at our beautiful waterfront assisted living!",
         "mapname": "Bay Vista Assisted Living",
         "loc": 26,
-        "phone": "516-897-1000",
-        "web": "http://LongBeachNRC.com",
+        "phone": "516-897-1200",
+        "web": "https://bayvistaassistedliving.com/",
         "category": "thrive_and_be_well",
         "subcategory": "",
-        "address_formatted": "Long Beach Nursing and Rehabilitation Center, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America",
+        "address_formatted": "Bay Vista Assisted Living, 375 East Bay Drive, City of Long Beach, NY 11561, United States of America",
         "priority": "P",
         "img": "LB-26P"
       },
       "geometry": {
         "coordinates": [
-          -73.65516992384566,
-          40.59438824322297
+          -73.65300917819856,
+          40.594402805914235
         ],
         "type": "Point"
       }
@@ -1794,8 +1794,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.66749145516621,
-          40.588243498242
+          -73.66748087527596,
+          40.588120303689855
         ],
         "type": "Point"
       }
@@ -2145,13 +2145,12 @@
         "subcategory": "",
         "address_formatted": "160 Long Beach Road, Village of Island Park, NY 11558, United States of America",
         "priority": "D",
-        "img": "LB-80D",
-        "vehicle": "plane"
+        "img": "LB-80D"
       },
       "geometry": {
         "coordinates": [
-          -73.66629107271177,
-          40.594369655746426
+          -73.65609477741042,
+          40.60177969372928
         ],
         "type": "Point"
       }
@@ -2234,8 +2233,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.66722820108998,
-          40.588139139348975
+          -73.66719998804878,
+          40.588251621308835
         ],
         "type": "Point"
       }
@@ -2477,8 +2476,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.61081587940038,
-          40.62143220851945
+          -73.64395999372725,
+          40.592300768912565
         ],
         "type": "Point"
       }
@@ -2533,8 +2532,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.66822373366347,
-          40.58823771027745
+          -73.66822020703337,
+          40.588122550145705
         ],
         "type": "Point"
       }
@@ -2844,7 +2843,7 @@
       "properties": {
         "id": "bigcatbikerentalstheallegriahotel",
         "address": "80 W. Broadway",
-        "town": "Patchogue",
+        "town": "Long Beach",
         "business": "Bicycle Rental",
         "info": "Friendly, customer-focused E-Bike rental shop at Allegria Hotel, serving Long Island 15+ years with 4.5-star reviews.",
         "mapname": "Big Cat Bike Rentals @ the Allegria Hotel",
@@ -2859,8 +2858,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.0151084,
-          40.7656539
+          -73.66527910729086,
+          40.584130786530416
         ],
         "type": "Point"
       }
@@ -3075,8 +3074,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.66789593155747,
-          40.58811466047539
+          -73.66787829840655,
+          40.58823785503737
         ],
         "type": "Point"
       }
@@ -3102,8 +3101,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.66893373543378,
-          40.58823300073408
+          -73.66884909631153,
+          40.588107128019175
         ],
         "type": "Point"
       }
@@ -3646,8 +3645,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.66376498662454,
-          40.58455976148709
+          -73.66290028440373,
+          40.58335813813587
         ],
         "type": "Point"
       }
@@ -4051,8 +4050,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.6692559088787,
-          40.5880956023298
+          -73.66929470181061,
+          40.58811702747913
         ],
         "type": "Point"
       }
@@ -4403,8 +4402,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.58670564223938,
-          40.58534385369036
+          -73.5834596734316,
+          40.594651884485884
         ],
         "type": "Point"
       }
@@ -4457,8 +4456,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.65788492687172,
-          40.588931035262355
+          -73.66465554056252,
+          40.58359680677338
         ],
         "type": "Point"
       }
@@ -4484,8 +4483,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.66859985796242,
-          40.58812351090495
+          -73.66857869818186,
+          40.58824134918166
         ],
         "type": "Point"
       }
@@ -4752,13 +4751,12 @@
         "subcategory": "restaurants",
         "address_formatted": "10 Broadway, Village of Island Park, NY 11558, United States of America",
         "priority": "S",
-        "img": "LB-173S",
-        "vehicle": "plane"
+        "img": "LB-173S"
       },
       "geometry": {
         "coordinates": [
-          -73.64963848563688,
-          40.59530901171312
+          -73.64369016480202,
+          40.61119347991215
         ],
         "type": "Point"
       }
@@ -4832,14 +4830,13 @@
         "category": "learn_and_play",
         "subcategory": "youth_services",
         "address_formatted": "75 East Walnut Street, City of Long Beach, NY 11561, United States of America",
-        "vehicle": "boat",
         "priority": "D",
         "img": "LB-176D"
       },
       "geometry": {
         "coordinates": [
-          -73.65956926997258,
-          40.582083298910206
+          -73.661530545838,
+          40.587833655757706
         ],
         "type": "Point"
       }
@@ -4861,13 +4858,12 @@
         "subcategory": "",
         "address_formatted": "160 West Park Avenue, City of Long Beach, NY 11561, United States of America",
         "priority": "D",
-        "img": "LB-176D",
-        "vehicle": "boat"
+        "img": "LB-176D"
       },
       "geometry": {
         "coordinates": [
-          -73.67390763385357,
-          40.58266459683654
+          -73.66904104549323,
+          40.588189604784304
         ],
         "type": "Point"
       }
