@@ -568,8 +568,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.65503964973573,
-          40.5889461
+          -73.65503964973571,
+          40.58894259336448
         ],
         "type": "Point"
       }
@@ -5078,6 +5078,33 @@
         "coordinates": [
           -73.65599774190443,
           40.58862873411412
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UeIBAewjo3eTLgJRKTjZJyLFh0Lh8yXI",
+      "type": "Feature",
+      "properties": {
+        "id": "longbeachchamberofcommerce",
+        "address": "780 Long Beach Blvd",
+        "town": "Long Beach",
+        "business": "Community Organization",
+        "info": "We Love Business in Long Beach.",
+        "mapname": "Long Beach Chamber of Commerce",
+        "loc": 188,
+        "phone": "516-432-6000",
+        "web": "https://thelongbeachchamber.com",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "780 Long Beach Boulevard, City of Long Beach, NY 11561, United States of America",
+        "priority": "T",
+        "img": "LB-Coc"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.65636253584647,
+          40.593467725000274
         ],
         "type": "Point"
       }
