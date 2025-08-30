@@ -1,0 +1,854 @@
+{
+    "Delicatessen": {
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering"
+    },
+    "Catering": {
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering"
+    },
+    "Bar": {
+        "category": "eat_and_drink",
+        "subcategory": "bars_and_pubs"
+    },
+    "Ice Cream / Ices, Yogurt": {
+        "category": "eat_and_drink",
+        "subcategory": "ice_cream_and_desserts"
+    },
+    "Bakery": {
+        "category": "eat_and_drink",
+        "subcategory": "bakeries"
+    },
+    "Beverage": {
+        "category": "eat_and_drink",
+        "subcategory": "alcohol_specialty"
+    },
+    "Winery": {
+        "category": "eat_and_drink",
+        "subcategory": "alcohol_specialty"
+    },
+    "Ice Cream / Ices": {
+        "category": "eat_and_drink",
+        "subcategory": "ice_cream_and_desserts"
+    },
+    "Frozen Yogurt": {
+        "category": "eat_and_drink",
+        "subcategory": "ice_cream_and_desserts"
+    },
+    "Bagels": {
+        "category": "eat_and_drink",
+        "subcategory": "bakeries"
+    },
+    "Bar & Grill": {
+        "category": "eat_and_drink",
+        "subcategory": "restaurants"
+    },
+    "Pizzeria / Restaurant": {
+        "category": "eat_and_drink",
+        "subcategory": "restaurants"
+    },
+    "Ice Cream / Ices / Yogurt": {
+        "category": "eat_and_drink",
+        "subcategory": "ice_cream_and_desserts"
+    },
+    "Pub": {
+        "category": "eat_and_drink",
+        "subcategory": "bars_and_pubs"
+    },
+    "Restaurant": {
+        "category": "eat_and_drink",
+        "subcategory": "restaurants"
+    },
+    "Sweet Shop": {
+        "category": "eat_and_drink",
+        "subcategory": "ice_cream_and_desserts"
+    },
+    "Catering, Delicatessen": {
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering"
+    },
+    "SIce Cream / Ices, Yogurt": {
+        "category": "eat_and_drink",
+        "subcategory": "ice_cream_and_desserts"
+    },
+    "Coffee / Coffee House": {
+        "category": "eat_and_drink",
+        "subcategory": "coffee_shops"
+    },
+    "Restaurants": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Ice Cream": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Coffee/Bakery": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Bakery/Cafe": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Deli": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Restaurant and Bar": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Bar / Restaurant": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Coffee": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Bagels and Delicatessen": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Meal Preparation": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "Brewery": {
+        "category": "eat_and_drink",
+        "subcategory": ""
+    },
+    "House of Worship": {
+        "category": "gather_and_connect",
+        "subcategory": "places_of_worship"
+    },
+    "Community Organization": {
+        "category": "gather_and_connect",
+        "subcategory": ""
+    },
+    "Arts Market": {
+        "category": "gather_and_connect",
+        "subcategory": ""
+    },
+    "News and Events": {
+        "category": "gather_and_connect",
+        "subcategory": ""
+    },
+    "Dance School": {
+        "category": "learn_and_play",
+        "subcategory": "dance_schools"
+    },
+    "Education": {
+        "category": "learn_and_play",
+        "subcategory": "educational_services"
+    },
+    "Grade School": {
+        "category": "learn_and_play",
+        "subcategory": "k12_schools"
+    },
+    "Child Care / Pre-School": {
+        "category": "learn_and_play",
+        "subcategory": "childcare"
+    },
+    "Children & Youth": {
+        "category": "learn_and_play",
+        "subcategory": "youth_services"
+    },
+    "Nursery School": {
+        "category": "learn_and_play",
+        "subcategory": "preschools"
+    },
+    "Recreation": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Swim School": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Camp": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Dog Training": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Tennis and Pickleball": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Children": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Pottery": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Public Library": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Music School": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Dance Studio": {
+        "category": "learn_and_play",
+        "subcategory": ""
+    },
+    "Auto Body": {
+        "category": "live_and_work",
+        "subcategory": "auto_repair"
+    },
+    "Banking / Finance": {
+        "category": "live_and_work",
+        "subcategory": "financial_services"
+    },
+    "Newspaper": {
+        "category": "live_and_work",
+        "subcategory": "printing_services"
+    },
+    "Accounting & Tax Preparation": {
+        "category": "live_and_work",
+        "subcategory": "accountants"
+    },
+    "Kitchens & Vanities": {
+        "category": "live_and_work",
+        "subcategory": "home_improvement"
+    },
+    "Fire, Water and Mold Restoration": {
+        "category": "live_and_work",
+        "subcategory": "restoration_services"
+    },
+    "Computer Consulting, Sales & Service": {
+        "category": "live_and_work",
+        "subcategory": "computer_services"
+    },
+    "Oil Change": {
+        "category": "live_and_work",
+        "subcategory": "auto_repair"
+    },
+    "General Contractor": {
+        "category": "live_and_work",
+        "subcategory": "contractors"
+    },
+    "Cleaning Services": {
+        "category": "live_and_work",
+        "subcategory": "cleaning_services"
+    },
+    "Fire Protection Services": {
+        "category": "live_and_work",
+        "subcategory": "safety_services"
+    },
+    "Modular Homes": {
+        "category": "live_and_work",
+        "subcategory": "modular_homes"
+    },
+    "Tailor, Dry Cleaner": {
+        "category": "live_and_work",
+        "subcategory": "tailoring"
+    },
+    "Auto Dealership": {
+        "category": "live_and_work",
+        "subcategory": "car_dealerships"
+    },
+    "Moving Company": {
+        "category": "live_and_work",
+        "subcategory": "moving_services"
+    },
+    "Accountant": {
+        "category": "live_and_work",
+        "subcategory": "accountants"
+    },
+    "Pest Control": {
+        "category": "live_and_work",
+        "subcategory": "pest_control"
+    },
+    "Attorney": {
+        "category": "live_and_work",
+        "subcategory": "attorneys"
+    },
+    "Funeral Home": {
+        "category": "live_and_work",
+        "subcategory": "funeral_services"
+    },
+    "Website Design and Development": {
+        "category": "live_and_work",
+        "subcategory": "web_design"
+    },
+    "Air Conditioning & Heating": {
+        "category": "live_and_work",
+        "subcategory": "hvac"
+    },
+    "Financial Planner": {
+        "category": "live_and_work",
+        "subcategory": "financial_services"
+    },
+    "Window Treatments": {
+        "category": "live_and_work",
+        "subcategory": "home_and_garden_supplies"
+    },
+    "Printing": {
+        "category": "live_and_work",
+        "subcategory": "printing_services"
+    },
+    "Financial Services": {
+        "category": "live_and_work",
+        "subcategory": "financial_services"
+    },
+    "Glass": {
+        "category": "live_and_work",
+        "subcategory": "glass_services"
+    },
+    "Transportation": {
+        "category": "live_and_work",
+        "subcategory": "transportation_services"
+    },
+    "Dry Cleaner": {
+        "category": "live_and_work",
+        "subcategory": "dry_cleaning"
+    },
+    "Taxi": {
+        "category": "live_and_work",
+        "subcategory": "taxi_services"
+    },
+    "Multi-Services": {
+        "category": "live_and_work",
+        "subcategory": "business_services"
+    },
+    "Real Estate": {
+        "category": "live_and_work",
+        "subcategory": "real_estate"
+    },
+    "Construction": {
+        "category": "live_and_work",
+        "subcategory": "construction"
+    },
+    "Shipping & Printing": {
+        "category": "live_and_work",
+        "subcategory": "shipping_services"
+    },
+    "Lumber Yard": {
+        "category": "live_and_work",
+        "subcategory": "building_materials"
+    },
+    "Windows": {
+        "category": "live_and_work",
+        "subcategory": "window_services"
+    },
+    "Photography": {
+        "category": "live_and_work",
+        "subcategory": "photography_services"
+    },
+    "Screen Printing": {
+        "category": "live_and_work",
+        "subcategory": "printing_services"
+    },
+    "Mobile Storage": {
+        "category": "live_and_work",
+        "subcategory": "storage"
+    },
+    "Solar Power": {
+        "category": "live_and_work",
+        "subcategory": "solar_installation"
+    },
+    "Microscope": {
+        "category": "live_and_work",
+        "subcategory": "specialty_retail"
+    },
+    "Autobody": {
+        "category": "live_and_work",
+        "subcategory": "auto_repair"
+    },
+    "Pool Company": {
+        "category": "live_and_work",
+        "subcategory": "pool_services"
+    },
+    "Air Conditioning / Heating / Ventilation": {
+        "category": "live_and_work",
+        "subcategory": "hvac"
+    },
+    "Auto Body, Towing": {
+        "category": "live_and_work",
+        "subcategory": "towing"
+    },
+    "Defensive Driving": {
+        "category": "live_and_work",
+        "subcategory": "driving_schools"
+    },
+    "Internet Marketing": {
+        "category": "live_and_work",
+        "subcategory": "marketing_services"
+    },
+    "Auto Repair": {
+        "category": "live_and_work",
+        "subcategory": "auto_repair"
+    },
+    "Cranes": {
+        "category": "live_and_work",
+        "subcategory": "construction"
+    },
+    "Home Improvements": {
+        "category": "live_and_work",
+        "subcategory": "home_improvement"
+    },
+    "Self-Storage": {
+        "category": "live_and_work",
+        "subcategory": "storage_units"
+    },
+    "Property Tax Reduction": {
+        "category": "live_and_work",
+        "subcategory": "tax_services"
+    },
+    "Electrician": {
+        "category": "live_and_work",
+        "subcategory": "electricians"
+    },
+    "Car Audio & Security": {
+        "category": "live_and_work",
+        "subcategory": "auto_accessories"
+    },
+    "Auto Repair, Tire": {
+        "category": "live_and_work",
+        "subcategory": "auto_repair"
+    },
+    "Insurance": {
+        "category": "live_and_work",
+        "subcategory": "insurance"
+    },
+    "Car Wash": {
+        "category": "live_and_work",
+        "subcategory": "car_washes"
+    },
+    "Wireless": {
+        "category": "live_and_work",
+        "subcategory": "telecommunications"
+    },
+    "Batteries": {
+        "category": "live_and_work",
+        "subcategory": "auto_parts"
+    },
+    "Plumbing & Heating": {
+        "category": "live_and_work",
+        "subcategory": "plumbing"
+    },
+    "Junk Removal": {
+        "category": "live_and_work",
+        "subcategory": "junk_and_recycling"
+    },
+    "Services - Real Estate": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Architect": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Home Financing": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Bookkeeping and Tax Services": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Services - Pet Grooming": {
+        "category": "thrive_and_be_well",
+        "subcategory": "pet_grooming"
+    },
+    "Vent Cleaning": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Dog Walking & Pet Sitting": {
+        "category": "thrive_and_be_well",
+        "subcategory": "dog_walking"
+    },
+    "Mortgage": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Web Development": {
+        "category": "live_and_work",
+        "subcategory": "web_design"
+    },
+    "Bank": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Cleanouts / Junk Removal": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Computer Services": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Property Tax Reductions": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Interior Design": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Cremation and Memorials": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Tutoring (Clinical Staffing)": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Office Space": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Funeral and Cremation Services": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Heating and Plumbing": {
+        "category": "live_and_work",
+        "subcategory": ""
+    },
+    "Wine & Liquor": {
+        "category": "shop_and_discover",
+        "subcategory": "alcohol_specialty"
+    },
+    "Vacuums": {
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail"
+    },
+    "Convenience Store": {
+        "category": "shop_and_discover",
+        "subcategory": "convenience"
+    },
+    "Florist": {
+        "category": "shop_and_discover",
+        "subcategory": "florists"
+    },
+    "Embroidery, Promotion Items": {
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail"
+    },
+    "Garden Center": {
+        "category": "shop_and_discover",
+        "subcategory": "home_and_garden_supplies"
+    },
+    "Shopping Center": {
+        "category": "shop_and_discover",
+        "subcategory": "shopping_centers"
+    },
+    "Gold Buyer": {
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail"
+    },
+    "Convenience Store, Delicatessen": {
+        "category": "shop_and_discover",
+        "subcategory": "convenience"
+    },
+    "Jewelry": {
+        "category": "shop_and_discover",
+        "subcategory": "jewelry_and_accessories"
+    },
+    "Indian Fashion": {
+        "category": "shop_and_discover",
+        "subcategory": "clothing_and_fashion"
+    },
+    "Embroidery": {
+        "category": "shop_and_discover",
+        "subcategory": "specialty_retail"
+    },
+    "Supermarket": {
+        "category": "shop_and_discover",
+        "subcategory": "supermarkets"
+    },
+    "Women's Boutique": {
+        "category": "shop_and_discover",
+        "subcategory": "clothing_and_fashion"
+    },
+    "Discount Store": {
+        "category": "shop_and_discover",
+        "subcategory": "discount_stores"
+    },
+    "Gift Shop": {
+        "category": "shop_and_discover",
+        "subcategory": "gift_shops"
+    },
+    "Lumber and Building Materials": {
+        "category": "shop_and_discover",
+        "subcategory": ""
+    },
+    "Tattoo Shop": {
+        "category": "shop_and_discover",
+        "subcategory": ""
+    },
+    "Tailors and Dry Cleaners": {
+        "category": "shop_and_discover",
+        "subcategory": ""
+    },
+    "Smoke Shop and Convenience": {
+        "category": "shop_and_discover",
+        "subcategory": ""
+    },
+    "Party Supplies / Toys": {
+        "category": "shop_and_discover",
+        "subcategory": ""
+    },
+    "Electronics": {
+        "category": "shop_and_discover",
+        "subcategory": ""
+    },
+    "Appliances and Home Furnishings": {
+        "category": "shop_and_discover",
+        "subcategory": ""
+    },
+    "Yoga": {
+        "category": "thrive_and_be_well",
+        "subcategory": "yoga_studios"
+    },
+    "Pediatrics": {
+        "category": "thrive_and_be_well",
+        "subcategory": "pediatricians"
+    },
+    "Orthodontist": {
+        "category": "thrive_and_be_well",
+        "subcategory": "orthodontists"
+    },
+    "Counseling": {
+        "category": "thrive_and_be_well",
+        "subcategory": "mental_health_services"
+    },
+    "Tattoos": {
+        "category": "thrive_and_be_well",
+        "subcategory": "tattoo_and_piercing"
+    },
+    "Optical / Optometrist": {
+        "category": "thrive_and_be_well",
+        "subcategory": "optometrists"
+    },
+    "Blood / Clinical Testing": {
+        "category": "thrive_and_be_well",
+        "subcategory": "laboratory_services"
+    },
+    "Special Needs": {
+        "category": "thrive_and_be_well",
+        "subcategory": "special_needs_education"
+    },
+    "Internal Medicine": {
+        "category": "thrive_and_be_well",
+        "subcategory": "primary_care"
+    },
+    "Urgent Care": {
+        "category": "thrive_and_be_well",
+        "subcategory": "urgent_care"
+    },
+    "Pet Grooming": {
+        "category": "thrive_and_be_well",
+        "subcategory": "pet_grooming"
+    },
+    "Health and Fitness": {
+        "category": "thrive_and_be_well",
+        "subcategory": "fitness_centers"
+    },
+    "Acupuncture": {
+        "category": "thrive_and_be_well",
+        "subcategory": "acupuncture"
+    },
+    "Hair Salon": {
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers"
+    },
+    "Dermatologist": {
+        "category": "thrive_and_be_well",
+        "subcategory": "dermatologists"
+    },
+    "Pharmacy": {
+        "category": "thrive_and_be_well",
+        "subcategory": "pharmacies"
+    },
+    "Martial Arts": {
+        "category": "thrive_and_be_well",
+        "subcategory": "martial_arts_studios"
+    },
+    "Health & Wellness, Spa": {
+        "category": "thrive_and_be_well",
+        "subcategory": "spas_and_wellness"
+    },
+    "Physical Therapy": {
+        "category": "thrive_and_be_well",
+        "subcategory": "physical_therapy"
+    },
+    "Primary Care / Walk-In": {
+        "category": "thrive_and_be_well",
+        "subcategory": "primary_care"
+    },
+    "Chiropractor": {
+        "category": "thrive_and_be_well",
+        "subcategory": "chiropractic"
+    },
+    "Dietitian / Nutritionist": {
+        "category": "thrive_and_be_well",
+        "subcategory": "nutritionists"
+    },
+    "Nursing Facility, Rehabilitation": {
+        "category": "thrive_and_be_well",
+        "subcategory": "rehabilitation_centers"
+    },
+    "Beauty": {
+        "category": "thrive_and_be_well",
+        "subcategory": "beauty_services"
+    },
+    "Dentist": {
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists"
+    },
+    "Home Health Care": {
+        "category": "thrive_and_be_well",
+        "subcategory": "home_health_care"
+    },
+    "Dog Groomer ( Mobile)": {
+        "category": "thrive_and_be_well",
+        "subcategory": "pet_grooming"
+    },
+    "Barbershop": {
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers"
+    },
+    "Veterinarian": {
+        "category": "thrive_and_be_well",
+        "subcategory": "veterinarians"
+    },
+    "Chiropractic": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Health and Wellness": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Medical": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Wellness": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Nursing and Rehabilitation": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Pilates": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Audiological and Hearing Instrument Services": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Spa": {
+        "category": "thrive_and_be_well",
+        "subcategory": "spas_and_wellness"
+    },
+    "Health & Wellness": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Optical/Optometrist": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Nursing Facility": {
+        "category": "thrive_and_be_well",
+        "subcategory": ""
+    },
+    "Art Studio": {
+        "category": "visit_and_experience",
+        "subcategory": "art_studios"
+    },
+    "Marina": {
+        "category": "visit_and_experience",
+        "subcategory": "marinas"
+    },
+    "Adventure": {
+        "category": "visit_and_experience",
+        "subcategory": "adventure_tourism"
+    },
+    "Billiards": {
+        "category": "visit_and_experience",
+        "subcategory": "billiards_halls"
+    },
+    "Bicycles": {
+        "category": "visit_and_experience",
+        "subcategory": "bike_rentals"
+    },
+    "Events": {
+        "category": "visit_and_experience",
+        "subcategory": "event_planning"
+    },
+    "Surf School": {
+        "category": "visit_and_experience",
+        "subcategory": "surf_schools"
+    },
+    "Hotel / Motel": {
+        "category": "visit_and_experience",
+        "subcategory": "hotels"
+    },
+    "Museum": {
+        "category": "visit_and_experience",
+        "subcategory": "museums"
+    },
+    "Travel Agency": {
+        "category": "visit_and_experience",
+        "subcategory": "travel_agencies"
+    },
+    "Beach Club": {
+        "category": "visit_and_experience",
+        "subcategory": "beach_clubs"
+    },
+    "Fairs & Festivals": {
+        "category": "visit_and_experience",
+        "subcategory": "festivals"
+    },
+    "Auto Rental": {
+        "category": "visit_and_experience",
+        "subcategory": "car_rentals"
+    },
+    "Water Tours": {
+        "category": "visit_and_experience",
+        "subcategory": "water_tours"
+    },
+    "Hotel": {
+        "category": "visit_and_experience",
+        "subcategory": ""
+    },
+    "Beach Rentals": {
+        "category": "visit_and_experience",
+        "subcategory": ""
+    },
+    "Bait & Tackle": {
+        "category": "visit_and_experience",
+        "subcategory": ""
+    },
+    "Entertainment": {
+        "category": "visit_and_experience",
+        "subcategory": ""
+    },
+    "Bicycle Rental": {
+        "category": "visit_and_experience",
+        "subcategory": ""
+    },
+    "Beach Rental": {
+        "category": "visit_and_experience",
+        "subcategory": ""
+    },
+    "Fishing Charter": {
+        "category": "visit_and_experience",
+        "subcategory": ""
+    }
+}

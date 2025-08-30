@@ -1,0 +1,1933 @@
+{
+    "type": "FeatureCollection",
+    "name": "Long Beach Corrections",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beachbaseballcampclinics",
+                "address": "322 Lagoon Drive West, Lido Beach",
+                "address_formatted": "322 Lagoon Drive West, Lido Beach, NY 11561, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.63512043917477,
+                    40.5944932
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachlionsclub",
+                "address": "Long Beach VFW, 675 W. Park Avenue, Long Beach",
+                "address_formatted": "675 W Park Ave, Long Beach, NY 11561, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6862921,
+                    40.5887507
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachcleanup",
+                "address": "98 Edwards Blvd, Long Beach, NY 11561, United States",
+                "address_formatted": "98 Edwards Boulevard, City of Long Beach, NY 11561, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66376498662454,
+                    40.58455976148709
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "zoomingroomin",
+                "address": "East Atlantic Beach, NY, United States of America",
+                "address_formatted": "East Atlantic Beach, NY, United States of America",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69363632381081,
+                    40.58457478291173
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "berkshirehathawayhomeserviceslaffeyinternationalrealty",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67939436191472,
+                    40.58236867529613
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "zaretskywellness",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65109122271099,
+                    40.58182860276283
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "whitbreadssonslumberco",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6670494782521,
+                    40.59166712748892
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ruthredlenerrealtyconnectusa",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67409590902813,
+                    40.59037374721436
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "budgetblinds",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.70209251924562,
+                    40.58598081175898
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "seamanplumbingandheating",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67168095,
+                    40.58776615
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "centuryverdeschiwalshrealtyrhondahealy",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.68527406935424,
+                    40.582378430382185
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "danielgalesothebysinternationalrealtykarenmay",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66072512230926,
+                    40.59478284850407
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "josephjoesinnonanorthstarteamatexprealty",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69030222109141,
+                    40.58241086308428
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "danielgalesothebysinternationalrealtytheleahteam",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6710811531475,
+                    40.58260949140764
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "steveswildlife",
+                "address": "400 Hampton Rd Oceanside, NY 11572",
+                "address_formatted": "400 Hampton Road, Oceanside, NY 11572, United States of America",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65407421159716,
+                    40.600552688739945
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "doristheflorist",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65658555905932,
+                    40.59546717082343
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "orderaplumber",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.58714993299282,
+                    40.592046212091155
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pitstopcollision",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65637128059893,
+                    40.5974883575586
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dovhadasarchitectpc",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64542341703549,
+                    40.58194934224209
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "malinaportals",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66629107271177,
+                    40.594369655746426
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thedjchefexperience",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66122659951122,
+                    40.58693898808064
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "menonthemove",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65261607277138,
+                    40.59089271106734
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "douglasellimankarlavgrasso",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6681797484913,
+                    40.58242485256633
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "katherinecoladnerdanielgalesothebysinternationalrealty",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66511911507953,
+                    40.58240132183842
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "clubpilatesoceanside",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67696264087704,
+                    40.59035701720682
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachtaxi",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66676681666746,
+                    40.586180645649
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "homeappliance",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6779978307774,
+                    40.58711160043581
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jondabelectricalcontractors",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65258006275351,
+                    40.58843600663578
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thebolandgroupatafn",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66241065407264,
+                    40.58207176372789
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "royalventcleaning",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65524058806974,
+                    40.58628193294512
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "contourmortgagetommarchioli",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67671466572045,
+                    40.58246937219964
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "superhawk",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.58670564223938,
+                    40.58534385369036
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thejunkluggersoflongisland",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.7144150352893,
+                    40.58696790529781
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fallondemorubbishremovalservice",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65830932845235,
+                    40.586266130312076
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "douglasellimanjoycecoletti",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6640272994935,
+                    40.59116025267962
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "doxbarkitchen",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64963848563688,
+                    40.59530901171312
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "professionalyouththeatre",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65943878819226,
+                    40.58191341709211
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thedanceloft",
+                "vehicle": "boat"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67390763385357,
+                    40.58266459683654
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "triviewreflections",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6494907682229,
+                    40.58701342471774
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "recastindustries",
+                "address": "127 W Hudson St, Long Beach NY 11561, USA",
+                "address_formatted": "127 West Hudson Street, City of Long Beach, NY 11561, United States of America",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67125623376948,
+                    40.5903946763575
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bodylogicspa"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65713850661129,
+                    40.588267273267775
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lidokosherdeli"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6457904193093,
+                    40.58915833450463
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "liddlebitesplaycafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65943109968664,
+                    40.58795203186677
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "peknicpeknicschaeferllc"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69667181818252,
+                    40.586154241421085
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baskinrobbins"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65862814848322,
+                    40.58794723186677
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "decaff"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6610164781067,
+                    40.589057508056776
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "countryboybakery"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65587285931345,
+                    40.588278982179
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "coffeenutcafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65650908485821,
+                    40.58789222127577
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "activelifelongbeach"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66042821471892,
+                    40.58822276578468
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "goldenera"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65705073902144,
+                    40.58897884079992
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "francescospizzarestaurant"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65990946413936,
+                    40.589056907890395
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "naomichaimwatmanmdfaap"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6543335575844,
+                    40.58894609998738
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sherryblossom"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66661173341375,
+                    40.58821907175799
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "execproenterprises"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66582963673096,
+                    40.588231795324205
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bernsteingraylawgroup"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6666140573118,
+                    40.58800647250533
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachnursingrehab"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65342565104422,
+                    40.594401228384164
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bayvistaassistedliving"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65516992384566,
+                    40.59438824322297
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "rocolive"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66921368785115,
+                    40.5881626
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "drlelandbarry"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64456390014966,
+                    40.5891584133487
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jewelrybysteven"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64551921511848,
+                    40.588935644199566
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beinspiredlbsalon"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64518321152579,
+                    40.589146128729794
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "centuryverdeschiwalshrealty"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69737345209715,
+                    40.586223657669755
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "periperiguys"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65903503894795,
+                    40.589059757248954
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "michaelstailoringdrycleaning"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66224742267954,
+                    40.588226311919534
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jilinsuranceagency"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69693758182002,
+                    40.58663744445443
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachartleague"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65825633360319,
+                    40.58864978928235
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beechcombersalon"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.68721580068075,
+                    40.58635895563958
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldoria"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6625745730849,
+                    40.587901435880774
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hollywoodwest"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.70014558735618,
+                    40.58612132350468
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "theridebyhollywood"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66376979883346,
+                    40.58791785579096
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "brighteyebeerco"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66551229830709,
+                    40.588239436030214
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nagahamajapaneserestaurant"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65849873097439,
+                    40.58883089512094
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "precisionpharmacy"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64644840303441,
+                    40.58916933247698
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cybernetsynergy"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6651227531512,
+                    40.58824354570976
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "gelospointpharmacy"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.58133550310957,
+                    40.592425993607165
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "blacksmithsbreads"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.68998368173477,
+                    40.58541906597952
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "covergirlfashion"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65986862560173,
+                    40.588231765784684
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "familyplus"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65772338066306,
+                    40.58827035353165
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "redefinemeals"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66744020700678,
+                    40.5881675152417
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cellcity"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66562731591459,
+                    40.5878796861592
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrobytmobile"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66615718749391,
+                    40.588227237997515
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "eastendpizza"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64484510119739,
+                    40.588956349920096
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "stjamesofjerusalemepiscopalchurch"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67021634282524,
+                    40.58521326080172
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "yummyyummyasianbistro"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66048564581766,
+                    40.588839995779665
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sunshinecarenetwork"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6872255975039,
+                    40.58579487966385
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "clinicalstaffingresources"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.68719879841157,
+                    40.585448893081875
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ironagetattoostudio"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.70042469272316,
+                    40.586321200206406
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thebungalow"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64614112996958,
+                    40.58893961150368
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cafeoflifechiropractic"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66741950866027,
+                    40.58790057677694
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "theresaclanzonemdfaap"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66659663677406,
+                    40.5877632578449
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "felicia"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6631085930374,
+                    40.587927759971265
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "centremillworksupplyco"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65846574416473,
+                    40.592996052741405
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dynamicstudio"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6647133608625,
+                    40.58824748931394
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "tasteofitaly"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66280457219722,
+                    40.58824208187639
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "menonthemovemobilestorage"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.61081587940038,
+                    40.62143220851945
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "danamanzapsychotherapy"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66827010104613,
+                    40.587865207442384
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "core"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66011894768069,
+                    40.58796631257379
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "virayogacollective"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66193618107599,
+                    40.587915513918716
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lajebookkeepingsolutions"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6644158328137,
+                    40.587908449463995
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "coastalwavewellnessbeautytheallegriahotel"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6663652896451,
+                    40.584204880074665
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "borrellistaproom"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69228903584509,
+                    40.585630054065845
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allegriahotel"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6656307372692,
+                    40.58412251197079
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "halperfamilymedicine"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69619768181491,
+                    40.586686659722496
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachhistoricalsociety"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.67159225766203,
+                    40.58519069777857
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pksmokeshop"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65651739236421,
+                    40.58827569799839
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "brandsdelicatessen"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66529003721928,
+                    40.587883471571864
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allislandhearing"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66797708422999,
+                    40.58816386245915
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "parkavenuerealtylb"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66900206631327,
+                    40.587867910834944
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "studionoir"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69738691363528,
+                    40.58581978046012
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "maxbialystokcompany"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65944605593499,
+                    40.58885049610425
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbsocial"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66602042346302,
+                    40.58784494486575
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbbistro"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65902728960634,
+                    40.588236094165275
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "drnaturerx"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66149125313162,
+                    40.58822074586446
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kleinbergfuneralservices"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64477933689719,
+                    40.614831265140424
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "monarchbeverage"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65848009053566,
+                    40.59026746179278
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beachwinemore"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65830531933729,
+                    40.59079042238594
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mackenmortuary"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6454253696218,
+                    40.61449503873516
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newleafcremation"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64415892621274,
+                    40.61518232598655
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachfarmersmarket"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65797433254643,
+                    40.588555263327116
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "softwavelongisland"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6430031161238,
+                    40.588319145078586
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "eastparkchiropracticwellness"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64355095172459,
+                    40.58831359803342
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachlatinocivicassociation"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65633311306112,
+                    40.59292126887232
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lillysoflongbeach"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69399620707718,
+                    40.585766128807606
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "superpollo"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6633060798131,
+                    40.58822369587873
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "salononpark"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66944962890989,
+                    40.5878208251806
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "keyfoodmarketplace"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.64414829700603,
+                    40.58896117109837
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "oishiomakase"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66093728599539,
+                    40.58798121488853
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "himawariseasonsasianpan"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66488412680118,
+                    40.587877476999644
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "badboyburrito"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66425846160175,
+                    40.58825104336687
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "anabelsbraidingboutique"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.58288958568886,
+                    40.59219346686189
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "highlightsonpoint"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.58289276262526,
+                    40.5924093796989
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "balancedhealthwellness"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69228498173477,
+                    40.58647763530608
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thespacebyevolve"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.68929827465756,
+                    40.58580586965658
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrophysicaltherapyaquaticsbythesea"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65652914946853,
+                    40.59240115570904
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beachcomfort"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6578808538887,
+                    40.58898052342641
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "earthartspotterystudio"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6686287165306,
+                    40.58815671246106
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pilatesbythesea"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.58220697592643,
+                    40.592193822263056
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "reynoldsvine"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.58100948346996,
+                    40.59220577988094
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jimbosbeachrentals"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.66633795133193,
+                    40.58797870573768
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thecabana"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.69791065454564,
+                    40.585557347623684
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "playadeperros"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65823446853074,
+                    40.58830061864321
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "marvelfrozendairy"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.6670985235866,
+                    40.58417534198061
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longbeachnymemes"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65860280634266,
+                    40.58854197028423
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "barrierbeets"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.65958662320669,
+                    40.58356359234426
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}

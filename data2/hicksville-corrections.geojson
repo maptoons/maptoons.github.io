@@ -1,0 +1,819 @@
+{
+    "type": "FeatureCollection",
+    "name": "Hicksville Corrections",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "uniqueimpressions",
+                "address": "47 Elliot Drive, Hicksville, NY 11801",
+                "address_formatted": "47 Elliot Drive, Hicksville, NY 11801, United States of America",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52344714239331,
+                    40.75657950219203
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "servpro-firenwaterr",
+                "address": "17B East Old Country Road, Suite 328, Hicksvile, New York",
+                "address_formatted": "17 B East Old Country Road, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51479616622369,
+                    40.765528804585905
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "eastnewyork-taxservice",
+                "address": "7 Elliot Drive, Hicksville, NY 11801",
+                "address_formatted": "7 Elliot Drive, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50679640517859,
+                    40.74561915648805
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "menonthemove-movingandselfstorage",
+                "town": "Woodbury",
+                "address": "150 Crossways Park Drive West, Woodbury, NY 11797",
+                "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.48849751106309,
+                    40.8068538
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kiranpalace-indiancuisine",
+                "address_formatted": "75 East Old Country Road, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51569475479037,
+                    40.76384952451804
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kumonmathnreadingcenter",
+                "address_formatted": "495 South Broadway, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.510049,
+                    40.757141
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sugarbaedessertcafe",
+                "address_formatted": "259 West Old Country Road, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52946975941843,
+                    40.76103560863781
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "creations",
+                "address_formatted": "103 Levittown Parkway, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.54170141254501,
+                    40.75327767425252
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dcapinsurance",
+                "address_formatted": "956 South Broadway, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.49940672667978,
+                    40.74468890813683
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "smok-haus",
+                "address_formatted": "954 South Broadway, Hicksville, NY 11801, United States of America"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.500523,
+                    40.74491373
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allstate-edward",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51517154018629,
+                    40.77057418085187
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "empire-tax-reductions",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.53506623322984,
+                    40.77042424749156
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "charlesrutenberg-realtyinc",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51000616663597,
+                    40.76281452282397
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "callkomalkataria",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5139465290415,
+                    40.76752321332455
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "trj-balloon-teamrajjaggi",
+                "vehicle": "plane"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.53145204081848,
+                    40.76911796798517
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "firststudent",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5440070178553,
+                    40.76598617566255
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bestqualityelectric",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.53343444724733,
+                    40.76762506006479
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "servpro-firenwaterr",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51479616622369,
+                    40.765528804585905
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ecoshieldpetsol",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50678212889008,
+                    40.75301924346103
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thejunkluggers",
+                "vehicle": "car"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5085984,
+                    40.7599608
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "family-dental"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.53107932544492,
+                    40.778801815153074
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thefoundary"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51797472782182,
+                    40.77208574867551
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "buffalowildwings"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52954963750531,
+                    40.772910136080974
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "johnepotentensons-inc"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51913248763391,
+                    40.77133384797694
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jmtravelnmultiservicesincometax"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52356727327245,
+                    40.76765950307883
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thesouthasiantimes"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52299176091157,
+                    40.76714387416839
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lkkassociateslkkcpapc"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52300035154575,
+                    40.76570851641898
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sarashiva"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52215851578137,
+                    40.76577345027543
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nassaugoldbuyers"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5222894554445,
+                    40.76518482807074
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "holytrinityepiscopalchurch"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52385090352135,
+                    40.763697738464714
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "platinumchiropractic"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52335315794733,
+                    40.76322718192435
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "centershops"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.52814178509071,
+                    40.76253889394369
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hitechhvacservices"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5278909550359,
+                    40.76305395115981
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "theupsstore"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51742153738087,
+                    40.76394275591912
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "periperiguys"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51731523100372,
+                    40.762780864848125
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "alexsbarbershop"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51499196151929,
+                    40.763435192540314
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "platinumvolkswagen"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.53633507442683,
+                    40.76014372424747
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ststephensevangelicalchurch"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51886024583841,
+                    40.76317978906358
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "riwajevents"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51616902997299,
+                    40.76178366979556
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "prestigedentalcare"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.515505021836,
+                    40.761214366821726
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "daysinn-bestvalueundersun"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50079380003775,
+                    40.760762834781154
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sexycrab-cajunseafood"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50090946203913,
+                    40.76235581882755
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "goforltmartialarts"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51735698305676,
+                    40.76191203161247
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "traveltimeandtours"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51508174043646,
+                    40.7608271318326
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "indianvisacenter"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51428010410538,
+                    40.760164769900186
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "wisdomsalon"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.530475195292,
+                    40.760765870629434
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fenetiwindowsystems"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5214008353313,
+                    40.76525996498876
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "philipmtornatore-dds"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51954100140325,
+                    40.75021446921582
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bestfarms"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51883569274916,
+                    40.748759644604185
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "airpros-airconditioning"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50489771548555,
+                    40.745456000000004
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "alphagraphics"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50243298211721,
+                    40.745214937343036
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "applebees-grillbar"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5020233214851,
+                    40.747093408575566
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dancedimensions"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50131319707496,
+                    40.74635116635415
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fastfood-madeincolombia"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.53380451605614,
+                    40.7451084598939
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "wineudesign"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50166259971033,
+                    40.744754705898536
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "regalbilliards"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50059951056093,
+                    40.74565794497301
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "salonisage"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.53426343211173,
+                    40.74399258726985
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dancomputers"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.50346092962747,
+                    40.74397895732927
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newyorkmicroscopecompany"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.5009669914935,
+                    40.74391890584297
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "menonthemove-storagecube"
+            },
+            "geometry": {
+                "coordinates": [
+                    -73.51855349839448,
+                    40.768219912838674
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
