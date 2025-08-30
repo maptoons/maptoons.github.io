@@ -1,0 +1,2436 @@
+{
+  "type": "FeatureCollection",
+  "name": "North Babylon Corrections",
+  "features": [
+    {
+      "id": "skZwCvyMnqSHMiM4kW1S4lbTpX3sBfTJ",
+      "type": "Feature",
+      "properties": {
+        "id": "stablesgardencenter",
+        "address": "1141 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Family owned and operated since 1953, Stables Garden Center is a local Garden and landscaping supply business dedicated to product knowledge and customer service.",
+        "mapname": "Stables Garden Center",
+        "loc": 1,
+        "phone": "631-667-5122",
+        "discount": "10% off all items, excludes sales and clearance",
+        "exp": "8/31/2026",
+        "web": "http://StablesGardens.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1141 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31859427175118,
+          40.7356483
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PEyxNNOAY3QxWZJBvyJhdcEEYTJKwCP7",
+      "type": "Feature",
+      "properties": {
+        "id": "alltowntowingrepairs",
+        "address": "622A Route 109",
+        "town": "Lindenhurst",
+        "business": "Live & Work",
+        "info": "Serving the community for 45+ years. AAA repair shop and towing company. Towing, lockout services, battery delivery, and jump-starts. Full automotive repair, 2-year warranty, parts and labor.",
+        "mapname": "All Town Towing & Repairs",
+        "loc": 2,
+        "phone": "631-226-3300",
+        "web": "http://AllTownTow.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "622 Route 109, Lindenhurst, NY 11757, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.377674,
+          40.713342
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "TL4M0gPZPX1tiO4ansuLWNqyAk9QsVrs",
+      "type": "Feature",
+      "properties": {
+        "id": "performaxphysicaltherapywellness",
+        "address": "150 Bay Shore Rd.",
+        "town": "N. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Start your recovery right after an injury, work/car accident, surgery, or concussion with expert rehabilitation and care.",
+        "mapname": "Performax Physical Therapy & Wellness",
+        "loc": 3,
+        "phone": "631-586-6616",
+        "web": "http://PerformaxPTW.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "150 Bay Shore Road, North Babylon, NY 11706, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3205125174898,
+          40.747969000408936
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Jk201OWDnWFaa1MlyYwMt2mrR7kUbWic",
+      "type": "Feature",
+      "properties": {
+        "id": "stairglide",
+        "address": "410 Sunrise Hwy.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "We work with a number of industry-leading manufacturers to provide stair lifts, wheelchair ramps, handicap lifts, and more. Safety and convenience are just a phone call away. ",
+        "mapname": "StairGlide",
+        "loc": 4,
+        "phone": "631-647-8855",
+        "discount": "$200 off any new stair lift (not to be combined).",
+        "exp": "8/31/2026",
+        "web": "http://StairGlideNY.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "410 Sunrise Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3610057250317,
+          40.712939
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xZWzWCDVlSU9wpawwXitIRZh7RuliGiv",
+      "type": "Feature",
+      "properties": {
+        "id": "colstanassociatesinc",
+        "address": "512 Sunrise Hwy., Suite B",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Offering comprehensive coverage, including Business, Contractors, Auto, Workers' Comp, Bonds, and Personal Insurance, to safeguard your property and peace of mind.",
+        "mapname": "Colstan & Associates, Inc.",
+        "loc": 5,
+        "phone": "631-266-2800",
+        "web": "http://Colstan.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "512 Sunrise Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35320236473547,
+          40.7129223
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3O9oj0EfI6TMK3aFFJdhvJGDEMBzvXnU",
+      "type": "Feature",
+      "properties": {
+        "id": "bkgynmastics",
+        "address": "25 S. Jerome Ave.",
+        "town": "W. Babylon",
+        "business": "Learn & Play",
+        "info": "Offering gymnastics for 45 years. Children starting at the age of 13 months. Boys and girls competitive teams.",
+        "mapname": "BK Gynmastics",
+        "loc": 6,
+        "phone": "631-422-0116",
+        "web": "http://BKGymnastics.net",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "25 South Jerome Avenue, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.34955157142856,
+          40.71289442857143
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AmDehaWndkpRKY1O4kWl4AUGJZjWH6pT",
+      "type": "Feature",
+      "properties": {
+        "id": "northbabylondental",
+        "address": "837 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "We will make you smile! We provide dental care with a gentle touch. Root canals, crowns, extractions, implants, and more!",
+        "mapname": "North Babylon Dental",
+        "loc": 7,
+        "phone": "631-587-4545",
+        "discount": "Free exam for new patients.",
+        "exp": "8/31/2026",
+        "web": "http://NorthBabylonDental.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "837 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32245330105948,
+          40.725195850000006
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lbhva1vsUm0oykZnuQoiLngZlbnRG9XJ",
+      "type": "Feature",
+      "properties": {
+        "id": "acarpet",
+        "address": "632 Sunrise Hwy.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "Premier floor covering showplace with a wide selection of carpet, hardwood, laminate, vinyl and tile.  Design professionals on premise. Free in-home measuring and estimates.",
+        "mapname": "A-1 Carpet",
+        "loc": 8,
+        "phone": "631-669-2300",
+        "web": "http://Westbabylon.AbbeyCarpet.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "632 Sunrise Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.34650909999999,
+          40.7130329
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sgkaDFHrk7folsiLlonhjCpbnP5Pd9b9",
+      "type": "Feature",
+      "properties": {
+        "id": "bubbleteaculture",
+        "address": "1161 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Eat & Drink",
+        "info": "Handcrafted bubble teas, refreshing fruit teas, and tasty snacks in a fun, welcoming atmosphere. A local favorite for all ages!",
+        "mapname": "Bubble Tea Culture",
+        "loc": 9,
+        "phone": "631-888-3998",
+        "instagram": "https://www.instagram.com/bubbleteaculture/",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "1161 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31986256598714,
+          40.73643384468394
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2pHPFpFcKa5qQThmKNs5zJptuJOKAO0G",
+      "type": "Feature",
+      "properties": {
+        "id": "scrapalatte",
+        "address": "877-879 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "Making memories last forever!  A fun and friendly local business for all your scrapbooking, card-making, paper crafting and mixed media needs. Classes, Crops, and more!",
+        "mapname": "Scrap-A-Latte",
+        "loc": 10,
+        "phone": "631-482-9190",
+        "web": "http://ScrapALatte.net",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "877 Little East Neck Road North, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35330880000001,
+          40.717131200000004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2zPiFBhg4fvs5gxQResjPacgsoY9SskZ",
+      "type": "Feature",
+      "properties": {
+        "id": "perfectionbarbershop",
+        "address": "1011 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Serving the community for 15 years.",
+        "mapname": "Perfection Barbershop",
+        "loc": 11,
+        "phone": "631-983-8859",
+        "instagram": "https://www.instagram.com/PerfectionBarberz/",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1011 Little East Neck Road North, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35882330000001,
+          40.7237724
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ImJiDlj6AsFAIa15Wc9wGiQLkaETQXvR",
+      "type": "Feature",
+      "properties": {
+        "id": "theupsstore",
+        "address": "1488 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Serving North Babylon for 30+ years, now in a newly renovated location. We accept any drop-off. Quick convenient services and no lines! Open Sundays.",
+        "mapname": "The UPS Store",
+        "loc": 13,
+        "phone": "631-242-6245",
+        "web": "http://TheUPSStore.com/2520",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1488 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.325346,
+          40.748431
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "rKk65hfBK3kUVS98PuGkM0jEjevkhVpg",
+      "type": "Feature",
+      "properties": {
+        "id": "nonnabellaspizzacafe",
+        "address": "765 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Eat & Drink",
+        "info": "Staple of the North Babylon community, serving authentic Italian food fresh daily. Signature pizzas and pastas, classic heroes, wraps, and salads. Go-to spot for families, friends, and neighbors alike.",
+        "mapname": "Nonna Bella's Pizza Cafe",
+        "loc": 14,
+        "phone": "631-669-1250",
+        "discount": "10% off any order of $25 or more.",
+        "exp": "8/31/2026",
+        "web": "http://NonnaBellas.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "765 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32209731967367,
+          40.7210967163267
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IkWjH1mWWxY6hZSY3PzFsulwKyejSclA",
+      "type": "Feature",
+      "properties": {
+        "id": "stregarose",
+        "address": "777 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Private studio for custom tattoos, holistic wellness, beauty, and mediumship readings. Over 50+ years experience combined. No distractions,  just art, care, and connection.",
+        "mapname": "Strega Rose",
+        "loc": 15,
+        "phone": "631-290-8278",
+        "web": "http://StregaRoseTattooArts.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "777 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32227051725133,
+          40.72170011708252
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "WCYjciH8DDRL4earMOukUCPwWJuIANWL",
+      "type": "Feature",
+      "properties": {
+        "id": "mangiapizzaitalianrestaurant",
+        "address": "785 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Eat & Drink",
+        "info": "The Mangiapane family loves to cook and has been sharing that tradition with others for over 30 years!. We use fresh quality ingredients cooked to order.",
+        "mapname": "Mangia Pizza & Italian Restaurant",
+        "loc": 16,
+        "phone": "631-661-6188",
+        "web": "http://MangiaPizzaNB.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "785 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32210016788619,
+          40.72208545
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "K6qRjJGqetmjjEqgritVn04MyOEognxG",
+      "type": "Feature",
+      "properties": {
+        "id": "bergenpointyachtbasin",
+        "address": "601 Bergen Ave.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Complete boat service. Repairs, boat sales, paint, summer dockage, winter storage, fiberglass repair.",
+        "mapname": "Bergen Point Yacht Basin",
+        "loc": 17,
+        "phone": "631-669-3990",
+        "web": "http://Bergenpointmarina.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "601 Bergen Avenue, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.337931,
+          40.676709
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "dvXpFbyrKM8Nb3pS4mPzbWbjIcgPQRcq",
+      "type": "Feature",
+      "properties": {
+        "id": "towersflowers",
+        "address": "1350 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Family-owned and operated for over 35 years. Proud to support numerous schools, churches, and not-for-profit organizations. One of Teleflora's prestigious Top 500 Florists in America.",
+        "mapname": "Towers Flowers",
+        "loc": 18,
+        "phone": "631-242-0070",
+        "web": "http://TowersFlowers.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1350 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3224175,
+          40.74266485
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "msG9EjRiAbeQOnIaCHDy4L2DgeehEtaq",
+      "type": "Feature",
+      "properties": {
+        "id": "assetcoverageinsuranceagency",
+        "address": "645 Route 109",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "We have over 40 insurance companies to give you the best Automobile/Homeowners insurance price. Call us for a  Free Quote!",
+        "mapname": "Asset Coverage Insurance Agency",
+        "loc": 19,
+        "phone": "631-661-3333",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "645 Route 109, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.379698,
+          40.714503
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0ifdYQOjbNxLDSPApeObxsjImEdkZygk",
+      "type": "Feature",
+      "properties": {
+        "id": "looneytunesrecordstore",
+        "address": "31 Brookvale Ave.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "Looney Tunes Long Island's #1 music and movie store carries CDs, LPs, DVDs, Books, Clothing, Posters, Candles, Gifts and more! We buy used CDs and vinyl LPs!",
+        "mapname": "Looney Tunes Record Store",
+        "loc": 20,
+        "phone": "631-587-7722",
+        "web": "http://LTCDS.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "31 Brookvale Avenue, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3471312244898,
+          40.68638853061224
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bR9WTR8QCB40EcYT3RCY2QEWIpdgnhWp",
+      "type": "Feature",
+      "properties": {
+        "id": "mathewsprimemeats",
+        "address": "245 Route 109",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "Serving the food industry since 1965. Beef, poultry, veal, lamb, pork, seafood, burgers/hot dogs, dairy, breads, vegetables, beverages. Free delivery over $100.",
+        "mapname": "Mathew’s Prime Meats",
+        "loc": 21,
+        "phone": "631-321-0015",
+        "web": "http://MathewsPrime.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "245 Route 109, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.355534,
+          40.709465
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vJU4wi6zEMZUpUMp5p8CVVlljh5O4hzb",
+      "type": "Feature",
+      "properties": {
+        "id": "uneedabagel",
+        "address": "757 Sunrise Hwy.",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "Choose from our many types of bagels prepared fresh every day.  All cream cheeses and salads are home made daily.  Breakfast and lunch served daily.",
+        "mapname": "U-Need-A-Bagel",
+        "loc": 22,
+        "phone": "631-587-3154",
+        "web": "http://Like us on Facebook",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "757 Sunrise Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3408037,
+          40.714699
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PyRGGcWGmzpNzje5vemIPicUl5qsHl5v",
+      "type": "Feature",
+      "properties": {
+        "id": "mcdonalds",
+        "address": "1255 Deer Park Ave. Aldi Shopping Center",
+        "town": "N. Babylon",
+        "business": "Eat & Drink",
+        "info": "Making delicious feel-good moments easy for everyone. We work hard every day to ensure convenience, friendly service, cleanliness, and delicious food. Located in the Aldi Shopping Center.",
+        "mapname": "McDonald's",
+        "loc": 23,
+        "phone": "631-586-2133",
+        "web": "http://McDonalds.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "McDonald's, 1255 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32018403330551,
+          40.738892500000006
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xIUyIRsPXJfObgVhR2jK3S3o6jIC0xpc",
+      "type": "Feature",
+      "properties": {
+        "id": "longislandcarcarecenter",
+        "address": "333 Bay Shore Rd.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "Complete automotive repairs & service, foreign & domestic. All credit cards accepted on repairs. Towing, NYS inspections. Expert computer diagnostics, wheel alignment.",
+        "mapname": "Long Island Car Care Center",
+        "loc": 24,
+        "phone": "631-213-2300",
+        "facebook": "https://www.facebook.com/Long Island Car Care Center",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "333 Bay Shore Road, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31000086827251,
+          40.743468750000005
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "fpmrkQH7fXjmQf36yDmkcbQpGLVTG3SY",
+      "type": "Feature",
+      "properties": {
+        "id": "joeriscicasautorepair",
+        "address": "291 Bay Shore Rd.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "Serving our customers with the utmost levels of professionalism, honesty, and integrity in servicing and repairing their vehicles.",
+        "mapname": "Joe Riscica's Auto Repair",
+        "loc": 25,
+        "phone": "631-667-3395",
+        "discount": "10% off, up to $100 discount (not including NY inspections or tires).",
+        "exp": "8/31/2026",
+        "web": "http://JoeRiscicasAutoRepairs.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "291 Bay Shore Road, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31154133314536,
+          40.744272800000005
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "U80ztmZdDBrXPIZRCWL0cjmedAmkKeFd",
+      "type": "Feature",
+      "properties": {
+        "id": "jkautoservicetires",
+        "address": "1041 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Specializing in all aspects of vehicle repair, from routine maintenance and tire repair to engine replacement and everything in between.",
+        "mapname": "JK Auto Service & Tires",
+        "loc": 27,
+        "phone": "631-539-0930",
+        "web": "http://JKAutoServ.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1041 Little East Neck Road North, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35937336376853,
+          40.725074500000005
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ioUuxbecbkhBiQi5DOxnhYu1wVc8YcyY",
+      "type": "Feature",
+      "properties": {
+        "id": "arsautorepair",
+        "address": "1470 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Live & Work",
+        "info": "Complete automotive repairs. Free pickup & delivery locally.",
+        "mapname": "A&RS Auto Repair",
+        "loc": 28,
+        "phone": "631-595-1900",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1470 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.324194,
+          40.747303
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "j02NzY70IsHezpcFcEcQV4Tjk0yGpese",
+      "type": "Feature",
+      "properties": {
+        "id": "southswell",
+        "address": "605 Bergen Ave.",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "Offering West Babylon a laid-back waterfront spot with California‑style breakfast, tacos, and cocktails — open 7 days a week starting at 8am.",
+        "mapname": "South Swell",
+        "loc": 29,
+        "phone": "631-539-7373",
+        "web": "http://SouthSwellBergenPoint.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "605 Bergen Avenue, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33788876750151,
+          40.67646206090957
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "wXca87OzfKr1jD3cV3wUiP5VM0skrPU8",
+      "type": "Feature",
+      "properties": {
+        "id": "bergenbaydocks",
+        "address": "605 Bergen Ave.",
+        "town": "W. Babylon",
+        "business": "Visit & Experience",
+        "info": "Best fuel prices on the water! Gas/Diesel. Convenient location, free pump out, jet skiis welcome.  Friendly staff to help you dock, Pets always welcome!\n",
+        "mapname": "Bergen Bay Docks",
+        "loc": 29,
+        "phone": "631-539-4136",
+        "web": "http://BergenBayDocks.com",
+        "category": "visit_and_experience",
+        "subcategory": "visit_and_experience",
+        "address_formatted": "605 Bergen Avenue, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33790569749549,
+          40.6765401693081
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lCSs5kmkjTF1tyswjZ8t0xvhhLTWUUDW",
+      "type": "Feature",
+      "properties": {
+        "id": "greatnorthernfibers",
+        "address": "77 Field St.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Offering decades of experience in the recycling of paper, metal, and plastic materials for any business. Offering competitive pricing and certified weights.",
+        "mapname": "Great Northern Fibers",
+        "loc": 30,
+        "phone": "631-643-7940",
+        "web": "http://GreatNorthernFibers.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "7 Field Street, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.386306,
+          40.731037
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "k7VGfPCBigDR48HrmBQwu9AvtVYKBbI3",
+      "type": "Feature",
+      "properties": {
+        "id": "ridgewoodsavingsbank",
+        "address": "50 Route 109",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Proudly serving our communities since 1921. Offering a wide array of consumer, business, lending, and investment solutions. Member FDIC, Equal Housing Lender.",
+        "mapname": "Ridgewood Savings Bank",
+        "loc": 31,
+        "phone": "631-376-1200",
+        "web": "http://RidgewoodBank.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "50 Route 109, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.345999,
+          40.704582
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sBi2zFBTsRg67GA4YhoHIquUNS0Qc2VX",
+      "type": "Feature",
+      "properties": {
+        "id": "allpetsanimalhospital",
+        "address": "975 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Compassionate, high quality, advanced veterinary care for dogs and cats as well as many\"exotic\" birds, reptiles, rats, rabbits, ferrets, guinea pigs, hamsters, tortoises, lizards and snakes.",
+        "mapname": "All Pets Animal Hospital",
+        "loc": 32,
+        "phone": "631-376-1133",
+        "web": "http://AllPetsAnimalHospital-Babylon.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "975 Little East Neck Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3572712,
+          40.7223113
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9HPwobJOG3BLJgq7os8ezAt6NL6SAz6p",
+      "type": "Feature",
+      "properties": {
+        "id": "kinggutters",
+        "address": "271 Skidmore Rd.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "Cleaning, repairs, soffit, trim, fascia wood, leaf guard, roof repairs, and all types of gutters. Now offering decorative style gutters for your home or business.",
+        "mapname": "King Gutters",
+        "loc": 33,
+        "phone": "631-888-0628",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "271 Skidmore Road, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31128563024114,
+          40.7455681
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "65DKRmTpkPLFIZhohUCwQTMB0uEpSKDC",
+      "type": "Feature",
+      "properties": {
+        "id": "rcollisionautobody",
+        "address": "271-8 Skidmore Rd.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "Auto body and collision repairs, bumper repair, lease returns. Working directly with all insurance companies.",
+        "mapname": "R Collision & Auto Body",
+        "loc": 34,
+        "phone": "631-392-0788",
+        "discount": "10% off any insurance job up to $500",
+        "exp": "8/31/2026",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "Skidmore Road, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31058419806651,
+          40.74689330410766
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ctymRoPFEILZs7IC6d5rICxapWr5sSIR",
+      "type": "Feature",
+      "properties": {
+        "id": "artsigns",
+        "address": "407 Lexington Ave.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Boat, van & truck lettering. All type of signs and lettering. We do car wraps.",
+        "mapname": "Art Signs",
+        "loc": 35,
+        "phone": "631-422-0025",
+        "web": "http://ArtSignsCompany.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "407 Lexington Avenue, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33796732525877,
+          40.72005005
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IJUCHkwPOFhvEjVh5EBr1PF6lwISMCIF",
+      "type": "Feature",
+      "properties": {
+        "id": "ablelocksmith",
+        "address": "980 Sunrise Hwy.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "A full-service locksmith and security integrator. Providing access control, cameras, doors, locks, safes & more. Shop/showroom open weekdays with 24-hour emergency road service available.",
+        "mapname": "Able Locksmith",
+        "loc": 36,
+        "phone": "631-587-7278",
+        "web": "http://AbleLock.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "980 Sunrise Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.317666,
+          40.716736
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "i6eejQgC1ZknlFC3s0MXCx3RlOLFBhFU",
+      "type": "Feature",
+      "properties": {
+        "id": "attorneysatlawwexlersnoverschaffer",
+        "address": "816 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Live & Work",
+        "info": "Practicing all forms of law except matrimonial and family law.",
+        "mapname": "Attorneys at Law Wexler, Snover, Schaffer",
+        "loc": 37,
+        "phone": "631-422-2900",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "816 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3230519446789,
+          40.72431425
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "dGS3vjsHuxtaGpdYIdk762bgAybYFMfN",
+      "type": "Feature",
+      "properties": {
+        "id": "coldwellbankereastonproperties",
+        "address": "1405 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Live & Work",
+        "info": "Servicing the community for over 50 years! Our goal is to provide the highest quality of service to meet the real estate needs of our community. ",
+        "mapname": "Coldwell Banker - Easton Properties",
+        "loc": 38,
+        "phone": "631-586-6700",
+        "web": "http://ColdwellBankerEaston.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1405 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.322409,
+          40.74506
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "31qPFOJauoozuONgsSQjJ9slcG4ao2v4",
+      "type": "Feature",
+      "properties": {
+        "id": "thebarnpetfeedsupplies",
+        "address": "315 Bay Shore Rd.",
+        "town": "Deer Park",
+        "business": "Shop & Discover",
+        "info": "Celebrating 10 years serving the community, family owned and operated. Feed store and garden center. Call us for all your mulch needs. Free local delivery.",
+        "mapname": "The Barn Pet Feed & Supplies",
+        "loc": 40,
+        "phone": "631-940-5907",
+        "web": "http://TheBarnFeedStore.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "315 Bay Shore Road, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31070793136364,
+          40.7437752
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "U4MyamMLE3p90jJ7YlYRred50v8cWMyu",
+      "type": "Feature",
+      "properties": {
+        "id": "melsbarber",
+        "address": "1044 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Locally owned and operated  in West Babylon, New York. It is owned by Melvin Vargas, a community favorite who provides professional stylish haircuts to men of all ages.",
+        "mapname": "Mel's Barber",
+        "loc": 41,
+        "phone": "631-526-9397",
+        "web": "http://MelsBarbershopWB.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1044 Little East Neck Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3599221,
+          40.7249401
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AJTiBoerta8PY5QDJUo0PHqD3bNk7Kz0",
+      "type": "Feature",
+      "properties": {
+        "id": "longislandwholesalebeverage",
+        "address": "394 Long Island Ave.",
+        "town": "Wyandanch",
+        "business": "Shop & Discover",
+        "info": "Beer, soda, lotto, ice, snacks, kegs, ATM on premise.",
+        "mapname": "Long Island Wholesale Beverage",
+        "loc": 42,
+        "phone": "631-643-9617",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "394 Long Island Avenue, Wyandanch, NY 11798, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35584918431991,
+          40.75488195
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "l4eH3Nxrhy2dhXNN58TIZKt8XzcqbNOZ",
+      "type": "Feature",
+      "properties": {
+        "id": "casadelcampodominicanrestaurant",
+        "address": "1159 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Eat & Drink",
+        "info": "Making you feel at home since 1986. Open 7 days a week. Full bar, outdoor catering, live music on weekends. Voted top 10 Latin restaurants on Long Island.",
+        "mapname": "Casa Del Campo Dominican Restaurant",
+        "loc": 43,
+        "phone": "631-586-1171",
+        "web": "http://CasaDelCampoNY.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "1159 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31985127653236,
+          40.73626799881314
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cZUDesr58lK3J8kuzHAGmvHU4nqETKYC",
+      "type": "Feature",
+      "properties": {
+        "id": "ajcraneservice",
+        "address": "121 Wyandanch Ave.",
+        "town": "Wyandanch",
+        "business": "Live & Work",
+        "info": "Family owned & operated since 1995. Crane services, steel fabrication, heavy transport, trucking, storage, rigging and forklift services available 24/7. Assisting you with any project large  or small.",
+        "mapname": "A&J Crane Service",
+        "loc": 44,
+        "phone": "631-643-6988",
+        "web": "http://ANJCranes.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "121 Wyandanch Avenue, Wyandanch, NY 11798, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35967812511112,
+          40.741951799999995
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "eID4CItXTUmrE2o5vdy3QVq5NTv7gk6O",
+      "type": "Feature",
+      "properties": {
+        "id": "eastnecknursingandrehabilitationcenter",
+        "address": "134 Great East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Recover and regain your independence with expert short-term rehab and long-term care. Personalized therapy, 24/7 support, and a warm, healing environment to help you thrive.",
+        "mapname": "East Neck Nursing and Rehabilitation Center",
+        "loc": 45,
+        "phone": "631-422-4800",
+        "web": "http://ENNRC.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "134 Great East Neck Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.34678496374246,
+          40.69100375
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XrSaf5zE2EFFsIHBxoiNGL1epc5Nqc72",
+      "type": "Feature",
+      "properties": {
+        "id": "kjpartyrentals",
+        "address": "225 17th St.",
+        "town": "W. Babylon",
+        "business": "Learn & Play",
+        "info": "Your one-stop shop for unforgettable celebrations! From balloon decor to chairs, tables, and backdrops - we bring the party to you. Proudly serving Long Island.",
+        "mapname": "K & J Party Rentals",
+        "loc": 47,
+        "phone": "631-835-1601",
+        "web": "http://KJPartyRentals.net",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "225 17th Street, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.37064812198587,
+          40.7274087
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gZH3NzD9r6F9FeW6ClNISSfhBSn0bLSA",
+      "type": "Feature",
+      "properties": {
+        "id": "villabellabakery",
+        "address": "1042 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "A premier destination for authentic Italian breads, pastries, cookies, and specialty cakes. Committed to excellence, we blend tradition and quality to create a truly distinguished bakery experience.",
+        "mapname": "Villa Bella Bakery",
+        "loc": 48,
+        "phone": "631-661-1717",
+        "web": "http://VillaBellaBakery.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "1042 Little East Neck Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35985,
+          40.7248575
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xfly50gaJB3aZ279c8yZF9e0CYBpOxTw",
+      "type": "Feature",
+      "properties": {
+        "id": "bagelfactory",
+        "address": "615 Montauk Hwy.",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "An old fashioned bagel store serving Babylon and Lindenhurst ]for over 25 years. We make our dough from scratch and bake the traditional way with a kettle and revolving oven.",
+        "mapname": "Bagel Factory",
+        "loc": 49,
+        "phone": "631-661-0011",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "615 West Montauk Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.344864,
+          40.686344
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "uSe7qnmTjZe0U8TyWtZpYw1n9iRSDLu4",
+      "type": "Feature",
+      "properties": {
+        "id": "deerparkpharmacy",
+        "address": "1155 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Easing access to pharmacy care. Prescriptions, refills and transfers, durable medical equipment, medication therapy management, diabetic services, Medicare open enrollment, OTC medications, vitamins, personal care products, and DMV eye exam.",
+        "mapname": "Deer Park Pharmacy",
+        "loc": 50,
+        "phone": "631-940-9472",
+        "web": "http://DeerParkPharmacy.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1155 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31980806910269,
+          40.73612595
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nN0kZoSw6WFF529LY1KWo3dETYp8fy1j",
+      "type": "Feature",
+      "properties": {
+        "id": "xpressmarkettogo",
+        "address": "1273 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Offering a wide variety of groceries, beverages, and specialty items. We also have NY State Lottery. Stop in and see us soon!",
+        "mapname": "Xpress Market To Go",
+        "loc": 51,
+        "phone": "631-205-6455",
+        "instagram": "https://www.instagram.com/xpressmarket_231/",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1273 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3202877,
+          40.739233549999994
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2idyQBPTQJXQc2t3WItqL3U0sXkwAdkw",
+      "type": "Feature",
+      "properties": {
+        "id": "carlenecalabreserealtyconnectusa",
+        "address": "334 Deer Park Ave.",
+        "town": "Babylon Village",
+        "business": "Live & Work",
+        "info": "Residential and probate real estate specialist. Do you have a house to sell? Call Carlene - It's the Right Move!",
+        "mapname": "Carlene Calabrese - Realty Connect USA",
+        "loc": 52,
+        "phone": "631-357-4819",
+        "web": "http://CarleneCalabrese.RealtyConnectUSA.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "334 Deer Park Avenue, Village of Babylon, NY 11702, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.322404,
+          40.701454
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "TP8UgWdelFk9tRLLkKIFwfYanEeEQVR7",
+      "type": "Feature",
+      "properties": {
+        "id": "sunseteyecare",
+        "address": "1148 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Serving the community for over 45 years. All forms of eyewear including sunglasses, safety glasses, designer glasses, and more! Most insurances accepted.",
+        "mapname": "Sunset Eyecare",
+        "loc": 53,
+        "phone": "631-242-0808",
+        "web": "http://SunsetEyecares.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1148 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32053849855222,
+          40.735794933665886
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XnVG7Vd6twlbb8q2sXmXqs8tMJhuiWvM",
+      "type": "Feature",
+      "properties": {
+        "id": "olympicdiner",
+        "address": "1536 Deer Park Ave.",
+        "town": "Deer Park",
+        "business": "Eat & Drink",
+        "info": "It's like coming home - our food is exceptional and we only use the best ingredients. Serving the Deer Park and North Babylon community for over 45 years.",
+        "mapname": "Olympic Diner",
+        "loc": 54,
+        "phone": "631-242-1902",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "1536 Deer Park Avenue, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32544945238712,
+          40.7504473
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "S4Y8BYqgxFUVHx1xvLhTgC39KMwxCwOK",
+      "type": "Feature",
+      "properties": {
+        "id": "wyandanchpubliclibrary",
+        "address": "14 S. 20th St.",
+        "town": "Wyandanch",
+        "business": "Learn & Play",
+        "info": "Offering a wide variety of programs, services, and resources for the community to use and enjoy! Providing quality materials and services in an atmosphere that is welcoming, respectful, and professional.",
+        "mapname": "Wyandanch Public Library",
+        "loc": 55,
+        "phone": "631-643-4848",
+        "web": "http://WyandanchLibrary.org",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "14 South 20th Street, Wyandanch, NY 11798, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.36434864592218,
+          40.748817349999996
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "wT07lXR4kDcLpY7YrKK94d0yHt8rJbSk",
+      "type": "Feature",
+      "properties": {
+        "id": "aasystemstruckbus",
+        "address": "110 Wyandanch Ave.",
+        "town": "Wyandanch",
+        "business": "Shop & Discover",
+        "info": "Distributor of heavy duty truck & transit parts.",
+        "mapname": "AA Systems Truck & Bus",
+        "loc": 56,
+        "phone": "631-491-4000",
+        "web": "http://AASTB.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "110 Wyandanch Avenue, Wyandanch, NY 11798, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.36058975824199,
+          40.74119245
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "QLdTCfsLpecGE9IeC40EwZF4Ybysxx8G",
+      "type": "Feature",
+      "properties": {
+        "id": "manganofuneralhome",
+        "address": "1701 Deer Park Ave.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "The only family-owned & operated funeral home serving the area. Family-owned since 1911.",
+        "mapname": "Mangano Funeral Home",
+        "loc": 57,
+        "phone": "631-586-3600",
+        "web": "http://ManganoFH.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1701 Deer Park Avenue, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32594786325365,
+          40.754163000000005
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7tOFvljHyZuM24gRUleGIksoM9saHnAd",
+      "type": "Feature",
+      "properties": {
+        "id": "bricksminifigs",
+        "address": "709 W. Montauk Hwy.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "Your one-stop Community LEGO® shop. Specializing in all thing LEGO® including rare and retired sets and minifigures. Join exciting events or book your special LEGO® birthday party today!",
+        "mapname": "Bricks & Minifigs",
+        "loc": 58,
+        "phone": "631-320-2717",
+        "web": "http://BricksAndMinifigs.com/WestBabylon-NY",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "709 West Montauk Highway, Copiague, NY 11757, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3816819,
+          40.6714747
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AmnfWUaqhWvY91yN9xfq8cyQEdxKjwFS",
+      "type": "Feature",
+      "properties": {
+        "id": "imxpilates",
+        "address": "1930 Deer Park Ave. Suite 100",
+        "town": "Deer Park",
+        "business": "Thrive & Be Well",
+        "info": "An elite fitness formula that marries the muscle toning & lengthening benefits of Pilates with strength & cardio training to increase flexibility!",
+        "mapname": "IM=X Pilates",
+        "loc": 59,
+        "phone": "917-412-6496",
+        "web": "http://IMXPilatesLI.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1930 Deer Park Avenue, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33060675138935,
+          40.76287955
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ezNNmze2fYbBlBiaVcdIHlvJlEJgO141",
+      "type": "Feature",
+      "properties": {
+        "id": "clauderboydcaratozzolofuneralhome",
+        "address": "1785 Deer Park Ave.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "Pre-planning, catered receptions, hospitality room, live streaming capabilities. One of the largest chapels on Long Island. Compassionate & caring staff with over 20 years of experience.",
+        "mapname": "Claude R. Boyd Caratozzolo Funeral Home",
+        "loc": 60,
+        "phone": "631-667-8614",
+        "web": "http://Boyd-CaratozzoloFuneralHome.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1785 Deer Park Avenue, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3268455300092,
+          40.7569551
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Geig9BPnLycF40dnVo1gsgouZR5hJsk8",
+      "type": "Feature",
+      "properties": {
+        "id": "galleriamart",
+        "address": "379 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "Mini mart, party supplies, balloons, beer, lotto, and more! A one-stop shop.",
+        "mapname": "Galleria Mart",
+        "loc": 61,
+        "phone": "631-587-7937",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "379 Little East Neck Road North, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.34356805882352,
+          40.70363311764706
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "U96NRAtigcTJQ3IVqCbfRzL2ALoEpP06",
+      "type": "Feature",
+      "properties": {
+        "id": "thegoldsource",
+        "address": "347 Bay Shore Rd.",
+        "town": "Deer Park",
+        "business": "Shop & Discover",
+        "info": "Quality jewelry at an affordable price! We are a jewelry store that puts the principles of honesty, exceptional service, and value into your experience.",
+        "mapname": "The Gold Source",
+        "loc": 62,
+        "phone": "631-940-3989",
+        "web": "http://TheGoldSourceJewelry.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "347 Bay Shore Road, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.30951674581459,
+          40.743292249999996
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0RHzGtIS374n5RNLQi9NsJ8UBsaWKbwl",
+      "type": "Feature",
+      "properties": {
+        "id": "fiscellaplumbingheating",
+        "address": "160 Skidmore Rd. South",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "Serving Long Island for over 35 years in both residential and commercial plumbing needs. We are licensed in both Nassau and Suffolk counties. ",
+        "mapname": "Fiscella Plumbing & Heating",
+        "loc": 63,
+        "phone": "631-667-9838",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "160 Skidmore Road South, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.30837157620219,
+          40.746533157042414
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HGpwoYtBvJov6zBlz9VpOsA91RWcBWSP",
+      "type": "Feature",
+      "properties": {
+        "id": "amsoilkingsofny",
+        "address": "316 Sylvan Rd.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "We extend drain intervals, improve fuel economy, lower maintenance costs, maintain low emissions, and keep engines internally cleaner. We're more environmentally friendly and reduce foreign oil dependency.",
+        "mapname": "Amsoil Kings of NY",
+        "loc": 64,
+        "phone": "516-852-9843",
+        "web": "http://AMO1PRO.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "316 Sylvan Road, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33436185823433,
+          40.73235455
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "07I1CDDxVR6Uao27MubG6PXOFcBnVZtV",
+      "type": "Feature",
+      "properties": {
+        "id": "alitaliapizzeriarestaurant",
+        "address": "999 Montauk Hwy.",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "Family-owned and operated, serving the community since 1977, offering a wide selection of pizzas and Italian cuisine! Monday pasta night, Wednesday chicken night, and pie specials!",
+        "mapname": "Alitalia Pizzeria & Restaurant",
+        "loc": 65,
+        "phone": "631-587-4394",
+        "web": "http://AlitaliaBabylon.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "999 West Montauk Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.351316,
+          40.685346
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "okz9XNJYYLep8a7IJZUzrj6B3Sco5Cze",
+      "type": "Feature",
+      "properties": {
+        "id": "dutchgirlcleaners",
+        "address": "1365 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Live & Work",
+        "info": "Environmentally safe wet cleaning. Fast and friendly service. Non-toxic and chemical-free. Alteration and tailoring, rug and carpet cleaning, leather and suede cleaning, and shoe repair and sneaker cleaning.",
+        "mapname": "Dutch Girl Cleaners",
+        "loc": 66,
+        "phone": "631-586-8027",
+        "web": "http://DutchGirlCleanerNorthBabylon.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1365 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3215233507172,
+          40.7435586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UUmgQqAXrkPFUdWF29ZLrGV8Ryl91IdS",
+      "type": "Feature",
+      "properties": {
+        "id": "westsuffolkautobody",
+        "address": "400 Route 109",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "With over 30 years of experience, we are Your Best Decision After A Collision®. A lifetime warranty covers all work associated with your claim for as long as you own your car.",
+        "mapname": "West Suffolk Auto Body",
+        "loc": 67,
+        "phone": "631-669-1800",
+        "web": "http://WestSuffolkAutoBody.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "400 Route 109, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.363762,
+          40.709563
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2x4gNFALcEZBQrQmZ3c3Q4IqiKcoebGE",
+      "type": "Feature",
+      "properties": {
+        "id": "elgolazo",
+        "address": "885 Route 109",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "Comfortable eatery specializing in Peruvian fare such as lomo saltado and ceviche, plus beer and cocktails.",
+        "mapname": "El Golazo",
+        "loc": 68,
+        "phone": "631-886-7300",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "885 Route 109, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.388781,
+          40.715492
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "q54ZdChpj7jCz3Wm4VytmKQkTczxxEiC",
+      "type": "Feature",
+      "properties": {
+        "id": "aaacheaptreelandscapingofli",
+        "address": "319 W. 11th St.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "The Best for Less! Fully licensed & insured for all phases of tree work. Tree/shrub removals, toppings, pruning/cutbacks & stump grinding, planting & design, grading & lawn installations, hazard tree & storm damage prevention.",
+        "mapname": "AAA Cheap Tree & Landscaping of L.I.",
+        "loc": 69,
+        "phone": "631-254-0045",
+        "discount": "15% off any job when mentioning MapToons.",
+        "exp": "8/31/2026",
+        "web": "http://AAACheapTree.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "319 West 11th Street, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33425579227921,
+          40.74758215
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xTp4sLf4WyMHxtLcurcm70FplPtz9REb",
+      "type": "Feature",
+      "properties": {
+        "id": "consultinginsuranceagency",
+        "address": "1350 Deer Park Ave. Suite 34",
+        "town": "N. Babylon",
+        "business": "Live & Work",
+        "info": "Helping individuals, families, and businesses obtain the ideal insurance to protect their assets from loss due to unforeseen events at competitive rates for almost 45 years.",
+        "mapname": "Consulting Insurance Agency",
+        "loc": 70,
+        "phone": "631-242-2422",
+        "web": "http://ConsultingInsuranceAgency.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1350 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3224175,
+          40.74266485
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "QOhFucDqDiVH3fWiLhwTYjnrfh5i3Qap",
+      "type": "Feature",
+      "properties": {
+        "id": "cmfbarbershop",
+        "address": "761B Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "A barbershop specializing in skincare. Home of the hot shave and facial. Over 30 years experience.",
+        "mapname": "CMF Barbershop",
+        "loc": 71,
+        "phone": "631-782-0358",
+        "instagram": "https://www.instagram.com/cmf_ent_barbershop/",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "761 Deer Park Avenue, North Babylon, NY 11746, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3220212,
+          40.7206629
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0r2vqaMeSnITulcukrSTBrPefXqpEJjm",
+      "type": "Feature",
+      "properties": {
+        "id": "namelessink",
+        "address": "820 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Shop & Discover",
+        "info": "Tattoo parlor serving North Babylon. We take the time to ensure comfort and quality for art that will last a lifetime.",
+        "mapname": "Nameless Ink",
+        "loc": 72,
+        "phone": "516-299-0917",
+        "instagram": "https://www.instagram.com/the_nameless_ink/",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "820 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32308936870936,
+          40.72463985
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "eQApopSHprixx5PwhESFaa5L1TZAjbV0",
+      "type": "Feature",
+      "properties": {
+        "id": "jamphysicaltherapy",
+        "address": "179 Great East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Offering personalized rehabilitation services to help patients recover from injuries and improve their physical health. Our team of experienced therapists provide a welcoming environment focused on individualized treatment plans.",
+        "mapname": "Jam Physical Therapy",
+        "loc": 73,
+        "phone": "516-932-3278",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "179 Great East Neck Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.34463176387717,
+          40.692420200515066
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2rNgH7FCVnOjfyqvaCXpanll9lpc3Kll",
+      "type": "Feature",
+      "properties": {
+        "id": "manettohillchiropracticandrehabilitation",
+        "address": "179 Great East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Expert care for auto accidents, sports injuries and more in Syosset and West Babylon.",
+        "mapname": "Manetto Hill Chiropractic and Rehabilitation",
+        "loc": 73,
+        "phone": "516-932-3278",
+        "web": "http://ManettoHillChiropractic.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "179 Great East Neck Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.34452124274979,
+          40.6929788609606
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7cFdVjWwrzK6f0b43VDv1ax0Dm8zUKdt",
+      "type": "Feature",
+      "properties": {
+        "id": "berkshirenursingrehabilitationcenter",
+        "address": "10 Berkshire Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "The premier rehab facility on Long Island. Family-owned and operated, we believe that the care we provide should parallel the care we would want for our own loved ones.",
+        "mapname": "Berkshire Nursing & Rehabilitation Center",
+        "loc": 74,
+        "phone": "631-587-0600",
+        "web": "http://BerkshireRehab.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "10 Berkshire Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.34448363092845,
+          40.705851499999994
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PwoKiSpYR6yuvCni70YhPKZnxmCt6y2a",
+      "type": "Feature",
+      "properties": {
+        "id": "atlanticautomall",
+        "address": "193 Sunrise Hwy.",
+        "town": "W. Islip",
+        "business": "Shop & Discover",
+        "info": "We are proud to have a diverse array of new and used models available for you to consider purchasing. Offering both leasing and purchasing.",
+        "mapname": "Atlantic Auto Mall",
+        "loc": 75,
+        "phone": "631-587-0700",
+        "web": "http://AtlanticAutoGroup.net",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "193 Sunrise Highway, West Islip, NY 11795, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.307652,
+          40.719418
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IbMsLCNqNwfLPGx10n3i4QQqSmAe9RIJ",
+      "type": "Feature",
+      "properties": {
+        "id": "allingraphicsandmedia",
+        "address": "939 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "One-stop shop for promotional and recording needs. Original and custom clothing and graphic design for flyers, banners, logos, and more. Recording studio for artists and creators looking to expand their careers.",
+        "mapname": "All in 1 Graphics and Media",
+        "loc": 76,
+        "phone": "631-482-1504",
+        "instagram": "https://www.instagram.com/Allin1_LI/",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "939 Little East Neck Road North, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35528217007061,
+          40.71976495
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "GUriMR8JVU5e07gFtKZdAN6IJNdC1GR9",
+      "type": "Feature",
+      "properties": {
+        "id": "carvelofwestbabylon",
+        "address": "937 Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Eat & Drink",
+        "info": "Satisfying your cravings with on-the-go fun. Whatever the occasion, we’ve got the perfect handheld treat to beat the heat. Stop by or skip the trip and order online.",
+        "mapname": "Carvel of West Babylon",
+        "loc": 77,
+        "phone": "631-482-1075",
+        "web": "http://Carvel.WestBabylon@gmail.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "937 Little East Neck Road North, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35558748359067,
+          40.720046737891515
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Y14RHx6CGLPQraRFcYuDe29iOoMO67sb",
+      "type": "Feature",
+      "properties": {
+        "id": "maxwellturfsupplycoinc",
+        "address": "414 Long Island Ave.",
+        "town": "Wyandanch",
+        "business": "Shop & Discover",
+        "info": "Serving homeowners, landscapers, and golf courses for 40+ years with expert lawn supplies, equipment sales, repairs, and robotic mower solutions to keep lawns thriving.",
+        "mapname": "Maxwell Turf & Supply Co. Inc.",
+        "loc": 78,
+        "phone": "631-643-8873",
+        "discount": "10% off fertilizer & seed.",
+        "exp": "8/31/2026",
+        "web": "http://MaxwellTurf.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "414 Long Island Avenue, Wyandanch, NY 11798, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3545870050136,
+          40.7551661
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7JLTPzudBNKdBNmvhXASKQ1OAC7whcvT",
+      "type": "Feature",
+      "properties": {
+        "id": "minimalbarbershop",
+        "address": "247 Bay Shore Rd.",
+        "town": "Deer Park",
+        "business": "Thrive & Be Well",
+        "info": "An upscale barbershop and lifestyle store with a minimalist aesthetic in an open-concept space. To revolutionize the haircut experience, we service clients through hair, art, music, and apparel.",
+        "mapname": "MINIMAL Barbershop",
+        "loc": 79,
+        "phone": "631-940-0984",
+        "web": "http://MinimalBarbershop.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "247 Bay Shore Road, Deer Park, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.31397576923077,
+          40.745185423076926
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "2MoYCmMCk8edARETuQQC9kk8w0ipgs8J",
+      "type": "Feature",
+      "properties": {
+        "id": "shahshalallindenhurstcitgo",
+        "address": "500 Route 109",
+        "town": "Lindenhurst",
+        "business": "Eat & Drink",
+        "info": "Are you ready for healthy and savory Halal cuisine served within minutes? Giving you a quick serve meal cooked fresh every day, plus gasoline and convenience store.",
+        "mapname": "Shah’s Halal Lindenhurst / Citgo",
+        "loc": 80,
+        "phone": "631-888-4444",
+        "web": "http://ShahsHalalFood.com/Lindenhurst",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "500 Route 109, Lindenhurst, NY 11757, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.370496,
+          40.711283
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "KHbSurYe4XaxAUhPI85VuYkKHyacXRIx",
+      "type": "Feature",
+      "properties": {
+        "id": "captreeclamseafoodcompany",
+        "address": "440 Falmouth Rd.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "Offering delicious seafood, caviar, wholesale & retail options, and excellent service. Visit our website!",
+        "mapname": "Captree Clam Seafood Company",
+        "loc": 81,
+        "phone": "631-422-0517",
+        "web": "http://CaptreeClamStore.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "440 Falmouth Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33425463752204,
+          40.71554775
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cbvJy0O0WTRxEjhmKGpJsitKbYOY1vuo",
+      "type": "Feature",
+      "properties": {
+        "id": "simplicityautomotivesales",
+        "address": "140 Lamar St.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Specializing in all automotive repair, collision & customizations, dent and paint correction. All insurance accepted. 24hr towing.",
+        "mapname": "Simplicity7 Automotive & Sales",
+        "loc": 82,
+        "phone": "646-922-3282",
+        "instagram": "https://www.instagram.com/simplicity7_autobody/",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "140 Lamar Street, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.37958355,
+          40.738747849999996
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JPkURWwjFJbFkFbfsya1NYhXqrKEbOhR",
+      "type": "Feature",
+      "properties": {
+        "id": "groomingbyalexandsarah",
+        "address": "974 Sunrise Hwy.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Grooming all types of breeds with 45 years of experience. Accomplished stylists certified in pet CPR. Vet tech experience. Knowledgeable in every aspect of grooming and pet care.",
+        "mapname": "Grooming by Alex and Sarah",
+        "loc": 83,
+        "phone": "631-482-1611",
+        "web": "http://GroomingByAS.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "974 Sunrise Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.318365,
+          40.716673
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "1zgmYMp5UliGlmj0IAfdFObmZXeyVjgz",
+      "type": "Feature",
+      "properties": {
+        "id": "dentalstudio",
+        "address": "505 Sunrise Hwy.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Our goal is to provide state of the art dental care in an immaculate setting and provide information that enables patients to make more informed decisions about their oral health. ",
+        "mapname": "Dental Studio",
+        "loc": 84,
+        "phone": "631-661-0505",
+        "web": "http://DentalStudioNY.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "505 Sunrise Highway, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35459802564245,
+          40.7138957
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AqOKSv3O2b4bYOFNoKQCiVWuSDxfAZix",
+      "type": "Feature",
+      "properties": {
+        "id": "inthekutbarberstudio",
+        "address": "769 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Specializing in all the latest trendy and classy styles, ensuring you leave our studio looking and feeling your best. We blend contemporary style and traditional barbering techniques.",
+        "mapname": "In The Kut Barber Studio",
+        "loc": 85,
+        "phone": "631-861-2663",
+        "web": "http://InTheKutBarberStudio.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "769 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3221185,
+          40.7214552
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "LFE9qjeWUDai9fby4jS8vQRPbCkWiYVN",
+      "type": "Feature",
+      "properties": {
+        "id": "greekrave",
+        "address": "9 Bay Shore Rd.",
+        "town": "Deer Park",
+        "business": "Eat & Drink",
+        "info": "Eat in or take out. Authentic Greek food so good...it's just like being there.",
+        "mapname": "GreeKrave",
+        "loc": 86,
+        "phone": "631-522-1133",
+        "web": "http://GreeKrave.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "9 Bay Shore Road, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32397292727273,
+          40.75005030909091
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "acGluQrq5q9eNFCrwpfueRa6ABn2PfDt",
+      "type": "Feature",
+      "properties": {
+        "id": "ragsautocollision",
+        "address": "417 Falmouth Rd.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "You go to Rags to fix it! 24-hour towing. All insurance accepted.",
+        "mapname": "RAGS Auto Collision",
+        "loc": 87,
+        "phone": "631-321-4058",
+        "instagram": "https://www.instagram.com/rags_autobody/",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "417 Falmouth Road, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.33492861163347,
+          40.71499005
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IKK4rusGYXdGdKOQjxh5RO0wpbQrOB6x",
+      "type": "Feature",
+      "properties": {
+        "id": "strongislandelectric",
+        "address": "38 Kean St. Ste. A",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "Over 90 years of supplying a robust variety of services, access to parts, and quality service. The perks of a big-name provider with the friendly service of a local tradesperson.",
+        "mapname": "Strong Island Electric",
+        "loc": 88,
+        "phone": "631-627-1872",
+        "web": "http://StrongIslandElectric.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "38 Kean Street, Wyandanch, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3790532,
+          40.7353069
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "12HhhgtEA94PNy90C4OOWghWK8inD9k1",
+      "type": "Feature",
+      "properties": {
+        "id": "bodydesigns",
+        "address": "1739 Deer Park Ave.",
+        "town": "Deer Park",
+        "business": "Shop & Discover",
+        "info": "Premier spot in Deer Park for award winning tattoos and body piercings. Whether it's your first time getting tattooed or you've got a full sleeve already, we have the industry leading talent you're looking for.",
+        "mapname": "Body Designs",
+        "loc": 89,
+        "phone": "631-254-8288",
+        "discount": "10% off tattoo or piercing for first time customers only.",
+        "exp": "8/31/2026",
+        "web": "http://BodyDesigns.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1739 Deer Park Avenue, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.32659188235294,
+          40.75544882352941
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3XTyIFluTuOaAJFykc8RXsHq2AxM978R",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemove",
+        "address": "150 Crossways Park Dr. West",
+        "town": "Westbury",
+        "business": "Live & Work",
+        "info": "With over 35 years of experience, hundreds of five-star reviews and dozens of awards, we're your best choice for moving! Get your free estimate online or call us today.",
+        "mapname": "Men on the Move",
+        "loc": 90,
+        "phone": "516-373-7077",
+        "web": "http://MenOnTheMove.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "North Hempstead (Westbury), NY, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5912,
+          40.756937
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pYhEO6pfJyZ4dtww8xiGhRXRcCKaI33M",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemovemobilestorage",
+        "address": "150 Crossways Park Dr. West",
+        "town": "Woodbury",
+        "business": "Live & Work",
+        "info": "Our Storage Cube is Long Island's best value in mobile storage! We offer the only insulated mobile storage units, along with available award-willing moving services to load and offload your Cube! Call or visit us online.",
+        "mapname": "Men on the Move - Mobile Storage",
+        "loc": 91,
+        "phone": "516-589-7560",
+        "web": "http://MenOnTheMove.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.48849751106309,
+          40.8068538
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "4OEKmeh3BDN51dLn6ilFaYvjGp6RV2Ex",
+      "type": "Feature",
+      "properties": {
+        "id": "pinnacleshutters",
+        "address": "42 Kean St.",
+        "town": "W. Babylon",
+        "business": "Shop & Discover",
+        "info": "We are Long Island's #1 shutters, columns, and accessories dealer.\nIn stock and special orders for Long Island, including Nassau and Suffolk counties.",
+        "mapname": "Pinnacle Shutters",
+        "loc": 92,
+        "phone": "631-491-3485",
+        "web": "http://PinnacleShuttersLongIsland.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "42 Kean Street, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3794196,
+          40.7351529
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "LmHsyrhUuEXc3fabrT7EZ8n84Ec1Pbny",
+      "type": "Feature",
+      "properties": {
+        "id": "arrowscrap",
+        "address": "83 Kean St.",
+        "town": "W. Babylon",
+        "business": "Live & Work",
+        "info": "We purchase and recycle metal and electronic scrap. Bring your scrap to our two convenient locations for the best prices and service.",
+        "mapname": "Arrow Scrap",
+        "loc": 93,
+        "phone": "631-491-3061",
+        "web": "http://ArrowScrap.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "83 Kean Street, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3797039471591,
+          40.7374257
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gCLxlFLc1gTPnmyI4DDdRjjwg9CYPj7Z",
+      "type": "Feature",
+      "properties": {
+        "id": "foxandcompanysalon",
+        "address": "948a Little East Neck Rd.",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Unlock your inner brilliance at our distinguished family salon, providing an extensive range of luxurious treatments and personalized hairstyles in a cozy and welcoming atmosphere with over 35 years.",
+        "mapname": "Fox and Company Salon",
+        "loc": 94,
+        "phone": "631-661-7832",
+        "web": "http://WestBabylonHairSalon.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "948 Little East Neck Road North, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35651175728137,
+          40.720769000000004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7Sd6fK7VoZucfNKh4g49KCVt8DA9slhp",
+      "type": "Feature",
+      "properties": {
+        "id": "cynthiaeichingerexitrealtyachieve",
+        "address": "956 Jericho Tpke.",
+        "town": "Smithtown",
+        "business": "Live & Work",
+        "info": "Real Estate professional, helping buyers and sellers, making the dream of home ownership a reality!",
+        "mapname": "Cynthia Eichinger - Exit Realty Achieve",
+        "loc": 95,
+        "phone": "631-455-2337",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "956 Jericho Turnpike, Smithtown, NY 11787, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.24617272588274,
+          40.84819401757134
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xcClnZJbPqEAV2HcOR4qqX6xZq6Jdx8V",
+      "type": "Feature",
+      "properties": {
+        "id": "risewellcommunityservices",
+        "address": "1 Route 109",
+        "town": "W. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Providing vital outpatient addiction & substance use services across Long Island, including: therapy, toxicology testing, medication management, methadone treatment, overdose prevention, problem gambling, and narcan training.",
+        "mapname": "RiseWell Community Services",
+        "loc": 96,
+        "phone": "631-669-5355",
+        "web": "http://RiseWell.org",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1 Route 109, West Babylon, NY 11704, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.345038,
+          40.704844
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PKup55t18tjuZq9grK2ozokE8cMe1LxI",
+      "type": "Feature",
+      "properties": {
+        "id": "llewmerchantllc",
+        "address": "",
+        "town": "Serving Long Island",
+        "business": "Live & Work",
+        "info": "Credit card processing with zero processing fees, POS systems, wireless\nterminals, online payment solutions, ATMs, and cashless ATM terminals.",
+        "mapname": "Llew Merchant LLC",
+        "loc": 97,
+        "phone": "347-394-6031",
+        "web": "http://LlewMerchant.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "McMurdo Station, Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.35642796146072,
+          40.774944128146586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "jmMT30xJ47v3A1kh7na3tBYcpmZzJWHx",
+      "type": "Feature",
+      "properties": {
+        "id": "sansoneautobody",
+        "address": "92 Brook Ave.",
+        "town": "Deer Park",
+        "business": "Live & Work",
+        "info": "Family Owned and Operated - 50 Years Experience - Insurance Estimates - Auto Painting - 24 HR Towing - Lifetime Warranty.",
+        "mapname": "Sansone Autobody",
+        "loc": 98,
+        "phone": "631-595-1550",
+        "instagram": "https://www.instagram.com/SansoneAutoBody/",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "92 Brook Avenue, Deer Park, NY 11729, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.30899629999999,
+          40.74569545
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "DAGtvybnClDGWwts0adDBdRBz17ttdab",
+      "type": "Feature",
+      "properties": {
+        "id": "pmpediatricurgentcare",
+        "address": "1130 Deer Park Ave.",
+        "town": "N. Babylon",
+        "business": "Thrive & Be Well",
+        "info": "Our compassionate pediatric experts provide convenient, top-quality evidence-based care for children and young adults.",
+        "mapname": "PM Pediatric Urgent Care",
+        "loc": 99,
+        "phone": "631-667-4767",
+        "web": "http://PMPediatricCare.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1130 Deer Park Avenue, North Babylon, NY 11703, United States of America"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3208097,
+          40.7357409
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
