@@ -47,7 +47,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "622 Route 109, Lindenhurst, NY 11757, United States of America",
         "priority": "T",
-        "img": "NB-2T"
+        "img": "NB-2T",
+		"vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -538,7 +539,8 @@
         "subcategory": "eat_and_drink",
         "address_formatted": "245 Route 109, West Babylon, NY 11704, United States of America",
         "priority": "D",
-        "img": "NB-21D"
+        "img": "NB-21D",
+		"vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -862,7 +864,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "271 Skidmore Road, Deer Park, NY 11729, United States of America",
         "priority": "S",
-        "img": "NB-33S"
+        "img": "NB-33S",
+		"vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -1185,7 +1188,8 @@
         "subcategory": "learn_and_play",
         "address_formatted": "225 17th Street, West Babylon, NY 11704, United States of America",
         "priority": "D",
-        "img": "NB-47D"
+        "img": "NB-47D",
+		"vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -1319,7 +1323,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "334 Deer Park Avenue, Village of Babylon, NY 11702, United States of America",
         "priority": "Q",
-        "img": "NB-52Q"
+        "img": "NB-52Q",
+		"vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -1507,7 +1512,8 @@
         "subcategory": "thrive_and_be_well",
         "address_formatted": "1930 Deer Park Avenue, Deer Park, NY 11729, United States of America",
         "priority": "D",
-        "img": "NB-59D"
+        "img": "NB-59D",
+		"vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -1613,7 +1619,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "160 Skidmore Road South, Deer Park, NY 11729, United States of America",
         "priority": "Q",
-        "img": "NB-63Q"
+        "img": "NB-63Q",
+		"vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -1776,7 +1783,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "319 West 11th Street, Deer Park, NY 11729, United States of America",
         "priority": "Q",
-        "img": "NB-69Q"
+        "img": "NB-69Q",
+		"vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -2182,7 +2190,8 @@
         "subcategory": "thrive_and_be_well",
         "address_formatted": "974 Sunrise Highway, West Babylon, NY 11704, United States of America",
         "priority": "S",
-        "img": "NB-83S"
+        "img": "NB-83S",
+		"vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -2317,7 +2326,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "38 Kean Street, Wyandanch, NY 11704, United States of America",
         "priority": "T",
-        "img": "NB-88T"
+        "img": "NB-88T",
+		"vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -2373,7 +2383,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "North Hempstead (Westbury), NY, United States of America",
         "priority": "T",
-        "img": "NB-90T"
+        "img": "NB-90T",
+		"vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -2507,7 +2518,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "956 Jericho Turnpike, Smithtown, NY 11787, United States of America",
         "priority": "D",
-        "img": "NB-95D"
+        "img": "NB-95D",
+		"vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -2561,7 +2573,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "McMurdo Station, Antarctica",
         "priority": "Q",
-        "img": "NB-97Q"
+        "img": "NB-97Q",
+		"vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
