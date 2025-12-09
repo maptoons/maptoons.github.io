@@ -1,0 +1,3709 @@
+{
+    "type": "FeatureCollection",
+    "name": "Oceanside, NY",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ljsscrapmetal",
+                "address": "3425 Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Top dollar paid for all scrap metals, iron, aluminum, steel, copper, brass, wire, junk cars, etc. 70 ft. truck scale. Serving NYC, Nassau & Suffolk. Contractors and homeowners welcome.",
+                "mapname": "LJS Scrap Metal",
+                "loc": 1,
+                "phone": "516-285-5400",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3425 Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6536452,
+                    40.6264155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "southshorecraftbrewery",
+                "address": "3505 Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Craft beer brewed and canned on-site, 20 rotating taps in a spacious taproom, featuring live music, family friendly events and private parties.",
+                "mapname": "South Shore Craft Brewery",
+                "loc": 2,
+                "phone": "516-388-6685",
+                "web": "http://SouthShoreCraftBrewery.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "3505 Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.654327,
+                    40.6249552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jamestechelectric",
+                "address": "400 Atlantic Ave.",
+                "town": "East Rockaway",
+                "business": "Live & Work",
+                "info": "A trusted local name in electrical services since 2006. Serving Nassau and Suffolk counties, NY, we offer a comprehensive range of services for both residential and commercial customers.",
+                "mapname": "James Tech Electric",
+                "loc": 3,
+                "phone": "516-536-6900",
+                "web": "http://JamesTechElectric.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "400 Atlantic Avenue, Village of East Rockaway, NY 11518, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.66478508378378,
+                    40.645171
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "salsprimemeats",
+                "address": "3145 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "An Oceanside staple since 1971. Specializing in quality beef, veal, lamb, pork, turkey and poultry.",
+                "mapname": "Sal’s Prime Meats",
+                "loc": 4,
+                "phone": "516-766-8440",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3145 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6536338,
+                    40.634719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "expresspackaging",
+                "address": "3334 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Ship with UPS, FedEx, and DHL. Offering any size boxes, packing supplies, office supplies, labels, private mail boxes, and eBay buying and selling.",
+                "mapname": "Express Packaging",
+                "loc": 5,
+                "phone": "516-255-0727",
+                "web": "http://WhereShipHappens.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3334 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6413805,
+                    40.6297254
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dcoccospizzeriarestaurant",
+                "address": "3573 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Family owned & operated, serving & making the best pizzas & Italian food! A must stop and an Oceanside landmark since 1988! ",
+                "mapname": "D’Cocco’s Pizzeria Restaurant",
+                "loc": 6,
+                "phone": "516-766-3938",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "D'Coccos, 3573 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6389593,
+                    40.6230887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "oceansidedentalstudio",
+                "address": "3051 Long Beach Rd. Suite 1",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Providing comprehensive, high-quality dental care with a focus on comfort, advanced technology, and personalized treatment for a healthy, confident smile.",
+                "mapname": "Oceanside Dental Studio",
+                "loc": 7,
+                "phone": "516-208-4656",
+                "web": "http://OceansideDentalStudioLI.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3051 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63992125793621,
+                    40.63683985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sunnystransmissions",
+                "address": "3375 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Complete transmission rebuild services. Fast turnaround times on all transmission repairs. Car problem? Get a tow to our shop!",
+                "mapname": "Sunny’s Transmissions",
+                "loc": 8,
+                "phone": "516-239-2600",
+                "web": "http://SunnysTransmission.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3375 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6519595,
+                    40.6282413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "liaspizzeriarestaurant",
+                "address": "60 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Local favorite for pizza, pasta, and Italian specialties. Where Oceanside neighbors gather, eat, and feel like family.",
+                "mapname": "Lia’s Pizzeria & Restaurant",
+                "loc": 9,
+                "phone": "516-764-4971",
+                "web": "http://LiasPizzeriaOceanside.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "60 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64169563157895,
+                    40.63930092105263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "tjautomotive",
+                "address": "3401 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "A full service auto repair shop, including custom exhausts, lift kits, rims and tires, NYS inspection, wheel alignment, and diesel repairs.",
+                "mapname": "TJ Automotive",
+                "loc": 10,
+                "phone": "516-766-9132",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3401 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6406307,
+                    40.6280099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longislandbagelcafe",
+                "address": "3452 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Whether you’re having a Birthday, Anniversary, Bat/Bar Mitzvah, Sweet Sixteen or Any Event, in your home or office, Long Island Bagel Cafe will provide the finest and freshest foods.",
+                "mapname": "Long Island Bagel Cafe",
+                "loc": 11,
+                "phone": "516-678-7070",
+                "web": "http://LIBC.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "3452 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6405711,
+                    40.6264761
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jpaulsterracecafe",
+                "address": "239 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "The ideal place to eat, drink and enjoy good times. 75 seat dining room and remodeled sports bar featuring 14 flat screen TVs + FAST TRACK OTB horse wagering system. Serving Oceanside for 43 years.",
+                "mapname": "J. Paul's Terrace Cafe",
+                "loc": 12,
+                "phone": "516-536-1806",
+                "web": "http://JPaulsOceanside.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "239 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6273274,
+                    40.6538538
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "svsfinejewelry",
+                "address": "3323 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Long Island’s top-rated jewelry store offers engagement rings, diamonds, custom designs, estate jewelry purchasing, and gold buying with exceptional craftsmanship and trusted service.",
+                "mapname": "SVS Fine Jewelry",
+                "loc": 13,
+                "phone": "516-766-2614",
+                "web": "http://SVSFineJewelry.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3323 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64065629101577,
+                    40.6301558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ritzjewelry",
+                "address": "3547 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Locally owned and operated with over 20 years of experience in the diamond and jewelry industry. Specialize in 14K, 18K and platinum jewelry. Watch and jewelry repair..",
+                "mapname": "Ritz Jewelry",
+                "loc": 14,
+                "phone": "516-255-0465",
+                "web": "http://RitzJewelryInc.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3547 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6381582,
+                    40.6235649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nationalmetalindustries",
+                "address": "2 Neil Ct.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Your trusted supplier for superior fencing products, expert support, and local or national delivery to meet all your fencing project needs. Trusted, family-owned supplier since 1950 with decades of expertise.",
+                "mapname": "National Metal Industries",
+                "loc": 16,
+                "phone": "516-594-0364",
+                "web": "http://NMIFence.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2 Neil Court, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6335944,
+                    40.6236737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "clubpilatesoceanside",
+                "address": "3197 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Award-winning boutique fitness studio providing reformer-based, full body Pilates workouts for everyBODY. Increase mobility, balance and strength with our group classes and private training! 80+ classes/week!",
+                "mapname": "Club Pilates Oceanside",
+                "loc": 17,
+                "phone": "516-280-1515",
+                "web": "http://ClubPilates.com/Oceanside",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3197 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.640606,
+                    40.633271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "serafinasbeautybar",
+                "address": "3257 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "A family-friendly atmosphere, hair & more salon that welcomes everyone. Helping our guests feel beautiful inside & out through great experiences, tradition, and technique.",
+                "mapname": "Serafina’s Beauty Bar",
+                "loc": 18,
+                "phone": "516-536-5925",
+                "web": "http://SerafinasBeautyBar.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3257 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6405581,
+                    40.6317933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mrrimrepairautoconcepts",
+                "address": "3256 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Restoring your wheels to their best. Giving your ride its sparkle back!",
+                "mapname": "Mr. Rim Repair & Auto Concepts",
+                "loc": 19,
+                "phone": "516-517-2086",
+                "web": "http://instagram.com/mr_rim_repair",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3256 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64110094275085,
+                    40.632213300000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "conceptfitness",
+                "address": "7 Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "A premier waterfront training facility offering strength and conditioning, college rowing development, and recovery services like sauna, cold plunge, and infrared therapy.",
+                "mapname": "Concept Fitness",
+                "loc": 20,
+                "phone": "516-592-1456",
+                "web": "http://ConceptFitnessNY.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "7 Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.652328,
+                    40.6185288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "charliesbutcher",
+                "address": "11 Brower Ave.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "We're more than just a butcher – our customers are our top priority! Come and savor our top-quality meats. Fueled by our owner Denise's passion for quality and service.",
+                "mapname": "Charlie's Butcher",
+                "loc": 21,
+                "phone": "516-632-5693",
+                "web": "http://CharliesButchers.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "11 Brower Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6331295,
+                    40.6422356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "guardianbus",
+                "address": "3530 Oceanside Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Here for all your transportation needs—weddings, events, and more. Reliable, comfortable, and professional service you can count on every time.",
+                "mapname": "Guardian Bus",
+                "loc": 22,
+                "phone": "516-723-3287",
+                "web": "http://GuardianBus.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3530 Oceanside Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6341479,
+                    40.6253031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newyorkhouseinspectors",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Family owned and operated home, mold, termite and asbestos inspections. Same day service and reports.",
+                "mapname": "New York House Inspectors",
+                "loc": 23,
+                "phone": "516-551-2422",
+                "web": "http://NewYorkHouseInspectors.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "levinspharmacy",
+                "address": "364 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Traditional, old fashioned service is our motto. Each customer receives personal attention and prescriptions are promptly filled. Large selection of products, free local delivery! Since 1922.",
+                "mapname": "Levin's Pharmacy",
+                "loc": 24,
+                "phone": "516-766-2288",
+                "web": "http://LevinsPharmacy.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "364 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6407297,
+                    40.6421208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "piilfencecompany",
+                "address": "3572A Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Serving Oceanside for over 25 years. Fully licensed and insured, providing excellent products and professional installations of all types of residential and commercial fencing.",
+                "mapname": "PiiL Fence Company",
+                "loc": 25,
+                "phone": "516-594-1550",
+                "web": "http://PiiLFence.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3572 Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6546156,
+                    40.6229466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "empirecarwashgroupofoceanside",
+                "address": "210 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Full service car wash membership packages - never be stuck driving a dirty car! Expert array of detailing services. Serving communities across Long Island.",
+                "mapname": "Empire Car Wash Group of Oceanside",
+                "loc": 26,
+                "phone": "516-536-2827",
+                "web": "http://EmpireCarWashGroup.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "210 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.647693,
+                    40.640503
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "emilescandies",
+                "address": "229 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "One of Long Island’s favorite chocolatiers since 1953. Our gourmet chocolates are hand-crafted on the premises still using our founder Emile’s original recipes.",
+                "mapname": "Emile’s Candies",
+                "loc": 27,
+                "phone": "516-766-4402",
+                "web": "http://EmilesCandies.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "229 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.62780977398238,
+                    40.65388145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "brightstaracademy",
+                "address": "3050 Oceanside Rd.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "We truly live by our motto: “…every child is a BRIGHT STAR on the horizon of tomorrow.” Offering children a place to grow, flourish and develop new skills! ",
+                "mapname": "Bright Star Academy",
+                "loc": 28,
+                "phone": "516-766-5699",
+                "web": "http://BrightStarSchoolandCamp.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "Temple Avodah, 3050 Oceanside Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63562403326341,
+                    40.6380043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jcautomotiveofoceanside",
+                "address": "2700 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Open Mon-Fri at 7am with prompt, reliable, friendly service. Serving Oceanside for 35 years.",
+                "mapname": "JC Automotive of Oceanside",
+                "loc": 29,
+                "phone": "516-766-4411",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2700 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63885410487961,
+                    40.646040299999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "asfinefoods",
+                "address": "3382 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Serving the Oceanside community for over 20 years with the great customer service in a gourmet Italian marketplace. Family-owned and operated. Visit our other location at 216 Sunrise Hwy in Rockville Centre.",
+                "mapname": "A&S Fine Foods",
+                "loc": 30,
+                "phone": "516-764-4606",
+                "web": "http://ASOceanside.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3382 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6415011,
+                    40.6284396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pastosaravioli",
+                "address": "2858 Lower Lincoln Ave.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Specializing in freshly made ravioli, manicotti, stuffed shells, fresh pasta, tortellini, cavatelli, sauces and more. Open 7 days.",
+                "mapname": "Pastosa Ravioli",
+                "loc": 31,
+                "phone": "516-255-0341",
+                "web": "http://Pastosa.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2858 Lower Lincoln Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.640794,
+                    40.641921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "temptationsforher",
+                "address": "3175 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Women’s sportswear & accessories - style , selection and personal service since 1985.",
+                "mapname": "Temptations…FOR HER",
+                "loc": 32,
+                "phone": "516-678-1150",
+                "web": "http://TemptationsForHer.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3175 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.639701,
+                    40.6341545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kellerwilliamselitekatherinegiordano",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Real Estate Experience, Real Expertise. 4 reasons why my clients hire me and send me referrals: 1. Pricing Mastery, 2. Negotiation Skills, 3. Ongoing Communication, 4. Area Expertise.",
+                "mapname": "Keller Williams Elite - Katherine Giordano",
+                "loc": 33,
+                "phone": "516-902-7388",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "johnbarbaragandolfothegandolfoteamcoldwellbankeramericanhomes",
+                "address": "493 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "With over $1 Billion dollars in career sales and over 1000 Homes Sold to Date. Ranked top 1% in Coldwell Banker.",
+                "mapname": "John & Barbara Gandolfo - The Gandolfo Team @ Coldwell Banker American Homes",
+                "loc": 34,
+                "phone": "516-779-8423",
+                "web": "http://JohnGandolfoHomes.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "493 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65346997966006,
+                    40.640450799999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "coldwellbankeramericanhomes",
+                "address": "493 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "One of the fastest growing real estate firms serving LI. Agents and offices servicing Nassau, Suffolk, Queens, and Kings (Brooklyn) counties. Uniquely positioned to help both buyers and sellers with their real estate needs.",
+                "mapname": "Coldwell Banker - American Homes",
+                "loc": 36,
+                "phone": "516-223-2525",
+                "web": "http://CBAMHomes.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "493 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65346997966006,
+                    40.640450799999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "purebarre",
+                "address": "3575 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Pure Barre is a full-body workout that transforms you physically & mentally. Strengthen & tone your body with our 4 class formats, in a safe, low-impact manner through controlled, purposeful movements.",
+                "mapname": "pure barre",
+                "loc": 37,
+                "phone": "516-766-0465",
+                "web": "http://purebarre.com/Location/Oceanside-NY",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "Pure Barre, 3575 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6390686,
+                    40.6231025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "anthonygiordano",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "A full service real estate law firm that specializes in representing Buyers, Sellers, and Lenders and residential and commercial real estate transactions. We represent clients all over New York.  ",
+                "mapname": "Anthony Giordano",
+                "loc": 38,
+                "phone": "516-851-9013",
+                "web": "http://instagram.com/the_real_estate_law",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ralphsitalianices",
+                "address": "242 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Since 1928 Ralph's has been making the best Italian Ices in New York. We use only the finest natural ingredients in our Ices, sherbets, ice cream, custard, smoothies, sugar-free Ices, etc.",
+                "mapname": "Ralph's Italian Ices",
+                "loc": 39,
+                "phone": "516-678-3101",
+                "web": "http://RalphsIces.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "Ralph's Italian Ices, 242 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.627203,
+                    40.6534901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "annafortedouglaselliman",
+                "address": "450 Sunrise Hwy.",
+                "town": "Rockville Centre",
+                "business": "Live & Work",
+                "info": "Anna's readiness to help and positivity will put your real estate worries to rest. Recipient of the Leading Edge Award and Long Island Board Of Realtors Top 20 Under 40!",
+                "mapname": "Anna Forte - Douglas Elliman",
+                "loc": 40,
+                "phone": "347-860-3585",
+                "web": "http://Elliman.com/agent/Anna-Forte/1024720",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "450 Sunrise Highway, Village of Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6367445,
+                    40.6571467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nextlevelsigns",
+                "address": "104 Foxhurst Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "A family owned and operated sign business. No sign too small or too big. Let's get your message out there. From t-shirts to car wraps, your NEXT step to success.",
+                "mapname": "Next Level Signs",
+                "loc": 41,
+                "phone": "516-834-1999",
+                "web": "http://NxtLevelSigns.net",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "104 Foxhurst Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6336871,
+                    40.6448854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "andrewmallorallstateinsurance",
+                "address": "427 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Born & raised in Oceanside, it's been a great opportunity to serve the community for 15+ years. I love being the person that customers turn to for any problems or claims.",
+                "mapname": "Andrew Mallor: Allstate Insurance",
+                "loc": 42,
+                "phone": "516-594-3400",
+                "web": "http://Agents.Allstate.com/andrew-mallor-oceanside-ny.html",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "427 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6251039,
+                    40.6537023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "homeappliance",
+                "address": "3050 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Since 1987, one of Long Island's largest independent family-owned retailers. Our unparalleled customer service and expert staff make appliance shopping enjoyable and easy.",
+                "mapname": "Home Appliance",
+                "loc": 43,
+                "phone": "516-678-1190",
+                "web": "http://LIHomeAppliance.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3050 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6404358749397,
+                    40.63759595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sevenbrothersgourmetfoodmarket",
+                "address": "2831 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Let us show you what we do best, by catering your next affair! Whether it be a formal occasion or a backyard barbecue…..sit back, relax and enjoy!",
+                "mapname": "Seven Brothers Gourmet Food Market",
+                "loc": 44,
+                "phone": "516-678-5999",
+                "web": "http://SevenBrothersGourmet.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2831 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399299,
+                    40.6424448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thehacademy",
+                "address": "3161 Royal Ave.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "A preschool for 3- and 4-year-olds. We ensure every Academy student achieves their own personal best through a well-rounded foundation - academically, emotionally, socially, and physically.",
+                "mapname": "The H Academy",
+                "loc": 45,
+                "phone": "516-632-2328",
+                "web": "http://TheHAcademy.org",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "3161 Royal Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65466997968264,
+                    40.633800300000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "oceansidemasonsupply",
+                "address": "7 Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "For all of your masonry material needs in the Oceanside area!",
+                "mapname": "Oceanside Mason Supply",
+                "loc": 46,
+                "phone": "516-779-0363",
+                "web": "http://instagram.com/oceansidemasonsupply",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "7 Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.652328,
+                    40.6185288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pointsettennis",
+                "address": "3065 New St.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "All ages & levels welcome! Junior Academy, in-house & USTA leagues, group & private lessons, court time. LI's premier facility!",
+                "mapname": "Point Set Tennis",
+                "loc": 47,
+                "phone": "516-536-2323",
+                "web": "http://PointSetTennis.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "3065 New Street, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6573306,
+                    40.6381206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sunsetplaycafe",
+                "address": "2848 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "Sunset Play Cafe is a vibrant indoor playground and café offering exciting birthday packages, fun workshops, and open play where children thrive while parents relax and connect.",
+                "mapname": "Sunset Play Cafe",
+                "loc": 48,
+                "phone": "516-206-0906",
+                "web": "http://SunsetPlayCafe.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "2848 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6406941,
+                    40.6421732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mercsautomotive",
+                "address": "2790 Woods Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Professional repairs and diagnostics!",
+                "mapname": "Merc's Automotive",
+                "loc": 49,
+                "phone": "516-764-2053",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2790 Woods Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64352935000001,
+                    40.643876899999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "oldspiritdistillery",
+                "address": "3670-6 Oceanside Rd. W.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Nassau County’s first and only distillery. Founded in 2017, we produce vodka, bourbon, brandy and moonshine. Organic and kosher certified, using corn from NY state farms.",
+                "mapname": "Old Spirit Distillery",
+                "loc": 50,
+                "phone": "516-536-0301",
+                "web": "http://OldSpiritDistillery.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "3670- 6 Oceanside Road West, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.634005,
+                    40.621766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "alfredocustomclothier",
+                "address": "2904 Lincoln Ave.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Leisure, business, or ceremony, Alfredo continues to meet the requirements of the gentleman with a dynamic and sophisticated lifestyle. Offering custom clothing, formal attire, and a nice line of casual clothing and jeans.",
+                "mapname": "Alfredo Custom Clothier",
+                "loc": 51,
+                "phone": "516-536-1900",
+                "web": "http://instagram.com/alfredocustomclothier",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2904 Lincoln Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64208476285276,
+                    40.6406676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thearkofsalvation",
+                "address": "3161 Royal Ave.",
+                "town": "Oceanside",
+                "business": "Gather & Connect",
+                "info": "Our church exists to love God, grow together, and reach others. Nuestra iglesia existe para amar a Dios, crecer juntos y alcanzar a otros.",
+                "mapname": "The Ark of Salvation",
+                "loc": 52,
+                "phone": "516-255-9131",
+                "web": "http://ArkOfSalvation.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "3161 Royal Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65466997968264,
+                    40.633800300000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bellsbrooklynbagelsbialys",
+                "address": "3333 Royal Ave.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Bell’s Brooklyn Bagels & Bialys is a third-generation family bakery, proudly crafting authentic New York bagels and bialys, wholesaling to the public fresh from Oceanside.",
+                "mapname": "Bell’s Brooklyn Bagels & Bialys",
+                "loc": 53,
+                "phone": "718-272-2780",
+                "web": "http://Bialy.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "3333 Royal Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65358371425886,
+                    40.629067970507556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "diamonddiscountbeautysupply",
+                "address": "2937 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Beauty Supply Discounted! Wholesale, retail. Professional, courteous help in: haircare, nailcare, cosmetics, fragrances, salon supplies, electrical appliances, hair removal, hair additions, hair accessories, costume jewelry.",
+                "mapname": "Diamond Discount Beauty Supply",
+                "loc": 54,
+                "phone": "516-594-1839",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2937 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6395557,
+                    40.6394542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "toccifamilychiropracticholisticlifestylecenter",
+                "address": "3089 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Tocci Family Chiropractic & Holistic Lifestyle Center blends expert chiropractic care with holistic therapies, guiding families to optimal health through personalized care plans and wellness-focused education.",
+                "mapname": "Tocci Family Chiropractic & Holistic Lifestyle Center",
+                "loc": 55,
+                "phone": "516-766-1717 x4",
+                "web": "http://TocciFamilyChiro.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3089 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6539812,
+                    40.6361688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "snidersformalwear",
+                "address": "2898 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Complete quality & low cost tuxedo rental, in business since 1908. Offering the finest Suits and Accessories in the tri-state area.",
+                "mapname": "Snider's Formal Wear",
+                "loc": 56,
+                "phone": "516-442-2828",
+                "web": "http://SnidersFormalWear.net",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2898 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6401894,
+                    40.64038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "livinglegendsmemorabiliaandcollectibles",
+                "address": "124 S. Long Beach Rd.",
+                "town": "Rockville Centre",
+                "business": "Shop & Discover",
+                "info": "For aficionados of sports, memorabilia, and collectibles, and others looking for gifts for collectors, we've got you covered. Available to conduct charity auctions.",
+                "mapname": "Living Legends Memorabilia and Collectibles",
+                "loc": 57,
+                "phone": "516-826-4000",
+                "web": "http://LivingLegendsNY.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "124 South Long Beach Road, Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.636809,
+                    40.650492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sonsofabutcher",
+                "address": "13 1/2 Brower Ave.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Full scale butcher offering USDA Prime Beef, Wagyu Beef, Dry Beef, and Prepared Meals. Voted #1 butcher shop in 2025.",
+                "mapname": "Sons of a Butcher",
+                "loc": 58,
+                "phone": "516-764-4589",
+                "web": "http://instagram.com/sonsofabutcher",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "13 1/2 Brower Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6329206,
+                    40.641969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "barryflorencefriedbergjewishcommunitycenter",
+                "address": "15 Neil Ct.",
+                "town": "Oceanside",
+                "business": "Gather & Connect",
+                "info": "We provide programs and services in a warm and caring environment for all people in every stage of life – we invite you to join us!",
+                "mapname": "Barry & Florence Friedberg  Jewish Community Center",
+                "loc": 59,
+                "phone": "516-766-4341",
+                "web": "http://FriedbergJCC.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "15 Neil Court, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63506902595626,
+                    40.622629599999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lucasiithedominicanspot",
+                "address": "3115 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Please come in and enjoy the best flavors of the Caribbean in the Island. Don't miss our tastiest dishes and ambience.",
+                "mapname": "Lucas II: The Dominican Spot",
+                "loc": 60,
+                "phone": "516-208-7295",
+                "web": "http://Lucas2Oceanside.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "3115 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64018133333333,
+                    40.636521800000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ahrtowingtransportinc",
+                "address": "9 Neil Ct.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Emergencies | collisions | junk car removal | low clearance | heavy duty | winch service | private property | blocked driveways | auto body & repairs | 24hr roadside assistance | parkway authorized",
+                "mapname": "A1 HR Towing & Transport Inc.",
+                "loc": 61,
+                "phone": "516-216-0121",
+                "web": "http://HRTowingAndAutobody.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "9 Neil Court, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63451864999999,
+                    40.62310665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "framebarco",
+                "address": "2894 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Thank you for 200+ 5-star reviews! FrameBar provides comprehensive exams, advanced optical technology, expert frame styling, accepts most insurances, and offers doctor services six days weekly.",
+                "mapname": "FRAMEBAR.CO",
+                "loc": 62,
+                "phone": "516-888-1038",
+                "web": "http://FrameBar.co",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2894 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.639970125,
+                    40.640592250000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pilatesbytheocean",
+                "address": "3000 Long Beach Rd. Suite 13",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Boutique classical Pilates studio offering personalized one-on-one sessions tailored to each body’s needs. Fully equipped with a reformer, Cadillac and other Pilates apparatus . Led by a passionate teacher with 20 years’ experience.",
+                "mapname": "Pilates By The Ocean",
+                "loc": 63,
+                "phone": "516-807-4054",
+                "web": "http://instagram.com/pilatesbytheocean",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3000 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64032210633826,
+                    40.6380147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrophysicaltherapyaquaticsbythesea",
+                "address": "11 Neil Ct.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Providing the very best physical therapy care to Oceanside and the surrounding area since 2005. All insurances accepted.",
+                "mapname": "Metro Physical Therapy & Aquatics By The Sea",
+                "loc": 64,
+                "phone": "516-766-0505",
+                "web": "http://PhysicalTherapyAndAquatics.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "11 Neil Court, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63442720553523,
+                    40.6227634
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "highvelocitycollision",
+                "address": "3365 Riverside Dr.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Your trusted full-service auto collision & body repair shop. From structural repairs and paintwork to alignments and dent removal, we bring experience, professionalism, and attention to detail to every job.",
+                "mapname": "High Velocity Collision",
+                "loc": 65,
+                "phone": "516-678-4484",
+                "web": "http://HighVelocityCollision.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3365 Riverside Drive, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65365553999666,
+                    40.628110899999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fuhrmanscarpetandfloors",
+                "address": "2415 S. Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "New Location! Oceanside's trusted name for quality and service since 1929. Carpet, luxury vinyl, hardwood floors, laminates, area rugs, stair runners, wallpaper, fabric, window treatments. Expert wood floor refinishing. Residential / commercial.",
+                "mapname": "Fuhrman's Carpet and Floors",
+                "loc": 66,
+                "phone": "516-678-3111",
+                "web": "http://FuhrmansFloors.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2415 South Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6346804,
+                    40.653253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "quattroamiciwine",
+                "address": "3670 W. Oceanside Rd. #2",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Small batch winery crafting unique blends from the finest grapes, sourced locally and abroad that honor tradition and friendship from vine to glass",
+                "mapname": "Quattro Amici Wine",
+                "loc": 67,
+                "phone": "516-883-4757",
+                "web": "http://QuattroAmiciWine.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "3670 West Oceanside Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63270176192536,
+                    40.62146338107087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mariospizzeria",
+                "address": "2822 Brower Ave.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "A cornerstone of the Oceanside community since 1982. For over 40 years, we've been serving authentic Italian pizza and Italian-American cuisine to our neighbors. Traditional recipes - fresh ingredients.",
+                "mapname": "Mario's Pizzeria",
+                "loc": 68,
+                "phone": "516-536-5460",
+                "web": "http://MariosPizzeriaOceanside.replit.app",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "2822 Brower Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6332118,
+                    40.6413704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bonbinospizzarestaurantmerrickrd",
+                "address": "605 Merrick Rd.",
+                "town": "Rockville Centre",
+                "business": "Eat & Drink",
+                "info": "Family-run spot voted business of the year in past years, food always prepared to order, delivery and catering, open 7 days a week! Peanut/tree-nut free and gluten-free pizza options.",
+                "mapname": "Bonbino's Pizza Restaurant - Merrick Rd.",
+                "loc": 69,
+                "phone": "516-764-9237",
+                "web": "http://BonbinosPizza.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "605 Merrick Road, Village of Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6309448,
+                    40.6541204
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bonbinospizzarestaurantlawsonblvd",
+                "address": "3143 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Family-run spot voted business of the year in past years, food always prepared to order, delivery and catering, open 7 days a week! Peanut/tree-nut free. Gluten-free pizza options. By Dunkin' Donuts. Every day except Monday.",
+                "mapname": "Bonbino's Pizza Restaurant - Lawson Blvd.",
+                "loc": 70,
+                "phone": "516-594-2900",
+                "web": "http://BonbinosPizza.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "3143 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6536517,
+                    40.634776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "rollingriverdaycamp",
+                "address": "477 Ocean Ave.",
+                "town": "East Rockaway",
+                "business": "Learn & Play",
+                "info": "Rolling River Day Camp in East Rockaway offers over 40 activities for ages 3–15, serves as a premier party and event venue, and celebrates 34 years of summer fun.",
+                "mapname": "Rolling River Day Camp",
+                "loc": 71,
+                "phone": "516-593-2267",
+                "web": "http://RollingRiver.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "477 Ocean Avenue, Village of East Rockaway, NY 11518, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65847720154898,
+                    40.644894449999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mtbank",
+                "address": "12 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We make banking easy. More Choices. More possibilities. M&T is committed to the growth and sustainability of the businesses and neighborhoods we serve.",
+                "mapname": "M&T Bank",
+                "loc": 72,
+                "phone": "516-678-1682",
+                "web": "http://MTB.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "12 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6405524,
+                    40.6397446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bpgasexpertautorepair",
+                "address": "160 Davison Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Foreign and domestic expert auto repair. Serving Oceanside for 30 years. Corner of Oceanside Rd.",
+                "mapname": "BP Gas & Expert Auto Repair",
+                "loc": 73,
+                "phone": "516-678-5803",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "160 Davison Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6335968,
+                    40.641711
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "reedchannelmarinabayparkmarineservice",
+                "address": "3346 Royal Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We are a family owned and operated full service marina serving boaters for over 40 years dedicated to ensuring more time on the water for customers.",
+                "mapname": "Reed Channel Marina / Bay Park Marine Service",
+                "loc": 74,
+                "phone": "516-764-2552",
+                "web": "http://BayParkMarineService.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3346 Royal Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65386681143893,
+                    40.628839400000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thecompletewindow",
+                "address": "544 Merrick Rd.",
+                "town": "Baldwin",
+                "business": "Shop & Discover",
+                "info": "We have a wide selection of window treatments.  Custom shutters, shades, drapery, upholstery, and bedding.  Specializing in motorized shades and home automation.",
+                "mapname": "The Complete Window",
+                "loc": 75,
+                "phone": "516-868-0806",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "544 Merrick Road, Baldwin, NY 11510, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6211565,
+                    40.6530738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "willsbagels",
+                "address": "3108 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Handmade bagels made the old-fashioned way, boiling them in a kettle and baking them fresh every day. We greet our customers with a big smile and great service.",
+                "mapname": "Will’s Bagels",
+                "loc": 76,
+                "phone": "516-208-6676",
+                "web": "http://WillsBagelCafe.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "Sagas, 3108 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6538926,
+                    40.6355135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "autotechpitstop",
+                "address": "76 S. Long Beach Rd.",
+                "town": "Rockville Centre",
+                "business": "Live & Work",
+                "info": "Auto Tech Pitstop provides dealership-quality auto repair and performance services at fair prices, proudly serving Long Island with trusted mechanics, honest service, and community spirit.",
+                "mapname": "Auto Tech Pitstop",
+                "loc": 77,
+                "phone": "347-433-3740",
+                "web": "http://AutoTechPitStop.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "76 South Long Beach Road, Village of Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63449740344699,
+                    40.65406561536473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "louisianajoessandwichshop",
+                "address": "488 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Poboys, gumbos, jambalaya, burgers, salads, sandwiches & more. Eat in or take out. All food made fresh to order. Wine & beer. Catering available.",
+                "mapname": "Louisiana Joe’s Sandwich Shop",
+                "loc": 78,
+                "phone": "516-442-9838",
+                "web": "http://LouisianaJoes.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "488 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6230779,
+                    40.6531929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "marcosautobody",
+                "address": "3592 Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We do all type of work from custom jobs to insurance jobs or any other work you need. Stop by or give us a call - we are here for you!",
+                "mapname": "Marcos Auto Body",
+                "loc": 79,
+                "phone": "516-414-0364",
+                "web": "http://MarcusAutoBodyLLC.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3592 Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65432051803882,
+                    40.62242025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "foreverdiamonds",
+                "address": "42 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "We buy gold, diamonds & estate jewelry. Expert jewelry remodeling on premises. Largest selection of G.I.A. certified diamonds. Family owned and operated for over 30 years!",
+                "mapname": "Forever Diamonds",
+                "loc": 80,
+                "phone": "516-670-0097",
+                "web": "http://ForeverDiamonds.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "Forever Diamonds, 42 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6414841,
+                    40.6398351
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "stonegaterealestate",
+                "address": "2A Poole St.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Founded by Anthony Ponte and Robert Heicklen, our Oceanside boutique firm delivers residential, commercial, and property management services across surrounding areas, prioritizing client relationships and seamless transactions.",
+                "mapname": "Stonegate Real Estate",
+                "loc": 81,
+                "phone": "516-740-2777",
+                "web": "http://StoneGateRE.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2 Poole Street, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6407855,
+                    40.6423226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nassauvision",
+                "address": "3177 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Oldest optical in Oceanside, serving the community since 1976. Providing eyeglasses, contact lenses, and eye care. Accepts all insurance.",
+                "mapname": "Nassau Vision",
+                "loc": 82,
+                "phone": "516-536-5300",
+                "web": "http://NassauVisionOceanside.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3177 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6397014,
+                    40.6340828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "omnipresentinvestigations",
+                "address": "",
+                "town": "Rockville Centre",
+                "business": "Live & Work",
+                "info": "A New York-based private investigations firm delivering discreet, results-driven intelligence for individuals and law firms worldwide--specializing in surveillance, fraud, misconduct, and due diligence.",
+                "mapname": "Omni Present Investigations",
+                "loc": 83,
+                "phone": "516-323-9827",
+                "web": "http://OmniPresentInvestigations.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Village of Rockville Centre, Rockville Centre, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6450664,
+                    40.6574186
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sanctuaryhaircollective",
+                "address": "2899 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "A laid-back yet luxury salon experience designed to feel like a short getaway in your busy world. We value self-care, not routine maintenance.",
+                "mapname": "Sanctuary Hair Collective",
+                "loc": 84,
+                "phone": "516-960-7222",
+                "web": "http://SanctuaryOceanside.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2899 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6395502,
+                    40.6405681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "islandautobody",
+                "address": "2671 Oceanside Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "On site services include 24hr flatbed towing, rental vehicles on-site, detail services, and a state of the art color matching laboratory.",
+                "mapname": "Island Auto Body",
+                "loc": 85,
+                "phone": "516-678-6040",
+                "web": "http://IslandAB.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2671 Oceanside Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6335741,
+                    40.6455111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mjthymalaundromat",
+                "address": "218 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Fresh laundry, fresh smiles! Monday to Saturday: 8AM to 9PM. Closed Sunday. Free pick up and same day delivery. Full Service.",
+                "mapname": "MJ Thyma Laundromat",
+                "loc": 86,
+                "phone": "516-566-3696",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Laundry Therapy, 218 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6282226,
+                    40.6535263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "visiondecision",
+                "address": "40 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Expert eye exams, contact lens fittings, and stylish frames- all in a fun and friendly office where your vision is a priority. Most insurances accepted. ",
+                "mapname": "Vision Decision",
+                "loc": 87,
+                "phone": "516-255-2020",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "Vision Decision, 40 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6413561,
+                    40.6398212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "reddycarephysicaloccupationalaquatictherapy",
+                "address": "2421 S. Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Providing personalized, one-on-one physical and occupational therapy focused on lasting results, improved mobility, and helping patients regain strength and independence close to home.",
+                "mapname": "Reddy Care Physical, Occupational & Aquatic Therapy",
+                "loc": 88,
+                "phone": "516-992-2282",
+                "web": "http://ReddyCare.net",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2421 South Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63495146762966,
+                    40.65277355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "statefarm",
+                "address": "566 Merrick Rd.",
+                "town": "Rockville Centre",
+                "business": "Live & Work",
+                "info": "Our bi-lingual English & Spanish team are local to RVC. Free quotes on auto, homeowners, renters, term/whole/universal life as well as health insurance and personal liability & umbrella policies. Stop by or call!",
+                "mapname": "State Farm",
+                "loc": 89,
+                "phone": "516-208-4451",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "566 Merrick Road, Village of Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63253208451749,
+                    40.65395935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "natsunisexhaircutter",
+                "address": "532 Merrick Rd.",
+                "town": "Rockville Centre",
+                "business": "Thrive & Be Well",
+                "info": "Mens styling and detail cuts. Womens high and low cuts, perms, and coloring. All kinds of hair systems service, supplies, and private studio.",
+                "mapname": "Nat's Unisex Haircutter",
+                "loc": 90,
+                "phone": "516-763-3077",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "532 Merrick Road, Village of Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63415822328767,
+                    40.654321100000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "garynadlerddspc",
+                "address": "129 Davison Ave.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Providing all aspects of general and cosmetic dentistry for your entire family.",
+                "mapname": "Gary Nadler DDS P.C.",
+                "loc": 91,
+                "phone": "516-763-5683",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "129 Davison Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6353316,
+                    40.6422104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "marinogoetzassoc",
+                "address": "433 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Serving Long Island with income tax preparation and bookkeeping, offering free consultations and personalized service year round for individuals and businesses.",
+                "mapname": "Marino Goetz & Assoc.",
+                "loc": 92,
+                "phone": "516-536-7639",
+                "web": "http://JohnJMarinoTaxes.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "433 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6249481,
+                    40.6536937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pjdiagnostics",
+                "address": "3021 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Mobile & in-shop automotive experts specializing in ADAS calibrations, diagnostics, electrical issues, coding, and key programming. Serving Oceanside and surrounding areas with precision and care.",
+                "mapname": "PJ Diagnostics",
+                "loc": 93,
+                "phone": "917-770-2440",
+                "web": "http://PJDiagnostics.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3021 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6550139,
+                    40.639077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allamericandeli",
+                "address": "161 Woods Ave.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "All American Deli – Authentic. Local. All American. Oceanside’s go-to spot for stacked sandwiches, sizzling breakfast, and friendly hometown service. Come taste what everyone’s talking about!",
+                "mapname": "All American Deli",
+                "loc": 94,
+                "phone": "516-600-9360",
+                "web": "http://AllAmericanDelis.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "161 Woods Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6451589,
+                    40.6471273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "professionalphysicaltherapy",
+                "address": "2837 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Our physical therapists create personalized plans to restore mobility, strength, and wellness, helping you recover quickly and return to the activities you love.",
+                "mapname": "Professional Physical Therapy",
+                "loc": 95,
+                "phone": "516-549-5070",
+                "web": "http://ProfessionalPT.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2837 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64006736161387,
+                    40.6423468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "frasadasalondayspa",
+                "address": "2785 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Created to provide a haven from your busy lifestyle. A place to discover the inner you, restore your well-being and pamper yourself in every way.",
+                "mapname": "Frasada Salon & Day Spa",
+                "loc": 96,
+                "phone": "516-766-7076",
+                "web": "http://Frasada.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2785 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6394387,
+                    40.6437612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dumpstercom",
+                "address": "495 New St.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Competitively priced and reliable dumpster rental services. Our expert team ensures a seamless and friendly experience from start to finish, with a focus on exceptional customer service.",
+                "mapname": "1-888-Dumpster.com",
+                "loc": 97,
+                "phone": "1-888-DUMPSTER",
+                "web": "http://1888Dumpster.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "495 New Street, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65783440943115,
+                    40.63804186582835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dbestcarting",
+                "address": "495 New St.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We are a family owned and operated dumpster rental company for over 20 years. We stand behind our services 100%.",
+                "mapname": "D-Best Carting",
+                "loc": 98,
+                "phone": "516-345-2611",
+                "web": "http://DBestCarting.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "495 New Street, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65783440943115,
+                    40.63804186582835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "crowsnestmarina",
+                "address": "495 New St.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Crows Nest Marina is a full service marina including winter and summer storage.",
+                "mapname": "Crows Nest Marina",
+                "loc": 99,
+                "phone": "516-766-2020",
+                "web": "http://CrowsNestMarina.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "495 New Street, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65783440943115,
+                    40.63804186582835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "earthtechrecycling",
+                "address": "1800 Access Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We offer comprehensive recycling solutions for contractors. Bring your concrete, dirt, asphalt, and brick to our Oceanside facility for eco-friendly disposal.",
+                "mapname": "Earth Tech Recycling",
+                "loc": 100,
+                "phone": "516-408-4661",
+                "web": "http://EarthTechRecycling.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "1800 Access Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65587484006625,
+                    40.6377384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "elevensalon",
+                "address": "7 W. Davison Ave.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Boutique salon serving customers since 2009. Cut and color and chemical services.",
+                "mapname": "Eleven Salon",
+                "loc": 101,
+                "phone": "516-536-1107",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "7 Davison Avenue West, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64089719334477,
+                    40.64186317551525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jakarijsalon",
+                "address": "2945 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Slayed hair doesn't happen by chance... it happens by appointment. From natural hair and curly hair, to weaves and customized conditioning treatments, and silk presses and relaxers, we do it all. ",
+                "mapname": "Jakari J Salon",
+                "loc": 102,
+                "phone": "516-517-8228",
+                "web": "http://JakariJSalon.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2945 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6395665,
+                    40.6393275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "advantagetoyota",
+                "address": "400 Sunrise Hwy.",
+                "town": "Valley Stream",
+                "business": "Shop & Discover",
+                "info": "Advantage Toyota is committed to delivering exceptional customer service, great deals, and a stress-free car buying experience. Discover quality new and pre-owned vehicles in Oceanside today.",
+                "mapname": "Advantage Toyota",
+                "loc": 103,
+                "phone": "516-867-8600",
+                "web": "http://AdvantageToyotaNY.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "400 West Sunrise Highway, Valley Stream, NY 11581, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.715605,
+                    40.663309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pipprinting",
+                "address": "2915 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We Do: Print, Copy, Graphic Design, Signs, Promotional Items, Labels, Business Cards, Letterheads, Envelopes, Mailings, Forms, Banners, Invitations, Postcards, Tablecloths, Brochures, Journals, everything you need! ",
+                "mapname": "PIP Printing",
+                "loc": 104,
+                "phone": "516-536-3600",
+                "web": "http://PIP.com/OceansideNY268",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2915 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6395088,
+                    40.6400876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "captainmikesseafoodlobsterco",
+                "address": "3388 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "The freshest seafood on Long Island! From a family of three generations of commercial fishermen, we’re proudly family owned and operated. We offer raw, cooked, and catered seafood for every occasion.",
+                "mapname": "Captain Mike’s Seafood & Lobster Co.",
+                "loc": 105,
+                "phone": "516-678-4522",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3388 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64117484506251,
+                    40.62821820879527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "impressiveautobody",
+                "address": "3305 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We have proudly served our community for over 25 years. Delivering expert collision repairs and professional customer service. ",
+                "mapname": "Impressive Auto Body",
+                "loc": 106,
+                "phone": "516-536-1222",
+                "web": "http://instagram.com/impressiveautobody/",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3305 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65234263959778,
+                    40.629967449999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pristinemotors",
+                "address": "3540 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Over 30 years of excellence. Experts in European vehicles and all makes, offering maintenance, bodywork, electrical, ADAS, and trusted professional service. Your trusted neighborhood mechanic! ",
+                "mapname": "Pristine Motors",
+                "loc": 107,
+                "phone": "347-860-4630",
+                "web": "http://instagram.com/PristineMotors_NY",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3540 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.651363,
+                    40.6236877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ebenezerrestaurant",
+                "address": "230c Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Traditional Salvadoran cuisine - comida Salvadorena / Centroamericana. Authentic farm to table home style cooking. Try our horchata, pupusas and much more!",
+                "mapname": "Eben-Ezer Restaurant",
+                "loc": 108,
+                "phone": "516-226-3107",
+                "web": "http://EbenEzerRestaurant.org",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "230 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6481004,
+                    40.6405528
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mercedesbenzofrockvillecentre",
+                "address": "650 Sunrise Hwy.",
+                "town": "Rockville Centre",
+                "business": "Shop & Discover",
+                "info": "The first Mercedes-Benz dealership on Long Island, we believe in a no-haggle, transparent sales process.  It's our goal to make your car-buying or -servicing experience as smooth and easy as possible.",
+                "mapname": "Mercedes Benz of Rockville Centre",
+                "loc": 109,
+                "phone": "516-766-6900",
+                "web": "http://MBRVC.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "650 Sunrise Highway, Village of Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.62780850226359,
+                    40.65653575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "billierosesalon",
+                "address": "3203 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Billie Rose Salon specializes in blonding, custom color, precision cuts and hand-tied extensions. We create effortless, modern styles that enhance confidence, individuality and everyday beauty. ",
+                "mapname": "Billie Rose Salon",
+                "loc": 110,
+                "phone": "516-615-6036",
+                "web": "http://BillieRoseSalon.GlossGenius.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3203 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6531268,
+                    40.6326934
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "victoriaskaplanpc",
+                "address": "2901 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Experienced local real estate attorney with 30+ years handling purchases, sales, homes, co-ops, and condos throughout Long Island and NYC. Focused solely on real estate law.",
+                "mapname": "Victoria S. Kaplan, P.C.",
+                "loc": 111,
+                "phone": "516-678-4055",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2901 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6395445,
+                    40.6405198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "patsdancestudio",
+                "address": "961 Church St.",
+                "town": "Baldwin",
+                "business": "Learn & Play",
+                "info": "A performance based studio since 1979. Our studio is our HOME, where you're not judged and are loved for who you are. Come join our dance family!",
+                "mapname": "Pat's Dance Studio",
+                "loc": 112,
+                "phone": "516-546-2984",
+                "web": "http://PatsDanceStudio.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "961 Church Street, Baldwin, NY 11510, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60694888278252,
+                    40.64144505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "higherelevationhomeinspections",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "A family-owned and operated business servicing Long Island and the 5 boroughs for over 25 years. Free termite inspection with all home inspections. ",
+                "mapname": "Higher Elevation Home Inspections",
+                "loc": 113,
+                "phone": "516-509-9091",
+                "web": "http://HigherElevationLLC.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thechristianbarbershop",
+                "address": "2864 Woods Ave.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "The Christian Barber Shop delivers precision fades, expert beard grooming, and hot towel shaves in Oceanside. Family friendly, faith driven service with fair prices and convenient online booking.",
+                "mapname": "The Christian Barbershop",
+                "loc": 114,
+                "phone": "516-442-0074",
+                "web": "http://TheChristianBarberShop.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2864 Woods Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6419296,
+                    40.6419535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "luxuryautobody",
+                "address": "3943 Austin Blvd.",
+                "town": "Island Park",
+                "business": "Live & Work",
+                "info": "Long Island's premier auto body shop. Walk in auto claims center. All insurance companies accepted. ",
+                "mapname": "Luxury Auto Body",
+                "loc": 115,
+                "phone": "516-460-8666",
+                "web": "http://LuxuryAutoBodyNY.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3943 Austin Boulevard, Village of Island Park, NY 11558, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6434031,
+                    40.613371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "oceansidedancecenter",
+                "address": "3394 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "Serving Oceanside for the past 20 years, we provide top notch dance training in a family friendly atmosphere. Not just a dance studio - a second home to many of our young dancers.",
+                "mapname": "Oceanside Dance Center",
+                "loc": 116,
+                "phone": "516-766-9458",
+                "web": "http://OceansideDanceCenter.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "3394 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6414944,
+                    40.6280915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "medsontimepharmacy",
+                "address": "3147 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "At Meds On Time Pharmacy in Oceanside, we deliver expert, friendly care—with same-day prescription services, home delivery and personalized consultations in a community-focused independent shop.",
+                "mapname": "Meds on Time Pharmacy",
+                "loc": 117,
+                "phone": "516-208-7332",
+                "web": "http://MedsOnTimeRX.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3147 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6536175,
+                    40.6346653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "summithomeimprovement",
+                "address": "2511 S. Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Covering all phases of remodeling and updating services: kitchens and bathrooms - flooring - painting - new rooms - roofing/siding.",
+                "mapname": "Summit Home Improvement",
+                "loc": 118,
+                "phone": "516-426-7352",
+                "web": "http://SummitHomeImp.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2511 South Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63619005,
+                    40.6505036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "stanthonyscatholicchurch",
+                "address": "110 Anchor Ave.",
+                "town": "Oceanside",
+                "business": "Gather & Connect",
+                "info": "Through our worship, our ministries and our promotion of peace and justice,\nwe walk with Jesus of the Gospel who reveals God’s love for all. \nMass Sunday: 8, 9:30, 12:30 (Spanish), 5; M-F: 9, 12; Saturday: 9, 5.",
+                "mapname": "St. Anthony’s Catholic Church",
+                "loc": 119,
+                "phone": "516-764-0048",
+                "web": "http://SACLI.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "110 Anchor Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64368315060064,
+                    40.637673649999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "stanthonyspreschool",
+                "address": "110 Anchor Ave.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "The early childhood program offers time and space for your children to play, explore and imagine. It is designed to lead them from wonder to discovery and from investigation to affirmation.",
+                "mapname": "St. Anthony’s Pre-School",
+                "loc": 120,
+                "phone": "516-764-0048",
+                "web": "http://SACLI.org/pre-k",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "110 Anchor Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64368315060064,
+                    40.637673649999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "leachwoodworks",
+                "address": "2497 S. Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Custom quality cabinets, countertops, built-ins, renovations & more!",
+                "mapname": "Leach Woodworks",
+                "loc": 121,
+                "phone": "516-536-3460",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2497 South Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6359024,
+                    40.6508208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "empirenutrition",
+                "address": "2806 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "We offer everything from fresh-healthy meal prep, quality supplements, to smoothies, juices and healthy snacks. We cater to everyone, in their fitness or wellness journey.",
+                "mapname": "Empire Nutrition",
+                "loc": 122,
+                "phone": "516-705-5160",
+                "web": "http://EmpireNutrition.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2806 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64013075739436,
+                    40.6433366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "tintzbysavage",
+                "address": "3205 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "From automotive window tinting, vinyl wraps, paint protection film (PPF), and paint correction, to full interior and exterior detailing, we bring top-tier craftsmanship to every vehicle we touch. Commercial and residential solutions.",
+                "mapname": "Tintz by Savage",
+                "loc": 123,
+                "phone": "347-553-1243",
+                "web": "http://TintzandWrapzbySavage.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3205 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6531289,
+                    40.6326534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "danceinnovations",
+                "address": "177 Merrick Rd.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "Come Join our DI Family! We have been teaching Oceanside to dance for 24 years! We offer classes in all styles and levels for ages 2 thru adult. ",
+                "mapname": "Dance Innovations",
+                "loc": 124,
+                "phone": "516-764-0513",
+                "web": "http://DanceInnovationsInc.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "177 Merrick Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6296375,
+                    40.6539173
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dgequipmentrepairservices",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Delivering fast, reliable mobile service for power equipment and heavy machinery, supporting both commercial and homeowner needs with expert on-site repairs.",
+                "mapname": "DG Equipment Repair & Services",
+                "loc": 125,
+                "phone": "516-350-8898",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mackenmortuary",
+                "address": "3930 Long Beach Rd.",
+                "town": "Island Park",
+                "business": "Live & Work",
+                "info": "Serving families with dignity, respect, and compassion. We help you celebrate your loved one no matter your religion, culture, or budget. Family owned & operated over 100 years.",
+                "mapname": "Macken Mortuary",
+                "loc": 126,
+                "phone": "516-431-7800",
+                "web": "http://MackenMortuary.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64482907371955,
+                    40.61475045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "oceansideironsteelsupplyinc",
+                "address": "3421 Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Dock hardware experts for over the last 40 years. A family run business that takes pride in supplying the highest quality products for your dock hardware needs.",
+                "mapname": "Oceanside Iron & Steel Supply, Inc.",
+                "loc": 127,
+                "phone": "516-536-4940",
+                "web": "http://OceansideDockHardware.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3421 Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65391496153846,
+                    40.62660392307692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nyneurologyassociates",
+                "address": "2965 Long Beach Rd. Suite 200",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "From migraines and ADHD to Parkinson’s and pain management — including advanced treatments like Deep Brain Stimulation and Botox for migraine. Same-day appointments available!",
+                "mapname": "NY Neurology Associates",
+                "loc": 128,
+                "phone": "516-766-8900",
+                "web": "http://NYNeurologists.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2965 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6395890612676,
+                    40.6387405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bleibergplumbingsuppliesinc",
+                "address": "3057 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Homeowners, contractors, plumbers, designers, and architects have relied on us for all of their residential and commercial supplies for nearly a century. On time deliveries and an unlimited knowledge base.",
+                "mapname": "Bleiberg Plumbing Supplies, Inc.",
+                "loc": 129,
+                "phone": "516-678-1838",
+                "web": "http://BleibergPS.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "3057 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65428469221814,
+                    40.6371367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "incrediblefeets",
+                "address": "3541 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Footwear, clothing, and sporting goods for the entire family since 1976. We measure and fit every customer.",
+                "mapname": "Incredible Feets",
+                "loc": 130,
+                "phone": "516-596-0100",
+                "web": "http://IncredibleFeets.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "Incredible Feets, 3541 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.638208,
+                    40.6235733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newleafcremation",
+                "address": "3930 Long Beach Rd.",
+                "town": "Island Park",
+                "business": "Live & Work",
+                "info": "Experienced, local, affordable. Long Island's premier cremation & memorial services.",
+                "mapname": "New Leaf Cremation",
+                "loc": 131,
+                "phone": "855-770-3777",
+                "web": "http://NewLeafCremation.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64482907371955,
+                    40.61475045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kleinbergfuneralservices",
+                "address": "3930 Long Beach Rd.",
+                "town": "Island Park",
+                "business": "Live & Work",
+                "info": "Funeral and cremation provider serving Oceanside and surrounding communities. Experts in Jewish funerals, green burials, monuments, pre-planning and travel plan.",
+                "mapname": "Kleinberg Funeral Services",
+                "loc": 132,
+                "phone": "516-400-5580",
+                "web": "http://KleinbergFunerals.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64482907371955,
+                    40.61475045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thebolandgroupatafn",
+                "address": "",
+                "town": "Long Beach",
+                "business": "Live & Work",
+                "info": "Originating mortgages for over 17 years. Whether buying a new home or refinancing your current mortgage give John a call today!",
+                "mapname": "The Boland Group at AFN",
+                "loc": 133,
+                "phone": "516-660-0702",
+                "web": "http://JB-Mortgage.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "City of Long Beach, Long Beach, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6582631,
+                    40.5885508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "joeysrodbuildingandtackle",
+                "address": "495 Wood St.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "The highest quality of custom fishing rods and tackle. We are a complete one stop shop from boat outfitting  to building one rod at a time.",
+                "mapname": "Joey’s Rod Building and Tackle",
+                "loc": 134,
+                "phone": "917-280-5155",
+                "web": "http://JoeysRodBuilding.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "495 Wood Street, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6577786,
+                    40.6365881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "liamslegacyathleticassociation",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Gather & Connect",
+                "info": "Giving kids with disabilities the chance to play sports and have fun! A fully inclusive, state-of-the-art baseball complex where children and young adults of all abilities can play, connect, and thrive.",
+                "mapname": "Liam's Legacy Athletic Association",
+                "loc": 135,
+                "phone": "516-987-0932",
+                "web": "http://LiamsLegacyAthletics.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "oceansidecommunitywarriors",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Gather & Connect",
+                "info": "To promote a strong community through voluntary involvement aimed at enriching Oceanside's parks, roads, and common areas.",
+                "mapname": "Oceanside Community Warriors",
+                "loc": 136,
+                "phone": "516-987-0932",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "squidcityapparel",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "Squid City Apparel is a family-owned local brand creating high-quality and custom apparel designed to fit your lifestyle with comfort, creativity, and hometown pride.",
+                "mapname": "Squid City Apparel",
+                "loc": 137,
+                "phone": "516-987-0932",
+                "web": "http://SquidCityApparel.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "steveswildlife",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Humane and effective removal of wildlife, birds, and rodents. Exclusion, repairs, and remediation services available 27/7 365 days a year.",
+                "mapname": "Steve's Wildlife",
+                "loc": 138,
+                "phone": "646-604-4001",
+                "web": "http://StevesWildlife.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sharonbasiratmandsignaturepremierproperties",
+                "address": "75 Seaman Ave.",
+                "town": "Rockville Centre",
+                "business": "Live & Work",
+                "info": "With a passion for service in the Oceanside area, Sharon Basiratmand is ready to help with your homebuying and selling needs. Hard work, integrity, and outstanding client service.",
+                "mapname": "Sharon Basiratmand - Signature Premier Properties",
+                "loc": 139,
+                "phone": "516-717-8349",
+                "web": "http://instagram.com/sharonbasiratmand",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "75 Seaman Avenue, Village of Rockville Centre, NY 11570, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.62842885,
+                    40.661572699999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "luxemane",
+                "address": "3029 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "Experience luxury and style at our modern salon—expert stylists, personalized care, and premium products to help you look and feel absolutely amazing.",
+                "mapname": "Luxe & Mane",
+                "loc": 140,
+                "phone": "516-208-7937",
+                "web": "http://instagram.com/luxe_mane_inc",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "3029 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6398084,
+                    40.6371568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "coloribellahairstudio",
+                "address": "221 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "\"Our passion, your hair\" Redefining beauty since 2008. Expert hair color,  cuts, nails, hair extensions, formal hair, bridal, make-up, skin care, facials, microblading, wigs, and more for your flawless and confident look.",
+                "mapname": "Colori Bella Hair Studio",
+                "loc": 141,
+                "phone": "516-825-7500",
+                "web": "http://ColoriBella.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "221 Atlantic Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64814457903157,
+                    40.640076449999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "printcoatwrapit",
+                "address": "3480C Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "The best vinyl wrap/ paint protection services on Long Island. Contact us for VINYL WRAP,  PAINT PROTECTION FILM, COMMERCIAL GRAPHIC WRAP, tint & CERAMIC COATING. ",
+                "mapname": "Print Coat Wrap It",
+                "loc": 142,
+                "phone": "516-697-2498",
+                "web": "http://instagram.com/printcoatwrapit",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3480b Hampton Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6547246,
+                    40.6258356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "realestatehomesllc",
+                "address": "2850 Woods Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "A family-owned, full-service real estate agency offering residential and commercial real estate sales and rentals, as well as property management services throughout NYC and Long Island.",
+                "mapname": "Real Estate Homes LLC",
+                "loc": 143,
+                "phone": "516-484-2999",
+                "web": "http://RealEstateHomesNY.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2850 Woods Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6419239,
+                    40.642002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "legacyfinancial",
+                "address": "2873 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Get a great rate on a new mortgage! Take advantage of our expertise in the residential lending industry by applying today. A local, woman-owned and operated business since 2002.",
+                "mapname": "Legacy Financial",
+                "loc": 144,
+                "phone": "516-764-8800",
+                "web": "http://LoansByLegacy.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2873 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6398265,
+                    40.641327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "roseottdesign",
+                "address": "675 E. Olive St.",
+                "town": "Long Beach",
+                "business": "Live & Work",
+                "info": "We are an award winning, full service boutique interior design firm specializing in kitchens and baths.",
+                "mapname": "Rose Ott Design",
+                "loc": 145,
+                "phone": "516-510-9665",
+                "web": "http://RoseOttDesign.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "675 East Olive Street, City of Long Beach, NY 11561, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64420659999999,
+                    40.58728225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nonstopsafetytrainingconsultants",
+                "address": "2869 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "WBE-certified construction safety consulting - safety courses & def. driver training - SSM, CSFSM, Lift Directors, Flaggers, OSHA 10 / 30hr, Hazwoper 40 hr & refresher, confined space, forklift training, cursos en espanol & more!",
+                "mapname": "Non-Stop Safety Training & Consultants",
+                "loc": 146,
+                "phone": "917-337-7237",
+                "web": "http://NYCOSHASafetyTraining.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2869 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.639864,
+                    40.6414195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "eastrockawayraidersfootballandcheerleading",
+                "address": "PO Box 3",
+                "town": "East Rockaway",
+                "business": "Gather & Connect",
+                "info": "We provide an opportunity for boys and girls in both tackle football and cheerleading. Run by volunteers who not only teach the game, but also demonstrate respect and sportsmanship.",
+                "mapname": "East Rockaway Raiders Football and Cheerleading",
+                "loc": 147,
+                "phone": "516-581-5572",
+                "web": "http://EastRockawayRaiders.com",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "Village of East Rockaway, East Rockaway, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6656011,
+                    40.6415296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "insiemewineswinerytastingroom",
+                "address": "3333 Lawson Blvd.",
+                "town": "Oceanside",
+                "business": "Eat & Drink",
+                "info": "Award-winning boutique winery, small-batch artisanal wines blending old-world tradition with new-world creativity. Reserve a spot in our charming tasting room or host a memorable private event. New customizable wine club - enjoy Insieme Wines your way.",
+                "mapname": "Insieme Wines - Winery & Tasting Room",
+                "loc": 148,
+                "phone": "516-696-3300",
+                "web": "http://InsiemeWines.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "CrossFit Jetty, 3333 Lawson Boulevard, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6522831,
+                    40.6293055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "advancedseamlessguttersleaders",
+                "address": "3230 Fulton Ave.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Providing quality services at affordable prices for gutter repair, gutter installation, gutter cleaning, rain gutter repair and new gutter on Long Island.",
+                "mapname": "Advanced Seamless Gutters & Leaders",
+                "loc": 149,
+                "phone": "516-313-7472",
+                "web": "http://AdvancedGuttersNewYork.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "3230 Fulton Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64543949183616,
+                    40.632873849999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "modernwireelectriccorp",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Comprehensive electrical services for both residential and commercial properties. Troubleshooting, repairs, and installation of electrical wiring, as well as lighting upgrades and ensuring your home meets current electrical codes.",
+                "mapname": "Modern Wire Electric Corp.",
+                "loc": 150,
+                "phone": "516-870-6071",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ecfelitemartialartsfitness",
+                "address": "2911 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Learn & Play",
+                "info": "Join our Mixed Martial Arts gym located on Long Island. We have MMA classes along with kickboxing, muay-thai, jujutsu, and more!",
+                "mapname": "ECF Elite Martial Arts & Fitness",
+                "loc": 151,
+                "phone": "516-341-7555",
+                "web": "http://ECFMMAGym.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "2911 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6395189,
+                    40.6401494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "latonprecisionpainting",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Serving LI with expert residential painting and colour consultations. Precise, high-quality interior and exterior finishes with exceptional service and care. Your satisfaction is our priority!",
+                "mapname": "Laton Precision Painting",
+                "loc": 152,
+                "phone": "516-757-1762",
+                "web": "http://LatonPrecision.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "carpetdepot",
+                "address": "2930 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Shop & Discover",
+                "info": "From a modest beginning in 1991 as a single carpet store, we've grown into a 5 store chain and a full service Shop-@-Home Division, serving Long Island and the NY metro area.",
+                "mapname": "Carpet Depot",
+                "loc": 153,
+                "phone": "516-766-5263",
+                "web": "http://CarpetDepotInc.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "M&T Bank, 2930 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64018231003719,
+                    40.6396766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "halknopfteamatcompass",
+                "address": "2800 Long Beach Rd.",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "The highest level of service in the Real Estate industry throughout the South Shore of LI. For over 38 years we have assured that every client is treated with honestly, integrity and professionalism.",
+                "mapname": "Hal Knopf Team at Compass",
+                "loc": 154,
+                "phone": "516-764-6060",
+                "web": "http://Compass.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2800 Long Beach Road, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6400351,
+                    40.6434091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "perfecthomeimprovements",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "We do all phases of home improvements no job is too big or too small. Interior and exterior work any room or office.\n",
+                "mapname": "Perfect 10 Home Improvements",
+                "loc": 155,
+                "phone": "516-322-4942",
+                "web": "http://facebook.com/Perfect10HomeImprovements/",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "bestskinandbodyaestheticsspa",
+                "address": "310 Woods Ave.",
+                "town": "Oceanside",
+                "business": "Thrive & Be Well",
+                "info": "An award-winning medispa, recognized for excellence in the industry! Our dedication to exceptional care has earned us top honors. Experience the best in beauty and skincare with our celebrated team today.",
+                "mapname": "Best Skin and Body Aesthetics Spa",
+                "loc": 156,
+                "phone": "516-600-9853",
+                "web": "http://BestSkinAndBodySpa.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "310 Woods Avenue, Oceanside, NY 11572, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64220524504344,
+                    40.6423577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ernieschultzfinancialadvisor",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Live & Work",
+                "info": "Personalized financial planning, investment and retirement strategies to help you navigate your financial future with clarity and confidence.",
+                "mapname": "Ernie Schultz - Financial Advisor",
+                "loc": 157,
+                "phone": "516-263-8461",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "Oceanside, NY, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        }
+    ]
+}
