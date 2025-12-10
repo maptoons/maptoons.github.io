@@ -43,7 +43,7 @@
 
     <script>
 
-        const geoJsonFiles = ['hicksville_corrected', 'long_beach_corrected', 'north_babylon_corrected', 'oceanside'];
+        const geoJsonFiles = ['hicksville_corrected', 'long_beach_corrected', 'north_babylon_corrected', 'oceanside_corrected', 'highland_park_corrected'];
         const imgSource = 'img'
         const styleFile = 'maptoons.json'
         const artFile = 'data/hicksville-art.geojson'
@@ -569,40 +569,48 @@
             // Example locations
             const locations = [
                 {
-                    name: 'Hicksville',
+                    name: 'Hicksville, NY',
                     centroid: [-73.52233, 40.76445],
                     zoom: 14.2,
                     pitch: 40,
                     bearing: -50
                 },
                 {
-                    name: 'Long Beach',
+                    name: 'Long Beach, NY',
                     centroid: [-73.665422, 40.58821],
                     zoom: 16.6,
                     pitch: 30,
                     bearing: -39
                 },
                 {
-                    name: 'North Babylon',
+                    name: 'North Babylon, NY',
                     centroid: [-73.32159, 40.73087],
                     zoom: 13,
                     pitch: 30,
                     bearing: 0
                 },
                 {
-                    name: 'Oceanside',
+                    name: 'Oceanside, NY',
                     centroid: [-73.6369, 40.63181],
                     zoom: 13,
                     pitch: 30,
                     bearing: 0
                 },
                 {
-                    name: 'West Babylon',
+                    name: 'West Babylon, NY',
                     centroid: [-73.35253, 40.72148],
                     zoom: 13,
                     pitch: 30,
                     bearing: 0
+                },
+                {
+                    name: 'Highland Park, NJ',
+                    centroid: [-74.42832, 40.49835],
+                    zoom: 13.84,
+                    pitch: 30,
+                    bearing: -10
                 }
+    
             ];
 
             // Add locations to dropdown
