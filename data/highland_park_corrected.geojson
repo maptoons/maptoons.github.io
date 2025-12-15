@@ -1,0 +1,1005 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "opG3dh1cVgxGCvOlhAHpVpnRM4uYEIVB",
+      "type": "Feature",
+      "properties": {
+        "id": "unitepharmacy",
+        "address": "75 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "Filling quick medication prescriptions, offering free delivery, immunizations, greeting cards, and lottery services, with convenient customer parking located in the back.",
+        "mapname": "Unite Pharmacy",
+        "loc": 1,
+        "phone": "848-209-9007",
+        "web": "http://UnitePharmacy.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "75 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-1T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43243074490698,
+          40.49835193144331
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "itWtPjeYF6p1a6Z2JXA5QaNHKk4SPgJR",
+      "type": "Feature",
+      "properties": {
+        "id": "optimalloadingphysio",
+        "address": "324 Raritan Ave., Suite 114",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "Recover faster, move better, and stay pain-free with one-on-one care in Highland Park. Trusted physical therapy and dry needling that help you return to what you love.",
+        "mapname": "Optimal Loading Physio",
+        "loc": 2,
+        "phone": "732-290-5866",
+        "web": "http://Optimal-Loading.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "324 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-2T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42722612475914,
+          40.49927646754809
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RM3Q2SABAFxDqVkrdUQCADoJ5rRdZUjv",
+      "type": "Feature",
+      "properties": {
+        "id": "archauto",
+        "address": "120 Woodbridge Ave.",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "Buy/Sell/Trade for enthusiasts, We approve everyone!",
+        "mapname": "Arch Auto",
+        "loc": 3,
+        "phone": "732-732-0732",
+        "web": "http://ArchAuto.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "Arch Auto, 120 Woodbridge Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-3T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.41718621218538,
+          40.50113295
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "aeq1Tzei6sF8ZQk6NHiRbUtgrRyEY7mI",
+      "type": "Feature",
+      "properties": {
+        "id": "bfitstudio",
+        "address": "300 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "",
+        "mapname": "B Fit Studio",
+        "loc": 4,
+        "phone": "240-462-9027",
+        "instagram": "https://www.instagram.com/b._fit_studio/",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "300 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-4S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42769266429738,
+          40.49907369254932
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JL3gJvc7eEdsnaA63EnsTvNxhNY7gNVQ",
+      "type": "Feature",
+      "properties": {
+        "id": "salonenvy",
+        "address": "242 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "We offer hair cutting, hair styling, and hair coloring for men and women. Male and female hairstylists catering to men and women of all ages. ",
+        "mapname": "Salon Envy",
+        "loc": 5,
+        "phone": "732-247-2366",
+        "web": "http://SalonEnvy.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "Salon Envy, 242 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-5S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4283476,
+          40.4988914
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vLDGANEuoSDxxoZ9cT3Zev8VNxzSqf22",
+      "type": "Feature",
+      "properties": {
+        "id": "evermorewellness",
+        "address": "24 N 3rd Ave., Suite 109",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "Your road to wellness starts here. Our psychotherapists offer evidence-based individual and family therapy for depression, anxiety, trauma, grief, and more. Let us help you take the next step.",
+        "mapname": "Evermore Wellness",
+        "loc": 6,
+        "phone": "732-672-6564",
+        "web": "http://EvermoreWellness.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "24 North 3rd Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-6S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42830514039892,
+          40.49946848374625
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "LrPF4m4OO2S4WsqpwXGuQt47MAtn0PKZ",
+      "type": "Feature",
+      "properties": {
+        "id": "birnnchocolates",
+        "address": "314 Cleveland Ave.",
+        "town": "Highland Park",
+        "business": "Eat & Drink",
+        "info": "We make our own chocolates right here in our factory. Come in, experience the magic, and sample and choose your holiday favorites from our impressive selection. ",
+        "mapname": "Birnn Chocolates",
+        "loc": 7,
+        "phone": "732-545-4400",
+        "web": "http://BirnnChocolates.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "Birnn Chocolate, 314 Cleveland Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "D",
+        "img": "HP-7D"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43242451123643,
+          40.5051952
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XgY0raszf6kVOOnj4O4VjpwWjFGVhNGU",
+      "type": "Feature",
+      "properties": {
+        "id": "ellinikon",
+        "address": "137-139 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Eat & Drink",
+        "info": "Established in 2019, offering a large variety of carefully selected products and fine imported Greek foods. Bringing you as close as possible to the complete Greek experience.",
+        "mapname": "Ellinikon",
+        "loc": 8,
+        "phone": "732-354-4944",
+        "web": "http://EllinikonUSA.ecwid.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "137 Raritan Avenue, Highland Park, NJ 08933, United States of America",
+        "priority": "D",
+        "img": "HP-8D"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4309767,
+          40.498619
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9E7Sh5iXqorpFcdJT0euFBFmeuXx8QFt",
+      "type": "Feature",
+      "properties": {
+        "id": "chinastar",
+        "address": "75 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Eat & Drink",
+        "info": "Offers authentic and delicious Chinese cuisine. Convenient location and affordable prices. A natural choice for dine-in and take-out meals in a friendly atmosphere with excellent service.",
+        "mapname": "China Star",
+        "loc": 9,
+        "phone": "732-828-2988",
+        "web": "http://ChinaStarNJ.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "75 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-9S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43309845151309,
+          40.49830414171588
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "eK84SVV3n8bfD2MSYmQHKgdvREmSVkhj",
+      "type": "Feature",
+      "properties": {
+        "id": "theparkmedspa",
+        "address": "85 Raritan Ave., Suite 410",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "Where beauty meets good vibes! The perfect mix of expertise and warmth�offering glow-boosting facials, confidence-building injectables, laser treatments, and top-tier skincare in a space that feels friendly and welcoming.",
+        "mapname": "The Park MedSpa",
+        "loc": 10,
+        "phone": "908-227-7544",
+        "web": "http://TheParkMedSpa.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "85 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "D",
+        "img": "HP-10D"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43285913661556,
+          40.49859193809053
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "KJaNNJlfpBxDvREHTfEDZowiYnjtgDKQ",
+      "type": "Feature",
+      "properties": {
+        "id": "unitybank",
+        "address": "104 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "Proudly serving Highland Park with personalized financial solutions, local expertise, and community commitment - helping neighbors thrive through personal & business banking deposit products, services, and loans.",
+        "mapname": "Unity Bank",
+        "loc": 11,
+        "phone": "732-418-0330",
+        "web": "http://UnityBank.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "104 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-11T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43238528662526,
+          40.49810071801331
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "m2W0EtY4r2qZbNE6bNQIZDbkSdcyCWo3",
+      "type": "Feature",
+      "properties": {
+        "id": "eyedocsusa",
+        "address": "18 N 3rd Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "Comprehensive eye care with precision and compassion�offering exams, treatments, and eyewear that blend modern technology, professional expertise, and genuine patient care.",
+        "mapname": "EyeDocs USA",
+        "loc": 12,
+        "phone": "877-393-3621",
+        "web": "http://EyeDocsUSA.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "18 North 3rd Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "D",
+        "img": "HP-12D"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42819033333247,
+          40.49931516666667
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sia7W5HzpbVgTdxPV7yY2tZXmJy8gmFc",
+      "type": "Feature",
+      "properties": {
+        "id": "globalgracemarketplace",
+        "address": "208 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Shop & Discover",
+        "info": "Selling fair-trade, handcrafted items made by international artisans, every purchase provides hope for individuals around the world.",
+        "mapname": "Global Grace Marketplace",
+        "loc": 13,
+        "phone": "609-310-1664",
+        "web": "http://Global-Grace-Marketplace-Cafe.square.site",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "Global Grace Marketplace, 208 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-13S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4296349,
+          40.4984828
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "KZ515TepEKPLzH08rpK9hpt6HwT7RUdX",
+      "type": "Feature",
+      "properties": {
+        "id": "theupcyclethrift",
+        "address": "127 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Shop & Discover",
+        "info": "Selling second-hand and new items at affordable prices. ",
+        "mapname": "The Upcycle Thrift",
+        "loc": 14,
+        "phone": "908-208-1370",
+        "web": "http://InterfaithRise.org",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "127 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-14S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43166651612903,
+          40.49835122580645
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "omIbQqbWF1NKMExLEFTlm2z8Cw4jzgU9",
+      "type": "Feature",
+      "properties": {
+        "id": "thepridecenterofnewjersey",
+        "address": "85 Raritan Ave. Suite 100",
+        "town": "Highland Park",
+        "business": "Gather & Connect",
+        "info": "Proudly celebrating over 30 years of service, we are an entirely volunteer run, donation supported organization dedicated to providing community spaces to LGBTQIA2S+ individuals.",
+        "mapname": "The Pride Center of New Jersey",
+        "loc": 15,
+        "phone": "732-846-2232",
+        "web": "http://PrideCenter.org",
+        "category": "gather_and_connect",
+        "subcategory": "gather_and_connect",
+        "address_formatted": "85 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-15T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43276576681939,
+          40.498362424630585
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9BcbNYtHKDcdeun22qtdq5acI9ztrUt4",
+      "type": "Feature",
+      "properties": {
+        "id": "ubrys",
+        "address": "70 Woodbridge Ave.",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "All your auto repair needs in the heart of Highland Park. Family business since 1957, offering honesty and quality work. Routine check-ups, tire rotation, and more complex repairs.",
+        "mapname": "Ubry�s",
+        "loc": 16,
+        "phone": "732-247-3740",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "Urby's, 70 Woodbridge Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "D",
+        "img": "HP-16D"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4196216060712,
+          40.50083325
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gzfwA3Fbr5nq3SB65P9x3R2wNLejWjVK",
+      "type": "Feature",
+      "properties": {
+        "id": "lailasweets",
+        "address": "325 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Eat & Drink",
+        "info": "Indulge in our premium waffles, cr�pe creations, and signature milkshakes. Experience our vibrant, welcoming vibe, perfect for celebrations and private party catering. Find your sweet moment with us! ",
+        "mapname": "Laila Sweets",
+        "loc": 17,
+        "phone": "848-388-1700",
+        "web": "http://LailaSweets.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "325 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-17S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4274857077704,
+          40.49935687683361
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Bsv4TW3S7KRz4UoA9oVjeGktTN003vmK",
+      "type": "Feature",
+      "properties": {
+        "id": "victoryjunkremoval",
+        "address": "",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "Fast, friendly, eco-conscious junk removal, from single items to clearing out an entire home or business, including garages, basements, swing set removals, and everything in between.",
+        "mapname": "Victory Junk Removal",
+        "loc": 18,
+        "phone": "732-439-4468",
+        "web": "http://VictoryJunkRemoval.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "Highland Park, NJ, United States of America",
+        "priority": "T",
+        "img": "HP-18T",
+		"vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42652751556068,
+          40.49961907732797
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bwRdEvEW34irigIz1gbE19zgUTlYLHxh",
+      "type": "Feature",
+      "properties": {
+        "id": "bestrealty",
+        "address": "42 Woodbridge Ave.",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "When it�s time to sell, trust Highland Park�s in-town real estate expert. Unmatched local marketing that gets your home in front of the right buyers fast�achieving the highest price with less stress.",
+        "mapname": "Best Realty",
+        "loc": 19,
+        "phone": "732-819-8895",
+        "web": "http://JerseyBest.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "42 Woodbridge Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-19T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42134924622235,
+          40.5007748
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "8S8nCI1UXNWFnr8ZTGGtI8W9uVDgtgkI",
+      "type": "Feature",
+      "properties": {
+        "id": "highlandparkfarmersmarket",
+        "address": "212 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Shop & Discover",
+        "info": "Established in 1996, open-air farmers market located right off Main Street. Local producers come every Friday from February through December with the finest local and homemade products NJ has to offer.",
+        "mapname": "Highland Park Farmers Market",
+        "loc": 20,
+        "web": "http://MainStreetHP.org/hpfmabout",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "Highland Park Farmer's Market, 212 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-20T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42917397643556,
+          40.49857584517139
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "rAkR3wynGZDr6TXIXJhr7824VtjwSXcU",
+      "type": "Feature",
+      "properties": {
+        "id": "mckennasgym",
+        "address": "55 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "Specializing in Olympic lifting, sports performance, and personal training for athletes from novice to international levels. ",
+        "mapname": "McKenna's Gym",
+        "loc": 21,
+        "phone": "717-881-5415",
+        "web": "http://McKennasGym.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "Okie Pokii Cafe, 55 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-21S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43436102674946,
+          40.49837577723548
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NkcvH8sl10KyWNCjCoWFvj2aI29NV78L",
+      "type": "Feature",
+      "properties": {
+        "id": "strongmilemovers1",
+        "address": "406 Main St.",
+        "town": "Metuchen",
+        "business": "Live & Work",
+        "info": "Licensed, insured movers, 5-star reputation, and 13+ years experience. Local, long-distance, residential, and commercial moving; transport services (auto, boat, etc.); packing; staging; furniture assembly; piano moving; dumpsters; junk removal, and STRONGMILE on-site storage!",
+        "mapname": "STRONGMILE Movers",
+        "loc": 23,
+        "phone": "732-754-3626",
+        "web": "http://STRONGMILE.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "406 Main Street, Metuchen, NJ 08840, United States of America",
+        "priority": "T",
+        "img": "HP-22T",
+		"vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43551363686115,
+          40.497906362668076
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pXRCAgu5kBK7Io4w6V4mnsy2CDoZkgrT",
+      "type": "Feature",
+      "properties": {
+        "id": "strongmilemovers",
+        "address": "406 Main St.",
+        "town": "Metuchen",
+        "business": "Live & Work",
+        "info": "Licensed, insured movers, 5-star reputation, and 13+ years experience. Local, long-distance, residential, and commercial moving; transport services (auto, boat, etc.); packing; staging; furniture assembly; piano moving; dumpsters; junk removal, and STRONGMILE on-site storage!",
+        "mapname": "STRONGMILE Movers",
+        "loc": 23,
+        "phone": "732-754-3626",
+        "web": "http://STRONGMILE.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "406 Main Street, Metuchen, NJ 08840, United States of America",
+        "priority": "T",
+        "img": "HP-23T",
+		"vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43079139228497,
+          40.49837539339673
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "eAylpTt4QfnxzmTjRGQdMHVAbjXY2ul2",
+      "type": "Feature",
+      "properties": {
+        "id": "morganchenbrokerrealtor",
+        "address": "429 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "Central NJ realtor with 20 years of deal-making finesse, buying and selling residential and commercial properties. Clear, honest guidance, sharp strategy, and results that get you to the finish line!",
+        "mapname": "Morgan Chen, Broker/Realtor",
+        "loc": 24,
+        "phone": "732-425-7057",
+        "web": "http://MorganChenRealtor.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "429 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "D",
+        "img": "HP-24D",
+		"vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4291114014628,
+          40.4998407661742
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yzRu9dHBSc1ViCsJTvXEkBZeOkUUgnvj",
+      "type": "Feature",
+      "properties": {
+        "id": "thelawofficesofharoldjgerr",
+        "address": "47 Raritan Ave., 2nd Floor",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "Experienced, responsive, and reliable injury lawyers. We focus our practice exclusively on the needs of people who have suffered a personal injury.",
+        "mapname": "The Law Offices Of Harold J. Gerr",
+        "loc": 25,
+        "phone": "732-249-4600",
+        "web": "http://HaroldGerrLaw.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "47 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-25T"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.434546,
+          40.498045
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yvzoXbSHekYOF7r5GYADhOt0edcHxw5P",
+      "type": "Feature",
+      "properties": {
+        "id": "youngmoomartialarts",
+        "address": "320 Raritan Ave. #1",
+        "town": "Highland Park",
+        "business": "Learn & Play",
+        "info": "Building strength, discipline, and confidence through high-quality martial arts training for everyone.",
+        "mapname": "Young Moo Martial Arts",
+        "loc": 26,
+        "phone": "732-447-3039",
+        "web": "http://YoungMooTKD.com",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "320 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-26S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42746484324483,
+          40.49918516682515
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PofaAiPQ6vYilljVi3HC4QZZsnWwtyvh",
+      "type": "Feature",
+      "properties": {
+        "id": "visionofhope",
+        "address": "233 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "",
+        "mapname": "Vision Of Hope",
+        "loc": 27,
+        "phone": "732-712-2229",
+        "web": "http://PreventionLinks.org/location/Vision-of-Hope-Recovery-Center/",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "Somewhere In Time, 233 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-27S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42875857844678,
+          40.49898171882184
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "BQQsQ9TlU2eX2qG4Y3o55k4YFGL1zXu2",
+      "type": "Feature",
+      "properties": {
+        "id": "noahsarkpreschool",
+        "address": "900 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Learn & Play",
+        "info": "A play-based program for infants thru pre-k where curiosity is encouraged, creativity is celebrated, and learning feels natural.",
+        "mapname": "Noah�s Ark Preschool",
+        "loc": 28,
+        "phone": "732-985-0001",
+        "web": "http://NoahsArkOfHP.com",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "900 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "D",
+        "img": "HP-28D"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.420492,
+          40.502286
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HVyXn5DuxjP1d79vuqqG64kQYyVfFcOu",
+      "type": "Feature",
+      "properties": {
+        "id": "bloomcustomhaircoloranddesign",
+        "address": "407 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "Whether you dye it, blow it, shave it, cut it short, grow it long, or wave it back and forth, we are here to take care of your every hair need.",
+        "mapname": "Bloom Custom Hair Color and Design ",
+        "loc": 29,
+        "phone": "732-626-3002",
+        "web": "http://BloomCustomHair.glossgenius.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "407 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-29S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42591265725433,
+          40.49993720886232
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sIqP9xt85xzEnozgnBPqDJkGFVuztUb6",
+      "type": "Feature",
+      "properties": {
+        "id": "highlandparkcommunityfoodpantry",
+        "address": "220 South 6th Ave.",
+        "town": "Highland Park",
+        "business": "Gather & Connect",
+        "info": "",
+        "mapname": "Highland Park Community Food Pantry",
+        "loc": 30,
+        "phone": "732-819-0052",
+        "web": "http://HPBoro.com/FoodPantry",
+        "category": "gather_and_connect",
+        "subcategory": "gather_and_connect",
+        "address_formatted": "Highland Park Community Center, 220 6th Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-30S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42197396356244,
+          40.4977069
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "zDLZU6zAVHgJYi7FA6S7drx5IhonZHFY",
+      "type": "Feature",
+      "properties": {
+        "id": "kinetics",
+        "address": "401 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Thrive & Be Well",
+        "info": "",
+        "mapname": "Kinetics",
+        "loc": 31,
+        "phone": "732-317-8931",
+        "web": "http://KineticsNJ.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "401 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-31S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42612,
+          40.499861
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RYMlm1hd9TZKJcpmbfEvieY1K9CJRyCv",
+      "type": "Feature",
+      "properties": {
+        "id": "thereformedchurchofhighlandpark",
+        "address": "19-21 S 2nd Ave.",
+        "town": "Highland Park",
+        "business": "Gather & Connect",
+        "info": "",
+        "mapname": "The Reformed Church of Highland Park",
+        "loc": 32,
+        "phone": "732-249-7349",
+        "web": "http://RCHighlandPark.org",
+        "category": "gather_and_connect",
+        "subcategory": "gather_and_connect",
+        "address_formatted": "20 South 2nd Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-32S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4302917,
+          40.4975639
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "T7ISeG7dsC3cK0iDjdW25Yu9mU6wLMuZ",
+      "type": "Feature",
+      "properties": {
+        "id": "parkdeli",
+        "address": "80 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Eat & Drink",
+        "info": "",
+        "mapname": "Park Deli",
+        "loc": 33,
+        "phone": "732-545-6585",
+        "web": "http://ParkDeliOne.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "Park Deli, 80 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-33S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4328796,
+          40.4980443
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lMgDQEEZgx5jYYyS1VjHs47agaX5px7s",
+      "type": "Feature",
+      "properties": {
+        "id": "parkliquors",
+        "address": "76 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Shop & Discover",
+        "info": "",
+        "mapname": "Park Liquors",
+        "loc": 34,
+        "phone": "732-317-2007",
+        "web": "http://ParkLiquor.net",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "76 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-34S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4329955,
+          40.4980206
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "FdwKnxYNq3BZIw3T1vQvwWqvJL1hOzyd",
+      "type": "Feature",
+      "properties": {
+        "id": "classiccleaners",
+        "address": "125 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Shop & Discover",
+        "info": "",
+        "mapname": "Classic Cleaners",
+        "loc": 35,
+        "phone": "732-545-0449",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "Classic Cleaners, 125 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-35S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.4314896,
+          40.4984302
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "1y4ti9ZBynZz4yS6vbVZM9N8SCeq8fDr",
+      "type": "Feature",
+      "properties": {
+        "id": "khpropertyestates",
+        "address": "24 N 3rd Ave., Suite 100",
+        "town": "Highland Park",
+        "business": "Live & Work",
+        "info": "Navigating the sale of real estate during probate can be a complex and emotional process. As Certified Probate Specialists, we work closely with estate representatives and their attorneys to ensure every step is handled with efficiency, professionalism, and sensitivity. KHP&E provides you with a full range of real estate services -- from selling your current home, to helping you find the perfect new one.",
+        "mapname": "KH Property & Estates",
+        "loc": 36,
+        "phone": "732-955-9090",
+        "web": "http://Khahlidra.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "24 North 3rd Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "T",
+        "img": "HP-36T",
+		"vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.43017339657678,
+          40.49848175584892
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ByuMyKajKTeuQnckKpH2jvzpTP9W47WS",
+      "type": "Feature",
+      "properties": {
+        "id": "theartofrelevdancecompany",
+        "address": "233 Raritan Ave.",
+        "town": "Highland Park",
+        "business": "Learn & Play",
+        "info": "",
+        "mapname": "The Art of Relev� Dance Company",
+        "loc": 37,
+        "web": "http://TheArtofReleve.org",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "Somewhere In Time, 233 Raritan Avenue, Highland Park, NJ 08904, United States of America",
+        "priority": "S",
+        "img": "HP-37S"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.42865474420188,
+          40.49901390929675
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
