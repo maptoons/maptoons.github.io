@@ -395,7 +395,7 @@
         "category": "gather_and_connect",
         "subcategory": "gather_and_connect",
         "address_formatted": "85 Raritan Avenue, Highland Park, NJ 08904, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "HP-15T"
       },
       "geometry": {
@@ -503,7 +503,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "42 Woodbridge Avenue, Highland Park, NJ 08904, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "HP-19T"
       },
       "geometry": {
@@ -529,7 +529,7 @@
         "category": "shop_and_discover",
         "subcategory": "shop_and_discover",
         "address_formatted": "Highland Park Farmer's Market, 212 Raritan Avenue, Highland Park, NJ 08904, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "HP-20T"
       },
       "geometry": {
@@ -583,7 +583,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "406 Main Street, Metuchen, NJ 08840, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "HP-22T",
 		"vehicle": "car"
       },
@@ -611,7 +611,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "406 Main Street, Metuchen, NJ 08840, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "HP-23T",
 		"vehicle": "car"
       },
@@ -667,7 +667,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "47 Raritan Avenue, Highland Park, NJ 08904, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "HP-25T"
       },
       "geometry": {
@@ -936,7 +936,7 @@
         "category": "shop_and_discover",
         "subcategory": "shop_and_discover",
         "address_formatted": "Classic Cleaners, 125 Raritan Avenue, Highland Park, NJ 08904, United States of America",
-        "priority": "S",
+        "priority": "Q",
         "img": "HP-35S"
       },
       "geometry": {
@@ -963,7 +963,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "24 North 3rd Avenue, Highland Park, NJ 08904, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "HP-36T",
 		"vehicle": "car"
       },
