@@ -16,7 +16,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "3425 Hampton Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-1T"
       },
       "geometry": {
@@ -72,7 +72,7 @@
         "address_formatted": "400 Atlantic Avenue, Village of East Rockaway, NY 11518, United States of America",
         "priority": "T",
         "img": "OS-3T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -206,7 +206,7 @@
         "address_formatted": "3375 Lawson Boulevard, Oceanside, NY 11572, United States of America",
         "priority": "T",
         "img": "OS-8T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -312,7 +312,7 @@
         "category": "eat_and_drink",
         "subcategory": "eat_and_drink",
         "address_formatted": "239 Merrick Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-12T"
       },
       "geometry": {
@@ -339,7 +339,7 @@
         "category": "shop_and_discover",
         "subcategory": "shop_and_discover",
         "address_formatted": "3323 Long Beach Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-13T"
       },
       "geometry": {
@@ -557,7 +557,7 @@
         "address_formatted": "3530 Oceanside Road, Oceanside, NY 11572, United States of America",
         "priority": "T",
         "img": "OS-22T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -585,12 +585,12 @@
         "address_formatted": "Oceanside, NY, United States of America",
         "priority": "D",
         "img": "OS-23D",
-		"vehicle": "plane"
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.63676903461607,
+          40.64396085258975
         ],
         "type": "Point"
       }
@@ -638,7 +638,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "3572 Hampton Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-25T"
       },
       "geometry": {
@@ -852,13 +852,13 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "Oceanside, NY, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-33T"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.64440229764628,
+          40.62678016695799
         ],
         "type": "Point"
       }
@@ -879,14 +879,14 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "493 Atlantic Avenue, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-34T",
-		"vehicle": "boat"
+        "vehicle": "boat"
       },
       "geometry": {
         "coordinates": [
-          -73.65346997966006,
-          40.640450799999996
+          -73.61551944387284,
+          40.626093649988746
         ],
         "type": "Point"
       }
@@ -912,8 +912,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.65346997966006,
-          40.640450799999996
+          -73.65346230703335,
+          40.640450883475694
         ],
         "type": "Point"
       }
@@ -961,13 +961,13 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "Oceanside, NY, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-38T"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.63969220150668,
+          40.639041938869674
         ],
         "type": "Point"
       }
@@ -1017,7 +1017,7 @@
         "address_formatted": "450 Sunrise Highway, Village of Rockville Centre, NY 11570, United States of America",
         "priority": "T",
         "img": "OS-40T",
-		"vehicle": "plane"
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -1097,9 +1097,9 @@
         "category": "shop_and_discover",
         "subcategory": "shop_and_discover",
         "address_formatted": "3050 Long Beach Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-43T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -1152,7 +1152,7 @@
         "category": "learn_and_play",
         "subcategory": "learn_and_play",
         "address_formatted": "3161 Royal Avenue, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-45T"
       },
       "geometry": {
@@ -1584,7 +1584,7 @@
         "address_formatted": "9 Neil Court, Oceanside, NY 11572, United States of America",
         "priority": "D",
         "img": "OS-61D",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -1718,7 +1718,7 @@
         "category": "shop_and_discover",
         "subcategory": "shop_and_discover",
         "address_formatted": "2415 South Long Beach Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-66T"
       },
       "geometry": {
@@ -1745,7 +1745,7 @@
         "category": "eat_and_drink",
         "subcategory": "eat_and_drink",
         "address_formatted": "3670 West Oceanside Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-67T"
       },
       "geometry": {
@@ -1986,7 +1986,7 @@
         "category": "eat_and_drink",
         "subcategory": "eat_and_drink",
         "address_formatted": "Sagas, 3108 Lawson Boulevard, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-76T"
       },
       "geometry": {
@@ -2013,7 +2013,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "76 South Long Beach Road, Village of Rockville Centre, NY 11570, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-77T"
       },
       "geometry": {
@@ -2121,7 +2121,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "2 Poole Street, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-81T"
       },
       "geometry": {
@@ -2177,7 +2177,7 @@
         "address_formatted": "Village of Rockville Centre, Rockville Centre, NY, United States of America",
         "priority": "S",
         "img": "OS-83S",
-		"vehicle": "plane"
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -2203,7 +2203,7 @@
         "category": "thrive_and_be_well",
         "subcategory": "thrive_and_be_well",
         "address_formatted": "2899 Long Beach Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-84T"
       },
       "geometry": {
@@ -2309,7 +2309,7 @@
         "category": "thrive_and_be_well",
         "subcategory": "thrive_and_be_well",
         "address_formatted": "2421 South Long Beach Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-88T"
       },
       "geometry": {
@@ -2387,7 +2387,7 @@
         "category": "thrive_and_be_well",
         "subcategory": "thrive_and_be_well",
         "address_formatted": "129 Davison Avenue, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-91T"
       },
       "geometry": {
@@ -2419,8 +2419,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.6249481,
-          40.6536937
+          -73.62481416062873,
+          40.65369158297509
         ],
         "type": "Point"
       }
@@ -2551,7 +2551,7 @@
         "address_formatted": "495 New Street, Oceanside, NY 11572, United States of America",
         "priority": "T",
         "img": "OS-97T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -2952,7 +2952,7 @@
         "category": "learn_and_play",
         "subcategory": "learn_and_play",
         "address_formatted": "961 Church Street, Baldwin, NY 11510, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-112T"
       },
       "geometry": {
@@ -2979,14 +2979,14 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "Oceanside, NY, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-113T",
-		"vehicle": "plane"
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.64328757307601,
+          40.645547684487504
         ],
         "type": "Point"
       }
@@ -3034,7 +3034,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "3943 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-115T"
       },
       "geometry": {
@@ -3088,7 +3088,7 @@
         "category": "shop_and_discover",
         "subcategory": "shop_and_discover",
         "address_formatted": "3147 Lawson Boulevard, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-117T"
       },
       "geometry": {
@@ -3304,12 +3304,12 @@
         "address_formatted": "Oceanside, NY, United States of America",
         "priority": "S",
         "img": "OS-125S",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.63920221232968,
+          40.63896138499417
         ],
         "type": "Point"
       }
@@ -3330,7 +3330,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-126T"
       },
       "geometry": {
@@ -3384,13 +3384,13 @@
         "category": "thrive_and_be_well",
         "subcategory": "thrive_and_be_well",
         "address_formatted": "2965 Long Beach Road, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-128T"
       },
       "geometry": {
         "coordinates": [
-          -73.6395890612676,
-          40.6387405
+          -73.63959182224237,
+          40.63866926500951
         ],
         "type": "Point"
       }
@@ -3411,7 +3411,7 @@
         "category": "shop_and_discover",
         "subcategory": "shop_and_discover",
         "address_formatted": "3057 Lawson Boulevard, Oceanside, NY 11572, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-129T"
       },
       "geometry": {
@@ -3465,7 +3465,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-131T"
       },
       "geometry": {
@@ -3492,7 +3492,7 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "3930 Long Beach Road, Village of Island Park, NY 11558, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-132T"
       },
       "geometry": {
@@ -3521,12 +3521,12 @@
         "address_formatted": "City of Long Beach, Long Beach, NY, United States of America",
         "priority": "T",
         "img": "OS-133T",
-		"vehicle": "boat"
+        "vehicle": "boat"
       },
       "geometry": {
         "coordinates": [
-          -73.65085563447049,
-          40.64899523163921
+          -73.61179559203195,
+          40.620383890302314
         ],
         "type": "Point"
       }
@@ -3579,8 +3579,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.63149966993787,
+          40.635184210499524
         ],
         "type": "Point"
       }
@@ -3602,12 +3602,12 @@
         "address_formatted": "Oceanside, NY, United States of America",
         "priority": "T",
         "img": "OS-136T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.6422193254137,
+          40.62075499265155
         ],
         "type": "Point"
       }
@@ -3630,12 +3630,12 @@
         "address_formatted": "Oceanside, NY, United States of America",
         "priority": "T",
         "img": "OS-137T",
-		"vehicle": "boat"
+        "vehicle": "boat"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.66465221539801,
+          40.6196643596403
         ],
         "type": "Point"
       }
@@ -3658,12 +3658,12 @@
         "address_formatted": "Oceanside, NY, United States of America",
         "priority": "D",
         "img": "OS-138D",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.64047916662446,
+          40.63912794396581
         ],
         "type": "Point"
       }
@@ -3684,9 +3684,9 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "75 Seaman Avenue, Village of Rockville Centre, NY 11570, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-139T",
-		"vehicle": "plane"
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -3849,7 +3849,7 @@
         "address_formatted": "675 East Olive Street, City of Long Beach, NY 11561, United States of America",
         "priority": "T",
         "img": "OS-145T",
-		"vehicle": "plane"
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -3958,7 +3958,7 @@
         "address_formatted": "3230 Fulton Avenue, Oceanside, NY 11572, United States of America",
         "priority": "T",
         "img": "OS-149T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
@@ -3983,14 +3983,14 @@
         "category": "live_and_work",
         "subcategory": "live_and_work",
         "address_formatted": "Oceanside, NY, United States of America",
-        "priority": "T",
+        "priority": "Q",
         "img": "OS-150T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.63909408466951,
+          40.63554062705297
         ],
         "type": "Point"
       }
@@ -4040,12 +4040,12 @@
         "address_formatted": "Oceanside, NY, United States of America",
         "priority": "D",
         "img": "OS-152D",
-		"vehicle": "plane"
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.64703709334245,
+          40.644085956045764
         ],
         "type": "Point"
       }
@@ -4122,12 +4122,12 @@
         "address_formatted": "Oceanside, NY, United States of America",
         "priority": "T",
         "img": "OS-155T",
-		"vehicle": "car"
+        "vehicle": "car"
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.64116523525826,
+          40.63918250237831
         ],
         "type": "Point"
       }
@@ -4179,8 +4179,8 @@
       },
       "geometry": {
         "coordinates": [
-          -73.6399765,
-          40.6390936
+          -73.64283697305022,
+          40.626681834589114
         ],
         "type": "Point"
       }
