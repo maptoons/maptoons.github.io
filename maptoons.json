@@ -31,6 +31,27 @@
 		},
 		{
 			"source": "osm",
+			"id": "waterways-fill",
+			"type": "fill",
+			"source-layer": "water_polygons",
+			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+			"paint": {
+				"fill-color": "hsl(181, 45%, 80%)"
+			}
+		},
+		{
+			"source": "osm",
+			"id": "waterways-line",
+			"type": "line",
+			"source-layer": "water_lines",
+			"filter": ["in", "kind", "canal", "river", "stream", "ditch"],
+			"paint": {
+				"line-color": "hsl(181, 45%, 80%)",
+				"line-width": 4
+			}
+		},
+		{
+			"source": "osm",
 			"id": "land-beach",
 			"type": "fill",
 			"source-layer": "land",
