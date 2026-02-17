@@ -57,6 +57,22 @@
 		},
 		{
 			"source": "osm",
+			"id": "rail-road",
+			"type": "line",
+			"source-layer": "streets",
+			"filter": ["in", "kind", "rail", "narrow_gauge", "light_rail", "funicular", "subway", "monorail"],
+			"paint": {
+				"line-color": "hsl(223, 11%, 12%)",
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ]
+			},
+			"layout": {
+				"line-join": "round",
+				"line-cap": "round"
+			},
+			"minzoom": 11
+		},
+		{
+			"source": "osm",
 			"id": "label-street",
 			"type": "symbol",
 			"source-layer": "street_labels",
