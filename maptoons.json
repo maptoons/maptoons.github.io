@@ -73,6 +73,19 @@
 		},
 		{
 			"source": "osm",
+			"id": "rail-stations",
+			"type": "circle",
+			"source-layer": "public_transport",
+			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"paint": {
+				"circle-radius": 5,
+				"circle-color": "#007cbf",
+				"circle-stroke-width": 1,
+				"circle-stroke-color": "#ffffff"
+			}
+		},
+		{
+			"source": "osm",
 			"id": "label-street",
 			"type": "symbol",
 			"source-layer": "street_labels",
