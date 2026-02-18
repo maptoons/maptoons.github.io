@@ -31,6 +31,70 @@
 		},
 		{
 			"source": "osm",
+			"id": "waterways-fill",
+			"type": "fill",
+			"source-layer": "water_polygons",
+			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+			"paint": {
+				"fill-color": "hsl(181, 45%, 80%)"
+			}
+		},
+		{
+			"source": "osm",
+			"id": "waterways-line",
+			"type": "line",
+			"source-layer": "water_lines",
+			"filter": ["in", "kind", "canal", "river", "stream", "ditch"],
+			"paint": {
+				"line-color": "hsl(181, 45%, 80%)",
+				"line-width": 4
+			}
+		},
+		{
+			"source": "osm",
+			"id": "waterways-line-labels",
+			"type": "symbol",
+			"source-layer": "water_lines_labels",
+			"filter": ["in", "kind", "canal", "river", "stream", "ditch"],
+			"layout": {
+				"text-field": "{name}",
+				"text-transform": "uppercase",
+				"text-font": [ "poppins-regular" ],
+				"text-letter-spacing": 0.2,
+				"symbol-placement": "line",
+				"symbol-spacing": 400,
+				"text-anchor": "center",
+				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 5, 20, 30 ]
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 30%)",
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ]
+			}
+		},
+				{
+			"source": "osm",
+			"id": "waterways_fill_labels",
+			"type": "symbol",
+			"source-layer": "water_polygons_labels",
+			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-size": 13,
+				"text-font": [ "poppins-medium" ],
+				"text-anchor": "center",
+				"text-justify": "center",
+				"symbol-placement": "point",
+				"text-optional": true,
+				"text-max-width": 8
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 30%)",
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ],
+				"text-halo-width": 1.5
+			}
+		},
+		{
+			"source": "osm",
 			"id": "land-beach",
 			"type": "fill",
 			"source-layer": "land",
@@ -54,6 +118,55 @@
 				"line-cap": "round"
 			},
 			"minzoom": 11
+		},
+		{
+			"source": "osm",
+			"id": "rail-road",
+			"type": "line",
+			"source-layer": "streets",
+			"filter": ["in", "kind", "rail", "narrow_gauge", "light_rail", "funicular", "subway", "monorail"],
+			"paint": {
+				"line-color": "hsl(223, 11%, 12%)",
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ]
+			},
+			"layout": {
+				"line-join": "round",
+				"line-cap": "round"
+			},
+			"minzoom": 11
+		},
+		{
+			"source": "osm",
+			"id": "rail-stations",
+			"type": "circle",
+			"source-layer": "public_transport",
+			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"paint": {
+				"circle-radius": 5,
+				"circle-color": "#007cbf",
+				"circle-stroke-width": 1,
+				"circle-stroke-color": "#ffffff"
+			}
+		},
+		{
+			"source": "osm",
+			"id": "rail-stations-labels",
+			"type": "symbol",
+			"source-layer": "public_transport",
+			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": [ "poppins-regular" ],
+				"text-size": 12,
+				"text-offset": [0, 1.5],
+				"text-anchor": "top",
+				"text-optional": true
+			},
+			"paint": {
+				"text-color": "#333333",
+				"text-halo-color": "#ffffff",
+				"text-halo-width": 1
+			}
 		},
 		{
 			"source": "osm",
