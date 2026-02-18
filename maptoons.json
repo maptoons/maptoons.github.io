@@ -5,7 +5,11 @@
 		"maputnik:renderer": "mbgljs"
 	},
 	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
-	"sprite": "https://maptoons.github.io/assets/sprites/sprites",
+	"sprite": [
+		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
+		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
+		{"id": "rail", "url": "http://localhost:5500/assets/sprites/rail"}
+	],
 	"sources": {
 		"osm": {
 			"type": "vector",
@@ -127,7 +131,8 @@
 			"filter": ["in", "kind", "rail", "narrow_gauge", "light_rail", "funicular", "subway", "monorail"],
 			"paint": {
 				"line-color": "hsl(223, 11%, 12%)",
-				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ]
+				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ],
+				"line-pattern": "rail:rail-hatch"
 			},
 			"layout": {
 				"line-join": "round",
