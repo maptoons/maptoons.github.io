@@ -130,7 +130,7 @@
 			"source-layer": "streets",
 			"filter": ["in", "kind", "rail", "narrow_gauge", "light_rail", "funicular", "subway", "monorail"],
 			"paint": {
-				"line-color": "hsl(223, 11%, 12%)",
+				"line-color": "hsl(0, 0%, 1%)",
 				"line-width": 2
 			},
 			"layout": {
