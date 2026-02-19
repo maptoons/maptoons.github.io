@@ -3,7 +3,49 @@
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
+    "x": 226,
+    "y": 113
+  },
+  "railroad-x": {
+    "height": 113,
+    "pixelRatio": 1,
+    "width": 113,
     "x": 0,
+    "y": 0
+  },
+  "railroad-x-skinny": {
+    "height": 113,
+    "pixelRatio": 1,
+    "width": 113,
+    "x": 0,
+    "y": 113
+  },
+  "railroad-x-sm": {
+    "height": 16,
+    "pixelRatio": 1,
+    "width": 16,
+    "x": 0,
+    "y": 226
+  },
+  "railroad-x-spaced": {
+    "height": 113,
+    "pixelRatio": 1,
+    "width": 113,
+    "x": 113,
+    "y": 0
+  },
+  "railroad-x-spaced-bg": {
+    "height": 113,
+    "pixelRatio": 1,
+    "width": 113,
+    "x": 113,
+    "y": 113
+  },
+  "railroad-y": {
+    "height": 113,
+    "pixelRatio": 1,
+    "width": 113,
+    "x": 226,
     "y": 0
   }
 }
