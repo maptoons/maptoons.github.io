@@ -135,7 +135,7 @@
 				"line-width": 20,
 				"line-pattern": "rail:railroad-x-spaced-bg"
 			},
-			"minzoom": 11
+			"minzoom": 13
 		},
 		{
 			"source": "osm",
