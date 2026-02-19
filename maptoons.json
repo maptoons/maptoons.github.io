@@ -8,7 +8,8 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "rail", "url": "http://localhost:5500/assets/sprites/rail"}
+		{"id": "rail", "url": "http://localhost:5500/assets/sprites/rail"},
+		{"id": "rail-station", "url": "http://localhost:5500/assets/sprites/rail-station"}
 	],
 	"sources": {
 		"osm": {
@@ -159,14 +160,14 @@
 		{
 			"source": "osm",
 			"id": "rail-stations",
-			"type": "circle",
+			"type": "symbol",
 			"source-layer": "public_transport",
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
-			"paint": {
-				"circle-radius": 5,
-				"circle-color": "#007cbf",
-				"circle-stroke-width": 1,
-				"circle-stroke-color": "#ffffff"
+			"layout": {
+				"icon-image": "rail-station:train-engine-icon-2",
+				"icon-size": 1.2,
+				"icon-allow-overlap": true,
+				"icon-ignore-placement": true
 			}
 		},
 		{

@@ -1,0 +1,37 @@
+{
+  "train-engine-icon-1": {
+    "height": 60,
+    "pixelRatio": 1,
+    "width": 60,
+    "x": 0,
+    "y": 0
+  },
+  "train-engine-icon-2": {
+    "height": 60,
+    "pixelRatio": 1,
+    "width": 60,
+    "x": 0,
+    "y": 60
+  },
+  "train-engine-icon-3": {
+    "height": 60,
+    "pixelRatio": 1,
+    "width": 60,
+    "x": 60,
+    "y": 0
+  },
+  "train-icon-1": {
+    "height": 60,
+    "pixelRatio": 1,
+    "width": 60,
+    "x": 60,
+    "y": 60
+  },
+  "train-icon-2": {
+    "height": 60,
+    "pixelRatio": 1,
+    "width": 60,
+    "x": 120,
+    "y": 0
+  }
+}
