@@ -147,8 +147,8 @@
 			"source-layer": "public_transport",
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
-				"icon-image": "rail-station:train-engine-icon-2",
-				"icon-size": 1.2,
+				"icon-image": "rail-station:lirr-sign-6",
+				"icon-size": 1,
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
 			}
@@ -161,16 +161,13 @@
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
 				"text-field": ["get", "name"],
-				"text-font": [ "poppins-regular" ],
-				"text-size": 14,
-				"text-offset": [0, 2.5],
-				"text-anchor": "top",
+				"text-font": [ "fredoka-semibold" ],
+				"text-size": 18,
+				"text-anchor": "center",
 				"text-optional": true
 			},
 			"paint": {
-				"text-color": "#333333",
-				"text-halo-color": "#f8e7d2",
-				"text-halo-width": 1
+				"text-color": "#333333"
 			}
 		},
 		{

@@ -1,37 +1,79 @@
 {
+  "lirr-sign-1": {
+    "height": 60,
+    "pixelRatio": 1,
+    "width": 200,
+    "x": 300,
+    "y": 384
+  },
+  "lirr-sign-2": {
+    "height": 30,
+    "pixelRatio": 1,
+    "width": 100,
+    "x": 0,
+    "y": 474
+  },
+  "lirr-sign-3": {
+    "height": 90,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 0,
+    "y": 384
+  },
+  "lirr-sign-4": {
+    "height": 384,
+    "pixelRatio": 1,
+    "width": 384,
+    "x": 0,
+    "y": 0
+  },
+  "lirr-sign-5": {
+    "height": 144,
+    "pixelRatio": 1,
+    "width": 144,
+    "x": 384,
+    "y": 0
+  },
+  "lirr-sign-6": {
+    "height": 144,
+    "pixelRatio": 1,
+    "width": 144,
+    "x": 384,
+    "y": 144
+  },
   "train-engine-icon-1": {
     "height": 60,
     "pixelRatio": 1,
     "width": 60,
-    "x": 0,
-    "y": 0
+    "x": 300,
+    "y": 444
   },
   "train-engine-icon-2": {
     "height": 60,
     "pixelRatio": 1,
     "width": 60,
-    "x": 0,
-    "y": 60
+    "x": 360,
+    "y": 444
   },
   "train-engine-icon-3": {
     "height": 60,
     "pixelRatio": 1,
     "width": 60,
-    "x": 60,
-    "y": 0
+    "x": 420,
+    "y": 444
   },
   "train-icon-1": {
     "height": 60,
     "pixelRatio": 1,
     "width": 60,
-    "x": 60,
-    "y": 60
+    "x": 480,
+    "y": 444
   },
   "train-icon-2": {
     "height": 60,
     "pixelRatio": 1,
     "width": 60,
-    "x": 120,
-    "y": 0
+    "x": 384,
+    "y": 288
   }
 }
