@@ -8,8 +8,8 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "rail", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/rail"},
-		{"id": "rail-station", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/rail-station"}
+		{"id": "rail", "url": "http://localhost:5500/assets/sprites/rail"},
+		{"id": "rail-station", "url": "http://localhost:5500/assets/sprites/rail-station"}
 	],
 	"sources": {
 		"osm": {
@@ -67,35 +67,15 @@
 				"text-font": [ "poppins-regular" ],
 				"text-letter-spacing": 0.2,
 				"symbol-placement": "line",
-				"symbol-spacing": 400,
+				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 200, 15, 400, 20, 800 ],
 				"text-anchor": "center",
-				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 5, 20, 30 ]
+				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 12, 10, 20, 30 ],
+				"text-rotation-alignment": "map",
+				"text-max-angle": 45
 			},
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)",
 				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ]
-			}
-		},
-				{
-			"source": "osm",
-			"id": "waterways_fill_labels",
-			"type": "symbol",
-			"source-layer": "water_polygons_labels",
-			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
-			"layout": {
-				"text-field": ["get", "name"],
-				"text-size": 13,
-				"text-font": [ "poppins-medium" ],
-				"text-anchor": "center",
-				"text-justify": "center",
-				"symbol-placement": "point",
-				"text-optional": true,
-				"text-max-width": 8
-			},
-			"paint": {
-				"text-color": "hsl(0, 0%, 30%)",
-				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ],
-				"text-halo-width": 1.5
 			}
 		},
 		{
@@ -123,6 +103,29 @@
 				"line-cap": "round"
 			},
 			"minzoom": 11
+		},
+		{
+			"source": "osm",
+			"id": "waterways_fill_labels",
+			"type": "symbol",
+			"source-layer": "water_polygons_labels",
+			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-size": 8,
+				"text-font": [ "poppins-medium" ],
+				"text-anchor": "center",
+				"text-justify": "center",
+				"symbol-placement": "point",
+				"text-optional": true,
+				"text-max-width": 8,
+				"text-transform": "uppercase",
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 30%)",
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 13, 0, 14, 1 ]
+			}
 		},
 		{
 			"source": "osm",
