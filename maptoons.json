@@ -86,7 +86,7 @@
 			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
 			"layout": {
 				"text-field": ["get", "name"],
-				"text-size": 13,
+				"text-size": 8,
 				"text-font": [ "poppins-medium" ],
 				"text-anchor": "center",
 				"text-justify": "center",
@@ -98,7 +98,7 @@
 			},
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)",
-				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 14, 0, 15, 1 ]
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 13, 0, 14, 1 ]
 			}
 		},
 		{
