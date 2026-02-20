@@ -69,7 +69,7 @@
 				"symbol-placement": "line",
 				"symbol-spacing": 400,
 				"text-anchor": "center",
-				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 10, 5, 20, 30 ]
+				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 12, 10, 20, 30 ]
 			},
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)",
