@@ -67,7 +67,7 @@
 				"text-font": [ "poppins-regular" ],
 				"text-letter-spacing": 0.2,
 				"symbol-placement": "line",
-				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 200, 15, 500, 20, 800 ],
+				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 200, 15, 400, 20, 800 ],
 				"text-anchor": "center",
 				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 12, 10, 20, 30 ],
 				"text-rotation-alignment": "map",
@@ -76,29 +76,6 @@
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)",
 				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ]
-			}
-		},
-		{
-			"source": "osm",
-			"id": "waterways_fill_labels",
-			"type": "symbol",
-			"source-layer": "water_polygons_labels",
-			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
-			"layout": {
-				"text-field": ["get", "name"],
-				"text-size": 8,
-				"text-font": [ "poppins-medium" ],
-				"text-anchor": "center",
-				"text-justify": "center",
-				"symbol-placement": "point",
-				"text-optional": true,
-				"text-max-width": 8,
-				"text-transform": "uppercase",
-				"text-letter-spacing": 0.2
-			},
-			"paint": {
-				"text-color": "hsl(0, 0%, 30%)",
-				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 13, 0, 14, 1 ]
 			}
 		},
 		{
@@ -126,6 +103,29 @@
 				"line-cap": "round"
 			},
 			"minzoom": 11
+		},
+		{
+			"source": "osm",
+			"id": "waterways_fill_labels",
+			"type": "symbol",
+			"source-layer": "water_polygons_labels",
+			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-size": 8,
+				"text-font": [ "poppins-medium" ],
+				"text-anchor": "center",
+				"text-justify": "center",
+				"symbol-placement": "point",
+				"text-optional": true,
+				"text-max-width": 8,
+				"text-transform": "uppercase",
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 30%)",
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 13, 0, 14, 1 ]
+			}
 		},
 		{
 			"source": "osm",
