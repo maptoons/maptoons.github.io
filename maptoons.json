@@ -73,10 +73,10 @@
 			},
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)",
-				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ]
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 12, 0, 13, 1 ]
 			}
 		},
-				{
+		{
 			"source": "osm",
 			"id": "waterways_fill_labels",
 			"type": "symbol",
