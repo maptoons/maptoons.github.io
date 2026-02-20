@@ -92,12 +92,13 @@
 				"text-justify": "center",
 				"symbol-placement": "point",
 				"text-optional": true,
-				"text-max-width": 8
+				"text-max-width": 8,
+				"text-transform": "uppercase",
+				"text-letter-spacing": 0.2
 			},
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)",
-				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ],
-				"text-halo-width": 1.5
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 14, 0, 15, 1 ]
 			}
 		},
 		{
