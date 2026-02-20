@@ -67,13 +67,15 @@
 				"text-font": [ "poppins-regular" ],
 				"text-letter-spacing": 0.2,
 				"symbol-placement": "line",
-				"symbol-spacing": 400,
+				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 200, 15, 500, 20, 800 ],
 				"text-anchor": "center",
-				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 12, 10, 20, 30 ]
+				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 12, 10, 20, 30 ],
+				"text-rotation-alignment": "map",
+				"text-max-angle": 45
 			},
 			"paint": {
 				"text-color": "hsl(0, 0%, 30%)",
-				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 12, 0, 13, 1 ]
+				"text-opacity": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 0, 12, 1 ]
 			}
 		},
 		{
