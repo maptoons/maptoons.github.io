@@ -151,7 +151,7 @@
 				"line-color": "hsl(223, 11%, 12%)",
 				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 12, 5, 16, 10],
 				"line-pattern": "rail:md-1",
-				"line-opacity": ["step", ["zoom"], 0, 14, 0, 15, 1, 16, 0]
+				"line-opacity": ["step", ["zoom"], 0, 14, 0, 15, 0.8, 16, 0]
 			},
 			"minzoom": 13
 		},
