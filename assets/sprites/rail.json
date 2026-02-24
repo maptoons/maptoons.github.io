@@ -1,16 +1,23 @@
 {
-  "md-1": {
+  "lg-1": {
     "height": 16,
     "pixelRatio": 1,
     "width": 30,
     "x": 0,
     "y": 226
   },
-  "md-1-bg": {
+  "md-1": {
     "height": 16,
     "pixelRatio": 1,
     "width": 30,
     "x": 30,
+    "y": 226
+  },
+  "md-1-bg": {
+    "height": 16,
+    "pixelRatio": 1,
+    "width": 30,
+    "x": 60,
     "y": 226
   },
   "rail-hatch": {
@@ -38,7 +45,7 @@
     "height": 16,
     "pixelRatio": 1,
     "width": 16,
-    "x": 60,
+    "x": 90,
     "y": 226
   },
   "railroad-x-spaced": {
