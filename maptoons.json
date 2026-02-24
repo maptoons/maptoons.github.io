@@ -209,9 +209,12 @@
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
 				"icon-image": "rail-station:lirr-sign-7",
-				"icon-size": 1,
+				"icon-size": ["interpolate", ["linear"], ["zoom"], 14, 0.2, 16, 0.6],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
+			},
+			"paint": {
+				"icon-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
 			}
 		},
 		{
@@ -223,12 +226,13 @@
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-font": [ "fredoka-semibold" ],
-				"text-size": 18,
+				"text-size": ["interpolate", ["linear"], ["zoom"], 14, 6, 16, 14],
 				"text-anchor": "center",
 				"text-optional": true
 			},
 			"paint": {
-				"text-color": "#333333"
+				"text-color": "#333333",
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
 			}
 		}
 	]
