@@ -142,36 +142,6 @@
 		},
 		{
 			"source": "osm",
-			"id": "rail-stations",
-			"type": "symbol",
-			"source-layer": "public_transport",
-			"filter": ["in", "kind", "station", "halt", "tram_stop"],
-			"layout": {
-				"icon-image": "rail-station:lirr-sign-7",
-				"icon-size": 1,
-				"icon-allow-overlap": true,
-				"icon-ignore-placement": true
-			}
-		},
-		{
-			"source": "osm",
-			"id": "rail-stations-labels",
-			"type": "symbol",
-			"source-layer": "public_transport",
-			"filter": ["in", "kind", "station", "halt", "tram_stop"],
-			"layout": {
-				"text-field": ["get", "name"],
-				"text-font": [ "fredoka-semibold" ],
-				"text-size": 18,
-				"text-anchor": "center",
-				"text-optional": true
-			},
-			"paint": {
-				"text-color": "#333333"
-			}
-		},
-		{
-			"source": "osm",
 			"id": "label-street",
 			"type": "symbol",
 			"source-layer": "street_labels",
@@ -230,6 +200,36 @@
 				"text-halo-width": 0
 			},
 			"maxzoom": 12
+		},
+		{
+			"source": "osm",
+			"id": "rail-stations",
+			"type": "symbol",
+			"source-layer": "public_transport",
+			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"layout": {
+				"icon-image": "rail-station:lirr-sign-7",
+				"icon-size": 1,
+				"icon-allow-overlap": true,
+				"icon-ignore-placement": true
+			}
+		},
+		{
+			"source": "osm",
+			"id": "rail-stations-labels",
+			"type": "symbol",
+			"source-layer": "public_transport",
+			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": [ "fredoka-semibold" ],
+				"text-size": 18,
+				"text-anchor": "center",
+				"text-optional": true
+			},
+			"paint": {
+				"text-color": "#333333"
+			}
 		}
 	]
 }
