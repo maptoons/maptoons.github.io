@@ -208,7 +208,7 @@
 			"source-layer": "public_transport",
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
-				"icon-image": "rail-station:lirr-sign-7",
+				"icon-image": "rail-station:lirr-sign-9",
 				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.2, 16, 0.6],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
