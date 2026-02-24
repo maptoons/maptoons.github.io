@@ -135,8 +135,8 @@
 			"filter": ["in", "kind", "rail", "narrow_gauge", "light_rail", "funicular", "subway", "monorail"],
 			"paint": {
 				"line-color": "hsl(223, 11%, 12%)",
-				"line-width": 20,
-				"line-pattern": "rail:railroad-x-spaced-bg"
+				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 16, 5, 18, 10],
+				"line-pattern": "rail:sm-2-bg"
 			},
 			"minzoom": 13
 		},
