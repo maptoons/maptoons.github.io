@@ -8,8 +8,8 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "rail", "url": "http://localhost:5500/assets/sprites/rail"},
-		{"id": "rail-station", "url": "http://localhost:5500/assets/sprites/rail-station"}
+		{"id": "rail", "url": "https://maptoons-github-o6vgjj766-simon-conrads-projects.vercel.app/assets/sprites/rail"},
+		{"id": "rail-station", "url": "https://maptoons-github-o6vgjj766-simon-conrads-projects.vercel.app/assets/sprites/rail-station"}
 	],
 	"sources": {
 		"osm": {
