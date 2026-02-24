@@ -136,7 +136,7 @@
 			"paint": {
 				"line-color": "hsl(223, 11%, 12%)",
 				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 16, 5, 18, 10],
-				"line-pattern": "rail:sm-2-bg"
+				"line-pattern": "rail:sm-3-bg"
 			},
 			"minzoom": 13
 		},

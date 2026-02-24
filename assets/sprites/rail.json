@@ -47,5 +47,33 @@
     "width": 113,
     "x": 226,
     "y": 0
+  },
+  "sm-1": {
+    "height": 7,
+    "pixelRatio": 1,
+    "width": 21,
+    "x": 37,
+    "y": 226
+  },
+  "sm-2": {
+    "height": 10,
+    "pixelRatio": 1,
+    "width": 21,
+    "x": 16,
+    "y": 226
+  },
+  "sm-2-bg": {
+    "height": 10,
+    "pixelRatio": 1,
+    "width": 21,
+    "x": 21,
+    "y": 236
+  },
+  "sm-3-bg": {
+    "height": 11,
+    "pixelRatio": 1,
+    "width": 21,
+    "x": 0,
+    "y": 242
   }
 }
