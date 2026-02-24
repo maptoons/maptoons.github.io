@@ -136,7 +136,22 @@
 			"paint": {
 				"line-color": "hsl(223, 11%, 12%)",
 				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 16, 5, 18, 10],
-				"line-pattern": "rail:sm-3-bg"
+				"line-pattern": "rail:sm-3-bg",
+				"line-opacity": ["step", ["zoom"], 0, 15, 0, 16, 1]
+			},
+			"minzoom": 13
+		},
+		{
+			"source": "osm",
+			"id": "rail-road-md-zoom",
+			"type": "line",
+			"source-layer": "streets",
+			"filter": ["in", "kind", "rail", "narrow_gauge", "light_rail", "funicular", "subway", "monorail"],
+			"paint": {
+				"line-color": "hsl(223, 11%, 12%)",
+				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 12, 5, 16, 10],
+				"line-pattern": "rail:md-1",
+				"line-opacity": ["step", ["zoom"], 0, 14, 0, 15, 1, 16, 0]
 			},
 			"minzoom": 13
 		},
