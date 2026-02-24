@@ -8,8 +8,8 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "rail", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/rail"},
-		{"id": "rail-station", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/rail-station"}
+		{"id": "rail", "url": "http://localhost:5500/assets/sprites/rail"},
+		{"id": "rail-station", "url": "http://localhost:5500/assets/sprites/rail-station"}
 	],
 	"sources": {
 		"osm": {
@@ -142,39 +142,6 @@
 		},
 		{
 			"source": "osm",
-			"id": "rail-stations",
-			"type": "symbol",
-			"source-layer": "public_transport",
-			"filter": ["in", "kind", "station", "halt", "tram_stop"],
-			"layout": {
-				"icon-image": "rail-station:train-engine-icon-2",
-				"icon-size": 1.2,
-				"icon-allow-overlap": true,
-				"icon-ignore-placement": true
-			}
-		},
-		{
-			"source": "osm",
-			"id": "rail-stations-labels",
-			"type": "symbol",
-			"source-layer": "public_transport",
-			"filter": ["in", "kind", "station", "halt", "tram_stop"],
-			"layout": {
-				"text-field": ["get", "name"],
-				"text-font": [ "poppins-regular" ],
-				"text-size": 14,
-				"text-offset": [0, 2.5],
-				"text-anchor": "top",
-				"text-optional": true
-			},
-			"paint": {
-				"text-color": "#333333",
-				"text-halo-color": "#f8e7d2",
-				"text-halo-width": 1
-			}
-		},
-		{
-			"source": "osm",
 			"id": "label-street",
 			"type": "symbol",
 			"source-layer": "street_labels",
@@ -233,6 +200,40 @@
 				"text-halo-width": 0
 			},
 			"maxzoom": 12
+		},
+		{
+			"source": "osm",
+			"id": "rail-stations",
+			"type": "symbol",
+			"source-layer": "public_transport",
+			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"layout": {
+				"icon-image": "rail-station:lirr-sign-9",
+				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.2, 16, 0.6],
+				"icon-allow-overlap": true,
+				"icon-ignore-placement": true
+			},
+			"paint": {
+				"icon-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
+			}
+		},
+		{
+			"source": "osm",
+			"id": "rail-stations-labels",
+			"type": "symbol",
+			"source-layer": "public_transport",
+			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": [ "fredoka-semibold" ],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 6, 16, 14],
+				"text-anchor": "center",
+				"text-optional": true
+			},
+			"paint": {
+				"text-color": "#333333",
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
+			}
 		}
 	]
 }
