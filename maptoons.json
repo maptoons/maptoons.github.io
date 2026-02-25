@@ -8,7 +8,7 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "railroad-sprites", "url": "http://localhost:5500/assets/sprites/railroad-sprites"}
+		{"id": "railroad-sprites", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/railroad-sprites"}
 	],
 	"sources": {
 		"osm": {
