@@ -8,8 +8,7 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "rail", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/rail"},
-		{"id": "rail-station", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/rail-station"}
+		{"id": "railroad-sprites", "url": "http://localhost:5500/assets/sprites/railroad-sprites"}
 	],
 	"sources": {
 		"osm": {
@@ -67,7 +66,7 @@
 				"text-font": [ "poppins-regular" ],
 				"text-letter-spacing": 0.2,
 				"symbol-placement": "line",
-				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 200, 15, 400, 20, 800 ],
+				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ],   10, 100, 12, 200, 14, 350, 16, 500, 18, 800],
 				"text-anchor": "center",
 				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 12, 10, 20, 30 ],
 				"text-rotation-alignment": "map",
@@ -136,7 +135,7 @@
 			"paint": {
 				"line-color": "hsl(223, 11%, 12%)",
 				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 16, 5, 18, 10],
-				"line-pattern": "rail:sm-3-bg",
+				"line-pattern": "railroad-sprites:high-zoom",
 				"line-opacity": ["step", ["zoom"], 0, 15, 0, 16, 1]
 			},
 			"minzoom": 13
@@ -150,7 +149,7 @@
 			"paint": {
 				"line-color": "hsl(223, 11%, 12%)",
 				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 12, 5, 16, 10],
-				"line-pattern": "rail:md-1",
+				"line-pattern": "railroad-sprites:mid-zoom",
 				"line-opacity": ["step", ["zoom"], 0, 14, 0, 15, 0.8, 16, 0]
 			},
 			"minzoom": 13
@@ -164,7 +163,7 @@
 			"paint": {
 				"line-color": "hsl(223, 11%, 12%)",
 				"line-width": ["interpolate", ["exponential", 1.5], ["zoom"], 11, 5, 15, 8],
-				"line-pattern": "rail:lg-1",
+				"line-pattern": "railroad-sprites:low-zoom",
 				"line-opacity": ["interpolate", ["exponential", 1.5], ["zoom"], 11, 0.1, 13, 0.5, 15, 1]
 			},
 			"minzoom": 11,
@@ -238,7 +237,7 @@
 			"source-layer": "public_transport",
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
-				"icon-image": "rail-station:lirr-sign-9",
+				"icon-image": "railroad-sprites:lirr-sign",
 				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.2, 16, 0.6],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true

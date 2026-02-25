@@ -1,0 +1,30 @@
+{
+  "high-zoom": {
+    "height": 11,
+    "pixelRatio": 1,
+    "width": 21,
+    "x": 230,
+    "y": 0
+  },
+  "lirr-sign": {
+    "height": 60,
+    "pixelRatio": 1,
+    "width": 200,
+    "x": 0,
+    "y": 0
+  },
+  "low-zoom": {
+    "height": 16,
+    "pixelRatio": 1,
+    "width": 30,
+    "x": 200,
+    "y": 0
+  },
+  "mid-zoom": {
+    "height": 16,
+    "pixelRatio": 1,
+    "width": 30,
+    "x": 200,
+    "y": 16
+  }
+}
