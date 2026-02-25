@@ -66,7 +66,7 @@
 				"text-font": [ "poppins-regular" ],
 				"text-letter-spacing": 0.2,
 				"symbol-placement": "line",
-				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ], 11, 200, 15, 400, 20, 800 ],
+				"symbol-spacing": [ "interpolate", [ "linear" ], [ "zoom" ],   10, 100, 12, 200, 14, 350, 16, 500, 18, 800],
 				"text-anchor": "center",
 				"text-size": [ "interpolate", [ "exponential", 1.5 ], [ "zoom" ], 12, 10, 20, 30 ],
 				"text-rotation-alignment": "map",
