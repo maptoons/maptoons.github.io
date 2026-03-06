@@ -8,7 +8,7 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "railroad-sprites", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/railroad-sprites"}
+		{"id": "railroad-sprites", "url": "http://localhost:5500/assets/sprites/railroad-sprites"}
 	],
 	"sources": {
 		"osm": {
@@ -238,7 +238,7 @@
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
 				"icon-image": "railroad-sprites:lirr-sign",
-				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.2, 16, 0.6],
+				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.2, 16, 0.45],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
 			},
@@ -254,13 +254,13 @@
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
 				"text-field": ["get", "name"],
-				"text-font": [ "fredoka-semibold" ],
-				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 6, 16, 14],
+				"text-font": [ "poppins-medium" ],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 6, 16, 11],
 				"text-anchor": "center",
 				"text-optional": true
 			},
 			"paint": {
-				"text-color": "#333333",
+				"text-color": "#111111",
 				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
 			}
 		}
