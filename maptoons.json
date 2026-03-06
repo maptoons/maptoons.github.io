@@ -260,7 +260,7 @@
 				"text-optional": true
 			},
 			"paint": {
-				"text-color": "#222222",
+				"text-color": "#111111",
 				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
 			}
 		}
