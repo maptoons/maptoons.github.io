@@ -254,13 +254,13 @@
 			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
 				"text-field": ["get", "name"],
-				"text-font": [ "fredoka-semibold" ],
+				"text-font": [ "poppins-medium" ],
 				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 6, 16, 14],
 				"text-anchor": "center",
 				"text-optional": true
 			},
 			"paint": {
-				"text-color": "#333333",
+				"text-color": "#222222",
 				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
 			}
 		}
