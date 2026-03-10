@@ -1,0 +1,16 @@
+{
+  "lirr-sign": {
+    "height": 60,
+    "pixelRatio": 2,
+    "width": 200,
+    "x": 0,
+    "y": 0
+  },
+  "njt-sign": {
+    "height": 60,
+    "pixelRatio": 2,
+    "width": 200,
+    "x": 0,
+    "y": 60
+  }
+}
