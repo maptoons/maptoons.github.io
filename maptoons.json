@@ -279,8 +279,10 @@
 				"text-optional": true
 			},
 			"paint": {
-				"text-color": "#111111",
-				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
+				"text-color": "#2f2f2f",
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1],
+				"text-halo-width": 0.02,
+				"text-halo-color": "#2f2f2f"
 			}
 		},
 		{
@@ -297,7 +299,9 @@
 			},
 			"paint": {
 				"text-color": "#ffffff",
-				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 13.5, 1]
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 13.5, 1],
+				"text-halo-color": "#ffffff",
+				"text-halo-width": 0.01
 			}
 
 		}
