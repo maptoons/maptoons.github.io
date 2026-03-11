@@ -8,12 +8,21 @@
 	"sprite": [
 		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
 		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "railroad-sprites", "url": "http://localhost:5500/assets/sprites/railroad-sprites"}
+		{"id": "railroad-sprites", "url": "https://maptoons-github-io-git-feature-nj-01f084-simon-conrads-projects.vercel.app/assets/sprites/railroad-sprites"},
+		{"id": "railroad-station-sprites", "url": "https://maptoons-github-io-git-feature-nj-01f084-simon-conrads-projects.vercel.app/assets/sprites/railroad-station-sprites"}
 	],
 	"sources": {
 		"osm": {
 			"type": "vector",
 			"url": "https://vector.openstreetmap.org/shortbread_v1/tilejson.json"
+		},
+		"lirr-stations": {
+			"type": "geojson",
+			"data": "data/railroad/lirr_stations.geojson"
+		},
+		"nj-stations": {
+			"type": "geojson",
+			"data": "data/railroad/nj_stations.geojson"
 		}
 	},
 	"layers": [
@@ -231,14 +240,12 @@
 			"maxzoom": 12
 		},
 		{
-			"source": "osm",
-			"id": "rail-stations",
+			"source": "lirr-stations",
+			"id": "lirr-stations",
 			"type": "symbol",
-			"source-layer": "public_transport",
-			"filter": ["in", "kind", "station", "halt", "tram_stop"],
 			"layout": {
-				"icon-image": "railroad-sprites:lirr-sign",
-				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.2, 16, 0.45],
+				"icon-image": "railroad-station-sprites:lirr-sign",
+				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
 			},
@@ -247,22 +254,56 @@
 			}
 		},
 		{
-			"source": "osm",
-			"id": "rail-stations-labels",
+			"source": "nj-stations",
+			"id": "nj-stations",
 			"type": "symbol",
-			"source-layer": "public_transport",
-			"filter": ["in", "kind", "station", "halt", "tram_stop"],
+			"layout": {
+				"icon-image": "railroad-station-sprites:njt-sign",
+				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1],
+				"icon-allow-overlap": true,
+				"icon-ignore-placement": true
+			},
+			"paint": {
+				"icon-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 13.5, 1]
+			}
+		},
+		{
+			"source": "lirr-stations",
+			"id": "lirr-stations-labels",
+			"type": "symbol",
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-font": [ "poppins-medium" ],
-				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 6, 16, 11],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 10],
 				"text-anchor": "center",
 				"text-optional": true
 			},
 			"paint": {
-				"text-color": "#111111",
-				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
+				"text-color": "#2f2f2f",
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1],
+				"text-halo-width": 0.02,
+				"text-halo-color": "#2f2f2f"
 			}
+		},
+		{
+			"source": "nj-stations",
+			"id": "nj-stations-labels",
+			"type": "symbol",
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": [ "poppins-medium" ],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 11],
+				"text-anchor": "center",
+				"text-offset": [0, 0.2],
+				"text-optional": true
+			},
+			"paint": {
+				"text-color": "#ffffff",
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 13.5, 1],
+				"text-halo-color": "#ffffff",
+				"text-halo-width": 0.01
+			}
+
 		}
 	]
 }
