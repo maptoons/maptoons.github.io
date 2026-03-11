@@ -264,7 +264,7 @@
 				"icon-ignore-placement": true
 			},
 			"paint": {
-				"icon-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 14, 1]
+				"icon-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 13.5, 1]
 			}
 		},
 		{
@@ -274,13 +274,13 @@
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-font": [ "poppins-medium" ],
-				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 6, 16, 11],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 12],
 				"text-anchor": "center",
 				"text-optional": true
 			},
 			"paint": {
 				"text-color": "#111111",
-				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 14, 1]
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
 			}
 		},
 		{
@@ -290,14 +290,14 @@
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-font": [ "poppins-medium" ],
-				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 6, 16, 11],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 12],
 				"text-anchor": "center",
 				"text-offset": [0, 0.2],
 				"text-optional": true
 			},
 			"paint": {
 				"text-color": "#ffffff",
-				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13.75, 0, 14, 1]
+				"text-opacity": ["interpolate", ["linear"], ["zoom"], 13, 0, 13.5, 1]
 			}
 
 		}
