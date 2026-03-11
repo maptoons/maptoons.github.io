@@ -245,7 +245,7 @@
 			"type": "symbol",
 			"layout": {
 				"icon-image": "railroad-station-sprites:lirr-sign",
-				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1.2],
+				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
 			},
@@ -259,7 +259,7 @@
 			"type": "symbol",
 			"layout": {
 				"icon-image": "railroad-station-sprites:njt-sign",
-				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1.2],
+				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
 			},
@@ -274,7 +274,7 @@
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-font": [ "poppins-medium" ],
-				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 12],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 10],
 				"text-anchor": "center",
 				"text-optional": true
 			},
@@ -290,7 +290,7 @@
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-font": [ "poppins-medium" ],
-				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 12],
+				"text-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 7, 16, 11],
 				"text-anchor": "center",
 				"text-offset": [0, 0.2],
 				"text-optional": true
