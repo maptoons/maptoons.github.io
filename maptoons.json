@@ -6,7 +6,7 @@
 	},
 	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
 	"sprite": [
-		{"id": "railroad-sprites", "url": "http://localhost:5500/assets/sprites/railroad-sprites"}
+		{"id": "railroad-sprites", "url": "https://maptoons-github-io-git-improvemen-7ec7c2-simon-conrads-projects.vercel.app/assets/sprites/railroad-sprites"}
 	],
 	"sources": {
 		"osm": {
