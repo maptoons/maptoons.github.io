@@ -6,10 +6,7 @@
 	},
 	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
 	"sprite": [
-		{"id": "sprites", "url": "https://maptoons.github.io/assets/sprites/sprites"},
-		{"id": "maptoons-sprites", "url": "https://maptoons.github.io/assets/sprites/maptoons-sprites"},
-		{"id": "railroad-sprites", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/railroad-sprites"},
-		{"id": "railroad-station-sprites", "url": "https://maptoons-github-io-git-release-20-e56c1d-simon-conrads-projects.vercel.app/assets/sprites/railroad-station-sprites"}
+		{"id": "railroad-sprites", "url": "http://localhost:5500/assets/sprites/railroad-sprites"}
 	],
 	"sources": {
 		"osm": {
@@ -244,7 +241,7 @@
 			"id": "lirr-stations",
 			"type": "symbol",
 			"layout": {
-				"icon-image": "railroad-station-sprites:lirr-sign",
+				"icon-image": "railroad-sprites:lirr-sign",
 				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true
@@ -258,7 +255,7 @@
 			"id": "nj-stations",
 			"type": "symbol",
 			"layout": {
-				"icon-image": "railroad-station-sprites:njt-sign",
+				"icon-image": "railroad-sprites:njt-sign",
 				"icon-size": ["interpolate", ["exponential", 1.5], ["zoom"], 14, 0.6, 16, 1],
 				"icon-allow-overlap": true,
 				"icon-ignore-placement": true

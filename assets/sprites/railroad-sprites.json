@@ -3,13 +3,13 @@
     "height": 11,
     "pixelRatio": 1,
     "width": 21,
-    "x": 230,
+    "x": 100,
     "y": 0
   },
   "lirr-sign": {
-    "height": 60,
+    "height": 30,
     "pixelRatio": 1,
-    "width": 200,
+    "width": 100,
     "x": 0,
     "y": 0
   },
@@ -17,14 +17,21 @@
     "height": 16,
     "pixelRatio": 1,
     "width": 30,
-    "x": 200,
-    "y": 0
+    "x": 0,
+    "y": 60
   },
   "mid-zoom": {
     "height": 16,
     "pixelRatio": 1,
     "width": 30,
-    "x": 200,
-    "y": 16
+    "x": 0,
+    "y": 76
+  },
+  "njt-sign": {
+    "height": 30,
+    "pixelRatio": 1,
+    "width": 100,
+    "x": 0,
+    "y": 30
   }
 }
