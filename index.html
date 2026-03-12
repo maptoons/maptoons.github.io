@@ -13,7 +13,7 @@
     <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
     <link href="style.css" rel="stylesheet" />
-    
+
     <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJCV05H509"></script>
     <script>
@@ -91,8 +91,7 @@
             maxZoom: 18,
             bearing: 0,
             pitch: 30,
-            hash: true,
-            pixelRatio: 1
+            hash: true
         });
 
         map.on('load', async () => {
@@ -473,8 +472,8 @@
                         <svg width="105" height="105" viewBox="0 0 105 105" overflow="visible">
                             <path id="curve" d="M52.5,87.5 A35,35 0 1 1 52.5,17.5 A35,35 0 1 1 52.5,87.5" fill="none"/>
                             <text font-size="12" text-anchor="middle">
-                                <textPath href="#curve" startOffset="50%" 
-                                        fill="hsl(0, 0%, 100%)" 
+                                <textPath href="#curve" startOffset="50%"
+                                        fill="hsl(0, 0%, 100%)"
                                         stroke="hsl(0, 0%, 0%)"
                                         stroke-width="1"
                                         stroke-linejoin="round"
@@ -610,7 +609,7 @@
                     pitch: 30,
                     bearing: -10
                 }
-    
+
             ];
 
             // Add locations to dropdown
@@ -1075,7 +1074,7 @@
                     addressDiv.className = 'contact-item';
                     addressDiv.innerHTML = `
                         <i class="fa-solid fa-location-dot"></i>
-                        <a style="margin-left:4px;" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(properties.address_formatted)}" 
+                        <a style="margin-left:4px;" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(properties.address_formatted)}"
                         target="_blank">${properties.address_formatted}</a>
                     `;
                     contactInfo.appendChild(addressDiv);
