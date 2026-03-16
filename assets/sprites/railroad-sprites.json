@@ -1,0 +1,37 @@
+{
+  "high-zoom": {
+    "height": 11,
+    "pixelRatio": 1,
+    "width": 21,
+    "x": 100,
+    "y": 0
+  },
+  "lirr-sign": {
+    "height": 30,
+    "pixelRatio": 1,
+    "width": 100,
+    "x": 0,
+    "y": 0
+  },
+  "low-zoom": {
+    "height": 16,
+    "pixelRatio": 1,
+    "width": 30,
+    "x": 0,
+    "y": 60
+  },
+  "mid-zoom": {
+    "height": 16,
+    "pixelRatio": 1,
+    "width": 30,
+    "x": 0,
+    "y": 76
+  },
+  "njt-sign": {
+    "height": 30,
+    "pixelRatio": 1,
+    "width": 100,
+    "x": 0,
+    "y": 30
+  }
+}
