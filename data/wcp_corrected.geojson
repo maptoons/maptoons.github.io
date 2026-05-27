@@ -1,0 +1,3045 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "e2vulatLUanNRP1fPnkd2jfVmjdvg71q",
+      "type": "Feature",
+      "properties": {
+        "id": "handles",
+        "address": "22 Jericho Tpke.",
+        "town": "Jericho",
+        "business": "Ice Cream",
+        "info": "Froyo your way - mix, swirl, stack, and repeat, because the best cup is always the one you build.",
+        "mapname": "16 Handles",
+        "loc": 1,
+        "phone": "516-833-6855",
+        "web": "http://16Handles.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "22 Jericho Turnpike, Jericho, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-1D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.56592028846154,
+          40.77697578846154
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "kZllrTBUbHnyUFx8EOiKEBeKCR2X6FKk",
+      "type": "Feature",
+      "properties": {
+        "id": "nancyjarvisdanielgalesothebysinternationalrealty",
+        "address": "356 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Real Estate",
+        "info": "With 43+ years at Daniel Gale Sotheby’s International Realty, Nancy Jarvis is a nationally recognized broker delivering trusted expertise, exceptional service, and consistent results across Long Island.",
+        "mapname": "Nancy Jarvis - Daniel Gale Sotheby's International Realty",
+        "loc": 2,
+        "phone": "516-334-3606",
+        "web": "http://NancyJarvis.com",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "356 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "Q",
+        "img": "WCP-2T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6089674,
+          40.7500428
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cl4UclK8WyD8gmFQBgieZN6k686SxIcY",
+      "type": "Feature",
+      "properties": {
+        "id": "kumonofcarleplace",
+        "address": "263A Voice Rd.",
+        "town": "Carle Place",
+        "business": "Education",
+        "info": "Helping students build strong math and reading skills through small, consistent daily practice—developing confidence, independence, and academic breakthroughs that last.",
+        "mapname": "Kumon of Carle Place",
+        "loc": 3,
+        "phone": "516-464-6770",
+        "discount": "50% off new student registration",
+        "exp": "4/30/2027",
+        "web": "http://Kumon.Com/Carle-Place",
+        "category": "learn_and_play",
+        "subcategory": "educational_services",
+        "address_formatted": "263 Voice Road, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-3T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6181251,
+          40.7476883
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Q3vkVUKKhBrwu7yTz7093vlRRJKbff6H",
+      "type": "Feature",
+      "properties": {
+        "id": "undauntedrestoration",
+        "address": "74-5 Brook Ave.",
+        "town": "Deer Park",
+        "business": "Restoration",
+        "info": "Asbestos abatement & mold remediation. We offer free estimates and are fully licensed and insured. We have over 25+ years of experience.",
+        "mapname": "Undaunted Restoration",
+        "loc": 4,
+        "phone": "631-377-5411",
+        "web": "http://UndauntedRestoration.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "Brook Avenue, Deer Park, NY 11729, United States of America",
+        "priority": "Q",
+        "img": "WCP-4T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.306226,
+          40.748725
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0gEtIB7QhCbZUaSTA5dxPwsQapBhT7gN",
+      "type": "Feature",
+      "properties": {
+        "id": "thomasshamneggerydiner",
+        "address": "325 Old Country Rd.",
+        "town": "Carle Place",
+        "business": "Diner",
+        "info": "A family-owned restaurant that's been in business since 1946. We offer an extensive menu that includes many unique and delicious breakfast items.",
+        "mapname": "Thomas's Ham 'N' Eggery Diner",
+        "loc": 5,
+        "phone": "516-333-3060",
+        "web": "http://HamAndEggery.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "325 Old Country Road, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-5T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.60737800000001,
+          40.74457666666667
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pCwQVmaKGrLiAxaSPOUnN6b1WwXqXpFB",
+      "type": "Feature",
+      "properties": {
+        "id": "pinesmotorlodge",
+        "address": "101 Taylor Ave.",
+        "town": "Westbury",
+        "business": "Motor Lodge",
+        "info": "Take some time to get away! Clean, spacious rooms, jacuzzis & deluxe rooms, all at affordable prices.",
+        "mapname": "Pines Motor Lodge",
+        "loc": 6,
+        "phone": "516-832-8330",
+        "web": "http://PinesMotorLodge.com",
+        "category": "visit_and_experience",
+        "subcategory": "",
+        "address_formatted": "Pines Motor Lodge, 101 Taylor Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-6T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5889112,
+          40.7463063
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "WBdqdohQ8z5cMSDoX129foEhH3UFgXaG",
+      "type": "Feature",
+      "properties": {
+        "id": "rchendersonstairbuilderinc",
+        "address": "100 Summa Ave.",
+        "town": "Westbury",
+        "business": "Wood Stairs & Rails",
+        "info": "Quality stair design, fabrication and installation. We work with architects, contractors, decorators, and homeowners to design and fabricate one of a kind stairways.",
+        "mapname": "R.C. Henderson Stair Builder, Inc.",
+        "loc": 7,
+        "phone": "516-876-9898",
+        "web": "http://RCHenderson.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "100 Summa Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-7T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5601177,
+          40.7586771
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "4WdCKWeJBIqOyIeVuODpzJyHUGk6GfrP",
+      "type": "Feature",
+      "properties": {
+        "id": "hicksnurseries",
+        "address": "100 Jericho Tpke.",
+        "town": "Westbury",
+        "business": "Garden Center",
+        "info": "Proudly serving the community since 1853, offering top-quality plants, pottery, seasonal décor, outdoor furniture, landscape design/build, expert advice, and inspiring events.",
+        "mapname": "Hicks Nurseries",
+        "loc": 8,
+        "phone": "516-334-0066",
+        "web": "http://HicksNurseries.com",
+        "category": "shop_and_discover",
+        "subcategory": "home_and_garden_supplies",
+        "address_formatted": "100 Jericho Turnpike, Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-8T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.597296,
+          40.763082
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "S19nheVe0AseW6WllntNacqSAjhzIFAp",
+      "type": "Feature",
+      "properties": {
+        "id": "wendyliottirowanrealty",
+        "address": "507 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Real Estate",
+        "info": "Rowan Team leader, established in 1963. Local market expert with outstanding marketing skills. Deep community roots. Clients treated like family. Dedicated leader in the Westbury community.",
+        "mapname": "Wendy Liotti - Rowan Realty",
+        "loc": 9,
+        "phone": "516-817-8897",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "Rowan Realty, 507 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "Q",
+        "img": "WCP-9T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6053192,
+          40.7512029
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "iRIxmFm76NdOk38jUvuvBT8hKXAtg9hg",
+      "type": "Feature",
+      "properties": {
+        "id": "clearskytaxinsuranceservices",
+        "address": "188B Post Ave.",
+        "town": "Westbury",
+        "business": "Tax & Insurance Services",
+        "info": "Income tax preparation services, giving you tax advice the way it's meant to be: friendly, accurate, and with a money-back guarantee.",
+        "mapname": "ClearSky Tax & Insurance Services",
+        "loc": 10,
+        "phone": "516-493-9190",
+        "web": "http://ClearSkyServices.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "188 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-10D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58761677859027,
+          40.75563409436704
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NgZTmDiTWxGWy17pfeCcDpXOiSYWrWaC",
+      "type": "Feature",
+      "properties": {
+        "id": "carleplacediner",
+        "address": "151 Old Country Rd.",
+        "town": "Carle Place",
+        "business": "Diner",
+        "info": "Family-owned and operated since 1982. Open 7 days a week from 7am to 11pm. Quality meals with family-oriented service.",
+        "mapname": "Carle Place Diner",
+        "loc": 11,
+        "phone": "516-741-0336",
+        "web": "http://CarlePlaceDiner.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "151 Old Country Road, Carle Place Commons, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-11D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.61678369230769,
+          40.74310646153846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "rwb0WjzZsCmr9EoCBlKrjOIoXwJ6iLs2",
+      "type": "Feature",
+      "properties": {
+        "id": "thebristalassistedliving",
+        "address": "117 Post Ave.",
+        "town": "Westbury",
+        "business": "Assisted Living",
+        "info": "Hospitality-led assisted living offering personalized support, elegant surroundings, and engaging daily life, designed to foster independence, connection, and peace of mind.",
+        "mapname": "The Bristal Assisted Living",
+        "loc": 12,
+        "phone": "516-333-9828",
+        "web": "http://TheBristal.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "117 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-12T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5883296,
+          40.7523467
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "8nf8vpcqWjLyIJGC1CKWXlPsgPXEDHCh",
+      "type": "Feature",
+      "properties": {
+        "id": "foodbazaarsupermarket",
+        "address": "1258 Corporate Dr.",
+        "town": "Westbury",
+        "business": "Supermarket",
+        "info": "Offering the largest variety of fresh, specialty, and organic products! Feeding your way of life by providing you with thoughtful value and variety.",
+        "mapname": "Food Bazaar Supermarket",
+        "loc": 13,
+        "phone": "516-542-1371",
+        "web": "http://FoodBazaar.com",
+        "category": "shop_and_discover",
+        "subcategory": "supermarkets",
+        "address_formatted": "1258 Corporate Drive, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-13D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5901548,
+          40.7397241
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "30QugD5nCSf7s7mvC14A9IZ0kSoVEDHN",
+      "type": "Feature",
+      "properties": {
+        "id": "learnandplaychildcare",
+        "address": "122 Voice Rd.",
+        "town": "Carle Place",
+        "business": "Daycare",
+        "info": "Learn and play daycare providing nurturing care for newborns through Pre-K, plus an engaging summer camp. A loving environment that feels like family.",
+        "mapname": "Learn and Play Childcare",
+        "loc": 14,
+        "phone": "516-280-4008",
+        "web": "http://LearnAndPlayNY.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "122 Voice Road, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-14D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6204903,
+          40.7464131
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AjwfjOrpzkbp2an7uDzGHv9r8nye4i07",
+      "type": "Feature",
+      "properties": {
+        "id": "cardinalibakery",
+        "address": "465 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Bakery / Cafe",
+        "info": "A full-service bakery specializing in traditional and creative baked goods for families and businesses.",
+        "mapname": "Cardinali Bakery",
+        "loc": 15,
+        "phone": "516-997-3193",
+        "facebook": "https://www.facebook.com/CardinaliBakeryCP",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "465 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-15T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.60735534475462,
+          40.7507909576109
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "fLzj5qIxNdFOP5Cz8FAUwVAfAUVFGJoz",
+      "type": "Feature",
+      "properties": {
+        "id": "maurosristoranteitaliano",
+        "address": "465 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Restaurant",
+        "info": "Where the spirit of Napoli comes alive. Our family’s passion for authentic Italian cooking is at the heart of everything we do. Also offering catering and private events.",
+        "mapname": "Mauro's Ristorante Italiano",
+        "loc": 15,
+        "phone": "516-408-3190",
+        "web": "http://MauroRistorante.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "465 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-15T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.60706699772939,
+          40.750872409409155
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "VadWnbvVfHdw7WaaB4efpqtgZ2jNQYcl",
+      "type": "Feature",
+      "properties": {
+        "id": "chenscleaners",
+        "address": "499 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Dry Cleaner",
+        "info": "Exceptional quality and experienced workmanship at reasonable prices. From jeans to wedding dresses, we handle it all.",
+        "mapname": "Chen's Cleaners",
+        "loc": 16,
+        "phone": "516-333-1462",
+        "category": "live_and_work",
+        "subcategory": "dry_cleaning",
+        "address_formatted": "499 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-16T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6059477,
+          40.7511032
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hyoeKn53ty69ajCQUN2VFGIB7bicupCR",
+      "type": "Feature",
+      "properties": {
+        "id": "guidanceautoparts",
+        "address": "483 Maple Ave.",
+        "town": "Westbury",
+        "business": "Auto Parts",
+        "info": "Guiding you to safer and better driving for over 55 years, with friendly and reliable service. We have parts for your foreign and domestic car, van, or truck.",
+        "mapname": "Guidance Auto Parts",
+        "loc": 17,
+        "phone": "516-997-8380",
+        "web": "http://GuidanceAutoParts.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "483 Maple Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-17D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5814191,
+          40.7567669
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ubFTChdhesSHgwVL9XGhtowpwNZIkCMa",
+      "type": "Feature",
+      "properties": {
+        "id": "fogodechao",
+        "address": "235 Old Country Rd.",
+        "town": "Carle Place",
+        "business": "Restaurant",
+        "info": "Offering an upscale Brazilian steakhouse experience featuring churrasco grilling, an elegant dining room, vibrant bar, and private event spaces near Roosevelt Field Mall.",
+        "mapname": "Fogo De Chao",
+        "loc": 18,
+        "phone": "516-588-7100",
+        "web": "http://Fogo.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "235 Old Country Road, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-18D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6130055,
+          40.7451469
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "owj3YZqC84EhSWH1zT3itUsoDYYgAySW",
+      "type": "Feature",
+      "properties": {
+        "id": "triviewreflections",
+        "address": "657 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Shower Glass",
+        "info": "The complete shower door, glass, & mirror company. Perfect installation, spotless cleanup, and friendly service. Fully licensed and insured. Always guarantee our work. Let us reflect your good taste!",
+        "mapname": "TriView Reflections",
+        "loc": 19,
+        "phone": "516-338-4170",
+        "discount": "Mention this ad for a free squeegee.",
+        "web": "http://TriViewShowerDoor.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "657 Old Country Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-19T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5734437,
+          40.7509113
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IDh5gjrA7wk3ahUzd5UhxBeQr7Y4PcrO",
+      "type": "Feature",
+      "properties": {
+        "id": "oldcountryceramictile",
+        "address": "27 Urban Ave.",
+        "town": "Westbury",
+        "business": "Tile & Stone",
+        "info": "Family owned and operated since 1978! Stop in - we would love to meet you and help with your renovation. Serving Long Island for 47 years!",
+        "mapname": "Old Country Ceramic Tile",
+        "loc": 20,
+        "phone": "516-334-6161",
+        "web": "http://OldCountryTile.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "27 Urban Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-20D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5630868,
+          40.75466
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Zc6xUHoVLV2nh4doEIQXu93Qd6QKTQVI",
+      "type": "Feature",
+      "properties": {
+        "id": "caninecleaners",
+        "address": "564 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Pet Grooming",
+        "info": "Debbie Lumer, owner and Head Groomer since 1993, started pet grooming at age 15 and still loves her work! She hopes to serve Westbury for years to come.",
+        "mapname": "Canine Cleaners",
+        "loc": 21,
+        "phone": "516-997-4398",
+        "discount": "$10 off a full grooming for new clients.",
+        "facebook": "https://www.facebook.com/knineclipDl",
+        "category": "thrive_and_be_well",
+        "subcategory": "pet_grooming",
+        "address_formatted": "564 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-21D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6030827,
+          40.7514116
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YqlxJZwZlQQU2qYbhJSGIorlGo9GzRch",
+      "type": "Feature",
+      "properties": {
+        "id": "michaelguillenagency",
+        "address": "356 Westbury Ave. Suite B2",
+        "town": "Carle Place",
+        "business": "Insurance",
+        "info": "Your trusted independent insurance agency & brokerage providing personalized auto, home, business and life insurance solutions with a commitment to client loyalty and protection.",
+        "mapname": "Michael Guillen Agency",
+        "loc": 22,
+        "phone": "516-421-6010",
+        "web": "http://TheMichaelGuillenAgency.com",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "356 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-22D",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6089674,
+          40.7500428
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bWT7tdYP4pvDabtQoBUd1TJRMwPBmv5C",
+      "type": "Feature",
+      "properties": {
+        "id": "nomstudios",
+        "address": "425 Oak St.",
+        "town": "Garden City",
+        "business": "Podcast / Video Studio",
+        "info": "Long Island's premier podcast and video production studio offering 4K recording, post-production, marketing services, and video production workshops for creators and brands.",
+        "mapname": "NOM Studios",
+        "loc": 23,
+        "phone": "516-344-8597",
+        "discount": "10% off your first booking when you mention MapToons",
+        "web": "http://NomStudios.co",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "425 Oak Street, Village of Garden City, NY 11530, United States of America",
+        "priority": "S",
+        "img": "WCP-23S",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6093719,
+          40.7279932
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "rDaZCzgiTUr8yKOsnMLoogm5VHQPSX4L",
+      "type": "Feature",
+      "properties": {
+        "id": "hernandezagency",
+        "address": "254 Maple Ave.",
+        "town": "Westbury",
+        "business": "Multiservice",
+        "info": "Over 22 years of experience. We offer: insurance services, income taxes, translations, immigration services, defensive driving, Hablamos español.",
+        "mapname": "Hernandez Agency",
+        "loc": 24,
+        "phone": "516-427-5533",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "254 Maple Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-24T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5882735,
+          40.7556229
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ADt3268EJVLntRzy9TUPkK7gbBoqnwTZ",
+      "type": "Feature",
+      "properties": {
+        "id": "commercialconcretecorp",
+        "address": "115 Rushmore St.",
+        "town": "Westbury",
+        "business": "Ready Mix Concrete",
+        "info": "Fast, friendly, and courteous. Using only the best products and equipment. Skilled staff ready for your questions. Built on a commitment to quality service.",
+        "mapname": "Commercial Concrete Corp.",
+        "loc": 25,
+        "phone": "516-333-7422",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "115 Rushmore Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-25T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.56421808819181,
+          40.75676346399972
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "GBi8ImWvou8EhGTk1cpEkK9kKN7SEhly",
+      "type": "Feature",
+      "properties": {
+        "id": "catherinemfascilladds",
+        "address": "505 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Dentist",
+        "info": "Our welcoming and comfortable atmosphere allows patients to relax while receiving excellent care. Serving the community for over 30 years in all aspects of dentistry.",
+        "mapname": "Catherine M. Fascilla, D.D.S.",
+        "loc": 26,
+        "phone": "516-333-1166",
+        "web": "http://CarlePlaceDental.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "505 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-26D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6054408,
+          40.7512272
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "poR16kQX1TcsNzlZSf3kPIeekpDralUq",
+      "type": "Feature",
+      "properties": {
+        "id": "schwartzcandies",
+        "address": "169 Voice Rd.",
+        "town": "Carle Place",
+        "business": "Chocolate",
+        "info": "Handcrafting legendary confections since 1939, we specialize in chocolate-covered marshmallows. Experience over 80 years of family tradition and artisanal skill in every delicious, time-honored bite.",
+        "mapname": "Schwartz Candies",
+        "loc": 27,
+        "phone": "516-294-2831",
+        "web": "http://SchwartzCandies.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "169 Voice Road, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-27D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6202978,
+          40.7477625
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "I9qu02kjgNaYfRy4e47EXWUay4qQeE0r",
+      "type": "Feature",
+      "properties": {
+        "id": "espoiryouthprogramsinc",
+        "address": "570 Main St.",
+        "town": "Westbury",
+        "business": "Education",
+        "info": "Not-for-profit afterschool program nurturing learning in an exciting environment. Providing hope, vocational training, and improved health for youth and families. Encouraging parental and community involvement.",
+        "mapname": "Espoir Youth Programs Inc.",
+        "loc": 28,
+        "phone": "516-385-1724",
+        "web": "http://EspoirInternational.org",
+        "category": "learn_and_play",
+        "subcategory": "educational_services",
+        "address_formatted": "570 Main Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-28D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5644538,
+          40.7564715
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bP8RadoDmzgmXjl7WWeaRquJkdcHO9A5",
+      "type": "Feature",
+      "properties": {
+        "id": "gyrojimmysgreekgrill",
+        "address": "165 Voice Rd.",
+        "town": "Carle Place",
+        "business": "Restaurant",
+        "info": "Authentic. Fresh. Homemade. The true taste of Greece in Carle Place. Handcrafted gyros made from the finest ingredients. Perfect for lunch, dinner, or takeout. Simple, delicious, and always satisfying.",
+        "mapname": "Gyro Jimmy's Greek Grill",
+        "loc": 29,
+        "phone": "516-279-6481",
+        "web": "http://GyroJim.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "165 Voice Road, Carle Place, NY 11514, United States of America",
+        "priority": "Q",
+        "img": "WCP-29T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.620467,
+          40.747654
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YWSWoFWyPln2VQh83RZL6I3xFMVM2vSi",
+      "type": "Feature",
+      "properties": {
+        "id": "catholiccemeteriescemeteryoftheholyrood",
+        "address": "111 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Cemetery",
+        "info": "Serving the Catholic faithful since 1856. Features crypts and cremation niches in indoor and garden settings, with limited inventory of burial plots available. ",
+        "mapname": "Catholic Cemeteries / Cemetery of the Holy Rood",
+        "loc": 30,
+        "phone": "516-334-7990",
+        "web": "http://CCLongIsland.org/holyrood",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "111 Old Country Road, Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-30T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.582128,
+          40.750004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IIBsABH3BDT0DMQDbkYvOpjAZEr89s1E",
+      "type": "Feature",
+      "properties": {
+        "id": "pmpediatricurgentcare",
+        "address": "181 Old Country Rd.",
+        "town": "Carle Place",
+        "business": "Urgent Care",
+        "info": "From fractures and fevers to stitches and strep, our pediatric experts provide convenient, quality care for newborns to young adults. Open late, 7 days a week.",
+        "mapname": "PM Pediatric Urgent Care",
+        "loc": 31,
+        "phone": "516-248-5437",
+        "web": "http://PMPediatrics.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "urgent_care",
+        "address_formatted": "181 Old Country Road, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-31D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6163389,
+          40.7439603
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "fwlXi0tORlLnBiEa0EcKLUdB2jcIRtRS",
+      "type": "Feature",
+      "properties": {
+        "id": "pacconsulting",
+        "address": "85A Brook Ave.",
+        "town": "Deer Park",
+        "business": "Consulting",
+        "info": "Complete accounting compliance services with a personal touch. Helping you keep more of your money & time.",
+        "mapname": "PAC Consulting",
+        "loc": 32,
+        "phone": "631-205-6555",
+        "web": "http://PACLINY.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "85 Brook Avenue, Deer Park, NY 11729, United States of America",
+        "priority": "S",
+        "img": "WCP-32S",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.3084431,
+          40.7451757
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cfqnSqxH403Wus8Ch8DVj43NA6xLOvWR",
+      "type": "Feature",
+      "properties": {
+        "id": "dulcemania",
+        "address": "153 C Post Ave.",
+        "town": "Westbury",
+        "business": "Snacks",
+        "info": "The best Mangonada on Long Island, Mexican candy and snacks.",
+        "mapname": "Dulcemania",
+        "loc": 33,
+        "phone": "516-385-8002",
+        "web": "http://MangonadasDulcemania.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "153 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-33D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5880477410577,
+          40.75399318987846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qkpaWqedHZwvO39DZemSdmKTHpxGXHrJ",
+      "type": "Feature",
+      "properties": {
+        "id": "advantagetennis",
+        "address": "225 Post Ave.",
+        "town": "Westbury",
+        "business": "Tennis",
+        "info": "Tennis merchandise including racquets, sneakers, bags, and balls. Professional racquet restringing. Meetup groups for all levels. Proudly serving the community for 56 years.",
+        "mapname": "Advantage Tennis",
+        "loc": 34,
+        "phone": "516-334-8180",
+        "discount": "10% discount when you mention MapToons",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "Advantage Tennis, 225 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-34D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5881252,
+          40.7568428
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qbFj1xkU3ZUCUwSl2EWZuSDU3fJT3OIK",
+      "type": "Feature",
+      "properties": {
+        "id": "westburyfloraldesigns",
+        "address": "53 Post Ave.",
+        "town": "Westbury",
+        "business": "Florist",
+        "info": "Using the freshest flowers to make the most unique designs for all occasions. Open 7 days. We deliver to Nassau, Suffolk, Brooklyn and Queens and can arrange delivery nationwide.",
+        "mapname": "Westbury Floral Designs",
+        "loc": 35,
+        "phone": "516-333-0830",
+        "discount": "10% off when you mention the Chamber of Commerce & MapToons",
+        "web": "http://WestburyFlorist.com",
+        "category": "shop_and_discover",
+        "subcategory": "florists",
+        "address_formatted": "53 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-35D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5879426670481,
+          40.74969749998943
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YFWy4bqUqlEizZfp6wygkVT5EZo7BOk3",
+      "type": "Feature",
+      "properties": {
+        "id": "interstatesecurityinvestigations",
+        "address": "313 Post Ave.",
+        "town": "Westbury",
+        "business": "Security & Investigations",
+        "info": "Dedicated to top-notch security guard training and private investigations. Affordable costs. Executive staff with over three decades of law enforcement and investigative experience.",
+        "mapname": "Interstate Security & Investigations",
+        "loc": 36,
+        "phone": "516-338-2840",
+        "web": "http://Interstate-NYS.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "313 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-36T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5880652,
+          40.7604066
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PfQmxmVe2rFlCFNOEMEezmIn63XLWCxX",
+      "type": "Feature",
+      "properties": {
+        "id": "littlemexico",
+        "address": "280 Post Rd.",
+        "town": "Westbury",
+        "business": "Restaurant",
+        "info": "The best Mexican food! We accept all major credit cards. Ask for our specials. Open for lunch and dinner 7 days a week. We deliver!",
+        "mapname": "Little Mexico",
+        "loc": 37,
+        "phone": "516-333-2038",
+        "web": "http://LittleMexicoWestbury.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "280 Post Road, Village of Old Westbury, NY 11568, United States of America",
+        "priority": "D",
+        "img": "WCP-37D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.591333,
+          40.7782871
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "tWKGyu33B5S90AHrZuliyYFtK7j0Pjue",
+      "type": "Feature",
+      "properties": {
+        "id": "comitcvicoargentino",
+        "address": "53 Post Ave.",
+        "town": "Westbury",
+        "business": "Community Organization",
+        "info": "Uniting hearts to help children. Dedicated nonprofit serving Argentina, Latin America, and Long Island. Donations provide food, clothing, toys, water, education, and hope.",
+        "mapname": "Comité Cívico Argentino",
+        "loc": 38,
+        "phone": "917-612-6607",
+        "web": "http://ComiteCivicoArgentino.org",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "53 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-38S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58851070502641,
+          40.749683838802106
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xZ7HD8BYfrpgUKhf30p6IBEleCZfbCTv",
+      "type": "Feature",
+      "properties": {
+        "id": "westburyarts",
+        "address": "255 Schenck Ave.",
+        "town": "Westbury",
+        "business": "Community Organization",
+        "info": "Delivering arts and cultural programs that connect, educate, and inspire our community. Where arts and culture are valued and instill belonging and pride. Together we create Westbury.",
+        "mapname": "Westbury Arts",
+        "loc": 39,
+        "phone": "516-400-ARTS (2787)",
+        "web": "http://WestburyArts.org",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "255 Schenck Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-39D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.588489,
+          40.756592
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NF1NBYjoFdHVK3MfJ4aLZvcCurqmdEmm",
+      "type": "Feature",
+      "properties": {
+        "id": "waddlewaddle",
+        "address": "120 Voice Rd.",
+        "town": "Carle Place",
+        "business": "Indoor Playground",
+        "info": "Indoor playground for children under 7, featuring safe play areas, clean environment, and imaginative activities. Private party room reservations for birthdays and events.",
+        "mapname": "Waddle Waddle",
+        "loc": 40,
+        "phone": "516-243-9397",
+        "web": "http://WaddleWaddleNY.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "120 Voice Road, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-40D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6204907,
+          40.745668
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "OsBeQSBhO7IHIMkoEXYzdTqI68Q8gHIa",
+      "type": "Feature",
+      "properties": {
+        "id": "blueblockbrokerageinc",
+        "address": "600 Old Country Rd.",
+        "town": "Garden City",
+        "business": "Insurance",
+        "info": "Over 30 years of experience providing expert commercial, liability, and workers’ compensation insurance solutions to protect your business's future across New York and beyond.",
+        "mapname": "Blue Block Brokerage, Inc.",
+        "loc": 41,
+        "phone": "516-440-2200",
+        "web": "http://BlueBlockInc.com",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "600 Old Country Road, Garden City, NY 11530, United States of America",
+        "priority": "D",
+        "img": "WCP-41D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.615711,
+          40.742511
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7eGSIScETYO8WBu96rOBgh2xaL4kkPS9",
+      "type": "Feature",
+      "properties": {
+        "id": "mariospizzeria",
+        "address": "596 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Pizzeria",
+        "info": "For over 50 years, our family-run pizzeria has proudly served the community with great food, generous portions, and friendly service.",
+        "mapname": "Mario’s Pizzeria",
+        "loc": 42,
+        "phone": "516-997-3000",
+        "web": "http://MariosPizzaOnline.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "596 Old Country Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-42S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5733023,
+          40.7496888
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yAyXaS1bcPHwLsvX9wFLli0PY0RgSXIF",
+      "type": "Feature",
+      "properties": {
+        "id": "catholiccemeteriesqueenofpeacecemetery",
+        "address": "321 Jericho Tpke.",
+        "town": "Old Westbury",
+        "business": "Cemetery",
+        "info": "Long Island's newest cemetery offers a serene setting for families to honor their loved ones. Available burial spaces include in-ground plots, crypts. and cremation niches.",
+        "mapname": "Catholic Cemeteries / Queen of Peace Cemetery",
+        "loc": 43,
+        "phone": "516-434-2439",
+        "web": "http://CCLongIsland.org/Queen-of-Peace",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "321 Jericho Turnpike, Jericho, NY 11753, United States of America",
+        "priority": "T",
+        "img": "WCP-43T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5807476092159,
+          40.771761039706746
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "4qwUFpNlsvt0oZhcRbX7yrNLwTS9jBc6",
+      "type": "Feature",
+      "properties": {
+        "id": "wheatleyhillswineliquor",
+        "address": "193 Post Ave.",
+        "town": "Westbury",
+        "business": "Wine & Liquor",
+        "info": "Everyday low prices, huge selection, friendly and helpful staff. Free wine and spirit tastings most weekends. Gift baskets and gift certificates available. Visit our website for monthly specials.",
+        "mapname": "Wheatley Hills Wine & Liquor",
+        "loc": 44,
+        "phone": "516-333-1110",
+        "discount": "Join our membership and earn $25 off! Discounts for veterans, seniors, and first responders.",
+        "exp": "4/30/2027",
+        "web": "http://WheatleyWineAndSpirits.com",
+        "category": "shop_and_discover",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "193 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-44T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5881784,
+          40.7554308
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "mxx4hRimVEHx3MkkOBOFpEgGpFTjP3z3",
+      "type": "Feature",
+      "properties": {
+        "id": "completesportsperformance",
+        "address": "255 Voice Rd.",
+        "town": "Carle Place",
+        "business": "Sports Training",
+        "info": "Developing athletes of all ages. Focused on baseball and softball. Offering clinics, 1-on-1 instruction, and year-round camps. Professional trainers and weight rooms.",
+        "mapname": "Complete Sports Performance",
+        "loc": 45,
+        "phone": "516-744-6792",
+        "web": "http://CSPLI.net",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "255 Voice Road, Carle Place, NY 11514, United States of America",
+        "priority": "S",
+        "img": "WCP-45S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6185484,
+          40.7476517
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3T1ksp4ZX4z6eWsJsNAaYazDIuH8Zffq",
+      "type": "Feature",
+      "properties": {
+        "id": "scubanetworkoflongisland",
+        "address": "204 Glen Cove Rd.",
+        "town": "Carle Place",
+        "business": "Scuba Diving",
+        "info": "PADI 5 Star IDC Facility. Classes from Discover Scuba to Master Diver. Expert gear service and repairs for all brands. Year-round certification and exotic trips.",
+        "mapname": "Scuba Network of Long Island",
+        "loc": 46,
+        "phone": "516-997-4864",
+        "web": "http://ScubaDiversUSA.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "204 Glen Cove Road, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-46D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6182328,
+          40.7479088
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9Eob9clI19Pz2MEl034mVfFMoYozQH8e",
+      "type": "Feature",
+      "properties": {
+        "id": "longislandalzheimersdementiacenter",
+        "address": "1025 Old Country Rd. Suite 115",
+        "town": "Westbury",
+        "business": "Senior Care",
+        "info": "Improving life for those with Alzheimer’s and their caregivers. Local \"one-stop-shop\" providing daycare, respite, support groups, and counseling. Fostering independence, dignity, well-being, and safety.",
+        "mapname": "Long Island Alzheimer’s & Dementia Center",
+        "loc": 47,
+        "phone": "516-767-6856",
+        "web": "http://LIDementia.org",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "1025 Old Country Road, Westbury South, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-47D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5578939,
+          40.755433
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XXPB70edxZ92Gvd6DyhFx1SHQBH9Fppg",
+      "type": "Feature",
+      "properties": {
+        "id": "cancostilestone",
+        "address": "801 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Tile & Stone",
+        "info": "Innovative porcelain, ceramic, stone, pavers, slabs, and mosaics since 1953. Explore our quality and style. Visit one of our 11 award-winning NY showrooms today!",
+        "mapname": "Cancos Tile & Stone",
+        "loc": 48,
+        "phone": "516-334-5700",
+        "web": "http://CancosTileAndStone.com/Showrooms/westbury-ny",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "801 Old Country Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-48T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5677712,
+          40.7523527
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "V6Sg3DkOEFiv9yuAQhe2GD8XHeG2lZj0",
+      "type": "Feature",
+      "properties": {
+        "id": "statefarmalexandracentenoagencyinc",
+        "address": "1065 Old Country Rd. Suite 216",
+        "town": "Westbury",
+        "business": "Insurance",
+        "info": "Since 1990, providing personalized insurance products—including auto, homeowners, life, business, condo, renters, and motorcycle insurance. ¡Hablamos español!",
+        "mapname": "State Farm - Alexandra Centeno Agency, Inc",
+        "loc": 49,
+        "phone": "516-408-4999",
+        "web": "http://AlexandraCenteno.com",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "1065 Old Country Road, Westbury South, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-49T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5566774,
+          40.7561553
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "V1NgBMtpFsGml4JBk56QGnRSL32dPfmM",
+      "type": "Feature",
+      "properties": {
+        "id": "angelospizza",
+        "address": "215 Glen Cove Rd.",
+        "town": "Carle Place",
+        "business": "Pizzeria",
+        "info": "Classic Italian favorites with fresh ingredients. Friendly service and a welcoming atmosphere. A local staple for delicious, authentic food and real NY-style pizza.",
+        "mapname": "Angelo's Pizza",
+        "loc": 50,
+        "phone": "516-742-0550",
+        "web": "http://AngelosPizzaCP.com",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "215 Glen Cove Road, Parkway Plaza � Carle Place, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-50D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.62197575535652,
+          40.74598910302371
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "BMXgemT4hS7SE2DtuX1Vt4YgaF4GoqsY",
+      "type": "Feature",
+      "properties": {
+        "id": "ambercourtassistedliving",
+        "address": "3400 Brush Hollow Rd.",
+        "town": "Westbury",
+        "business": "Assisted Living",
+        "info": "Since 1968, our family has provided compassionate, resident-centered assisted living. Join our warm, nurturing community in New York or New Jersey today.",
+        "mapname": "Amber Court Assisted Living",
+        "loc": 51,
+        "phone": "516-334-3838",
+        "web": "http://AmberCourtAL.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "3400 Brush Hollow Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-51T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5599679,
+          40.775052
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9JjPlz320z2z1IkhIlIAI7o4QLXwvIxV",
+      "type": "Feature",
+      "properties": {
+        "id": "westburyeyecare",
+        "address": "157 Post Ave.",
+        "town": "Westbury",
+        "business": "Optometrist",
+        "info": "We provide a complete, modern approach to family vision care. From comprehensive eye exams to a curated selection of premium eyewear, we help you see clearly and look your best.",
+        "mapname": "Westbury Eye Care",
+        "loc": 52,
+        "phone": "516-415-2020",
+        "web": "http://WestburyEyeCare.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "157 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-52S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58801843064717,
+          40.754263758707545
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yYJsm501t3xsZB73vSiNrKuPrsuH2dxC",
+      "type": "Feature",
+      "properties": {
+        "id": "totalwine",
+        "address": "1230 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Wine & Liquor",
+        "info": "Your destination for spirits, wine, and more, and New York's largest independent wine & spirits retailer offering an unmatched selection at the lowest prices. Curbside contactless pickup, In Store Pickup, and Delivery available.",
+        "mapname": "Total Wine",
+        "loc": 53,
+        "phone": "516-357-0090",
+        "web": "http://WestburyFineWine.com",
+        "category": "shop_and_discover",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "1230 Old Country Road, Westbury Plaza, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-53S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5999127,
+          40.7434977
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "niRDekNrWlnZ5QTi3Syk2zZMAiFYdERW",
+      "type": "Feature",
+      "properties": {
+        "id": "cosmeticimplantdentistryofwestburydrpaullampldmd",
+        "address": "210 Fulton St. Suite 103",
+        "town": "Westbury",
+        "business": "Dentist",
+        "info": "Caring, state-of-the-art dental care. Friendly welcoming staff, advanced technology, and personalized treatment to keep you and your smile healthy, comfortable, and confident. New patients welcome!",
+        "mapname": "Cosmetic & Implant Dentistry of Westbury - Dr. Paul Lampl, DMD",
+        "loc": 54,
+        "phone": "516-333-0478",
+        "web": "http://DrPaulLampl.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "Sunbird Carpet Cleaning Westbury NY, 210 Fulton Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-54T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5891417,
+          40.7561342
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Mka84NQBtWAkNKfA1vtgA0kxNgJkPqo1",
+      "type": "Feature",
+      "properties": {
+        "id": "jmunisexhairsalon",
+        "address": "140 Post Ave.",
+        "town": "Westbury",
+        "business": "Hair Salon",
+        "info": "Transform your look! From expert cuts to stunning nails, we offer professional styling. Book your appointment today.",
+        "mapname": "J&M Unisex Hair Salon",
+        "loc": 55,
+        "phone": "516-470-0980",
+        "instagram": "https://www.instagram.com/j.m_unisex.hairsalon/",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "140 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-55D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5876525,
+          40.7542438
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "u8orb3x1cD6xRpCTvgKehMKrR6ogLZkM",
+      "type": "Feature",
+      "properties": {
+        "id": "castlecollision",
+        "address": "80 Swalm St.",
+        "town": "Westbury",
+        "business": "Auto Body",
+        "info": "Restoring your vehicle since 1992, we combines three decades of expertise with I-CAR Gold-certified precision. Enjoy a lifetime warranty, seamless insurance assistance, and expert repairs in Westbury.",
+        "mapname": "Castle Collision",
+        "loc": 56,
+        "phone": "516-338-4242",
+        "web": "http://CastleCollision.com",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "80 Swalm Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-56T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5644584,
+          40.755856
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "VdgRIy5SGftM0w58CKlvzevguZMAauXm",
+      "type": "Feature",
+      "properties": {
+        "id": "loucrijewelers",
+        "address": "207 Old Country Rd.",
+        "town": "Carle Place",
+        "business": "Jeweler",
+        "info": "As NY's premier independent jeweler, we offer luxury watch and jewelry pieces for every budget. On-site watch and jewelry sales & repair while you wait. Visit us in Carle Place and NYC in Radio City Music Hall.",
+        "mapname": "Loucri Jewelers",
+        "loc": 57,
+        "phone": "516-960-7757",
+        "discount": "Free simple watch or jewelry repair for new clients when you mention you saw us in MapToons.",
+        "web": "http://Loucri.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "207 Old Country Road, Carle Place, NY 11514, United States of America",
+        "priority": "Q",
+        "img": "WCP-57T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.613359,
+          40.743669
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "1Ej7vPa95AkPX0DKHJAMtC0GSS5jiPzW",
+      "type": "Feature",
+      "properties": {
+        "id": "lipickers",
+        "address": "813B Carmen Ave.",
+        "town": "Westbury",
+        "business": "Antiques & Collectibles",
+        "info": "Family-owned and operated. We buy and sell antiques, collectibles, and coins. We buy gold and silver. Home and storage unit clean-outs.",
+        "mapname": "L.I. Pickers",
+        "loc": 58,
+        "phone": "516-214-6960",
+        "web": "http://LI-Pickers.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "Westbury, NY, Nassau County, United States of America",
+        "priority": "T",
+        "img": "WCP-58T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.55283422681713,
+          40.74648105816336
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "iMbPEnXUzK1OE03BikRVTmsN4DVFe4fU",
+      "type": "Feature",
+      "properties": {
+        "id": "handstonemassageandfacialspa",
+        "address": "214A Glen Cove Rd.",
+        "town": "Carle Place",
+        "business": "Spa",
+        "info": "Experience a timeless refresh. From restorative massages to expert facials, we provide personalized, monthly self-care rituals designed to nourish your skin and quiet your mind.",
+        "mapname": "Hand & Stone Massage and Facial Spa",
+        "loc": 59,
+        "phone": "516-806-4322",
+        "web": "http://HandAndStone.com/locations/carle-place/",
+        "category": "thrive_and_be_well",
+        "subcategory": "spas_and_wellness",
+        "address_formatted": "214 Glen Cove Road, Carle Place, NY 11514, United States of America",
+        "priority": "Q",
+        "img": "WCP-59T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.61841,
+          40.748847
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "VAHbAMd7oQVSIKov7Wu8E269pRZBBk7c",
+      "type": "Feature",
+      "properties": {
+        "id": "ehrenmankhanpediatricdentistry",
+        "address": "959 Brush Hollow Rd. Suite 101",
+        "town": "Westbury",
+        "business": "Dentist",
+        "info": "A trusted team of board-certified pediatric dentists providing personalized dental care for all children.  Specialized in managing dental anxiety, sedation dentistry, and special needs patients.",
+        "mapname": "Ehrenman & Khan Pediatric Dentistry",
+        "loc": 60,
+        "phone": "516-333-3033",
+        "web": "http://PediatricDentistLongIslandNY.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "959 Brush Hollow Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-60D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.56318,
+          40.7730466
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CLdOicrE3mAbugLU3iRjRPHddekE6Rpa",
+      "type": "Feature",
+      "properties": {
+        "id": "vintageautobody",
+        "address": "81 Urban Ave.",
+        "town": "Westbury",
+        "business": "Auto Body",
+        "info": "Full-service collision and repair shop. Discover expert auto body repair and painting services for all types of vehicles.",
+        "mapname": "Vintage Auto Body",
+        "loc": 61,
+        "phone": "516-280-5855",
+        "web": "http://VintageAutoBodyNY.com",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "81 Urban Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-61D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5635718,
+          40.7564854
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "FGqnIlDzKQBWRggskYsmIoWROOZDwQHY",
+      "type": "Feature",
+      "properties": {
+        "id": "huntingtonlearningcenter",
+        "address": "215 B Glen Cove Rd. Unit 8",
+        "town": "Carle Place",
+        "business": "Education",
+        "info": "Custom-designed foundational tutoring for K to 12. Common Core standards. We have Sat/ACT prep, Regents/AP Exam prep. Certified special-needs tutors.",
+        "mapname": "Huntington Learning Center",
+        "loc": 62,
+        "phone": "516-747-5600",
+        "discount": "$100 off academic evaluation fee for new students",
+        "web": "http://HuntingtonHelps.com/center/carle-place",
+        "category": "learn_and_play",
+        "subcategory": "educational_services",
+        "address_formatted": "215 Glen Cove Road, Carle Place, NY 11514, United States of America",
+        "priority": "S",
+        "img": "WCP-62S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.61626437476397,
+          40.74728092231565
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "FPMuBx5qpOMZA27TZAt2zgPr5cJrg2kW",
+      "type": "Feature",
+      "properties": {
+        "id": "ultimatecutsbarbershop",
+        "address": "215 Glen Cove Rd. Ste. B",
+        "town": "Carle Place",
+        "business": "Barbershop",
+        "info": "A full grooming experience specializing in modern cuts, skin fades, beard sculpting, and hot shaves. Dedicated to perfection with complimentary hot towel treatments.",
+        "mapname": "Ultimate Cuts Barbershop",
+        "loc": 63,
+        "phone": "516-882-4588",
+        "instagram": "https://www.instagram.com/UltimateCutsbarberShop/",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "215 Glen Cove Road, Parkway Plaza � Carle Place, Carle Place, NY 11514, United States of America",
+        "priority": "S",
+        "img": "WCP-63S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.61668020958042,
+          40.747204187888265
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pJTh8MJq9GNIL1pOu6iTpDZqKdAyzzUt",
+      "type": "Feature",
+      "properties": {
+        "id": "lighthouseinsurance",
+        "address": "976 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Insurance",
+        "info": "Protecting New Yorkers for over 30 years, we offer instant quotes on auto, home, and boat coverage. Compare with leading carriers. Personalized, local service you can trust.",
+        "mapname": "Lighthouse Insurance",
+        "loc": 64,
+        "phone": "516-338-0001",
+        "web": "http://LighthouseInsurance.com",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "976 Old Country Road, Westbury South, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-64D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5619878,
+          40.7536735
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vOGI66omBmvT5T3N12JBBMpCZTwCnKjV",
+      "type": "Feature",
+      "properties": {
+        "id": "tesoro",
+        "address": "967 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Restaurant",
+        "info": "Experience the \"treasure\" of Westbury. Family-owned since 1981, we serve authentic Italian cuisine with casual comfort and friendly service. Join us for fine food today!",
+        "mapname": "Tesoro",
+        "loc": 65,
+        "phone": "516-334-0222",
+        "web": "http://TesorosRestaurant.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "967 Old Country Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-65D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5606497,
+          40.7546761
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "WxxXZIbeAOziHCgbwMUYKHbuyYFQfy1x",
+      "type": "Feature",
+      "properties": {
+        "id": "crossbridgechurch",
+        "address": "600 Bob Reed Ln.",
+        "town": "Westbury",
+        "business": "House of Worship",
+        "info": "Experience the life-changing power of the Gospel. Join our welcoming, Bible-centered Church family this Sunday to grow in faith and fellowship.",
+        "mapname": "CrossBridge Church",
+        "loc": 66,
+        "phone": "516-334-1832",
+        "web": "http://CrossbridgeNY.org",
+        "category": "gather_and_connect",
+        "subcategory": "places_of_worship",
+        "address_formatted": "Crossbridge Church, 600 Bob Reed Lane, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-66D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5508531,
+          40.7381151
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CSVfHZwzn7YPgWkh5XmD4JbINDCHCSzM",
+      "type": "Feature",
+      "properties": {
+        "id": "westburysmilecenter",
+        "address": "91 Post Ave.",
+        "town": "Westbury",
+        "business": "Dentist",
+        "info": "Over 20 years of dental excellence. Helping you maintain health and improve your smile. Advanced care in a comfortable, pleasant atmosphere are Dr. Sandhu's top priority.",
+        "mapname": "Westbury Smile Center",
+        "loc": 67,
+        "phone": "516-750-5035",
+        "web": "http://RafyaSandhuDDS.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "91 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-67S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5880105,
+          40.7514575
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gtdt0cZIGvLpEwWcp3NkHx7O8neu7IKK",
+      "type": "Feature",
+      "properties": {
+        "id": "panaderiacafedonpaco",
+        "address": "167 Post Ave.",
+        "town": "Westbury",
+        "business": "Bakery / Cafe",
+        "info": "Delicious and authentic Mexican bread, pastries, tacos, quesadillas, smoothies, tortas, and 3 leches cakes. Fresh, flavorful, and cooked to perfection. Friendly and attentive service.",
+        "mapname": "Panaderia & Cafe Don Paco",
+        "loc": 68,
+        "phone": "516-280-2325",
+        "discount": "Mention MapToons and get 10% off your purchase of $30 or more",
+        "instagram": "https://www.instagram.com/PanCafeDonPaco/",
+        "category": "eat_and_drink",
+        "subcategory": "",
+        "address_formatted": "167 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-68D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5880159,
+          40.7546566
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NOHMwgC61EiRQAHoFjLsDg4Qidjxk8oa",
+      "type": "Feature",
+      "properties": {
+        "id": "frickememorials",
+        "address": "6 Jericho Tpke.",
+        "town": "Jericho",
+        "business": "Memorials",
+        "info": "A three-generation family business proudly serving Long Island since 1946. Locations in Jericho, Ronkonkoma, Medford, and Center Moriches, with compassionate staff to guide you through the monument process.",
+        "mapname": "Fricke Memorials",
+        "loc": 69,
+        "phone": "631-737-0051",
+        "web": "http://FrickeMemorials.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "6 Jericho Turnpike, Jericho, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-69T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.56700121153847,
+          40.77643271153846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vwjbGUg319x7UTYzcqeRnipTKO6phoDs",
+      "type": "Feature",
+      "properties": {
+        "id": "jmdentalofwestbury",
+        "address": "214 Fulton St.",
+        "town": "Westbury",
+        "business": "Dentist",
+        "info": "Advanced digital technology paired with expert clinical care. Precise, comfortable results in a warm, clean environment. Experience the future of modern dentistry in your neighborhood.",
+        "mapname": "JM Dental of Westbury",
+        "loc": 72,
+        "phone": "516-334-3444",
+        "web": "http://WestburyDentists.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "214 Fulton Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-72T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5891359,
+          40.7562948
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cy0Zgrs8SBqfXc4jahEkI2vSw4nrHmeh",
+      "type": "Feature",
+      "properties": {
+        "id": "carbonemolloyinsurance",
+        "address": "346 Maple Ave.",
+        "town": "Westbury",
+        "business": "Insurance",
+        "info": "Established in 1949, we were founded on the philosophy of connecting clients with personal, professional service and a broad array of insurance products.",
+        "mapname": "Carbone & Molloy Insurance",
+        "loc": 73,
+        "phone": "516-333-2340",
+        "web": "http://CarboneMolloy.com",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "346 Maple Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-73D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5855119,
+          40.7558889
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6T0prJdTeI16eAFmtQdZbKmY5lnagEeX",
+      "type": "Feature",
+      "properties": {
+        "id": "keithstattoobodypiercing",
+        "address": "473 Old Country Rd. Ste. B",
+        "town": "Westbury",
+        "business": "Tattoos & Piercing",
+        "info": "Established 1992, specializing in all body piercing and all styles of tattooing. We sell all styles of body jewelry.",
+        "mapname": "Keith's Tattoo & Body Piercing",
+        "loc": 74,
+        "phone": "631-460-3505",
+        "web": "http://KeithsTattooBodyPiercing.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "473 Old Country Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-74S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.596177,
+          40.7467628
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "oAbPFopnt7A7mSxmNBJM9CGxFlHSe6fM",
+      "type": "Feature",
+      "properties": {
+        "id": "variedadeseloisa",
+        "address": "440 Maple Ave.",
+        "town": "Westbury",
+        "business": "Event Planning",
+        "info": "Offers event decor, floral designs, custom apparel printing, and arrangements with 19 years experience delivering quality service for every occasion.",
+        "mapname": "Variedades Eloisa",
+        "loc": 77,
+        "phone": "516-984-6498",
+        "web": "http://VariedadesEloisaInc.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "440 Maple Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-77S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5832094,
+          40.7562033
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6LzI75dY8L38kllTFQzgsMFsx3TQJ0Ha",
+      "type": "Feature",
+      "properties": {
+        "id": "westburyfamilydental",
+        "address": "130 Post Ave. Unit #2 and #3",
+        "town": "Westbury",
+        "business": "Dentist",
+        "info": "Implant, cosmetic, and general dentistry. Offering cavity treatment, dental exams, tooth filling replacement or repair, and teeth cleaning.",
+        "mapname": "Westbury Family Dental",
+        "loc": 78,
+        "phone": "516-280-6030",
+        "category": "thrive_and_be_well",
+        "subcategory": "dentists",
+        "address_formatted": "130 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-78T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5873474,
+          40.753545
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7z5s00KR95fR5XoA6nusXWaeCAjzDGPS",
+      "type": "Feature",
+      "properties": {
+        "id": "beautyhousebycecy",
+        "address": "402 Maple Ave.",
+        "town": "Westbury",
+        "business": "Hair Salon",
+        "info": "Our premium beauty salon features a specialist team for highlights, balayage, color, keratin, and botox. We offer personalized styles, cuts, and updos to ensure you're ready to shine.",
+        "mapname": "Beauty House by Cecy",
+        "loc": 79,
+        "phone": "516-338-0044",
+        "instagram": "https://www.instagram.com/BeautyHouse_byCecy/",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "402 Maple Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-79S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.584518,
+          40.7560749
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HbtEiuXQqp0kGdivI9FKGGypk1qiq4Qg",
+      "type": "Feature",
+      "properties": {
+        "id": "yayoiramen",
+        "address": "19 Old Country Rd.",
+        "town": "Carle Place",
+        "business": "Restaurant",
+        "info": "Diverse selection of comfort food classics and globally inspired dishes. Tastes for everyone! A welcoming experience sure to leave you, your friends, and family smiling.",
+        "mapname": "Yayoi Ramen",
+        "loc": 80,
+        "phone": "516-540-6535",
+        "web": "http://YayoiRamen.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "19 Old Country Road, Carle Place, NY 11514, United States of America",
+        "priority": "S",
+        "img": "WCP-80S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6208335,
+          40.7429644
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "8vnihQjurJnzkIJdfcm2qJZnE15OGHeW",
+      "type": "Feature",
+      "properties": {
+        "id": "worldrestorationcenter",
+        "address": "327 Cross St.",
+        "town": "Westbury",
+        "business": "House of Worship",
+        "info": "We invite you to come worship with us every Sunday at 11am. Family-friendly church. Food pantry. Daily prayer line support 775-799-9350 at 12am, 3am, 5am, 6am, 12pm.",
+        "mapname": "World Restoration Center",
+        "loc": 81,
+        "phone": "516-385-5936",
+        "web": "http://WorldRestorationCenter.org",
+        "category": "gather_and_connect",
+        "subcategory": "places_of_worship",
+        "address_formatted": "327 Cross Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-81D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5868979,
+          40.7594218
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "PucS9Hx6gSCLxszGUoqLuC9fPFq2Ho58",
+      "type": "Feature",
+      "properties": {
+        "id": "rockgatesocialadultdaycare",
+        "address": "327 Cross St.",
+        "town": "Westbury",
+        "business": "Senior Care",
+        "info": "Caring social adult daycare. Available Mon-Fri 9am-2pm. Socialization, mind-stimulating activities, arts and crafts, music, board games, shopping trips, and movies. Includes breakfast, lunch, and snacks. Transportation provided.",
+        "mapname": "Rockgate Social Adult Day Care",
+        "loc": 81,
+        "phone": "516-385-5936",
+        "web": "http://WorldRestorationCenter.org",
+        "category": "gather_and_connect",
+        "subcategory": "",
+        "address_formatted": "327 Cross Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-81D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58679859674628,
+          40.75954214868899
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "8XROVaaUUeHC9iAxzKJb1MdfpDXW8cUu",
+      "type": "Feature",
+      "properties": {
+        "id": "rockgatedaycarelearningcenter",
+        "address": "341 Post Ave.",
+        "town": "Westbury",
+        "business": "Daycare",
+        "info": "It takes a village! Infants, toddlers, preschool, school-age, homework help, before care, after school, tutoring, meals & snacks, singing, arts & crafts, dance, music, summer camp, and character building.",
+        "mapname": "Rockgate Daycare & Learning Center",
+        "loc": 82,
+        "phone": "516-279-6701",
+        "web": "http://RockgateDaycareCenter.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "341 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-82D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5876929,
+          40.7613937
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "DpZoETn2GnfaQ4yxRYkrXzntbit8E1o9",
+      "type": "Feature",
+      "properties": {
+        "id": "mediweightloss",
+        "address": "5502A Brush Hollow Rd.",
+        "town": "Westbury",
+        "business": "Weight Loss",
+        "info": "Your local partner in weight loss, with an in-person, physician-led, evidence-based approach to your weight loss and wellness journey.",
+        "mapname": "Medi-Weightloss",
+        "loc": 83,
+        "phone": "516-699-8700",
+        "web": "http://MediWeightloss.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "5502 Brush Hollow Road, Westbury, NY 11590, United States of America",
+        "priority": "Q",
+        "img": "WCP-83T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.558726,
+          40.77693
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Tdbd5KbsW3JvJUQA0ZvxODiGNQyopbtr",
+      "type": "Feature",
+      "properties": {
+        "id": "eyerisindustries",
+        "address": "233 Post Ave.",
+        "town": "Westbury",
+        "business": "Construction Management",
+        "info": "Certified MWBE, PANYNJ, Nassau County, NYS, and NYC DBE providing facility infrastructure, buildings and grounds, construction services, MEP, construction management, and sustainable solutions across Long Island, NYC, JFK & Newark Airports.",
+        "mapname": "Eyeris Industries",
+        "loc": 84,
+        "phone": "516-262-9500",
+        "web": "http://EyerisIndustries.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "233 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-84D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.588123,
+          40.7572838
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "EWBkymvlVfFhEWQ7jMhzrSyKbrCJs75q",
+      "type": "Feature",
+      "properties": {
+        "id": "reflectionbeautysalon",
+        "address": "235 Post Ave.",
+        "town": "Westbury",
+        "business": "Hair Salon",
+        "info": "Book your appointment now for professional hair salon services for all kinds of hair!",
+        "mapname": "Reflection Beauty Salon",
+        "loc": 85,
+        "phone": "516-334-2430",
+        "facebook": "https://www.facebook.com/ReflectionBeautySalon235PostAv",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "235 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-85S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5881306,
+          40.7573421
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "vFXn2yRliWtPAh1IQVM5d7W2TPzqbRk2",
+      "type": "Feature",
+      "properties": {
+        "id": "universalbeverage",
+        "address": "349 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Beverage",
+        "info": "Discount beer store. Extensive craft beer selection. Serving Carle Place for over 40 years.",
+        "mapname": "Universal Beverage",
+        "loc": 86,
+        "phone": "516-334-1491",
+        "instagram": "https://www.instagram.com/UniversalBeverage/",
+        "category": "eat_and_drink",
+        "subcategory": "alcohol_specialty",
+        "address_formatted": "349 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-86D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6096522,
+          40.7502965
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lYV8YbTOqV56C30P2K0gTBOA0ImO0wuB",
+      "type": "Feature",
+      "properties": {
+        "id": "carleplacecleaners",
+        "address": "520 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Dry Cleaner",
+        "info": "Proudly serving our community with expert dry cleaning, precise alterations, free pickup and delivery, and honest communication and transparency every step.",
+        "mapname": "Carle Place Cleaners",
+        "loc": 87,
+        "phone": "516-246-9070",
+        "discount": "20% off your first order for new customers",
+        "category": "live_and_work",
+        "subcategory": "dry_cleaning",
+        "address_formatted": "520 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-87T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6050458,
+          40.7509959
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3E6FQuH29ozPSaqfCNDXPaE6MUJKpavf",
+      "type": "Feature",
+      "properties": {
+        "id": "glamoursalon",
+        "address": "251 Maple Ave.",
+        "town": "Westbury",
+        "business": "Hair Salon",
+        "info": "Step into luxury at Westbury's premier destination for hair and nails. From balayage, keratin, and cuts to custom nail art, we care about your hair and style.",
+        "mapname": "Glamour Salon",
+        "loc": 88,
+        "phone": "516-280-2221",
+        "instagram": "https://www.instagram.com/GLAMOURSALONINC/",
+        "category": "thrive_and_be_well",
+        "subcategory": "hair_salons_and_barbers",
+        "address_formatted": "251 Maple Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-88S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5885375,
+          40.7558467
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "87pD4C2d36YOBXahi6fuvjkKsPdiVrtF",
+      "type": "Feature",
+      "properties": {
+        "id": "topsignprinting",
+        "address": "530 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Signs",
+        "info": "We make custom LED neon signs to elevate your brand, offering energy-efficient lighting, eye-catching visibility, and reliable local service with a warranty.",
+        "mapname": "Top Sign & Printing",
+        "loc": 89,
+        "phone": "516-246-9540",
+        "web": "http://TopSignPrinting.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "530 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-89D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6042439,
+          40.7511483
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "X3gIYgUUrcUDfRIseqh1GuqNB8DnUQ0o",
+      "type": "Feature",
+      "properties": {
+        "id": "thebutcherplace",
+        "address": "530 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Butcher Shop / Deli",
+        "info": "Providing premium, expertly butchered meats in a warm, family-friendly setting, delivering personalized service and trusted quality for everyday meals and special occasions.",
+        "mapname": "The Butcher Place",
+        "loc": 90,
+        "phone": "516-246-9555",
+        "discount": "EM for Discount",
+        "facebook": "https://www.facebook.com/TheButcherPlace",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "530 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "Q",
+        "img": "WCP-90T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.60440517884402,
+          40.751129788317385
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "MHPxOMPs5wklV0MVQ3PXQOil9WB9wzIi",
+      "type": "Feature",
+      "properties": {
+        "id": "allstatefurnariagency",
+        "address": "239 Post Ave.",
+        "town": "Westbury",
+        "business": "Insurance",
+        "info": "Family operated agency for over 35 years. We provide the protection you need and the service you deserve for all your insurance needs. Online defensive driving course.",
+        "mapname": "Allstate - Furnari Agency",
+        "loc": 91,
+        "phone": "516-333-4300",
+        "web": "http://Agents.Allstate.com/anthony-s-furnari-westbury-ny1.html",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "239 Post Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-91T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5881346,
+          40.7574699
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "8NnQcOuRQpwc8v6yYoVcnoCbpDq4UR3e",
+      "type": "Feature",
+      "properties": {
+        "id": "karantonisfabricshome",
+        "address": "326 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Upholstery",
+        "info": "Custom craftsmanship backed by decades of experience. We specialize in upholstery, slipcovers, drapery, shades, and carry an extensive fabric selection for your indoor & outdoor design needs.",
+        "mapname": "Karantonis Fabrics & Home",
+        "loc": 92,
+        "phone": "516-962-5072",
+        "web": "http://KarantonisHome.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "326 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "S",
+        "img": "WCP-92S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.610238,
+          40.7497141
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "I2RaqShdNg1fwQpXQjXWrPydOMobsZE1",
+      "type": "Feature",
+      "properties": {
+        "id": "svmautorepair",
+        "address": "71 Sylvester St.",
+        "town": "Westbury",
+        "business": "Auto Repair",
+        "info": "Keep your vehicle running smoothly with us. From diesel truck maintenance to NY State inspections, our experienced team provides family-owned, expert service you can trust.",
+        "mapname": "SVM Auto Repair",
+        "loc": 93,
+        "phone": "516-338-0415",
+        "web": "http://SVMAutoRepair.com",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "71 Sylvester Street, Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-93D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.561528,
+          40.756681
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3g4QmrcaNog9jNmNp5MfiE34dq6MZAS6",
+      "type": "Feature",
+      "properties": {
+        "id": "foodiescafe",
+        "address": "280 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Catering",
+        "info": "Experience farm fresh, clean eating, and creative meals. We offer premier catering, weddings, social events, and event consulting services for any occasion.",
+        "mapname": "Foodies Cafe",
+        "loc": 94,
+        "phone": "516-333-4311",
+        "web": "http://FoodiesCafeLI.com",
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering",
+        "address_formatted": "280 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-94D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6119175638115,
+          40.749240734107325
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0EQw9hJeppyt4yek5lrjRuT9ls8GaRYY",
+      "type": "Feature",
+      "properties": {
+        "id": "carleplacevillagedelicatessen",
+        "address": "280 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Delicatessen",
+        "info": "Quality service since 1960. We offer catering for businesses and residents, mobile ordering, and delivery. Enjoy delicious breakfast, specialty sandwiches, and wraps from our diverse menu.",
+        "mapname": "Carle Place Village Delicatessen",
+        "loc": 94,
+        "phone": "516-333-4311",
+        "discount": "Loyalty Club Card - buy 10 lunch sandwiches & get your next one free",
+        "web": "http://FoodiesCafeLI.com",
+        "category": "eat_and_drink",
+        "subcategory": "delis_and_catering",
+        "address_formatted": "280 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-94D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.61193711276191,
+          40.74934069999676
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Kuzezwy3PpZOWdNEUSrbGsGrbx3GDT2l",
+      "type": "Feature",
+      "properties": {
+        "id": "westburytoyotasuperstore",
+        "address": "1121 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Car Dealership",
+        "info": "A vital part of the community, offering a vast inventory of new Toyota cars, trucks, SUVs, and pre-owned vehicles, and leading the tri-state area with unmatched prices.",
+        "mapname": "Westbury Toyota Superstore",
+        "loc": 95,
+        "phone": "516-333-3100",
+        "web": "http://WestburyToyota.com",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "1121 Old Country Road, Westbury South, Salisbury, NY 11590, United States of America",
+        "priority": "T",
+        "img": "WCP-95T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.55369034887005,
+          40.75594273265208
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "G8C8tjjtzzqf3URqrsDC4wDLs3w5rVlT",
+      "type": "Feature",
+      "properties": {
+        "id": "millennialautobodyandrepairs",
+        "address": "981B Old Country Rd.",
+        "town": "Westbury",
+        "business": "Auto Body",
+        "info": "Collision shop. Full-service automotive and diesel truck repair. Free diagnostics, brake service, oil changes, tune-ups, engine repairs, transmission repairs, tires, and muffler & exhaust work. All auto insurance accepted.",
+        "mapname": "Millennial Auto Body and Repairs",
+        "loc": 96,
+        "phone": "516-385-8448",
+        "facebook": "https://www.facebook.com/MillenialAutoBody",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "981 Old Country Road, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-96D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5598157,
+          40.7548827
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JTTSCm9SObqwWS1bJAnRs32SVKn3dtuo",
+      "type": "Feature",
+      "properties": {
+        "id": "nucasselpharmacy",
+        "address": "821 Prospect Ave.",
+        "town": "Westbury",
+        "business": "Pharmacy",
+        "info": "Dedicated to providing essential pharmaceutical services to the local community, we offer quality care and medication management through personalized support to enhance your health and well-being.",
+        "mapname": "Nu Cassel Pharmacy",
+        "loc": 97,
+        "phone": "516-280-9674",
+        "category": "thrive_and_be_well",
+        "subcategory": "pharmacies",
+        "address_formatted": "821 Prospect Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-97S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5698811,
+          40.7622469
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "LtQOXJW0MXwJUjkbGmFaF0x7rqfLUYOy",
+      "type": "Feature",
+      "properties": {
+        "id": "actionchiropractic",
+        "address": "179 School St.",
+        "town": "Westbury",
+        "business": "Chiropractor",
+        "info": "The finest in chiropractic care with 40 years of experience with X-ray imaging on premise. Si, hablamos espanol.",
+        "mapname": "Action Chiropractic",
+        "loc": 98,
+        "phone": "516-280-7470",
+        "web": "http://ActionChiropractic.info",
+        "category": "thrive_and_be_well",
+        "subcategory": "chiropractic",
+        "address_formatted": "179 School Street, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-98S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5820866,
+          40.7560559
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YuB8XjldZi8IAZA8AoBktaWwBBqXtsJ7",
+      "type": "Feature",
+      "properties": {
+        "id": "kbdepartmentstores",
+        "address": "701 Prospect Ave.",
+        "town": "Westbury",
+        "business": "Department Store",
+        "info": "We sell all home accessories, including health and beauty items, kitchen utensils, bedroom items, electronics, clothing, luggage, automobile items, baby toys, and lots of other items!",
+        "mapname": "K&B Department Stores",
+        "loc": 99,
+        "phone": "516-659-1410",
+        "category": "shop_and_discover",
+        "subcategory": "",
+        "address_formatted": "701 Prospect Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-99S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5744138,
+          40.7617785
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "mOAXHc3McXhM1oIdA461CQwxM1gPyGIT",
+      "type": "Feature",
+      "properties": {
+        "id": "theomniaspace",
+        "address": "226 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Yoga and Holistic Wellness",
+        "info": "A wellness space for mind, body, and spirit. Offering holistic therapies, sound bowl sessions, meditation, mindful movement, a supportive space for all.",
+        "mapname": "The Omnia Space",
+        "loc": 100,
+        "phone": "929-225-1338",
+        "discount": "10% off any service for new customers",
+        "instagram": "https://www.instagram.com/theomniaspace/",
+        "category": "thrive_and_be_well",
+        "subcategory": "",
+        "address_formatted": "226 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-100T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6124823,
+          40.7491278
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yHjN3vEZZAAjgykQ139ILyZwXuAfC8Il",
+      "type": "Feature",
+      "properties": {
+        "id": "nextlevelchampionsautobody",
+        "address": "90 New York Ave.",
+        "town": "Westbury",
+        "business": "Auto Body",
+        "info": "24/7 towing and accident assistance! We handle auto claims, collision repair, fleets, and restorations. From high-end repairs to insurance claims, our specialists get you back on the road safely.",
+        "mapname": "Next Level Champions Auto Body",
+        "loc": 101,
+        "phone": "516-333-6666",
+        "instagram": "https://www.instagram.com/nextlevel_champions/",
+        "category": "live_and_work",
+        "subcategory": "auto_repair",
+        "address_formatted": "90 New York Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-101D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5604347,
+          40.7583846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "wT4xXlUUt8wvTXVU9GCU41394KDpXCVV",
+      "type": "Feature",
+      "properties": {
+        "id": "rialtorestaurant",
+        "address": "588 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Restaurant",
+        "info": "Our motto is \"Good Food, Good Friends\"...for good reasons! We promise that after just one visit, we’ll be your good friends too!",
+        "mapname": "Rialto Restaurant",
+        "loc": 102,
+        "phone": "516-997-5283",
+        "web": "http://RialtoRestaurantLI.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "588 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-102D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.602271,
+          40.751629
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nlmhTOBaKTeQsDy13mrfccAhUCBUoDrb",
+      "type": "Feature",
+      "properties": {
+        "id": "statefarmmichaelcracchiola",
+        "address": "524 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Insurance",
+        "info": "Offering auto, home, and business insurance. Michael's team provides personalized service and free quotes across Long Island.",
+        "mapname": "State Farm - Michael Cracchiola",
+        "loc": 103,
+        "phone": "516-280-8787",
+        "web": "http://MikeFromSF.com",
+        "category": "live_and_work",
+        "subcategory": "insurance",
+        "address_formatted": "524 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "S",
+        "img": "WCP-103S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6049009,
+          40.7510286
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AyUDGeHLyj73waneOt4FlcFgibj21lSY",
+      "type": "Feature",
+      "properties": {
+        "id": "sivarfoodmexicangrill",
+        "address": "556 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Restaurant",
+        "info": "Offering authentic Mexican flavors with fresh tacos, burritos, and homemade specialties. This family-owned business brings traditional recipes to every delicious plate.",
+        "mapname": "Sivar Food Mexican Grill",
+        "loc": 104,
+        "phone": "516-882-4423",
+        "web": "http://SivarMexicanGrill.com",
+        "category": "eat_and_drink",
+        "subcategory": "restaurants",
+        "address_formatted": "556 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-104D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.603463,
+          40.7513207
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "okWkLp0JC6rzHYsNBBdKWVowxomS3fkc",
+      "type": "Feature",
+      "properties": {
+        "id": "longislandfencingcenter",
+        "address": "203 Voice Rd.",
+        "town": "Carle Place",
+        "business": "Fencing",
+        "info": "Join the LIFC fencing family! Learn the Olympic sport of fencing from our world class coaches. Enroll today—fence your way into college!",
+        "mapname": "Long Island Fencing Center",
+        "loc": 105,
+        "phone": "516-704-1222",
+        "web": "http://LIFencingCenter.com",
+        "category": "learn_and_play",
+        "subcategory": "",
+        "address_formatted": "203 Voice Road, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-105D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6197489,
+          40.7473493
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5luc5qH2P8fpZrs90S6jzrPThSXejS1g",
+      "type": "Feature",
+      "properties": {
+        "id": "lilyscarleplacegardencenter",
+        "address": "542 Westbury Ave.",
+        "town": "Carle Place",
+        "business": "Garden Center",
+        "info": "Annuals - Perennials - Tropicals - Garden Supplies - Premade Bouquets - Party & Baby Shower Orders - Custom & Pre-Order Available. Quality - Value - Service!",
+        "mapname": "Lily's Carle Place Garden Center",
+        "loc": 106,
+        "phone": "516-338-4599",
+        "web": "http://LCPGarden.com/",
+        "category": "shop_and_discover",
+        "subcategory": "home_and_garden_supplies",
+        "address_formatted": "542 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-106D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6040254,
+          40.7511936
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "mfoUO92W54bU3b3g0QVsKyKA0qn7OrjN",
+      "type": "Feature",
+      "properties": {
+        "id": "progressiveconsulting",
+        "address": "346 Westbury Ave. Suite 107",
+        "town": "Carle Place",
+        "business": "Consulting",
+        "info": "Delivering cybersecurity, compliance, and managed IT through Progressive Shield, protecting businesses with proactive monitoring, backup, and unlimited support, so you stay secure, compliant, and operational.",
+        "mapname": "Progressive Consulting",
+        "loc": 107,
+        "phone": "516-242-1342",
+        "web": "http://ProgressGroup.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "346 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "T",
+        "img": "WCP-107T",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6095216,
+          40.7498813
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "WyjZOoDnfSEc9DTxjddq3WRmVy25JX3k",
+      "type": "Feature",
+      "properties": {
+        "id": "sbyterweb",
+        "address": "346 Westbury Ave. Suite 107",
+        "town": "Carle Place",
+        "business": "Web Design",
+        "info": "Delivering strategic web design, secure hosting, and digital infrastructure, building fast, secure, and scalable websites that support your business growth and online presence.",
+        "mapname": "SbyterWeb",
+        "loc": 108,
+        "phone": "516-242-1342",
+        "web": "http://SbyterWeb.com",
+        "category": "live_and_work",
+        "subcategory": "",
+        "address_formatted": "346 Westbury Avenue, Carle Place, NY 11514, United States of America",
+        "priority": "D",
+        "img": "WCP-108D",
+        "vehicle": "plane"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6095216,
+          40.7498813
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "lqJxzBpzuA5CjwVdhw3mreUESLhxztow",
+      "type": "Feature",
+      "properties": {
+        "id": "thejointchiropractic",
+        "address": "427 Old Country Rd.",
+        "town": "Westbury",
+        "business": "Chiropractor",
+        "info": "Proud to serve the community with affordable, walk-in chiropractic care - no appointments, no insurance, no hassles.",
+        "mapname": "The Joint Chiropractic",
+        "loc": 109,
+        "phone": "516-689-8032",
+        "web": "http://TheJoint.com/new-york/westbury/westbury-11025",
+        "category": "thrive_and_be_well",
+        "subcategory": "chiropractic",
+        "address_formatted": "427 Old Country Road, Westbury Plaza, Village of Westbury, NY 11590, United States of America",
+        "priority": "S",
+        "img": "WCP-109S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5985463,
+          40.7464384
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3QCVfy1qNxbkjpSZn23vnMhVVTGoWCBy",
+      "type": "Feature",
+      "properties": {
+        "id": "thelifelutheranchurchdayschool",
+        "address": "1 Old Westbury Rd.",
+        "town": "Old Westbury",
+        "business": "House of Worship",
+        "info": "We are a community that proclaims Good News! Join us for worship with Holy Communion: Sundays 9am and 10:30am; Thursdays 7:15pm. Children’s Church Sundays 10:15am.",
+        "mapname": "THE LIFE Lutheran Church & Day School",
+        "loc": 110,
+        "phone": "516-333-3355",
+        "web": "http://TheLifeNY.org",
+        "category": "gather_and_connect",
+        "subcategory": "places_of_worship",
+        "address_formatted": "1 Old Westbury Road, Village of Old Westbury, NY 11568, United States of America",
+        "priority": "T",
+        "img": "WCP-110T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6019235,
+          40.764332
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0Yp1HUv8T8fZk6mWNv2WgYdqq2hrnNmV",
+      "type": "Feature",
+      "properties": {
+        "id": "oneroofsolutionsllc",
+        "address": "346 Maple Ave. Suite 2",
+        "town": "Westbury",
+        "business": "Real Estate",
+        "info": "Helping families and individuals navigate the path to homeownership through expert mortgage guidance, flexible loan programs, and free educational resources — with exciting new services coming later in 2026.",
+        "mapname": "OneRoof Solutions LLC",
+        "loc": 111,
+        "phone": "917-484-0430",
+        "category": "live_and_work",
+        "subcategory": "real_estate",
+        "address_formatted": "346 Maple Avenue, Village of Westbury, NY 11590, United States of America",
+        "priority": "D",
+        "img": "WCP-111D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.58552128035255,
+          40.75564020358905
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "woQqFHXloDSHp1AI5pjPwkC8w2cCoPlq",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemove",
+        "address": "150 Crossways Park Dr. West",
+        "town": "Woodbury",
+        "business": "Moving Company",
+        "info": "With over 35 years of experience, hundreds of five-star reviews and dozens of awards, we're your best choice for moving! Get your free estimate online or call us today.",
+        "mapname": "Men on the Move",
+        "loc": 112,
+        "phone": "516-373-7077",
+        "web": "http://MenOnTheMove.com",
+        "category": "live_and_work",
+        "subcategory": "moving_services",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+        "priority": "T",
+        "img": "WCP-112T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.4884975,
+          40.8068538
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "1Lfu6xRjS41nHqWCo4xh9Nc7lEQX1JI1",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemovemobilestorage",
+        "address": "150 Crossways Park Dr. West",
+        "town": "Woodbury",
+        "business": "Mobile Storage",
+        "info": "Our Storage Cube is Long Island's best value in mobile storage! We offer the only insulated mobile storage units, along with available award-willing moving services to load and offload your Cube! Call or visit us online.",
+        "mapname": "Men on the Move - Mobile Storage",
+        "loc": 113,
+        "phone": "516-589-7560",
+        "web": "http://MenOnTheMove.com",
+        "category": "live_and_work",
+        "subcategory": "storage",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+        "priority": "T",
+        "img": "WCP-113T",
+        "vehicle": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.4884975,
+          40.8068538
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
