@@ -114,7 +114,10 @@
 			"id": "waterways_fill_labels",
 			"type": "symbol",
 			"source-layer": "water_polygons_labels",
-			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+			"filter": ["all",
+				["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+				[">=", "way_area", 10000]
+			],
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-size": 8,
