@@ -115,8 +115,9 @@
 			"type": "symbol",
 			"source-layer": "water_polygons_labels",
 			"filter": ["all",
-				["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
-				[">=", "way_area", 10000]
+				["match", ["get", "kind"], ["river", "water", "reservoir", "basin", "dock", "canal"], true, false],
+				[">=", ["coalesce", ["get", "way_area"], 0], 2000],
+				["!", ["in", "basin", ["downcase", ["coalesce", ["get", "name"], ""]]]]
 			],
 			"layout": {
 				"text-field": ["get", "name"],
