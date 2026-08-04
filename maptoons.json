@@ -6,7 +6,7 @@
 	},
 	"glyphs": "assets/fonts/{fontstack}/{range}.pbf",
 	"sprite": [
-		{"id": "railroad-sprites", "url": "https://maptoons.github.io/assets/sprites/railroad-sprites"}
+		{"id": "railroad-sprites", "url": "http://localhost:8000/assets/sprites/railroad-sprites"}
 	],
 	"sources": {
 		"osm": {
@@ -114,7 +114,11 @@
 			"id": "waterways_fill_labels",
 			"type": "symbol",
 			"source-layer": "water_polygons_labels",
-			"filter": ["in", "kind", "river", "water", "reservoir", "basin", "dock", "canal"],
+			"filter": ["all",
+				["match", ["get", "kind"], ["river", "water", "reservoir", "basin", "dock", "canal"], true, false],
+				[">=", ["coalesce", ["get", "way_area"], 0], 2000],
+				["!", ["in", "basin", ["downcase", ["coalesce", ["get", "name"], ""]]]]
+			],
 			"layout": {
 				"text-field": ["get", "name"],
 				"text-size": 8,
