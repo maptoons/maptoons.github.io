@@ -26,7 +26,13 @@
                 "priority": "S",
                 "img": "BW-22S"
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.611207,
+                    40.641177
+                ]
+            }
         },
         {
             "type": "Feature",
