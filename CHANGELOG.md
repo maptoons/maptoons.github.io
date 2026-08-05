@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-05 Release
+
+### Added
+- Filtering logic to `water_polygons_labels` in `maptoons.json` to prevent labels for 'basins' from rendering. This addition is to reduce visual clutter in the map area.
+- Filtering logic to `water_polygons_labels` in `maptoons.json` to only render labels for water with property `way_area` exceeding 2000 square meters. This currently does not filter many water bodies out, but was left in place for ease of future adjustment if needed
+- Data points for Baldwin, NY and Island Park, NY. Images for points are in `img` directory with prefixes 'BW' and 'IP' respectfully. GeoJSON formatted data is found in the data directory in `baldwin.geojson` and `island_park.geojson`.
+- Navigation links to map areas for Baldwin, NY and Island Park, NY with map animation logic in the 'city finder' drop down menu.
+
 ## 2026-03-16 Release
 
 ### Enhancements
