@@ -1,0 +1,2335 @@
+{
+    "type": "FeatureCollection",
+    "name": "Baldwin, NY",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "richardmbrodskyfoundation",
+                "address": "",
+                "town": "",
+                "business": "Gather & Connect",
+                "info": "Sponsors a 5K AIDS Cancer Run/Walk in Baldwin Park. The Foundation seeks to improve the lives of people living with HIV+ cancer on Long Island and Kenya.",
+                "mapname": "Richard M. Brodsky Foundation",
+                "loc": 22,
+                "phone": "516-770-7724",
+                "web": "http://RichardMBrodsky.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "",
+                "priority": "S",
+                "img": "BW-22S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.611207,
+                    40.641177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hbpremiertaxandaccountingllc",
+                "address": "2300 Grand Ave. Suite 207",
+                "town": "",
+                "business": "Live & Work",
+                "info": "We help you get to you your 1st million in net worth while providing services in tax and accounting, with great financial guidance and personalized services.",
+                "mapname": "H&B Premier Tax and Accounting LLC",
+                "loc": 17,
+                "phone": "718-304-7741",
+                "web": "http://HandBPremier.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2300 Grand Avenue, Merrick, NY 11710, United States of America",
+                "priority": "D",
+                "img": "BW-17D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.54311,
+                    40.668206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hangoutsonehappyplace",
+                "address": "2959 Grand Ave.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "Nonprofit bringing young adults of all abilities together through art, dance, and fitness six days a week. Inclusive space where every participant shines, grows, and develops their talents. ",
+                "mapname": "Hangouts One Happy Place",
+                "loc": 2,
+                "phone": "516-375-1102",
+                "web": "http://HangoutOneHappyPlace.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "2959 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-2D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6122677,
+                    40.6368659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ereadyaccountingandtaxservices",
+                "address": "1900 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Year-round accounting, bookkeeping, payroll, and tax preparation for businesses and individuals. Not seasonal. Professional tax representation before the IRS. Personalized service for unique needs.\n\n",
+                "mapname": "E-Ready Accounting and Tax Services",
+                "loc": 74,
+                "phone": "516-236-9619",
+                "web": "http://e-ready.net",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "1900 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-74S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6079571,
+                    40.6640671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thegrandbaldwin",
+                "address": "2283 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Luxury apartments in the heart of Baldwin. Sophisticated suburban living with metropolitan connectivity. Rooftop lounges, covered parking, fully furnished options, and unparalleled amenities.",
+                "mapname": "The Grand Baldwin",
+                "loc": 80,
+                "phone": "866-458-9548",
+                "web": "http://TheGrandBaldwin.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2283 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-80T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6099193,
+                    40.6550596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldwinpubliclibrary",
+                "address": "2385 Grand Ave.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "Programs, services, and resources for everyone from babies through seniors. The heart of the community - we are here for you. Visit in person and online.",
+                "mapname": "Baldwin Public Library",
+                "loc": 5,
+                "phone": "516-223-6228",
+                "web": "http://BaldwinPL.org",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "2385 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-5T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6112519,
+                    40.6522063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "penncollision",
+                "address": "615 Atlantic Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Negotiating insurance claims to get the best repairs possible. Offering lifetime warranties on all work, rental cars on premises, and 24-hour towing. All makes and models. All insurance companies.",
+                "mapname": "Penn Collision",
+                "loc": 8,
+                "phone": "516-867-2760",
+                "web": "http://PennCollision.net",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "615 Atlantic Avenue, City of Syracuse, NY 13207, United States of America",
+                "priority": "T",
+                "img": "BW-8T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.1561966,
+                    43.0109653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "grandviewautobody",
+                "address": "713 Brooklyn Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "We provide excellent customer service and quality guaranteed repairs. Our friendly, knowledgeable staff will provide free pickup and delivery. Come visit our beautiful facility!",
+                "mapname": "Grand View Auto Body",
+                "loc": 10,
+                "phone": "516-223-9431",
+                "discount": "Free headlight polishing with collision repair.",
+                "web": "http://GrandViewAutoBody.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "713 Brooklyn Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-10T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6097587,
+                    40.6572288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cargillsautomall",
+                "address": "732 Baldwin Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Auto body repair shop with a team of specialized technicians that specializes in full auto body repairs, paint jobs, and insurance claims. ",
+                "mapname": "Cargills Auto Mall",
+                "loc": 53,
+                "phone": "516-705-0707",
+                "instagram": "https://www.instagram.com/cargills_auto_mall/",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "732 Baldwin Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-53T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6090501,
+                    40.6587734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "shellunitedtechnicalgroup",
+                "address": "900 Atlantic Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Expert repair work on foreign and domestic cars. N.Y. Inspection. Road service. We buy and sell cars.",
+                "mapname": "Shell - United Technical Group",
+                "loc": 7,
+                "phone": "516-546-6074",
+                "instagram": "https://www.instagram.com/united_auto_group/",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "900 Atlantic Avenue, City of Rochester, NY 14609, United States of America",
+                "priority": "D",
+                "img": "BW-7D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.5590364,
+                    43.1569331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jerkkingz",
+                "address": "1016 Atlantic Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Family-owned, bringing authentic Jamaican cuisine to Baldwin, featuring traditional island spices, fresh ingredients, generous portions, and warm Caribbean hospitality.",
+                "mapname": "Jerk Kingz",
+                "loc": 67,
+                "phone": "516-223-0828",
+                "web": "http://JerkKingz.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1016 Atlantic Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-67D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6044342,
+                    40.640032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longislandautorepairshop",
+                "address": "2157 Marion Pl.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "A reputation for providing quality auto care.  Explore our premium services and keep your vehicle running smoothly.",
+                "mapname": "Long Island Auto Repair Shop",
+                "loc": 20,
+                "phone": "516-868-8571",
+                "facebook": "https://www.facebook.com/LongIslandAutoRepair",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2157 Marion Place, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-20T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6068206,
+                    40.6573339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "firstchurchbaldwinunitedmethodist",
+                "address": "881 Merrick Rd.",
+                "town": "",
+                "business": "Gather & Connect",
+                "info": "Open hearts. Open minds. Open doors. Nurturing spiritual growth and community connection. Inspiring worship and heartfelt community prayer. Serving and uplifting our neighborhood with care.",
+                "mapname": "First Church Baldwin,  United Methodist",
+                "loc": 12,
+                "phone": "516-223-1168",
+                "web": "http://FirstChurchBaldwin.com",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "881 Merrick Road, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-12T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6097015,
+                    40.6514098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "newlifestylesbarbershop",
+                "address": "860 Atlantic Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Serving families since 1999 with eight skilled, experienced barbers providing friendly, community-focused haircuts for all ages.",
+                "mapname": "New Lifestyles Barbershop",
+                "loc": 14,
+                "phone": "516-623-3288",
+                "instagram": "https://www.instagram.com/newlifestylesbarbers/",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "860 Atlantic Avenue, New York, NY 11238, United States of America",
+                "priority": "D",
+                "img": "BW-14D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.966401,
+                    40.6812188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "speedworld",
+                "address": "598 Sunrise Hwy.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Modify your car or truck! Accessories, performance parts & installation, audio & video, custom vinyl lettering & decals, vehicle wraps, wheels & tires, window tint.",
+                "mapname": "Speedworld",
+                "loc": 26,
+                "phone": "516-771-2525",
+                "facebook": "https://www.facebook.com/baldwinspeedworld",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "598 Sunrise Highway, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-26D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6141704,
+                    40.6561942
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "rascalhousetoodaycarelearningcenter",
+                "address": "2332 Grand Ave.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "Where little minds grow big dreams! Our nurturing daycare provides a safe, fun, and engaging environment where children learn, explore, play, and thrive daily.",
+                "mapname": "Rascal House Too Daycare & Learning Center",
+                "loc": 16,
+                "phone": "516-362-1941",
+                "discount": "$100 off your first two months - mention you saw us in the map!",
+                "web": "http://RascalHouseDaycare.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "2332 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-16D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6112259,
+                    40.6541548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "andysautoserviceandsales",
+                "address": "600 Sunrise Hwy.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Reliable auto repair services. Expert automotive solutions for your vehicle needs. Providing top-quality automotive services to our community, ensuring every customer leaves satisfied with a vehicle they can trust.",
+                "mapname": "Andy's Auto Service and Sales",
+                "loc": 27,
+                "phone": "516-867-8052",
+                "discount": "5% off any service over $200",
+                "web": "http://AndysAutoBaldwin.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "600 Sunrise Highway, Islip, NY 11706, United States of America",
+                "priority": "T",
+                "img": "BW-27T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2833851,
+                    40.7269063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "americanmufflerrrautoservice",
+                "address": "560 Merrick Rd.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Quality services for your car: exhaust, engine, transmission, wheel alignment, NY State Inspection",
+                "mapname": "American Muffler / R&R Auto Service",
+                "loc": 45,
+                "phone": "516-763-4244",
+                "discount": "20% off any service",
+                "web": "http://TikTok @americanmufflershopbaldwin",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "560 Merrick Road, Village of Valley Stream, NY 11580, United States of America",
+                "priority": "D",
+                "img": "BW-45D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.71783445100431,
+                    40.670493610654994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "roystonchandbarbershop",
+                "address": "2157 Grand Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Cutting for over a decade! Specializing in skin fades, kid haircuts, and shape ups with beard. Superb quality and service. You won't be disappointed!",
+                "mapname": "Royston Chand Barbershop",
+                "loc": 39,
+                "phone": "516-608-8149",
+                "instagram": "https://www.instagram.com/roystonchand/",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2157 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-39D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6085718,
+                    40.6573574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "etautomotiveservice",
+                "address": "655 Seaman Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Foreign & domestic auto repair. No job too big or small...we do it all! N.Y.S. Inspections. Mon-Fri 7-6, Sat 7-3",
+                "mapname": "ET Automotive Service",
+                "loc": 49,
+                "phone": "516-223-0023",
+                "web": "http://ETAutoRepairs.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "655 Seaman Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-49D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.611555,
+                    40.663042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "littletotslearningdaycareii",
+                "address": "1028 Schuman Pl.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "NYS-licensed home-based childcare, 15+ years serving the community. Infants through age 12. Extended weekday and Saturday hours for rotating schedules.",
+                "mapname": "Little Tot’s Learning Daycare II",
+                "loc": 21,
+                "phone": "516-246-1199",
+                "web": "http://LittleTotsLearningDaycare.org",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "1028 Schuman Place, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-21D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6021042,
+                    40.6747941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "malkinappliances",
+                "address": "1999 Grand Ave.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Family-owned since 1920. Major appliances, grills, and mattresses from top brands, with delivery, installation, and professional sales service.",
+                "mapname": "Malkin Appliances",
+                "loc": 85,
+                "phone": "516-223-6300",
+                "web": "http://MalkinAppliances.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "1999 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-85D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6074505,
+                    40.6615317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "showroomauto",
+                "address": "560 Sunrise Hwy.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Certified pre-owned cars, trucks, and SUVs. Fair prices, superior service, financing available. Helping customers find quality vehicles at budget-friendly prices. Certified with NIADA. 10-year, 100,000-mile warranty every car.",
+                "mapname": "Showroom Auto",
+                "loc": 28,
+                "phone": "718-349-9600",
+                "web": "http://LICShowroom.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "560 Sunrise Highway, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-28T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6153488,
+                    40.6562127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "gsautomotiverepair",
+                "address": "1907 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Foreign or domestic, simple or complex - full-service auto repair covering diagnostics, engine work, brakes, alignment, and heavy-duty truck inspections. Everything under one roof.",
+                "mapname": "G&S Automotive Repair",
+                "loc": 77,
+                "phone": "516-223-2535",
+                "facebook": "https://www.facebook.com/gnsautomotivebaldwin",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "1907 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-77S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6073211,
+                    40.6640687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldwinautocare",
+                "address": "1331 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Full-service domestic and foreign auto repair. Oil changes, brakes, engine work, diagnostics, electrical, A/C, tires, and NYS inspections. Everything your car needs,",
+                "mapname": "Baldwin Auto Care",
+                "loc": 81,
+                "phone": "516-750-1900",
+                "web": "http://BaldwinAutoCare.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "1331 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-81D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6139076,
+                    40.6779798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ridgewoodsavingsbank",
+                "address": "835 Atlantic Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "For more than 100 years, we have proudly provided trusted banking, personalized service, and financial solutions that help communities thrive. Member FDIC.",
+                "mapname": "Ridgewood Savings Bank",
+                "loc": 3,
+                "phone": "516-223-2835",
+                "web": "http://RidgewoodBank.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "835 Atlantic Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-3T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6110566,
+                    40.639213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mercedesbenzofrockvillecentre",
+                "address": "650 Sunrise Hwy.",
+                "town": "Rockville Centre",
+                "business": "Shop & Discover",
+                "info": "At the first Mercedes-Benz dealership on Long Island, we believe in no-haggle, transparent sales. Our goal: make your car-buying or servicing experience as smooth and easy as possible.",
+                "mapname": "Mercedes-Benz of Rockville Centre",
+                "loc": 66,
+                "phone": "516-766-6900",
+                "web": "http://MBRVC.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "650 Sunrise Highway, Village of Rockville Centre, NY 11570, United States of America",
+                "priority": "T",
+                "img": "BW-66T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6278085,
+                    40.6565358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sonnyscanalhouse",
+                "address": "1 Jefferson Pl.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Baldwin Harbor's only waterfront bar and restaurant. Full-service dining, 12 beers on tap, live entertainment, and dock access. Open seven days. Good music, good food, good times.",
+                "mapname": "Sonny’s Canal House",
+                "loc": 29,
+                "phone": "516-867-9833",
+                "web": "http://SonnysCanalHouse.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1 Jefferson Place, Massapequa, NY 11758, United States of America",
+                "priority": "D",
+                "img": "BW-29D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.486267,
+                    40.658394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nedybel",
+                "address": "660 Merrick Rd.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Custom designs and alterations for weddings, prom, pageants, and special occasions. Over two decades of excellence. Free consultations. Crafting bespoke wear tailored to your unique vision.",
+                "mapname": "Nedybel",
+                "loc": 30,
+                "phone": "516-284-8535",
+                "discount": "10% off any regular pants hem",
+                "web": "http://Nedybel.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "660 Merrick Road, Village of Lynbrook, NY 11563, United States of America",
+                "priority": "D",
+                "img": "BW-30D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.68599581481482,
+                    40.66116448148148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "proactivecounselingleaboriskinlcswr",
+                "address": "775 Brooklyn Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Individual and family therapy personalized to explore emotional obstacles and foster control over depression and anxiety. Unique tools to communicate effectively and reinvent dynamics with others for increased support. ",
+                "mapname": "Proactive Counseling - Lea Boriskin, LCSWR",
+                "loc": 78,
+                "phone": "516-418-2923",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "775 Brooklyn Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-78S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6087017,
+                    40.6569931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "communitynurseryschool",
+                "address": "717 St. Lukes Pl.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "A nonprofit childcare center serving children ages 18 months through Pre-K, providing a nurturing, educational environment with dedicated teachers and engaging family events.",
+                "mapname": "Community Nursery School",
+                "loc": 33,
+                "phone": "516-868-8406",
+                "web": "http://CNSofBaldwin.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "717 Saint Lukes Place, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-33S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6094973,
+                    40.6643285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "revealhaircare",
+                "address": "615 Seaman Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "“We see the beauty in everyone and REVEAL it!” Focused on natural hair care and styling: silk press, steam/treatments, protective styling, and much more. Booking online is recommended; walk-ins if available. ",
+                "mapname": "Reveal Hair Care",
+                "loc": 31,
+                "phone": "516-208-9139",
+                "web": "http://RevealHairCare.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "615 Seaman Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-31S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6133044,
+                    40.6629611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "schernerelectric",
+                "address": "2790 Milburn Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Trusted since 1968, Scherner Electric provides licensed, insured residential and commercial electrical services with reliable workmanship, emergency service, and no job too small.",
+                "mapname": "Scherner Electric",
+                "loc": 52,
+                "phone": "516-623-5160",
+                "web": "http://SchernerElectric.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2790 Milburn Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-52T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6056479,
+                    40.6418232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "classicbeverage",
+                "address": "492 Atlantic Ave.",
+                "town": "Freeport",
+                "business": "Shop & Discover",
+                "info": "Your go-to place for beer, ice, water, soda, and kegs. Offering a huge variety of craft beers and mass production favorites. Complete with a large walk-in fridge section.",
+                "mapname": "Classic Beverage",
+                "loc": 43,
+                "phone": "516-442-1073",
+                "instagram": "https://www.instagram.com/classicbeverage_/",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "492 Atlantic Avenue, Village of Freeport, NY 11520, United States of America",
+                "priority": "T",
+                "img": "BW-43T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5969984,
+                    40.6435394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "handswellness",
+                "address": "2789 Milburn Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Experience the benefits of massage therapy: reduced stress, pain relief, improved circulation, and relaxation.\nSome insurance accepted. Spa parties available. By appointment only",
+                "mapname": "Hands 2 Wellness",
+                "loc": 51,
+                "phone": "516-223-1234",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "2789 Milburn Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-51D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6052111,
+                    40.6419708
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "applebeesgrillbar",
+                "address": "684 Sunrise Hwy.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "For affordable lunch specials with co-workers or a delicious dinner with family and friends, we offer dining options you'll love. If you're in a hurry, use our To Go service.",
+                "mapname": "Applebee's Grill + Bar",
+                "loc": 38,
+                "phone": "516-442-0580",
+                "web": "http://Applebees.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "684 Sunrise Highway, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-38S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6114606,
+                    40.6548923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fromheadtotoe",
+                "address": "930 Atlantic Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "A customer-friendly nail salon that offers facial treatment services, hair laser removal, nails to your preferred style, artwork when requested, permanent makeup, waxing most areas.",
+                "mapname": "From Head to Toe",
+                "loc": 65,
+                "phone": "516-544-2267",
+                "web": "http://From-Head-To-Toe.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "930 Atlantic Avenue, New York, NY 11238, United States of America",
+                "priority": "D",
+                "img": "BW-65D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9635995,
+                    40.6805643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nogoodburgerjoint",
+                "address": "930D Atlantic Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Smash burgers, loaded fries, and food truck catering out of New York. Big flavors, unapologetic attitude. Available for events. Worth finding.",
+                "mapname": "No Good Burger Joint",
+                "loc": 40,
+                "phone": "516-442-5434",
+                "web": "http://NoGoodBurger.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "930 Atlantic Avenue, New York, NY 11238, United States of America",
+                "priority": "S",
+                "img": "BW-40S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.963578,
+                    40.6806295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "theeventdesignstudiolongisland",
+                "address": "2787 Milburn Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Custom event décor, premium silk florals, backdrops, signage, and rentals for weddings, birthdays, showers, and special occasions. Studio available for photoshoots, workshops, and intimate celebrations.",
+                "mapname": "The Event Design Studio Long Island",
+                "loc": 25,
+                "phone": "516-213-0575",
+                "web": "http://EventDesignStudioLI.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2787 Milburn Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-25D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60530240909091,
+                    40.641974613636364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "booknookli",
+                "address": "1205 Grand Ave.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Curating stories that empower, resonate, and affirm. A community gathering place centering diverse voices - especially those historically marginalized - where every reader feels seen, heard, and valued.",
+                "mapname": "Book Nook LI",
+                "loc": 70,
+                "phone": "000-000-0000",
+                "web": "http://BookNookLI.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "1205 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-70D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.614229,
+                    40.6810448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sportbilliards",
+                "address": "2413 Grand Ave.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "Pool and billiard hall in Baldwin, NY. Open 7 days a week. Come enjoy a variety of music, full bar, and 19 tables. Fun for all ages!",
+                "mapname": "Sport Billiards",
+                "loc": 44,
+                "phone": "516-570-3508",
+                "instagram": "https://www.instagram.com/sportbilliardsbar/",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "2413 Grand Avenue, Bellmore, NY 11710, United States of America",
+                "priority": "T",
+                "img": "BW-44T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5383702,
+                    40.6681836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cecerefullertonfamilyfuneralhome",
+                "address": "769 Merrick Rd.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Serving families since 1940. Supporting informed decisions regarding at-need and pre-need planning. Grief support programs to help you during your difficult time. Funerals, obituaries, tributes, and flowers.",
+                "mapname": "Cecere Fullerton Family Funeral Home",
+                "loc": 4,
+                "phone": "516-223-1460",
+                "web": "http://CecereFamilyFunerals.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "769 Merrick Road, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-4T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6137468,
+                    40.6513961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "patsdancestudio",
+                "address": "961 Church St.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "A performance based studio since 1979. Our studio is our HOME, where you're not judged and are loved for who you are. Come join our dance family!",
+                "mapname": "Pat's Dance Studio",
+                "loc": 46,
+                "phone": "516-546-2984",
+                "web": "http://PatsDanceStudio.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "961 Indian Church Road, Buffalo, NY 14224, United States of America",
+                "priority": "T",
+                "img": "BW-46T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.7699983,
+                    42.8523171
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "unifiedhomeremodeling",
+                "address": "795 Merrick Rd.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Family-owned exterior remodeling contractor since 1989. Roofing, siding, windows, doors, and more. 350,000+ customers served. 99.6% satisfaction rating. Flexible financing available.",
+                "mapname": "Unified Home Remodeling",
+                "loc": 41,
+                "phone": "888-631-2131",
+                "web": "http://UnifiedHomeRemodeling.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "795 Merrick Road, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-41T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6127077,
+                    40.6509051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beatofuelcorp",
+                "address": "1901 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Family-owned since 1909, Beato Fuel provides reliable oil delivery, heating installations, and maintenance for homes and businesses across Nassau and Suffolk Counties.",
+                "mapname": "BeATO Fuel Corp",
+                "loc": 86,
+                "phone": "516-223-2951",
+                "web": "http://BeatoFuel.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "1901 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-86T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6074323,
+                    40.6642318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allstatemangalagency",
+                "address": "914 Atlantic Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "The only Allstate in Baldwin. Providing home, car, life, boat, motorcycle, and business insurance. Here to serve our community’s needs.",
+                "mapname": "Allstate - Mangal Agency",
+                "loc": 1,
+                "phone": "516-783-3485",
+                "facebook": "https://www.facebook.com/Mangal Agency:Allstate Insurance",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "914 Atlantic Avenue, City of Rochester, NY 14609, United States of America",
+                "priority": "D",
+                "img": "BW-1D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.5587879,
+                    43.1569268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "abilityserviceagency",
+                "address": "2075 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "51 years in Baldwin. Complete insurance services, including auto, homeowners, renters, business, and contractor coverage. Call or stop in, six days a week.",
+                "mapname": "Ability Service Agency",
+                "loc": 15,
+                "phone": "516-223-3144",
+                "web": "http://AbilityService.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2075 Grand Avenue, New York, NY 10453, United States of America",
+                "priority": "T",
+                "img": "BW-15T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9089864,
+                    40.8548318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "royalrotishop",
+                "address": "1747 Grand Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "The newest halal spot in Baldwin, NY. Discover Long Island’s hidden gem for Trinidadian and Guyanese eats. Fresh hot doubles prepared daily!",
+                "mapname": "Royal Roti Shop",
+                "loc": 50,
+                "phone": "516-806-2388",
+                "discount": "One free doubles for first time customers",
+                "instagram": "https://www.instagram.com/royalrotishop/",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1747 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-50D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6079995,
+                    40.6681296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "longislandpediatrics",
+                "address": "664 Merrick Rd.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Offering a full range of pediatric care including newborn, well-child and adolescent care. Come visit our office and meet our wonderful staff.",
+                "mapname": "Long Island Pediatrics",
+                "loc": 34,
+                "phone": "516-771-8123",
+                "web": "http://DrRichOnline.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "664 Merrick Road, Village of Lynbrook, NY 11563, United States of America",
+                "priority": "T",
+                "img": "BW-34T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6860924074074,
+                    40.66119374074074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "menonthemovemobilestorage",
+                "address": "150 Crossways Dr. West",
+                "town": "Woodbury",
+                "business": "Live & Work",
+                "info": "Our storage Cube is Long Island's best value in mobile storage! We offer the only insulated mobile storage units, along with available award-willing moving services to load and offload your Cube! Call or visit us online.",
+                "mapname": "Men on the Move - Mobile Storage",
+                "loc": 89,
+                "phone": "516-589-7560",
+                "web": "http://MenOnTheMove.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+                "priority": "D",
+                "img": "BW-89D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.4884975,
+                    40.8068538
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "hvacpapi",
+                "address": "997 Merrick Rd.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Owner & operator of NY Boiler & Air Conditioning Repair with over 24 years experience, giving you the best tips, practices and education in the HVAC & plumbing industry.",
+                "mapname": "HVAC Papi",
+                "loc": 6,
+                "phone": "516-377-5200",
+                "facebook": "https://www.facebook.com/hvacpapi_",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "997 Merrick Road, Babylon, NY 11726, United States of America",
+                "priority": "T",
+                "img": "BW-6T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.391415,
+                    40.66924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "planetsensoryoccupationalphysicaltherapy",
+                "address": "826 Merrick Rd.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Providing personalized occupational and physical therapy services for children, supporting sensory processing, motor development, strength, coordination, regulation, and functional independence through play-based care.",
+                "mapname": "Planet Sensory Occupational & Physical Therapy",
+                "loc": 19,
+                "phone": "516-744-7550",
+                "web": "http://PlanetSensoryTherapy.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "826 Merrick Road, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-19D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6117035,
+                    40.6505988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nyboilerairconditioning",
+                "address": "997 Merrick Rd.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Providing expert HVAC and plumbing services to Long Island and NYC. 100% satisfaction guaranteed. 24/7 emergency response available.",
+                "mapname": "NY Boiler & Air Conditioning",
+                "loc": 6,
+                "phone": "516-377-5200",
+                "web": "http://NewYorkBoilerRepair.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "997 Merrick Road, Babylon, NY 11726, United States of America",
+                "priority": "T",
+                "img": "BW-6T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.391415,
+                    40.66924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "americanlegionbaldwinpost",
+                "address": "2754 Grand Ave.",
+                "town": "",
+                "business": "Gather & Connect",
+                "info": "Patriotic veterans organization founded in 1919, upholding the Constitution, promoting peace, and cementing comradeship born of service. Celebrating 107 years. Hall available for events up to 100 guests.",
+                "mapname": "American Legion Baldwin Post 246",
+                "loc": 56,
+                "phone": "516-867-9873",
+                "facebook": "https://www.facebook.com/AmericanLegion.BaldwinNY.Post246",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "2754 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-56D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6132106,
+                    40.6423982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "breezesislandgrillrestaurantlounge",
+                "address": "1971 Grand Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Flavorful, mouth-watering authentic Jamaican cuisine. Take-out and upscale dining. Full bar, catering for parties and events. Courteous staff dedicated to exceptional service in a comfortable environment.",
+                "mapname": "Breezes Island Grill Restaurant & Lounge",
+                "loc": 58,
+                "phone": "516-632-5022",
+                "discount": "10% off take-out or dine in when you mention you saw us in the map!",
+                "web": "http://BreezesIslandGrill.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1971 Grand Avenue, New York, NY 10453, United States of America",
+                "priority": "S",
+                "img": "BW-58S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9110419,
+                    40.8522066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "tinnelspatties",
+                "address": "682 Sunrise Hwy.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Authentic Jamaican cuisine - best patties in the USA. Savory, handcrafted patties made to order. Open seven days a week. ",
+                "mapname": "TinNel's Patties",
+                "loc": 59,
+                "phone": "516-780-0050",
+                "discount": "Lunch specials M-F 11-2 with free can of soda; free natural juice with every 5-star Google review",
+                "web": "http://TinnelsPatties.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "682 Sunrise Highway, Babylon, NY 11704, United States of America",
+                "priority": "D",
+                "img": "BW-59D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.3431278,
+                    40.7130002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "goshenclothingboutiquemore",
+                "address": "828 Merrick Rd.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "New and pre-owned clothing for men, women, and children. Footwear, beauty items, fabric, household goods, and vintage finds. Affordable prices. Fundraising for a nonprofit.",
+                "mapname": "Goshen Clothing Boutique & More",
+                "loc": 42,
+                "phone": "347-533-0006",
+                "web": "http://GoshenClothingBoutique.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "828 Merrick Road, Baldwin, NY 11510, United States of America"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6116447,
+                    40.6505936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "westislandgrill",
+                "address": "1173 Grand Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Grill and catering. Jamaican/ American blend cuisine. Open Monday - Saturday 8am- 10pm, breakfast to dinner.",
+                "mapname": "West Island Grill",
+                "loc": 61,
+                "phone": "516-214-6395",
+                "discount": "Lunch special every day, 12pm-8pm only $8. Essential workers: 10% off every day!",
+                "instagram": "https://www.instagram.com/westislandgrill/",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1173 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-61S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6142984,
+                    40.6819291
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "firstpresbyterianchurchofbaldwin",
+                "address": "717 St. Luke's Pl.",
+                "town": "",
+                "business": "Gather & Connect",
+                "info": "Worship, mission and fellowship in a warm congregation welcoming to all. Hear the good news and help us show God's love in Baldwin and beyond!",
+                "mapname": "First Presbyterian Church of Baldwin",
+                "loc": 62,
+                "phone": "516-223-2112",
+                "web": "http://FirstPresbyterianBaldwin.com",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "717 Saint Lukes Place, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-62T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6094973,
+                    40.6643285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ferringdelicatessen",
+                "address": "1181 N. Grand Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "A family tradition for over 60 years. Breakfast, lunch, and dinner specials. Hot and cold food. We cater for all occasions!",
+                "mapname": "Ferring Delicatessen",
+                "loc": 63,
+                "phone": "516-538-8655",
+                "web": "http://FerringDeli.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1181 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-63D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6141821,
+                    40.681707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pyramidphysicaltherapyandacupuncturepllc",
+                "address": "1885 Grand Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Physical therapy and acupuncture for movement, pain, and recovery. Hands-on, personalized care. Orthopedic rehab, occupational therapy, and holistic treatment under one roof.",
+                "mapname": "Pyramid Physical Therapy and Acupuncture PLLC",
+                "loc": 71,
+                "phone": "516-208-7675",
+                "web": "http://PyramidPTandACU.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "1885 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-71T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6074157,
+                    40.6646529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "galafreshfarms",
+                "address": "2485 Grand Ave.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Your family-owned, neighborhood supermarket for fresh produce, custom butcher shop, fresh seafood, a premium deli, and a delicious bakery. Shop the deals from our weekly flyer and enjoy convenient local delivery.",
+                "mapname": "GalaFresh Farms",
+                "loc": 24,
+                "phone": "516-377-4252",
+                "web": "http://ShopGalaFresh.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2485 Grand Avenue, Bellmore, NY 11710, United States of America",
+                "priority": "T",
+                "img": "BW-24T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5356071,
+                    40.6686272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldwincivicassociation",
+                "address": "PO Box 833",
+                "town": "",
+                "business": "Gather & Connect",
+                "info": "Fostering a wonderfully diverse community and maintaining quality of life. Monthly meetings, neighborhood beautification, park preservation, local business advocacy, and community clean-ups.",
+                "mapname": "Baldwin Civic Association",
+                "loc": 68,
+                "phone": "516-855-8824",
+                "web": "http://BaldwinCivic.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "New York, United States of America",
+                "priority": "D",
+                "img": "BW-68D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.8449946,
+                    43.1561681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldwinhistoricalsocietymuseum",
+                "address": "1980 Grand Ave.",
+                "town": "",
+                "business": "Visit & Experience",
+                "info": "Preserving and sharing the history of Baldwin, New York. Museum open Sundays. Historical artifacts, community collections, educational resources, and private visits by arrangement.",
+                "mapname": "Baldwin Historical Society & Museum",
+                "loc": 69,
+                "phone": "516-223-6900",
+                "web": "http://BaldwinHistoricalSociety.com",
+                "category": "visit_and_experience",
+                "subcategory": "visit_and_experience",
+                "address_formatted": "1980 Grand Avenue, Southold, NY 11952, United States of America",
+                "priority": "S",
+                "img": "BW-69S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.540094,
+                    41.00232865306123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "stopshop",
+                "address": "905 Atlantic Ave.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Full-service grocery chain. Fresh meat, seafood, deli, bakery, floral, and prepared foods. Shop in-store or online, with pickup and delivery options.",
+                "mapname": "Stop & Shop",
+                "loc": 36,
+                "phone": "516-867-7301",
+                "web": "http://StopAndShop.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "905 Atlantic Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-36S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.608071,
+                    40.6407536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allcarephysicaltherapywellness",
+                "address": "1158 Atlantic Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Personalized rehabilitation, wellness, and recovery services through compassionate, expert care focused on restoring mobility, relieving pain, and improving overall quality of life. ",
+                "mapname": "All Care Physical Therapy & Wellness",
+                "loc": 32,
+                "phone": "516-868-8880",
+                "web": "http://AllCarePTWellness.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "1158 Atlantic Avenue, New York, NY 11216, United States of America",
+                "priority": "D",
+                "img": "BW-32D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.95416076064913,
+                    40.67878772220774
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "beachbbq",
+                "address": "2092 Grand Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Beach BBQ is more than our restaurant name—it's our family name. Proudly family-owned and operated, we serve authentic, wood-smoked BBQ made with passion, tradition, quality, and hospitality.",
+                "mapname": "BEACH BBQ",
+                "loc": 72,
+                "phone": "516-303-0545",
+                "web": "http://BeachBBQNY.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "2092 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-72D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6085399,
+                    40.6590473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "swirlbliss",
+                "address": "1777 Grand Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Independent, African American-owned frozen yogurt shop serving healthy alternative treats. Frozen yogurt, sorbet, acai bowls, bubble tea, smoothies, and nonprofit fundraising support.",
+                "mapname": "Swirl Bliss",
+                "loc": 73,
+                "phone": "516-867-9475",
+                "web": "http://SwirlBliss.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1777 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-73S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6074321,
+                    40.6671128
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldwingraphicarts",
+                "address": "2096 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Serving the Baldwin community for over 50 years. From business cards to journals to birth announcements to funeral programs.",
+                "mapname": "Baldwin Graphic Arts",
+                "loc": 18,
+                "phone": "516-546-6695",
+                "web": "http://BaldwinPrintShop.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2096 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-18D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6085741,
+                    40.6589771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldwinbowl",
+                "address": "2407 Grand Ave.",
+                "town": "",
+                "business": "Learn & Play",
+                "info": "Family-owned, proudly serving this community for 30+ years with glow bowling, fundraisers, kids’ and adult parties, delicious food, full bar, fun for everyone.",
+                "mapname": "Baldwin Bowl",
+                "loc": 75,
+                "phone": "516-223-8980",
+                "discount": "Bowl one game, get one free Sunday - Wednesday",
+                "web": "http://BaldwinBowl.com",
+                "category": "learn_and_play",
+                "subcategory": "learn_and_play",
+                "address_formatted": "2407 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-75T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6114485,
+                    40.6515877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "parkassetsrealestatecorp",
+                "address": "2430 Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Proudly based in Baldwin, Park Assets lives, works, and invests in the community, delivering trusted real estate expertise backed by genuine local relationships and neighborhood insight.",
+                "mapname": "Park Assets Real Estate Corp.",
+                "loc": 76,
+                "phone": "347-405-2320",
+                "web": "http://ParkAssets.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2430 Grand Avenue, City of Niagara Falls, NY 14301, United States of America",
+                "priority": "T",
+                "img": "BW-76T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.032337,
+                    43.0963255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "paulconfortidouglaselliman",
+                "address": "2300 Merrick Rd.",
+                "town": "Merrick",
+                "business": "Live & Work",
+                "info": "Full-service Realtor from Manhattan to Montauk. Top Baldwin agent for 20 years. Over 200 listings sold. Complimentary market reports available.",
+                "mapname": "Paul Conforti - Douglas Elliman",
+                "loc": 79,
+                "phone": "516-322-3138",
+                "web": "http://Elliman.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2300 Merrick Road, Merrick, NY 11566, United States of America",
+                "priority": "T",
+                "img": "BW-79T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.540646,
+                    40.6603933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "korematpilatesstudio",
+                "address": "1297 Grand Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Small-group, non-heated mat Pilates for all levels. Hands-on coaching, personalized attention. Designed to improve strength, posture, flexibility, and core control. See you on the mat.",
+                "mapname": "Kore Mat Pilates Studio",
+                "loc": 84,
+                "phone": "516-212-8343",
+                "web": "http://KoreMatPilates.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "1297 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-84S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6142838,
+                    40.6786303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "citywideroofinggutters",
+                "address": "680 Atlantic Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Certified, family-owned roofing contractor with 28 years of experience. Residential and commercial roofing, gutters, siding, and skylights. A+ rated. Honest pricing, lifetime warranty protection.",
+                "mapname": "Citywide Roofing & Gutters",
+                "loc": 48,
+                "phone": "516-726-3212",
+                "discount": "Discounts available for military, veterans, and first responders",
+                "web": "http://CityWideRoofingNY.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "680 Atlantic Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-48S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.615012,
+                    40.6382321
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "josephelitesecurityllc",
+                "address": "2799 Milburn Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Proudly providing professional security services throughout Long Island with highly trained officers dedicated to protecting people, property, and communities.",
+                "mapname": "Joseph Elite Security LLC",
+                "loc": 47,
+                "phone": "888-756-7374",
+                "web": "http://JosephSecurity.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2799 Milburn Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-47D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6051515,
+                    40.6416887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "advancedfootcare",
+                "address": "830A Atlantic Ave.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Long Island’s trusted podiatry practice, providing comprehensive foot and ankle care, sports medicine, wound care, routine foot care, surgery, and advanced treatments!",
+                "mapname": "Advanced Foot Care",
+                "loc": 37,
+                "phone": "516-623-4580",
+                "web": "http://AdvancedFootCare.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "830 A Atlantic Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-37D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6114679,
+                    40.6382378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "atouchofitaly",
+                "address": "1187 Grand Ave.",
+                "town": "",
+                "business": "Eat & Drink",
+                "info": "Authentic Italian dining, takeout, and catering in Baldwin. Extraordinary cuisine, dedication to customer service, and a members program that makes you part of the family.",
+                "mapname": "A Touch of Italy",
+                "loc": 83,
+                "phone": "516-483-5119",
+                "web": "http://ATouchofItalyLI.com",
+                "category": "eat_and_drink",
+                "subcategory": "eat_and_drink",
+                "address_formatted": "1187 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "S",
+                "img": "BW-83S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6142665,
+                    40.6814958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ledomedicalrehabilitationpllc",
+                "address": "656 Sunrise Hwy.",
+                "town": "",
+                "business": "Thrive & Be Well",
+                "info": "Doctors and case managers who specialize in treating workers' compensation and personal injury cases. We fight for your medical rights. Visit our new Baldwin location!",
+                "mapname": "LEDO Medical Rehabilitation, PLLC",
+                "loc": 54,
+                "phone": "516-345-3044",
+                "category": "thrive_and_be_well",
+                "subcategory": "thrive_and_be_well",
+                "address_formatted": "656 Sunrise Highway, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-54T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6120461,
+                    40.6550043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fruittreefarm",
+                "address": "1197 Grand Ave.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Happily providing Baldwin with fresh produce, meat, seafood, deli, dairy & a generous selection of grocery & household staples at an affordable price for 25 years & counting!",
+                "mapname": "Fruit Tree Farm",
+                "loc": 60,
+                "phone": "516-486-7442",
+                "web": "http://FruitTreeFarmNY.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "1197 Grand Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-60D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6142574,
+                    40.681372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "josephsecuritytrainingacademy",
+                "address": "2799 Milburn Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Providing New York state security guard certification, preparing Baldwin-area residents with the knowledge and skills for rewarding careers in private security.",
+                "mapname": "Joseph Security Training Academy",
+                "loc": 47,
+                "phone": "888-756-7374",
+                "web": "http://JosephSecurity.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "2799 Milburn Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-47D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6051515,
+                    40.6416887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "allsaintsepiscopalchurch",
+                "address": "2375 Harrison Ave.",
+                "town": "",
+                "business": "Gather & Connect",
+                "info": "An active, intergenerational, multicultural parish. We gather together in person and virtually to worship God, study God’s Word, enjoy fellowship, and provide support and encouragement to those in need.",
+                "mapname": "All Saints’ Episcopal Church",
+                "loc": 88,
+                "phone": "516-223-3731",
+                "web": "http://AllSaintsBaldwin.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "2375 Harrison Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-88D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6081652,
+                    40.6526692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "glorybeezzzthriftwithatwist",
+                "address": "861 Merrick Rd.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Shopping and retail thrift with a twist! Discover unique, curated vintage items, holiday displays, and seasonal home decor.",
+                "mapname": "Glory Beezzz Thrift With a Twist",
+                "loc": 9,
+                "phone": "516-279-4664",
+                "discount": "15% off purchases of donated merchandise when you make a donation",
+                "instagram": "https://www.instagram.com/glorybeezzz/",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "861 Merrick Road, Baldwin, NY 11510, United States of America",
+                "priority": "T",
+                "img": "BW-9T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6104756,
+                    40.6510455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kidzentertainmentinc",
+                "address": "2914 Carnation Ave.",
+                "town": "",
+                "business": "Shop & Discover",
+                "info": "Creating quality products, very cleverly packaged, to give your child an educational, musical, entertaining, and interactive experience bundled into one adventure!",
+                "mapname": "Kidz Entertainment, Inc.",
+                "loc": 23,
+                "phone": "516-223-2151",
+                "web": "http://KidzEntertainmentInc.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "2914 Carnation Avenue, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-23D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6032575,
+                    40.6402062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "baldwintireservicecenter",
+                "address": "1320 N. Grand Ave.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Tire shop offering new and used tires, plus auto repair, oil changes, and NY state inspections\n",
+                "mapname": "Baldwin Tire & Service Center",
+                "loc": 55,
+                "phone": "516-223-2700",
+                "facebook": "https://www.facebook.com/Baldwin tire & service center",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "1320 North Grand Avenue, Arlington, NY 12601, United States of America",
+                "priority": "S",
+                "img": "BW-55S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.8953313,
+                    41.7137197
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "liamslegacyathleticassociation",
+                "address": "",
+                "town": "Oceanside",
+                "business": "Gather & Connect",
+                "info": "Giving kids with disabilities the chance to play sports and have fun! A fully inclusive, state-of-the-art baseball complex where children and young adults of all abilities can play, connect, and thrive.",
+                "mapname": "Liam's Legacy Athletic Association",
+                "loc": 87,
+                "phone": "516-987-0932",
+                "web": "http://LiamsLegacyAthletics.org",
+                "category": "gather_and_connect",
+                "subcategory": "gather_and_connect",
+                "address_formatted": "Oceanside, NY, United States of America",
+                "priority": "S",
+                "img": "BW-87S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6399765,
+                    40.6390936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ramadabywindham",
+                "address": "1000 Sunrise Hwy.",
+                "town": "Rockville Centre",
+                "business": "Visit & Experience",
+                "info": "Whether traveling for business, a road trip, or a family vacation, we welcome you every step of the way.",
+                "mapname": "Ramada by Windham",
+                "loc": 13,
+                "phone": "516-678-1100",
+                "discount": "10% of rack rates when you mention MapToons",
+                "web": "http://WyndhamHotels.com",
+                "category": "visit_and_experience",
+                "subcategory": "visit_and_experience",
+                "address_formatted": "1000 Sunrise Highway, Village of Rockville Centre, NY 11570, United States of America",
+                "priority": "T",
+                "img": "BW-13T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6233371,
+                    40.6565381
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "freeportwinespirits",
+                "address": "492 Atlantic Ave. #b",
+                "town": "Freeport",
+                "business": "Shop & Discover",
+                "info": "Wine and spirits shop with a curated selection organized by style, varietal, country, and region. Tastings, events, staff picks, and delivery.",
+                "mapname": "Freeport Wine & Spirits",
+                "loc": 43,
+                "phone": "516-208-3031",
+                "web": "http://FreeportWines.com",
+                "category": "shop_and_discover",
+                "subcategory": "shop_and_discover",
+                "address_formatted": "492 Atlantic Avenue, Freeport, NY 11520, United States of America",
+                "priority": "T",
+                "img": "BW-43T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5969984,
+                    40.6435394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "abupholstery",
+                "address": "548 Merrick Rd.",
+                "town": "",
+                "business": "Live & Work",
+                "info": "Specialized in custom interiors, marine upholstery, furniture restoration, fleet seating, convertible tops, and headliners—quality craftsmanship done right.",
+                "mapname": "A&B Upholstery",
+                "loc": 35,
+                "phone": "516-868-1352",
+                "discount": "10% for veterans",
+                "facebook": "https://www.facebook.com/abupholstery",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "548 Merrick Road, Baldwin, NY 11510, United States of America",
+                "priority": "D",
+                "img": "BW-35D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.620665,
+                    40.6531586
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "windowdepotusa",
+                "address": "1096 Grand Ave.",
+                "town": "South Hempstead",
+                "business": "Live & Work",
+                "info": "Locally owned home improvement contractor. Replacement windows, entry doors, siding, and roofing. Competitive pricing, lifetime warranty, and stress-free consultations. 4.9-star rated. Serving Nassau, Suffolk, and all five boroughs.",
+                "mapname": "Window Depot USA",
+                "loc": 57,
+                "phone": "516-564-4400",
+                "web": "http://WindowDepotLowerNY.com",
+                "category": "live_and_work",
+                "subcategory": "live_and_work",
+                "address_formatted": "1096 Grand Avenue, South Hempstead, NY 11550, United States of America",
+                "priority": "T",
+                "img": "BW-57T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6153061,
+                    40.6841797
+                ]
+            }
+        }
+    ]
+}
