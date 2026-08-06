@@ -153,7 +153,7 @@
                 "category": "",
                 "subcategory": "",
                 "address_formatted": "4495 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "IP-6T"
             },
             "geometry": {
@@ -957,7 +957,7 @@
                 "category": "live_and_work",
                 "subcategory": "",
                 "address_formatted": "15 Alabama Avenue, Village of Island Park, NY 11558, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "IP-42T"
             },
             "geometry": {
@@ -982,7 +982,7 @@
                 "category": "",
                 "subcategory": "",
                 "address_formatted": "15 Alabama Avenue, Village of Island Park, NY 11558, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "IP-43T"
             },
             "geometry": {

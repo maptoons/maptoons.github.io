@@ -127,7 +127,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "2283 Grand Avenue, Baldwin, NY 11510, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-80T"
             },
             "geometry": {
@@ -206,7 +206,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "713 Brooklyn Avenue, Baldwin, NY 11510, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-10T"
             },
             "geometry": {
@@ -599,7 +599,7 @@
                 "category": "shop_and_discover",
                 "subcategory": "shop_and_discover",
                 "address_formatted": "560 Sunrise Highway, Baldwin, NY 11510, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-28T"
             },
             "geometry": {
@@ -859,7 +859,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "2790 Milburn Avenue, Baldwin, NY 11510, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-52T"
             },
             "geometry": {
@@ -1066,7 +1066,7 @@
                 "category": "learn_and_play",
                 "subcategory": "learn_and_play",
                 "address_formatted": "2413 Grand Avenue, Bellmore, NY 11710, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-44T"
             },
             "geometry": {
@@ -1092,7 +1092,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "769 Merrick Road, Baldwin, NY 11510, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-4T"
             },
             "geometry": {
@@ -1118,7 +1118,7 @@
                 "category": "learn_and_play",
                 "subcategory": "learn_and_play",
                 "address_formatted": "961 Indian Church Road, Buffalo, NY 14224, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-46T"
             },
             "geometry": {
@@ -1144,7 +1144,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "795 Merrick Road, Baldwin, NY 11510, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-41T"
             },
             "geometry": {
@@ -1222,7 +1222,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "2075 Grand Avenue, New York, NY 10453, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-15T"
             },
             "geometry": {
@@ -1379,7 +1379,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "997 Merrick Road, Babylon, NY 11726, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-6T"
             },
             "geometry": {
@@ -1614,7 +1614,7 @@
                 "category": "shop_and_discover",
                 "subcategory": "shop_and_discover",
                 "address_formatted": "2485 Grand Avenue, Bellmore, NY 11710, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-24T"
             },
             "geometry": {
@@ -1849,7 +1849,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "2430 Grand Avenue, City of Niagara Falls, NY 14301, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-76T"
             },
             "geometry": {
@@ -1875,7 +1875,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "2300 Merrick Road, Merrick, NY 11566, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-79T"
             },
             "geometry": {
@@ -2031,7 +2031,7 @@
                 "category": "thrive_and_be_well",
                 "subcategory": "thrive_and_be_well",
                 "address_formatted": "656 Sunrise Highway, Baldwin, NY 11510, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-54T"
             },
             "geometry": {
@@ -2320,7 +2320,7 @@
                 "category": "live_and_work",
                 "subcategory": "live_and_work",
                 "address_formatted": "1096 Grand Avenue, South Hempstead, NY 11550, United States of America",
-                "priority": "T",
+                "priority": "Q",
                 "img": "BW-57T"
             },
             "geometry": {
