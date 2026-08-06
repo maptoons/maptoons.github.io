@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-06 Release
+
+### Added
+- Data ponts for Island Park, NY. Images for points are in `img` directory with prefixes 'IP'. GeoJSON formatted data is found in the data directory in `island_park.geojson`.
+
+### Changed
+- Priority values for Premium Advertisers in Baldwin and Island Park.
+
 ## 2026-08-05 Release
 
 ### Added
