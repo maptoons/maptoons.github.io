@@ -1,0 +1,1152 @@
+{
+    "type": "FeatureCollection",
+    "name": "Island Park, NY",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "evolutioncardscollectibles",
+                "address": "164B Long Beach Rd.",
+                "town": "",
+                "business": "Collectibles",
+                "info": "We buy, sell, and trade all collectibles, sports cards, Pokémon, trading card games, and memorabilia. Bring it in, and we'll buy it! Open 7 days a week.",
+                "mapname": "Evolution Cards & Collectibles",
+                "loc": 1,
+                "phone": "516-532-6268",
+                "web": "http://EvolutionCard.shop",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "164 B Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-1D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6560798,
+                    40.6018911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "megabusinesssystems",
+                "address": "154 Long Beach Rd.",
+                "town": "",
+                "business": "Office Tech",
+                "info": "#1 Kyocera Office Document Solution in NY, NJ, and Conn. for over a decade! Sale/service of all new and factory-refurbished office equipment with Copier leases starting at $99/month.",
+                "mapname": "Mega Business Systems",
+                "loc": 2,
+                "phone": "718-450-7871",
+                "web": "http://MegaBusinessSystems.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "154 Long Beach Road, Village of Hempstead, NY 11550, United States of America",
+                "priority": "D",
+                "img": "IP-2D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6179452,
+                    40.6926951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "michaelsbilliards",
+                "address": "4060 Austin Blvd.",
+                "town": "",
+                "business": "Billiards and Event Space",
+                "info": "Open every day at 4pm. Pool tables, pinball, darts, basketball, food truck, TVs & more! Have your next party on our private second floor! Sell cues & accessories, including McDermott!",
+                "mapname": "Michael’s Billiards",
+                "loc": 3,
+                "phone": "516-548-7707",
+                "facebook": "https://www.facebook.com/MichaelsBilliardsNY",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4060 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-3T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6456464,
+                    40.6107584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "floorcoveringsinternational",
+                "address": "3950 Long Beach Rd.",
+                "town": "",
+                "business": "Flooring",
+                "info": "Premier flooring store in Long Beach/Island Park with a wide selection of high-quality flooring options for your home. Our experts provide you with the best in-home flooring experience with our mobile showroom. ",
+                "mapname": "Floor Coverings International",
+                "loc": 4,
+                "phone": "516-518-7863",
+                "web": "http://FloorCoveringsInternational.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "3950 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-4D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6454316,
+                    40.6143881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "cornerstonenewyork",
+                "address": "79 Sagamore Rd.",
+                "town": "",
+                "business": "Construction",
+                "info": "Building our community one house at a time. Over 30 years of experience.",
+                "mapname": "Cornerstone New York",
+                "loc": 5,
+                "phone": "516-521-6333",
+                "web": "http://CornerstoneNYLLC.com",
+                "category": "live_and_work",
+                "subcategory": "construction",
+                "address_formatted": "79 Sagamore Road, Eastchester, NY 10708, United States of America",
+                "priority": "D",
+                "img": "IP-5D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.8317305,
+                    40.9461953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "esmokebeer",
+                "address": "4495 Austin Blvd.",
+                "town": "",
+                "business": "Smoke Shop",
+                "info": "Smoke shop that specializes in cigars, tobacco pipes, beer, hookah, snacks, electronic cigarettes and regular cigarettes. A one stop shop!",
+                "mapname": "E Smoke & Beer",
+                "loc": 6,
+                "phone": "516-882-4558",
+                "instagram": "https://www.instagram.com/esmokeshops/",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4495 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "Q",
+                "img": "IP-6T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6535936,
+                    40.6006046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "smoothedgecollision",
+                "address": "10 Saratoga Blvd.",
+                "town": "",
+                "business": "Auto Collision",
+                "info": "Specializing in collision repair and paint services, their skilled technicians are dedicated to restoring vehicles to their original condition. With a focus on customer satisfaction and quality workmanship.",
+                "mapname": "Smooth Edge Collision",
+                "loc": 7,
+                "phone": "516-432-6246",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "10 Saratoga Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-7D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6470537,
+                    40.6099143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "networks",
+                "address": "51 Alabama Ave.",
+                "town": "",
+                "business": "Computer Repair",
+                "info": "Helping Long Island stay connected with reliable computer repair, data recovery, and business IT support. Friendly service, fast turnaround, and trusted expertise for homes and local businesses.",
+                "mapname": "Networks",
+                "loc": 9,
+                "phone": "516-889-0777",
+                "web": "http://NetworksNY.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "51 Alabama Avenue, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-9D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6465308,
+                    40.6111615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "competitionauto",
+                "address": "4501 Austin Blvd.",
+                "town": "",
+                "business": "Auto Repair",
+                "info": "Friendly neighborhood repair shop, where we do everything from air in your tires to swapping engines, and we do it all with a smile.",
+                "mapname": "Competition Auto",
+                "loc": 10,
+                "phone": "516-431-5500",
+                "category": "live_and_work",
+                "subcategory": "auto_repair",
+                "address_formatted": "4501 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-10D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6537913,
+                    40.6004365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "anthonystrendzbarbershop",
+                "address": "4540 Austin Blvd.",
+                "town": "",
+                "business": "Barbershop",
+                "info": "A pillar of the community since 2008. We specialize in all hair styles and textures, including hot-towel shaves and complete scissor cuts. Appointments preferred, and walk-ins always welcome.",
+                "mapname": "Anthony’s Trendz Barbershop",
+                "loc": 11,
+                "phone": "516-670-0200",
+                "web": "http://AnthonysTrendz.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "hair_salons_and_barbers",
+                "address_formatted": "Motorsports Collision, 4540 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-11D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6554427,
+                    40.5992787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nicoliareadymix",
+                "address": "3896 Long Beach Rd.",
+                "town": "",
+                "business": "Ready Mix Concrete",
+                "info": "Providing superior concrete and reliable service. Family-owned and community-driven since 1959, we’re committed to supporting Island Park’s growth with quality materials and trusted expertise.",
+                "mapname": "Nicolia Ready Mix",
+                "loc": 12,
+                "phone": "631-669-7000",
+                "web": "http://NicoliaReadyMix.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "3896 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-12T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6437636,
+                    40.6155725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "jjdrycleaners",
+                "address": "4010 Austin Blvd.",
+                "town": "",
+                "business": "Dry Cleaners",
+                "info": "Environmentally friendly, state-of-the-art, allergy-free dry cleaning using a biodegradable, non-toxic cleaning system. Free pickup and delivery.",
+                "mapname": "J&J Dry Cleaners",
+                "loc": 13,
+                "phone": "516-431-2424",
+                "web": "http://JandJDryCleaners.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4010 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-13D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6447456,
+                    40.6119303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "truckautoworksinc",
+                "address": "4290B Industrial Pl.",
+                "town": "",
+                "business": "Auto & Truck Repair",
+                "info": "NYS inspection, fleet maintenance, equipment repair, suspension repair, hydraulic repair, road service, welding, heavy-duty towing, hydraulic hoses made on premises, A/C services.",
+                "mapname": "Truck & Auto Works, Inc.",
+                "loc": 14,
+                "phone": "516-665-3625",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4290 Industrial Place, Barnum Island, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-14T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6508883,
+                    40.605209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "surfglass",
+                "address": "4177 Austin Blvd.",
+                "town": "",
+                "business": "Glass Repair and Window Installation",
+                "info": "Glass window repairs, window replacements, screen repair and replacement, exterior door replacement, sunrooms and custom glasswork, door closer repairs, and bulletproof glass installation.",
+                "mapname": "Surf Glass",
+                "loc": 15,
+                "phone": "516-431-5220",
+                "web": "http://SurfGlassLB.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4177 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-15D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6473864,
+                    40.6075347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "freshfizzsodas",
+                "address": "60A Saratoga Blvd.",
+                "town": "",
+                "business": "Sodas",
+                "info": "Producing award-winning organic sodas out of their facility in Island Park, made with real ingredients like juices, spices, herbs, and honey.",
+                "mapname": "Fresh Fizz Sodas",
+                "loc": 16,
+                "phone": "646-866-7522",
+                "web": "http://FreshFizzSodas.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "60 Saratoga Boulevard, City of Gloversville, NY 12078, United States of America",
+                "priority": "D",
+                "img": "IP-16D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.3273094,
+                    43.0468594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "evereadyroofingsiding",
+                "address": "4177 Austin Blvd.",
+                "town": "",
+                "business": "Roofing and Siding",
+                "info": "For all of your residential and commercial roofing needs. Also offering siding, gutters, power washing, and emergency repairs.",
+                "mapname": "EVEREADY Roofing & Siding",
+                "loc": 17,
+                "phone": "516-239-2700",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4177 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-17D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6473864,
+                    40.6075347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "malinaportals",
+                "address": "160 Long Beach Rd.",
+                "town": "",
+                "business": "Yoga and Sound Healing",
+                "info": "Gongs, sound healing (50+ instruments), yoga, meditation, reiki, breathwork, and more. Classes for adults and children! Private sessions available. Over 16 years of experience.",
+                "mapname": "Malina Portals",
+                "loc": 18,
+                "phone": "516-216-9350",
+                "web": "http://MalinaPortals.com",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "160 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "S",
+                "img": "IP-18S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6560936,
+                    40.6018259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "crystalbeautysalon",
+                "address": "239 Long Beach Rd.",
+                "town": "",
+                "business": "Hair Salon",
+                "info": "Dedicated to creating beautiful, healthy hair through personalized care and expert techniques. Haircut, blowout, single process/double process highlights, balayage, scalp treatment, hair detox, keratin treatment, Magic Sleek Brazilian blowout.",
+                "mapname": "Crystal Beauty Salon",
+                "loc": 19,
+                "phone": "516-690-8248",
+                "discount": "20% off for first time clients.",
+                "web": "http://TheCrystalBeautySalon.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "hair_salons_and_barbers",
+                "address_formatted": "239 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "S",
+                "img": "IP-19S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6554641,
+                    40.6034748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "doristheflorist",
+                "address": "233 Long Beach Rd.",
+                "town": "",
+                "business": "Florist",
+                "info": "Over 40 years of experience. Quality design. Daily delivery! Weddings, funeral arrangements, corporate events, theme parties, and gourmet baskets.",
+                "mapname": "Doris The Florist",
+                "loc": 20,
+                "phone": "516-897-2460",
+                "web": "http://DorisTheFloristt.com",
+                "category": "shop_and_discover",
+                "subcategory": "florists",
+                "address_formatted": "233 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-20T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6553939,
+                    40.6031856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pitstopcollision",
+                "address": "4452 Austin Blvd.",
+                "town": "",
+                "business": "Auto Body",
+                "info": "All insurance claims. Drive-in claim center. Expert body repair and painting. Computerized color matching. End-of-lease repair and detailing. 24-hour towing. We work with all insurance companies.",
+                "mapname": "Pit Stop Collision",
+                "loc": 22,
+                "phone": "516-897-6064",
+                "discount": "10% off your bill.",
+                "web": "http://Pit-StopCollision.com",
+                "category": "live_and_work",
+                "subcategory": "auto_repair",
+                "address_formatted": "4452 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-22D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6537007,
+                    40.6017368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "atgardencenter",
+                "address": "4373 Austin Blvd.",
+                "town": "",
+                "business": "Nursery",
+                "info": "Quality plants and merchandise at reasonable prices. We carry gift items, fresh-cut flowers, garden tools, annuals and perennials, shrubs and trees, firewood, and houseplants.",
+                "mapname": "A&T Garden Center",
+                "loc": 23,
+                "phone": "516-608-5971",
+                "discount": "10% off everything when you mention MapToons.",
+                "instagram": "https://www.instagram.com/a_tgarden/",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4373 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-23D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6513869,
+                    40.6027755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kimisististheotokoupanaghiaofislandparkgreekorthodoxchurch",
+                "address": "83 Newport Rd.",
+                "town": "",
+                "business": "House of Worship",
+                "info": "Greek Orthodox Church located in the heart of Island Park, NY. Sundays: 8:45am Orthros and Divine Liturgy. Weekdays: 9:00 am Orthros and Divine Liturgy.",
+                "mapname": "Kimisis Tis Theotokou / Panaghia of Island Park Greek Orthodox Church",
+                "loc": 25,
+                "phone": "516-432-4086",
+                "web": "http://PanaghiaIP.org",
+                "category": "gather_and_connect",
+                "subcategory": "places_of_worship",
+                "address_formatted": "83 Newport Road, City of Yonkers, NY 10710, United States of America",
+                "priority": "D",
+                "img": "IP-25D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.83561445793191,
+                    40.973328476003815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "boathousemarinaeventspace",
+                "address": "77 Island Pkwy. W",
+                "town": "",
+                "business": "Event Space",
+                "info": "Summer slips for boats and jet skis, winter storage for all types of boats and trucks. Rent the outdoor beach and paved patio space for weddings, private parties, and photo shoots. Ice cream and candy store.",
+                "mapname": "Boathouse Marina Event Space",
+                "loc": 26,
+                "phone": "516-431-9147",
+                "facebook": "https://www.facebook.com/BoatHouseMarina",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "77 Island Parkway West, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-26D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6668526,
+                    40.5998235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ananauperuviancuisine",
+                "address": "4547 Austin Blvd.",
+                "town": "",
+                "business": "Restaurant",
+                "info": "Authentic Peruvian cuisine in a welcoming atmosphere. Our expert chefs use fresh, high-quality ingredients to create delicious, flavorful dishes. Discover Peru's culinary richness.",
+                "mapname": "Ananau Peruvian Cuisine",
+                "loc": 27,
+                "phone": "516-517-2633",
+                "web": "http://AnanauRestaurant.com",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants",
+                "address_formatted": "4547 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-27D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6548877,
+                    40.5989874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sangria",
+                "address": "4585 Austin Blvd.",
+                "town": "",
+                "business": "Restaurant",
+                "info": "Family-owned, offering the flavors of family recipes and traditions from Spain in a modern, rustic ambiance. Featuring tapas and paella, as well as a variety of other meats and seafood.",
+                "mapname": "Sangria 71",
+                "loc": 29,
+                "phone": "516-882-4250",
+                "web": "http://Sangria71.com",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants",
+                "address_formatted": "4585 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-29D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6547142,
+                    40.5982988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "southshorecraftbrewery",
+                "address": "3505 Hampton Rd.",
+                "town": "Oceanside",
+                "business": "Brewery",
+                "info": "Brewing fresh beer. With 20 rotating taps and live music on weekends, our inviting indoor and outdoor space puts good vibes and great brews first.",
+                "mapname": "South Shore Craft Brewery",
+                "loc": 30,
+                "phone": "516-388-6685",
+                "web": "http://SouthShoreCraftBrewery.com",
+                "category": "eat_and_drink",
+                "subcategory": "",
+                "address_formatted": "3505 Hampton Road, Oceanside, NY 11572, United States of America",
+                "priority": "D",
+                "img": "IP-30D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.654327,
+                    40.6249552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "redlabelcoffeeco",
+                "address": "342 Long Beach Rd.",
+                "town": "",
+                "business": "Coffee",
+                "info": "Full coffee and espresso bar. Our beans are infused with their flavor during roasting, allowing us to use NO syrups OR sugars in our 50+ flavors of Iced Coffee.",
+                "mapname": "Red Label Coffee Co.",
+                "loc": 31,
+                "phone": "516-544-6156",
+                "web": "http://RedLabelCoffee.com",
+                "category": "eat_and_drink",
+                "subcategory": "",
+                "address_formatted": "342 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "S",
+                "img": "IP-31S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6557997,
+                    40.605503
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "treasurelaneboutique",
+                "address": "4589 Austin Blvd.",
+                "town": "",
+                "business": "Clothing Boutique",
+                "info": "Apparel, jewelry, and gifts. Delivery and in-store pickup. A small business, we put our hearts into everything we do to make our customers happy with every purchase. ",
+                "mapname": "Treasure Lane Boutique",
+                "loc": 32,
+                "phone": "516-618-2013",
+                "discount": "10% off when you mention MapToons - one time only.",
+                "instagram": "https://www.instagram.com/treasurelane/",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4589 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "S",
+                "img": "IP-32S"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6547093,
+                    40.5981687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "islandadvantagerealty",
+                "address": "233 Long Beach Rd.",
+                "town": "",
+                "business": "Real Estate",
+                "info": "Broker Associate / Sales Manager, CBR, AHWD, and RSSP Specialist in Nassau County & the Boroughs. Professional, responsive, and attentive real estate services. ",
+                "mapname": "Island Advantage Realty",
+                "loc": 33,
+                "phone": "516-330-0165",
+                "web": "http://IslandAdvantage.com",
+                "category": "live_and_work",
+                "subcategory": "real_estate",
+                "address_formatted": "233 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-33T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6553939,
+                    40.6031856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aeromarine",
+                "address": "95 Island Pkwy. W",
+                "town": "",
+                "business": "Marina",
+                "info": "We're big enough to carry inventory and selection yet still run our business with the attention to detail and service usually associated with larger shops.",
+                "mapname": "Aero Marine",
+                "loc": 34,
+                "phone": "516-431-5061",
+                "category": "visit_and_experience",
+                "subcategory": "marinas",
+                "address_formatted": "95 Island Parkway West, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-34T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6673297,
+                    40.600229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "salvadoreoandmexicangrillrestaurant",
+                "address": "166 Long Beach Rd.",
+                "town": "",
+                "business": "Restaurant",
+                "info": "Family-friendly restaurant offering breakfast, lunch specials, and dinner for all families. We offer a variety of fresh, delicious food, including hot takeout.",
+                "mapname": "Salvadoreño and Mexican Grill Restaurant",
+                "loc": 35,
+                "phone": "516-208-7308",
+                "category": "eat_and_drink",
+                "subcategory": "restaurants",
+                "address_formatted": "166 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-35D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6561392,
+                    40.6019833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "stonegaterealestate",
+                "address": "2A Poole St.",
+                "town": "Oceanside",
+                "business": "Real Estate",
+                "info": "Our Oceanside boutique firm delivers residential, commercial, and property management services across surrounding areas, prioritizing client relationships and seamless transactions.",
+                "mapname": "Stonegate Real Estate",
+                "loc": 36,
+                "phone": "516-740-2777",
+                "web": "http://StoneGateRE.com",
+                "category": "live_and_work",
+                "subcategory": "real_estate",
+                "address_formatted": "2 Poole Street, Oceanside, NY 11572, United States of America",
+                "priority": "D",
+                "img": "IP-36D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6407857,
+                    40.6423218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "christophertjordanfuneralhome",
+                "address": "302 Long Beach Rd.",
+                "town": "",
+                "business": "Funeral Home",
+                "info": "State-of-the-art facility beautifully decorated with soothing artwork and tranquil waterfalls. Ample off-street parking. Available 24 hours a day, 7 days a week, offering dignity and affordability to all faiths.",
+                "mapname": "Christopher T. Jordan Funeral Home",
+                "loc": 37,
+                "phone": "516-431-2900",
+                "web": "http://JordanFH.com",
+                "category": "live_and_work",
+                "subcategory": "funeral_services",
+                "address_formatted": "302 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-37D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6558652,
+                    40.604822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "fullgospelchurchofislandpark",
+                "address": "4101 Austin Blvd.",
+                "town": "",
+                "business": "House of Worship",
+                "info": "Our Church family is full of diversity and energy! An Assembly of God Church with members from Nassau County and Queens. Contemporary in style, compassionate in nature.",
+                "mapname": "Full Gospel Church of Island Park",
+                "loc": 38,
+                "phone": "516-432-0232",
+                "web": "http://FGCIP.org",
+                "category": "gather_and_connect",
+                "subcategory": "places_of_worship",
+                "address_formatted": "4101 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-38T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6457826,
+                    40.6092578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "execproenterprises",
+                "address": "58 W. Park Ave. Suite 203",
+                "town": "Long Beach",
+                "business": "Computer Services",
+                "info": "Offering tailored services for small to medium-sized businesses, including consulting, hardware/software, on-site/remote support, cloud/on-prem infrastructure, managed services & more.",
+                "mapname": "ExecPro Enterprises",
+                "loc": 40,
+                "phone": "516-620-0304",
+                "web": "http://ExecPro.com",
+                "category": "live_and_work",
+                "subcategory": "",
+                "address_formatted": "58 West Park Avenue, City of Long Beach, NY 11561, United States of America",
+                "priority": "D",
+                "img": "IP-40D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6659683,
+                    40.5881318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "justforkicksschoolofdance",
+                "address": "4597 Austin Blvd.",
+                "town": "",
+                "business": "Dance School",
+                "info": "Our classes create well-rounded dancers with poise, confidence, discipline, and physical strength and endurance. Providing a diverse range of dance training. Part of the Island Park community for over 35 years! ",
+                "mapname": "Just for Kicks School of Dance",
+                "loc": 41,
+                "phone": "516-431-7553",
+                "web": "http://JustForKicksSchoolofDance.org",
+                "category": "learn_and_play",
+                "subcategory": "dance_schools",
+                "address_formatted": "4597 Austin Boulevard, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-41T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6546823,
+                    40.5979456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "designsxdanielle",
+                "address": "15 Alabama Ave.",
+                "town": "",
+                "business": "Interior Design",
+                "info": "Traveling designer striving to make the world beautiful one project at a time. Design and GC services for commercial and residential locations.",
+                "mapname": "Designs X Danielle",
+                "loc": 42,
+                "phone": "516-889-8405 / 516-236-5437",
+                "instagram": "https://www.instagram.com/designsxdanielle/",
+                "category": "live_and_work",
+                "subcategory": "",
+                "address_formatted": "15 Alabama Avenue, Village of Island Park, NY 11558, United States of America",
+                "priority": "Q",
+                "img": "IP-42T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6477321,
+                    40.6117091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "dynamicdemolition",
+                "address": "15 Alabama Ave.",
+                "town": "",
+                "business": "Demolition",
+                "info": "Full-service demolition contractor. Performing all phases of interior and exterior demolition and job site cleanup services. Serving all of Long Island and the five boroughs.",
+                "mapname": "Dynamic Demolition",
+                "loc": 43,
+                "phone": "516-889-8400",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "15 Alabama Avenue, Village of Island Park, NY 11558, United States of America",
+                "priority": "Q",
+                "img": "IP-43T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6477321,
+                    40.6117091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "islandparkunitedmethodistchurch",
+                "address": "364 Long Beach Rd.",
+                "town": "",
+                "business": "House of Worship",
+                "info": "Since 1926, the Island Park UMC has served the community with love and a family-oriented atmosphere. We welcome you to come and worship god with us!",
+                "mapname": "Island Park United Methodist Church",
+                "loc": 44,
+                "phone": "516-431-1983",
+                "category": "gather_and_connect",
+                "subcategory": "places_of_worship",
+                "address_formatted": "364 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-44T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6557863,
+                    40.6060473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "thelittleseashellnurseryschool",
+                "address": "364 Long Beach Rd.",
+                "town": "",
+                "business": "Nursery School",
+                "info": "Our school seeks to provide a learning experience of love, acceptance, warmth, and understanding, where each child's sense of responsibility is fostered.",
+                "mapname": "The Little Seashell Nursery School",
+                "loc": 45,
+                "phone": "516-431-3963",
+                "facebook": "https://www.facebook.com/littleseashellschool",
+                "category": "learn_and_play",
+                "subcategory": "preschools",
+                "address_formatted": "364 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-45T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6557863,
+                    40.6060473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "minutemanpressofislandpark",
+                "address": "162 Long Beach Rd.",
+                "town": "",
+                "business": "Printing",
+                "info": "Serving Island Park for 30 years, offering design, print, and marketing services that help local businesses and non-profits compete and succeed like giants.",
+                "mapname": "Minuteman Press of Island Park",
+                "loc": 47,
+                "phone": "516-432-0227",
+                "web": "http://IslandParkMMP.com",
+                "category": "live_and_work",
+                "subcategory": "printing_services",
+                "address_formatted": "162 Long Beach Road, Village of Hempstead, NY 11550, United States of America",
+                "priority": "D",
+                "img": "IP-47D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6180034,
+                    40.6924957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "yogawithme",
+                "address": "324 Long Beach Rd.",
+                "town": "",
+                "business": "Yoga",
+                "info": "Where you can move, create, and play at any age! Summer camps, school-age yoga, 2-7-year-old programs, yoga, pilates, and workshops for adults, too!",
+                "mapname": "Yoga with M.E.",
+                "loc": 48,
+                "phone": "516-316-8606",
+                "discount": "One free kids or adult yoga class when you mention MapToons.",
+                "web": "http://Yoga-With-Me.com",
+                "category": "thrive_and_be_well",
+                "subcategory": "yoga_studios",
+                "address_formatted": "324 Long Beach Road, Village of Island Park, NY 11558, United States of America",
+                "priority": "D",
+                "img": "IP-48D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6557215,
+                    40.6051851
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "johnbarbaragandolfothegandolfoteamcoldwellbankeramerican",
+                "address": "493 Atlantic Ave.",
+                "town": "Oceanside",
+                "business": "Real Estate",
+                "info": "With over $1 Billion dollars in career sales and over 1000 Homes Sold to Date. Ranked top 1% in Coldwell Banker.",
+                "mapname": "John & Barbara Gandolfo - The Gandolfo Team @ Coldwell Banker American",
+                "loc": 49,
+                "phone": "516-779-8423",
+                "web": "http://JohnGandolfoHomes.com",
+                "category": "live_and_work",
+                "subcategory": "real_estate",
+                "address_formatted": "493 Atlantic Avenue, Oceanside, NY 11572, United States of America",
+                "priority": "Q",
+                "img": "IP-49Q"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.65347,
+                    40.6404508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "laundrypalace",
+                "address": "4160 Austin Blvd.",
+                "town": "",
+                "business": "Laundromat",
+                "info": "The biggest and best laundromat in Island Park, offering drop-off service, plus self-service washers and dryers. Open 24 hours a day 7 days a week.",
+                "mapname": "Laundry Palace",
+                "loc": 51,
+                "phone": "516-543-4316",
+                "category": "",
+                "subcategory": "",
+                "address_formatted": "4160 Austin Boulevard, Barnum Island, NY 11558, United States of America",
+                "priority": "T",
+                "img": "IP-51T"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.64759,
+                    40.608089
+                ]
+            }
+        }
+    ]
+}
