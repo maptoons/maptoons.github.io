@@ -1590,7 +1590,13 @@
                 "priority": "D",
                 "img": "MH-72D"
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6999935,
+                    40.7987061
+                ]
+            }
         },
         {
             "type": "Feature",
@@ -2419,7 +2425,13 @@
                 "priority": "D",
                 "img": "MH-76D"
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7016492,
+                    40.7995554
+                ]
+            }
         },
         {
             "type": "Feature",
@@ -2438,7 +2450,13 @@
                 "priority": "S",
                 "img": "MH-91S"
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.6999558,
+                    40.7996368
+                ]
+            }
         },
         {
             "type": "Feature",
