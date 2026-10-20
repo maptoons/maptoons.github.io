@@ -98,7 +98,7 @@
 			"id": "street",
 			"type": "line",
 			"source-layer": "streets",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "unclassified", "residential" ],
 			"paint": {
 				"line-color": "hsl(54, 56%, 90%)",
 				"line-width": [ "interpolate", [ "exponential", 2 ], [ "zoom" ], 11, 0, 20, 200 ]
@@ -184,7 +184,7 @@
 			"id": "label-street",
 			"type": "symbol",
 			"source-layer": "street_labels",
-			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "residential" ],
+			"filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary", "unclassified", "residential" ],
 			"layout": {
 				"text-field": "{name}",
 				"text-transform": "uppercase",

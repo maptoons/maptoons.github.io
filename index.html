@@ -43,7 +43,7 @@
 
     <script>
 
-        const geoJsonFiles = ['hicksville_corrected', 'long_beach_corrected', 'north_babylon_corrected', 'oceanside_corrected', 'highland_park_corrected', 'wcp_corrected', 'baldwin', 'island_park']
+        const geoJsonFiles = ['hicksville_corrected', 'long_beach_corrected', 'north_babylon_corrected', 'oceanside_corrected', 'highland_park_corrected', 'wcp_corrected', 'baldwin', 'island_park', 'manhasset_corrected']
         const imgSource = 'img'
         const styleFile = 'maptoons.json'
         const artFile = 'data/hicksville-art.geojson'
@@ -594,6 +594,13 @@
                     zoom: 16.6,
                     pitch: 30,
                     bearing: -39
+                },
+                {
+                    name: 'Manhasset, NY',
+                    centroid: [-73.701390, 40.794809], //40.794939,
+                    zoom: 15,
+                    pitch: 30,
+                    bearing: 0
                 },
                 {
                     name: 'North Babylon, NY',

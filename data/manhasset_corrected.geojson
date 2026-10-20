@@ -1,0 +1,2540 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "g7dI3GzlUaOkDxQBMaTMZP3yMXVyd4Qi",
+      "type": "Feature",
+      "properties": {
+        "id": "sciencemuseumoflongisland",
+        "address": "1526 N. Plandome Rd.",
+        "town": "",
+        "business": "Visit & Experience",
+        "info": "Interactive science center offering school holiday workshops, school trips, scout badge programs, birthday parties & more. Located on Leeds Pond Preserve, trails open all week, dawn 'til dusk. ",
+        "mapname": "Science Museum of Long Island",
+        "loc": 41,
+        "phone": "516-627-9400",
+        "web": "http://SMLI.org",
+        "category": "visit_and_experience",
+        "subcategory": "visit_and_experience",
+        "address_formatted": "1526 North Plandome Road, Village of Plandome Manor, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-41T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.703395,
+          40.8143876
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0kqYZS5xoVO8eG1N8njF0Gzoldki9GZL",
+      "type": "Feature",
+      "properties": {
+        "id": "ganshalomnurseryschool",
+        "address": "1001 Plandome Rd.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "Nurtures children ages 18 months - 5 years through engaging, child-led exploration, critical thinking, and a warm, inclusive, community-based Jewish learning environment.",
+        "mapname": "Gan Shalom Nursery School",
+        "loc": 25,
+        "phone": "516-627-6274",
+        "web": "http://RSNS.org",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "Reconstructionist Synagogue of the North Shore, 1001 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-25D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7072731,
+          40.8049969
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "eLAi2hFspVeuDdpOOkdR0ffIbzsgqAW4",
+      "type": "Feature",
+      "properties": {
+        "id": "rsnssynagogueschool",
+        "address": "1001 Plandome Rd.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "Providing a warm, caring community where children and families explore Jewish identity with pride, inspiring curiosity, creativity, meaningful learning, and lifelong connections.",
+        "mapname": "RSNS Synagogue School",
+        "loc": 25,
+        "phone": "516-627-6274",
+        "web": "http://RSNS.org",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "Reconstructionist Synagogue of the North Shore, 1001 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-25D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7072731,
+          40.8049969
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "o8CaKofi75I0H76kVfJIVIttATZR5asD",
+      "type": "Feature",
+      "properties": {
+        "id": "testtakers",
+        "address": "585 Plandome Rd. #103",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "ACT and SAT prep, AP test preparation, and academic tutoring in math, science, and English. Private 1-on-1 and classes. Highest score improvements in New York.",
+        "mapname": "TestTakers",
+        "loc": 80,
+        "phone": "516-626-6100",
+        "web": "http://TTPrep.com",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "585 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-80D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7020328,
+          40.8001875
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "v08wzYa0jbulIX941aPhqD9q91vVWgL8",
+      "type": "Feature",
+      "properties": {
+        "id": "shelterrockchurch",
+        "address": "626 Plandome Rd.",
+        "town": "",
+        "business": "Gather & Connect",
+        "info": "A multi-ethnic, multi-generational, multi-campus church on Long Island. We exist to lead people into a transforming relationship with Jesus.  ",
+        "mapname": "Shelter Rock Church",
+        "loc": 64,
+        "phone": "516-627-2270",
+        "web": "http://SR.church",
+        "category": "gather_and_connect",
+        "subcategory": "gather_and_connect",
+        "address_formatted": "Shelter Rock Church, 626 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-64T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.701286,
+          40.8007218
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "BfIvATyfWLUMazglYSOJlvIF2rPSrX01",
+      "type": "Feature",
+      "properties": {
+        "id": "benvenutisalumeria",
+        "address": "15 Colonial Pkwy.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Italian specialty market and espresso bar with fresh paninis, imported cured meats, cheeses, fresh mozzarella, fresh pastas, homemade sauces, olive oil, and specialty pantry goods.",
+        "mapname": "Benvenuti Salumeria",
+        "loc": 53,
+        "phone": "516-960-7090",
+        "web": "http://Benvenuti-Salumeria.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "15 Colonial Parkway, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-53D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7018685,
+          40.7999557
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "S0yK2SzaIYIUgbUR75EGao6SFcvTJi3X",
+      "type": "Feature",
+      "properties": {
+        "id": "townanimalhospitalofmanhasset",
+        "address": "260 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Family-owned veterinary practice providing premium client service and patient care in a modern facility. Services include wellness and illness care, dentistry, surgery, pharmacy and radiology. ",
+        "mapname": "Town Animal Hospital of Manhasset",
+        "loc": 10,
+        "phone": "516-709-8646",
+        "web": "http://TownAH.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "260 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-10T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6988941,
+          40.7963741
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SpvxAAwKBNJoCeV0AcQfFqRmAv3REXMD",
+      "type": "Feature",
+      "properties": {
+        "id": "naturesremedypharmacy",
+        "address": "588 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "A boutique independent pharmacy offering personalized prescription care, wellness products, quality supplements, immunizations, trusted guidance, and exceptional service with a personal touch.",
+        "mapname": "Nature's Remedy Pharmacy",
+        "loc": 34,
+        "phone": "516-439-4911",
+        "web": "http://NaturesRemedyPharmacy.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "588 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-34S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7012698,
+          40.8002532
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "RzghFNkSx4sBRP0iAZlkkeFIKqkSpTSF",
+      "type": "Feature",
+      "properties": {
+        "id": "delissalon",
+        "address": "576 Plandome Rd.",
+        "town": "",
+        "business": "",
+        "info": "We provide each customer with personalized services – making use of our expertise and experience to provide the highest quality of salon services that we can deliver.",
+        "mapname": "De Lis Salon",
+        "loc": 31,
+        "phone": "516-365-6500",
+        "web": "http://DeLisSalon.com",
+        "category": "",
+        "subcategory": "",
+        "address_formatted": "576 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-31D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7011397,
+          40.8001506
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "gDv6gJrHepsoH7GHg9qcq5f4aCqhhqJQ",
+      "type": "Feature",
+      "properties": {
+        "id": "josephsbarbershop",
+        "address": "425 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Serving Manhasset since 1940. Offering all styles of mens haircuts, boys haircuts, and hot towel shaves.",
+        "mapname": "Joseph's Barbershop",
+        "loc": 21,
+        "phone": "516-373-4296",
+        "web": "http://Josephs-Barbershop.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "425 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-21S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7002632,
+          40.7984854
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pqvp7MEeDmPDaBNQXt1NfxDGehVyNMjr",
+      "type": "Feature",
+      "properties": {
+        "id": "hierarchyarchitecturedesignpllc",
+        "address": "7 Gaynor Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Timeless, classical designs seamlessly integrated into the home and neighborhood. Additions, major renovations, and new ground homes, navigating approvals, permits, and construction alongside you.",
+        "mapname": "Hierarchy Architecture + Design, PLLC",
+        "loc": 28,
+        "phone": "516-627-7007",
+        "web": "http://HierarchyArchitecture.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "7 Gaynor Avenue, Nesconset, Smithtown, NY 11767, United States of America",
+        "priority": "T",
+        "img": "MH-28T"
+      },
+      "geometry": {
+        "coordinates": [-73.70017399342314, 40.799730520668945],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "TF5S9VHp1AERRBmGCNjg3rgXO3P76xEL",
+      "type": "Feature",
+      "properties": {
+        "id": "indisurf",
+        "address": "486 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Surf and skate apparel since 2007. The most unique and fashionable styles from the best vendors in the industry. Product differentiation, quality, and exclusivity.",
+        "mapname": "Indi Surf",
+        "loc": 45,
+        "phone": "516-627-9220",
+        "web": "http://IndiSurf.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "486 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-45S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7001945,
+          40.7992338
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "qYbnAav6olzYxEIggm3t8wpLAM62Chgp",
+      "type": "Feature",
+      "properties": {
+        "id": "kikoramen",
+        "address": "480 Plandome Rd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Offering authentic Japanese ramen. House made broth prepared over 2 days without MSG. Feast on ramen soup with many options, Japanese-style fried chicken wings, and Donburi!",
+        "mapname": "Kiko Ramen",
+        "loc": 51,
+        "phone": "516-682-2268",
+        "web": "http://KikoRamen.com/Manhasset",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "480 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-51S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7001668,
+          40.7991857
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "HGEuBQuEaqirQ78SVEAxo1KYMgW0yvLY",
+      "type": "Feature",
+      "properties": {
+        "id": "jaredwbeschelassociates",
+        "address": "49 Locust St.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "We are a Manhasset based law firm specializing in all aspects of residential and commercial transactional real estate matters.",
+        "mapname": "Jared W. Beschel & Associates",
+        "loc": 57,
+        "phone": "516-490-1200",
+        "web": "http://BeschelLaw.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "49 Locust Street, City of Rochester, NY 14613, United States of America",
+        "priority": "D",
+        "img": "MH-57D"
+      },
+      "geometry": {
+        "coordinates": [-73.70213759266638, 40.796434861080144],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "xXnm5bwyv421TRN1mH0fgMPRaETu3Fu4",
+      "type": "Feature",
+      "properties": {
+        "id": "goldcoastautoservices",
+        "address": "55 Bayview Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Collision repair and lease return prep by certified technicians, using quality OEM and aftermarket parts. Wrap and PPF installation and removal, restoring your vehicle the right way.",
+        "mapname": "Gold Coast Auto Services",
+        "loc": 38,
+        "phone": "516-491-1518",
+        "web": "http://GoldCoastAuto.co",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "55 Bayview Avenue, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-38D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7020016,
+          40.7980991
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "cAYOx5ebLxPX6UxCTouyWTlLiGRs87Kz",
+      "type": "Feature",
+      "properties": {
+        "id": "conciergemd",
+        "address": "139 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Boutique medicine offering personalized primary and cardiovascular care, physician-directed weight management and longevity, with on-site testing, direct physician access, and care at your convenience.",
+        "mapname": "Concierge MD",
+        "loc": 61,
+        "phone": "516-421-6963",
+        "web": "http://ConciergeMD-NY.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "139 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-61D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.698846,
+          40.7945782
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "nfcX5qoQgbJApFhC6BZeshkqHnFo5nL4",
+      "type": "Feature",
+      "properties": {
+        "id": "plandomedental",
+        "address": "535 Plandome Rd. Unit 5",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Bringing warm, personalized family and cosmetic dentistry to Manhasset — where Dr. Pearl Han and her team treat every patient like family, blending modern technology with gentle care.",
+        "mapname": "Plandome Dental",
+        "loc": 71,
+        "phone": "516-627-5442",
+        "web": "http://PlandomeDental.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "535 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-71T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7013054,
+          40.7996753
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "QX74oiBRbMRvaEABV1ofBMF2eEivkGpJ",
+      "type": "Feature",
+      "properties": {
+        "id": "raindewmanhasset",
+        "address": "465 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Serving the community for over twenty-five years. We are proud to be known as Manhasset's General Store. Thank you for your continued support!",
+        "mapname": "Raindew Manhasset",
+        "loc": 37,
+        "phone": "516-869-6034",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "465 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-37T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7005976,
+          40.7990405
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "oJENZMOWZl88U00uTHioArvk0KNvpGIX",
+      "type": "Feature",
+      "properties": {
+        "id": "ginospizzeriarestaurant",
+        "address": "451 Plandome Rd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Welcome to the new Gino's! Proudly serving our Long Island community for over 40 years with a commitment to customer satisfaction and authentic Italian food.",
+        "mapname": "Gino's Pizzeria & Restaurant",
+        "loc": 82,
+        "phone": "516-627-5280",
+        "web": "http://GinosOfManhasset.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "451 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-82D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7005227,
+          40.7989528
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "6NXXtJkuEAcGhR6kKSlrSKiseSM7nUsv",
+      "type": "Feature",
+      "properties": {
+        "id": "manhassetjewelers",
+        "address": "446 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Since 1999, we work with our clients in a very family oriented atmosphere. We pay the highest price for diamonds, platinum, gold and silver jewelry and brand name watches.",
+        "mapname": "Manhasset Jewelers",
+        "loc": 30,
+        "phone": "516-869-8016",
+        "web": "http://ManhassetJewelers.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "446 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-30D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.699907,
+          40.7987883
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "caAPuup5HS8S47sgptCPARkTgYaK9heH",
+      "type": "Feature",
+      "properties": {
+        "id": "northshoredentalgroup",
+        "address": "450 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Manhasset's premier private dental practice, caring for the whole family with cleanings, dental implants, porcelain crowns, bridges, whitening, cosmetic dentistry, and full-mouth rehabilitation, all under one roof by board-certified specialists.",
+        "mapname": "North Shore Dental Group",
+        "loc": 46,
+        "phone": "516-627-3535",
+        "web": "http://NorthShoreDentalGroup.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "450 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-46S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6999358,
+          40.798846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "T9As8N5Pm08qVUKtg3rNeFAIaLPbxesN",
+      "type": "Feature",
+      "properties": {
+        "id": "greekbrothers",
+        "address": "444 Plandome Rd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Authentic Greek cuisine rooted in generations of family recipes. Gyros, souvlaki, platters, catering. True Greek hospitality - straight from the brothers who grew up on this food.",
+        "mapname": "Greek Brothers",
+        "loc": 2,
+        "phone": "516-494-4496",
+        "discount": "15% discount for college students",
+        "web": "http://Greek-Brothers.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "444 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-2D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.699872,
+          40.7987202
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "XFrKPFZHz9JxGc1m63c4nn4KR2WfRGD5",
+      "type": "Feature",
+      "properties": {
+        "id": "manhassetdentalarts",
+        "address": "16 Park Ave.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "We make sure that we have the “best of the best” in equipment and staff, ready to help make sure you feel comfortable and safe during our procedures.",
+        "mapname": "Manhasset Dental Arts",
+        "loc": 58,
+        "phone": "516-472-7575",
+        "discount": "New patient special - checkup and cleaning $199",
+        "web": "http://ManhassetDentalArts.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "16 Park Avenue, New York, NY 10016, United States of America",
+        "priority": "T",
+        "img": "MH-58T"
+      },
+      "geometry": {
+        "coordinates": [-73.698791508768, 40.797289640982555],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pImhrC2Ck4voQGX3f8sFA2SAF98uPged",
+      "type": "Feature",
+      "properties": {
+        "id": "davidtjonesddspc",
+        "address": "1201 Northern Blvd. Suite 103",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "When you visit our dental office, your smile is our top priority. Our entire team is dedicated to providing you with the personalized, quality dental care that you deserve.",
+        "mapname": "David T. Jones D.D.S, P.C.",
+        "loc": 11,
+        "phone": "516-868-8215",
+        "web": "http://MyManhassetDentist.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1201 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-11T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.701776,
+          40.7916467
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0wRgzupaDiLUslnJlfwbj6qROYqVzoGJ",
+      "type": "Feature",
+      "properties": {
+        "id": "greensirishpub",
+        "address": "436 Plandome Rd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Since 2002, have unlimited fun at our one-of-a-kind restaurant! Serving lunch, dinner, coffee and drinks. Walk-Ins welcome. Good for groups. Dine-in or Take out. ",
+        "mapname": "Greens Irish Pub",
+        "loc": 32,
+        "phone": "516-570-6220",
+        "web": "http://GreensIrishPub.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "Greens Irish Pub, 436 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-32T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6998282,
+          40.7985801
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sq9IgZSEqleZvlLq0o2O8XQbJtgNIIFc",
+      "type": "Feature",
+      "properties": {
+        "id": "manhassetcinemas",
+        "address": "430 Plandome Rd.",
+        "town": "",
+        "business": "Visit & Experience",
+        "info": "Manhasset’s neighborhood movie theater since 1936. Under new ownership committed to elevating the moviegoing experience and bringing our community together for movies and more.",
+        "mapname": "Manhasset Cinemas",
+        "loc": 73,
+        "phone": "646-612-7600",
+        "web": "http://ManhassetCinemas.com",
+        "category": "visit_and_experience",
+        "subcategory": "visit_and_experience",
+        "address_formatted": "Manhasset Theatre, 430 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-73D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6998428,
+          40.7984936
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NrSTukIA7Ch3fKFtjfaoP2U4lwJdzdXY",
+      "type": "Feature",
+      "properties": {
+        "id": "afmarket",
+        "address": "393 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Est. 1957. Free delivery - Curbside pick-up - Fresh produce daily - Homemade salads - Boar's Head cold cuts - Fresh fish (Wed, Thurs, Fri) - Prime meat - Top quality poultry.",
+        "mapname": "A&F Market",
+        "loc": 35,
+        "phone": "516-627-1000",
+        "web": "http://AandFMarketManhasset.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "393 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-35D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7000476,
+          40.7979552
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "addNFj7qL2363QI5Q7oGNhx0AV1baGn1",
+      "type": "Feature",
+      "properties": {
+        "id": "manhassetcollision",
+        "address": "44 Hillside Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Accidents happen. We make repairs simple with expert craftsmanship, honest communication, insurance assistance, trusted expertise, and a commitment to your safety and satisfaction.",
+        "mapname": "Manhasset Collision",
+        "loc": 3,
+        "phone": "516-365-5400",
+        "web": "http://ManhassetCollision.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "44 Hillside Avenue, Buffalo, NY 14210, United States of America",
+        "priority": "T",
+        "img": "MH-3T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70111663418794,
+          40.79649009602202
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Fxs9mjnz2uow855EIY7eIiX8ZLjid2ld",
+      "type": "Feature",
+      "properties": {
+        "id": "supremeautodetailing",
+        "address": "44 Maple Pl.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Professional detailing for every type of vehicle. Includes hand car washing, window tinting, vinyl wraps, PPF, rim repair, and ceramic coating. Full concierge, worry free service with care and precision.",
+        "mapname": "Supreme Auto Detailing",
+        "loc": 24,
+        "phone": "516-761-9341",
+        "instagram": "https://www.instagram.com/SupremeAutoDetailsLI/",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "44 Maple Place, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-24T"
+      },
+      "geometry": {
+        "coordinates": [-73.69804712695179, 40.79802435534264],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "EGSGBNvyFbXOOW8jC8CYGBAJ9MnIIQHe",
+      "type": "Feature",
+      "properties": {
+        "id": "plandomeservicecenter",
+        "address": "546 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Trusted dealership alternative offering expert brake repair, engine diagnostics, oil changes, timing belt replacement, tire and suspension service, electrical repair, and car A/C repair for all makes. 30 years in Manhasset.",
+        "mapname": "Plandome Service Center",
+        "loc": 42,
+        "phone": "516-365-9075",
+        "web": "http://PlandomeService.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "546 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-42D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7007878,
+          40.7999209
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AOMsx68tcZ4i2fWJUvjduZ5IBN2C4GVg",
+      "type": "Feature",
+      "properties": {
+        "id": "orlandosgourmetdelicatessen",
+        "address": "369 Plandome Rd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Globally recognized styling services at an individually designed salon. Personalized color from single process to balayage, expert cuts, keratin treatments, threading, and complimentary beauty treatments.",
+        "mapname": "Orlando's Gourmet Delicatessen",
+        "loc": 85,
+        "phone": "516-627-1079",
+        "web": "http://OrlandosDeli.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "369 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-85D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6999471,
+          40.7976164
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "4MiXgaD10wzlfOILa3wvY8rrYcsqUYDX",
+      "type": "Feature",
+      "properties": {
+        "id": "starryballroom",
+        "address": "66 Bayview Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Host your next celebration, corporate event, or workshop in our grand, column-free ballroom featuring professional sound, lighting, and free onsite parking — elegant, versatile, and unforgettable.",
+        "mapname": "Starry Ballroom",
+        "loc": 8,
+        "phone": "516-212-6337",
+        "web": "http://StarryBallroom.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "66 Bayview Avenue, Brookhaven, NY 11715, United States of America",
+        "priority": "D",
+        "img": "MH-8D"
+      },
+      "geometry": {
+        "coordinates": [-73.70194431671058, 40.79831638375358],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bRt7qLN8jJsjNhevH6BlN4B6ITPeqMDt",
+      "type": "Feature",
+      "properties": {
+        "id": "alesageservice",
+        "address": "55 Myrtle St.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Art is the process. Graphic tees alongside vintage Porsche components, including 911 air flow meters and fuel distributors. Where car culture meets creative vision.",
+        "mapname": "Alesage Service",
+        "loc": 59,
+        "phone": "516-828-7222",
+        "web": "http://AlesageNY.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "55 Myrtle Street, City of Rochester, NY 14606, United States of America",
+        "priority": "S",
+        "img": "MH-59S"
+      },
+      "geometry": {
+        "coordinates": [-73.70110627531436, 40.79658779026624],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "F5CRvAS0opbvqeUcgfzZ7wteBrgV7aNV",
+      "type": "Feature",
+      "properties": {
+        "id": "aeautocenter",
+        "address": "73 Locust St.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Complete auto service and OEM programming. NYS inspections. Foreign and domestic repairs. Factory trained technicians.",
+        "mapname": "A&E Auto Center",
+        "loc": 20,
+        "phone": "516-869-6675",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "73 Locust Street, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-20D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.701959,
+          40.7958074
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "FrpgqPSa6P5n6s3sifQQlqlkkiDCdGj9",
+      "type": "Feature",
+      "properties": {
+        "id": "yasminecollectionny",
+        "address": "346 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Delicate and modern fine jewelry in 14K and 18K gold, crafted with time-honored techniques. Diamond studs, huggie earrings, tennis necklaces, and stackable rings designed to wear every day, forever.",
+        "mapname": "Yasmine Collection NY",
+        "loc": 27,
+        "phone": "646-767-6992",
+        "discount": "10% off for new customers",
+        "web": "http://YasmineCollectionNY.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "346 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-27D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6993769,
+          40.7974139
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Q28kaxIBpEguk2oxLyBYaH5WIryrggV8",
+      "type": "Feature",
+      "properties": {
+        "id": "louiesmanhassetrestaurant",
+        "address": "339 Plandome Rd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Classic Greek-American diner, serving up breakfast lunch and dinner every day of the week. A family-run institution since 1963.",
+        "mapname": "Louie's Manhasset Restaurant",
+        "loc": 47,
+        "phone": "516-627-0022",
+        "web": "http://LouiesManhassetRestaurant.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "339 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-47D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6998404,
+          40.7972762
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "677CMuNwWRxtZ7M5msUEkhwbpgufwnnu",
+      "type": "Feature",
+      "properties": {
+        "id": "liluxegiftandhome",
+        "address": "338 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Offering a curated selection of luxury decor designed to reflect your style.",
+        "mapname": "Li Luxe Gift and Home",
+        "loc": 26,
+        "phone": "516-629-7876",
+        "discount": "10% off any in-store purchases; 2 hour free design consultation",
+        "web": "http://LiLuxeHome.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "338 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-26S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6993483,
+          40.7973106
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "M8Woj4Vz5kfBZjUvlGedzNjQbnbFf4X3",
+      "type": "Feature",
+      "properties": {
+        "id": "eliteautorepair",
+        "address": "43 Manhasset Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Dave the owner is a dependable auto repair technician with 12+ years of experience diagnosing and repairing even the most complex auto repair issues. Customer satisfaction is our #1 priority.",
+        "mapname": "Elite Auto Repair",
+        "loc": 43,
+        "phone": "516-365-3530",
+        "instagram": "https://www.instagram.com/EliteAutoManhasset/",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "43 Manhasset Avenue, Village of Manorhaven, NY 11050, United States of America",
+        "priority": "T",
+        "img": "MH-43T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70760863157895,
+          40.83961363157895
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "9r7qH14vZF3ZQgnAlmMePhDvS6EDbvlb",
+      "type": "Feature",
+      "properties": {
+        "id": "joycleaners",
+        "address": "523 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Professional dry cleaning, laundry, and expert alterations. Everyday garments to suits, dresses, and special occasion wear. Dependable, personalized care. Proudly serving Manhasset for over 30 years.",
+        "mapname": "Joy Cleaners",
+        "loc": 60,
+        "phone": "516-869-8380",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "523 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-60S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7012365,
+          40.7996115
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "y99Ho9kPkSmaxhIANjZ7qhK48d5IrgV3",
+      "type": "Feature",
+      "properties": {
+        "id": "nicholastuccidmd",
+        "address": "800 Community Dr. Suite 305",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "We strive to provide the highest quality dental care for optimal health in a compassionate, and relaxed environment. Serving the Great Neck- Manhasset communities since 1994.",
+        "mapname": "Nicholas Tucci, D.M.D",
+        "loc": 78,
+        "phone": "516-466-0053",
+        "web": "http://ManhassetCommunityDental.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "800 Community Drive, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-78D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7026495,
+          40.770738
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "80Tt1T3nrffXvoTrSZloRKXhc2Vvf3Ku",
+      "type": "Feature",
+      "properties": {
+        "id": "ladiesngentssalon",
+        "address": "397 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Specializing in hair color, bridal and wedding styling, all types of hair extensions, cut and style for men and women, permanent makeup, microblading, microshading, and laser hair removal.",
+        "mapname": "Ladies N Gents Salon",
+        "loc": 83,
+        "phone": "516-643-1368",
+        "web": "http://LadiesNGentsNY.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "397 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-83D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7001026,
+          40.798056
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "T8gxrChf960ordQykgAWPHQn0sLlpXyl",
+      "type": "Feature",
+      "properties": {
+        "id": "fredastairemanhasset",
+        "address": "20 Park Ave.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "Elegant ballroom instruction with personalized private and group lessons, wedding dances, social dancing and events—all in a welcoming atmosphere where beginners discover confidence, connection, and joy.",
+        "mapname": "Fred Astaire Manhasset",
+        "loc": 94,
+        "phone": "516-547-1817",
+        "web": "http://FredAstaire.com",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "20 Park Avenue, Village of Port Chester, NY 10573, United States of America",
+        "priority": "S",
+        "img": "MH-94S"
+      },
+      "geometry": {
+        "coordinates": [-73.69848493205406, 40.79724986470729],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "h0lzPg4FbcSS9OkCNxUn8PSiIniEBl6L",
+      "type": "Feature",
+      "properties": {
+        "id": "nickquinnfinancialadvisor",
+        "address": "1290 Ave. of the Americas, 4th Floor",
+        "town": "New York",
+        "business": "Live & Work",
+        "info": "Giving professionals approaching retirement and current retirees clarity and confidence to navigate market volatility, reduce taxes, and protect their family's assets through coordinated investments, life insurance, long-term care, and estate planning.",
+        "mapname": "Nick Quinn - Financial Advisor",
+        "loc": 75,
+        "phone": "516-497-3557",
+        "web": "http://Equitable.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1290 Ave Of The Americas, New York, NY 10119, United States of America",
+        "priority": "T",
+        "img": "MH-75T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.979489,
+          40.760736
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Bv0Qci9iIDyrNc3d5MnX0Ly4JmFTo1IY",
+      "type": "Feature",
+      "properties": {
+        "id": "superiorfurs",
+        "address": "331A Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Featuring new and pre-owned fur sales, expert cleaning, glazing, repairs, restyling, and climate-controlled storage, combining craftsmanship and dependable service for fine outerwear.",
+        "mapname": "Superior Furs",
+        "loc": 55,
+        "phone": "516-365-4123",
+        "web": "http://SuperiorFurs.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "331 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-55D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6997487,
+          40.7971237
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "AQkzDSpUVKOeFA8moyMcdsA2GEFEtfb8",
+      "type": "Feature",
+      "properties": {
+        "id": "statefarmgarnetardilaagency",
+        "address": "22 Bayview Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Honest advice and personalized plans protecting what matters most. Auto, home, business, renters, condo, life, health, and pet insurance, with free quotes and consultations available.",
+        "mapname": "State Farm - Garnet Ardila Agency",
+        "loc": 49,
+        "phone": "516-629-5189",
+        "web": "http://GarnetInsuresMe.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "22 Bayview Avenue, Southampton, NY 11963, United States of America",
+        "priority": "T",
+        "img": "MH-49T"
+      },
+      "geometry": {
+        "coordinates": [-73.70055373205327, 40.79820655768195],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "t2BxSupjPI6PSWI137nfmPhjFs0mLBE4",
+      "type": "Feature",
+      "properties": {
+        "id": "allstateinsurancerichardmckenna",
+        "address": "100 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Family run small business caring for your insurance needs as if they were our own, striving for outstanding service and complete satisfaction, so you're always in good hands.",
+        "mapname": "Allstate Insurance: Richard McKenna",
+        "loc": 68,
+        "phone": "516-621-5700",
+        "web": "http://Agents.Allstate.com/Richard-Mckenna-Manhasset-ny1.html",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "100 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-68T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.698185,
+          40.7942074
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "JmvhKbUjwK3L1DRYgLsZ1pkVU5m0UYHE",
+      "type": "Feature",
+      "properties": {
+        "id": "tassogeorgiamegarisbeaut",
+        "address": "10 Park Ave.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "If you want to look the best, there's only one hair salon in town: Tasso, Georgia Megaris Beaute. Hair, Coloring, Nails. Serving Manhasset for over 30 years.",
+        "mapname": "Tasso, Georgia Megaris Beauté",
+        "loc": 87,
+        "phone": "516-365-0956",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "10 Park Avenue, City of Glen Cove, NY 11542, United States of America",
+        "priority": "S",
+        "img": "MH-87S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.633165,
+          40.8700755
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "8lguM9k0wlyBSFLuUc1VYODniIHJCM5n",
+      "type": "Feature",
+      "properties": {
+        "id": "domataekwondo",
+        "address": "8 Hillcrest Ave.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "The best martial art Dojang in town. Our specialized martial arts curriculum taught by professional masters is for students 2.5 year old to adult!",
+        "mapname": "DOMA Taekwondo",
+        "loc": 29,
+        "phone": "516-751-7837",
+        "discount": "Free trial lesson and free uniform upon enrollment",
+        "web": "http://DoMATKDUSA.com",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "8 Hillcrest Avenue, City of Albany, NY 12203, United States of America",
+        "priority": "S",
+        "img": "MH-29S"
+      },
+      "geometry": {
+        "coordinates": [-73.698594, 40.796455],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "TwkMlnWCHRRcAMB933ZntjjRQx4Q5nnH",
+      "type": "Feature",
+      "properties": {
+        "id": "nielsonassociates",
+        "address": "19 Park Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Specializing in commercial insurance under the Neilson name for over 100 years.",
+        "mapname": "Nielson & Associates",
+        "loc": 50,
+        "phone": "516-627-0822",
+        "web": "http://NielsonInsurance.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "19 Park Avenue, North Tonawanda, NY 14120, United States of America",
+        "priority": "D",
+        "img": "MH-50D"
+      },
+      "geometry": {
+        "coordinates": [-73.6987147464792, 40.79734109957818],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "skqTUCx4rMuxNbh3PxUxEAF4UZl0W77I",
+      "type": "Feature",
+      "properties": {
+        "id": "liluxeinteriordesign",
+        "address": "338 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "We believe in transforming spaces into personalized sanctuaries of style and comfort. Every space we design is inspired by our passion for timeless, curated luxury. ",
+        "mapname": "Li Luxe Interior Design",
+        "loc": 26,
+        "phone": "516-629-7876",
+        "discount": "10% off any in-store purchases; 2 hour free design consultation",
+        "web": "http://Li-Luxe.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "338 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-26S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6993483,
+          40.7973106
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3JGPVmlDKErqV1uSp0eS5rbLiiNPj5nw",
+      "type": "Feature",
+      "properties": {
+        "id": "townandcountryflowers",
+        "address": "53 Manhasset Ave.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Family owned and operated, proudly serving Manhasset since 1968. Offering the finest floral arrangements and gifts, with friendly and prompt service. Your first choice for flowers.",
+        "mapname": "Town and Country Flowers",
+        "loc": 67,
+        "phone": "516-627-0026",
+        "web": "http://TnCFlowers.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "53 Manhasset Avenue, Village of Manorhaven, NY 11050, United States of America",
+        "priority": "D",
+        "img": "MH-67D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70760244736842,
+          40.83962744736842
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "W546kte8AfnIbq3zY4vxs8IRGlsaVJ9s",
+      "type": "Feature",
+      "properties": {
+        "id": "kamurphyinteriors",
+        "address": "57 Hillside Ave.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "A full-service interior design studio creating timeless, layered homes across Long Island, New York City, and the Hamptons with personalized luxury.",
+        "mapname": "K.A. Murphy Interiors",
+        "loc": 22,
+        "phone": "917-848-0458",
+        "web": "http://KAMurphyInteriors.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "57 Hillside Avenue, New York, NY 11697, United States of America",
+        "priority": "T",
+        "img": "MH-22T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70161463276068,
+          40.79684360701618
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "znVFhcGnSEFmDdV2vNxFBExCdFskyXRW",
+      "type": "Feature",
+      "properties": {
+        "id": "enchantedparties",
+        "address": "47 Manhasset Ave.",
+        "town": "",
+        "business": "Visit & Experience",
+        "info": "Where it’s all about the girls, the glitter & the glam! Enchanted Parties will make your party dreams come true! Book your party today!",
+        "mapname": "Enchanted Parties",
+        "loc": 4,
+        "phone": "516-918-9100",
+        "discount": "Mention MapToons for $25 off",
+        "web": "http://EnchantedManhasset.com",
+        "category": "visit_and_experience",
+        "subcategory": "visit_and_experience",
+        "address_formatted": "47 Manhasset Avenue, Village of Manorhaven, NY 11050, United States of America",
+        "priority": "D",
+        "img": "MH-4D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70760615789473,
+          40.83961915789474
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yBSjdCqJZ1SobpTNF7JvSqUtZYqj4gmq",
+      "type": "Feature",
+      "properties": {
+        "id": "movesmotionsschoolofdance",
+        "address": "47 Manhasset Ave.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "Our inspired students achieve an appreciation for the art of dance in a diverse, age-appropriate and fun setting. Progressive classes taught by qualified instructors teaching discipline, teamwork and respect. ",
+        "mapname": "Moves & Motions School of Dance",
+        "loc": 5,
+        "phone": "516-869-1600",
+        "discount": "Free trial class",
+        "web": "http://MovesAndMotionsDance.com",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "47 Manhasset Avenue, Village of Manorhaven, NY 11050, United States of America",
+        "priority": "D",
+        "img": "MH-5D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.70760615789473,
+          40.83961915789474
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "kWhu7fLgRX8vCF79ZJrhCPElmlO8wMvQ",
+      "type": "Feature",
+      "properties": {
+        "id": "nicolerosesalon",
+        "address": "1689 Northern Blvd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Full-service hair bar for women, men, and children. Haircuts, styling, coloring, extensions, keratin treatments, blowouts, conditioning treatments, retexturizing, and bridal party hair, using the best products.",
+        "mapname": "Nicole Rose Salon",
+        "loc": 62,
+        "phone": "516-627-4247",
+        "web": "http://NicoleRoseSalon.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1689 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-62S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6846899,
+          40.7948727
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "hncsTiSK6pPpN90FXv4t2LKCO8iwXF0Q",
+      "type": "Feature",
+      "properties": {
+        "id": "minutemanpress",
+        "address": "125 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Serving the North Shore for 30 years, offering design, print, and marketing services that help local businesses and nonprofits compete and succeed like giants.",
+        "mapname": "Minuteman Press",
+        "loc": 77,
+        "phone": "516-627-3221",
+        "web": "http://ManhassetMinuteman.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "125 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-77D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6987648,
+          40.7944094
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "ZqNu8ff9as7PgW4xX5VU8kSphJc840wI",
+      "type": "Feature",
+      "properties": {
+        "id": "buttercookybakerycafe",
+        "address": "140 Plandome Rd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Family owned Italian bakery, baked to perfection for over 50 years. Birthday, wedding, religious, and graduation cakes, plus cupcakes, cake pops, and cookies, with special orders welcome.",
+        "mapname": "Buttercooky Bakery & Cafe",
+        "loc": 52,
+        "phone": "516-627-1600",
+        "web": "http://ButterCookyBakery.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "140 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-52D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6984388,
+          40.794681
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "YItd4QFy1vaAeJDhD5OvyJuMj3YSdX92",
+      "type": "Feature",
+      "properties": {
+        "id": "tonythetailor",
+        "address": "119 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Providing all sorts of alterations - suits, dresses, fine clothing. Quality and customer service.",
+        "mapname": "Tony The Tailor",
+        "loc": 48,
+        "phone": "516-627-8657",
+        "facebook": "https://www.facebook.com/tonythetailor",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "119 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-48S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6986992,
+          40.7942859
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "zJTtIbiPEvq1UjXYvrSErHCtTvQ0S4aQ",
+      "type": "Feature",
+      "properties": {
+        "id": "lincarsalon",
+        "address": "1532 Northern Blvd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Boutique salon with talented staff who cater to all your hair needs. Warm friendly atmosphere. ",
+        "mapname": "Lincar Salon",
+        "loc": 65,
+        "phone": "516-365-9030",
+        "web": "http://LincarSalonManhasset.net",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1532 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-65S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.68993028125,
+          40.793775062499996
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "TcFcnRK31f9b3yxh861KMhOQYt4xFi6a",
+      "type": "Feature",
+      "properties": {
+        "id": "oliveduntleyflorist",
+        "address": "103 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "It is our pleasure to assist you with any local or worldwide deliveries. Corporate accounts are always welcome. For your convenience, we offer daily floral delivery to local funeral homes and hospitals.",
+        "mapname": "Olive Duntley Florist",
+        "loc": 17,
+        "phone": "516-627-1451",
+        "web": "http://OliveDuntleyFlorist.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "103 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-17D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6985792,
+          40.7941752
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "yeOvj72dZt0CZKpMSude4cBJfOb6LAf7",
+      "type": "Feature",
+      "properties": {
+        "id": "northshoremediamanhassetlivingmagazine",
+        "address": "",
+        "town": "",
+        "business": "Live & Work",
+        "info": "The premier community magazine connecting local businesses with residents through trusted content, print, digital, online presence and websites—getting you seen, found and chosen. Publisher Kim Jones.",
+        "mapname": "North Shore Media - Manhasset Living Magazine",
+        "loc": 72,
+        "phone": "KimJones@BestVersionMedia.com",
+        "web": "http://BestVersionMedia.com/ny/ManhassetLiving",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "",
+        "priority": "D",
+        "img": "MH-72D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6999935,
+          40.7987061
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "23MJgppiYomCOKW8nmmcrVdA85GhEH6v",
+      "type": "Feature",
+      "properties": {
+        "id": "congregationalnurseryschool",
+        "address": "1845 Northern Blvd.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "A nondenominational school accepting applicants of all religions, races, and heritages.  Our philosophy, goals and program reflect those of the Church to develop in each child a love of self, a love for others, and love of God.",
+        "mapname": "Congregational Nursery School",
+        "loc": 90,
+        "phone": "516-365-9616",
+        "web": "http://UCCManhasset.org/Nursery-School",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "1845 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-90D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67714389656118,
+          40.79551817009531
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "SljJTXraQIlmzfJV4zbklvc0keI1q6Pc",
+      "type": "Feature",
+      "properties": {
+        "id": "thecongregationalchurchofmanhasset",
+        "address": "1845 Northern Blvd.",
+        "town": "",
+        "business": "Gather & Connect",
+        "info": "We encourage questions, welcome the LGBTQ community, and emphasize love and kindness for all. Rev. Jimmy Only / Rev. Lori Burgess - ministers. 10 AM Sunday Service & Sunday School (for children/teens).",
+        "mapname": "The Congregational Church of Manhasset",
+        "loc": 89,
+        "phone": "516-627-4911",
+        "web": "http://UCCManhasset.org",
+        "category": "gather_and_connect",
+        "subcategory": "gather_and_connect",
+        "address_formatted": "1845 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-89D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.67714389656118,
+          40.79551817009531
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "pZP8pLrLpJ34FVsRV5kHlQPymo9OByvH",
+      "type": "Feature",
+      "properties": {
+        "id": "churchofoursaviourlutheran",
+        "address": "1901 Northern Blvd.",
+        "town": "",
+        "business": "Gather & Connect",
+        "info": "We are a warm, active, multi-generational church bound together by God's love to live and serve as Jesus did.",
+        "mapname": "Church of Our Saviour, Lutheran",
+        "loc": 84,
+        "phone": "516-627-2430",
+        "web": "http://ManhassetLutheran.Org",
+        "category": "gather_and_connect",
+        "subcategory": "gather_and_connect",
+        "address_formatted": "1901 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-84D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.676221,
+          40.795673
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "7gp25vY6dtE15qTVvuTx3nKaS3sxnpTR",
+      "type": "Feature",
+      "properties": {
+        "id": "cutncurlssalon",
+        "address": "593 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Individually designed salon. Globally recognized styling services, personalized color, balayage, keratin treatments, threading, and complimentary beauty treatments. Where style and passion are born.",
+        "mapname": "Cut N Curls Salon",
+        "loc": 81,
+        "phone": "516-544-6582",
+        "web": "http://CutNCurlsSalon.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "593 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-81S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7020259,
+          40.8003274
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "8uxdU1HzbS6DRycQl94MQ9386Fa7yo2G",
+      "type": "Feature",
+      "properties": {
+        "id": "nubestsalonspa",
+        "address": "1482 Northern Blvd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "For over 53 years, we have been the beauty and lifestyle destination for fashionable people who want to look and feel their best.",
+        "mapname": "nuBest Salon & Spa",
+        "loc": 40,
+        "phone": "516-627-9444",
+        "web": "http://NuBestSalon.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1482 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-40T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6919913,
+          40.7932578
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "us9Eoj3tk64jt8UAz8tHsVLtE3hZxKcK",
+      "type": "Feature",
+      "properties": {
+        "id": "racetrackcarwash",
+        "address": "201 E. Shore Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Where exceptional service meets community support. Family owned and operated, our dedicated crew takes pride in delivering a superior car wash experience.",
+        "mapname": "Racetrack Car Wash",
+        "loc": 39,
+        "phone": "516-534-5029",
+        "web": "http://RaceTrackCarWashes.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "201 East Shore Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-39D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.708899,
+          40.7901192
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "IXeLvhAFA83PoKMShrMxuO2q9WBnu1Ux",
+      "type": "Feature",
+      "properties": {
+        "id": "serendipitea",
+        "address": "73 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Established in 1995, we are a “green” artisanal company committed to the import & promotion of premium organic & kosher teas & tisanes.",
+        "mapname": "serendipiTea",
+        "loc": 13,
+        "phone": "516-365-7711",
+        "web": "http://serendipiTea.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "73 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-13D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6984368,
+          40.7936148
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Xepva6cBKCwa57GkVySb0dbVFmP2w3p5",
+      "type": "Feature",
+      "properties": {
+        "id": "christepiscopalchurch",
+        "address": "1351 Northern Blvd.",
+        "town": "",
+        "business": "Gather & Connect",
+        "info": "We are a welcoming family-centered church community, anchored in worship, united with one another and our neighbors, and growing together as disciples of Jesus.",
+        "mapname": "Christ Episcopal Church",
+        "loc": 66,
+        "phone": "516-627-2184",
+        "web": "http://ChristChurchManhasset.org",
+        "category": "gather_and_connect",
+        "subcategory": "gather_and_connect",
+        "address_formatted": "1351 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-66T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.69709,
+          40.792937
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "BcEI6YBrne0kYva0fbqEk0z7DtHYYSRn",
+      "type": "Feature",
+      "properties": {
+        "id": "manhassetpubiclibrary",
+        "address": "30 Onderdonk Ave.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "Libraries transform and inform our society. We are uniquely American civic spaces that help make us who we are, and more aware of who we can be.",
+        "mapname": "Manhasset Pubic LIbrary",
+        "loc": 14,
+        "phone": "516-627-2300",
+        "web": "http://ManhassetLibrary.org",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "30 Onderdonk Avenue, City of Albany, NY 12208, United States of America",
+        "priority": "T",
+        "img": "MH-14T"
+      },
+      "geometry": {
+        "coordinates": [-73.694879, 40.793463],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "eG55WKhSItP7LUxUGZ61tVu0MGwzqc5h",
+      "type": "Feature",
+      "properties": {
+        "id": "tempolagreefitness",
+        "address": "1691 Northern Blvd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "A low-impact, high-intensity training workout performed on a Megaformer. It combines muscular endurance and strength training to create a stronger body.",
+        "mapname": "Tempo Lagree Fitness",
+        "loc": 19,
+        "phone": "516-743-3030",
+        "web": "http://TempoLagreeFitness.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "1691 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-19T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6846316,
+          40.7948649
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "27kUMUBs3mn5Rpatf83LC5MXlbJbdM4Y",
+      "type": "Feature",
+      "properties": {
+        "id": "byoulaserclinic",
+        "address": "439B Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Offering advanced aesthetic treatments, including laser hair removal, skin rejuvenation, body contouring, and anti-aging solutions, all personalized to deliver beautiful, natural-looking results.",
+        "mapname": "BYOU Laser Clinic",
+        "loc": 56,
+        "phone": "516-980-4308",
+        "discount": "Walk in for your free 30 minute consult and skin analysis",
+        "web": "http://BYOULaserClinic.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "439 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-56D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7003935,
+          40.7987496
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "c1S7zp6D6nuJNHUzDFolHRFkAd2yGfxu",
+      "type": "Feature",
+      "properties": {
+        "id": "menonthemovemobilestorage",
+        "address": "150 Crossways Dr. West",
+        "town": "Woodbury",
+        "business": "Live & Work",
+        "info": "Our Storage Cube is Long Island's best value in mobile storage! We offer the only insulated mobile storage units, along with available award-winning moving services to load and offload your Cube! Call or visit us online.",
+        "mapname": "Men on the Move - Mobile Storage",
+        "loc": 88,
+        "phone": "516-589-7560",
+        "web": "http://MenOnTheMove.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "150 Crossways Park Drive West, Woodbury, NY 11797, United States of America",
+        "priority": "D",
+        "img": "MH-88D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.4884975,
+          40.8068538
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "UHXlmuPOvFCxk6ruzjJgPNSYN56HofBI",
+      "type": "Feature",
+      "properties": {
+        "id": "manhassetwellnessspa",
+        "address": "75 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Advanced skin care, personalized weight management, hormone balance, and optimal wellness with peptides—with concierge-style care and support seven days a week.",
+        "mapname": "Manhasset Wellness Spa",
+        "loc": 15,
+        "phone": "516-216-1155",
+        "web": "http://ManhassetWellness.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "75 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-15D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6984471,
+          40.7938277
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "X4ScAUSRgI4p5FeMZKr54JkLyXpPJuBr",
+      "type": "Feature",
+      "properties": {
+        "id": "kohlerstore",
+        "address": "1516 Northern Blvd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Explore the KOHLER Store by General Plumbing Supply in Manhasset, NY. Schedule an appointment to discover our full range of kitchen and bathroom products.",
+        "mapname": "Kohler Store",
+        "loc": 63,
+        "phone": "516-634-3600",
+        "web": "http://Kohler.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "Kohler, 1516 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-63T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6904767,
+          40.793509
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "USoBeRy2IIoP4Gsrk5Y5JBYmKIO0cF9L",
+      "type": "Feature",
+      "properties": {
+        "id": "aestheticsbyalisha",
+        "address": "444 Community Dr. LL1",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Medical aesthetics & wellness offering Botox, Dysport, dermal fillers, Sculptra, XERF, Morpheus8, Lumecca IPL, microneedling, Salmon DNA, PRP, Zo Skin Health, hair restoration & IV therapy backed by 20+ years of experience.",
+        "mapname": "Aesthetics By Alisha",
+        "loc": 79,
+        "phone": "516-417-2906",
+        "web": "http://AestheticsByAlisha.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "444 Community Drive, Marshfield, MO 65706, United States of America",
+        "priority": "T",
+        "img": "MH-79T"
+      },
+      "geometry": {
+        "coordinates": [-73.70204210628987, 40.77367841918051],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "o8MWclRDvgPB6OEJ6XltW5HYVLnk70sP",
+      "type": "Feature",
+      "properties": {
+        "id": "ihop",
+        "address": "1586 Northern Blvd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Everyday life has enough rules. Sitting down for a delicious, comforting meal should not have any. That’s why you're invited to be yourself and enjoy special moments with family and friends.",
+        "mapname": "IHOP",
+        "loc": 36,
+        "phone": "516-365-2732",
+        "web": "http://IHOP.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "IHOP, 1586 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-36T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6878955,
+          40.7938742
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "iKTGkxmgQHnMyorveuY2w7D8GyUHJ0N5",
+      "type": "Feature",
+      "properties": {
+        "id": "filozia",
+        "address": "111 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Offering professional nail care, spa pedicures, and relaxing massage services in a clean, welcoming environment with personalized care for every guest.",
+        "mapname": "Filozia",
+        "loc": 16,
+        "phone": "516-981-5558",
+        "instagram": "https://www.instagram.com/FiloziaSpaNails/",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "111 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-16D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6986837,
+          40.7942495
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Ltt12V9vmqz1LPM1LdDV378nHTmxfdkd",
+      "type": "Feature",
+      "properties": {
+        "id": "pearleast",
+        "address": "1191 Northern Blvd.",
+        "town": "",
+        "business": "Eat & Drink",
+        "info": "Artfully cooked, classic Chinese American cuisine and handcrafted sushi since 1998. Full array of beer, wine, and spirits. Reservations available.",
+        "mapname": "Pearl East",
+        "loc": 9,
+        "phone": "516-365-9898",
+        "web": "http://PearlEastDining.com",
+        "category": "eat_and_drink",
+        "subcategory": "eat_and_drink",
+        "address_formatted": "1191 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-9T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7021842,
+          40.7914438
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "90fn17BWCrAvTbesimoxpUatj5ahARix",
+      "type": "Feature",
+      "properties": {
+        "id": "avenueorthodontics",
+        "address": "1044 Northern Blvd. Suite 301",
+        "town": "Roslyn",
+        "business": "Thrive & Be Well",
+        "info": "Experience personalized, award-winning orthodontic care for children, teens, and adults at Avenue Orthodontics—where advanced technology, beautiful smiles, and a warm family atmosphere come together.",
+        "mapname": "Avenue  Orthodontics",
+        "loc": 86,
+        "phone": "516-484-0234",
+        "discount": "Complimentary consulation",
+        "web": "http://AvenueOrtho.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "The Roslyn Center, 1044 Northern Boulevard, Village of Roslyn, NY 11576, United States of America",
+        "priority": "T",
+        "img": "MH-86T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6649668,
+          40.7978552
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "uQyBCXjotisaPN2wVZL4rqQThtD7fiOq",
+      "type": "Feature",
+      "properties": {
+        "id": "jmrugdecor",
+        "address": "1180 Northern Blvd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Family-owned one stop shop for broadloom carpet and the nicest hand woven area rugs available. Expert installations, restoration, and rug cleaning from our experts.",
+        "mapname": "J&M Rug & Decor",
+        "loc": 7,
+        "phone": "516-303-9003",
+        "web": "http://JandMRugs.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1180 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-7D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7018112,
+          40.7908391
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "A6ZBil3YC7BynvioSbudiyCGE9AEDmLo",
+      "type": "Feature",
+      "properties": {
+        "id": "hondaofmanhasset",
+        "address": "1260 Northern Blvd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "A family-owned and operated dealership delivering exceptional service, unbeatable value, and a stress-free buying experience through Titan Motor Group’s trusted team.",
+        "mapname": "Honda of Manhasset",
+        "loc": 18,
+        "phone": "516-487-8900",
+        "web": "http://HondaofManhasset.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "1260 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-18T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.699597,
+          40.7918735
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "bxxjaaJdFNxQgEa3lYaATETXI88ZxPcb",
+      "type": "Feature",
+      "properties": {
+        "id": "ourladyofgracemontessorischool",
+        "address": "29 Shelter Rock Rd.",
+        "town": "",
+        "business": "Learn & Play",
+        "info": "Committed to developing a love of loving in every child through the core values of love, spirituality, respect, community and beauty.",
+        "mapname": "Our Lady of Grace Montessori School",
+        "loc": 69,
+        "phone": "516-365-9832",
+        "web": "http://OLGManhasset.com",
+        "category": "learn_and_play",
+        "subcategory": "learn_and_play",
+        "address_formatted": "29 Shelter Rock Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-69T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6792774,
+          40.7859043
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0QTJgYgt5HSaRoZ5FgzJKXGUdjGnJyNp",
+      "type": "Feature",
+      "properties": {
+        "id": "buffalotraininghouse",
+        "address": "243 E. Shore Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Delivering safe, efficient 30-minute strength training and private recovery experiences, helping busy adults build strength and get back to freedom.",
+        "mapname": "Buffalo Training House",
+        "loc": 12,
+        "phone": "917-723-8499",
+        "web": "http://BuffaloTraining.House",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "243 East Shore Road, Village of Great Neck, NY 11023, United States of America",
+        "priority": "D",
+        "img": "MH-12D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7131988,
+          40.7963196
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "MMnKGO5J4vQa3QlpW5nZ9PgvWbELSQs5",
+      "type": "Feature",
+      "properties": {
+        "id": "familyorthopaedicsportsphysicaltherapymichaeloconnorpt",
+        "address": "450 Plandome Rd. Suite 1",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Our mission is to give every patient excellent quality personal care with the time and attention needed for the best recovery possible. Serving Manhasset since 2007.",
+        "mapname": "Family Orthopaedic & Sports Physical Therapy - Michael O'Connor P.T.",
+        "loc": 70,
+        "phone": "516-684-3404",
+        "web": "http://FOSPT.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "450 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-70S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6999358,
+          40.798846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "n7xiSJlXXV36L8FMITlCiGhrPy8RHVoz",
+      "type": "Feature",
+      "properties": {
+        "id": "luparellopublicadjustmentgroup",
+        "address": "1295 Northern Blvd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Property damage? Don't face the insurance company alone. We fight to maximize your settlement. No recovery, no fee. Call today.",
+        "mapname": "Luparello Public Adjustment Group",
+        "loc": 1,
+        "phone": "516-570-2805",
+        "web": "http://LupAdjusters.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "1295 Northern Boulevard, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-1T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6987471,
+          40.7929374
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "BM78NPupivEtALgnHO91X0B2HSUgdNXa",
+      "type": "Feature",
+      "properties": {
+        "id": "smoothgeneration",
+        "address": "577 Plandome Rd.",
+        "town": "",
+        "business": "Thrive & Be Well",
+        "info": "Facial and laser spa offering custom facials for every skin type, gold standard laser hair removal, and body contouring treatments including skin tightening, cellulite reduction, and muscle building.",
+        "mapname": "Smooth Generation",
+        "loc": 33,
+        "phone": "516-441-5333",
+        "discount": "10% off for new clients",
+        "web": "http://SmoothGeneration.com",
+        "category": "thrive_and_be_well",
+        "subcategory": "thrive_and_be_well",
+        "address_formatted": "577 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-33S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7018751,
+          40.8002081
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CovmFK0hWIaz1jJ8nPrJc3NBTv8a0NSu",
+      "type": "Feature",
+      "properties": {
+        "id": "ethanmjewelers",
+        "address": "148 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "One-stop shop for all your jewelry needs: expert repairs, custom design, engagement rings, gold and silver buying, appraisals, and cleaning, plus fine Italian jewelry imports.  ",
+        "mapname": "Ethan M. Jewelers",
+        "loc": 23,
+        "phone": "516-365-3275",
+        "instagram": "https://www.instagram.com/Ethan_M_Jewelers/",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "148 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "S",
+        "img": "MH-23S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6984333,
+          40.7948601
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "3wo5dfyEgM5Ab54ID3UzkulDiZeMgJMK",
+      "type": "Feature",
+      "properties": {
+        "id": "josephanthonysfinejewelry",
+        "address": "569 Plandome Rd.",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Buyer of antique & estate jewelry. Coins, diamonds, and fine watches. Custom design, ear piercing, and insurance appraisals. Serving Manhasset for 35 years.",
+        "mapname": "Joseph Anthony's Fine Jewelry",
+        "loc": 54,
+        "phone": "516-365-9591",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "569 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-54D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7017672,
+          40.7999653
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "sPzKlyIOla2AjCbRWwerbrub7fHFD4Pz",
+      "type": "Feature",
+      "properties": {
+        "id": "danielgalesothebysinternationalrealty",
+        "address": "364 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Daniel Gale Sotheby’s International Realty has deep roots in the community, guiding Manhasset buyers and sellers for generations.",
+        "mapname": "Daniel Gale Sotheby's International Realty",
+        "loc": 44,
+        "phone": "516-627-4440",
+        "web": "http://danielgale.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "364 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-44T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.699619,
+          40.79767942857143
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "Fpu6Pv36IJFO364SC7OaT3mZGCWWooE5",
+      "type": "Feature",
+      "properties": {
+        "id": "sicarealtygroup",
+        "address": "272 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "A modern, client-focused brokerage combining experience, innovative marketing, and personalized service to deliver exceptional results throughout the North Shore and Long Island.",
+        "mapname": "Sica Realty Group",
+        "loc": 74,
+        "phone": "347-922-8947",
+        "web": "http://SicaRealtyGroup.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "272 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "D",
+        "img": "MH-74D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6990403,
+          40.7964222
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "luej99JH0R9CUOqpFSrw1BDsi7SdlI1e",
+      "type": "Feature",
+      "properties": {
+        "id": "mindymilesgreenbergdouglasellimanrealestate",
+        "address": "154 Plandome Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "Specialized in creating the perfect match between real estate sellers + buyers. Raised locally, she adds the credential of celebrity interior designer, helping buyers see the potential in any home.",
+        "mapname": "Mindy Miles Greenberg - Douglas Elliman Real Estate",
+        "loc": 6,
+        "phone": "917-974-4500",
+        "web": "http://RealtorMindy.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "154 Plandome Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-6T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6985665,
+          40.7949077
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "kBet6V13jaWgIO7piHyWz9BZtTSSVJ2X",
+      "type": "Feature",
+      "properties": {
+        "id": "cleaningbybrian",
+        "address": "",
+        "town": "",
+        "business": "Live & Work",
+        "info": "SHRINK WRAP for all outdoor furniture & BBQ islands. Wrap from underneath, up the sides, and over the top, so no snow, rain, or critters get in. Owner operated.   ",
+        "mapname": "Cleaning By Brian",
+        "loc": 76,
+        "phone": "516-852-6528",
+        "discount": "Complimentary vent if you mention you found us on the Map",
+        "web": "http://CleaningByBrian.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "",
+        "priority": "D",
+        "img": "MH-76D"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7016492,
+          40.7995554
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "eY6GT1nBbM4gyjHQrB0xV6ElMI3bit0t",
+      "type": "Feature",
+      "properties": {
+        "id": "shopmanhasset",
+        "address": "",
+        "town": "",
+        "business": "Shop & Discover",
+        "info": "Social media platform connecting residents with local businesses, organizations, and events. Shop, dine, support, and stay local. Community events and Chamber of Commerce partnerships throughout Manhasset.",
+        "mapname": "Shop Manhasset",
+        "loc": 91,
+        "web": "http://ShopManhasset.com",
+        "category": "shop_and_discover",
+        "subcategory": "shop_and_discover",
+        "address_formatted": "",
+        "priority": "S",
+        "img": "MH-91S"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.6999558,
+          40.7996368
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "CDpMHW8OVBcKYplK2zFKNYoEM0vTAkXs",
+      "type": "Feature",
+      "properties": {
+        "id": "statefarmalfaroinsuranceagency",
+        "address": "249 East Shore Rd.",
+        "town": "",
+        "business": "Live & Work",
+        "info": "You work hard every day to build a secure future - make sure your insurance is working just as hard to protect your home, car and family.",
+        "mapname": "State Farm - Alfaro Insurance Agency",
+        "loc": 95,
+        "phone": "516-858-2655",
+        "web": "http://AlfaroAgency.com",
+        "category": "live_and_work",
+        "subcategory": "live_and_work",
+        "address_formatted": "249 East Shore Road, Manhasset, NY 11030, United States of America",
+        "priority": "T",
+        "img": "MH-95T"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7091779,
+          40.7905699
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
