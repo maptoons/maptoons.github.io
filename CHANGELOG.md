@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-20 Release
+
+### Added
+- Manhasset, NY business data points as geojson sources in the data directory
+- Navigation and flyTo behavior for Manhasset is added to the ‘city finder’ dropdown menu.
+
+### Changed
+- OSM highways in "unclassified" category are now included in the map. This effects the the layers "street" and "label-street"
+
 ## 2026-08-06 Release
 
 ### Added
