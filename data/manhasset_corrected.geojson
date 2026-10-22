@@ -444,7 +444,8 @@
         "subcategory": "thrive_and_be_well",
         "address_formatted": "535 Plandome Road, Manhasset, NY 11030, United States of America",
         "priority": "T",
-        "img": "MH-71T"
+        "img": "MH-71T",
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -1132,7 +1133,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "1290 Ave Of The Americas, New York, NY 10119, United States of America",
         "priority": "T",
-        "img": "MH-75T"
+        "img": "MH-75T",
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -2121,7 +2123,8 @@
         "subcategory": "thrive_and_be_well",
         "address_formatted": "The Roslyn Center, 1044 Northern Boulevard, Village of Roslyn, NY 11576, United States of America",
         "priority": "T",
-        "img": "MH-86T"
+        "img": "MH-86T",
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -2473,7 +2476,8 @@
         "subcategory": "live_and_work",
         "address_formatted": "",
         "priority": "D",
-        "img": "MH-76D"
+        "img": "MH-76D",
+        "vehicle": "plane"
       },
       "geometry": {
         "coordinates": [
@@ -2499,7 +2503,8 @@
         "subcategory": "shop_and_discover",
         "address_formatted": "",
         "priority": "S",
-        "img": "MH-91S"
+        "img": "MH-91S",
+        "vehicle":"plane"
       },
       "geometry": {
         "coordinates": [
