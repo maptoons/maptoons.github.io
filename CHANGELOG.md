@@ -5,9 +5,13 @@
 ### Added
 - Manhasset, NY business data points as geojson sources in the data directory
 - Navigation and flyTo behavior for Manhasset is added to the ‘city finder’ dropdown menu.
+- Utility function to convert coordinates copied from Google Maps to Maplibre compatible formatting. Found in `python/latlon_to_lonlat.py`
 
 ### Changed
 - OSM highways in "unclassified" category are now included in the map. This effects the the layers "street" and "label-street"
+
+### Fixed
+- MapLibre map instance not loading in admin console (maptoons-admin.html). Added version number script tag in html
 
 ## 2026-08-06 Release
 

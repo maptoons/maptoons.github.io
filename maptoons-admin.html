@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Draggable Points with Undo</title>
-    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.5.0/mapbox-gl-draw.min.js"></script>
-    <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
+    <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.5.0/mapbox-gl-draw.css" rel="stylesheet" />
     <style>
         body {
@@ -101,6 +101,7 @@
             // Remove existing layer if it exists
             if (map.getSource('uploaded-geojson')) {
                 map.removeLayer('uploaded-layer');
+                map.removeLayer('mapname-labels');
                 map.removeSource('uploaded-geojson');
             }
 
@@ -174,7 +175,7 @@
 
         map.on('load', function () {
             // Initialize Draw control with vehicle-specific styling
-            const draw = new MapboxDraw({
+            draw = new MapboxDraw({
                 displayControlsDefault: false,
                 userProperties: true,
                 styles: [
@@ -298,6 +299,7 @@
                     alert("Nothing to undo!");
                 }
             }
+            window.undo = undo; // expose for the Undo button's inline onclick
 
             document.addEventListener('keydown', (e) => {
                 if (e.ctrlKey && e.key === 'z') {
